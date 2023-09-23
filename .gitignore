@@ -1,0 +1,11 @@
+build
+.yarn
+.gradle
+gradlew
+gradlew.bat
+/backend/target
+/frontend/build
+/**/.idea
+/frontend/node_modules
+backend/.env
+logs
