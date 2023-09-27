@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import reactLogo from '@/assets/react.svg';
 import viteLogo from '/vite.svg';
-import styles from '@/App.module.css';
+import styles from '@/styles/partials/App.module.css';
 
 export const App = () => {
   const [count, setCount] = useState(0);
@@ -25,7 +25,7 @@ export const App = () => {
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
-      <p className={styles.readtTheDocs}>
+      <p className={styles.readTheDocs}>
         Click on the Vite and React logos to learn more
       </p>
     </>
