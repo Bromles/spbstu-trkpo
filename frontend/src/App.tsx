@@ -25,7 +25,7 @@ export const App = () => {
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
-      <p className={styles.readtTheDocs}>
+      <p className={styles.readTheDocs}>
         Click on the Vite and React logos to learn more
       </p>
     </>
