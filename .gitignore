@@ -9,3 +9,4 @@ gradlew.bat
 /frontend/node_modules
 backend/.env
 logs
+.vscode
