@@ -6,14 +6,12 @@ import { NavigationLoading } from "@/components/NavigationLoading/NavigationLoad
 export const App = () => {
   return (
     <>
-      <div>
-        <NavBar />
-        <NavigationLoading>
-          <AuthGuard>
-            <Outlet />
-          </AuthGuard>
-        </NavigationLoading>
-      </div>
+      <NavBar />
+      <NavigationLoading>
+        <AuthGuard>
+          <Outlet />
+        </AuthGuard>
+      </NavigationLoading>
     </>
   );
 };
