@@ -1,0 +1,22 @@
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.divider {
+    border-left: 1px solid white;
+    height: 800px;
+}
+
+.layout {
+    display: flex;
+    flex-direction: row;
+}
+
+.trackingItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #814a4a;
+}

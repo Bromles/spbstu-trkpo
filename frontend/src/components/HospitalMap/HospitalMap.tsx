@@ -1,4 +1,4 @@
-import { Map, Placemark } from "@pbe/react-yandex-maps";
+import { Map, Placemark, ZoomControl } from "@pbe/react-yandex-maps";
 import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import styles from "./HospitalMap.module.css";
@@ -22,6 +22,7 @@ export const HospitalMap = () => {
           ]}
           className={styles.map}
         >
+          <ZoomControl/>
           <Placemark
             defaultGeometry={[55.684758, 37.738521]}
             properties={{
