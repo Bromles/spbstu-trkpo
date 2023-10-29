@@ -2,12 +2,14 @@ import { Map, Placemark, ZoomControl } from "@pbe/react-yandex-maps";
 import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import styles from "./HospitalMap.module.css";
+import './HospitalMap.css';
 
 export const HospitalMap = () => {
   const [activePortal, setActivePortal] = useState(false);
 
   return (
-    <>
+    <div className={styles.map_container}>
+      <h2>Карта</h2>
       <div>
         <Map
           defaultState={{
@@ -22,11 +24,11 @@ export const HospitalMap = () => {
           ]}
           className={styles.map}
         >
-          <ZoomControl/>
+          <ZoomControl />
           <Placemark
             defaultGeometry={[55.684758, 37.738521]}
             properties={{
-              balloonContent: '<div id="hospital-balloon"></div>',
+              balloonContent: '<div id="hospital-balloon" class="hospital-baloon"></div>',
               hintContent: "<b>Balloon hint</b>",
             }}
             onClick={() => {
@@ -38,11 +40,13 @@ export const HospitalMap = () => {
         </Map>
         {activePortal && (
           <BalloonPortal elementId={"hospital-balloon"}>
-            <>Hello from portal</>
+            <>
+              <div className={styles.modal_container}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, atque! Aspernatur consectetur assumenda quibusdam, dolores rerum, cupiditate minima saepe velit enim amet suscipit totam quam nemo beatae impedit quae quisquam.</div>
+            </>
           </BalloonPortal>
         )}
       </div>
-    </>
+    </div>
   );
 };
 

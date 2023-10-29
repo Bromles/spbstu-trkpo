@@ -1,8 +1,13 @@
+.map_container h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .map {
   left: 0;
   top: 0;
   height: 480px;
-  width: 640px;
+  width: 98%;
 }
 
 @media (max-width: 640px) {
@@ -10,4 +15,9 @@
     height: 240px;
     width: 320px;
   }
+}
+
+.modal_container {
+  width: 300px;
+  height: 100px;
 }

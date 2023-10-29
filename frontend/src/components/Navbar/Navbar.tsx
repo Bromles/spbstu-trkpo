@@ -10,7 +10,7 @@ export const NavBar = () => {
   return (
     <header className={styles.header}>
       <div className={styles.container}>
-        <div>
+        <div className={styles.name}>
           {auth.isAuthenticated && auth.user?.profile.preferred_username}
         </div>
         <nav>
