@@ -13,7 +13,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 public class Client {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "client_id", nullable = false)
     private Long clientId;
     @Column(name = "keycloak_id", nullable = false)

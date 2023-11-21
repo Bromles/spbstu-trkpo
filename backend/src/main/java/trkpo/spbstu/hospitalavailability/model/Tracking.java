@@ -13,7 +13,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 public class Tracking {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "track_id", nullable = false)
     private Long trackId;
     @Column(name = "direction_id", nullable = false)

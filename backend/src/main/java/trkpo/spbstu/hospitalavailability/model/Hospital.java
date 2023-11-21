@@ -15,7 +15,7 @@ import java.util.Set;
 @NoArgsConstructor
 public class Hospital {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "hospital_id", nullable = false)
     private Long hospitalId;
     @Column(name = "gorzdrav_id", nullable = false, unique = true)

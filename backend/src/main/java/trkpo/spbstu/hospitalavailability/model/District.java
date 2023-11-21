@@ -13,7 +13,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 public class District {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "district_id", nullable = false)
     private Long districtId;
     @Column(name = "gorzdrav_id", nullable = false)
