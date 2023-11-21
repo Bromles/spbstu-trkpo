@@ -16,7 +16,7 @@ import java.util.Set;
 public class Hospital {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "hospital_id", nullable = false)
+    @Column(name = "id", nullable = false)
     private Long id;
     @Column(name = "gorzdrav_id", nullable = false, unique = true)
     private Long gorzdravId;
