@@ -14,8 +14,8 @@ import javax.persistence.*;
 public class Tracking {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "track_id", nullable = false)
-    private Long trackId;
+    @Column(name = "tracking_id", nullable = false)
+    private Long id;
     @Column(name = "direction_id", nullable = false)
     private Long directionId;
     @Column(name = "doctor_id", nullable = false)

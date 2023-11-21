@@ -15,7 +15,7 @@ public class District {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "district_id", nullable = false)
-    private Long districtId;
+    private Long id;
     @Column(name = "gorzdrav_id", nullable = false)
     private Long gorzdravId;
     @Column(name = "name", nullable = false)
