@@ -1,4 +1,4 @@
-package trkpo.spbstu.hospitalavailability.model;
+package trkpo.spbstu.hospitalavailability.entity;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

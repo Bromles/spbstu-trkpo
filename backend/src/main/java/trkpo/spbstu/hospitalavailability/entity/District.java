@@ -1,4 +1,4 @@
-package trkpo.spbstu.hospitalavailability.model;
+package trkpo.spbstu.hospitalavailability.entity;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -9,13 +9,15 @@ import javax.persistence.*;
 @Entity
 @Getter
 @Setter
-@Table(name = "client")
+@Table(name = "district")
 @NoArgsConstructor
-public class Client {
+public class District {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     private Long id;
-    @Column(name = "keycloak_id", nullable = false)
-    private Long keycloakId;
+    @Column(name = "gorzdrav_id", nullable = false)
+    private Long gorzdravId;
+    @Column(name = "name", nullable = false)
+    private String name;
 }
