@@ -15,7 +15,7 @@ public class Client {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
-    private Long id;
+    private long id;
     @Column(name = "keycloak_id", nullable = false)
-    private Long keycloakId;
+    private long keycloakId;
 }
