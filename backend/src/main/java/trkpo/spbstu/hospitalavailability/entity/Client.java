@@ -5,6 +5,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.util.UUID;
 
 @Entity
 @Getter
@@ -17,5 +18,5 @@ public class Client {
     @Column(name = "id", nullable = false)
     private long id;
     @Column(name = "keycloak_id", nullable = false)
-    private long keycloakId;
+    private UUID keycloakId;
 }
