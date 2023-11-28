@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import trkpo.spbstu.hospitalavailability.service.TrackingService;
 
 @RestController
-@RequestMapping("/tracking")
+@RequestMapping("/v1/tracking")
 @RequiredArgsConstructor
 public class TrackingController {
 
