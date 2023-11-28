@@ -26,12 +26,14 @@ import java.util.stream.Collectors;
 
 @Configuration
 @EnableWebSecurity
-@EnableGlobalMethodSecurity(prePostEnabled = true)
+@EnableGlobalMethodSecurity
 public class WebSecurityConfig {
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
-        http.authorizeRequests(authorizeRequests -> authorizeRequests
+        http
+                .csrf().disable()
+                .authorizeRequests(authorizeRequests -> authorizeRequests
                         .antMatchers(HttpMethod.OPTIONS, "/**").permitAll()
                         .anyRequest().authenticated()
                 )
@@ -47,9 +49,9 @@ public class WebSecurityConfig {
     }
 
     @Bean
-    public CorsFilter cors(){
+    public CorsFilter cors() {
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
-        CorsConfiguration config =  new CorsConfiguration();
+        CorsConfiguration config = new CorsConfiguration();
 
         config.addAllowedOrigin("*");
         config.addAllowedHeader("*");
