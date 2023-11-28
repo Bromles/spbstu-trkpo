@@ -3,7 +3,7 @@ package trkpo.spbstu.hospitalavailability.service;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import trkpo.spbstu.hospitalavailability.Utils.SecurityUtils;
+import trkpo.spbstu.hospitalavailability.utils.SecurityUtils;
 import trkpo.spbstu.hospitalavailability.entity.Tracking;
 import trkpo.spbstu.hospitalavailability.exception.ForbiddenException;
 import trkpo.spbstu.hospitalavailability.exception.NotFoundException;
