@@ -2,6 +2,7 @@ package trkpo.spbstu.hospitalavailability.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import trkpo.spbstu.hospitalavailability.Utils.SecurityUtils;
 import trkpo.spbstu.hospitalavailability.entity.Tracking;
 import trkpo.spbstu.hospitalavailability.exception.ForbiddenException;
@@ -16,6 +17,7 @@ public class TrackingService {
 
     private final TrackingRepository trackingRepository;
 
+    @Transactional
     public long deleteTracking(Long id) {
         Tracking tracking = findActiveTrackingById(id);
         if (tracking==null) {
@@ -24,7 +26,7 @@ public class TrackingService {
         if(SecurityUtils.getUserKey() != tracking.getClient().getKeycloakId().toString()) {
             throw new ForbiddenException("No access to delete tracking");
         }
-        return trackingRepository.deleteByTrackingId(id);
+        return trackingRepository.removeById(id);
     }
 
     public Tracking findActiveTrackingById(Long id) {
