@@ -1,9 +1,7 @@
-package trkpo.spbstu.hospitalavailability.model;
+package trkpo.spbstu.hospitalavailability.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-
-import java.util.Optional;
+import trkpo.spbstu.hospitalavailability.entity.Client;
 
 public interface ClientRepository extends JpaRepository<Client, Long> {
-    Optional<Client> findById(Long clientId);
 }

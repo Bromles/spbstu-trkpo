@@ -1,4 +1,4 @@
-package trkpo.spbstu.hospitalavailability.model;
+package trkpo.spbstu.hospitalavailability.entity;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -15,13 +15,13 @@ public class Tracking {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
-    private Long id;
+    private long id;
     @Column(name = "direction_id", nullable = false)
-    private Long directionId;
+    private long directionId;
     @Column(name = "doctor_id", nullable = false)
-    private Long doctorId;
+    private long doctorId;
     @Column(name = "is_finished", nullable = false)
-    private Boolean isFinished;
+    private boolean isFinished;
 
     @ManyToOne
     @JoinColumn(name = "client_id", insertable = false, updatable = false)

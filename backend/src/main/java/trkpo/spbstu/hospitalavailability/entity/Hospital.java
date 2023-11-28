@@ -1,4 +1,4 @@
-package trkpo.spbstu.hospitalavailability.model;
+package trkpo.spbstu.hospitalavailability.entity;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -17,13 +17,13 @@ public class Hospital {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
-    private Long id;
+    private long id;
     @Column(name = "gorzdrav_id", nullable = false, unique = true)
-    private Long gorzdravId;
+    private long gorzdravId;
     @Column(name = "latitude", nullable = false)
-    private Double latitude;
+    private double latitude;
     @Column(name = "district_id", nullable = false)
-    private Long districtId;
+    private long districtId;
     @Column(name = "address", nullable = false)
     private String address;
     @Column(name = "full_name", nullable = false)
