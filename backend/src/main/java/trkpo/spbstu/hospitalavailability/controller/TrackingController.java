@@ -14,7 +14,7 @@ public class TrackingController {
 
     private final TrackingService trackingService;
 
-    @DeleteMapping(value = "/deleteById/{id}")
+    @DeleteMapping(value = "/{id}")
     public long deleteTracking(@PathVariable Long id) {
         return trackingService.deleteTracking(id);
     }

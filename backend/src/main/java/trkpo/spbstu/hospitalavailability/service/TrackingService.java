@@ -23,7 +23,7 @@ public class TrackingService {
         if (tracking==null) {
             throw new NotFoundException("Not found tracking");
         }
-        if(SecurityUtils.getUserKey() != tracking.getClient().getKeycloakId().toString()) {
+        if(!SecurityUtils.getUserKey().equals(tracking.getClient().getKeycloakId().toString())) {
             throw new ForbiddenException("No access to delete tracking");
         }
         return trackingRepository.removeById(id);
