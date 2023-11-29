@@ -10,6 +10,7 @@ import trkpo.spbstu.hospitalavailability.repository.TrackingRepository;
 import trkpo.spbstu.hospitalavailability.utils.SecurityUtils;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
@@ -29,10 +30,18 @@ public class TrackingService {
         return trackingRepository.removeById(id);
     }
 
-    public Tracking findActiveTrackingById(Long id) {
+    public List<Tracking> findUserActiveTracking(Long clientId) {
         List<Tracking> activeTracking = trackingRepository.findByIsFinishedFalse();
         return activeTracking.stream()
-                .filter(tracking -> tracking.getId() == id)
+                .filter(tracking -> clientId.equals(tracking.getClient().getId()))
+                .collect(Collectors.toList());
+    }
+
+
+    private Tracking findActiveTrackingById(Long id) {
+        List<Tracking> activeTracking = trackingRepository.findByIsFinishedFalse();
+        return activeTracking.stream()
+                .filter(tracking -> id.equals(tracking.getId()))
                 .findFirst()
                 .orElse(null);
     }
