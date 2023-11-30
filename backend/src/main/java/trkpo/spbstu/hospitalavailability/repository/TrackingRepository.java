@@ -7,6 +7,6 @@ import java.util.List;
 
 public interface TrackingRepository extends JpaRepository<Tracking, Long> {
     List<Tracking> findByIsFinishedFalse();
-
     long removeById(Long id);
+    List<Tracking> findByIsFinishedFalseAndClientId(Long id);
 }
