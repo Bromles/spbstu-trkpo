@@ -29,24 +29,16 @@ public class TrackingService {
         if (tracking == null) {
             throw new NotFoundException("Not found tracking");
         }
-        try {
-            if (!SecurityUtils.getUserKey().equals(tracking.getClient().getKeycloakId().toString())) {
-                throw new ForbiddenException("No access to delete tracking");
-            }
-        } catch (ClassCastException e) {
-            throw new ForbiddenException("Not found JWT Token");
+        if (!SecurityUtils.getUserKey().equals(tracking.getClient().getKeycloakId().toString())) {
+            throw new ForbiddenException("No access to delete tracking");
         }
         return trackingRepository.removeById(id);
     }
 
     public List<TrackingResponseDto> findUserActiveTracking(Long clientId) {
         Client client = clientRepository.findById(clientId).orElseThrow(() -> new NotFoundException("Not found client"));
-        try {
-            if (!SecurityUtils.getUserKey().equals(client.getKeycloakId().toString())) {
-                throw new ForbiddenException("No access to delete tracking");
-            }
-        } catch (ClassCastException e) {
-            throw new ForbiddenException("Not found JWT Token");
+        if (!SecurityUtils.getUserKey().equals(client.getKeycloakId().toString())) {
+            throw new ForbiddenException("No access to delete tracking");
         }
         return trackingMapper.toTrackingDto(trackingRepository.findByIsFinishedFalseAndClientId(clientId));
     }

@@ -3,11 +3,16 @@ package trkpo.spbstu.hospitalavailability.utils;
 import lombok.experimental.UtilityClass;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.oauth2.jwt.Jwt;
+import trkpo.spbstu.hospitalavailability.exception.ForbiddenException;
 
 @UtilityClass
 public class SecurityUtils {
-    public String getUserKey() throws ClassCastException {
-        Jwt jwt = (Jwt) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-        return jwt.getSubject();
+    public String getUserKey()  {
+        try {
+            Jwt jwt = (Jwt) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+            return jwt.getSubject();
+        } catch (ClassCastException e) {
+            throw new ForbiddenException("Not found JWT", e);
+        }
     }
 }
