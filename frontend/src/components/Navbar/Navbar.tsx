@@ -1,14 +1,24 @@
 import { useAuth } from "react-oidc-context";
+import styles from "./Navbar.module.css";
 
 export const NavBar = () => {
-    const auth = useAuth();
-    
-    const authButtonHandler = () => auth.isAuthenticated ? void auth.removeUser() : void auth.signinRedirect();
+  const auth = useAuth();
 
-    return(
+  const authButtonHandler = () =>
+    auth.isAuthenticated ? void auth.removeUser() : void auth.signinRedirect();
+
+  return (
+    <header className={styles.header}>
+      <div className={styles.container}>
+        <div className={styles.name}>
+          {auth.isAuthenticated && auth.user?.profile.preferred_username}
+        </div>
         <nav>
-            {auth.isAuthenticated && `Hello ${auth.user?.profile.preferred_username}`}
-            <button onClick={authButtonHandler}>{auth.isAuthenticated ? 'Log out' : 'Log in'}</button>
+          <button onClick={authButtonHandler}>
+            {auth.isAuthenticated ? "Выход" : "Вход | Регистрация"}
+          </button>
         </nav>
-    );
+      </div>
+    </header>
+  );
 };
