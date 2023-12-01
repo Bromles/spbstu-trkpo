@@ -55,7 +55,7 @@ public class TrackingService {
     public TrackingResponseDto addTracking(TrackingRequestDto requestDto) {
         Hospital hospital = hospitalRepository.findById(requestDto.getHospitalId())
                 .orElseThrow(() -> new NotFoundException("Not found hospital"));
-        Client client = clientRepository.findByKeycloakId(UUID.fromString(SecurityUtils.getUserKey()))
+        Client client = clientRepository.findFirstByKeycloakId(UUID.fromString(SecurityUtils.getUserKey()))
                 .orElseThrow(() -> new ForbiddenException("No access to delete tracking"));
         Tracking tracking = new Tracking(requestDto, hospital, client);
         tracking.setFinished(false);
