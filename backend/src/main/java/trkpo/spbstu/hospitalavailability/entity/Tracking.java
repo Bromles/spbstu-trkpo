@@ -29,6 +29,6 @@ public class Tracking {
 
     @ManyToOne
     @JoinColumn(name = "hospital_id", insertable = false, updatable = false)
-    private Hospital hospitalId;
+    private Hospital hospital;
 
 }
