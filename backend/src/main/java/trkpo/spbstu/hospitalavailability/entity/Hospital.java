@@ -5,8 +5,6 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
-import java.util.HashSet;
-import java.util.Set;
 
 @Entity
 @Getter
@@ -33,7 +31,7 @@ public class Hospital {
     @Column(name = "phone", nullable = false)
     private String phone;
 
-    @OneToMany(cascade = CascadeType.ALL)
-    @JoinColumn(name = "district_id", insertable = false, updatable = false)
-    private Set<District> districts = new HashSet<>();
+    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @JoinColumn(name="district_id", referencedColumnName="id", nullable = false, insertable=false, updatable=false)
+    private District district;
 }
