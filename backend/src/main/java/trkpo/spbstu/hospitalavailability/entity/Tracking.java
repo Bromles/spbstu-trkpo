@@ -3,8 +3,11 @@ package trkpo.spbstu.hospitalavailability.entity;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.springframework.format.annotation.DateTimeFormat;
+import trkpo.spbstu.hospitalavailability.dto.TrackingRequestDto;
 
 import javax.persistence.*;
+import java.util.Date;
 
 @Entity
 @Getter
@@ -18,17 +21,27 @@ public class Tracking {
     private long id;
     @Column(name = "direction_id", nullable = false)
     private long directionId;
-    @Column(name = "doctor_id", nullable = false)
-    private long doctorId;
+    @Column(name = "doctor_id")
+    private Long doctorId;
     @Column(name = "is_finished", nullable = false)
     private boolean isFinished;
 
+    @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME)
+    @Column(name = "date", nullable = false)
+    private Date date;
+
     @ManyToOne
-    @JoinColumn(name = "client_id", insertable = false, updatable = false)
+    @JoinColumn(name = "client_id", nullable = false, insertable = false, updatable = false)
     private Client client;
 
     @ManyToOne
-    @JoinColumn(name = "hospital_id", insertable = false, updatable = false)
+    @JoinColumn(name = "hospital_id", nullable = false, insertable = false, updatable = false)
     private Hospital hospital;
 
+    public Tracking(TrackingRequestDto requestDto, Hospital hospital, Client client) {
+        this.directionId = requestDto.getDirectionId();
+        this.doctorId = requestDto.getDoctorId();
+        this.client = client;
+        this.hospital = hospital;
+    }
 }

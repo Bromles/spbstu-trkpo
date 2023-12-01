@@ -1,6 +1,5 @@
 package trkpo.spbstu.hospitalavailability.exception;
 
-
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -21,6 +20,13 @@ public class ExceptionHandlerController extends ResponseEntityExceptionHandler {
         return ResponseEntity.status(HttpStatus.FORBIDDEN)
                 .body(new ErrorInfo("", "forbidden"));
     }
+
+    @ExceptionHandler(ViolationOfIntegrityException.class)
+    public ResponseEntity<ErrorInfo> handleViolationOfIntegrityException(ViolationOfIntegrityException ex) {
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST)
+                .body(new ErrorInfo("", "bad_request"));
+    }
+
 
     public static class ErrorInfo {
         private final String url;

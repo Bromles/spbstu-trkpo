@@ -6,7 +6,7 @@ import lombok.Data;
 public class TrackingResponseDto {
     private long id;
     private long directionId;
-    private long doctorId;
+    private Long doctorId;
     private boolean isFinished;
     private long client;
     private long hospital;
