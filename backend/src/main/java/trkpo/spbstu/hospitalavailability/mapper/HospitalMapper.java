@@ -13,6 +13,7 @@ public interface HospitalMapper {
     @Mapping(source = "hospital.id", target = "id")
     @Mapping(source = "hospital.gorzdravId", target = "gorzdravId")
     @Mapping(source = "hospital.latitude", target = "latitude")
+    @Mapping(source = "hospital.longitude", target = "longitude")
     @Mapping(source = "hospital.districtId", target = "districtId")
     @Mapping(source = "hospital.address", target = "address")
     @Mapping(source = "hospital.fullName", target = "fullName")

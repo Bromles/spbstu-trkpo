@@ -7,6 +7,7 @@ public class HospitalResponseDto {
     private long id;
     private long gorzdravId;
     private double latitude;
+    private double longitude;
     private long districtId;
     private String address;
     private String fullName;
