@@ -35,7 +35,7 @@ public class WebSecurityConfig {
                 .csrf().disable()
                 .authorizeRequests(authorizeRequests -> authorizeRequests
                         .antMatchers(HttpMethod.OPTIONS, "/**").permitAll()
-                        .anyRequest().authenticated()
+                        .anyRequest().permitAll()
                 )
                 .oauth2ResourceServer(resourceServerConfigure ->
                         resourceServerConfigure
