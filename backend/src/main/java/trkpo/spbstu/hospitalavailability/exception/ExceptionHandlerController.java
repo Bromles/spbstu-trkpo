@@ -22,6 +22,12 @@ public class ExceptionHandlerController extends ResponseEntityExceptionHandler {
                 .body(new ErrorInfo("", "forbidden"));
     }
 
+    @ExceptionHandler(BackendUnavailableException.class)
+    public ResponseEntity<ErrorInfo> handleBackendUnavailableException(BackendUnavailableException ex) {
+        return ResponseEntity.status(HttpStatus.SERVICE_UNAVAILABLE)
+                .body(new ErrorInfo("", "service_unavailable"));
+    }
+
     public static class ErrorInfo {
         private final String url;
         private final String info;
