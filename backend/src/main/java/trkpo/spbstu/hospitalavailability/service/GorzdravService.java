@@ -1,25 +1,25 @@
 package trkpo.spbstu.hospitalavailability.service;
 
-import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.logging.Logger;
-
 import com.github.dockerjava.zerodep.shaded.org.apache.hc.client5.http.classic.methods.HttpGet;
 import com.github.dockerjava.zerodep.shaded.org.apache.hc.client5.http.impl.classic.CloseableHttpClient;
 import com.github.dockerjava.zerodep.shaded.org.apache.hc.client5.http.impl.classic.CloseableHttpResponse;
 import com.github.dockerjava.zerodep.shaded.org.apache.hc.client5.http.impl.classic.HttpClients;
 import com.github.dockerjava.zerodep.shaded.org.apache.hc.core5.http.ParseException;
 import com.github.dockerjava.zerodep.shaded.org.apache.hc.core5.http.io.entity.EntityUtils;
-
 import lombok.RequiredArgsConstructor;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.springframework.stereotype.Service;
+import trkpo.spbstu.hospitalavailability.dto.GorzdravDistrictRsDto;
 import trkpo.spbstu.hospitalavailability.dto.GorzdravHospitalRsDto;
 import trkpo.spbstu.hospitalavailability.exception.BackendUnavailableException;
 import trkpo.spbstu.hospitalavailability.exception.ForbiddenException;
+
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.logging.Logger;
 
 @Service
 @RequiredArgsConstructor
@@ -43,7 +43,7 @@ public class GorzdravService {
                 List<GorzdravHospitalRsDto> hospitalRs = new ArrayList<>();
                 for (int i = 0; i < array.length(); i++) {
                     JSONObject jsObj = array.getJSONObject(i);
-                    var hosp = convertToDto(jsObj);
+                    var hosp = convertToHospitalDto(jsObj);
                     if (hosp != null) {
                         hospitalRs.add(hosp);
                     }
@@ -58,7 +58,7 @@ public class GorzdravService {
         }
     }
 
-    private GorzdravHospitalRsDto convertToDto(JSONObject jsObj) {
+    private GorzdravHospitalRsDto convertToHospitalDto(JSONObject jsObj) {
         try {
             return new GorzdravHospitalRsDto(
                     Long.parseLong(jsObj.get("id").toString()),
@@ -69,6 +69,50 @@ public class GorzdravService {
                     jsObj.get("lpuFullName").toString(),
                     jsObj.get("lpuShortName").toString(),
                     jsObj.get("phone").toString()
+            );
+        } catch (Exception e) {
+            errorNum++;
+            logger.warning("cannot parse JSONObject, error number: " + errorNum);
+        }
+        return null;
+    }
+
+    public List<GorzdravDistrictRsDto> getDistricts() {
+        errorNum = 0L;
+        try (CloseableHttpClient httpClient = HttpClients.createDefault()) {
+            final HttpGet httpGet = new HttpGet("https://gorzdrav.spb.ru/_api/api/v2/shared/districts");
+
+            try (CloseableHttpResponse response = httpClient.execute(httpGet)) {
+                if (response.getCode() == 502 || response.getCode() == 503) {
+                    logger.warning(response.getCode() + " " + response.getReasonPhrase());
+                    throw new BackendUnavailableException("Gorzdrav is unavailable: " + response.getReasonPhrase());
+                }
+                String responseBody = EntityUtils.toString(response.getEntity(), StandardCharsets.UTF_8);
+                JSONArray array = new JSONObject(responseBody).getJSONArray("result");
+
+                List<GorzdravDistrictRsDto> districtsRs = new ArrayList<>();
+                for (int i = 0; i < array.length(); i++) {
+                    JSONObject jsObj = array.getJSONObject(i);
+                    var district = convertToDistrictDto(jsObj);
+                    if (district != null) {
+                        districtsRs.add(district);
+                    }
+                }
+                return districtsRs;
+
+            } catch (ParseException e) {
+                throw new ForbiddenException("Cannot parse json from Gorzdrav: " + e);
+            }
+        } catch (IOException e) {
+            throw new ForbiddenException("Cannot create default http client for Gorzdrav: " + e);
+        }
+    }
+
+    private GorzdravDistrictRsDto convertToDistrictDto(JSONObject jsObj) {
+        try {
+            return new GorzdravDistrictRsDto(
+                    Long.parseLong(jsObj.get("id").toString()),
+                    jsObj.get("name").toString()
             );
         } catch (Exception e) {
             errorNum++;
