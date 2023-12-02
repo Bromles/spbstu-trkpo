@@ -27,6 +27,11 @@ public class GorzdravController {
         return districtService.findAll();
     }
 
+    @PostMapping("/district")
+    public ResponseEntity<String> updateDistricts() {
+        return districtService.updateAll();
+    }
+
     @GetMapping("/hospital")
     public List<HospitalResponseDto> getHospitals() {
         return hospitalService.findAll();
