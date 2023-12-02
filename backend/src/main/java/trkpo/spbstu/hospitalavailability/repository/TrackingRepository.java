@@ -21,4 +21,8 @@ public interface TrackingRepository extends JpaRepository<Tracking, Long> {
             "on conflict(direction_id, doctor_id, client_id, hospital_id) do update SET " +
             "date = excluded.date, is_finished = excluded.is_finished returning *", nativeQuery = true)
     Tracking save(@NonNull Tracking track);
+
+    @Modifying
+    @Query("update Tracking t set t.isFinished = :finished where t.id = :id")
+    void updateTrackingFinishedById(boolean finished, long id);
 }
