@@ -21,13 +21,6 @@ public class ExceptionHandlerController extends ResponseEntityExceptionHandler {
                 .body(new ErrorInfo("", "forbidden"));
     }
 
-    @ExceptionHandler(ViolationOfIntegrityException.class)
-    public ResponseEntity<ErrorInfo> handleViolationOfIntegrityException(ViolationOfIntegrityException ex) {
-        return ResponseEntity.status(HttpStatus.BAD_REQUEST)
-                .body(new ErrorInfo("", "bad_request"));
-    }
-
-
     public static class ErrorInfo {
         private final String url;
         private final String info;

@@ -1,7 +1,6 @@
 package trkpo.spbstu.hospitalavailability.service;
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import trkpo.spbstu.hospitalavailability.dto.TrackingRequestDto;
@@ -11,7 +10,6 @@ import trkpo.spbstu.hospitalavailability.entity.Hospital;
 import trkpo.spbstu.hospitalavailability.entity.Tracking;
 import trkpo.spbstu.hospitalavailability.exception.ForbiddenException;
 import trkpo.spbstu.hospitalavailability.exception.NotFoundException;
-import trkpo.spbstu.hospitalavailability.exception.ViolationOfIntegrityException;
 import trkpo.spbstu.hospitalavailability.mapper.TrackingMapper;
 import trkpo.spbstu.hospitalavailability.repository.ClientRepository;
 import trkpo.spbstu.hospitalavailability.repository.HospitalRepository;
@@ -56,15 +54,11 @@ public class TrackingService {
         Hospital hospital = hospitalRepository.findById(requestDto.getHospitalId())
                 .orElseThrow(() -> new NotFoundException("Not found hospital"));
         Client client = clientRepository.findFirstByKeycloakId(UUID.fromString(SecurityUtils.getUserKey()))
-                .orElseThrow(() -> new ForbiddenException("No access to delete tracking"));
+                .orElseThrow(() -> new ForbiddenException("No access to add tracking"));
         Tracking tracking = new Tracking(requestDto, hospital, client);
         tracking.setFinished(false);
         tracking.setDate(new Date());
-        try {//обработать исключение вставки которое будет вылетать,  если добавим @UniqueConstraint на все поля?
-            return trackingMapper.toTrackingDto(trackingRepository.save(tracking));
-        } catch (DataIntegrityViolationException e) {
-            throw new ViolationOfIntegrityException("Bad request", e);
-        }
+        return trackingMapper.toTrackingDto(trackingRepository.save(tracking));
     }
 
     private Tracking findActiveTrackingById(Long id) {
