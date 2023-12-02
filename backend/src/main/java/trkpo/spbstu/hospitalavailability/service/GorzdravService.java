@@ -93,7 +93,6 @@ public class GorzdravService {
                 List<GorzdravDistrictRsDto> districtsRs = new ArrayList<>();
                 for (int i = 0; i < array.length(); i++) {
                     JSONObject jsObj = array.getJSONObject(i);
-                    System.out.println(jsObj);
                     var district = convertToDistrictDto(jsObj);
                     if (district != null) {
                         districtsRs.add(district);
