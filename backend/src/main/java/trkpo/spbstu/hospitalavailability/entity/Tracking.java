@@ -3,11 +3,10 @@ package trkpo.spbstu.hospitalavailability.entity;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.springframework.format.annotation.DateTimeFormat;
 import trkpo.spbstu.hospitalavailability.dto.TrackingRequestDto;
 
 import javax.persistence.*;
-import java.util.Date;
+import java.time.LocalDateTime;
 
 @Entity
 @Getter
@@ -35,9 +34,8 @@ public class Tracking {
     @Column(name = "is_finished", nullable = false)
     private boolean isFinished;
 
-    @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME)
-    @Column(name = "date", nullable = false)
-    private Date date;
+    @Column(name = "date", nullable = false, columnDefinition = "TIMESTAMP")
+    private LocalDateTime date;
 
     @ManyToOne
     @JoinColumn(name = "client_id", nullable = false, insertable = false, updatable = false)

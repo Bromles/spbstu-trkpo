@@ -16,7 +16,7 @@ import trkpo.spbstu.hospitalavailability.repository.HospitalRepository;
 import trkpo.spbstu.hospitalavailability.repository.TrackingRepository;
 import trkpo.spbstu.hospitalavailability.utils.SecurityUtils;
 
-import java.util.Date;
+import java.sql.Timestamp;
 import java.util.List;
 import java.util.UUID;
 
@@ -57,7 +57,7 @@ public class TrackingService {
                 .orElseThrow(() -> new ForbiddenException("No access to add tracking"));
         Tracking tracking = new Tracking(requestDto, hospital, client);
         tracking.setFinished(false);
-        tracking.setDate(new Date());
+        tracking.setDate(new Timestamp(System.currentTimeMillis()).toLocalDateTime());
         return trackingMapper.toTrackingDto(trackingRepository.save(tracking));
     }
 
