@@ -26,8 +26,23 @@ spring:
       max-request-size: "220MB"
       file-size-threshold: "2KB"
   mail:
-    protocol: smtps
     host: smtp.yandex.ru
     port: 465
     username: ${MAIL_USERNAME:}
     password: ${MAIL_PASSWORD:}
+    protocol: smtp
+    test-connection: true
+    properties:
+      mail:
+        #debug: true
+        transport:
+          protocol: smtp
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          ssl:
+            enable: true
+          connectiontimeout: 5000
+          timeout: 3000
+          writetimeout: 5000

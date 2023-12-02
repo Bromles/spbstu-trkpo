@@ -55,7 +55,7 @@ services:
       DB_PASSWORD: "password"
       AUTH_SERVER_JWKS_URL: "http://auth_server:8099/realms/trkpo-hospital/protocol/openid-connect/certs"
       MAIL_USERNAME: "spbstu.trkpo@yandex.ru"
-      MAIL_PASSWORD: "5130904/00104"
+      MAIL_PASSWORD: "txspsbbjtmceuquq"
     ports:
       - "8082:8080"
     depends_on:
