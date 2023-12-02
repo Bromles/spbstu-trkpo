@@ -33,7 +33,7 @@ public class HospitalService {
     }
 
     @Async
-    @Scheduled(fixedDelay = 7, timeUnit = TimeUnit.DAYS)
+    @Scheduled(fixedDelay = 10080, initialDelay = 1, timeUnit = TimeUnit.MINUTES)
     @Transactional
     public ResponseEntity<String> updateAll() {
         List<GorzdravHospitalRsDto> hospitals = gorzdravService.getHospitals();
