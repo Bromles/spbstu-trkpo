@@ -2,12 +2,15 @@ package trkpo.spbstu.hospitalavailability.service;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.concurrent.TimeUnit;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
+import org.springframework.scheduling.annotation.Async;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import trkpo.spbstu.hospitalavailability.dto.GorzdravHospitalRsDto;
@@ -29,6 +32,8 @@ public class HospitalService {
         return hospitalMapper.toHospitalDto(hospitalRepository.findAll());
     }
 
+    @Async
+    @Scheduled(fixedDelay = 7, timeUnit = TimeUnit.DAYS)
     @Transactional
     public ResponseEntity<String> updateAll() {
         List<GorzdravHospitalRsDto> hospitals = gorzdravService.getHospitals();
