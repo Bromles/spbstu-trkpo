@@ -15,7 +15,7 @@ spring:
     password: ${DB_PASSWORD:}
   jpa:
     hibernate:
-      ddl-auto: "update"
+      ddl-auto: "create" #необходимо для создания индексов
     properties:
       hibernate:
         dialect: "org.hibernate.dialect.PostgreSQLDialect"
