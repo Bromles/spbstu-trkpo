@@ -12,7 +12,16 @@ import java.util.Date;
 @Entity
 @Getter
 @Setter
-@Table(name = "tracking")
+@Table(
+        name = "tracking",
+        indexes = {
+                //при конфликте на сохранение будем ставить isFinished = false и менять время создания записи
+                @Index(name = "tracking__multi_uq_idx",
+                        columnList = "direction_id, doctor_id, client_id, hospital_id",
+                        unique = true
+                )
+        }
+)
 @NoArgsConstructor
 public class Tracking {
     @Id
