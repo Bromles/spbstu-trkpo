@@ -3,8 +3,10 @@ package trkpo.spbstu.hospitalavailability.entity;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import trkpo.spbstu.hospitalavailability.dto.TrackingRequestDto;
 
 import javax.persistence.*;
+import java.time.LocalDateTime;
 
 @Entity
 @Getter
@@ -27,16 +29,26 @@ public class Tracking {
     private long id;
     @Column(name = "direction_id", nullable = false)
     private long directionId;
-    @Column(name = "doctor_id", nullable = false)
-    private long doctorId;
+    @Column(name = "doctor_id")
+    private Long doctorId;
     @Column(name = "is_finished", nullable = false)
     private boolean isFinished;
 
+    @Column(name = "date", nullable = false, columnDefinition = "TIMESTAMP")
+    private LocalDateTime date;
+
     @ManyToOne
-    @JoinColumn(name = "client_id", insertable = false, updatable = false)
+    @JoinColumn(name = "client_id", nullable = false, insertable = false, updatable = false)
     private Client client;
 
     @ManyToOne
-    @JoinColumn(name = "hospital_id", insertable = false, updatable = false)
+    @JoinColumn(name = "hospital_id", nullable = false, insertable = false, updatable = false)
     private Hospital hospital;
+
+    public Tracking(TrackingRequestDto requestDto, Hospital hospital, Client client) {
+        this.directionId = requestDto.getDirectionId();
+        this.doctorId = requestDto.getDoctorId();
+        this.client = client;
+        this.hospital = hospital;
+    }
 }
