@@ -2,7 +2,6 @@ package trkpo.spbstu.hospitalavailability.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
-import org.springframework.scheduling.annotation.Async;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -31,7 +30,6 @@ public class DistrictService {
         return districtMapper.toDistrictDto(districtRepository.findAll());
     }
 
-    @Async
     @Scheduled(fixedDelay = 7, timeUnit = TimeUnit.DAYS)
     @Transactional
     public ResponseEntity<String> updateAll() {

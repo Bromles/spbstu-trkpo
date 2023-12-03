@@ -9,7 +9,6 @@ import javax.persistence.PersistenceContext;
 
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
-import org.springframework.scheduling.annotation.Async;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -32,7 +31,6 @@ public class HospitalService {
         return hospitalMapper.toHospitalDto(hospitalRepository.findAll());
     }
 
-    @Async
     @Scheduled(fixedDelay = 10080, initialDelay = 1, timeUnit = TimeUnit.MINUTES)
     @Transactional
     public ResponseEntity<String> updateAll() {
