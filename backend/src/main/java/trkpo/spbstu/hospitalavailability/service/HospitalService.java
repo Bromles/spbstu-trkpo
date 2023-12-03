@@ -32,7 +32,7 @@ public class HospitalService {
         return hospitalMapper.toHospitalDto(hospitalRepository.findAll());
     }
 
-    @SuppressWarnings("squid:S6809")
+    @SuppressWarnings("squid:S6809") // Ложный ворнинг про вызов в обход прокси
     @Scheduled(fixedDelay = 10080, initialDelay = 1, timeUnit = TimeUnit.MINUTES)
     @Transactional
     public void updateAll() {

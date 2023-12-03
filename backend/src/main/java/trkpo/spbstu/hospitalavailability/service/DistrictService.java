@@ -32,7 +32,7 @@ public class DistrictService {
         return districtMapper.toDistrictDto(districtRepository.findAll());
     }
 
-    @SuppressWarnings("squid:S6809")
+    @SuppressWarnings("squid:S6809") // Ложный ворнинг про вызов в обход прокси
     @Scheduled(fixedDelay = 7, timeUnit = TimeUnit.DAYS)
     @Transactional
     public void updateAll() {
