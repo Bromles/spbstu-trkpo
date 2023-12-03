@@ -1,7 +1,6 @@
 package trkpo.spbstu.hospitalavailability.controller;
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -28,8 +27,8 @@ public class GorzdravController {
     }
 
     @PostMapping("/district")
-    public ResponseEntity<String> updateDistricts() {
-        return districtService.updateAll();
+    public void updateDistricts() {
+        districtService.updateAll();
     }
 
     @GetMapping("/hospital")
@@ -38,8 +37,8 @@ public class GorzdravController {
     }
 
     @PostMapping("/hospital")
-    public ResponseEntity<String> updateHospitals() {
-        return hospitalService.updateAll();
+    public void updateHospitals() {
+        hospitalService.updateAll();
     }
 
 }

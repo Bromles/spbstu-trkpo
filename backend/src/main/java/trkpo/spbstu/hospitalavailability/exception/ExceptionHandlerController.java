@@ -1,5 +1,6 @@
 package trkpo.spbstu.hospitalavailability.exception;
 
+import lombok.Getter;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -27,6 +28,7 @@ public class ExceptionHandlerController extends ResponseEntityExceptionHandler {
                 .body(new ErrorInfo("", "service_unavailable"));
     }
 
+    @Getter
     public static class ErrorInfo {
         private final String url;
         private final String info;
@@ -34,14 +36,6 @@ public class ExceptionHandlerController extends ResponseEntityExceptionHandler {
         public ErrorInfo(String url, String info) {
             this.url = url;
             this.info = info;
-        }
-
-        public String getUrl() {
-            return url;
-        }
-
-        public String getInfo() {
-            return info;
         }
     }
 }
