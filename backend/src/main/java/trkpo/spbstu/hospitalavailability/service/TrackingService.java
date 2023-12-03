@@ -41,15 +41,9 @@ public class TrackingService {
         return trackingRepository.removeById(id);
     }
 
-    public List<TrackingResponseDto> findUserActiveTracking(Long clientId) {
-        Client client = clientRepository.findById(clientId)
-                .orElseThrow(() -> new NotFoundException("Client not found"));
-
-        if (!SecurityUtils.getUserKey().equals(client.getKeycloakId().toString())) {
-            throw new ForbiddenException("No access to delete tracking");
-        }
-
-        return trackingMapper.toTrackingDto(trackingRepository.findByIsFinishedFalseAndClientId(clientId));
+    public List<TrackingResponseDto> findUserActiveTracking() {
+        UUID userKey = UUID.fromString(SecurityUtils.getUserKey());
+        return trackingMapper.toTrackingDto(trackingRepository.findByIsFinishedFalseAndClientKeycloakId(userKey));
     }
 
     @Transactional

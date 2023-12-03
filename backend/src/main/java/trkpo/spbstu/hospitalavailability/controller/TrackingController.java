@@ -24,9 +24,9 @@ public class TrackingController {
         return trackingService.deleteTracking(id);
     }
 
-    @GetMapping(value = "/{clientId}")
-    public List<TrackingResponseDto> getActiveUserTracking(@PathVariable @NotNull Long clientId) {
-        return trackingService.findUserActiveTracking(clientId);
+    @GetMapping()
+    public List<TrackingResponseDto> getActiveUserTracking() {
+        return trackingService.findUserActiveTracking();
     }
 
     @PostMapping
