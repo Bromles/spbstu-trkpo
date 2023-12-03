@@ -18,13 +18,13 @@ public class NotificationMailSender {
     private final MailSender mailSender;
 
     @Retryable(value = MailException.class, maxAttempts = 2, backoff = @Backoff(delay = 100))
-    public void sendMessage(@Email String userMail, String message) throws MailException {
+    public void sendMessage(@Email String userMail, String subject, String message) throws MailException {
         final SimpleMailMessage simpleMail = new SimpleMailMessage();
         String senderEmail = "spbstu.trkpo@yandex.ru";
 
         simpleMail.setFrom(senderEmail);
         simpleMail.setTo(userMail);
-        simpleMail.setSubject("Появились талоны к врачу");
+        simpleMail.setSubject(subject);
         simpleMail.setText(message);
 
         this.mailSender.send(simpleMail);

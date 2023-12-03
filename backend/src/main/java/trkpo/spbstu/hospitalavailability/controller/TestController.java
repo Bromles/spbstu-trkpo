@@ -16,6 +16,6 @@ public class TestController {
 
     @PostMapping("/sendMessage")
     public void sendMail() {
-        sender.sendMessage("spbstu.trkpo@yandex.ru", "Я работаю!");
+        sender.sendMessage("spbstu.trkpo@yandex.ru", "Появились талоны к врачу", "Я работаю!");
     }
 }
