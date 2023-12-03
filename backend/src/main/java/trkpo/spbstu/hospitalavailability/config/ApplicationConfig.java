@@ -3,6 +3,8 @@ package trkpo.spbstu.hospitalavailability.config;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.transaction.PlatformTransactionManager;
+import org.springframework.transaction.support.TransactionTemplate;
 import org.springframework.web.client.RestTemplate;
 
 @Configuration
@@ -12,5 +14,10 @@ public class ApplicationConfig {
         return restTemplateBuilder
                 .rootUri("https://gorzdrav.spb.ru/_api/api/v2/shared/")
                 .build();
+    }
+
+    @Bean
+    public TransactionTemplate getTransactionTemplate(PlatformTransactionManager transactionManager) {
+        return new TransactionTemplate(transactionManager);
     }
 }

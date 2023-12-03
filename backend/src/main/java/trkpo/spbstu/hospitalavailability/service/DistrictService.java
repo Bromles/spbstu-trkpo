@@ -4,6 +4,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.transaction.support.TransactionTemplate;
 import trkpo.spbstu.hospitalavailability.dto.DistrictResponseDto;
 import trkpo.spbstu.hospitalavailability.dto.GorzdravDistrictRsDto;
 import trkpo.spbstu.hospitalavailability.entity.District;
@@ -22,7 +23,7 @@ public class DistrictService {
     private final DistrictRepository districtRepository;
     private final DistrictMapper districtMapper;
     private final GorzdravService gorzdravService;
-    private final TransactionHandler transactionHandler;
+    private final TransactionTemplate transactionTemplate;
 
     @PersistenceContext
     private EntityManager entityManager;
@@ -31,11 +32,12 @@ public class DistrictService {
         return districtMapper.toDistrictDto(districtRepository.findAll());
     }
 
+    @SuppressWarnings("squid:S6809")
     @Scheduled(fixedDelay = 7, timeUnit = TimeUnit.DAYS)
     @Transactional
     public void updateAll() {
         List<GorzdravDistrictRsDto> districts = gorzdravService.getDistricts();
-        transactionHandler.runInTransaction(() -> insertOrUpdate(districts));
+        transactionTemplate.executeWithoutResult(txStatus -> insertOrUpdate(districts));
     }
 
     @Transactional
