@@ -96,12 +96,6 @@
 			<version>${org.mapstruct.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>com.github.docker-java</groupId>
-			<artifactId>docker-java-transport-zerodep</artifactId>
-			<version>3.3.0</version>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
 			<groupId>org.json</groupId>
 			<artifactId>json</artifactId>
 			<version>20231013</version>

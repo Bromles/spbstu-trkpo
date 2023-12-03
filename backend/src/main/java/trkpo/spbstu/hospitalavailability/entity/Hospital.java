@@ -34,6 +34,6 @@ public class Hospital {
     private String phone;
 
     @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-    @JoinColumn(name="district_id", referencedColumnName="id", nullable = false, insertable=false, updatable=false)
+    @JoinColumn(name = "district_id", referencedColumnName = "id", nullable = false, insertable = false, updatable = false)
     private District district;
 }

@@ -1,14 +1,6 @@
 package trkpo.spbstu.hospitalavailability.service;
 
-import java.util.List;
-import java.util.Optional;
-import java.util.concurrent.TimeUnit;
-
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
-
 import lombok.AllArgsConstructor;
-import org.springframework.http.ResponseEntity;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -18,12 +10,20 @@ import trkpo.spbstu.hospitalavailability.entity.Hospital;
 import trkpo.spbstu.hospitalavailability.mapper.HospitalMapper;
 import trkpo.spbstu.hospitalavailability.repository.HospitalRepository;
 
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import java.util.List;
+import java.util.Optional;
+import java.util.concurrent.TimeUnit;
+
 @Service
 @AllArgsConstructor
 public class HospitalService {
     private final GorzdravService gorzdravService;
     private final HospitalRepository hospitalRepository;
     private final HospitalMapper hospitalMapper;
+    private final TransactionHandler transactionHandler;
+
     @PersistenceContext
     private EntityManager entityManager;
 
@@ -33,10 +33,9 @@ public class HospitalService {
 
     @Scheduled(fixedDelay = 10080, initialDelay = 1, timeUnit = TimeUnit.MINUTES)
     @Transactional
-    public ResponseEntity<String> updateAll() {
+    public void updateAll() {
         List<GorzdravHospitalRsDto> hospitals = gorzdravService.getHospitals();
-        batchInsertOrUpdate(hospitals);
-        return ResponseEntity.ok().build();
+        transactionHandler.runInTransaction(() -> batchInsertOrUpdate(hospitals));
     }
 
     @Transactional
@@ -50,7 +49,8 @@ public class HospitalService {
             if (existingHospital.isPresent()) {
                 Hospital hospital = existingHospital.get();
                 entityManager.merge(fill(hospital, dto));
-            } else {
+            }
+            else {
                 Hospital newHospital = new Hospital();
                 Hospital filledHosp = fill(newHospital, dto);
                 filledHosp.setGorzdravId(dto.getGorzdravId());

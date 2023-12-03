@@ -18,5 +18,6 @@ public interface TrackingMapper {
     @Mapping(source = "hospital.id", target = "hospital")
     @Mapping(source = "client.id", target = "client")
     TrackingResponseDto toTrackingDto(Tracking tracking);
+
     List<TrackingResponseDto> toTrackingDto(List<Tracking> tracking);
 }

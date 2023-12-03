@@ -7,11 +7,12 @@ import trkpo.spbstu.hospitalavailability.exception.ForbiddenException;
 
 @UtilityClass
 public class SecurityUtils {
-    public String getUserKey()  {
+    public String getUserKey() {
         try {
             Jwt jwt = (Jwt) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
             return jwt.getSubject();
-        } catch (ClassCastException e) {
+        }
+        catch (ClassCastException e) {
             throw new ForbiddenException("Cannot find JWT", e);
         }
     }

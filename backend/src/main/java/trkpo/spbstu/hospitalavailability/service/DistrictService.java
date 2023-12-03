@@ -1,7 +1,6 @@
 package trkpo.spbstu.hospitalavailability.service;
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.ResponseEntity;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -23,6 +22,8 @@ public class DistrictService {
     private final DistrictRepository districtRepository;
     private final DistrictMapper districtMapper;
     private final GorzdravService gorzdravService;
+    private final TransactionHandler transactionHandler;
+
     @PersistenceContext
     private EntityManager entityManager;
 
@@ -32,10 +33,9 @@ public class DistrictService {
 
     @Scheduled(fixedDelay = 7, timeUnit = TimeUnit.DAYS)
     @Transactional
-    public ResponseEntity<String> updateAll() {
+    public void updateAll() {
         List<GorzdravDistrictRsDto> districts = gorzdravService.getDistricts();
-        insertOrUpdate(districts);
-        return ResponseEntity.ok().build();
+        transactionHandler.runInTransaction(() -> insertOrUpdate(districts));
     }
 
     @Transactional
@@ -43,15 +43,15 @@ public class DistrictService {
         for (GorzdravDistrictRsDto dto : districts) {
             Optional<District> existingDistrict = districtRepository.findByGorzdravId(dto.getGorzdravId());
 
-            if (existingDistrict.isPresent()) {
-                District district = existingDistrict.get();
-                entityManager.merge(fill(district, dto));
-            } else {
-                District district = new District();
-                District filledDistrict = fill(district, dto);
-                filledDistrict.setGorzdravId(dto.getGorzdravId());
-                entityManager.persist(filledDistrict);
-            }
+            existingDistrict.ifPresentOrElse(
+                    district -> entityManager.merge(fill(district, dto)),
+                    () -> {
+                        var district = new District();
+                        var filledDistrict = fill(district, dto);
+                        filledDistrict.setGorzdravId(dto.getGorzdravId());
+                        entityManager.persist(filledDistrict);
+                    }
+            );
         }
     }
 
@@ -59,5 +59,4 @@ public class DistrictService {
         district.setName(newInfo.getName());
         return district;
     }
-
 }
