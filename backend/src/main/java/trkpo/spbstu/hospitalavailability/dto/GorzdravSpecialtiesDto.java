@@ -6,6 +6,7 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 public class GorzdravSpecialtiesDto {
-    private long id;
-    private long countFreeTicket;
+    private Long id;
+    private Long countFreeTicket;
+    private String name;
 }

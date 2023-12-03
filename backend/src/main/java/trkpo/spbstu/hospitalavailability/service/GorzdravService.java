@@ -9,7 +9,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 import trkpo.spbstu.hospitalavailability.dto.GorzdravDistrictRsDto;
 import trkpo.spbstu.hospitalavailability.dto.GorzdravHospitalRsDto;
+import trkpo.spbstu.hospitalavailability.dto.GorzdravSpecialtiesDto;
 import trkpo.spbstu.hospitalavailability.exception.BackendUnavailableException;
+import trkpo.spbstu.hospitalavailability.exception.NotFoundException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,7 +28,7 @@ public class GorzdravService {
 
     public List<GorzdravHospitalRsDto> getHospitals() {
         errorNum = 0L;
-        ResponseEntity<String> response = restTemplate.getForEntity("/lpus", String.class);
+        ResponseEntity<String> response = restTemplate.getForEntity("/shared/lpus", String.class);
 
         if (response.getStatusCode() == HttpStatus.BAD_GATEWAY || response.getStatusCode() == HttpStatus.SERVICE_UNAVAILABLE) {
             logger.warning(response.getStatusCode() + " " + response.getStatusCode().getReasonPhrase());
@@ -70,7 +72,7 @@ public class GorzdravService {
     public List<GorzdravDistrictRsDto> getDistricts() {
         errorNum = 0L;
 
-        ResponseEntity<String> response = restTemplate.getForEntity("/districts", String.class);
+        ResponseEntity<String> response = restTemplate.getForEntity("/shared/districts", String.class);
 
         if (response.getStatusCode() == HttpStatus.BAD_GATEWAY || response.getStatusCode() == HttpStatus.SERVICE_UNAVAILABLE) {
             logger.warning(response.getStatusCode() + " " + response.getStatusCode().getReasonPhrase());
@@ -92,6 +94,28 @@ public class GorzdravService {
         return districtsRs;
     }
 
+    public List<GorzdravSpecialtiesDto> getSpecialties(Long gorzdravHospitalId) {
+        ResponseEntity<String> response = restTemplate.getForEntity("/schedule/lpu/" + gorzdravHospitalId + "/specialties", String.class);
+        if (response.getStatusCode() == HttpStatus.BAD_GATEWAY || response.getStatusCode() == HttpStatus.SERVICE_UNAVAILABLE) {
+            logger.warning(response.getStatusCode() + " " + response.getStatusCode().getReasonPhrase());
+            throw new BackendUnavailableException("Gorzdrav is unavailable: " + response.getStatusCode().getReasonPhrase());
+        }
+        String responseBody = response.getBody();
+        if(!new JSONObject(responseBody).getBoolean("success")) {
+            throw new NotFoundException("Hospital or specialties not found");
+        }
+        JSONArray array = new JSONObject(responseBody).getJSONArray("result");
+        List<GorzdravSpecialtiesDto> specialties = new ArrayList<>();
+        for (int i = 0; i < array.length(); i++) {
+            JSONObject jsObj = array.getJSONObject(i);
+            var special= convertToSpecialtiesDto(jsObj);
+            if (special!= null) {
+                specialties.add(special);
+            }
+        }
+        return specialties;
+    }
+
     private GorzdravDistrictRsDto convertToDistrictDto(JSONObject jsObj) {
         try {
             return new GorzdravDistrictRsDto(
@@ -101,6 +125,19 @@ public class GorzdravService {
         } catch (Exception e) {
             errorNum++;
             logger.warning("Cannot parse JSONObject, error number: " + errorNum);
+        }
+        return null;
+    }
+
+    private GorzdravSpecialtiesDto convertToSpecialtiesDto(JSONObject jsObj) {
+        try {
+            return new GorzdravSpecialtiesDto(
+                    Long.parseLong(jsObj.get("id").toString()),
+                    Long.parseLong(jsObj.get("countFreeTicket").toString()),
+                    jsObj.get("name").toString()
+            );
+        } catch (Exception e) {
+            logger.warning("Cannot parse JSONObject");
         }
         return null;
     }
