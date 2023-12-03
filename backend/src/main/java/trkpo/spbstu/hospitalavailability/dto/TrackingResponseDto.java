@@ -8,8 +8,8 @@ public class TrackingResponseDto {
     private long directionId;
     private Long doctorId;
     private boolean isFinished;
-    private long client;
-    private long hospital;
+    private long clientId;
+    private long hospitalId;
     private long hospitalGorzdravId;
     private String hospitalFullName;
 }

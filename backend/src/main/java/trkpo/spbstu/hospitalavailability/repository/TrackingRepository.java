@@ -7,13 +7,14 @@ import org.springframework.lang.NonNull;
 import trkpo.spbstu.hospitalavailability.entity.Tracking;
 
 import java.util.List;
+import java.util.UUID;
 
 public interface TrackingRepository extends JpaRepository<Tracking, Long> {
     List<Tracking> findByIsFinishedFalse();
 
     long removeById(Long id);
 
-    List<Tracking> findByIsFinishedFalseAndClientId(Long id);
+    List<Tracking> findByIsFinishedFalseAndClientKeycloakId(UUID id);
 
     @NonNull
     @Modifying
