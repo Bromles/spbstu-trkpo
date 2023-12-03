@@ -13,6 +13,8 @@ import trkpo.spbstu.hospitalavailability.dto.GorzdravDistrictRsDto;
 import trkpo.spbstu.hospitalavailability.dto.GorzdravDoctorRsDto;
 import trkpo.spbstu.hospitalavailability.dto.GorzdravHospitalRsDto;
 import trkpo.spbstu.hospitalavailability.dto.GorzdravSpecialtiesDto;
+import trkpo.spbstu.hospitalavailability.dto.TrackingInfoRqDto;
+import trkpo.spbstu.hospitalavailability.dto.TrackingInfoRsDto;
 import trkpo.spbstu.hospitalavailability.exception.BackendUnavailableException;
 import trkpo.spbstu.hospitalavailability.exception.NotFoundException;
 
@@ -52,34 +54,11 @@ public class GorzdravService {
         return hospitalRs;
     }
 
-    private GorzdravHospitalRsDto convertToHospitalDto(JSONObject jsObj) {
-        try {
-            return new GorzdravHospitalRsDto(
-                    Long.parseLong(jsObj.get("id").toString()),
-                    Double.parseDouble(jsObj.get("longitude").toString()),
-                    Double.parseDouble(jsObj.get("latitude").toString()),
-                    Long.parseLong(jsObj.get("districtId").toString()),
-                    jsObj.get("address").toString(),
-                    jsObj.get("lpuFullName").toString(),
-                    jsObj.get("lpuShortName").toString(),
-                    jsObj.get("phone").toString()
-            );
-        } catch (Exception e) {
-            errorNum++;
-            log.warn("Cannot parse JSONObject, error number: " + errorNum);
-        }
-        return null;
-    }
-
     public List<GorzdravDistrictRsDto> getDistricts() {
         errorNum = 0L;
 
         ResponseEntity<String> response = restTemplate.getForEntity("/shared/districts", String.class);
-
-        if (response.getStatusCode() == HttpStatus.BAD_GATEWAY || response.getStatusCode() == HttpStatus.SERVICE_UNAVAILABLE) {
-            log.warn(response.getStatusCode() + " " + response.getStatusCode().getReasonPhrase());
-            throw new BackendUnavailableException("Gorzdrav is unavailable: " + response.getStatusCode().getReasonPhrase());
-        }
+        checkStatusCode(response);
 
         String responseBody = response.getBody();
         JSONArray array = new JSONObject(responseBody).getJSONArray("result");
@@ -94,6 +73,20 @@ public class GorzdravService {
         }
 
         return districtsRs;
+    }
+
+    public TrackingInfoRsDto getTrackingInfo(TrackingInfoRqDto trackingInfoRqDto) {
+        Long doctorId = trackingInfoRqDto.getDoctorId();
+        Long hospitalId = trackingInfoRqDto.getHospitalId();
+        Long directionId = trackingInfoRqDto.getDirectionId();
+        String doctorName = "Без разницы";
+        if (doctorId != null && doctorId != -1) {
+            doctorName = getDoctornName(doctorId, directionId, hospitalId);
+        }
+        return new TrackingInfoRsDto(
+                getDirectionName(directionId, hospitalId),
+                doctorName
+        );
     }
 
     public List<GorzdravSpecialtiesDto> getSpecialties(Long gorzdravHospitalId) {
@@ -116,19 +109,6 @@ public class GorzdravService {
             }
         }
         return specialties;
-    }
-
-    private GorzdravDistrictRsDto convertToDistrictDto(JSONObject jsObj) {
-        try {
-            return new GorzdravDistrictRsDto(
-                    Long.parseLong(jsObj.get("id").toString()),
-                    jsObj.get("name").toString()
-            );
-        } catch (Exception e) {
-            errorNum++;
-            log.warn("Cannot parse JSONObject, error number: " + errorNum);
-        }
-        return null;
     }
 
     public List<GorzdravDoctorRsDto> getDoctorsBySpecialityId(Long GorzdravHospitalId, Long GorzdravSpecialityId) {
@@ -157,6 +137,53 @@ public class GorzdravService {
         }
     }
 
+    private String getDirectionName(long directionId, long hospitalId) {
+        ResponseEntity<String> response = restTemplate.getForEntity("/schedule/lpu/"+ hospitalId + "/specialties", String.class);
+        return getNameById(response, directionId);
+    }
+
+    private String getDoctornName(long doctorId, long directionId, long hospitalId) {
+        ResponseEntity<String> response = restTemplate.getForEntity(
+                "/schedule/lpu/"+ hospitalId + "/speciality/" + directionId + "/doctors",
+                String.class
+        );
+        return getNameById(response, doctorId);
+    }
+
+    private void checkStatusCode(ResponseEntity<String> response) {
+        if (response.getStatusCode() == HttpStatus.BAD_GATEWAY || response.getStatusCode() == HttpStatus.SERVICE_UNAVAILABLE) {
+            log.warn(response.getStatusCode() + " " + response.getStatusCode().getReasonPhrase());
+            throw new BackendUnavailableException("Gorzdrav is unavailable: " + response.getStatusCode().getReasonPhrase());
+        }
+    }
+
+    private String getNameById(ResponseEntity<String> response, Long id) {
+        checkStatusCode(response);
+
+        String responseBody = response.getBody();
+        JSONArray array = new JSONObject(responseBody).getJSONArray("result");
+        for (int i = 0; i < array.length(); i++) {
+            JSONObject jsObj = array.getJSONObject(i);
+            if (jsObj.get("id").toString().equals(id.toString())) {
+                return jsObj.get("name").toString();
+            }
+        }
+        throw new NotFoundException("Doctor not found");
+    }
+
+    private GorzdravDistrictRsDto convertToDistrictDto(JSONObject jsObj) {
+        try {
+            return new GorzdravDistrictRsDto(
+                    Long.parseLong(jsObj.get("id").toString()),
+                    jsObj.get("name").toString()
+            );
+        } catch (Exception e) {
+            errorNum++;
+            log.warn("Cannot parse JSONObject, error number: " + errorNum);
+        }
+        return null;
+    }
+
     private GorzdravDoctorRsDto convertToDoctorsDto(JSONObject jsObj) {
         try {
             return new GorzdravDoctorRsDto(
@@ -180,6 +207,26 @@ public class GorzdravService {
             );
         } catch (Exception e) {
             log.warn("Cannot parse JSONObject");
+        }
+        return null;
+    }
+
+
+    private GorzdravHospitalRsDto convertToHospitalDto(JSONObject jsObj) {
+        try {
+            return new GorzdravHospitalRsDto(
+                    Long.parseLong(jsObj.get("id").toString()),
+                    Double.parseDouble(jsObj.get("longitude").toString()),
+                    Double.parseDouble(jsObj.get("latitude").toString()),
+                    Long.parseLong(jsObj.get("districtId").toString()),
+                    jsObj.get("address").toString(),
+                    jsObj.get("lpuFullName").toString(),
+                    jsObj.get("lpuShortName").toString(),
+                    jsObj.get("phone").toString()
+            );
+        } catch (Exception e) {
+            errorNum++;
+            log.warn("Cannot parse JSONObject, error number: " + errorNum);
         }
         return null;
     }

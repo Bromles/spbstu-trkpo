@@ -5,6 +5,7 @@ import {DirectionSelection} from "@/components/Selection/DirectionSelection";
 import {DistrictSelection} from "@/components/Selection/DistrictDelection";
 import {HospitalSelection} from "@/components/Selection/HospitalSelection";
 import {DoctorSelection} from "@/components/Selection/DoctorSelection";
+import {Tracking} from "@/components/Tracking/Tracking";
 
 export const Home = () => {
   return (
@@ -113,24 +114,54 @@ const Enrollment = () => {
   );
 };
 
-const Tracking = () => {
-  return (
-    <div className={styles.tracking_container}>
-      <h1>Отслеживание</h1>
-      <div className={styles.tracking_container_content}>
-        {[0, 0, 0, 0, 0, 0, 0, 0, 0].map(() => (
-          <TrackingItem />
-        ))}
-      </div>
-    </div>
-  );
-};
+// const Tracking = () => {
+//   return (
+//     <div className={styles.tracking_container}>
+//       <h1>Отслеживание</h1>
+//       <div className={styles.tracking_container_content}>
+//         {[0, 0, 0, 0, 0, 0, 0, 0, 0].map(() => (
+//           <TrackingItem />
+//         ))}
+//       </div>
+//     </div>
+//   );
+// };
 
-const TrackingItem = () => {
-  return (
-    <div className={styles.trackingItem}>
-      <h3>State</h3>
-      <button type="button">Перестать отслеживать</button>
-    </div>
-  );
-};
+// const TrackingItem = () => {
+//   return (
+//     <div className={styles.trackingItem}>
+//       <h3>State</h3>
+//       <button type="button">Перестать отслеживать</button>
+//     </div>
+//   );
+// };
+
+// const Tracking = () => {
+//   const [trackingItems, setTrackingItems] = useState([]);
+//
+//   useEffect(() => {
+//     fetch("/api/trackingItems")
+//         .then((response) => response.json())
+//         .then((data) => setTrackingItems(data));
+//   }, []);
+//
+//   return (
+//       <div className={styles.tracking_container}>
+//         <h1>Отслеживание</h1>
+//         <div className={styles.tracking_container_content}>
+//           {trackingItems.map((item) => (
+//               <TrackingItem key={item.id} item={item} />
+//           ))}
+//         </div>
+//       </div>
+//   );
+// };
+
+// const TrackingItem = ({ item }) => {
+//   return (
+//       <div className={styles.trackingItem}>
+//         <h3>{item.state}</h3>
+//         <button type="button">Перестать отслеживать</button>
+//       </div>
+//   );
+// };

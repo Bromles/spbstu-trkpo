@@ -62,28 +62,6 @@
   margin: 5px;
 }
 
-.trackingItem {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: #814a4a;
-  border-radius: 10px;
-}
-
-.trackingItem button {
-  width: 100%;
-  background-color: var(--secondary-bg-color);
-  border-radius: 0 0 10px 10px;
-  transition: 0.5s;
-  text-align: center;
-}
-
-.trackingItem button:hover {
-  background-color: var(--lt-color-gray-700);
-  transition: 0.5s;
-}
-
 .enrollment_container {
   width: 90%;
   margin-left: 50px;
@@ -91,18 +69,4 @@
 
 .enrollment_section {
   font-size: 20px;
-}
-
-.tracking_container {
-  width: 30%;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-.tracking_container_content {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  height: 830px;
-  overflow-y: auto;
 }
