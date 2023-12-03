@@ -41,9 +41,8 @@ public class TrackingService {
         return trackingRepository.removeById(id);
     }
 
-    public List<TrackingResponseDto> findUserActiveTracking() {
-        UUID userKey = UUID.fromString(SecurityUtils.getUserKey());
-        return trackingMapper.toTrackingDto(trackingRepository.findByIsFinishedFalseAndClientKeycloakId(userKey));
+    public List<TrackingResponseDto> findUserActiveTracking(UUID id) {
+        return trackingMapper.toTrackingDto(trackingRepository.findByIsFinishedFalseAndClientKeycloakId(id));
     }
 
     @Transactional

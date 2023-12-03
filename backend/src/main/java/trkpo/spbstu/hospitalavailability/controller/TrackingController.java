@@ -10,6 +10,7 @@ import trkpo.spbstu.hospitalavailability.service.TrackingService;
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 import java.util.List;
+import java.util.UUID;
 
 @RestController
 @RequestMapping("/v1/tracking")
@@ -24,9 +25,9 @@ public class TrackingController {
         return trackingService.deleteTracking(id);
     }
 
-    @GetMapping()
-    public List<TrackingResponseDto> getActiveUserTracking() {
-        return trackingService.findUserActiveTracking();
+    @GetMapping("/{id}")
+    public List<TrackingResponseDto> getActiveUserTracking(@PathVariable @NotNull UUID id) {
+        return trackingService.findUserActiveTracking(id);
     }
 
     @PostMapping
