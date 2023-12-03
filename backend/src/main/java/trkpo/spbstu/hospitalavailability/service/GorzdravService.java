@@ -62,7 +62,7 @@ public class GorzdravService {
             );
         } catch (Exception e) {
             errorNum++;
-            logger.warning("cannot parse JSONObject, error number: " + errorNum);
+            logger.warning("Cannot parse JSONObject, error number: " + errorNum);
         }
         return null;
     }
@@ -100,7 +100,7 @@ public class GorzdravService {
             );
         } catch (Exception e) {
             errorNum++;
-            logger.warning("cannot parse JSONObject, error number: " + errorNum);
+            logger.warning("Cannot parse JSONObject, error number: " + errorNum);
         }
         return null;
     }
