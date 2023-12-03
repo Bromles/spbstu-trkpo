@@ -2,11 +2,11 @@ package trkpo.spbstu.hospitalavailability.service;
 
 import lombok.RequiredArgsConstructor;
 import org.json.JSONObject;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.TransactionException;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.transaction.support.TransactionTemplate;
 import org.springframework.web.client.RestTemplate;
@@ -85,6 +85,7 @@ public class TrackingService {
 
     @SuppressWarnings("squid:S6809")
     @Scheduled(fixedRate = 15, timeUnit = TimeUnit.MINUTES)
+    @Qualifier("requestNewTemplate")
     @Transactional
     public void waitingFreeAppointments() {
         List<Tracking> activeTracking = trackingRepository.findByIsFinishedFalse();
@@ -93,8 +94,6 @@ public class TrackingService {
         }
     }
 
-    @Transactional()
-    //что делать с исключениями? нужно продолжать циклс в любом случа и не откатывать все изменения в бд для других трекингов
     public void checkFreeAppointments(Tracking tracking) {
         boolean existAppointments = false;
         long id = tracking.getId();
