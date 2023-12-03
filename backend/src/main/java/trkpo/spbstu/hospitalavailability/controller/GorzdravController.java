@@ -4,7 +4,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import trkpo.spbstu.hospitalavailability.dto.DistrictResponseDto;
-import trkpo.spbstu.hospitalavailability.dto.GorzdravDistrictRsDto;
+import trkpo.spbstu.hospitalavailability.dto.GorzdravDoctorRsDto;
 import trkpo.spbstu.hospitalavailability.dto.GorzdravSpecialtiesDto;
 import trkpo.spbstu.hospitalavailability.dto.HospitalResponseDto;
 import trkpo.spbstu.hospitalavailability.service.DistrictService;
@@ -26,6 +26,12 @@ public class GorzdravController {
     @GetMapping("/district")
     public List<DistrictResponseDto> getDistricts() {
         return districtService.findAll();
+    }
+
+    @GetMapping("/doctors/{gorzdrav_hospital_id}/{gorzdrav_speciality_id}")
+    public List<GorzdravDoctorRsDto> getDoctorsBySpecialityId(@PathVariable @NotNull Long gorzdrav_hospital_id,
+                                                              @PathVariable @NotNull Long gorzdrav_speciality_id) {
+        return gorzdravService.getDoctorsBySpecialityId(gorzdrav_hospital_id, gorzdrav_speciality_id);
     }
 
     @PostMapping("/district")
