@@ -2,6 +2,7 @@ package trkpo.spbstu.hospitalavailability.service;
 
 import lombok.RequiredArgsConstructor;
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -111,26 +112,29 @@ public class GorzdravService {
 
     public List<GorzdravDoctorRsDto> getDoctorsBySpecialityId(Long hospitalId, Long specialityId) {
         errorNum = 0L;
-        String path = hospitalId + "/speciality/" + specialityId + "/doctors";
+        String path = "/schedule/lpu/" + hospitalId + "/speciality/" + specialityId + "/doctors";
         ResponseEntity<String> response = restTemplate.getForEntity(path, String.class);
-
+        System.out.println("response " + response);
         if (response.getStatusCode() == HttpStatus.BAD_GATEWAY || response.getStatusCode() == HttpStatus.SERVICE_UNAVAILABLE) {
             logger.warning(response.getStatusCode() + " " + response.getStatusCode().getReasonPhrase());
             throw new BackendUnavailableException("Gorzdrav is unavailable: " + response.getStatusCode().getReasonPhrase());
         }
 
         String responseBody = response.getBody();
-        JSONArray array = new JSONObject(responseBody).getJSONArray("result");
-
-        List<GorzdravDoctorRsDto> doctorsRs = new ArrayList<>();
-        for (int i = 0; i < array.length(); i++) {
-            JSONObject jsObj = array.getJSONObject(i);
-            var doctor = convertToDoctorsDto(jsObj);
-            if (doctor != null) {
-                doctorsRs.add(doctor);
+        try {
+            JSONArray array = new JSONObject(responseBody).getJSONArray("result");
+            List<GorzdravDoctorRsDto> doctorsRs = new ArrayList<>();
+            for (int i = 0; i < array.length(); i++) {
+                JSONObject jsObj = array.getJSONObject(i);
+                var doctor = convertToDoctorsDto(jsObj);
+                if (doctor != null) {
+                    doctorsRs.add(doctor);
+                }
             }
+            return doctorsRs;
+        } catch (JSONException ex) {  // исключение, если отсутствуют специалисты для приёма по выбранной специальности
+            return new ArrayList<>();
         }
-        return doctorsRs;
     }
 
     private GorzdravDoctorRsDto convertToDoctorsDto(JSONObject jsObj) {
