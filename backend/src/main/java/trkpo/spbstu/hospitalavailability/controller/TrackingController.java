@@ -31,7 +31,6 @@ public class TrackingController {
 
     @PostMapping
     public TrackingResponseDto addTracking(@Valid @RequestBody TrackingRequestDto trackingRequestDto) {
-        //здесь надо запустить таску на отслеживание
         return trackingService.addTracking(trackingRequestDto);
     }
 }
