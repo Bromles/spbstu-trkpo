@@ -12,7 +12,7 @@ public class ApplicationConfig {
     @Bean
     public RestTemplate getRestTemplate(RestTemplateBuilder restTemplateBuilder) {
         return restTemplateBuilder
-                .rootUri("https://gorzdrav.spb.ru/_api/api/v2/shared/")
+                .rootUri("https://gorzdrav.spb.ru/_api/api/v2/")
                 .build();
     }
 
