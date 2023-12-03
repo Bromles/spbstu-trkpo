@@ -60,8 +60,7 @@ public class GorzdravService {
                     jsObj.get("lpuShortName").toString(),
                     jsObj.get("phone").toString()
             );
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             errorNum++;
             logger.warning("cannot parse JSONObject, error number: " + errorNum);
         }
@@ -99,8 +98,7 @@ public class GorzdravService {
                     Long.parseLong(jsObj.get("id").toString()),
                     jsObj.get("name").toString()
             );
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             errorNum++;
             logger.warning("cannot parse JSONObject, error number: " + errorNum);
         }

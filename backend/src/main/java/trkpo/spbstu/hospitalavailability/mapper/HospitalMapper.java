@@ -1,7 +1,6 @@
 package trkpo.spbstu.hospitalavailability.mapper;
 
 import org.mapstruct.Mapper;
-import org.mapstruct.Mapping;
 import org.mapstruct.ReportingPolicy;
 import trkpo.spbstu.hospitalavailability.dto.HospitalResponseDto;
 import trkpo.spbstu.hospitalavailability.entity.Hospital;
