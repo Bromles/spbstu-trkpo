@@ -7,6 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.transaction.support.TransactionTemplate;
 import org.springframework.web.client.RestTemplate;
@@ -85,8 +86,7 @@ public class TrackingService {
 
     @SuppressWarnings("squid:S6809")
     @Scheduled(fixedRate = 15, timeUnit = TimeUnit.MINUTES)
-    @Qualifier("requestNewTemplate")
-    @Transactional
+    @Transactional(propagation = Propagation.REQUIRES_NEW)
     public void waitingFreeAppointments() {
         List<Tracking> activeTracking = trackingRepository.findByIsFinishedFalse();
         for(Tracking tracking : activeTracking) {
@@ -94,6 +94,7 @@ public class TrackingService {
         }
     }
 
+    @Transactional
     public void checkFreeAppointments(Tracking tracking) {
         boolean existAppointments = false;
         long id = tracking.getId();
