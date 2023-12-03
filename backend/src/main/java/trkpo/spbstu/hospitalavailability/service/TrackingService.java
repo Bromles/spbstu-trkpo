@@ -9,6 +9,8 @@ import com.github.dockerjava.zerodep.shaded.org.apache.hc.core5.http.io.entity.E
 import lombok.RequiredArgsConstructor;
 import org.json.JSONArray;
 import org.json.JSONObject;
+import org.springframework.scheduling.annotation.Async;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import trkpo.spbstu.hospitalavailability.dto.GorzdravSpecialtiesDto;
@@ -29,9 +31,11 @@ import trkpo.spbstu.hospitalavailability.utils.SecurityUtils;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.sql.Timestamp;
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
+import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
 
 @Service
@@ -77,6 +81,37 @@ public class TrackingService {
         return trackingMapper.toTrackingDto(trackingRepository.save(tracking));
     }
 
+    @Async
+    @Scheduled(fixedRate = 15, timeUnit = TimeUnit.MINUTES)
+    @Transactional // так как updateTrackingFinishedById()?
+    //как обрабатывать исключения?
+    // что будет если парально пойдет обновление больниц
+    // что будет если паральльно пойдет два потока отслеживания
+    //что будет если удалим трекинг во ввремя отслеживания
+    public void waitingFreeAppointments() {
+        List<Tracking> activeTracking = trackingRepository.findByIsFinishedFalse();
+        for(Tracking tracking : activeTracking) {
+            long id = tracking.getId();
+            Long doctorId = tracking.getDoctorId();
+            boolean existAppointments;
+            if (doctorId == null) {
+                existAppointments = existsSpecialtiesAppointments(tracking.getHospital().getGorzdravId(), tracking.getDirectionId());
+            } else {
+                existAppointments = existsDoctorsAppointments(tracking.getHospital().getGorzdravId(), tracking.getDoctorId());
+            }
+            if (existAppointments ) {
+                trackingRepository.updateTrackingFinishedById(false, id);
+                //sendMessage
+            } else {
+                long durationDays = Duration.between(tracking.getDate(), new Timestamp(System.currentTimeMillis()).toLocalDateTime()).toDays();
+                if (durationDays>=60) {
+                    trackingRepository.updateTrackingFinishedById(false, id);
+                    //sendMessage sorry много времени прошло
+                }
+            }
+        }
+    }
+
     private Tracking findActiveTrackingById(Long id) {
         List<Tracking> activeTracking = trackingRepository.findByIsFinishedFalse();
         return activeTracking.stream()
@@ -105,7 +140,7 @@ public class TrackingService {
         }
     }
 
-    private boolean existsSpecialtiesAppointments(Long gorzdravHospitalId, Long id) {
+    private boolean existsSpecialtiesAppointments(Long gorzdravHospitalId, Long specialtiesId) {
         try (CloseableHttpClient httpClient = HttpClients.createDefault()) {
             final HttpGet httpGet = new HttpGet(BASE_URL + gorzdravHospitalId + "/specialties");
 
@@ -125,7 +160,7 @@ public class TrackingService {
                     }
                 }
                 GorzdravSpecialtiesDto special = specialties.stream()
-                        .filter(specialtiesDto -> id.equals(specialtiesDto.getId()))
+                        .filter(specialtiesDto -> specialtiesId.equals(specialtiesDto.getId()))
                         .findFirst().orElseThrow(() -> new NotFoundException("not found specialties"));
 
                 return special.getCountFreeTicket() > 0 ;
