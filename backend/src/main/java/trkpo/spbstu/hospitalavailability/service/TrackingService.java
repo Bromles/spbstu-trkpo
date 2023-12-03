@@ -53,7 +53,7 @@ public class TrackingService {
     public long deleteTracking(Long id) {
         Tracking tracking = findActiveTrackingById(id);
         if (tracking == null) {
-            throw new NotFoundException("Not found tracking");
+            throw new NotFoundException("Tracking not found");
         }
         if (!SecurityUtils.getUserKey().equals(tracking.getClient().getKeycloakId().toString())) {
             throw new ForbiddenException("No access to delete tracking");
@@ -62,19 +62,24 @@ public class TrackingService {
     }
 
     public List<TrackingResponseDto> findUserActiveTracking(Long clientId) {
-        Client client = clientRepository.findById(clientId).orElseThrow(() -> new NotFoundException("Not found client"));
+        Client client = clientRepository.findById(clientId)
+                .orElseThrow(() -> new NotFoundException("Client not found"));
+
         if (!SecurityUtils.getUserKey().equals(client.getKeycloakId().toString())) {
             throw new ForbiddenException("No access to delete tracking");
         }
+
         return trackingMapper.toTrackingDto(trackingRepository.findByIsFinishedFalseAndClientId(clientId));
     }
 
     @Transactional
     public TrackingResponseDto addTracking(TrackingRequestDto requestDto) {
         Hospital hospital = hospitalRepository.findById(requestDto.getHospitalId())
-                .orElseThrow(() -> new NotFoundException("Not found hospital"));
+                .orElseThrow(() -> new NotFoundException("Hospital not found"));
+
         Client client = clientRepository.findFirstByKeycloakId(UUID.fromString(SecurityUtils.getUserKey()))
                 .orElseThrow(() -> new ForbiddenException("No access to add tracking"));
+
         Tracking tracking = new Tracking(requestDto, hospital, client);
         tracking.setFinished(false);
         tracking.setDate(new Timestamp(System.currentTimeMillis()).toLocalDateTime());
