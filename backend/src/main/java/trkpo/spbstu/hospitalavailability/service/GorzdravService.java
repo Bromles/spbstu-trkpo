@@ -8,9 +8,13 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 import trkpo.spbstu.hospitalavailability.dto.GorzdravDistrictRsDto;
+import trkpo.spbstu.hospitalavailability.dto.GorzdravDoctorRsDto;
 import trkpo.spbstu.hospitalavailability.dto.GorzdravHospitalRsDto;
 import trkpo.spbstu.hospitalavailability.exception.BackendUnavailableException;
 
+import java.io.IOException;
+import java.net.URISyntaxException;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
@@ -26,7 +30,7 @@ public class GorzdravService {
 
     public List<GorzdravHospitalRsDto> getHospitals() {
         errorNum = 0L;
-        ResponseEntity<String> response = restTemplate.getForEntity("/lpus", String.class);
+        ResponseEntity<String> response = restTemplate.getForEntity("/shared/lpus", String.class);
 
         if (response.getStatusCode() == HttpStatus.BAD_GATEWAY || response.getStatusCode() == HttpStatus.SERVICE_UNAVAILABLE) {
             logger.warning(response.getStatusCode() + " " + response.getStatusCode().getReasonPhrase());
@@ -70,7 +74,7 @@ public class GorzdravService {
     public List<GorzdravDistrictRsDto> getDistricts() {
         errorNum = 0L;
 
-        ResponseEntity<String> response = restTemplate.getForEntity("/districts", String.class);
+        ResponseEntity<String> response = restTemplate.getForEntity("/shared/districts", String.class);
 
         if (response.getStatusCode() == HttpStatus.BAD_GATEWAY || response.getStatusCode() == HttpStatus.SERVICE_UNAVAILABLE) {
             logger.warning(response.getStatusCode() + " " + response.getStatusCode().getReasonPhrase());
@@ -104,4 +108,42 @@ public class GorzdravService {
         }
         return null;
     }
+
+    public List<GorzdravDoctorRsDto> getDoctorsBySpecialityId(Long hospitalId, Long specialityId) {
+        errorNum = 0L;
+        String path = hospitalId + "/speciality/" + specialityId + "/doctors";
+        ResponseEntity<String> response = restTemplate.getForEntity(path, String.class);
+
+        if (response.getStatusCode() == HttpStatus.BAD_GATEWAY || response.getStatusCode() == HttpStatus.SERVICE_UNAVAILABLE) {
+            logger.warning(response.getStatusCode() + " " + response.getStatusCode().getReasonPhrase());
+            throw new BackendUnavailableException("Gorzdrav is unavailable: " + response.getStatusCode().getReasonPhrase());
+        }
+
+        String responseBody = response.getBody();
+        JSONArray array = new JSONObject(responseBody).getJSONArray("result");
+
+        List<GorzdravDoctorRsDto> doctorsRs = new ArrayList<>();
+        for (int i = 0; i < array.length(); i++) {
+            JSONObject jsObj = array.getJSONObject(i);
+            var doctor = convertToDoctorsDto(jsObj);
+            if (doctor != null) {
+                doctorsRs.add(doctor);
+            }
+        }
+        return doctorsRs;
+    }
+
+    private GorzdravDoctorRsDto convertToDoctorsDto(JSONObject jsObj) {
+        try {
+            return new GorzdravDoctorRsDto(
+                    Long.parseLong(jsObj.get("id").toString()),
+                    jsObj.get("name").toString()
+            );
+        } catch (Exception e) {
+            errorNum++;
+            logger.warning("Cannot parse JSONObject, error number: " + errorNum);
+        }
+        return null;
+    }
+
 }
