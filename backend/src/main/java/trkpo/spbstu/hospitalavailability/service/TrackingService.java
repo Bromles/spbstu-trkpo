@@ -71,7 +71,7 @@ public class TrackingService {
 
     @Transactional
     public TrackingResponseDto addTracking(TrackingRequestDto requestDto) {
-        Hospital hospital = hospitalRepository.findByGorzdravId(requestDto.getHospitalId())
+        Hospital hospital = hospitalRepository.findById(requestDto.getHospitalId())
                 .orElseThrow(() -> new NotFoundException("Hospital not found"));
 
         Client client = clientRepository.findFirstByKeycloakId(UUID.fromString(SecurityUtils.getUserKey()))
