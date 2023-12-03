@@ -110,11 +110,10 @@ public class GorzdravService {
         return null;
     }
 
-    public List<GorzdravDoctorRsDto> getDoctorsBySpecialityId(Long hospitalId, Long specialityId) {
+    public List<GorzdravDoctorRsDto> getDoctorsBySpecialityId(Long GorzdravHospitalId, Long GorzdravSpecialityId) {
         errorNum = 0L;
-        String path = "/schedule/lpu/" + hospitalId + "/speciality/" + specialityId + "/doctors";
+        String path = "/schedule/lpu/" + GorzdravHospitalId + "/speciality/" + GorzdravSpecialityId + "/doctors";
         ResponseEntity<String> response = restTemplate.getForEntity(path, String.class);
-        System.out.println("response " + response);
         if (response.getStatusCode() == HttpStatus.BAD_GATEWAY || response.getStatusCode() == HttpStatus.SERVICE_UNAVAILABLE) {
             logger.warning(response.getStatusCode() + " " + response.getStatusCode().getReasonPhrase());
             throw new BackendUnavailableException("Gorzdrav is unavailable: " + response.getStatusCode().getReasonPhrase());
@@ -133,7 +132,7 @@ public class GorzdravService {
             }
             return doctorsRs;
         } catch (JSONException ex) {  // исключение, если отсутствуют специалисты для приёма по выбранной специальности
-            return new ArrayList<>();
+            return new ArrayList<>(); // поэтому возвращаем пустой лист
         }
     }
 
