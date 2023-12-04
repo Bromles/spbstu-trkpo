@@ -38,6 +38,12 @@
   gap: 20px;
   background-color: lightcoral;
 }
+.form_section_success {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  background-color: lightgreen;
+}
 
 .label {
   display: flex;

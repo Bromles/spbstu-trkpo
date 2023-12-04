@@ -1,8 +1,8 @@
-import {useEffect, useState} from "react";
+import {useCallback, useEffect, useState} from "react";
 import styles from "./Tracking.module.css";
 import {useAuth} from "react-oidc-context";
 
-interface TrackingItemProps {
+type TrackingItemProps = {
     id: number;
     directionId: number;
     doctorId: number;
@@ -12,52 +12,59 @@ interface TrackingItemProps {
     hospitalGorzdravId: number;
     hospitalFullName: string;
 }
-function parseJwt(token: string) {
-    try {
-        return JSON.parse(atob(token.split(".")[1]));
-    } catch (e) {
-        return null;
-    }
+
+const backendURL =
+    import.meta.env.VITE_DEV === 'true'
+        ? import.meta.env.VITE_DEV_BACKEND_URL
+        : import.meta.env.VITE_PROD_BACKEND_URL;
+
+type TrackingProps = {
+    reload: boolean;
 }
-
-export const Tracking = () => {
+export const Tracking = ({ reload }: TrackingProps) => {
     const [trackingItems, setTrackingItems] = useState<TrackingItemProps[]>([]);
+    const [reloadData, setReloadData] = useState(false);
+
     const auth = useAuth();
-    let uuid = -1;
-
-    if (auth && auth.user && auth.user.access_token) {
-        const token = auth.user.access_token;
-        const parsedToken = parseJwt(token);
-        uuid = parsedToken && parsedToken.sub;
-    }
-
-    const fetchData = () => {
-        fetch("http://localhost:8082/v1/tracking/" + uuid)
-            .then((response) => response.json())
-            .then((data: TrackingItemProps[]) => {
-                if (data !== null) {
-                    setTrackingItems(data);
-                }
-            });
-        };
+    // const uuid = "565c59dd-f752-4f7d-bd54-c644f313bee1"; //для теста
+    const uuid = auth.user?.profile.sub;
 
     useEffect(() => {
+        const fetchData = () => {
+            fetch(`${backendURL}/v1/tracking/${uuid}`, {
+                method: "GET",
+                headers: {
+                    Authorization: `Bearer ${auth.user?.access_token}`
+                }
+            })
+                .then((response) => response.json())
+                .then((data: TrackingItemProps[]) => {
+                    if (data !== null) {
+                        setTrackingItems(data);
+                    }
+                });
+        };
+
         fetchData();
-    });
+    }, [reloadData, reload, auth.user?.access_token, uuid]);
+
+    const handleReload = useCallback(() => {
+        setReloadData((prevState) => !prevState);
+    }, []);
 
     return (
         <div className={styles.tracking_container}>
             <h1>Отслеживание</h1>
             <div className={styles.tracking_container_content}>
                 {trackingItems.map((item) => (
-                    <TrackingItem key={item.id} item={item} onStopTracking={fetchData} />
+                    <TrackingItem key={item.id} item={item} onStopTracking={handleReload} />
                 ))}
             </div>
         </div>
     );
 };
 
-interface TrackingItemComponentProps {
+type TrackingItemComponentProps = {
     item: TrackingItemProps;
     onStopTracking: () => void;
 }
@@ -67,38 +74,42 @@ const TrackingItem: React.FC<TrackingItemComponentProps> = ({item, onStopTrackin
         directionName: string;
         doctorName: string;
     }>();
+    const auth = useAuth();
 
-    const deleteTracking = async () => {
-        try {
-            await fetch("http://localhost:8082/v1/tracking/" + item.id, {
-                method: "DELETE",
-                headers: {
-                    "Content-Type": "application/json",
-                }
-            }).then(() => {
-                onStopTracking();
-            });
-        } catch (error) {
-            console.error("Ошибка при получении данных:", error);
-        }
-    };
+    const deleteTrackingOnClick = useCallback(() => {
+        const deleteTracking = async () => {
+            try {
+                await fetch(`${backendURL}/v1/tracking/${item.id}`, {
+                    method: "DELETE",
+                    headers: {
+                        "Content-Type": "application/json",
+                        Authorization: `Bearer ${auth.user?.access_token}`
+                    }
+                }).then(() => {
+                    onStopTracking();
+                });
+            } catch (error) {
+                console.error("Ошибка при получении данных:", error);
+            }
+        };
+        deleteTracking();
+    }, [item.id, onStopTracking, auth.user?.access_token]);
 
     useEffect(() => {
-        fetch("http://localhost:8082/v1/gorzdrav/trackingInfo", {
-            method: "POST",
+        let doctorId = item.doctorId;
+        if (doctorId == null) {
+            doctorId = -1;
+        }
+        fetch(`${backendURL}/v1/gorzdrav/trackingInfo/${item.hospitalGorzdravId}/${item.directionId}/${doctorId}`, {
+            method: "GET",
             headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify({
-                hospitalId: item.hospitalId,
-                directionId: item.directionId,
-                doctorId: item.doctorId
-            }),
+                Authorization: `Bearer ${auth.user?.access_token}`
+            }
         })
             .then((response) => response.json())
             .then((data) => setHospitalInfo(data))
             .catch((error) => console.error('Ошибка при получении данных:', error));
-    }, [item.id, item.directionId, item.doctorId, item.hospitalId]);
+    }, [item.id, item.directionId, item.doctorId, item.hospitalGorzdravId, auth.user?.access_token]);
 
     return (
         <div className={styles.trackingItem}>
@@ -107,7 +118,7 @@ const TrackingItem: React.FC<TrackingItemComponentProps> = ({item, onStopTrackin
                 <h3>Направление:</h3> {hospitalInfo?.directionName}<br />
                 <h3>Врач:</h3> {hospitalInfo?.doctorName}
             </p>
-            <button type="button" onClick={deleteTracking}>
+            <button type="button" onClick={deleteTrackingOnClick}>
                 Перестать отслеживать
             </button>
         </div>

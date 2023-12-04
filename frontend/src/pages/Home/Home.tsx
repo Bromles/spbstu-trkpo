@@ -6,22 +6,34 @@ import {DistrictSelection} from "@/components/Selection/DistrictDelection";
 import {HospitalSelection} from "@/components/Selection/HospitalSelection";
 import {DoctorSelection} from "@/components/Selection/DoctorSelection";
 import {Tracking} from "@/components/Tracking/Tracking";
+import {useAuth} from "react-oidc-context";
 
 export const Home = () => {
+  const [reloadTracking, setReloadTracking] = useState(false);
+
+  const triggerReloadTracking = () => {
+    setReloadTracking((prevState) => !prevState);
+  };
+
   return (
     <div className={styles.layout}>
-      <Enrollment />
+      <Enrollment onSubmit={triggerReloadTracking} />
       <div className={styles.divider}></div>
-      <Tracking />
+      <Tracking reload={reloadTracking} />
     </div>
   );
 };
 
-const Enrollment = () => {
+type EnrollmentProps = {
+  onSubmit: () => void;
+}
+
+const Enrollment = ({ onSubmit }: EnrollmentProps) => {
   const [selectedDistrictId, setSelectedDistrictId] = useState<number>(-1);
   const [selectedHospitalId, setSelectedHospitalId] = useState<number>(-1);
   const [selectedDirectionId, setSelectedDirectionId] = useState<number>(-1);
   const [selectedDoctorId, setSelectedDoctorId] = useState<number>(-1);
+  const auth = useAuth();
 
   const formHandler = useCallback( (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -31,17 +43,18 @@ const Enrollment = () => {
             : import.meta.env.VITE_DEV_BACKEND_URL;
     const sendData = async () => {
       let body;
+      const errorSection = document.getElementById("errorSection");
+      const successSection = document.getElementById("successSection");
       if (selectedDirectionId === -1 || selectedHospitalId === -1) {
-        const errorSection = document.getElementById("errorSection");
         if (errorSection !== null) {
           errorSection.textContent = "Некорректные данные";
         }
-        throw new Error('Некорректные данные');
-      } else {
-        const errorSection = document.getElementById("errorSection");
-        if (errorSection !== null) {
-          errorSection.textContent = null;
+        if (successSection !== null) {
+          successSection.textContent = null;
         }
+        throw new Error('Некорректные данные');
+      } else if (errorSection !== null) {
+          errorSection.textContent = null;
       }
       if (selectedDoctorId !== -1) {
         body = JSON.stringify({
@@ -60,22 +73,30 @@ const Enrollment = () => {
           method: "POST",
           headers: {
             'Content-Type': 'application/json',
+            Authorization: `Bearer ${auth.user?.access_token}`
           },
           body:body,
         });
 
         if (response.ok) {
+          if (successSection !== null) {
+            successSection.textContent = "Успех!";
+          }
           console.log("Отслеживание успешно начато!");
         } else {
+          if (errorSection !== null) {
+            errorSection.textContent = "Ошибка при отправке данных.";
+          }
           console.error("Ошибка при отправке данных.");
         }
       } catch (error) {
         console.error("Ошибка во время запроса:", error);
       }
+      onSubmit();
     };
 
     sendData();
-  }, [selectedHospitalId, selectedDirectionId, selectedDoctorId]);
+  }, [selectedHospitalId, selectedDirectionId, selectedDoctorId, onSubmit, auth.user?.access_token]);
 
   return (
     <div>
@@ -106,6 +127,7 @@ const Enrollment = () => {
               <button type="submit">Отслеживать</button>
             </form>
             <div className={styles.form_section_error} id = "errorSection"></div>
+            <div className={styles.form_section_success} id = "successSection"></div>
           </div>
         </div>
         <HospitalMap />

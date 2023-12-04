@@ -13,7 +13,6 @@ import trkpo.spbstu.hospitalavailability.dto.GorzdravDistrictRsDto;
 import trkpo.spbstu.hospitalavailability.dto.GorzdravDoctorRsDto;
 import trkpo.spbstu.hospitalavailability.dto.GorzdravHospitalRsDto;
 import trkpo.spbstu.hospitalavailability.dto.GorzdravSpecialtiesDto;
-import trkpo.spbstu.hospitalavailability.dto.TrackingInfoRqDto;
 import trkpo.spbstu.hospitalavailability.dto.TrackingInfoRsDto;
 import trkpo.spbstu.hospitalavailability.exception.BackendUnavailableException;
 import trkpo.spbstu.hospitalavailability.exception.NotFoundException;
@@ -75,10 +74,7 @@ public class GorzdravService {
         return districtsRs;
     }
 
-    public TrackingInfoRsDto getTrackingInfo(TrackingInfoRqDto trackingInfoRqDto) {
-        Long doctorId = trackingInfoRqDto.getDoctorId();
-        Long hospitalId = trackingInfoRqDto.getHospitalId();
-        Long directionId = trackingInfoRqDto.getDirectionId();
+    public TrackingInfoRsDto getTrackingInfo(Long hospitalId, Long directionId, Long doctorId) {
         String doctorName = "Без разницы";
         if (doctorId != null && doctorId != -1) {
             doctorName = getDoctornName(doctorId, directionId, hospitalId);
@@ -161,14 +157,18 @@ public class GorzdravService {
         checkStatusCode(response);
 
         String responseBody = response.getBody();
-        JSONArray array = new JSONObject(responseBody).getJSONArray("result");
-        for (int i = 0; i < array.length(); i++) {
-            JSONObject jsObj = array.getJSONObject(i);
-            if (jsObj.get("id").toString().equals(id.toString())) {
-                return jsObj.get("name").toString();
+        try {
+            JSONArray array = new JSONObject(responseBody).getJSONArray("result");
+            for (int i = 0; i < array.length(); i++) {
+                JSONObject jsObj = array.getJSONObject(i);
+                if (jsObj.get("id").toString().equals(id.toString())) {
+                    return jsObj.get("name").toString();
+                }
             }
+        } catch (Exception e) {
+            return "Нет информации";
         }
-        throw new NotFoundException("Doctor not found");
+        return "Нет информации";
     }
 
     private GorzdravDistrictRsDto convertToDistrictDto(JSONObject jsObj) {
