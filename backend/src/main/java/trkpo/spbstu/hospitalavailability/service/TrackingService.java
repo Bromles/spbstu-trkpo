@@ -19,6 +19,7 @@ import trkpo.spbstu.hospitalavailability.utils.SecurityUtils;
 import java.sql.Timestamp;
 import java.util.List;
 import java.util.UUID;
+import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
@@ -42,7 +43,14 @@ public class TrackingService {
     }
 
     public List<TrackingResponseDto> findUserActiveTracking(UUID id) {
-        return trackingMapper.toTrackingDto(trackingRepository.findByIsFinishedFalseAndClientKeycloakId(id));
+        List<Tracking> trackings = trackingRepository.findByIsFinishedFalseAndClientKeycloakId(id).stream()
+                .peek(tracking -> {
+                    if (tracking.getDoctorId() == -1L) {
+                        tracking.setDoctorId(null);
+                    }
+                })
+                .collect(Collectors.toList());
+        return trackingMapper.toTrackingDto(trackings);
     }
 
     @Transactional
@@ -52,7 +60,9 @@ public class TrackingService {
 
         Client client = clientRepository.findFirstByKeycloakId(UUID.fromString(SecurityUtils.getUserKey()))
                 .orElseThrow(() -> new ForbiddenException("No access to add tracking"));
-
+        if(requestDto.getDoctorId() == null) {
+            requestDto.setDoctorId(-1L);
+        }
         Tracking tracking = new Tracking(requestDto, hospital, client);
         tracking.setFinished(false);
         tracking.setDate(new Timestamp(System.currentTimeMillis()).toLocalDateTime());
