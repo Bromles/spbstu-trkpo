@@ -23,7 +23,7 @@ public class DistrictService {
     private final DistrictRepository districtRepository;
     private final DistrictMapper districtMapper;
     private final GorzdravService gorzdravService;
-    private final TransactionTemplate transactionTemplate;
+    private final TransactionTemplate simpleTransactionTemplate;
 
     @PersistenceContext
     private EntityManager entityManager;
@@ -37,7 +37,7 @@ public class DistrictService {
     @Transactional
     public void updateAll() {
         List<GorzdravDistrictRsDto> districts = gorzdravService.getDistricts();
-        transactionTemplate.executeWithoutResult(txStatus -> insertOrUpdate(districts));
+        simpleTransactionTemplate.executeWithoutResult(txStatus -> insertOrUpdate(districts));
     }
 
     @Transactional

@@ -11,11 +11,10 @@ import org.springframework.web.client.RestTemplate;
 import trkpo.spbstu.hospitalavailability.dto.GorzdravDistrictRsDto;
 import trkpo.spbstu.hospitalavailability.dto.GorzdravDoctorRsDto;
 import trkpo.spbstu.hospitalavailability.dto.GorzdravHospitalRsDto;
+import trkpo.spbstu.hospitalavailability.dto.GorzdravSpecialtiesDto;
 import trkpo.spbstu.hospitalavailability.exception.BackendUnavailableException;
+import trkpo.spbstu.hospitalavailability.exception.NotFoundException;
 
-import java.io.IOException;
-import java.net.URISyntaxException;
-import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
@@ -97,6 +96,28 @@ public class GorzdravService {
         return districtsRs;
     }
 
+    public List<GorzdravSpecialtiesDto> getSpecialties(Long gorzdravHospitalId) {
+        ResponseEntity<String> response = restTemplate.getForEntity("/schedule/lpu/" + gorzdravHospitalId + "/specialties", String.class);
+        if (response.getStatusCode() == HttpStatus.BAD_GATEWAY || response.getStatusCode() == HttpStatus.SERVICE_UNAVAILABLE) {
+            logger.warning(response.getStatusCode() + " " + response.getStatusCode().getReasonPhrase());
+            throw new BackendUnavailableException("Gorzdrav is unavailable: " + response.getStatusCode().getReasonPhrase());
+        }
+        String responseBody = response.getBody();
+        if(!new JSONObject(responseBody).getBoolean("success")) {
+            throw new NotFoundException("Hospital or specialties not found");
+        }
+        JSONArray array = new JSONObject(responseBody).getJSONArray("result");
+        List<GorzdravSpecialtiesDto> specialties = new ArrayList<>();
+        for (int i = 0; i < array.length(); i++) {
+            JSONObject jsObj = array.getJSONObject(i);
+            var special= convertToSpecialtiesDto(jsObj);
+            if (special!= null) {
+                specialties.add(special);
+            }
+        }
+        return specialties;
+    }
+
     private GorzdravDistrictRsDto convertToDistrictDto(JSONObject jsObj) {
         try {
             return new GorzdravDistrictRsDto(
@@ -149,4 +170,17 @@ public class GorzdravService {
         return null;
     }
 
+
+    private GorzdravSpecialtiesDto convertToSpecialtiesDto(JSONObject jsObj) {
+        try {
+            return new GorzdravSpecialtiesDto(
+                    Long.parseLong(jsObj.get("id").toString()),
+                    Long.parseLong(jsObj.get("countFreeTicket").toString()),
+                    jsObj.get("name").toString()
+            );
+        } catch (Exception e) {
+            logger.warning("Cannot parse JSONObject");
+        }
+        return null;
+    }
 }

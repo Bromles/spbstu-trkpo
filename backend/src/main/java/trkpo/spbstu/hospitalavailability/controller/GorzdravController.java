@@ -5,6 +5,7 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import trkpo.spbstu.hospitalavailability.dto.DistrictResponseDto;
 import trkpo.spbstu.hospitalavailability.dto.GorzdravDoctorRsDto;
+import trkpo.spbstu.hospitalavailability.dto.GorzdravSpecialtiesDto;
 import trkpo.spbstu.hospitalavailability.dto.HospitalResponseDto;
 import trkpo.spbstu.hospitalavailability.service.DistrictService;
 import trkpo.spbstu.hospitalavailability.service.GorzdravService;
@@ -41,6 +42,11 @@ public class GorzdravController {
     @GetMapping("/hospital")
     public List<HospitalResponseDto> getHospitals() {
         return hospitalService.findAll();
+    }
+
+    @GetMapping("/specialties/{hospitalId}")
+    public List<GorzdravSpecialtiesDto> getSpecialties(@PathVariable @NotNull Long hospitalId) {
+        return gorzdravService.getSpecialties(hospitalId);
     }
 
     @PostMapping("/hospital")
