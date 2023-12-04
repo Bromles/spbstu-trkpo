@@ -119,7 +119,7 @@ const TrackingItem: React.FC<TrackingItemComponentProps> = ({item, onStopTrackin
                 <h3>Врач:</h3> {hospitalInfo?.doctorName}
             </p>
             <button type="button" onClick={deleteTrackingOnClick}>
-                Перестать отслеживать
+                Закончить отслеживание
             </button>
         </div>
     );

@@ -108,9 +108,9 @@ const Enrollment = ({ onSubmit }: EnrollmentProps) => {
             <h3>Инструкция:</h3>
             1. Выберите район, больницу и направление (врача опционально).
             Также у вас есть возможность выбрать больницу при помощи карты ниже<br />
-            2. Нажмите кнопку <b>"Отслеживать"</b><br />
+            2. Нажмите кнопку <b>"Начать отслеживание"</b><br />
             3. Ждите письмо на почту, с помощью которой регистрировались<br />
-            4. Если вы хотите перестать отслеживать талон, нажмите кнопку <b>"Перестать отслеживать"</b> в правой части экрана<br />
+            4. Если вы хотите перестать отслеживать талон, нажмите кнопку <b>"Закончить отслеживание"</b> в правой части экрана<br />
           </div>
         </div>
         <div className={styles.form_container}>
@@ -125,7 +125,7 @@ const Enrollment = ({ onSubmit }: EnrollmentProps) => {
                   selectedHospitalId={selectedHospitalId}
                   onDoctorChange={(doctorId) => setSelectedDoctorId(doctorId)} />
               <div defaultValue={selectedDoctorId}></div>
-              <button type="submit">Отслеживать</button>
+              <button type="submit">Начать отслеживание</button>
             </form>
             <div className={styles.form_section_error} id = "errorSection"></div>
             <div className={styles.form_section_success} id = "successSection"></div>
