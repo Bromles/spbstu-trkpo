@@ -1,38 +1,39 @@
-import {ChangeEvent, useEffect} from "react";
+import {ChangeEvent, useCallback, useEffect, useState} from "react";
 import styles from "@/pages/Home/Home.module.css";
 
-interface District {
+type District = {
     id: number;
     gorzdravId: number;
     name: string;
 }
 
-interface DistrictSelectionProps {
+type DistrictSelectionProps = {
     onChange: (selectedDistrict: number) => void;
 }
 export const DistrictSelection = ({ onChange }: DistrictSelectionProps) => {
-    const handleDistrictChange = (event: ChangeEvent<HTMLSelectElement>) => {
+    const [districts, setDistricts] = useState<District[]>([]);
+
+    const handleDistrictChange = useCallback((event: ChangeEvent<HTMLSelectElement>) => {
         const selectedDistrict = parseInt(event.target.value, 10);
         onChange(selectedDistrict);
-    };
-    const fetchData = () => {
-        fetch('http://localhost:8082/v1/gorzdrav/district')
-            .then((response) => response.json())
-            .then((data: District[]) => {
-                const districtSelect = document.getElementById('districtSelect') as HTMLSelectElement;
-                data.forEach((district) => {
-                    const option = document.createElement('option');
-                    option.value = district.gorzdravId.toString();
-                    option.textContent = district.name;
-                    districtSelect.appendChild(option);
-                });
-            })
-            .catch((error) => {
-                console.error('Ошибка при получении данных:', error);
-            });
-    };
+    }, [onChange]);
 
     useEffect(() => {
+        const backendURL =
+            import.meta.env.VITE_DEV === 'true'
+                ? import.meta.env.VITE_DEV_BACKEND_URL
+                : import.meta.env.VITE_PROD_BACKEND_URL;
+
+        const fetchData = async () => {
+            try {
+                const response = await fetch(`${backendURL}/v1/gorzdrav/district`);
+                const data: District[] = await response.json();
+                setDistricts(data);
+            } catch (error) {
+                console.error('Ошибка при получении данных:', error);
+            }
+        };
+
         fetchData();
     }, []);
 
@@ -45,6 +46,11 @@ export const DistrictSelection = ({ onChange }: DistrictSelectionProps) => {
                 <option selected value="-1">
                     Выберите район
                 </option>
+                {districts.map((district) => (
+                    <option value={district.gorzdravId.toString()} key={district.gorzdravId}>
+                        {district.name}
+                    </option>
+                ))}
             </select>
         </div>
     );

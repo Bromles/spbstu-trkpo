@@ -1,58 +1,62 @@
-import {ChangeEvent, useEffect} from "react";
+import {ChangeEvent, useCallback, useEffect, useState} from "react";
 import styles from "@/pages/Home/Home.module.css";
 
-interface Doctor {
+type Doctor = {
     id: number;
     countFreeTicket: number;
     name: string;
 }
 
-interface DoctorSelectionProps {
+type DoctorSelectionProps = {
     selectedDirectionId: number;
+    selectedHospitalId: number;
     onDoctorChange: (selectedDoctorId: number) => void;
 }
 
-export const DoctorSelection = ({ selectedDirectionId, onDoctorChange }: DoctorSelectionProps) => {
+export const DoctorSelection = ({ selectedDirectionId, selectedHospitalId, onDoctorChange }: DoctorSelectionProps) => {
+    const [doctors, setDoctors] = useState<Doctor[]>([]);
 
-    const handleChange = (event: ChangeEvent<HTMLSelectElement>) => {
+    const handleChange = useCallback((event: ChangeEvent<HTMLSelectElement>) => {
         const selectedDoctorId = parseInt(event.target.value, 10);
         onDoctorChange(selectedDoctorId);
-    };
-
-    const fetchData = () => {
-        fetch("http://localhost:8082/v1/gorzdrav/doctor/" + selectedDirectionId.toString())
-            .then((response) => response.json())
-            .then((data: Doctor[]) => {
-                const directionSelect = document.getElementById("doctorSelect") as HTMLSelectElement;
-                directionSelect.innerHTML = "";
-
-                const defaultOption = document.createElement("option");
-                defaultOption.value = "-1";
-                defaultOption.textContent = "Выберите доктора (опционально)";
-                directionSelect.appendChild(defaultOption);
-
-                data.forEach((direction) => {
-                    const option = document.createElement("option");
-                    option.value = direction.id.toString();
-                    option.textContent = direction.name;
-                    directionSelect.appendChild(option);
-                });
-            })
-            .catch((error) => {
-                console.error("Ошибка при получении данных:", error);
-            });
-    };
+    }, [onDoctorChange]);
 
     useEffect(() => {
-        fetchData();
-    }, [selectedDirectionId]);
+        const backendURL =
+            import.meta.env.VITE_DEV === 'true'
+                ? import.meta.env.VITE_DEV_BACKEND_URL
+                : import.meta.env.VITE_PROD_BACKEND_URL;
+
+        const fetchData = async () => {
+            try {
+                const response = await fetch(`${backendURL}/v1/gorzdrav/doctor/` + selectedHospitalId.toString() + "/" + selectedDirectionId.toString());
+                const data = await response.json();
+                setDoctors(data);
+            } catch (error) {
+                console.error("Ошибка при получении данных:", error);
+            }
+        };
+
+        if (selectedDirectionId !== -1 && selectedHospitalId !== -1) {
+            fetchData();
+        } else {
+            setDoctors([]);
+        }
+    }, [selectedDirectionId, selectedHospitalId]);
 
     return (
         <div className={styles.form_section}>
             <label htmlFor="doctor" className={styles.label}>
                 Доктор:
             </label>
-            <select name="doctor" id="doctorSelect" onChange={handleChange}></select>
+            <select name="doctor" id="doctorSelect" onChange={handleChange}>
+                <option value="-1">Выберите доктора (опционально)</option>
+                {doctors.map((doctor) => (
+                    <option value={doctor.id.toString()} key={doctor.id}>
+                        {doctor.name}
+                    </option>
+                ))}
+            </select>
         </div>
     );
 };

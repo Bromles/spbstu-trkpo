@@ -36,7 +36,6 @@ import java.util.concurrent.TimeUnit;
 @Service
 @RequiredArgsConstructor
 public class TrackingService {
-
     private final TrackingRepository trackingRepository;
     private final TrackingMapper trackingMapper;
     private final ClientRepository clientRepository;
@@ -74,9 +73,11 @@ public class TrackingService {
         Hospital hospital = hospitalRepository.findByGorzdravId(requestDto.getHospitalId())
                 .orElseThrow(() -> new NotFoundException("Hospital not found"));
 
-        log.info("try to get client keycloakId");
+        log.info("try to get client by keycloakId");
         Client client = clientRepository.findFirstByKeycloakId(UUID.fromString(SecurityUtils.getUserKey()))
                 .orElseThrow(() -> new ForbiddenException("No access to add tracking"));
+        log.info("Success getting client with id: " + client.getId());
+
         if(requestDto.getDoctorId() == null) {
             requestDto.setDoctorId(-1L);
         }

@@ -2,6 +2,7 @@ package trkpo.spbstu.hospitalavailability.config;
 
 import com.nimbusds.jose.shaded.json.JSONArray;
 import com.nimbusds.jose.shaded.json.JSONObject;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.convert.converter.Converter;
@@ -24,6 +25,7 @@ import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Slf4j
 @Configuration
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
@@ -32,6 +34,8 @@ public class WebSecurityConfig {
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http
+                .cors()
+                .and()
                 .csrf().disable()
                 .authorizeRequests(authorizeRequests -> authorizeRequests
                         .antMatchers(HttpMethod.OPTIONS, "/**").permitAll()
@@ -58,7 +62,7 @@ public class WebSecurityConfig {
         config.addAllowedMethod(CorsConfiguration.ALL);
 
         source.registerCorsConfiguration("/**", config);
-
+        log.info("cors() was called");
         return new CorsFilter(source);
     }
 

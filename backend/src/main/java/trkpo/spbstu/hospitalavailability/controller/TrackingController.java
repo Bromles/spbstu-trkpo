@@ -16,6 +16,7 @@ import java.util.UUID;
 @RequestMapping("/v1/tracking")
 @RequiredArgsConstructor
 @Validated
+@CrossOrigin(origins = {"http://localhost:4200"})
 public class TrackingController {
 
     private final TrackingService trackingService;

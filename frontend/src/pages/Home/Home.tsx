@@ -22,8 +22,12 @@ const Enrollment = () => {
   const [selectedDirectionId, setSelectedDirectionId] = useState<number>(-1);
   const [selectedDoctorId, setSelectedDoctorId] = useState<number>(-1);
 
-  const formHandler = useCallback( async (e: FormEvent<HTMLFormElement>) => {
+  const formHandler = useCallback( (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    const backendURL =
+        import.meta.env.MODE === "production"
+            ? import.meta.env.VITE_PROD_BACKEND_URL
+            : import.meta.env.VITE_DEV_BACKEND_URL;
     const sendData = async () => {
       let body;
       if (selectedDirectionId === -1 || selectedHospitalId === -1) {
@@ -51,7 +55,7 @@ const Enrollment = () => {
         });
       }
       try {
-        const response = await fetch("http://localhost:8082/v1/tracking", {
+        const response = await fetch(`${backendURL}/v1/tracking`, {
           method: "POST",
           headers: {
             'Content-Type': 'application/json',
@@ -70,7 +74,7 @@ const Enrollment = () => {
     };
 
     sendData();
-  }, [selectedDistrictId, selectedHospitalId, selectedDirectionId, selectedDoctorId]);
+  }, [selectedHospitalId, selectedDirectionId, selectedDoctorId]);
 
   return (
     <div>
@@ -78,12 +82,12 @@ const Enrollment = () => {
         <div>
           <h1>Описание сервиса</h1>
           <div className={styles.enrollment_section}>
-            {"Супер крутой сервис, который поможет вам поймать талоны ко врачу!\u000A" +
-            "Инструкция:\r" +
-            "1. Выберите район, больницу и направление (врача опционально)\r" +
-            "2. Нажмите кнопку \"Отслеживать\"\r" +
-            "3. Ждите письмо на почту, с помощью которой регистрировались\r" +
-            "4. Если вы хотите перестать отслеживать талон, нажмите кнопку \"Перестать отслеживать\" в правой части экрана"}
+            Супер крутой сервис, который поможет вам поймать талоны ко врачу!<br />
+            <h3>Инструкция:</h3>
+            1. Выберите район, больницу и направление (врача опционально)<br />
+            2. Нажмите кнопку <b>"Отслеживать"</b><br />
+            3. Ждите письмо на почту, с помощью которой регистрировались<br />
+            4. Если вы хотите перестать отслеживать талон, нажмите кнопку <b>"Перестать отслеживать"</b> в правой части экрана<br />
           </div>
         </div>
         <div className={styles.form_container}>
@@ -95,6 +99,7 @@ const Enrollment = () => {
               <DirectionSelection selectedHospitalId={selectedHospitalId}
                   onDirectionChange={(directionId) => setSelectedDirectionId(directionId)} />
               <DoctorSelection selectedDirectionId={selectedDirectionId}
+                  selectedHospitalId={selectedHospitalId}
                   onDoctorChange={(doctorId) => setSelectedDoctorId(doctorId)} />
               <div defaultValue={selectedDoctorId}></div>
               <button type="submit">Отслеживать</button>

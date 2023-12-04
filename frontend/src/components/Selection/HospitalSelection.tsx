@@ -1,7 +1,7 @@
-import {ChangeEvent, useEffect} from "react";
+import {ChangeEvent, useCallback, useEffect, useState} from "react";
 import styles from "@/pages/Home/Home.module.css";
 
-interface Hospital {
+type Hospital = {
     id: number;
     gorzdravId: number;
     latitude: number;
@@ -13,45 +13,37 @@ interface Hospital {
     phone: string;
 }
 
-interface HospitalSelectionProps {
+type HospitalSelectionProps = {
     selectedDistrictId: number;
     onHospitalChange: (selectedHospitalId: number) => void;
 }
 
 export const HospitalSelection = ({selectedDistrictId, onHospitalChange}: HospitalSelectionProps) => {
 
-    const handleChange = (event: ChangeEvent<HTMLSelectElement>) => {
+    const [hospitals, setHospitals] = useState([]);
+
+    const handleChange = useCallback((event: ChangeEvent<HTMLSelectElement>) => {
         const selectedHospitalId = parseInt(event.target.value, 10);
         onHospitalChange(selectedHospitalId);
-    };
-
-    const fetchData = () => {
-        fetch("http://localhost:8082/v1/gorzdrav/hospital")
-            .then((response) => response.json())
-            .then((data: Hospital[]) => {
-                const hospitalSelect = document.getElementById("hospitalSelect") as HTMLSelectElement;
-                hospitalSelect.innerHTML = "";
-
-                const defaultOption = document.createElement("option");
-                defaultOption.value = "-1";
-                defaultOption.textContent = "Выберите учреждение";
-                hospitalSelect.appendChild(defaultOption);
-
-                data.forEach((hospital) => {
-                    if (selectedDistrictId === hospital.districtId) {
-                        const option = document.createElement("option");
-                        option.value = hospital.gorzdravId.toString();
-                        option.textContent = hospital.shortName;
-                        hospitalSelect.appendChild(option);
-                    }
-                });
-            })
-            .catch((error) => {
-                console.error("Ошибка при получении данных:", error);
-            });
-    };
+    }, [onHospitalChange]);
 
     useEffect(() => {
+        const backendURL =
+            import.meta.env.VITE_DEV === 'true'
+                ? import.meta.env.VITE_DEV_BACKEND_URL
+                : import.meta.env.VITE_PROD_BACKEND_URL;
+        const fetchData = async () => {
+            try {
+                const response = await fetch(`${backendURL}/v1/gorzdrav/hospital`);
+                const data = await response.json();
+
+                const filteredHospitals = data.filter((hospital: Hospital) => selectedDistrictId === hospital.districtId);
+                setHospitals(filteredHospitals);
+            } catch (error) {
+                console.error("Ошибка при получении данных:", error);
+            }
+        };
+
         fetchData();
     }, [selectedDistrictId]);
 
@@ -60,7 +52,14 @@ export const HospitalSelection = ({selectedDistrictId, onHospitalChange}: Hospit
             <label htmlFor="hospital" className={styles.label}>
                 Больница:
             </label>
-            <select name="hospital" id="hospitalSelect" onChange={handleChange}></select>
+            <select name="hospital" id="hospitalSelect" onChange={handleChange}>
+                <option value="-1">Выберите учреждение</option>
+                {hospitals.map((hospital: Hospital) => (
+                    <option key={hospital.gorzdravId} value={hospital.gorzdravId}>
+                        {hospital.shortName}
+                    </option>
+                ))}
+            </select>
         </div>
     );
 };
