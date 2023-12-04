@@ -77,7 +77,6 @@ public class TrackingService {
 
     @SuppressWarnings("squid:S6809")
     @Scheduled(fixedRate = 15, timeUnit = TimeUnit.MINUTES)
-    @Transactional
     public void waitingFreeAppointments() {
         List<Tracking> activeTracking = trackingRepository.findByIsFinishedFalse();
         for(Tracking tracking : activeTracking) {
