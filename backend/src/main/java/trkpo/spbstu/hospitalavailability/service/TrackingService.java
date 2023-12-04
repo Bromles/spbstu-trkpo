@@ -64,8 +64,8 @@ public class TrackingService {
                     if (tracking.getDoctorId() == -1L) {
                         tracking.setDoctorId(null);
                     }
-                })
-                .collect(Collectors.toList());
+                    return tracking;
+                }).collect(Collectors.toList());
         return trackingMapper.toTrackingDto(trackings);
     }
 
@@ -99,7 +99,7 @@ public class TrackingService {
 
     @Transactional
     public void checkFreeAppointments(Tracking tracking) {
-        boolean existAppointments = false;
+        boolean existAppointments;
         long id = tracking.getId();
         Long doctorId = tracking.getDoctorId();
         if (doctorId == -1L) {

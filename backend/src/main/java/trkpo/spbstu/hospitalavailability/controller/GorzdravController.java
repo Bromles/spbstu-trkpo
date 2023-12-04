@@ -2,16 +2,23 @@ package trkpo.spbstu.hospitalavailability.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.*;
 import trkpo.spbstu.hospitalavailability.dto.DistrictResponseDto;
 import trkpo.spbstu.hospitalavailability.dto.GorzdravDoctorRsDto;
 import trkpo.spbstu.hospitalavailability.dto.GorzdravSpecialtiesDto;
 import trkpo.spbstu.hospitalavailability.dto.HospitalResponseDto;
+import trkpo.spbstu.hospitalavailability.dto.TrackingInfoRsDto;
 import trkpo.spbstu.hospitalavailability.service.DistrictService;
 import trkpo.spbstu.hospitalavailability.service.GorzdravService;
 import trkpo.spbstu.hospitalavailability.service.HospitalService;
 
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.PositiveOrZero;
+
 import java.util.List;
 
 @RestController
@@ -55,4 +62,12 @@ public class GorzdravController {
         hospitalService.updateAll();
     }
 
+    @GetMapping("/trackingInfo/{hospitalId}/{directionId}/{doctorId}")
+    public TrackingInfoRsDto getTrackingInfo(
+            @PathVariable @PositiveOrZero @NotNull Long hospitalId,
+            @PathVariable @PositiveOrZero @NotNull Long directionId,
+            @PathVariable @NotNull Long doctorId
+    ) {
+        return gorzdravService.getTrackingInfo(hospitalId, directionId, doctorId);
+    }
 }

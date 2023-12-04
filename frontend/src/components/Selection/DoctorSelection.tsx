@@ -1,5 +1,6 @@
 import {ChangeEvent, useCallback, useEffect, useState} from "react";
 import styles from "@/pages/Home/Home.module.css";
+import {useAuth} from "react-oidc-context";
 
 type Doctor = {
     gorzdravId: number;
@@ -14,6 +15,7 @@ type DoctorSelectionProps = {
 
 export const DoctorSelection = ({ selectedDirectionId, selectedHospitalId, onDoctorChange }: DoctorSelectionProps) => {
     const [doctors, setDoctors] = useState<Doctor[]>([]);
+    const auth = useAuth();
 
     const handleChange = useCallback((event: ChangeEvent<HTMLSelectElement>) => {
         const selectedDoctorId = parseInt(event.target.value, 10);
@@ -28,7 +30,13 @@ export const DoctorSelection = ({ selectedDirectionId, selectedHospitalId, onDoc
 
         const fetchData = async () => {
             try {
-                const response = await fetch(`${backendURL}/v1/gorzdrav/doctors/` + selectedHospitalId.toString() + "/" + selectedDirectionId.toString());
+                const response = await fetch(`${backendURL}/v1/gorzdrav/doctors/`
+                    + selectedHospitalId.toString() + "/" + selectedDirectionId.toString(), {
+                    method: "GET",
+                    headers: {
+                        Authorization: `Bearer ${auth.user?.access_token}`
+                    }
+                });
                 const data = await response.json();
                 setDoctors(data);
             } catch (error) {
@@ -41,7 +49,7 @@ export const DoctorSelection = ({ selectedDirectionId, selectedHospitalId, onDoc
         } else {
             setDoctors([]);
         }
-    }, [selectedDirectionId, selectedHospitalId]);
+    }, [selectedDirectionId, selectedHospitalId, auth.user?.access_token]);
 
     return (
         <div className={styles.form_section}>

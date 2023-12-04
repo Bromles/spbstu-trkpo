@@ -1,5 +1,6 @@
 import {ChangeEvent, useCallback, useEffect, useState} from "react";
 import styles from "@/pages/Home/Home.module.css";
+import {useAuth} from "react-oidc-context";
 
 type Direction = {
     id: number;
@@ -14,6 +15,7 @@ type DirectionSelectionProps = {
 
 export const DirectionSelection = ({ selectedHospitalId, onDirectionChange }: DirectionSelectionProps) => {
     const [directions, setDirections] = useState<Direction[]>([]);
+    const auth = useAuth();
 
     const handleDirectionChange = useCallback((event: ChangeEvent<HTMLSelectElement>) => {
         const selectedDirectionId = parseInt(event.target.value, 10);
@@ -27,7 +29,13 @@ export const DirectionSelection = ({ selectedHospitalId, onDirectionChange }: Di
                 : import.meta.env.VITE_PROD_BACKEND_URL;
         const fetchData = async () => {
             try {
-                const response = await fetch(`${backendURL}/v1/gorzdrav/specialties/` + selectedHospitalId.toString());
+                const response = await fetch(`${backendURL}/v1/gorzdrav/specialties/`
+                    + selectedHospitalId.toString(), {
+                    method: "GET",
+                    headers: {
+                        Authorization: `Bearer ${auth.user?.access_token}`
+                    }
+                });
                 const data: Direction[] = await response.json();
                 setDirections(data);
             } catch (error) {
@@ -40,7 +48,7 @@ export const DirectionSelection = ({ selectedHospitalId, onDirectionChange }: Di
         } else {
             setDirections([]);
         }
-    }, [selectedHospitalId]);
+    }, [selectedHospitalId, auth.user?.access_token]);
 
     return (
         <div className={styles.form_section}>
