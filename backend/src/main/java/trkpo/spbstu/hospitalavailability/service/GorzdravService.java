@@ -32,11 +32,7 @@ public class GorzdravService {
     public List<GorzdravHospitalRsDto> getHospitals() {
         errorNum = 0L;
         ResponseEntity<String> response = restTemplate.getForEntity("/shared/lpus", String.class);
-
-        if (response.getStatusCode() == HttpStatus.BAD_GATEWAY || response.getStatusCode() == HttpStatus.SERVICE_UNAVAILABLE) {
-            log.warn(response.getStatusCode() + " " + response.getStatusCode().getReasonPhrase());
-            throw new BackendUnavailableException("Gorzdrav is unavailable: " + response.getStatusCode().getReasonPhrase());
-        }
+        checkStatusCode(response);
 
         String responseBody = response.getBody();
         JSONArray array = new JSONObject(responseBody).getJSONArray("result");
@@ -87,10 +83,8 @@ public class GorzdravService {
 
     public List<GorzdravSpecialtiesDto> getSpecialties(Long gorzdravHospitalId) {
         ResponseEntity<String> response = restTemplate.getForEntity("/schedule/lpu/" + gorzdravHospitalId + "/specialties", String.class);
-        if (response.getStatusCode() == HttpStatus.BAD_GATEWAY || response.getStatusCode() == HttpStatus.SERVICE_UNAVAILABLE) {
-            log.warn(response.getStatusCode() + " " + response.getStatusCode().getReasonPhrase());
-            throw new BackendUnavailableException("Gorzdrav is unavailable: " + response.getStatusCode().getReasonPhrase());
-        }
+        checkStatusCode(response);
+
         String responseBody = response.getBody();
         if(!new JSONObject(responseBody).getBoolean("success")) {
             throw new NotFoundException("Hospital or specialties not found");
@@ -111,10 +105,7 @@ public class GorzdravService {
         errorNum = 0L;
         String path = "/schedule/lpu/" + GorzdravHospitalId + "/speciality/" + GorzdravSpecialityId + "/doctors";
         ResponseEntity<String> response = restTemplate.getForEntity(path, String.class);
-        if (response.getStatusCode() == HttpStatus.BAD_GATEWAY || response.getStatusCode() == HttpStatus.SERVICE_UNAVAILABLE) {
-            log.warn(response.getStatusCode() + " " + response.getStatusCode().getReasonPhrase());
-            throw new BackendUnavailableException("Gorzdrav is unavailable: " + response.getStatusCode().getReasonPhrase());
-        }
+        checkStatusCode(response);
 
         String responseBody = response.getBody();
         try {
@@ -155,9 +146,8 @@ public class GorzdravService {
 
     private String getNameById(ResponseEntity<String> response, Long id) {
         checkStatusCode(response);
-
-        String responseBody = response.getBody();
         try {
+            String responseBody = response.getBody();
             JSONArray array = new JSONObject(responseBody).getJSONArray("result");
             for (int i = 0; i < array.length(); i++) {
                 JSONObject jsObj = array.getJSONObject(i);
