@@ -57,9 +57,10 @@ public class TrackingService {
         return trackingRepository.removeById(id);
     }
 
-    public List<TrackingResponseDto> findUserActiveTracking(UUID id) {
-        List<Tracking> trackings = trackingRepository.findByIsFinishedFalseAndClientKeycloakId(id).stream()
-                .map(tracking -> {
+    public List<TrackingResponseDto> findUserActiveTracking(String keycloak_uuid) {
+        UUID uuid = UUID.fromString(keycloak_uuid);
+        List<Tracking> trackings = trackingRepository.findByIsFinishedFalseAndClientKeycloakId(uuid).stream()
+                .peek(tracking -> {
                     if (tracking.getDoctorId() == -1L) {
                         tracking.setDoctorId(null);
                     }
@@ -78,7 +79,7 @@ public class TrackingService {
                 .orElseThrow(() -> new ForbiddenException("No access to add tracking"));
         log.info("Success getting client with id: " + client.getId());
 
-        if(requestDto.getDoctorId() == null) {
+        if (requestDto.getDoctorId() == null) {
             requestDto.setDoctorId(-1L);
         }
         Tracking tracking = new Tracking(requestDto, hospital, client);
@@ -91,7 +92,7 @@ public class TrackingService {
     @Scheduled(fixedRate = 15, timeUnit = TimeUnit.MINUTES)
     public void waitingFreeAppointments() {
         List<Tracking> activeTracking = trackingRepository.findByIsFinishedFalse();
-        for(Tracking tracking : activeTracking) {
+        for (Tracking tracking : activeTracking) {
             transactionTemplateRequiresNew.executeWithoutResult(txStatus -> checkFreeAppointments(tracking));
         }
     }
@@ -145,7 +146,7 @@ public class TrackingService {
         GorzdravSpecialtiesDto special = specialties.stream()
                 .filter(specialtiesDto -> specialtiesId.equals(specialtiesDto.getId()))
                 .findFirst().orElseThrow(() -> new NotFoundException("Specialties not found"));
-        return special.getCountFreeTicket() > 0 ;
+        return special.getCountFreeTicket() > 0;
     }
 }
 
