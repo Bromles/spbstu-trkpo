@@ -1,5 +1,5 @@
 import { HospitalMap } from "@/components/HospitalMap/HospitalMap";
-import {FormEvent, useCallback, useState} from "react";
+import {FormEvent, useCallback, useEffect, useState} from "react";
 import styles from "./Home.module.css";
 import {DirectionSelection} from "@/components/Selection/DirectionSelection";
 import {DistrictSelection} from "@/components/Selection/DistrictDelection";
@@ -97,6 +97,27 @@ const Enrollment = ({ onSubmit }: EnrollmentProps) => {
 
     sendData();
   }, [selectedHospitalId, selectedDirectionId, selectedDoctorId, onSubmit, auth.user?.access_token]);
+
+
+  useEffect(() => {
+    const backendURL =
+        import.meta.env.VITE_DEV === 'true'
+            ? import.meta.env.VITE_DEV_BACKEND_URL
+            : import.meta.env.VITE_PROD_BACKEND_URL;
+    const saveClient = async () => {
+        try {
+          await fetch(`${backendURL}/v1/client/${auth.user?.profile.sub}`, {
+            method: "POST",
+            headers: {
+              Authorization: `Bearer ${auth.user?.access_token}`
+            }
+          });
+        } catch (error) {
+          console.error("Не удалось сохранить клиента: ", error);
+        }
+    };
+    saveClient();
+  });
 
   return (
     <div>
