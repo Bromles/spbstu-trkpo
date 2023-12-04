@@ -32,6 +32,13 @@
   gap: 20px;
 }
 
+.form_section_error {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  background-color: lightcoral;
+}
+
 .label {
   display: flex;
   align-items: center;

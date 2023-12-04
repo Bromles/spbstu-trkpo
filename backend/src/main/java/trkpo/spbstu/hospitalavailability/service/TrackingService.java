@@ -5,6 +5,7 @@ import org.json.JSONObject;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.scheduling.annotation.Scheduled;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.transaction.support.TransactionTemplate;
@@ -30,8 +31,8 @@ import java.util.List;
 import java.util.UUID;
 import java.util.stream.Collectors;
 import java.util.concurrent.TimeUnit;
-import java.util.logging.Logger;
 
+@Slf4j
 @Service
 @RequiredArgsConstructor
 public class TrackingService {
@@ -44,7 +45,6 @@ public class TrackingService {
     private final GorzdravService gorzdravService;
     private final TransactionTemplate transactionTemplateRequiresNew;
     private final NotificationMailSender notificationMailSender;
-    private static final Logger logger = Logger.getLogger(TrackingService.class.getName());
 
     @Transactional
     public long deleteTracking(Long id) {
@@ -74,6 +74,7 @@ public class TrackingService {
         Hospital hospital = hospitalRepository.findByGorzdravId(requestDto.getHospitalId())
                 .orElseThrow(() -> new NotFoundException("Hospital not found"));
 
+        log.info("try to get client keycloakId");
         Client client = clientRepository.findFirstByKeycloakId(UUID.fromString(SecurityUtils.getUserKey()))
                 .orElseThrow(() -> new ForbiddenException("No access to add tracking"));
         if(requestDto.getDoctorId() == null) {
@@ -130,7 +131,7 @@ public class TrackingService {
     private boolean existsDoctorsAppointments(Long gorzdravHospitalId, Long doctorId) {
         ResponseEntity<String> response = restTemplate.getForEntity("/schedule/lpu/" + gorzdravHospitalId + "/doctor/" + doctorId + "/appointments", String.class);
         if (response.getStatusCode() == HttpStatus.BAD_GATEWAY || response.getStatusCode() == HttpStatus.SERVICE_UNAVAILABLE) {
-            logger.warning(response.getStatusCode() + " " + response.getStatusCode().getReasonPhrase());
+            log.warn(response.getStatusCode() + " " + response.getStatusCode().getReasonPhrase());
             throw new BackendUnavailableException("Gorzdrav is unavailable: " + response.getStatusCode().getReasonPhrase());
         }
         String responseBody = response.getBody();
