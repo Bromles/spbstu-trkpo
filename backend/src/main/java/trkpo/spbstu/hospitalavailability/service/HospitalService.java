@@ -23,7 +23,7 @@ public class HospitalService {
     private final GorzdravService gorzdravService;
     private final HospitalRepository hospitalRepository;
     private final HospitalMapper hospitalMapper;
-    private final TransactionTemplate getTransactionTemplate;
+    private final TransactionTemplate simpleTransactionTemplate;
 
     @PersistenceContext
     private EntityManager entityManager;
@@ -37,7 +37,7 @@ public class HospitalService {
     @Transactional
     public void updateAll() {
         List<GorzdravHospitalRsDto> hospitals = gorzdravService.getHospitals();
-        getTransactionTemplate.executeWithoutResult(txStatus -> batchInsertOrUpdate(hospitals));
+        simpleTransactionTemplate.executeWithoutResult(txStatus -> batchInsertOrUpdate(hospitals));
     }
 
     @Transactional

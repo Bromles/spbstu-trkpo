@@ -17,12 +17,12 @@ public class ApplicationConfig {
                 .build();
     }
 
-    @Bean(name = "getTransactionTemplate")
+    @Bean(name = "simpleTransactionTemplate")
     public TransactionTemplate getTransactionTemplate(PlatformTransactionManager transactionManager) {
         return new TransactionTemplate(transactionManager);
     }
 
-    @Bean(name = "getTransactionTemplate2")
+    @Bean(name = "transactionTemplateRequiresNew")
     public TransactionTemplate getTransactionTemplate2(PlatformTransactionManager transactionManager) {
         TransactionTemplate transactionTemplate = new TransactionTemplate(transactionManager);
         transactionTemplate.setPropagationBehavior(TransactionDefinition.PROPAGATION_REQUIRES_NEW);

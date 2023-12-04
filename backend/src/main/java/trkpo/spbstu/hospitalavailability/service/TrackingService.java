@@ -41,7 +41,7 @@ public class TrackingService {
     private final HospitalRepository hospitalRepository;
     private final RestTemplate restTemplate;
     private final GorzdravService gorzdravService;
-    private final TransactionTemplate getTransactionTemplate2;
+    private final TransactionTemplate transactionTemplateRequiresNew;
     private final NotificationMailSender notificationMailSender;
     private static final Logger logger = Logger.getLogger(TrackingService.class.getName());
 
@@ -80,7 +80,7 @@ public class TrackingService {
     public void waitingFreeAppointments() {
         List<Tracking> activeTracking = trackingRepository.findByIsFinishedFalse();
         for(Tracking tracking : activeTracking) {
-            getTransactionTemplate2.executeWithoutResult(txStatus -> checkFreeAppointments(tracking));
+            transactionTemplateRequiresNew.executeWithoutResult(txStatus -> checkFreeAppointments(tracking));
         }
     }
 
@@ -89,7 +89,7 @@ public class TrackingService {
         boolean existAppointments = false;
         long id = tracking.getId();
         Long doctorId = tracking.getDoctorId();
-        if (doctorId == null) {
+        if (doctorId == -1L) {
             existAppointments = existsSpecialtiesAppointments(tracking.getHospital().getGorzdravId(), tracking.getDirectionId());
         } else {
             existAppointments = existsDoctorsAppointments(tracking.getHospital().getGorzdravId(), tracking.getDoctorId());
