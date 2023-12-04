@@ -15,4 +15,13 @@ public class SecurityUtils {
             throw new ForbiddenException("Cannot find JWT", e);
         }
     }
+
+    public String getUserMail() {
+        try {
+            Jwt jwt = (Jwt) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+            return jwt.getClaimAsString("preferred_username");
+        } catch (ClassCastException e) {
+            throw new ForbiddenException("Cannot find JWT", e);
+        }
+    }
 }
