@@ -1,5 +1,6 @@
 import {ChangeEvent, useCallback, useEffect, useState} from "react";
 import styles from "@/pages/Home/Home.module.css";
+import {useAuth} from "react-oidc-context";
 
 type Hospital = {
     id: number;
@@ -19,8 +20,8 @@ type HospitalSelectionProps = {
 }
 
 export const HospitalSelection = ({selectedDistrictId, onHospitalChange}: HospitalSelectionProps) => {
-
     const [hospitals, setHospitals] = useState([]);
+    const auth = useAuth();
 
     const handleChange = useCallback((event: ChangeEvent<HTMLSelectElement>) => {
         const selectedHospitalId = parseInt(event.target.value, 10);
@@ -34,7 +35,12 @@ export const HospitalSelection = ({selectedDistrictId, onHospitalChange}: Hospit
                 : import.meta.env.VITE_PROD_BACKEND_URL;
         const fetchData = async () => {
             try {
-                const response = await fetch(`${backendURL}/v1/gorzdrav/hospital`);
+                const response = await fetch(`${backendURL}/v1/gorzdrav/hospital`, {
+                    method: "GET",
+                    headers: {
+                        Authorization: `Bearer ${auth.user?.access_token}`
+                    }
+                });
                 const data = await response.json();
 
                 const filteredHospitals = data.filter((hospital: Hospital) => selectedDistrictId === hospital.districtId);
@@ -45,7 +51,7 @@ export const HospitalSelection = ({selectedDistrictId, onHospitalChange}: Hospit
         };
 
         fetchData();
-    }, [selectedDistrictId]);
+    }, [selectedDistrictId, auth.user?.access_token]);
 
     return (
         <div className={styles.form_section}>

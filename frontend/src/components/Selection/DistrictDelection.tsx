@@ -1,5 +1,6 @@
 import {ChangeEvent, useCallback, useEffect, useState} from "react";
 import styles from "@/pages/Home/Home.module.css";
+import {useAuth} from "react-oidc-context";
 
 type District = {
     id: number;
@@ -12,6 +13,7 @@ type DistrictSelectionProps = {
 }
 export const DistrictSelection = ({ onChange }: DistrictSelectionProps) => {
     const [districts, setDistricts] = useState<District[]>([]);
+    const auth = useAuth();
 
     const handleDistrictChange = useCallback((event: ChangeEvent<HTMLSelectElement>) => {
         const selectedDistrict = parseInt(event.target.value, 10);
@@ -26,7 +28,12 @@ export const DistrictSelection = ({ onChange }: DistrictSelectionProps) => {
 
         const fetchData = async () => {
             try {
-                const response = await fetch(`${backendURL}/v1/gorzdrav/district`);
+                const response = await fetch(`${backendURL}/v1/gorzdrav/district`, {
+                    method: "GET",
+                    headers: {
+                        Authorization: `Bearer ${auth.user?.access_token}`
+                    }
+                });
                 const data: District[] = await response.json();
                 setDistricts(data);
             } catch (error) {
@@ -35,7 +42,7 @@ export const DistrictSelection = ({ onChange }: DistrictSelectionProps) => {
         };
 
         fetchData();
-    }, []);
+    }, [auth.user?.access_token]);
 
     return (
         <div className={styles.form_section}>
@@ -43,7 +50,7 @@ export const DistrictSelection = ({ onChange }: DistrictSelectionProps) => {
                 Район:
             </label>
             <select name="district" id="districtSelect" onChange={handleDistrictChange}>
-                <option selected value="-1">
+                <option defaultValue="-1">
                     Выберите район
                 </option>
                 {districts.map((district) => (
