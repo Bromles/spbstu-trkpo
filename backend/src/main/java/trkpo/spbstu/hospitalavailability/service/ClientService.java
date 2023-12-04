@@ -13,10 +13,11 @@ import java.util.UUID;
 public class ClientService {
     private final ClientRepository clientRepository;
 
-    public void create(UUID keycloakUuid) {
-        if (clientRepository.findFirstByKeycloakId(keycloakUuid).isEmpty()) {
+    public void create(String keycloakUuid) {
+        UUID uuid = UUID.fromString(keycloakUuid);
+        if (clientRepository.findFirstByKeycloakId(uuid).isEmpty()) {
             Client client = new Client();
-            client.setKeycloakId(keycloakUuid);
+            client.setKeycloakId(uuid);
             clientRepository.save(client);
         }
     }

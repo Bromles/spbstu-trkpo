@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.*;
 import trkpo.spbstu.hospitalavailability.service.ClientService;
 
 import javax.validation.constraints.NotNull;
-import java.util.UUID;
 
 @RestController
 @RequestMapping("/v1/client")
@@ -17,7 +16,7 @@ public class ClientController {
     private final ClientService clientService;
 
     @PostMapping("/{keycloak_uuid}")
-    public void create(@PathVariable @NotNull UUID keycloak_uuid) {
+    public void create(@PathVariable @NotNull String keycloak_uuid) {
         clientService.create(keycloak_uuid);
     }
 }
