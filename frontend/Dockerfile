@@ -14,7 +14,7 @@ COPY .eslintrc.cjs .
 RUN npm i
 
 COPY index.html .
-#COPY public public
+COPY public public
 COPY src src
 
 RUN npm run build

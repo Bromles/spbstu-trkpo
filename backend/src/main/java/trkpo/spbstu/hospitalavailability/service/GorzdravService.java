@@ -1,6 +1,7 @@
 package trkpo.spbstu.hospitalavailability.service;
 
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -17,12 +18,11 @@ import trkpo.spbstu.hospitalavailability.exception.NotFoundException;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Logger;
 
+@Slf4j
 @Service
 @RequiredArgsConstructor
 public class GorzdravService {
-    private static final Logger logger = Logger.getLogger(GorzdravService.class.getName());
 
     private final RestTemplate restTemplate;
 
@@ -33,7 +33,7 @@ public class GorzdravService {
         ResponseEntity<String> response = restTemplate.getForEntity("/shared/lpus", String.class);
 
         if (response.getStatusCode() == HttpStatus.BAD_GATEWAY || response.getStatusCode() == HttpStatus.SERVICE_UNAVAILABLE) {
-            logger.warning(response.getStatusCode() + " " + response.getStatusCode().getReasonPhrase());
+            log.warn(response.getStatusCode() + " " + response.getStatusCode().getReasonPhrase());
             throw new BackendUnavailableException("Gorzdrav is unavailable: " + response.getStatusCode().getReasonPhrase());
         }
 
@@ -66,7 +66,7 @@ public class GorzdravService {
             );
         } catch (Exception e) {
             errorNum++;
-            logger.warning("Cannot parse JSONObject, error number: " + errorNum);
+            log.warn("Cannot parse JSONObject, error number: " + errorNum);
         }
         return null;
     }
@@ -77,7 +77,7 @@ public class GorzdravService {
         ResponseEntity<String> response = restTemplate.getForEntity("/shared/districts", String.class);
 
         if (response.getStatusCode() == HttpStatus.BAD_GATEWAY || response.getStatusCode() == HttpStatus.SERVICE_UNAVAILABLE) {
-            logger.warning(response.getStatusCode() + " " + response.getStatusCode().getReasonPhrase());
+            log.warn(response.getStatusCode() + " " + response.getStatusCode().getReasonPhrase());
             throw new BackendUnavailableException("Gorzdrav is unavailable: " + response.getStatusCode().getReasonPhrase());
         }
 
@@ -99,7 +99,7 @@ public class GorzdravService {
     public List<GorzdravSpecialtiesDto> getSpecialties(Long gorzdravHospitalId) {
         ResponseEntity<String> response = restTemplate.getForEntity("/schedule/lpu/" + gorzdravHospitalId + "/specialties", String.class);
         if (response.getStatusCode() == HttpStatus.BAD_GATEWAY || response.getStatusCode() == HttpStatus.SERVICE_UNAVAILABLE) {
-            logger.warning(response.getStatusCode() + " " + response.getStatusCode().getReasonPhrase());
+            log.warn(response.getStatusCode() + " " + response.getStatusCode().getReasonPhrase());
             throw new BackendUnavailableException("Gorzdrav is unavailable: " + response.getStatusCode().getReasonPhrase());
         }
         String responseBody = response.getBody();
@@ -126,7 +126,7 @@ public class GorzdravService {
             );
         } catch (Exception e) {
             errorNum++;
-            logger.warning("Cannot parse JSONObject, error number: " + errorNum);
+            log.warn("Cannot parse JSONObject, error number: " + errorNum);
         }
         return null;
     }
@@ -136,7 +136,7 @@ public class GorzdravService {
         String path = "/schedule/lpu/" + GorzdravHospitalId + "/speciality/" + GorzdravSpecialityId + "/doctors";
         ResponseEntity<String> response = restTemplate.getForEntity(path, String.class);
         if (response.getStatusCode() == HttpStatus.BAD_GATEWAY || response.getStatusCode() == HttpStatus.SERVICE_UNAVAILABLE) {
-            logger.warning(response.getStatusCode() + " " + response.getStatusCode().getReasonPhrase());
+            log.warn(response.getStatusCode() + " " + response.getStatusCode().getReasonPhrase());
             throw new BackendUnavailableException("Gorzdrav is unavailable: " + response.getStatusCode().getReasonPhrase());
         }
 
@@ -165,7 +165,7 @@ public class GorzdravService {
             );
         } catch (Exception e) {
             errorNum++;
-            logger.warning("Cannot parse JSONObject, error number: " + errorNum);
+            log.warn("Cannot parse JSONObject, error number: " + errorNum);
         }
         return null;
     }
@@ -179,7 +179,7 @@ public class GorzdravService {
                     jsObj.get("name").toString()
             );
         } catch (Exception e) {
-            logger.warning("Cannot parse JSONObject");
+            log.warn("Cannot parse JSONObject");
         }
         return null;
     }

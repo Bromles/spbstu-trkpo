@@ -13,19 +13,19 @@ public class ExceptionHandlerController extends ResponseEntityExceptionHandler {
     @ExceptionHandler(NotFoundException.class)
     public ResponseEntity<ErrorInfo> handleNotFoundException(NotFoundException ex) {
         return ResponseEntity.status(HttpStatus.NOT_FOUND)
-                .body(new ErrorInfo("", "not_found"));
+                .body(new ErrorInfo("", ex.getMessage()));
     }
 
     @ExceptionHandler(ForbiddenException.class)
     public ResponseEntity<ErrorInfo> handleForbiddenException(ForbiddenException ex) {
         return ResponseEntity.status(HttpStatus.FORBIDDEN)
-                .body(new ErrorInfo("", "forbidden"));
+                .body(new ErrorInfo("", ex.getMessage()));
     }
 
     @ExceptionHandler(BackendUnavailableException.class)
     public ResponseEntity<ErrorInfo> handleBackendUnavailableException(BackendUnavailableException ex) {
         return ResponseEntity.status(HttpStatus.SERVICE_UNAVAILABLE)
-                .body(new ErrorInfo("", "service_unavailable"));
+                .body(new ErrorInfo("", ex.getMessage()));
     }
 
     @Getter
