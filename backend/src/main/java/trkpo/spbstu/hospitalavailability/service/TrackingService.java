@@ -2,12 +2,10 @@ package trkpo.spbstu.hospitalavailability.service;
 
 import lombok.RequiredArgsConstructor;
 import org.json.JSONObject;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.transaction.support.TransactionTemplate;
 import org.springframework.web.client.RestTemplate;
@@ -43,7 +41,7 @@ public class TrackingService {
     private final HospitalRepository hospitalRepository;
     private final RestTemplate restTemplate;
     private final GorzdravService gorzdravService;
-    private final TransactionTemplate transactionTemplate;
+    private final TransactionTemplate getTransactionTemplate2;
     private final NotificationMailSender notificationMailSender;
     private static final Logger logger = Logger.getLogger(TrackingService.class.getName());
 
@@ -79,11 +77,11 @@ public class TrackingService {
 
     @SuppressWarnings("squid:S6809")
     @Scheduled(fixedRate = 15, timeUnit = TimeUnit.MINUTES)
-    @Transactional(propagation = Propagation.REQUIRES_NEW)
+    @Transactional
     public void waitingFreeAppointments() {
         List<Tracking> activeTracking = trackingRepository.findByIsFinishedFalse();
         for(Tracking tracking : activeTracking) {
-            transactionTemplate.executeWithoutResult(txStatus -> checkFreeAppointments(tracking));
+            getTransactionTemplate2.executeWithoutResult(txStatus -> checkFreeAppointments(tracking));
         }
     }
 
