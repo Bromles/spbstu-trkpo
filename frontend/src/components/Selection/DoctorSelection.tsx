@@ -2,8 +2,7 @@ import {ChangeEvent, useCallback, useEffect, useState} from "react";
 import styles from "@/pages/Home/Home.module.css";
 
 type Doctor = {
-    id: number;
-    countFreeTicket: number;
+    gorzdravId: number;
     name: string;
 }
 
@@ -29,7 +28,7 @@ export const DoctorSelection = ({ selectedDirectionId, selectedHospitalId, onDoc
 
         const fetchData = async () => {
             try {
-                const response = await fetch(`${backendURL}/v1/gorzdrav/doctor/` + selectedHospitalId.toString() + "/" + selectedDirectionId.toString());
+                const response = await fetch(`${backendURL}/v1/gorzdrav/doctors/` + selectedHospitalId.toString() + "/" + selectedDirectionId.toString());
                 const data = await response.json();
                 setDoctors(data);
             } catch (error) {
@@ -37,7 +36,7 @@ export const DoctorSelection = ({ selectedDirectionId, selectedHospitalId, onDoc
             }
         };
 
-        if (selectedDirectionId !== -1 && selectedHospitalId !== -1) {
+        if (selectedDirectionId !== -1 && selectedHospitalId !== -1 ) {
             fetchData();
         } else {
             setDoctors([]);
@@ -51,8 +50,8 @@ export const DoctorSelection = ({ selectedDirectionId, selectedHospitalId, onDoc
             </label>
             <select name="doctor" id="doctorSelect" onChange={handleChange}>
                 <option value="-1">Выберите доктора (опционально)</option>
-                {doctors.map((doctor) => (
-                    <option value={doctor.id.toString()} key={doctor.id}>
+                {Array.isArray(doctors) && doctors.map((doctor) => (
+                    <option value={doctor.gorzdravId.toString()} key={doctor.gorzdravId}>
                         {doctor.name}
                     </option>
                 ))}
