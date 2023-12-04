@@ -59,12 +59,12 @@ public class TrackingService {
 
     public List<TrackingResponseDto> findUserActiveTracking(UUID id) {
         List<Tracking> trackings = trackingRepository.findByIsFinishedFalseAndClientKeycloakId(id).stream()
-                .peek(tracking -> {
+                .map(tracking -> {
                     if (tracking.getDoctorId() == -1L) {
                         tracking.setDoctorId(null);
                     }
-                })
-                .collect(Collectors.toList());
+                    return tracking;
+                }).collect(Collectors.toList());
         return trackingMapper.toTrackingDto(trackings);
     }
 
@@ -74,7 +74,6 @@ public class TrackingService {
                 .orElseThrow(() -> new NotFoundException("Hospital not found"));
 
         log.info("try to get client by keycloakId");
-//        Client client = clientRepository.findFirstByKeycloakId(UUID.fromString("565c59dd-f752-4f7d-bd54-c644f313bee1")) //для теста
         Client client = clientRepository.findFirstByKeycloakId(UUID.fromString(SecurityUtils.getUserKey()))
                 .orElseThrow(() -> new ForbiddenException("No access to add tracking"));
         log.info("Success getting client with id: " + client.getId());
