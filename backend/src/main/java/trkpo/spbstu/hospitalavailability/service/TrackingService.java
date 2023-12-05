@@ -60,7 +60,7 @@ public class TrackingService {
     public List<TrackingResponseDto> findUserActiveTracking(String keycloak_uuid) {
         UUID uuid = UUID.fromString(keycloak_uuid);
         List<Tracking> trackings = trackingRepository.findByIsFinishedFalseAndClientKeycloakId(uuid).stream()
-                .peek(tracking -> {
+                .map(tracking -> {
                     if (tracking.getDoctorId() == -1L) {
                         tracking.setDoctorId(null);
                     }
