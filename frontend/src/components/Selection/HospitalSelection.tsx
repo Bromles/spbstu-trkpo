@@ -1,8 +1,9 @@
-import {ChangeEvent, useCallback, useEffect, useState} from "react";
+import {ChangeEvent, useCallback, useEffect} from "react";
 import styles from "@/pages/Home/Home.module.css";
 import {useAuth} from "react-oidc-context";
+import { useHospitalsContext } from "@/pages/Home/Home";
 
-type Hospital = {
+export type Hospital = {
     id: number;
     gorzdravId: number;
     latitude: number;
@@ -20,7 +21,7 @@ type HospitalSelectionProps = {
 }
 
 export const HospitalSelection = ({selectedDistrictId, onHospitalChange}: HospitalSelectionProps) => {
-    const [hospitals, setHospitals] = useState([]);
+    const {hospitals, setHospitals} = useHospitalsContext();
     const auth = useAuth();
 
     const handleChange = useCallback((event: ChangeEvent<HTMLSelectElement>) => {
@@ -51,7 +52,7 @@ export const HospitalSelection = ({selectedDistrictId, onHospitalChange}: Hospit
         };
 
         fetchData();
-    }, [selectedDistrictId, auth.user?.access_token]);
+    }, [selectedDistrictId, auth.user?.access_token, setHospitals]);
 
     return (
         <div className={styles.form_section}>
@@ -60,7 +61,7 @@ export const HospitalSelection = ({selectedDistrictId, onHospitalChange}: Hospit
             </label>
             <select name="hospital" id="hospitalSelect" onChange={handleChange}>
                 <option value="-1">Выберите учреждение</option>
-                {hospitals.map((hospital: Hospital) => (
+                {hospitals?.map((hospital: Hospital) => (
                     <option key={hospital.gorzdravId} value={hospital.gorzdravId}>
                         {hospital.shortName}
                     </option>

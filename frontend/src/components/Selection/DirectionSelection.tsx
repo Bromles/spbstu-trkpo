@@ -2,7 +2,7 @@ import {ChangeEvent, useCallback, useEffect, useState} from "react";
 import styles from "@/pages/Home/Home.module.css";
 import {useAuth} from "react-oidc-context";
 
-type Direction = {
+export type Direction = {
     id: number;
     countFreeTicket: number;
     name: string;

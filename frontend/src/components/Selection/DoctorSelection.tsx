@@ -2,7 +2,7 @@ import {ChangeEvent, useCallback, useEffect, useState} from "react";
 import styles from "@/pages/Home/Home.module.css";
 import {useAuth} from "react-oidc-context";
 
-type Doctor = {
+export type Doctor = {
     gorzdravId: number;
     name: string;
 }

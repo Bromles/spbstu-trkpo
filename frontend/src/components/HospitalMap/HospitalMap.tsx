@@ -1,11 +1,29 @@
 import { Map, Placemark, ZoomControl } from "@pbe/react-yandex-maps";
-import { useEffect, useState } from "react";
+import { MouseEvent, useCallback, useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import styles from "./HospitalMap.module.css";
-import './HospitalMap.css';
+import "./HospitalMap.css";
+import { useHospitalsContext } from "@/pages/Home/Home";
+import { Hospital } from "../Selection/HospitalSelection";
+import { useAuth } from "react-oidc-context";
+import { Direction } from "../Selection/DirectionSelection";
+import { Doctor } from "../Selection/DoctorSelection";
 
 export const HospitalMap = () => {
   const [activePortal, setActivePortal] = useState(false);
+  const [selectedPlacemarkId, setSelectedPlacemarkId] = useState<number | null>(
+    null
+  );
+  const { hospitals } = useHospitalsContext();
+  const [isEventSet, setIsEventSet] = useState(false);
+
+  const getHospital = () => {
+    if (selectedPlacemarkId && hospitals) {
+      return hospitals[selectedPlacemarkId];
+    }
+
+    return null;
+  };
 
   return (
     <div className={styles.map_container}>
@@ -13,8 +31,8 @@ export const HospitalMap = () => {
       <div>
         <Map
           defaultState={{
-            center: [55.751574, 37.573856],
-            zoom: 5,
+            center: [59.938659, 30.314457],
+            zoom: 11,
             controls: [],
           }}
           modules={[
@@ -25,28 +43,123 @@ export const HospitalMap = () => {
           className={styles.map}
         >
           <ZoomControl />
-          <Placemark
-            defaultGeometry={[55.684758, 37.738521]}
-            properties={{
-              balloonContent: '<div id="hospital-balloon" class="hospital-baloon"></div>',
-              hintContent: "<b>Balloon hint</b>",
-            }}
-            onClick={() => {
-              setTimeout(() => {
-                setActivePortal(true);
-              }, 0);
-            }}
-          />
+          {hospitals?.map((hospital) => (
+            <Placemark
+              key={hospital.id}
+              defaultGeometry={[hospital.latitude, hospital.longitude]}
+              properties={{
+                balloonContent: `<div id="hospital-balloon-${hospital.id}" class="hospital-balloon"></div>`,
+                hintContent: `${hospital.shortName}`,
+              }}
+              onClick={(e: MouseEvent<HTMLElement>) => {
+                setTimeout(() => {
+                  console.log(`react click target: ${e.target}`);
+                  const closeButton = [
+                    ...document.querySelectorAll(
+                      'ymaps[class$="-balloon__close"]'
+                    ),
+                  ].forEach((el) => console.log(`selected target: ${el}`));
+                  if (
+                    closeButton !== null &&
+                    closeButton !== undefined &&
+                    !isEventSet
+                  ) {
+                    // closeButton.addEventListener('click', () => {
+                    //   setSelectedPlacemarkId(null);
+                    //   setActivePortal(false);
+                    //   setIsEventSet(true);
+                    // });
+                  }
+
+                  setSelectedPlacemarkId(hospital.id);
+                  setActivePortal(true);
+                }, 0);
+              }}
+            />
+          ))}
         </Map>
         {activePortal && (
-          <BalloonPortal elementId={"hospital-balloon"}>
-            <>
-              <div className={styles.modal_container}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, atque! Aspernatur consectetur assumenda quibusdam, dolores rerum, cupiditate minima saepe velit enim amet suscipit totam quam nemo beatae impedit quae quisquam.</div>
-            </>
+          <BalloonPortal elementId={`hospital-balloon-${selectedPlacemarkId}`}>
+            <BalloonContent hospital={getHospital()} />
           </BalloonPortal>
         )}
       </div>
     </div>
+  );
+};
+
+const BalloonContent = ({ hospital, direction, doctor }: { hospital: Hospital | null, direction: Direction | null, doctor: Doctor | null}) => {
+  const auth = useAuth();
+
+  const startTrackingHandler = useCallback(() => {
+    const backendURL =
+      import.meta.env.MODE === "production"
+        ? import.meta.env.VITE_PROD_BACKEND_URL
+        : import.meta.env.VITE_DEV_BACKEND_URL;
+
+    const sendData = async () => {
+      let body;
+      const errorSection = document.getElementById("errorSection");
+      const successSection = document.getElementById("successSection");
+      if (selectedDirectionId === -1 || selectedHospitalId === -1) {
+        if (errorSection !== null) {
+          errorSection.textContent = "Некорректные данные";
+        }
+        if (successSection !== null) {
+          successSection.textContent = null;
+        }
+        throw new Error("Некорректные данные");
+      } else if (errorSection !== null) {
+        errorSection.textContent = null;
+      }
+      if (selectedDoctorId !== -1) {
+        body = JSON.stringify({
+          hospitalId: hospital.id,
+          directionId: selectedDirectionId,
+          doctorId: selectedDoctorId,
+        });
+      } else {
+        body = JSON.stringify({
+          hospitalId: selectedHospitalId,
+          directionId: selectedDirectionId,
+        });
+      }
+      try {
+        const response = await fetch(`${backendURL}/v1/tracking`, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${auth.user?.access_token}`,
+          },
+          body: body,
+        });
+
+        if (response.ok) {
+          if (successSection !== null) {
+            successSection.textContent = "Успех!";
+          }
+          console.log("Отслеживание успешно начато!");
+        } else {
+          if (errorSection !== null) {
+            errorSection.textContent = "Ошибка при отправке данных.";
+          }
+          console.error("Ошибка при отправке данных.");
+        }
+      } catch (error) {
+        console.error("Ошибка во время запроса:", error);
+      }
+    };
+
+    sendData();
+  }, [auth.user?.access_token]);
+
+  return (
+    <>
+      <div className={styles.modal_container}>
+        {hospital?.fullName}
+        <button onClick={startTrackingHandler}>Начать отслеживание</button>
+      </div>
+    </>
   );
 };
 
