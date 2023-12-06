@@ -1,7 +1,8 @@
 import { ChangeEvent, useCallback, useEffect, useState } from "react";
 import styles from "@/pages/Home/Home.module.css";
 import { useAuth } from "react-oidc-context";
-import { Doctor } from "@/types/Doctor";
+import { getBackendUrl } from "@/utils/apiUtils";
+import { Doctor } from "@/utils/types";
 
 type DoctorSelectionProps = {
   selectedDirectionId: number;
@@ -26,10 +27,7 @@ export const DoctorSelection = ({
   );
 
   useEffect(() => {
-    const backendURL =
-      import.meta.env.VITE_DEV === "true"
-        ? import.meta.env.VITE_DEV_BACKEND_URL
-        : import.meta.env.VITE_PROD_BACKEND_URL;
+    const backendURL = getBackendUrl();
 
     const fetchData = async () => {
       try {

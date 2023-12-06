@@ -1,7 +1,8 @@
 import { ChangeEvent, useCallback, useEffect, useState } from "react";
 import styles from "@/pages/Home/Home.module.css";
 import { useAuth } from "react-oidc-context";
-import { District } from "@/types/District";
+import { getBackendUrl } from "@/utils/apiUtils";
+import { District } from "@/utils/types";
 
 type DistrictSelectionProps = {
   onChange: (selectedDistrict: number) => void;
@@ -20,10 +21,7 @@ export const DistrictSelection = ({ onChange }: DistrictSelectionProps) => {
   );
 
   useEffect(() => {
-    const backendURL =
-      import.meta.env.VITE_DEV === "true"
-        ? import.meta.env.VITE_DEV_BACKEND_URL
-        : import.meta.env.VITE_PROD_BACKEND_URL;
+    const backendURL = getBackendUrl();
 
     const fetchData = async () => {
       try {

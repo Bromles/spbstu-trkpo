@@ -3,11 +3,10 @@ import { MouseEvent, useCallback, useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import styles from "./HospitalMap.module.css";
 import "./HospitalMap.css";
-import { useHospitalsContext } from "@/pages/Home/Home";
 import { useAuth } from "react-oidc-context";
-import { Direction } from "@/types/Direction";
-import { Doctor } from "@/types/Doctor";
-import { Hospital } from "@/types/Hospital";
+
+import { getBackendUrl } from "@/utils/apiUtils";
+import { Hospital, Direction, Doctor } from "@/utils/types";
 
 export const HospitalMap = () => {
   const [activePortal, setActivePortal] = useState(false);
@@ -100,10 +99,7 @@ const BalloonContent = ({
   const auth = useAuth();
 
   const startTrackingHandler = useCallback(() => {
-    const backendURL =
-      import.meta.env.MODE === "production"
-        ? import.meta.env.VITE_PROD_BACKEND_URL
-        : import.meta.env.VITE_DEV_BACKEND_URL;
+    const backendURL = getBackendUrl();
 
     const sendData = async () => {
       let body;

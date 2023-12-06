@@ -1,52 +1,37 @@
 import { useCallback, useEffect, useState } from "react";
 import styles from "./Tracking.module.css";
-import { useAuth } from "react-oidc-context";
-
-type TrackingItemProps = {
-  id: number;
-  directionId: number;
-  doctorId: number;
-  isFinished: boolean;
-  clientId: number;
-  hospitalId: number;
-  hospitalGorzdravId: number;
-  hospitalFullName: string;
-};
-
-const backendURL =
-  import.meta.env.VITE_DEV === "true"
-    ? import.meta.env.VITE_DEV_BACKEND_URL
-    : import.meta.env.VITE_PROD_BACKEND_URL;
+import { getBackendUrl } from "@/utils/apiUtils";
+import { useClientId, useClientToken } from "@/utils/hooks";
+import { TrackingItem } from "@/utils/types";
+import { GlobalStore } from "@/GlobalStore";
+import {
+  deleteTrackingItem,
+  fetchHospitalInfo,
+  fetchTrackingItems,
+} from "./TrackingApi";
 
 type TrackingProps = {
   reload: boolean;
 };
 export const Tracking = ({ reload }: TrackingProps) => {
-  const [trackingItems, setTrackingItems] = useState<TrackingItemProps[]>([]);
   const [reloadData, setReloadData] = useState(false);
 
-  const auth = useAuth();
   // const uuid = "565c59dd-f752-4f7d-bd54-c644f313bee1"; //для теста
-  const uuid = auth.user?.profile.sub;
+  const clientToken = useClientToken();
+  const clientId = useClientId();
+  const backendUrl = getBackendUrl();
 
   useEffect(() => {
-    const fetchData = () => {
-      fetch(`${backendURL}/v1/tracking/${uuid}`, {
-        method: "GET",
-        headers: {
-          Authorization: `Bearer ${auth.user?.access_token}`,
-        },
-      })
-        .then((response) => response.json())
-        .then((data: TrackingItemProps[]) => {
-          if (data !== null) {
-            setTrackingItems(data);
-          }
-        });
+    const fetchData = async () => {
+      GlobalStore.trackingItems = await fetchTrackingItems(
+        backendUrl,
+        clientToken,
+        clientId
+      );
     };
 
     fetchData();
-  }, [reloadData, reload, auth.user?.access_token, uuid]);
+  }, [reloadData, reload, clientId, clientToken, backendUrl]);
 
   const handleReload = useCallback(() => {
     setReloadData((prevState) => !prevState);
@@ -56,7 +41,7 @@ export const Tracking = ({ reload }: TrackingProps) => {
     <div className={styles.tracking_container}>
       <h1>Отслеживание</h1>
       <div className={styles.tracking_container_content}>
-        {trackingItems.map((item) => (
+        {GlobalStore.trackingItems.map((item) => (
           <TrackingItem
             key={item.id}
             item={item}
@@ -69,7 +54,7 @@ export const Tracking = ({ reload }: TrackingProps) => {
 };
 
 type TrackingItemComponentProps = {
-  item: TrackingItemProps;
+  item: TrackingItem;
   onStopTracking: () => void;
 };
 
@@ -81,50 +66,43 @@ const TrackingItem: React.FC<TrackingItemComponentProps> = ({
     directionName: string;
     doctorName: string;
   }>();
-  const auth = useAuth();
+  const clientToken = useClientToken();
+  const backendUrl = getBackendUrl();
 
   const deleteTrackingOnClick = useCallback(() => {
     const deleteTracking = async () => {
-      try {
-        await fetch(`${backendURL}/v1/tracking/${item.id}`, {
-          method: "DELETE",
-          headers: {
-            "Content-Type": "application/json",
-            Authorization: `Bearer ${auth.user?.access_token}`,
-          },
-        }).then(() => {
-          onStopTracking();
-        });
-      } catch (error) {
-        console.error("Ошибка при получении данных:", error);
-      }
+      await deleteTrackingItem(backendUrl, clientToken, item.id);
+      onStopTracking();
     };
+
     deleteTracking();
-  }, [item.id, onStopTracking, auth.user?.access_token]);
+  }, [backendUrl, clientToken, item.id, onStopTracking]);
 
   useEffect(() => {
     let doctorId = item.doctorId;
     if (doctorId == null) {
       doctorId = -1;
     }
-    fetch(
-      `${backendURL}/v1/gorzdrav/trackingInfo/${item.hospitalGorzdravId}/${item.directionId}/${doctorId}`,
-      {
-        method: "GET",
-        headers: {
-          Authorization: `Bearer ${auth.user?.access_token}`,
-        },
-      }
-    )
-      .then((response) => response.json())
-      .then((data) => setHospitalInfo(data))
-      .catch((error) => console.error("Ошибка при получении данных:", error));
+
+    const fetchData = async () => {
+      const res = await fetchHospitalInfo(
+        backendUrl,
+        clientToken,
+        item.hospitalGorzdravId,
+        item.directionId,
+        doctorId
+      );
+      setHospitalInfo(res);
+    };
+
+    fetchData();
   }, [
     item.id,
     item.directionId,
     item.doctorId,
     item.hospitalGorzdravId,
-    auth.user?.access_token,
+    clientToken,
+    backendUrl,
   ]);
 
   return (

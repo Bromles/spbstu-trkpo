@@ -1,50 +1,16 @@
 import { HospitalMap } from "@/components/HospitalMap/HospitalMap";
-import {
-  Dispatch,
-  FormEvent,
-  ReactNode,
-  createContext,
-  useCallback,
-  useContext,
-  useEffect,
-  useState,
-} from "react";
+import { FormEvent, useCallback, useEffect, useState } from "react";
 import styles from "./Home.module.css";
 import { DirectionSelection } from "@/components/Selection/DirectionSelection";
 import { DistrictSelection } from "@/components/Selection/DistrictSelection";
 import { HospitalSelection } from "@/components/Selection/HospitalSelection";
 import { DoctorSelection } from "@/components/Selection/DoctorSelection";
 import { Tracking } from "@/components/Tracking/Tracking";
-import { useAuth } from "react-oidc-context";
-import { Hospital } from "@/types/Hospital";
-
-export type HospitalContextValue = {
-  hospitals: Hospital[] | null;
-  setHospitals: Dispatch<React.SetStateAction<Hospital[] | null>>;
-};
-
-export const HospitalsContext = createContext<HospitalContextValue | undefined>(
-  undefined
-);
-
-const HospitalsProvider = ({ children }: { children: ReactNode }) => {
-  const [hospitals, setHospitals] = useState<Hospital[] | null>(null);
-
-  return (
-    <HospitalsContext.Provider value={{ hospitals, setHospitals }}>
-      {children}
-    </HospitalsContext.Provider>
-  );
-};
-
-export const useHospitalsContext = () => {
-  const hospitalsContext = useContext(HospitalsContext);
-  if (hospitalsContext === undefined) {
-    throw new Error("useHospitalsContext must be inside a HospitalsProvider");
-  }
-
-  return hospitalsContext;
-};
+import { getBackendUrl } from "@/utils/apiUtils";
+import { GlobalStore } from "@/GlobalStore";
+import { observer } from "mobx-react-lite";
+import { addTracking, fetchHospitals, saveClient } from "./HomeApi";
+import { useClientId, useClientToken } from "@/utils/hooks";
 
 export const Home = () => {
   const [reloadTracking, setReloadTracking] = useState(false);
@@ -55,11 +21,9 @@ export const Home = () => {
 
   return (
     <div className={styles.layout}>
-      <HospitalsProvider>
-        <Enrollment onSubmit={triggerReloadTracking} />
-        <div className={styles.divider}></div>
-        <Tracking reload={reloadTracking} />
-      </HospitalsProvider>
+      <Enrollment onSubmit={triggerReloadTracking} />
+      <div className={styles.divider}></div>
+      <Tracking reload={reloadTracking} />
     </div>
   );
 };
@@ -68,21 +32,18 @@ type EnrollmentProps = {
   onSubmit: () => void;
 };
 
-const Enrollment = ({ onSubmit }: EnrollmentProps) => {
+const Enrollment = observer(({ onSubmit }: EnrollmentProps) => {
   const [selectedDistrictId, setSelectedDistrictId] = useState<number>(-1);
   const [selectedHospitalId, setSelectedHospitalId] = useState<number>(-1);
   const [selectedDirectionId, setSelectedDirectionId] = useState<number>(-1);
   const [selectedDoctorId, setSelectedDoctorId] = useState<number>(-1);
-  const { setHospitals } = useHospitalsContext();
-  const auth = useAuth();
+  const clientToken = useClientToken();
+  const clientId = useClientId();
 
   const formHandler = useCallback(
     (e: FormEvent<HTMLFormElement>) => {
       e.preventDefault();
-      const backendURL =
-        import.meta.env.MODE === "production"
-          ? import.meta.env.VITE_PROD_BACKEND_URL
-          : import.meta.env.VITE_DEV_BACKEND_URL;
+      const backendUrl = getBackendUrl();
       const sendData = async () => {
         let body;
         const errorSection = document.getElementById("errorSection");
@@ -110,86 +71,48 @@ const Enrollment = ({ onSubmit }: EnrollmentProps) => {
             directionId: selectedDirectionId,
           });
         }
-        try {
-          const response = await fetch(`${backendURL}/v1/tracking`, {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-              Authorization: `Bearer ${auth.user?.access_token}`,
-            },
-            body: body,
-          });
 
-          if (response.ok) {
-            if (successSection !== null) {
-              successSection.textContent = "Успех!";
-            }
-            console.log("Отслеживание успешно начато!");
-          } else {
-            if (errorSection !== null) {
-              errorSection.textContent = "Ошибка при отправке данных.";
-            }
-            console.error("Ошибка при отправке данных.");
+        const response = await addTracking(backendUrl, clientToken, body);
+
+        if (response && response.ok) {
+          if (successSection !== null) {
+            successSection.textContent = "Успех!";
           }
-        } catch (error) {
-          console.error("Ошибка во время запроса:", error);
+          console.log("Отслеживание успешно начато!");
+        } else {
+          if (errorSection !== null) {
+            errorSection.textContent = "Ошибка при отправке данных.";
+          }
+          console.error("Ошибка при отправке данных.");
         }
+
         onSubmit();
       };
 
       sendData();
     },
     [
-      selectedHospitalId,
       selectedDirectionId,
+      selectedHospitalId,
       selectedDoctorId,
+      clientToken,
       onSubmit,
-      auth.user?.access_token,
     ]
   );
 
   useEffect(() => {
-    const backendURL =
-      import.meta.env.VITE_DEV === "true"
-        ? import.meta.env.VITE_DEV_BACKEND_URL
-        : import.meta.env.VITE_PROD_BACKEND_URL;
-    const saveClient = async () => {
-      try {
-        await fetch(`${backendURL}/v1/client/${auth.user?.profile.sub}`, {
-          method: "POST",
-          headers: {
-            Authorization: `Bearer ${auth.user?.access_token}`,
-          },
-        });
-      } catch (error) {
-        console.error("Не удалось сохранить клиента: ", error);
-      }
-    };
-    saveClient();
+    const backendUrl = getBackendUrl();
+    saveClient(backendUrl, clientToken, clientId);
   });
 
   useEffect(() => {
-    const backendURL =
-      import.meta.env.VITE_DEV === "true"
-        ? import.meta.env.VITE_DEV_BACKEND_URL
-        : import.meta.env.VITE_PROD_BACKEND_URL;
+    const backendURL = getBackendUrl();
     const fetchData = async () => {
-      try {
-        const response = await fetch(`${backendURL}/v1/gorzdrav/hospital`, {
-          method: "GET",
-          headers: {
-            Authorization: `Bearer ${auth.user?.access_token}`,
-          },
-        });
-        const data = await response.json();
-        setHospitals(data);
-      } catch (error) {
-        console.error("Ошибка при получении данных:", error);
-      }
+      GlobalStore.hospitals = await fetchHospitals(backendURL, clientToken);
     };
 
     fetchData();
-  }, [auth.user?.access_token, setHospitals]);
+  }, [clientToken]);
 
   return (
     <div>
@@ -249,4 +172,4 @@ const Enrollment = ({ onSubmit }: EnrollmentProps) => {
       </div>
     </div>
   );
-};
+});
