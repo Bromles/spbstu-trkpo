@@ -19,4 +19,6 @@ public class Client {
     private long id;
     @Column(name = "keycloak_id", nullable = false)
     private UUID keycloakId;
+    @Column(name = "email", nullable = false)
+    private String email;
 }
