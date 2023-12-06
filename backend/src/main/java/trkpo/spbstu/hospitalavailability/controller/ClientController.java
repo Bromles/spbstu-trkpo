@@ -3,9 +3,10 @@ package trkpo.spbstu.hospitalavailability.controller;
 import lombok.RequiredArgsConstructor;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
+import trkpo.spbstu.hospitalavailability.dto.ClientRequestDto;
 import trkpo.spbstu.hospitalavailability.service.ClientService;
 
-import javax.validation.constraints.NotNull;
+import javax.validation.Valid;
 
 @RestController
 @RequestMapping("/v1/client")
@@ -15,8 +16,8 @@ import javax.validation.constraints.NotNull;
 public class ClientController {
     private final ClientService clientService;
 
-    @PostMapping("/{keycloak_uuid}")
-    public void create(@PathVariable @NotNull String keycloak_uuid) {
-        clientService.create(keycloak_uuid);
+    @PostMapping
+    public void create(@RequestBody @Valid ClientRequestDto clientRequestDto) {
+        clientService.create(clientRequestDto);
     }
 }

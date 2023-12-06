@@ -109,14 +109,14 @@ public class TrackingService {
         }
         if (existAppointments) {
             trackingRepository.updateTrackingFinishedById(false, id);
-            notificationMailSender.sendMessage(SecurityUtils.getUserMail(), "Появились талоны для записи!",
+            notificationMailSender.sendMessage(tracking.getClient().getEmail(), "Появились талоны для записи!",
                     "Ура, Ура скорее беги записываться к врачу, появились свободные талоны в больницу" +
                             tracking.getHospital().getFullName());
         } else {
             long durationDays = Duration.between(tracking.getDate(), new Timestamp(System.currentTimeMillis()).toLocalDateTime()).toDays();
             if (durationDays >= 60) {
                 trackingRepository.updateTrackingFinishedById(false, id);
-                notificationMailSender.sendMessage(SecurityUtils.getUserMail(), "Истек срок отслеживания талонов!",
+                notificationMailSender.sendMessage(tracking.getClient().getEmail(), "Истек срок отслеживания талонов!",
                         "Нам очень жаль, но талоны не появились в течении 60 дней, вы можете сделать новое отслеживание на сайте");
             }
         }
