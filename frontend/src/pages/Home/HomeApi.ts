@@ -22,14 +22,16 @@ export const addTracking = async (
 export const saveClient = async (
   backendUrl: string,
   token: string,
-  userId: string
+  userId: string,
+  userEmail: string
 ) => {
   try {
-    await fetch(`${backendUrl}/v1/client/${userId}`, {
+    await fetch(`${backendUrl}/v1/client`, {
       method: "POST",
       headers: {
         Authorization: `Bearer ${token}`,
       },
+      body: JSON.stringify({ keycloakId: userId, email: userEmail }),
     });
   } catch (error) {
     console.error("Не удалось сохранить клиента: ", error);

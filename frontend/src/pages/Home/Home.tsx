@@ -10,7 +10,7 @@ import { getBackendUrl } from "@/utils/apiUtils";
 import { GlobalStore } from "@/GlobalStore";
 import { observer } from "mobx-react-lite";
 import { addTracking, fetchHospitals, saveClient } from "./HomeApi";
-import { useClientId, useClientToken } from "@/utils/hooks";
+import { useClientEmail, useClientId, useClientToken } from "@/utils/hooks";
 
 export const Home = () => {
   const [reloadTracking, setReloadTracking] = useState(false);
@@ -39,6 +39,7 @@ const Enrollment = observer(({ onSubmit }: EnrollmentProps) => {
   const [selectedDoctorId, setSelectedDoctorId] = useState<number>(-1);
   const clientToken = useClientToken();
   const clientId = useClientId();
+  const clientEmail = useClientEmail();
 
   const formHandler = useCallback(
     (e: FormEvent<HTMLFormElement>) => {
@@ -102,7 +103,7 @@ const Enrollment = observer(({ onSubmit }: EnrollmentProps) => {
 
   useEffect(() => {
     const backendUrl = getBackendUrl();
-    saveClient(backendUrl, clientToken, clientId);
+    saveClient(backendUrl, clientToken, clientId, clientEmail);
   });
 
   useEffect(() => {

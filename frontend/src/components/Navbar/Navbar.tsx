@@ -1,8 +1,10 @@
 import { useAuth } from "react-oidc-context";
 import styles from "./Navbar.module.css";
+import { useClientEmail } from "@/utils/hooks";
 
 export const NavBar = () => {
   const auth = useAuth();
+  const clientEmail = useClientEmail();
 
   const authButtonHandler = () =>
     auth.isAuthenticated ? void auth.removeUser() : void auth.signinRedirect();
@@ -11,7 +13,7 @@ export const NavBar = () => {
     <header className={styles.header}>
       <div className={styles.container}>
         <div className={styles.name}>
-          {auth.isAuthenticated && auth.user?.profile.preferred_username}
+          {auth.isAuthenticated && clientEmail}
         </div>
         <nav>
           <button onClick={authButtonHandler}>

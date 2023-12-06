@@ -11,3 +11,9 @@ export const useClientId = () => {
 
   return auth.user!.profile.sub;
 };
+
+export const useClientEmail = () => {
+  const auth = useAuth();
+
+  return auth.user!.profile.preferred_username!;
+};
