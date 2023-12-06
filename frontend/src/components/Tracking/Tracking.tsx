@@ -9,11 +9,12 @@ import {
   fetchHospitalInfo,
   fetchTrackingItems,
 } from "./TrackingApi";
+import { observer } from "mobx-react-lite";
 
 type TrackingProps = {
   reload: boolean;
 };
-export const Tracking = ({ reload }: TrackingProps) => {
+export const Tracking = observer(({ reload }: TrackingProps) => {
   const [reloadData, setReloadData] = useState(false);
 
   // const uuid = "565c59dd-f752-4f7d-bd54-c644f313bee1"; //для теста
@@ -51,7 +52,7 @@ export const Tracking = ({ reload }: TrackingProps) => {
       </div>
     </div>
   );
-};
+});
 
 type TrackingItemComponentProps = {
   item: TrackingItem;

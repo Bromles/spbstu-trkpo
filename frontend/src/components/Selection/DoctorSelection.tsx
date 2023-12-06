@@ -1,8 +1,10 @@
-import { ChangeEvent, useCallback, useEffect, useState } from "react";
+import { ChangeEvent, useCallback, useEffect } from "react";
 import styles from "@/pages/Home/Home.module.css";
-import { useAuth } from "react-oidc-context";
 import { getBackendUrl } from "@/utils/apiUtils";
-import { Doctor } from "@/utils/types";
+import { observer } from "mobx-react-lite";
+import { useClientToken } from "@/utils/hooks";
+import { GlobalStore } from "@/GlobalStore";
+import { fetchDoctors } from "./SelectionApi";
 
 type DoctorSelectionProps = {
   selectedDirectionId: number;
@@ -10,62 +12,49 @@ type DoctorSelectionProps = {
   onDoctorChange: (selectedDoctorId: number) => void;
 };
 
-export const DoctorSelection = ({
-  selectedDirectionId,
-  selectedHospitalId,
-  onDoctorChange,
-}: DoctorSelectionProps) => {
-  const [doctors, setDoctors] = useState<Doctor[]>([]);
-  const auth = useAuth();
+export const DoctorSelection = observer(
+  ({
+    selectedDirectionId,
+    selectedHospitalId,
+    onDoctorChange,
+  }: DoctorSelectionProps) => {
+    const clientToken = useClientToken();
 
-  const handleChange = useCallback(
-    (event: ChangeEvent<HTMLSelectElement>) => {
-      const selectedDoctorId = parseInt(event.target.value, 10);
-      onDoctorChange(selectedDoctorId);
-    },
-    [onDoctorChange]
-  );
+    const handleChange = useCallback(
+      (event: ChangeEvent<HTMLSelectElement>) => {
+        const selectedDoctorId = parseInt(event.target.value, 10);
+        onDoctorChange(selectedDoctorId);
+      },
+      [onDoctorChange]
+    );
 
-  useEffect(() => {
-    const backendURL = getBackendUrl();
+    useEffect(() => {
+      const backendUrl = getBackendUrl();
 
-    const fetchData = async () => {
-      try {
-        const response = await fetch(
-          `${backendURL}/v1/gorzdrav/doctors/` +
-            selectedHospitalId.toString() +
-            "/" +
-            selectedDirectionId.toString(),
-          {
-            method: "GET",
-            headers: {
-              Authorization: `Bearer ${auth.user?.access_token}`,
-            },
-          }
+      const fetchData = async () => {
+        GlobalStore.doctors = await fetchDoctors(
+          backendUrl,
+          clientToken,
+          selectedHospitalId,
+          selectedDirectionId
         );
-        const data = await response.json();
-        setDoctors(data);
-      } catch (error) {
-        console.error("Ошибка при получении данных:", error);
+      };
+
+      if (selectedDirectionId !== -1 && selectedHospitalId !== -1) {
+        fetchData();
+      } else {
+        GlobalStore.doctors = [];
       }
-    };
+    }, [selectedDirectionId, selectedHospitalId, clientToken]);
 
-    if (selectedDirectionId !== -1 && selectedHospitalId !== -1) {
-      fetchData();
-    } else {
-      setDoctors([]);
-    }
-  }, [selectedDirectionId, selectedHospitalId, auth.user?.access_token]);
-
-  return (
-    <div className={styles.form_section}>
-      <label htmlFor="doctor" className={styles.label}>
-        Доктор:
-      </label>
-      <select name="doctor" id="doctorSelect" onChange={handleChange}>
-        <option value="-1">Выберите доктора (опционально)</option>
-        {Array.isArray(doctors) &&
-          doctors.map((doctor) => (
+    return (
+      <div className={styles.form_section}>
+        <label htmlFor="doctor" className={styles.label}>
+          Доктор:
+        </label>
+        <select name="doctor" id="doctorSelect" onChange={handleChange}>
+          <option value="-1">Выберите доктора (опционально)</option>
+          {GlobalStore.doctors.map((doctor) => (
             <option
               value={doctor.gorzdravId.toString()}
               key={doctor.gorzdravId}
@@ -73,7 +62,8 @@ export const DoctorSelection = ({
               {doctor.name}
             </option>
           ))}
-      </select>
-    </div>
-  );
-};
+        </select>
+      </div>
+    );
+  }
+);
