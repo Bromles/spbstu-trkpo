@@ -12,7 +12,7 @@ export const Providers = ({ children }: { children: React.ReactNode }) => {
             apikey: "5ef6c9f7-9d43-4357-af6b-ac44bc4686e2",
             lang: "ru_RU",
           }}
-          version={ '2.1.79'}
+          version={"2.1.79"}
         >
           {children}
         </YMaps>

@@ -4,10 +4,10 @@ import { createPortal } from "react-dom";
 import styles from "./HospitalMap.module.css";
 import "./HospitalMap.css";
 import { useHospitalsContext } from "@/pages/Home/Home";
-import { Hospital } from "../Selection/HospitalSelection";
 import { useAuth } from "react-oidc-context";
-import { Direction } from "../Selection/DirectionSelection";
-import { Doctor } from "../Selection/DoctorSelection";
+import { Direction } from "@/types/Direction";
+import { Doctor } from "@/types/Doctor";
+import { Hospital } from "@/types/Hospital";
 
 export const HospitalMap = () => {
   const [activePortal, setActivePortal] = useState(false);
@@ -88,7 +88,15 @@ export const HospitalMap = () => {
   );
 };
 
-const BalloonContent = ({ hospital, direction, doctor }: { hospital: Hospital | null, direction: Direction | null, doctor: Doctor | null}) => {
+const BalloonContent = ({
+  hospital,
+  direction,
+  doctor,
+}: {
+  hospital: Hospital | null;
+  direction: Direction | null;
+  doctor: Doctor | null;
+}) => {
   const auth = useAuth();
 
   const startTrackingHandler = useCallback(() => {

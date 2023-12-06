@@ -1,6 +1,6 @@
 import { useAuth } from "react-oidc-context";
 import React from "react";
-import {UnauthHome} from "@/pages/UnauthHome/UnauthHome";
+import { UnauthHome } from "@/pages/UnauthHome/UnauthHome";
 
 export const AuthGuard = ({ children }: { children: React.ReactNode }) => {
   const auth = useAuth();

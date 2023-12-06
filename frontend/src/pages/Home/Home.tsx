@@ -12,13 +12,11 @@ import {
 import styles from "./Home.module.css";
 import { DirectionSelection } from "@/components/Selection/DirectionSelection";
 import { DistrictSelection } from "@/components/Selection/DistrictSelection";
-import {
-  Hospital,
-  HospitalSelection,
-} from "@/components/Selection/HospitalSelection";
+import { HospitalSelection } from "@/components/Selection/HospitalSelection";
 import { DoctorSelection } from "@/components/Selection/DoctorSelection";
 import { Tracking } from "@/components/Tracking/Tracking";
 import { useAuth } from "react-oidc-context";
+import { Hospital } from "@/types/Hospital";
 
 export type HospitalContextValue = {
   hospitals: Hospital[] | null;
@@ -75,7 +73,7 @@ const Enrollment = ({ onSubmit }: EnrollmentProps) => {
   const [selectedHospitalId, setSelectedHospitalId] = useState<number>(-1);
   const [selectedDirectionId, setSelectedDirectionId] = useState<number>(-1);
   const [selectedDoctorId, setSelectedDoctorId] = useState<number>(-1);
-  const {setHospitals} = useHospitalsContext();
+  const { setHospitals } = useHospitalsContext();
   const auth = useAuth();
 
   const formHandler = useCallback(
