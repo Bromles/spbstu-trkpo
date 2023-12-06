@@ -1,5 +1,5 @@
 import { HospitalMap } from "@/components/HospitalMap/HospitalMap";
-import { FormEvent, useCallback, useEffect, useState } from "react";
+import { FormEvent, useCallback, useEffect, useRef, useState } from "react";
 import styles from "./Home.module.css";
 import { DirectionSelection } from "@/components/Selection/DirectionSelection";
 import { DistrictSelection } from "@/components/Selection/DistrictSelection";
@@ -11,6 +11,7 @@ import { GlobalStore } from "@/GlobalStore";
 import { observer } from "mobx-react-lite";
 import { addTracking, fetchHospitals, saveClient } from "./HomeApi";
 import { useClientEmail, useClientId, useClientToken } from "@/utils/hooks";
+import { SelectionStore } from "@/components/Selection/SelectionStore";
 
 export const Home = () => {
   const [reloadTracking, setReloadTracking] = useState(false);
@@ -33,23 +34,24 @@ type EnrollmentProps = {
 };
 
 const Enrollment = observer(({ onSubmit }: EnrollmentProps) => {
-  const [selectedDistrictId, setSelectedDistrictId] = useState<number>(-1);
-  const [selectedHospitalId, setSelectedHospitalId] = useState<number>(-1);
-  const [selectedDirectionId, setSelectedDirectionId] = useState<number>(-1);
-  const [selectedDoctorId, setSelectedDoctorId] = useState<number>(-1);
   const clientToken = useClientToken();
   const clientId = useClientId();
   const clientEmail = useClientEmail();
+  const errorSectionRef = useRef<HTMLDivElement | null>(null);
+  const successSectionRef = useRef<HTMLDivElement | null>(null);
 
   const formHandler = useCallback(
     (e: FormEvent<HTMLFormElement>) => {
       e.preventDefault();
       const backendUrl = getBackendUrl();
       const sendData = async () => {
-        let body;
-        const errorSection = document.getElementById("errorSection");
-        const successSection = document.getElementById("successSection");
-        if (selectedDirectionId === -1 || selectedHospitalId === -1) {
+        const errorSection = errorSectionRef.current;
+        const successSection = successSectionRef.current;
+
+        if (
+          SelectionStore.selectedDirectionId === -1 ||
+          SelectionStore.selectedHospitalId === -1
+        ) {
           if (errorSection !== null) {
             errorSection.textContent = "Некорректные данные";
           }
@@ -60,16 +62,18 @@ const Enrollment = observer(({ onSubmit }: EnrollmentProps) => {
         } else if (errorSection !== null) {
           errorSection.textContent = null;
         }
-        if (selectedDoctorId !== -1) {
+
+        let body;
+        if (SelectionStore.selectedDoctorId !== -1) {
           body = JSON.stringify({
-            hospitalId: selectedHospitalId,
-            directionId: selectedDirectionId,
-            doctorId: selectedDoctorId,
+            hospitalId: SelectionStore.selectedHospitalId,
+            directionId: SelectionStore.selectedDirectionId,
+            doctorId: SelectionStore.selectedDoctorId,
           });
         } else {
           body = JSON.stringify({
-            hospitalId: selectedHospitalId,
-            directionId: selectedDirectionId,
+            hospitalId: SelectionStore.selectedHospitalId,
+            directionId: SelectionStore.selectedDirectionId,
           });
         }
 
@@ -92,13 +96,7 @@ const Enrollment = observer(({ onSubmit }: EnrollmentProps) => {
 
       sendData();
     },
-    [
-      selectedDirectionId,
-      selectedHospitalId,
-      selectedDoctorId,
-      clientToken,
-      onSubmit,
-    ]
+    [clientToken, onSubmit]
   );
 
   useEffect(() => {
@@ -140,32 +138,39 @@ const Enrollment = observer(({ onSubmit }: EnrollmentProps) => {
           <div className={styles.form_block}>
             <form onSubmit={formHandler} className={styles.form}>
               <DistrictSelection
-                onChange={(districtId) => setSelectedDistrictId(districtId)}
+                onChange={(districtId) =>
+                  (SelectionStore.selectedDistrictId = districtId)
+                }
               />
               <HospitalSelection
-                selectedDistrictId={selectedDistrictId}
+                selectedDistrictId={SelectionStore.selectedDistrictId}
                 onHospitalChange={(hospitalId) =>
-                  setSelectedHospitalId(hospitalId)
+                  (SelectionStore.selectedHospitalId = hospitalId)
                 }
               />
               <DirectionSelection
-                selectedHospitalId={selectedHospitalId}
+                selectedHospitalId={SelectionStore.selectedHospitalId}
                 onDirectionChange={(directionId) =>
-                  setSelectedDirectionId(directionId)
+                  (SelectionStore.selectedDirectionId = directionId)
                 }
               />
               <DoctorSelection
-                selectedDirectionId={selectedDirectionId}
-                selectedHospitalId={selectedHospitalId}
-                onDoctorChange={(doctorId) => setSelectedDoctorId(doctorId)}
+                selectedDirectionId={SelectionStore.selectedDirectionId}
+                selectedHospitalId={SelectionStore.selectedHospitalId}
+                onDoctorChange={(doctorId) =>
+                  (SelectionStore.selectedDoctorId = doctorId)
+                }
               />
-              <div defaultValue={selectedDoctorId}></div>
+              <div defaultValue={SelectionStore.selectedDoctorId}></div>
               <button type="submit">Начать отслеживание</button>
             </form>
-            <div className={styles.form_section_error} id="errorSection"></div>
             <div
+              ref={errorSectionRef}
+              className={styles.form_section_error}
+            ></div>
+            <div
+              ref={successSectionRef}
               className={styles.form_section_success}
-              id="successSection"
             ></div>
           </div>
         </div>

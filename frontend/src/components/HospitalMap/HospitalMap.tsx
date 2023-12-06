@@ -13,7 +13,6 @@ export const HospitalMap = () => {
   const [selectedPlacemarkId, setSelectedPlacemarkId] = useState<number | null>(
     null
   );
-  const { hospitals } = useHospitalsContext();
   const [isEventSet, setIsEventSet] = useState(false);
 
   const getHospital = () => {
