@@ -5,9 +5,9 @@ import {
   Doctor,
   Direction,
   TrackingItem,
-} from "./utils/types";
+} from "../utils/types";
 
-class Store {
+export class GlobalStore {
   private _hospitals: Hospital[];
   private _districts: District[];
   private _doctors: Doctor[];
@@ -64,5 +64,3 @@ class Store {
     this._trackingItems = trackingItems;
   }
 }
-
-export const GlobalStore = new Store();

@@ -1,4 +1,4 @@
-import { HospitalMap } from "@/components/HospitalMap/HospitalMap";
+//import { HospitalMap } from "@/components/HospitalMap/HospitalMap";
 import { FormEvent, useCallback, useEffect, useRef, useState } from "react";
 import styles from "./Home.module.css";
 import { DirectionSelection } from "@/components/Selection/DirectionSelection";
@@ -7,11 +7,15 @@ import { HospitalSelection } from "@/components/Selection/HospitalSelection";
 import { DoctorSelection } from "@/components/Selection/DoctorSelection";
 import { Tracking } from "@/components/Tracking/Tracking";
 import { getBackendUrl } from "@/utils/apiUtils";
-import { GlobalStore } from "@/GlobalStore";
 import { observer } from "mobx-react-lite";
 import { addTracking, fetchHospitals, saveClient } from "./HomeApi";
-import { useClientEmail, useClientId, useClientToken } from "@/utils/hooks";
-import { SelectionStore } from "@/components/Selection/SelectionStore";
+import {
+  useClientEmail,
+  useClientId,
+  useClientToken,
+  useGlobalStore,
+  useSelectionStore,
+} from "@/utils/hooks";
 
 export const Home = () => {
   const [reloadTracking, setReloadTracking] = useState(false);
@@ -39,6 +43,8 @@ const Enrollment = observer(({ onSubmit }: EnrollmentProps) => {
   const clientEmail = useClientEmail();
   const errorSectionRef = useRef<HTMLDivElement | null>(null);
   const successSectionRef = useRef<HTMLDivElement | null>(null);
+  const globalStore = useGlobalStore();
+  const selectionStore = useSelectionStore();
 
   const formHandler = useCallback(
     (e: FormEvent<HTMLFormElement>) => {
@@ -49,8 +55,8 @@ const Enrollment = observer(({ onSubmit }: EnrollmentProps) => {
         const successSection = successSectionRef.current;
 
         if (
-          SelectionStore.selectedDirectionId === -1 ||
-          SelectionStore.selectedHospitalId === -1
+          selectionStore.selectedDirectionId === -1 ||
+          selectionStore.selectedHospitalId === -1
         ) {
           if (errorSection !== null) {
             errorSection.textContent = "Некорректные данные";
@@ -64,16 +70,16 @@ const Enrollment = observer(({ onSubmit }: EnrollmentProps) => {
         }
 
         let body;
-        if (SelectionStore.selectedDoctorId !== -1) {
+        if (selectionStore.selectedDoctorId !== -1) {
           body = JSON.stringify({
-            hospitalId: SelectionStore.selectedHospitalId,
-            directionId: SelectionStore.selectedDirectionId,
-            doctorId: SelectionStore.selectedDoctorId,
+            hospitalId: selectionStore.selectedHospitalId,
+            directionId: selectionStore.selectedDirectionId,
+            doctorId: selectionStore.selectedDoctorId,
           });
         } else {
           body = JSON.stringify({
-            hospitalId: SelectionStore.selectedHospitalId,
-            directionId: SelectionStore.selectedDirectionId,
+            hospitalId: selectionStore.selectedHospitalId,
+            directionId: selectionStore.selectedDirectionId,
           });
         }
 
@@ -96,7 +102,13 @@ const Enrollment = observer(({ onSubmit }: EnrollmentProps) => {
 
       sendData();
     },
-    [clientToken, onSubmit]
+    [
+      clientToken,
+      onSubmit,
+      selectionStore.selectedDirectionId,
+      selectionStore.selectedDoctorId,
+      selectionStore.selectedHospitalId,
+    ]
   );
 
   useEffect(() => {
@@ -107,11 +119,11 @@ const Enrollment = observer(({ onSubmit }: EnrollmentProps) => {
   useEffect(() => {
     const backendURL = getBackendUrl();
     const fetchData = async () => {
-      GlobalStore.hospitals = await fetchHospitals(backendURL, clientToken);
+      globalStore.hospitals = await fetchHospitals(backendURL, clientToken);
     };
 
     fetchData();
-  }, [clientToken]);
+  }, [clientToken, globalStore]);
 
   return (
     <div>
@@ -137,31 +149,11 @@ const Enrollment = observer(({ onSubmit }: EnrollmentProps) => {
         <div className={styles.form_container}>
           <div className={styles.form_block}>
             <form onSubmit={formHandler} className={styles.form}>
-              <DistrictSelection
-                onChange={(districtId) =>
-                  (SelectionStore.selectedDistrictId = districtId)
-                }
-              />
-              <HospitalSelection
-                selectedDistrictId={SelectionStore.selectedDistrictId}
-                onHospitalChange={(hospitalId) =>
-                  (SelectionStore.selectedHospitalId = hospitalId)
-                }
-              />
-              <DirectionSelection
-                selectedHospitalId={SelectionStore.selectedHospitalId}
-                onDirectionChange={(directionId) =>
-                  (SelectionStore.selectedDirectionId = directionId)
-                }
-              />
-              <DoctorSelection
-                selectedDirectionId={SelectionStore.selectedDirectionId}
-                selectedHospitalId={SelectionStore.selectedHospitalId}
-                onDoctorChange={(doctorId) =>
-                  (SelectionStore.selectedDoctorId = doctorId)
-                }
-              />
-              <div defaultValue={SelectionStore.selectedDoctorId}></div>
+              <DistrictSelection />
+              <HospitalSelection />
+              <DirectionSelection />
+              <DoctorSelection />
+              <div defaultValue={selectionStore.selectedDoctorId}></div>
               <button type="submit">Начать отслеживание</button>
             </form>
             <div
@@ -174,7 +166,7 @@ const Enrollment = observer(({ onSubmit }: EnrollmentProps) => {
             ></div>
           </div>
         </div>
-        <HospitalMap />
+        {/*<HospitalMap />*/}
       </div>
     </div>
   );

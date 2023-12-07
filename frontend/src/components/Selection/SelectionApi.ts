@@ -35,14 +35,22 @@ export const fetchDistricts = async (backendUrl: string, token: string) => {
   }
 };
 
-export const fetchDoctors = async (backendUrl: string, token: string, hospitalId: number, directionId: number) => {
+export const fetchDoctors = async (
+  backendUrl: string,
+  token: string,
+  hospitalId: number,
+  directionId: number
+) => {
   try {
-    const res = await fetch(`${backendUrl}/v1/gorzdrav/doctors/${hospitalId}/${directionId}`, {
-      method: "GET",
-      headers: {
-        Authorization: `Bearer ${token}`,
-      },
-    });
+    const res = await fetch(
+      `${backendUrl}/v1/gorzdrav/doctors/${hospitalId}/${directionId}`,
+      {
+        method: "GET",
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      }
+    );
 
     return await res.json();
   } catch (error) {

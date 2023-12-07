@@ -29,6 +29,7 @@ export const saveClient = async (
     await fetch(`${backendUrl}/v1/client`, {
       method: "POST",
       headers: {
+        "Content-Type": "application/json",
         Authorization: `Bearer ${token}`,
       },
       body: JSON.stringify({ keycloakId: userId, email: userEmail }),

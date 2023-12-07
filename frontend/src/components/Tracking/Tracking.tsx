@@ -1,9 +1,8 @@
 import { useCallback, useEffect, useState } from "react";
 import styles from "./Tracking.module.css";
 import { getBackendUrl } from "@/utils/apiUtils";
-import { useClientId, useClientToken } from "@/utils/hooks";
+import { useClientId, useClientToken, useGlobalStore } from "@/utils/hooks";
 import { TrackingItem } from "@/utils/types";
-import { GlobalStore } from "@/GlobalStore";
 import {
   deleteTrackingItem,
   fetchHospitalInfo,
@@ -20,11 +19,12 @@ export const Tracking = observer(({ reload }: TrackingProps) => {
   // const uuid = "565c59dd-f752-4f7d-bd54-c644f313bee1"; //для теста
   const clientToken = useClientToken();
   const clientId = useClientId();
+  const globalStore = useGlobalStore();
   const backendUrl = getBackendUrl();
 
   useEffect(() => {
     const fetchData = async () => {
-      GlobalStore.trackingItems = await fetchTrackingItems(
+      globalStore.trackingItems = await fetchTrackingItems(
         backendUrl,
         clientToken,
         clientId
@@ -32,7 +32,7 @@ export const Tracking = observer(({ reload }: TrackingProps) => {
     };
 
     fetchData();
-  }, [reloadData, reload, clientId, clientToken, backendUrl]);
+  }, [reloadData, reload, clientId, clientToken, backendUrl, globalStore]);
 
   const handleReload = useCallback(() => {
     setReloadData((prevState) => !prevState);
@@ -42,8 +42,8 @@ export const Tracking = observer(({ reload }: TrackingProps) => {
     <div className={styles.tracking_container}>
       <h1>Отслеживание</h1>
       <div className={styles.tracking_container_content}>
-        {GlobalStore.trackingItems.map((item) => (
-          <TrackingItem
+        {globalStore.trackingItems.map((item) => (
+          <TrackingItemComponent
             key={item.id}
             item={item}
             onStopTracking={handleReload}
@@ -59,7 +59,7 @@ type TrackingItemComponentProps = {
   onStopTracking: () => void;
 };
 
-const TrackingItem: React.FC<TrackingItemComponentProps> = ({
+const TrackingItemComponent: React.FC<TrackingItemComponentProps> = ({
   item,
   onStopTracking,
 }) => {

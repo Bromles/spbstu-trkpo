@@ -1,6 +1,6 @@
 import { makeAutoObservable } from "mobx";
 
-class Store {
+export class SelectionStore {
   private _selectedHospitalId: number;
   private _selectedDistrictId: number;
   private _selectedDoctorId: number;
@@ -47,5 +47,3 @@ class Store {
     this._selectedDirectionId = selectedDirectionId;
   }
 }
-
-export const SelectionStore = new Store();
