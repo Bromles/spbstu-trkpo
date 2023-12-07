@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { ChangeEvent, useCallback, useEffect } from "react";
 import styles from "@/pages/Home/Home.module.css";
 import { getBackendUrl } from "@/utils/apiUtils";
@@ -19,7 +20,7 @@ export const DoctorSelection = observer(() => {
       const selectedDoctorId = parseInt(e.target.value, 10);
       selectionStore.selectedDoctorId = selectedDoctorId;
     },
-    [selectionStore]
+    [selectionStore.selectedDoctorId]
   );
 
   useEffect(() => {
@@ -44,7 +45,7 @@ export const DoctorSelection = observer(() => {
     }
   }, [
     clientToken,
-    globalStore,
+    globalStore.doctors,
     selectionStore.selectedDirectionId,
     selectionStore.selectedHospitalId,
   ]);
@@ -70,3 +71,4 @@ export const DoctorSelection = observer(() => {
     </div>
   );
 });
+DoctorSelection.displayName = "DoctorSelection";

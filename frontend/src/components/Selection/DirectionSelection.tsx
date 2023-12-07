@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { ChangeEvent, useCallback, useEffect } from "react";
 import styles from "@/pages/Home/Home.module.css";
 import { getBackendUrl } from "@/utils/apiUtils";
@@ -19,12 +20,11 @@ export const DirectionSelection = observer(() => {
       const selectedDirectionId = parseInt(e.target.value, 10);
       selectionStore.selectedDirectionId = selectedDirectionId;
     },
-    [selectionStore]
+    [selectionStore.selectedDirectionId]
   );
 
   useEffect(() => {
     const backendUrl = getBackendUrl();
-    console.log(`directionId mobx: ${selectionStore.selectedDirectionId}`);
     const fetchData = async () => {
       globalStore.directions = await fetchDirections(
         backendUrl,
@@ -40,7 +40,7 @@ export const DirectionSelection = observer(() => {
     }
   }, [
     clientToken,
-    globalStore,
+    globalStore.directions,
     selectionStore.selectedDirectionId,
     selectionStore.selectedHospitalId,
   ]);
@@ -66,3 +66,4 @@ export const DirectionSelection = observer(() => {
     </div>
   );
 });
+DirectionSelection.displayName = "DirectionSelection";

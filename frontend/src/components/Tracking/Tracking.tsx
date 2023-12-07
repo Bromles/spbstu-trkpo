@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useCallback, useEffect, useState } from "react";
 import styles from "./Tracking.module.css";
 import { getBackendUrl } from "@/utils/apiUtils";
@@ -10,10 +11,7 @@ import {
 } from "./TrackingApi";
 import { observer } from "mobx-react-lite";
 
-type TrackingProps = {
-  reload: boolean;
-};
-export const Tracking = observer(({ reload }: TrackingProps) => {
+export const Tracking = observer(() => {
   const [reloadData, setReloadData] = useState(false);
 
   // const uuid = "565c59dd-f752-4f7d-bd54-c644f313bee1"; //для теста
@@ -32,7 +30,13 @@ export const Tracking = observer(({ reload }: TrackingProps) => {
     };
 
     fetchData();
-  }, [reloadData, reload, clientId, clientToken, backendUrl, globalStore]);
+  }, [
+    reloadData,
+    clientId,
+    clientToken,
+    backendUrl,
+    globalStore.trackingItems,
+  ]);
 
   const handleReload = useCallback(() => {
     setReloadData((prevState) => !prevState);
@@ -53,6 +57,7 @@ export const Tracking = observer(({ reload }: TrackingProps) => {
     </div>
   );
 });
+Tracking.displayName = "Tracking";
 
 type TrackingItemComponentProps = {
   item: TrackingItem;
@@ -108,13 +113,13 @@ const TrackingItemComponent: React.FC<TrackingItemComponentProps> = ({
 
   return (
     <div className={styles.trackingItem}>
-      <p>
+      <span>
         <h3>Больница:</h3> {item.hospitalFullName}
         <br />
         <h3>Направление:</h3> {hospitalInfo?.directionName}
         <br />
         <h3>Врач:</h3> {hospitalInfo?.doctorName}
-      </p>
+      </span>
       <button type="button" onClick={deleteTrackingOnClick}>
         Закончить отслеживание
       </button>

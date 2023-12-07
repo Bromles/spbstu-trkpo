@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { ChangeEvent, useCallback, useEffect } from "react";
 import styles from "@/pages/Home/Home.module.css";
 import { getBackendUrl } from "@/utils/apiUtils";
@@ -19,7 +20,7 @@ export const DistrictSelection = observer(() => {
       const selectedDistrict = parseInt(e.target.value, 10);
       selectionStore.selectedDistrictId = selectedDistrict;
     },
-    [selectionStore]
+    [selectionStore.selectedDistrictId]
   );
 
   useEffect(() => {
@@ -30,7 +31,7 @@ export const DistrictSelection = observer(() => {
     };
 
     fetchData();
-  }, [clientToken, globalStore]);
+  }, [clientToken, globalStore.districts]);
 
   return (
     <div className={styles.form_section}>
@@ -56,3 +57,4 @@ export const DistrictSelection = observer(() => {
     </div>
   );
 });
+DistrictSelection.displayName = "DistrictSelection";

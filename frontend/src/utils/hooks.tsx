@@ -1,7 +1,7 @@
 import {
   GlobalStoreContext,
   SelectionStoreContext,
-} from "@/components/StoreProvider/StoreProvider";
+} from "@/components/Tracking/StoreProvider";
 import { useContext } from "react";
 import { useAuth } from "react-oidc-context";
 

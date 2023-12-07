@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { ChangeEvent, useCallback, useEffect, useState } from "react";
 import styles from "@/pages/Home/Home.module.css";
 import { getBackendUrl } from "@/utils/apiUtils";
@@ -16,13 +17,15 @@ export const HospitalSelection = observer(() => {
       const selectedHospitalId = parseInt(e.target.value, 10);
       selectionStore.selectedHospitalId = selectedHospitalId;
     },
-    [selectionStore]
+    [selectionStore.selectedHospitalId]
   );
 
   useEffect(() => {
     const backendUrl = getBackendUrl();
+
     const fetchData = async () => {
       const data = await fetchHospitals(backendUrl, clientToken);
+      console.log(`hospitalId mobx: ${selectionStore.selectedHospitalId}`);
       const filtered = data.filter(
         (hospital: Hospital) =>
           selectionStore.selectedDistrictId === hospital.districtId
@@ -31,7 +34,8 @@ export const HospitalSelection = observer(() => {
     };
 
     fetchData();
-  }, [clientToken, selectionStore]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [clientToken, selectionStore.selectedDistrictId, selectionStore.selectedHospitalId]);
 
   return (
     <div className={styles.form_section}>
@@ -54,3 +58,4 @@ export const HospitalSelection = observer(() => {
     </div>
   );
 });
+HospitalSelection.displayName = "HospitalSelection";

@@ -1,5 +1,5 @@
 //import { HospitalMap } from "@/components/HospitalMap/HospitalMap";
-import { FormEvent, useCallback, useEffect, useRef, useState } from "react";
+import { FormEvent, useCallback, useEffect, useRef } from "react";
 import styles from "./Home.module.css";
 import { DirectionSelection } from "@/components/Selection/DirectionSelection";
 import { DistrictSelection } from "@/components/Selection/DistrictSelection";
@@ -8,48 +8,37 @@ import { DoctorSelection } from "@/components/Selection/DoctorSelection";
 import { Tracking } from "@/components/Tracking/Tracking";
 import { getBackendUrl } from "@/utils/apiUtils";
 import { observer } from "mobx-react-lite";
-import { addTracking, fetchHospitals, saveClient } from "./HomeApi";
+import { addTracking, saveClient } from "./HomeApi";
 import {
   useClientEmail,
   useClientId,
   useClientToken,
-  useGlobalStore,
   useSelectionStore,
 } from "@/utils/hooks";
 
 export const Home = () => {
-  const [reloadTracking, setReloadTracking] = useState(false);
-
-  const triggerReloadTracking = () => {
-    setReloadTracking((prevState) => !prevState);
-  };
-
   return (
     <div className={styles.layout}>
-      <Enrollment onSubmit={triggerReloadTracking} />
+      <Enrollment />
       <div className={styles.divider}></div>
-      <Tracking reload={reloadTracking} />
+      <Tracking />
     </div>
   );
 };
 
-type EnrollmentProps = {
-  onSubmit: () => void;
-};
-
-const Enrollment = observer(({ onSubmit }: EnrollmentProps) => {
+const Enrollment = observer(() => {
   const clientToken = useClientToken();
   const clientId = useClientId();
   const clientEmail = useClientEmail();
   const errorSectionRef = useRef<HTMLDivElement | null>(null);
   const successSectionRef = useRef<HTMLDivElement | null>(null);
-  const globalStore = useGlobalStore();
   const selectionStore = useSelectionStore();
 
   const formHandler = useCallback(
     (e: FormEvent<HTMLFormElement>) => {
       e.preventDefault();
       const backendUrl = getBackendUrl();
+
       const sendData = async () => {
         const errorSection = errorSectionRef.current;
         const successSection = successSectionRef.current;
@@ -96,15 +85,12 @@ const Enrollment = observer(({ onSubmit }: EnrollmentProps) => {
           }
           console.error("Ошибка при отправке данных.");
         }
-
-        onSubmit();
       };
 
       sendData();
     },
     [
       clientToken,
-      onSubmit,
       selectionStore.selectedDirectionId,
       selectionStore.selectedDoctorId,
       selectionStore.selectedHospitalId,
@@ -115,15 +101,6 @@ const Enrollment = observer(({ onSubmit }: EnrollmentProps) => {
     const backendUrl = getBackendUrl();
     saveClient(backendUrl, clientToken, clientId, clientEmail);
   });
-
-  useEffect(() => {
-    const backendURL = getBackendUrl();
-    const fetchData = async () => {
-      globalStore.hospitals = await fetchHospitals(backendURL, clientToken);
-    };
-
-    fetchData();
-  }, [clientToken, globalStore]);
 
   return (
     <div>
@@ -171,3 +148,4 @@ const Enrollment = observer(({ onSubmit }: EnrollmentProps) => {
     </div>
   );
 });
+Enrollment.displayName = "Enrollment";
