@@ -19,7 +19,7 @@ public class ClientService {
         if (clientRepository.findFirstByKeycloakId(uuid).isEmpty()) {
             Client client = new Client();
             client.setKeycloakId(uuid);
-            client.setEmail(client.getEmail());
+            client.setEmail(clientRequestDto.getEmail());
             clientRepository.save(client);
         }
     }
