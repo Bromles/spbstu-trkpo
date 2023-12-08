@@ -10,11 +10,9 @@ import {
   fetchTrackingItems,
 } from "./TrackingApi";
 import { observer } from "mobx-react-lite";
-import { autorun, trace } from "mobx";
 
 export const Tracking = observer(() => {
-  trace();
-  const [reloadData, setReloadData] = useState(false);
+  const [trackingItems, setTrackingItems] = useState<TrackingItem[] | null>();
 
   // const uuid = "565c59dd-f752-4f7d-bd54-c644f313bee1"; //для теста
   const clientToken = useClientToken();
@@ -22,36 +20,21 @@ export const Tracking = observer(() => {
   const globalStore = useGlobalStore();
   const backendUrl = getBackendUrl();
 
-  useEffect(
-    () =>
-      autorun(() => {
-        const fetchData = async () => {
-          globalStore.trackingItems = await fetchTrackingItems(
-            backendUrl,
-            clientToken,
-            clientId
-          );
-        };
+  useEffect(() => {
+    const fetchData = async () => {
+      const data = await fetchTrackingItems(backendUrl, clientToken, clientId);
+      setTrackingItems(data);
+    };
 
-        fetchData();
-      }),
-    [reloadData, clientId, clientToken, backendUrl]
-  );
-
-  const handleReload = useCallback(() => {
-    setReloadData((prevState) => !prevState);
-  }, []);
+    fetchData();
+  }, [globalStore.trackingToggle, clientId, clientToken, backendUrl]);
 
   return (
     <div className={styles.tracking_container}>
       <h1>Отслеживание</h1>
       <div className={styles.tracking_container_content}>
-        {globalStore.trackingItems.map((item) => (
-          <TrackingItemComponent
-            key={item.id}
-            item={item}
-            onStopTracking={handleReload}
-          />
+        {trackingItems?.map((item) => (
+          <TrackingItemComponent key={item.id} item={item} />
         ))}
       </div>
     </div>
@@ -59,30 +42,23 @@ export const Tracking = observer(() => {
 });
 Tracking.displayName = "Tracking";
 
-type TrackingItemComponentProps = {
-  item: TrackingItem;
-  onStopTracking: () => void;
-};
-
-const TrackingItemComponent: React.FC<TrackingItemComponentProps> = ({
-  item,
-  onStopTracking,
-}) => {
+const TrackingItemComponent = ({ item }: { item: TrackingItem }) => {
   const [hospitalInfo, setHospitalInfo] = useState<{
     directionName: string;
     doctorName: string;
   }>();
   const clientToken = useClientToken();
   const backendUrl = getBackendUrl();
+  const globalStore = useGlobalStore();
 
   const deleteTrackingOnClick = useCallback(() => {
     const deleteTracking = async () => {
       await deleteTrackingItem(backendUrl, clientToken, item.id);
-      onStopTracking();
+      globalStore.toggleReload();
     };
 
     deleteTracking();
-  }, [backendUrl, clientToken, item.id, onStopTracking]);
+  }, [backendUrl, clientToken, item.id]);
 
   useEffect(() => {
     let doctorId = item.doctorId;

@@ -13,6 +13,7 @@ import {
   useClientEmail,
   useClientId,
   useClientToken,
+  useGlobalStore,
   useSelectionStore,
 } from "@/utils/hooks";
 import { trace } from "mobx";
@@ -34,6 +35,7 @@ const Enrollment = observer(() => {
   const clientEmail = useClientEmail();
   const errorSectionRef = useRef<HTMLDivElement | null>(null);
   const successSectionRef = useRef<HTMLDivElement | null>(null);
+  const globalStore = useGlobalStore();
   const selectionStore = useSelectionStore();
 
   const formHandler = useCallback(
@@ -87,10 +89,13 @@ const Enrollment = observer(() => {
           }
           console.error("Ошибка при отправке данных.");
         }
+
+        globalStore.toggleReload();
       };
 
       sendData();
     },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     [
       clientToken,
       selectionStore.selectedDirectionId,
@@ -102,7 +107,7 @@ const Enrollment = observer(() => {
   useEffect(() => {
     const backendUrl = getBackendUrl();
     saveClient(backendUrl, clientToken, clientId, clientEmail);
-  });
+  }, [clientEmail, clientId, clientToken]);
 
   return (
     <div>

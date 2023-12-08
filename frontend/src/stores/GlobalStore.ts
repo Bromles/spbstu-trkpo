@@ -12,14 +12,14 @@ export class GlobalStore {
   private _districts: District[];
   private _doctors: Doctor[];
   private _directions: Direction[];
-  private _trackingItems: TrackingItem[];
+  private _reloadTrackingToggle: boolean;
 
   constructor() {
     this._hospitals = [];
     this._districts = [];
     this._doctors = [];
     this._directions = [];
-    this._trackingItems = [];
+    this._reloadTrackingToggle = false;
 
     makeAutoObservable(this);
   }
@@ -56,11 +56,11 @@ export class GlobalStore {
     this._directions = directions;
   }
 
-  get trackingItems() {
-    return this._trackingItems;
+  get trackingToggle() {
+    return this._reloadTrackingToggle;
   }
 
-  set trackingItems(trackingItems: TrackingItem[]) {
-    this._trackingItems = trackingItems;
+  toggleReload() {
+    this._reloadTrackingToggle = !this._reloadTrackingToggle;
   }
 }
