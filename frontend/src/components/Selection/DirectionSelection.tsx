@@ -36,7 +36,10 @@ export const DirectionSelection = observer(() => {
           );
         };
 
-        if (selectionStore.selectedHospitalId !== -1) {
+        if (
+          selectionStore.selectedHospitalId !== -1 &&
+          selectionStore.selectedDistrictId !== -1
+        ) {
           fetchData();
         } else {
           globalStore.directions = [];

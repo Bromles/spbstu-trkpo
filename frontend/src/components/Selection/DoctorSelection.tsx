@@ -16,13 +16,10 @@ export const DoctorSelection = observer(() => {
   const globalStore = useGlobalStore();
   const selectionStore = useSelectionStore();
 
-  const handleChange = useCallback(
-    (e: ChangeEvent<HTMLSelectElement>) => {
-      const selectedDoctorId = parseInt(e.target.value, 10);
-      selectionStore.selectedDoctorId = selectedDoctorId;
-    },
-    []
-  );
+  const handleChange = useCallback((e: ChangeEvent<HTMLSelectElement>) => {
+    const selectedDoctorId = parseInt(e.target.value, 10);
+    selectionStore.selectedDoctorId = selectedDoctorId;
+  }, []);
 
   useEffect(
     () =>

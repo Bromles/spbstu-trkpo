@@ -16,7 +16,7 @@ import {
   useGlobalStore,
   useSelectionStore,
 } from "@/utils/hooks";
-import { trace } from "mobx";
+import { HospitalMap } from "@/components/HospitalMap/HospitalMap";
 
 export const Home = () => {
   return (
@@ -29,7 +29,6 @@ export const Home = () => {
 };
 
 const Enrollment = observer(() => {
-  trace();
   const clientToken = useClientToken();
   const clientId = useClientId();
   const clientEmail = useClientEmail();
@@ -152,7 +151,7 @@ const Enrollment = observer(() => {
             ></div>
           </div>
         </div>
-        {/*<HospitalMap />*/}
+        <HospitalMap />
       </div>
     </div>
   );
