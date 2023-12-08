@@ -81,11 +81,13 @@ const Enrollment = observer(() => {
         if (response && response.ok) {
           if (successSection !== null) {
             successSection.textContent = "Успех!";
+            setTimeout(() => (successSection.textContent = ""), 3000);
           }
           console.log("Отслеживание успешно начато!");
         } else {
           if (errorSection !== null) {
             errorSection.textContent = "Ошибка при отправке данных.";
+            setTimeout(() => (errorSection.textContent = ""), 3000);
           }
           console.error("Ошибка при отправке данных.");
         }
