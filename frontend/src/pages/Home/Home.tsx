@@ -15,6 +15,7 @@ import {
   useClientToken,
   useSelectionStore,
 } from "@/utils/hooks";
+import { trace } from "mobx";
 
 export const Home = () => {
   return (
@@ -27,6 +28,7 @@ export const Home = () => {
 };
 
 const Enrollment = observer(() => {
+  trace();
   const clientToken = useClientToken();
   const clientId = useClientId();
   const clientEmail = useClientEmail();

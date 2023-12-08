@@ -9,6 +9,7 @@ import {
   useSelectionStore,
 } from "@/utils/hooks";
 import { observer } from "mobx-react-lite";
+import { autorun } from "mobx";
 
 export const DirectionSelection = observer(() => {
   const clientToken = useClientToken();
@@ -23,27 +24,26 @@ export const DirectionSelection = observer(() => {
     [selectionStore.selectedDirectionId]
   );
 
-  useEffect(() => {
-    const backendUrl = getBackendUrl();
-    const fetchData = async () => {
-      globalStore.directions = await fetchDirections(
-        backendUrl,
-        clientToken,
-        selectionStore.selectedHospitalId
-      );
-    };
+  useEffect(
+    () =>
+      autorun(() => {
+        const backendUrl = getBackendUrl();
+        const fetchData = async () => {
+          globalStore.directions = await fetchDirections(
+            backendUrl,
+            clientToken,
+            selectionStore.selectedHospitalId
+          );
+        };
 
-    if (selectionStore.selectedHospitalId !== -1) {
-      fetchData();
-    } else {
-      globalStore.directions = [];
-    }
-  }, [
-    clientToken,
-    globalStore.directions,
-    selectionStore.selectedDirectionId,
-    selectionStore.selectedHospitalId,
-  ]);
+        if (selectionStore.selectedHospitalId !== -1) {
+          fetchData();
+        } else {
+          globalStore.directions = [];
+        }
+      }),
+    [clientToken]
+  );
 
   return (
     <div className={styles.form_section}>

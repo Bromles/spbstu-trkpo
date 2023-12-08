@@ -9,8 +9,10 @@ import {
   useSelectionStore,
 } from "@/utils/hooks";
 import { fetchDoctors } from "./SelectionApi";
+import { autorun, trace } from "mobx";
 
 export const DoctorSelection = observer(() => {
+  trace();
   const clientToken = useClientToken();
   const globalStore = useGlobalStore();
   const selectionStore = useSelectionStore();
@@ -23,32 +25,31 @@ export const DoctorSelection = observer(() => {
     [selectionStore.selectedDoctorId]
   );
 
-  useEffect(() => {
-    const backendUrl = getBackendUrl();
+  useEffect(
+    () =>
+      autorun(() => {
+        const backendUrl = getBackendUrl();
 
-    const fetchData = async () => {
-      globalStore.doctors = await fetchDoctors(
-        backendUrl,
-        clientToken,
-        selectionStore.selectedHospitalId,
-        selectionStore.selectedDirectionId
-      );
-    };
+        const fetchData = async () => {
+          globalStore.doctors = await fetchDoctors(
+            backendUrl,
+            clientToken,
+            selectionStore.selectedHospitalId,
+            selectionStore.selectedDirectionId
+          );
+        };
 
-    if (
-      selectionStore.selectedDirectionId !== -1 &&
-      selectionStore.selectedHospitalId !== -1
-    ) {
-      fetchData();
-    } else {
-      globalStore.doctors = [];
-    }
-  }, [
-    clientToken,
-    globalStore.doctors,
-    selectionStore.selectedDirectionId,
-    selectionStore.selectedHospitalId,
-  ]);
+        if (
+          selectionStore.selectedDirectionId !== -1 &&
+          selectionStore.selectedHospitalId !== -1
+        ) {
+          fetchData();
+        } else {
+          globalStore.doctors = [];
+        }
+      }),
+    [clientToken]
+  );
 
   return (
     <div className={styles.form_section}>

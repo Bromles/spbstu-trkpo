@@ -20,7 +20,7 @@ export const DistrictSelection = observer(() => {
       const selectedDistrict = parseInt(e.target.value, 10);
       selectionStore.selectedDistrictId = selectedDistrict;
     },
-    [selectionStore.selectedDistrictId]
+    []
   );
 
   useEffect(() => {
@@ -31,7 +31,7 @@ export const DistrictSelection = observer(() => {
     };
 
     fetchData();
-  }, [clientToken, globalStore.districts]);
+  }, [clientToken]);
 
   return (
     <div className={styles.form_section}>

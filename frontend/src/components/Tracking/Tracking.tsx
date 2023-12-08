@@ -10,8 +10,10 @@ import {
   fetchTrackingItems,
 } from "./TrackingApi";
 import { observer } from "mobx-react-lite";
+import { autorun, trace } from "mobx";
 
 export const Tracking = observer(() => {
+  trace();
   const [reloadData, setReloadData] = useState(false);
 
   // const uuid = "565c59dd-f752-4f7d-bd54-c644f313bee1"; //для теста
@@ -20,23 +22,21 @@ export const Tracking = observer(() => {
   const globalStore = useGlobalStore();
   const backendUrl = getBackendUrl();
 
-  useEffect(() => {
-    const fetchData = async () => {
-      globalStore.trackingItems = await fetchTrackingItems(
-        backendUrl,
-        clientToken,
-        clientId
-      );
-    };
+  useEffect(
+    () =>
+      autorun(() => {
+        const fetchData = async () => {
+          globalStore.trackingItems = await fetchTrackingItems(
+            backendUrl,
+            clientToken,
+            clientId
+          );
+        };
 
-    fetchData();
-  }, [
-    reloadData,
-    clientId,
-    clientToken,
-    backendUrl,
-    globalStore.trackingItems,
-  ]);
+        fetchData();
+      }),
+    [reloadData, clientId, clientToken, backendUrl]
+  );
 
   const handleReload = useCallback(() => {
     setReloadData((prevState) => !prevState);

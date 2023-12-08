@@ -6,36 +6,40 @@ import { Hospital } from "@/utils/types";
 import { useClientToken, useSelectionStore } from "@/utils/hooks";
 import { fetchHospitals } from "@/pages/Home/HomeApi";
 import { observer } from "mobx-react-lite";
+import { autorun } from "mobx";
 
 export const HospitalSelection = observer(() => {
   const [filteredHospitals, setFilteredHospitals] = useState<Hospital[]>([]);
   const clientToken = useClientToken();
   const selectionStore = useSelectionStore();
 
-  const handleChange = useCallback(
-    (e: ChangeEvent<HTMLSelectElement>) => {
-      const selectedHospitalId = parseInt(e.target.value, 10);
-      selectionStore.selectedHospitalId = selectedHospitalId;
-    },
-    [selectionStore.selectedHospitalId]
+  const handleChange = useCallback((e: ChangeEvent<HTMLSelectElement>) => {
+    const selectedHospitalId = parseInt(e.target.value, 10);
+    selectionStore.selectedHospitalId = selectedHospitalId;
+  }, []);
+
+  useEffect(
+    () =>
+      autorun(() => {
+        const backendUrl = getBackendUrl();
+
+        const fetchData = async () => {
+          const data = await fetchHospitals(backendUrl, clientToken);
+          const filtered = data.filter(
+            (hospital: Hospital) =>
+              selectionStore.selectedDistrictId === hospital.districtId
+          );
+          setFilteredHospitals(filtered);
+        };
+
+        if (selectionStore.selectedDistrictId !== -1) {
+          fetchData();
+        } else {
+          setFilteredHospitals([]);
+        }
+      }),
+    [clientToken]
   );
-
-  useEffect(() => {
-    const backendUrl = getBackendUrl();
-
-    const fetchData = async () => {
-      const data = await fetchHospitals(backendUrl, clientToken);
-      console.log(`hospitalId mobx: ${selectionStore.selectedHospitalId}`);
-      const filtered = data.filter(
-        (hospital: Hospital) =>
-          selectionStore.selectedDistrictId === hospital.districtId
-      );
-      setFilteredHospitals(filtered);
-    };
-
-    fetchData();
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [clientToken, selectionStore.selectedDistrictId, selectionStore.selectedHospitalId]);
 
   return (
     <div className={styles.form_section}>
