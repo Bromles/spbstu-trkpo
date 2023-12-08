@@ -1,11 +1,5 @@
 import { makeAutoObservable } from "mobx";
-import {
-  Hospital,
-  District,
-  Doctor,
-  Direction,
-  TrackingItem,
-} from "../utils/types";
+import { Hospital, District, Doctor, Direction } from "../utils/types";
 
 export class GlobalStore {
   private _hospitals: Hospital[];
