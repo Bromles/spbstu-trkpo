@@ -21,7 +21,7 @@ export const DoctorSelection = observer(() => {
       const selectedDoctorId = parseInt(e.target.value, 10);
       selectionStore.selectedDoctorId = selectedDoctorId;
     },
-    [selectionStore.selectedDoctorId]
+    []
   );
 
   useEffect(

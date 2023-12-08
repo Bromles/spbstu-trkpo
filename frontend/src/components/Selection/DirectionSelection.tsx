@@ -21,7 +21,7 @@ export const DirectionSelection = observer(() => {
       const selectedDirectionId = parseInt(e.target.value, 10);
       selectionStore.selectedDirectionId = selectedDirectionId;
     },
-    [selectionStore.selectedDirectionId]
+    []
   );
 
   useEffect(
