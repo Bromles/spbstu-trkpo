@@ -9,10 +9,9 @@ import {
   useSelectionStore,
 } from "@/utils/hooks";
 import { fetchDoctors } from "./SelectionApi";
-import { autorun, trace } from "mobx";
+import { autorun } from "mobx";
 
 export const DoctorSelection = observer(() => {
-  trace();
   const clientToken = useClientToken();
   const globalStore = useGlobalStore();
   const selectionStore = useSelectionStore();
