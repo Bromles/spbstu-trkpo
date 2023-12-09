@@ -42,6 +42,7 @@ export const DoctorSelection = observer(() => {
           fetchData();
         } else {
           globalStore.doctors = [];
+          selectionStore.selectedDoctorId = -1;
         }
       }),
     [clientToken]
@@ -60,7 +61,7 @@ export const DoctorSelection = observer(() => {
       >
         <option value="-1">Выберите доктора (опционально)</option>
         {globalStore.doctors.map((doctor) => (
-          <option value={doctor.gorzdravId.toString()} key={doctor.gorzdravId}>
+          <option value={doctor.gorzdravId} key={doctor.gorzdravId}>
             {doctor.name}
           </option>
         ))}

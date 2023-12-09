@@ -43,6 +43,7 @@ export const DirectionSelection = observer(() => {
           fetchData();
         } else {
           globalStore.directions = [];
+          selectionStore.selectedDirectionId = -1;
         }
       }),
     [clientToken]
@@ -61,7 +62,7 @@ export const DirectionSelection = observer(() => {
       >
         <option value="-1">Выберите направление</option>
         {globalStore.directions.map((direction) => (
-          <option value={direction.id.toString()} key={direction.id}>
+          <option value={direction.id} key={direction.id}>
             {direction.name}
           </option>
         ))}

@@ -35,6 +35,7 @@ export const HospitalSelection = observer(() => {
         if (selectionStore.selectedDistrictId !== -1) {
           fetchData();
         } else {
+          selectionStore.selectedHospitalId = -1;
           setFilteredHospitals([]);
         }
       }),

@@ -46,10 +46,7 @@ export const DistrictSelection = observer(() => {
       >
         <option value="-1">Выберите район</option>
         {globalStore.districts.map((district) => (
-          <option
-            value={district.gorzdravId.toString()}
-            key={district.gorzdravId}
-          >
+          <option value={district.gorzdravId} key={district.gorzdravId}>
             {district.name}
           </option>
         ))}
