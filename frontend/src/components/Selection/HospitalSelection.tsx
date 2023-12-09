@@ -52,6 +52,7 @@ export const HospitalSelection = observer(() => {
         id="hospitalSelect"
         onChange={handleChange}
         value={selectionStore.selectedHospitalId}
+        disabled={selectionStore.selectedDistrictId === -1}
       >
         <option value="-1">Выберите учреждение</option>
         {filteredHospitals.map((hospital: Hospital) => (

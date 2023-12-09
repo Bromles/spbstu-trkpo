@@ -139,7 +139,12 @@ const Enrollment = observer(() => {
               <DirectionSelection />
               <DoctorSelection />
               <div defaultValue={selectionStore.selectedDoctorId}></div>
-              <button type="submit">Начать отслеживание</button>
+              <button
+                type="submit"
+                disabled={selectionStore.selectedDirectionId === -1}
+              >
+                Начать отслеживание
+              </button>
             </form>
             <div
               ref={errorSectionRef}
