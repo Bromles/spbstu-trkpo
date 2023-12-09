@@ -42,7 +42,7 @@ export const DistrictSelection = observer(() => {
         name="district"
         id="districtSelect"
         onChange={handleDistrictChange}
-        defaultValue="-1"
+        value={selectionStore.selectedDistrictId}
       >
         <option value="-1">Выберите район</option>
         {globalStore.districts.map((district) => (

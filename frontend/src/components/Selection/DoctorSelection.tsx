@@ -56,7 +56,7 @@ export const DoctorSelection = observer(() => {
         name="doctor"
         id="doctorSelect"
         onChange={handleChange}
-        defaultValue="-1"
+        value={selectionStore.selectedDoctorId}
       >
         <option value="-1">Выберите доктора (опционально)</option>
         {globalStore.doctors.map((doctor) => (

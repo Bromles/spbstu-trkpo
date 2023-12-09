@@ -57,7 +57,7 @@ export const DirectionSelection = observer(() => {
         name="direction"
         id="directionSelect"
         onChange={handleDirectionChange}
-        defaultValue="-1"
+        value={selectionStore.selectedDirectionId}
       >
         <option value="-1">Выберите направление</option>
         {globalStore.directions.map((direction) => (

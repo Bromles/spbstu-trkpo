@@ -50,7 +50,7 @@ export const HospitalSelection = observer(() => {
         name="hospital"
         id="hospitalSelect"
         onChange={handleChange}
-        defaultValue="-1"
+        value={selectionStore.selectedHospitalId}
       >
         <option value="-1">Выберите учреждение</option>
         {filteredHospitals.map((hospital: Hospital) => (

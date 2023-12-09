@@ -14,7 +14,7 @@ import { observer } from "mobx-react-lite";
 import { Hospital } from "@/utils/types";
 import { fetchHospitals } from "@/pages/Home/HomeApi";
 import { getBackendUrl } from "@/utils/apiUtils";
-import { autorun, trace } from "mobx";
+import { autorun } from "mobx";
 import { HospitalMapStore } from "./HospitalMapStore";
 
 export const HospitalMap = observer(() => {
@@ -90,7 +90,6 @@ export const HospitalMap = observer(() => {
 HospitalMap.displayName = "HospitalMap";
 
 const BalloonWrapper = observer(({ hospital }: { hospital: Hospital }) => {
-  trace();
   return (
     <Placemark
       defaultGeometry={[hospital.latitude, hospital.longitude]}
@@ -126,20 +125,21 @@ const BalloonContent = observer(() => {
   const selectionStore = useSelectionStore();
   const globalStore = useGlobalStore();
 
-  const selectionHandler = useCallback(() => {
-    selectionStore.selectedHospitalId = HospitalMapStore.selectedPlacemarkId;
-  }, []);
+  const hospital = globalStore.hospitals.find(
+    (el) => el.id === HospitalMapStore.selectedPlacemarkId
+  );
 
-  const getHospital = () => {
-    return globalStore.hospitals.find(
-      (el) => el.id === HospitalMapStore.selectedPlacemarkId
-    );
-  };
+  const selectionHandler = useCallback(() => {
+    if (hospital) {
+      selectionStore.selectedDistrictId = hospital.districtId;
+      selectionStore.selectedHospitalId = hospital.gorzdravId;
+    }
+  }, [hospital]);
 
   return (
     <>
       <div className={styles.modal_container}>
-        {getHospital()?.fullName}
+        {hospital?.fullName}
         <button onClick={selectionHandler}>Выбрать</button>
       </div>
     </>
