@@ -1,69 +1,74 @@
-import {ChangeEvent, useCallback, useEffect, useState} from "react";
+/* eslint-disable react-hooks/exhaustive-deps */
+import { ChangeEvent, useCallback, useEffect } from "react";
 import styles from "@/pages/Home/Home.module.css";
-import {useAuth} from "react-oidc-context";
+import { getBackendUrl } from "@/utils/apiUtils";
+import { fetchDirections } from "./SelectionApi";
+import {
+  useClientToken,
+  useGlobalStore,
+  useSelectionStore,
+} from "@/utils/hooks";
+import { observer } from "mobx-react-lite";
+import { autorun } from "mobx";
 
-type Direction = {
-    id: number;
-    countFreeTicket: number;
-    name: string;
-}
+export const DirectionSelection = observer(() => {
+  const clientToken = useClientToken();
+  const globalStore = useGlobalStore();
+  const selectionStore = useSelectionStore();
 
-type DirectionSelectionProps = {
-    selectedHospitalId: number;
-    onDirectionChange: (selectedDirectionId: number) => void;
-}
+  const handleDirectionChange = useCallback(
+    (e: ChangeEvent<HTMLSelectElement>) => {
+      const selectedDirectionId = parseInt(e.target.value, 10);
+      selectionStore.selectedDirectionId = selectedDirectionId;
+    },
+    []
+  );
 
-export const DirectionSelection = ({ selectedHospitalId, onDirectionChange }: DirectionSelectionProps) => {
-    const [directions, setDirections] = useState<Direction[]>([]);
-    const auth = useAuth();
-
-    const handleDirectionChange = useCallback((event: ChangeEvent<HTMLSelectElement>) => {
-        const selectedDirectionId = parseInt(event.target.value, 10);
-        onDirectionChange(selectedDirectionId);
-    }, [onDirectionChange]);
-
-    useEffect(() => {
-        const backendURL =
-            import.meta.env.VITE_DEV === 'true'
-                ? import.meta.env.VITE_DEV_BACKEND_URL
-                : import.meta.env.VITE_PROD_BACKEND_URL;
+  useEffect(
+    () =>
+      autorun(() => {
+        const backendUrl = getBackendUrl();
         const fetchData = async () => {
-            try {
-                const response = await fetch(`${backendURL}/v1/gorzdrav/specialties/`
-                    + selectedHospitalId.toString(), {
-                    method: "GET",
-                    headers: {
-                        Authorization: `Bearer ${auth.user?.access_token}`
-                    }
-                });
-                const data: Direction[] = await response.json();
-                setDirections(data);
-            } catch (error) {
-                console.error("Ошибка при получении данных:", error);
-            }
+          globalStore.directions = await fetchDirections(
+            backendUrl,
+            clientToken,
+            selectionStore.selectedHospitalId
+          );
         };
 
-        if (selectedHospitalId !== -1) {
-            fetchData();
+        if (
+          selectionStore.selectedHospitalId !== -1 &&
+          selectionStore.selectedDistrictId !== -1
+        ) {
+          fetchData();
         } else {
-            setDirections([]);
+          globalStore.directions = [];
+          selectionStore.selectedDirectionId = -1;
         }
-    }, [selectedHospitalId, auth.user?.access_token]);
+      }),
+    [clientToken]
+  );
 
-    return (
-        <div className={styles.form_section}>
-            <label htmlFor="direction" className={styles.label}>
-                Направление:
-            </label>
-            <select name="direction" id="directionSelect" onChange={handleDirectionChange}>
-                <option value="-1">Выберите направление</option>
-                {Array.isArray(directions) &&
-                    directions.map((direction) => (
-                        <option value={direction.id.toString()} key={direction.id}>
-                            {direction.name}
-                        </option>
-                    ))}
-            </select>
-        </div>
-    );
-};
+  return (
+    <div className={styles.form_section}>
+      <label htmlFor="direction" className={styles.label}>
+        Направление:
+      </label>
+      <select
+        name="direction"
+        id="directionSelect"
+        onChange={handleDirectionChange}
+        value={selectionStore.selectedDirectionId}
+        disabled={selectionStore.selectedHospitalId === -1}
+      >
+        <option value="-1">Выберите направление</option>
+        {globalStore.directions.map((direction) => (
+          <option value={direction.id} key={direction.id}>
+            {direction.name}
+          </option>
+        ))}
+      </select>
+    </div>
+  );
+});
+DirectionSelection.displayName = "DirectionSelection";

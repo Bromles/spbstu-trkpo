@@ -1,126 +1,104 @@
-import {useCallback, useEffect, useState} from "react";
+/* eslint-disable react-hooks/exhaustive-deps */
+import { useCallback, useEffect, useState } from "react";
 import styles from "./Tracking.module.css";
-import {useAuth} from "react-oidc-context";
+import { getBackendUrl } from "@/utils/apiUtils";
+import { useClientId, useClientToken, useGlobalStore } from "@/utils/hooks";
+import { TrackingItem } from "@/utils/types";
+import {
+  deleteTrackingItem,
+  fetchHospitalInfo,
+  fetchTrackingItems,
+} from "./TrackingApi";
+import { observer } from "mobx-react-lite";
 
-type TrackingItemProps = {
-    id: number;
-    directionId: number;
-    doctorId: number;
-    isFinished: boolean;
-    clientId: number;
-    hospitalId: number;
-    hospitalGorzdravId: number;
-    hospitalFullName: string;
-}
+export const Tracking = observer(() => {
+  const [trackingItems, setTrackingItems] = useState<TrackingItem[] | null>();
 
-const backendURL =
-    import.meta.env.VITE_DEV === 'true'
-        ? import.meta.env.VITE_DEV_BACKEND_URL
-        : import.meta.env.VITE_PROD_BACKEND_URL;
+  // const uuid = "565c59dd-f752-4f7d-bd54-c644f313bee1"; //для теста
+  const clientToken = useClientToken();
+  const clientId = useClientId();
+  const globalStore = useGlobalStore();
+  const backendUrl = getBackendUrl();
 
-type TrackingProps = {
-    reload: boolean;
-}
-export const Tracking = ({ reload }: TrackingProps) => {
-    const [trackingItems, setTrackingItems] = useState<TrackingItemProps[]>([]);
-    const [reloadData, setReloadData] = useState(false);
+  useEffect(() => {
+    const fetchData = async () => {
+      const data = await fetchTrackingItems(backendUrl, clientToken, clientId);
+      setTrackingItems(data);
+    };
 
-    const auth = useAuth();
-    // const uuid = "565c59dd-f752-4f7d-bd54-c644f313bee1"; //для теста
-    const uuid = auth.user?.profile.sub;
+    fetchData();
+  }, [globalStore.trackingToggle, clientId, clientToken, backendUrl]);
 
-    useEffect(() => {
-        const fetchData = () => {
-            fetch(`${backendURL}/v1/tracking/${uuid}`, {
-                method: "GET",
-                headers: {
-                    Authorization: `Bearer ${auth.user?.access_token}`
-                }
-            })
-                .then((response) => response.json())
-                .then((data: TrackingItemProps[]) => {
-                    if (data !== null) {
-                        setTrackingItems(data);
-                    }
-                });
-        };
+  return (
+    <div className={styles.tracking_container}>
+      <h1>Отслеживание</h1>
+      <div className={styles.tracking_container_content}>
+        {trackingItems?.map((item) => (
+          <TrackingItemComponent key={item.id} item={item} />
+        ))}
+      </div>
+    </div>
+  );
+});
+Tracking.displayName = "Tracking";
 
-        fetchData();
-    }, [reloadData, reload, auth.user?.access_token, uuid]);
+const TrackingItemComponent = ({ item }: { item: TrackingItem }) => {
+  const [hospitalInfo, setHospitalInfo] = useState<{
+    directionName: string;
+    doctorName: string;
+  }>();
+  const clientToken = useClientToken();
+  const backendUrl = getBackendUrl();
+  const globalStore = useGlobalStore();
 
-    const handleReload = useCallback(() => {
-        setReloadData((prevState) => !prevState);
-    }, []);
+  const deleteTrackingOnClick = useCallback(() => {
+    const deleteTracking = async () => {
+      await deleteTrackingItem(backendUrl, clientToken, item.id);
+      globalStore.toggleReload();
+    };
 
-    return (
-        <div className={styles.tracking_container}>
-            <h1>Отслеживание</h1>
-            <div className={styles.tracking_container_content}>
-                {trackingItems.map((item) => (
-                    <TrackingItem key={item.id} item={item} onStopTracking={handleReload} />
-                ))}
-            </div>
-        </div>
-    );
-};
+    deleteTracking();
+  }, [backendUrl, clientToken, item.id]);
 
-type TrackingItemComponentProps = {
-    item: TrackingItemProps;
-    onStopTracking: () => void;
-}
+  useEffect(() => {
+    let doctorId = item.doctorId;
+    if (doctorId == null) {
+      doctorId = -1;
+    }
 
-const TrackingItem: React.FC<TrackingItemComponentProps> = ({item, onStopTracking}) => {
-    const [hospitalInfo, setHospitalInfo] = useState<{
-        directionName: string;
-        doctorName: string;
-    }>();
-    const auth = useAuth();
+    const fetchData = async () => {
+      const res = await fetchHospitalInfo(
+        backendUrl,
+        clientToken,
+        item.hospitalGorzdravId,
+        item.directionId,
+        doctorId
+      );
+      setHospitalInfo(res);
+    };
 
-    const deleteTrackingOnClick = useCallback(() => {
-        const deleteTracking = async () => {
-            try {
-                await fetch(`${backendURL}/v1/tracking/${item.id}`, {
-                    method: "DELETE",
-                    headers: {
-                        "Content-Type": "application/json",
-                        Authorization: `Bearer ${auth.user?.access_token}`
-                    }
-                }).then(() => {
-                    onStopTracking();
-                });
-            } catch (error) {
-                console.error("Ошибка при получении данных:", error);
-            }
-        };
-        deleteTracking();
-    }, [item.id, onStopTracking, auth.user?.access_token]);
+    fetchData();
+  }, [
+    item.id,
+    item.directionId,
+    item.doctorId,
+    item.hospitalGorzdravId,
+    clientToken,
+    backendUrl,
+  ]);
 
-    useEffect(() => {
-        let doctorId = item.doctorId;
-        if (doctorId == null) {
-            doctorId = -1;
-        }
-        fetch(`${backendURL}/v1/gorzdrav/trackingInfo/${item.hospitalGorzdravId}/${item.directionId}/${doctorId}`, {
-            method: "GET",
-            headers: {
-                Authorization: `Bearer ${auth.user?.access_token}`
-            }
-        })
-            .then((response) => response.json())
-            .then((data) => setHospitalInfo(data))
-            .catch((error) => console.error('Ошибка при получении данных:', error));
-    }, [item.id, item.directionId, item.doctorId, item.hospitalGorzdravId, auth.user?.access_token]);
-
-    return (
-        <div className={styles.trackingItem}>
-            <p>
-                <h3>Больница:</h3> {item.hospitalFullName}<br />
-                <h3>Направление:</h3> {hospitalInfo?.directionName}<br />
-                <h3>Врач:</h3> {hospitalInfo?.doctorName}
-            </p>
-            <button type="button" onClick={deleteTrackingOnClick}>
-                Закончить отслеживание
-            </button>
-        </div>
-    );
+  return (
+    <div className={styles.trackingItem}>
+      <span>
+        <h3>Больница:</h3> {item.hospitalFullName}
+        <br />
+        <h3>Направление:</h3> {hospitalInfo?.directionName}
+        <br />
+        <h3>Врач:</h3> {hospitalInfo?.doctorName}
+      </span>
+      <button type="button" onClick={deleteTrackingOnClick}>
+        Закончить отслеживание
+      </button>
+    </div>
+  );
 };

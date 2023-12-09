@@ -1,9 +1,13 @@
-.hospital-baloon {
-    box-sizing: content-box;
+.hospital-balloon {
+  box-sizing: content-box;
 }
 
 .ymaps-2-1-79-balloon__content > :first-child {
-    overflow: auto !important;
-    height: auto !important;
-    width: auto !important;
+  overflow: auto !important;
+  height: auto !important;
+  width: auto !important;
+}
+
+.ymaps-2-1-79-balloon__tail {
+  display: none !important; 
 }

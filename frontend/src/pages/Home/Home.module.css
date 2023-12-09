@@ -21,7 +21,7 @@
   transition: 0.5s;
 }
 
-.form button:hover {
+.form button:hover:enabled {
   background-color: transparent;
   transition: 0.5s;
 }

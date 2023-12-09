@@ -1,123 +1,127 @@
-import { HospitalMap } from "@/components/HospitalMap/HospitalMap";
-import {FormEvent, useCallback, useEffect, useState} from "react";
+//import { HospitalMap } from "@/components/HospitalMap/HospitalMap";
+import { FormEvent, useCallback, useEffect, useRef } from "react";
 import styles from "./Home.module.css";
-import {DirectionSelection} from "@/components/Selection/DirectionSelection";
-import {DistrictSelection} from "@/components/Selection/DistrictDelection";
-import {HospitalSelection} from "@/components/Selection/HospitalSelection";
-import {DoctorSelection} from "@/components/Selection/DoctorSelection";
-import {Tracking} from "@/components/Tracking/Tracking";
-import {useAuth} from "react-oidc-context";
+import { DirectionSelection } from "@/components/Selection/DirectionSelection";
+import { DistrictSelection } from "@/components/Selection/DistrictSelection";
+import { HospitalSelection } from "@/components/Selection/HospitalSelection";
+import { DoctorSelection } from "@/components/Selection/DoctorSelection";
+import { Tracking } from "@/components/Tracking/Tracking";
+import { getBackendUrl } from "@/utils/apiUtils";
+import { observer } from "mobx-react-lite";
+import { addTracking, fetchHospitals, saveClient } from "./HomeApi";
+import {
+  useClientEmail,
+  useClientId,
+  useClientToken,
+  useGlobalStore,
+  useSelectionStore,
+} from "@/utils/hooks";
+import { HospitalMap } from "@/components/HospitalMap/HospitalMap";
+import { fetchDistricts } from "@/components/Selection/SelectionApi";
 
 export const Home = () => {
-  const [reloadTracking, setReloadTracking] = useState(false);
-
-  const triggerReloadTracking = () => {
-    setReloadTracking((prevState) => !prevState);
-  };
-
   return (
     <div className={styles.layout}>
-      <Enrollment onSubmit={triggerReloadTracking} />
+      <Enrollment />
       <div className={styles.divider}></div>
-      <Tracking reload={reloadTracking} />
+      <Tracking />
     </div>
   );
 };
 
-type EnrollmentProps = {
-  onSubmit: () => void;
-}
+const Enrollment = observer(() => {
+  const clientToken = useClientToken();
+  const clientId = useClientId();
+  const clientEmail = useClientEmail();
+  const errorSectionRef = useRef<HTMLDivElement | null>(null);
+  const successSectionRef = useRef<HTMLDivElement | null>(null);
+  const globalStore = useGlobalStore();
+  const selectionStore = useSelectionStore();
 
-const Enrollment = ({ onSubmit }: EnrollmentProps) => {
-  const [selectedDistrictId, setSelectedDistrictId] = useState<number>(-1);
-  const [selectedHospitalId, setSelectedHospitalId] = useState<number>(-1);
-  const [selectedDirectionId, setSelectedDirectionId] = useState<number>(-1);
-  const [selectedDoctorId, setSelectedDoctorId] = useState<number>(-1);
-  const auth = useAuth();
+  const formHandler = useCallback(
+    (e: FormEvent<HTMLFormElement>) => {
+      e.preventDefault();
+      const backendUrl = getBackendUrl();
 
-  const formHandler = useCallback( (e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    const backendURL =
-        import.meta.env.MODE === "production"
-            ? import.meta.env.VITE_PROD_BACKEND_URL
-            : import.meta.env.VITE_DEV_BACKEND_URL;
-    const sendData = async () => {
-      let body;
-      const errorSection = document.getElementById("errorSection");
-      const successSection = document.getElementById("successSection");
-      if (selectedDirectionId === -1 || selectedHospitalId === -1) {
-        if (errorSection !== null) {
-          errorSection.textContent = "Некорректные данные";
-        }
-        if (successSection !== null) {
-          successSection.textContent = null;
-        }
-        throw new Error('Некорректные данные');
-      } else if (errorSection !== null) {
+      const sendData = async () => {
+        const errorSection = errorSectionRef.current;
+        const successSection = successSectionRef.current;
+
+        if (
+          selectionStore.selectedDirectionId === -1 ||
+          selectionStore.selectedHospitalId === -1
+        ) {
+          if (errorSection !== null) {
+            errorSection.textContent = "Некорректные данные";
+          }
+          if (successSection !== null) {
+            successSection.textContent = null;
+          }
+          throw new Error("Некорректные данные");
+        } else if (errorSection !== null) {
           errorSection.textContent = null;
-      }
-      if (selectedDoctorId !== -1) {
-        body = JSON.stringify({
-          hospitalId: selectedHospitalId,
-          directionId: selectedDirectionId,
-          doctorId: selectedDoctorId,
-        });
-      } else {
-        body = JSON.stringify({
-          hospitalId: selectedHospitalId,
-          directionId: selectedDirectionId,
-        });
-      }
-      try {
-        const response = await fetch(`${backendURL}/v1/tracking`, {
-          method: "POST",
-          headers: {
-            'Content-Type': 'application/json',
-            Authorization: `Bearer ${auth.user?.access_token}`
-          },
-          body:body,
-        });
+        }
 
-        if (response.ok) {
+        let body;
+        if (selectionStore.selectedDoctorId !== -1) {
+          body = JSON.stringify({
+            hospitalId: selectionStore.selectedHospitalId,
+            directionId: selectionStore.selectedDirectionId,
+            doctorId: selectionStore.selectedDoctorId,
+          });
+        } else {
+          body = JSON.stringify({
+            hospitalId: selectionStore.selectedHospitalId,
+            directionId: selectionStore.selectedDirectionId,
+          });
+        }
+
+        const response = await addTracking(backendUrl, clientToken, body);
+
+        if (response && response.ok) {
           if (successSection !== null) {
             successSection.textContent = "Успех!";
+            setTimeout(() => (successSection.textContent = ""), 3000);
           }
           console.log("Отслеживание успешно начато!");
         } else {
           if (errorSection !== null) {
             errorSection.textContent = "Ошибка при отправке данных.";
+            setTimeout(() => (errorSection.textContent = ""), 3000);
           }
           console.error("Ошибка при отправке данных.");
         }
-      } catch (error) {
-        console.error("Ошибка во время запроса:", error);
-      }
-      onSubmit();
-    };
 
-    sendData();
-  }, [selectedHospitalId, selectedDirectionId, selectedDoctorId, onSubmit, auth.user?.access_token]);
+        globalStore.toggleReload();
+      };
 
+      sendData();
+    },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [
+      clientToken,
+      selectionStore.selectedDirectionId,
+      selectionStore.selectedDoctorId,
+      selectionStore.selectedHospitalId,
+    ]
+  );
 
   useEffect(() => {
-    const backendURL =
-        import.meta.env.VITE_DEV === 'true'
-            ? import.meta.env.VITE_DEV_BACKEND_URL
-            : import.meta.env.VITE_PROD_BACKEND_URL;
-    const saveClient = async () => {
-        try {
-          await fetch(`${backendURL}/v1/client/${auth.user?.profile.sub}`, {
-            method: "POST",
-            headers: {
-              Authorization: `Bearer ${auth.user?.access_token}`
-            }
-          });
-        } catch (error) {
-          console.error("Не удалось сохранить клиента: ", error);
-        }
+    const backendUrl = getBackendUrl();
+
+    const fetchData = async () => {
+      globalStore.districts = await fetchDistricts(backendUrl, clientToken);
+      globalStore.hospitals = await fetchHospitals(backendUrl, clientToken);
     };
-    saveClient();
-  });
+
+    fetchData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [clientToken]);
+
+  useEffect(() => {
+    const backendUrl = getBackendUrl();
+    saveClient(backendUrl, clientToken, clientId, clientEmail);
+  }, [clientEmail, clientId, clientToken]);
 
   return (
     <div>
@@ -125,35 +129,49 @@ const Enrollment = ({ onSubmit }: EnrollmentProps) => {
         <div>
           <h1>Описание сервиса</h1>
           <div className={styles.enrollment_section}>
-            Супер крутой сервис, который поможет вам поймать талоны ко врачу!<br />
+            Супер крутой сервис, который поможет вам поймать талоны ко врачу!
+            <br />
             <h3>Инструкция:</h3>
-            1. Выберите район, больницу и направление (врача опционально).
-            Также у вас есть возможность выбрать больницу при помощи карты ниже<br />
-            2. Нажмите кнопку <b>"Начать отслеживание"</b><br />
-            3. Ждите письмо на почту, с помощью которой регистрировались<br />
-            4. Если вы хотите перестать отслеживать талон, нажмите кнопку <b>"Закончить отслеживание"</b> в правой части экрана<br />
+            1. Выберите район, больницу и направление (врача опционально). Также
+            у вас есть возможность выбрать больницу при помощи карты ниже
+            <br />
+            2. Нажмите кнопку <b>"Начать отслеживание"</b>
+            <br />
+            3. Ждите письмо на почту, с помощью которой регистрировались
+            <br />
+            4. Если вы хотите перестать отслеживать талон, нажмите кнопку{" "}
+            <b>"Закончить отслеживание"</b> в правой части экрана
+            <br />
           </div>
         </div>
         <div className={styles.form_container}>
           <div className={styles.form_block}>
             <form onSubmit={formHandler} className={styles.form}>
-              <DistrictSelection onChange={(districtId) => setSelectedDistrictId(districtId)} />
-              <HospitalSelection selectedDistrictId={selectedDistrictId}
-                  onHospitalChange={(hospitalId) => setSelectedHospitalId(hospitalId)} />
-              <DirectionSelection selectedHospitalId={selectedHospitalId}
-                  onDirectionChange={(directionId) => setSelectedDirectionId(directionId)} />
-              <DoctorSelection selectedDirectionId={selectedDirectionId}
-                  selectedHospitalId={selectedHospitalId}
-                  onDoctorChange={(doctorId) => setSelectedDoctorId(doctorId)} />
-              <div defaultValue={selectedDoctorId}></div>
-              <button type="submit">Начать отслеживание</button>
+              <DistrictSelection />
+              <HospitalSelection />
+              <DirectionSelection />
+              <DoctorSelection />
+              <div defaultValue={selectionStore.selectedDoctorId}></div>
+              <button
+                type="submit"
+                disabled={selectionStore.selectedDirectionId === -1}
+              >
+                Начать отслеживание
+              </button>
             </form>
-            <div className={styles.form_section_error} id = "errorSection"></div>
-            <div className={styles.form_section_success} id = "successSection"></div>
+            <div
+              ref={errorSectionRef}
+              className={styles.form_section_error}
+            ></div>
+            <div
+              ref={successSectionRef}
+              className={styles.form_section_success}
+            ></div>
           </div>
         </div>
         <HospitalMap />
       </div>
     </div>
   );
-};
+});
+Enrollment.displayName = "Enrollment";
