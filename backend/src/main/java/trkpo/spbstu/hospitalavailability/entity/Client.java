@@ -10,7 +10,15 @@ import java.util.UUID;
 @Entity
 @Getter
 @Setter
-@Table(name = "client")
+@Table(
+        name = "client",
+        indexes = {
+                @Index(name = "client__multi_uq_idx",
+                        columnList = "keycloak_id, email",
+                        unique = true
+                )
+        }
+)
 @NoArgsConstructor
 public class Client {
     @Id
@@ -18,9 +26,9 @@ public class Client {
     @Column(name = "id", nullable = false)
     private long id;
 
-    @Column(name = "keycloak_id", nullable = false)
+    @Column(name = "keycloak_id", nullable = false, unique = true)
     private UUID keycloakId;
 
-    @Column(name = "email", nullable = false)
+    @Column(name = "email", nullable = false, unique = true)
     private String email;
 }

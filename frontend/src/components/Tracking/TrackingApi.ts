@@ -24,7 +24,7 @@ export const deleteTrackingItem = async (
 ) => {
   try {
     await fetch(`${backendUrl}/v1/tracking/${itemId}`, {
-      method: "DELETE",
+      method: "POST",
       headers: {
         "Content-Type": "application/json",
         Authorization: `Bearer ${token}`,
