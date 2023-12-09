@@ -7,3 +7,7 @@
   height: auto !important;
   width: auto !important;
 }
+
+.ymaps-2-1-79-balloon__tail {
+  display: none !important; 
+}

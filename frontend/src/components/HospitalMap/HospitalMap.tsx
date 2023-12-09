@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { Map, Placemark, ZoomControl } from "@pbe/react-yandex-maps";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import styles from "./HospitalMap.module.css";
 import "./HospitalMap.css";
@@ -88,6 +88,23 @@ export const HospitalMap = observer(() => {
 HospitalMap.displayName = "HospitalMap";
 
 const BalloonWrapper = observer(({ hospital }: { hospital: Hospital }) => {
+  const balloonObserver = useRef<MutationObserver>(
+    new MutationObserver((records, observer) => {
+      for (const record of records) {
+        if (record.type === "childList") {
+          for (const node of record.removedNodes) {
+            if (!(node instanceof HTMLElement)) continue;
+
+            if (node.classList.contains("ymaps-2-1-79-balloon-overlay")) {
+              HospitalMapStore.toggleActivePortal();
+              observer.disconnect();
+            }
+          }
+        }
+      }
+    })
+  );
+
   return (
     <Placemark
       defaultGeometry={[hospital.latitude, hospital.longitude]}
@@ -97,19 +114,14 @@ const BalloonWrapper = observer(({ hospital }: { hospital: Hospital }) => {
       }}
       onClick={() => {
         setTimeout(() => {
-          const closeButton = document.querySelector(
-            'ymaps[class$="-balloon__close"]'
+          const balloonParent = document.querySelector(
+            'ymaps[class$="-balloon-pane"]'
           );
 
-          if (closeButton) {
-            closeButton.addEventListener(
-              "click",
-              () => {
-                HospitalMapStore.toggleActivePortal();
-              },
-              { once: true }
-            );
+          if (balloonParent) {
+            balloonObserver.current.observe(balloonParent, { childList: true });
           }
+
           HospitalMapStore.toggleActivePortal();
           HospitalMapStore.selectedPlacemarkId = hospital.id;
         }, 0);
@@ -137,7 +149,9 @@ const BalloonContent = observer(() => {
   return (
     <>
       <div className={styles.modal_container}>
-        {hospital?.fullName}
+        <div>{hospital?.fullName}</div>
+        <div>{hospital?.address}</div>
+        <div>{hospital?.phone}</div>
         <button onClick={selectionHandler}>Выбрать</button>
       </div>
     </>
