@@ -8,7 +8,7 @@ import { DoctorSelection } from "@/components/Selection/DoctorSelection";
 import { Tracking } from "@/components/Tracking/Tracking";
 import { getBackendUrl } from "@/utils/apiUtils";
 import { observer } from "mobx-react-lite";
-import { addTracking, saveClient } from "./HomeApi";
+import { addTracking, fetchHospitals, saveClient } from "./HomeApi";
 import {
   useClientEmail,
   useClientId,
@@ -17,6 +17,7 @@ import {
   useSelectionStore,
 } from "@/utils/hooks";
 import { HospitalMap } from "@/components/HospitalMap/HospitalMap";
+import { fetchDistricts } from "@/components/Selection/SelectionApi";
 
 export const Home = () => {
   return (
@@ -104,6 +105,18 @@ const Enrollment = observer(() => {
       selectionStore.selectedHospitalId,
     ]
   );
+
+  useEffect(() => {
+    const backendUrl = getBackendUrl();
+
+    const fetchData = async () => {
+      globalStore.districts = await fetchDistricts(backendUrl, clientToken);
+      globalStore.hospitals = await fetchHospitals(backendUrl, clientToken);
+    };
+
+    fetchData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [clientToken]);
 
   useEffect(() => {
     const backendUrl = getBackendUrl();

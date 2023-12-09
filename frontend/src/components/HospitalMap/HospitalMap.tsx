@@ -12,8 +12,6 @@ import {
 } from "@/utils/hooks";
 import { observer } from "mobx-react-lite";
 import { Hospital } from "@/utils/types";
-import { fetchHospitals } from "@/pages/Home/HomeApi";
-import { getBackendUrl } from "@/utils/apiUtils";
 import { autorun } from "mobx";
 import { HospitalMapStore } from "./HospitalMapStore";
 
@@ -23,31 +21,31 @@ export const HospitalMap = observer(() => {
   const globalStore = useGlobalStore();
   const selectionStore = useSelectionStore();
 
-  useEffect(() => {
-    const backendUrl = getBackendUrl();
-
-    const fetchData = async () => {
-      globalStore.hospitals = await fetchHospitals(backendUrl, clientToken);
-    };
-
-    fetchData();
-  }, [clientToken]);
-
   useEffect(
     () =>
       autorun(() => {
-        const backendUrl = getBackendUrl();
-
         const fetchData = async () => {
-          const data = await fetchHospitals(backendUrl, clientToken);
-          const filtered = data.filter(
-            (hospital: Hospital) =>
-              selectionStore.selectedDistrictId === hospital.districtId
+          const filtered = globalStore.hospitals.filter(
+            (hospital: Hospital) => {
+              if (selectionStore.selectedHospitalId !== -1) {
+                return (
+                  selectionStore.selectedHospitalId === hospital.gorzdravId
+                );
+              } else {
+                return (
+                  selectionStore.selectedDistrictId === hospital.districtId
+                );
+              }
+            }
           );
+
           setFilteredHospitals(filtered);
         };
 
-        if (selectionStore.selectedDistrictId !== -1) {
+        if (
+          selectionStore.selectedDistrictId !== -1 ||
+          selectionStore.selectedHospitalId !== -1
+        ) {
           fetchData();
         } else {
           setFilteredHospitals(globalStore.hospitals);

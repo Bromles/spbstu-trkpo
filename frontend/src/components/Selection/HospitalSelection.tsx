@@ -1,16 +1,19 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { ChangeEvent, useCallback, useEffect, useState } from "react";
 import styles from "@/pages/Home/Home.module.css";
-import { getBackendUrl } from "@/utils/apiUtils";
 import { Hospital } from "@/utils/types";
-import { useClientToken, useSelectionStore } from "@/utils/hooks";
-import { fetchHospitals } from "@/pages/Home/HomeApi";
+import {
+  useClientToken,
+  useGlobalStore,
+  useSelectionStore,
+} from "@/utils/hooks";
 import { observer } from "mobx-react-lite";
 import { autorun } from "mobx";
 
 export const HospitalSelection = observer(() => {
   const [filteredHospitals, setFilteredHospitals] = useState<Hospital[]>([]);
   const clientToken = useClientToken();
+  const globalStore = useGlobalStore();
   const selectionStore = useSelectionStore();
 
   const handleChange = useCallback((e: ChangeEvent<HTMLSelectElement>) => {
@@ -21,19 +24,13 @@ export const HospitalSelection = observer(() => {
   useEffect(
     () =>
       autorun(() => {
-        const backendUrl = getBackendUrl();
-
-        const fetchData = async () => {
-          const data = await fetchHospitals(backendUrl, clientToken);
-          const filtered = data.filter(
+        if (selectionStore.selectedDistrictId !== -1) {
+          const filtered = globalStore.hospitals.filter(
             (hospital: Hospital) =>
               selectionStore.selectedDistrictId === hospital.districtId
           );
-          setFilteredHospitals(filtered);
-        };
 
-        if (selectionStore.selectedDistrictId !== -1) {
-          fetchData();
+          setFilteredHospitals(filtered);
         } else {
           selectionStore.selectedHospitalId = -1;
           setFilteredHospitals([]);
