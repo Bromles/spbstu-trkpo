@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { Map, Placemark, ZoomControl } from "@pbe/react-yandex-maps";
-import { MouseEvent, useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import styles from "./HospitalMap.module.css";
 import "./HospitalMap.css";
@@ -14,10 +14,10 @@ import { observer } from "mobx-react-lite";
 import { Hospital } from "@/utils/types";
 import { fetchHospitals } from "@/pages/Home/HomeApi";
 import { getBackendUrl } from "@/utils/apiUtils";
-import { autorun } from "mobx";
+import { autorun, trace } from "mobx";
+import { HospitalMapStore } from "./HospitalMapStore";
 
 export const HospitalMap = observer(() => {
-  const [activePortal, setActivePortal] = useState(false);
   const [filteredHospitals, setFilteredHospitals] = useState<Hospital[]>([]);
   const clientToken = useClientToken();
   const globalStore = useGlobalStore();
@@ -75,41 +75,12 @@ export const HospitalMap = observer(() => {
         >
           <ZoomControl />
           {filteredHospitals.map((hospital) => (
-            <Placemark
-              key={hospital.id}
-              defaultGeometry={[hospital.latitude, hospital.longitude]}
-              properties={{
-                balloonContent: `<div id="hospital-balloon-${hospital.id}" class="hospital-balloon"></div>`,
-                hintContent: `${hospital.shortName}`,
-              }}
-              onClick={(e: MouseEvent<HTMLElement>) => {
-                setTimeout(() => {
-                  console.log(`react click target: ${e.target}`);
-                  const selected = [
-                    ...document.querySelectorAll(
-                      'ymaps[class$="-balloon__close"]'
-                    ),
-                  ];
-                  selected.forEach((el) => console.log(el));
-                  const closeButton = selected[0];
-                  if (closeButton !== null && closeButton !== undefined) {
-                    closeButton.addEventListener("click", () => {
-                      setActivePortal(false);
-                    });
-                  }
-
-                  selectionStore.selectedHospitalId = hospital.id;
-                  setActivePortal(true);
-                }, 0);
-              }}
-            />
+            <BalloonWrapper key={hospital.id} hospital={hospital} />
           ))}
         </Map>
-        {activePortal && (
-          <BalloonPortal
-            elementId={`hospital-balloon-${selectionStore.selectedHospitalId}`}
-          >
-            <BalloonContent hospital={hospital!} />
+        {HospitalMapStore.activePortal && (
+          <BalloonPortal>
+            <BalloonContent />
           </BalloonPortal>
         )}
       </div>
@@ -118,18 +89,57 @@ export const HospitalMap = observer(() => {
 });
 HospitalMap.displayName = "HospitalMap";
 
-const BalloonContent = observer(({ hospital }: { hospital: Hospital }) => {
+const BalloonWrapper = observer(({ hospital }: { hospital: Hospital }) => {
+  trace();
+  return (
+    <Placemark
+      defaultGeometry={[hospital.latitude, hospital.longitude]}
+      properties={{
+        balloonContent: `<div id="hospital-balloon-${hospital.id}" class="hospital-balloon"></div>`,
+        hintContent: `${hospital.shortName}`,
+      }}
+      onClick={() => {
+        setTimeout(() => {
+          const closeButton = document.querySelector(
+            'ymaps[class$="-balloon__close"]'
+          );
+
+          if (closeButton) {
+            closeButton.addEventListener(
+              "click",
+              () => {
+                HospitalMapStore.toggleActivePortal();
+              },
+              { once: true }
+            );
+          }
+          HospitalMapStore.toggleActivePortal();
+          HospitalMapStore.selectedPlacemarkId = hospital.id;
+        }, 0);
+      }}
+    />
+  );
+});
+BalloonWrapper.displayName = "BalloonWrapper";
+
+const BalloonContent = observer(() => {
   const selectionStore = useSelectionStore();
+  const globalStore = useGlobalStore();
 
   const selectionHandler = useCallback(() => {
-    selectionStore.selectedHospitalId = hospital!.id;
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [hospital]);
+    selectionStore.selectedHospitalId = HospitalMapStore.selectedPlacemarkId;
+  }, []);
+
+  const getHospital = () => {
+    return globalStore.hospitals.find(
+      (el) => el.id === HospitalMapStore.selectedPlacemarkId
+    );
+  };
 
   return (
     <>
       <div className={styles.modal_container}>
-        {hospital.fullName}
+        {getHospital()?.fullName}
         <button onClick={selectionHandler}>Выбрать</button>
       </div>
     </>
@@ -138,14 +148,10 @@ const BalloonContent = observer(({ hospital }: { hospital: Hospital }) => {
 BalloonContent.displayName = "BalloonContent";
 
 const BalloonPortal = observer(
-  ({
-    children,
-    elementId,
-  }: {
-    children: React.ReactNode;
-    elementId: string;
-  }) => {
-    const mount = document.getElementById(elementId);
+  ({ children }: { children: React.ReactNode }) => {
+    const mount = document.getElementById(
+      `hospital-balloon-${HospitalMapStore.selectedPlacemarkId}`
+    );
     const el = document.createElement("div");
 
     useEffect(() => {
