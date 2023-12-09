@@ -6,7 +6,9 @@ export const NavBar = () => {
   const clientEmail = auth.user?.profile.preferred_username;
 
   const authButtonHandler = () =>
-    auth.isAuthenticated ? void auth.removeUser() : void auth.signinRedirect();
+    auth.isAuthenticated
+      ? void auth.signoutRedirect()
+      : void auth.signinRedirect();
 
   return (
     <header className={styles.header}>
