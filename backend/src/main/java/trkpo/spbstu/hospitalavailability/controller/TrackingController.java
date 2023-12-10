@@ -20,7 +20,7 @@ public class TrackingController {
 
     private final TrackingService trackingService;
 
-    @PostMapping(value = "/{id}")
+    @DeleteMapping(value = "/{id}")
     public long deleteTracking(@PathVariable @NotNull Long id) {
         return trackingService.deleteTracking(id);
     }
