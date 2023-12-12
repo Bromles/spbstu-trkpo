@@ -54,7 +54,8 @@ public class TrackingService {
         if (!SecurityUtils.getUserKey().equals(tracking.getClient().getKeycloakId().toString())) {
             throw new ForbiddenException("No access to delete tracking");
         }
-        return trackingRepository.removeById(id);
+        trackingRepository.updateTrackingFinishedById(true, id);
+        return id;
     }
 
     public List<TrackingResponseDto> findUserActiveTracking(String keycloak_uuid) {
@@ -108,14 +109,14 @@ public class TrackingService {
             existAppointments = existsDoctorsAppointments(tracking.getHospital().getGorzdravId(), tracking.getDoctorId());
         }
         if (existAppointments) {
-            trackingRepository.updateTrackingFinishedById(false, id);
+            trackingRepository.updateTrackingFinishedById(true, id);
             notificationMailSender.sendMessage(tracking.getClient().getEmail(), "Появились талоны для записи!",
-                    "Ура, Ура скорее беги записываться к врачу, появились свободные талоны в больницу" +
+                    "Ура, Ура скорее беги записываться к врачу, появились свободные талоны в больницу " +
                             tracking.getHospital().getFullName());
         } else {
             long durationDays = Duration.between(tracking.getDate(), new Timestamp(System.currentTimeMillis()).toLocalDateTime()).toDays();
             if (durationDays >= 60) {
-                trackingRepository.updateTrackingFinishedById(false, id);
+                trackingRepository.updateTrackingFinishedById(true, id);
                 notificationMailSender.sendMessage(tracking.getClient().getEmail(), "Истек срок отслеживания талонов!",
                         "Нам очень жаль, но талоны не появились в течении 60 дней, вы можете сделать новое отслеживание на сайте");
             }
