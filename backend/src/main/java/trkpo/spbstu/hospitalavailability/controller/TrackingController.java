@@ -15,7 +15,7 @@ import java.util.List;
 @RequestMapping("/v1/tracking")
 @RequiredArgsConstructor
 @Validated
-@CrossOrigin(origins = {"http://localhost:4200"})
+@CrossOrigin(origins = {"http://localhost:4200", "http://localhost:8123"})
 public class TrackingController {
 
     private final TrackingService trackingService;

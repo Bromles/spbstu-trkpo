@@ -10,6 +10,7 @@ COPY .browserslistrc .
 COPY tsconfig.json .
 COPY tsconfig.node.json .
 COPY .eslintrc.cjs .
+COPY .env.production .
 
 RUN npm i
 
