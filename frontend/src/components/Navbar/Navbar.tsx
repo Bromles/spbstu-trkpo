@@ -8,14 +8,16 @@ export const NavBar = () => {
 
   const authButtonHandler = () =>
     auth.isAuthenticated
-      ? void auth.signoutRedirect()
+      ? void auth.signoutRedirect({
+          post_logout_redirect_uri: window.location.origin,
+        })
       : void auth.signinRedirect();
 
   return (
     <header className={styles.header}>
       <div className={styles.container}>
         <div className={styles.name}>
-          {auth.isAuthenticated && clientLastname && <br/>}
+          {auth.isAuthenticated && clientLastname && <br />}
           {auth.isAuthenticated && clientEmail}
         </div>
         <nav>
