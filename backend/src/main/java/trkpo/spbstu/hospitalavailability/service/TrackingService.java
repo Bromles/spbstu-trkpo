@@ -11,6 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.transaction.support.TransactionTemplate;
 import org.springframework.web.client.RestTemplate;
 import trkpo.spbstu.hospitalavailability.dto.GorzdravSpecialtiesDto;
+import trkpo.spbstu.hospitalavailability.dto.TrackingInfoRsDto;
 import trkpo.spbstu.hospitalavailability.dto.TrackingRequestDto;
 import trkpo.spbstu.hospitalavailability.dto.TrackingResponseDto;
 import trkpo.spbstu.hospitalavailability.entity.Client;
@@ -103,22 +104,27 @@ public class TrackingService {
         boolean existAppointments;
         long id = tracking.getId();
         Long doctorId = tracking.getDoctorId();
+        TrackingInfoRsDto trackingInfoRsDto = gorzdravService.getTrackingInfo(tracking.getHospital().getGorzdravId(), tracking.getDirectionId(), tracking.getDoctorId());
+        String message;
         if (doctorId == -1L) {
             existAppointments = existsSpecialtiesAppointments(tracking.getHospital().getGorzdravId(), tracking.getDirectionId());
+            message =  " на направление " + trackingInfoRsDto.getDirectionName();
         } else {
             existAppointments = existsDoctorsAppointments(tracking.getHospital().getGorzdravId(), tracking.getDoctorId());
+            message =  " на направление " + trackingInfoRsDto.getDirectionName() + " ко врачу " + trackingInfoRsDto.getDoctorName();
         }
         if (existAppointments) {
             trackingRepository.updateTrackingFinishedById(true, id);
             notificationMailSender.sendMessage(tracking.getClient().getEmail(), "Появились талоны для записи!",
                     "Ура, Ура скорее беги записываться к врачу, появились свободные талоны в больницу " +
-                            tracking.getHospital().getFullName());
+                            tracking.getHospital().getFullName() + message);
         } else {
             long durationDays = Duration.between(tracking.getDate(), new Timestamp(System.currentTimeMillis()).toLocalDateTime()).toDays();
             if (durationDays >= 60) {
                 trackingRepository.updateTrackingFinishedById(true, id);
                 notificationMailSender.sendMessage(tracking.getClient().getEmail(), "Истек срок отслеживания талонов!",
-                        "Нам очень жаль, но талоны не появились в течении 60 дней, вы можете сделать новое отслеживание на сайте");
+                        "Нам очень жаль, но талоны в больницу " + tracking.getHospital().getFullName() + message + " не появились в течении 60 дней, " +
+                                "вы можете сделать новое отслеживание на сайте");
             }
         }
     }
