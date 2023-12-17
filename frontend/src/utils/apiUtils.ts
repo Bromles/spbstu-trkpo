@@ -1,5 +1,7 @@
 export const getBackendUrl = () => {
-  return import.meta.env.MODE === "production"
-    ? import.meta.env.VITE_PROD_BACKEND_URL
-    : import.meta.env.VITE_DEV_BACKEND_URL;
+  return import.meta.env.VITE_BACKEND_URL;
+};
+
+export const getAuthUrl = () => {
+  return import.meta.env.VITE_AUTH_URL;
 };

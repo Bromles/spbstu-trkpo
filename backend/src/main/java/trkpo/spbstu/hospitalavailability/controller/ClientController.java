@@ -12,7 +12,7 @@ import javax.validation.Valid;
 @RequestMapping("/v1/client")
 @RequiredArgsConstructor
 @Validated
-@CrossOrigin(origins = {"http://localhost:4200"})
+@CrossOrigin(origins = {"http://localhost:4200", "http://localhost:8123"})
 public class ClientController {
     private final ClientService clientService;
 

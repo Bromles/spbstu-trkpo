@@ -25,7 +25,7 @@ import java.util.List;
 @RequestMapping("/v1/gorzdrav")
 @RequiredArgsConstructor
 @Validated
-@CrossOrigin(origins = {"http://localhost:4200"})
+@CrossOrigin(origins = {"http://localhost:4200", "http://localhost:8123"})
 public class GorzdravController {
     private final DistrictService districtService;
     private final HospitalService hospitalService;
