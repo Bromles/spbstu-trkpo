@@ -1,7 +1,8 @@
 import { AuthProviderProps } from "react-oidc-context";
+import { getAuthUrl } from "./apiUtils";
 
 export const oidcConfig: AuthProviderProps = {
-  authority: "http://localhost:8099/realms/trkpo-hospital",
+  authority: getAuthUrl(),
   client_id: "frontend",
   redirect_uri: window.location.origin,
   onSigninCallback: (): void => {
