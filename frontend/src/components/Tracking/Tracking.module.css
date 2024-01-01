@@ -3,20 +3,27 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #e8e6ff;
+  /* background-color: var(--accent-bg-color); */
   border-radius: 10px;
+  border-color: var(--secondary-bg-color);
+  border-width: 5px;
+  border-style: solid;
 }
 
 .trackingItem button {
   width: 100%;
   background-color: var(--secondary-bg-color);
-  border-radius: 0 0 10px 10px;
+  border-radius: 0;
   transition: 0.5s;
   text-align: center;
 }
 
+.trackingItem span {
+  margin: 1%;
+}
+
 .trackingItem button:hover {
-  background-color: var(--lt-color-gray-700);
+  background-color: var(--primary-bg-color);
   transition: 0.5s;
 }
 

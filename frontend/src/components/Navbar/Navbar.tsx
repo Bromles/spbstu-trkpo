@@ -21,7 +21,7 @@ export const NavBar = () => {
           {auth.isAuthenticated && clientEmail}
         </div>
         <nav>
-          <button onClick={authButtonHandler}>
+          <button onClick={authButtonHandler} className={styles.loginButton}>
             {auth.isAuthenticated ? "Выход" : "Вход | Регистрация"}
           </button>
         </nav>
