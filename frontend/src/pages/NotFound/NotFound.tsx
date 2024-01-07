@@ -5,7 +5,7 @@ export const NotFound = () => {
     <>
       <p>Not Found</p>
       <p>
-        <Link to="/">Home</Link>
+        <Link to="/">На главную</Link>
       </p>
     </>
   );
