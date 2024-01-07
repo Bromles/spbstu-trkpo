@@ -19,6 +19,8 @@ export const HospitalSelection = observer(() => {
   const handleChange = useCallback((e: ChangeEvent<HTMLSelectElement>) => {
     const selectedHospitalId = parseInt(e.target.value, 10);
     selectionStore.selectedHospitalId = selectedHospitalId;
+      selectionStore.selectedDirectionId = -1;
+      selectionStore.selectedDoctorId = -1;
   }, []);
 
   useEffect(

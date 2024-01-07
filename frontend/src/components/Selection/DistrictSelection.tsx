@@ -12,6 +12,9 @@ export const DistrictSelection = observer(() => {
     (e: ChangeEvent<HTMLSelectElement>) => {
       const selectedDistrict = parseInt(e.target.value, 10);
       selectionStore.selectedDistrictId = selectedDistrict;
+      selectionStore.selectedHospitalId = -1;
+      selectionStore.selectedDirectionId = -1;
+      selectionStore.selectedDoctorId = -1;
     },
     []
   );

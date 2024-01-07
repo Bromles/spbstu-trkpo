@@ -20,6 +20,7 @@ export const DirectionSelection = observer(() => {
     (e: ChangeEvent<HTMLSelectElement>) => {
       const selectedDirectionId = parseInt(e.target.value, 10);
       selectionStore.selectedDirectionId = selectedDirectionId;
+      selectionStore.selectedDoctorId = -1;
     },
     []
   );
