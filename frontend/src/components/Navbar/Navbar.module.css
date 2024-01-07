@@ -24,8 +24,19 @@
   padding-bottom: 2px;
 }
 
+.loginButton {
+  color: var(--primary-text-color);
+}
+
+@media (prefers-color-scheme: light) {
+  .loginButton {
+    color: var(--secondary-text-color)
+  }
+}
+
 .name {
   margin-left: 50px;
+  color: #dbd3d3;
 }
 
 @media (max-width: 640px) {
