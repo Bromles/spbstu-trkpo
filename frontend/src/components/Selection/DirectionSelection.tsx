@@ -52,7 +52,7 @@ export const DirectionSelection = observer(() => {
 
   return (
     <div className={styles.form_section}>
-      <label htmlFor="direction" className={styles.label}>
+      <label htmlFor="directionSelect" className={styles.label}>
         Направление:
       </label>
       <select
