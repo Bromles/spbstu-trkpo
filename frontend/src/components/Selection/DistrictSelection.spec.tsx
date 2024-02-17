@@ -27,7 +27,7 @@ describe("DistrictSelection", () => {
     beforeEach(() => {
         globalStore = {
             districts: [
-                {gorzdravId: 1, name: 'Test District'},
+                {gorzdravId: 1, name: 'Адмиралтейский'},
             ],
         };
 
@@ -53,5 +53,8 @@ describe("DistrictSelection", () => {
 
         fireEvent.change(districtSelect, {target: {value: "1"}});
         expect(selectionStore.selectedDistrictId).toEqual(1);
+
+        const displayedDistrictName = screen.getByText("Адмиралтейский");
+        expect(displayedDistrictName).toBeTruthy();
     });
 });
