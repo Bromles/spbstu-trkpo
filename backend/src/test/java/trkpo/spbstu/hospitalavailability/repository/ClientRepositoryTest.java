@@ -15,7 +15,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
-public class ClientRepositoryTest {
+class ClientRepositoryTest {
 
     @Mock
     private ClientRepository clientRepository;
@@ -28,7 +28,7 @@ public class ClientRepositoryTest {
     private Client client = new Client();
 
     @Test
-    public void insertTest() {
+    void insertTest() {
         doNothing().when(clientRepository).insert(EMAIL, KEYCLOAK_ID);
         clientRepository.insert(EMAIL, KEYCLOAK_ID);
         verify(clientRepository, times(1)).insert(EMAIL, KEYCLOAK_ID);
@@ -44,7 +44,7 @@ public class ClientRepositoryTest {
     }
 
     @Test
-    public void findFirstByKeycloakIdTest() {
+    void findFirstByKeycloakIdTest() {
         client.setId(ID);
         client.setEmail(EMAIL);
         client.setKeycloakId(KEYCLOAK_ID);
@@ -58,7 +58,7 @@ public class ClientRepositoryTest {
     }
 
     @Test
-    public void notFoundByKeycloakIdTest() {
+    void notFoundByKeycloakIdTest() {
         when(clientRepository.findFirstByKeycloakId(KEYCLOAK_ID)).thenReturn(Optional.empty());
 
         Optional<Client> result = clientRepository.findFirstByKeycloakId(KEYCLOAK_ID);
