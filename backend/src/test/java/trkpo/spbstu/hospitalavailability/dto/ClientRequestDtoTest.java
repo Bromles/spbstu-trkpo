@@ -33,7 +33,7 @@ public class ClientRequestDtoTest {
     }
 
     @Test
-    void testEmailIsNull() {
+    public void testEmailIsNull() {
         ClientRequestDto clientDto = new ClientRequestDto();
         clientDto.setKeycloakId("id");
 
