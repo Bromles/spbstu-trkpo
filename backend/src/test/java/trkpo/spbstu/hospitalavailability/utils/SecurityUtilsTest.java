@@ -18,7 +18,7 @@ import static org.mockito.Mockito.when;
 
 
 @ExtendWith(MockitoExtension.class)
-public class SecurityUtilsTest {
+class SecurityUtilsTest {
 
     @Mock
     private SecurityContext securityContext;

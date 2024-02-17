@@ -1,18 +1,29 @@
 package trkpo.spbstu.hospitalavailability.dto;
 
+import lombok.Cleanup;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import javax.validation.ConstraintViolation;
 import javax.validation.Validation;
 import javax.validation.Validator;
+import javax.validation.ValidatorFactory;
 import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class ClientRequestDtoTest {
-    private final Validator validator = Validation.buildDefaultValidatorFactory().getValidator();
+    private Validator validator;
     private final String ID = "id";
     private final String EMAIL = "test@domain.com";
+
+    @BeforeEach
+    void setUp() {
+        @Cleanup
+        ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
+        this.validator = factory.getValidator();
+    }
 
     @Test
     void testKeycloakIdIsNull() {
