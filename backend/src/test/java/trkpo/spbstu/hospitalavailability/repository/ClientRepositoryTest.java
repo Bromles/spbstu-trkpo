@@ -22,7 +22,6 @@ public class ClientRepositoryTest {
 
     private static final UUID KEYCLOAK_ID = UUID.randomUUID();
     private static final long ID = new Random().nextLong();
-
     private static final String EMAIL = "test@gmail.com";
 
     @InjectMocks

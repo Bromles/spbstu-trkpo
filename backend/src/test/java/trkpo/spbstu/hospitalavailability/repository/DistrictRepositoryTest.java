@@ -18,9 +18,9 @@ import static org.mockito.Mockito.*;
 public class DistrictRepositoryTest {
     @Mock
     private DistrictRepository districtRepository;
+
     private static final long ID = new Random().nextLong();
     private static final long GORZDRAV_ID = new Random().nextLong();
-
     private static final String NAME = "test district";
 
     @InjectMocks
