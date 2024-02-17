@@ -1,11 +1,13 @@
 package trkpo.spbstu.hospitalavailability.dto;
 
+import lombok.Cleanup;
 import org.junit.Before;
 import org.junit.Test;
 
 import javax.validation.ConstraintViolation;
 import javax.validation.Validation;
 import javax.validation.Validator;
+import javax.validation.ValidatorFactory;
 import java.util.Set;
 
 import static org.junit.Assert.assertEquals;
@@ -16,7 +18,9 @@ public class ClientRequestDtoTest {
 
     @Before
     public void setUp() {
-        this.validator = Validation.buildDefaultValidatorFactory().getValidator();
+        @Cleanup
+        ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
+        this.validator = factory.getValidator();
     }
 
     @Test
@@ -29,7 +33,7 @@ public class ClientRequestDtoTest {
     }
 
     @Test
-    public void testEmailIsNull() {
+    void testEmailIsNull() {
         ClientRequestDto clientDto = new ClientRequestDto();
         clientDto.setKeycloakId("id");
 
