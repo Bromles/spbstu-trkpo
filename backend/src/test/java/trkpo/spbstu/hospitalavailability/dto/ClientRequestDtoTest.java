@@ -1,27 +1,17 @@
 package trkpo.spbstu.hospitalavailability.dto;
 
-import lombok.Cleanup;
-import org.junit.Before;
 import org.junit.Test;
 
 import javax.validation.ConstraintViolation;
 import javax.validation.Validation;
 import javax.validation.Validator;
-import javax.validation.ValidatorFactory;
 import java.util.Set;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 public class ClientRequestDtoTest {
-    private Validator validator;
-
-    @Before
-    public void setUp() {
-        @Cleanup
-        ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
-        this.validator = factory.getValidator();
-    }
+    private final Validator validator = Validation.buildDefaultValidatorFactory().getValidator();
 
     @Test
     public void testKeycloakIdIsNull() {
