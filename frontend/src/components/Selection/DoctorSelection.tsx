@@ -50,7 +50,7 @@ export const DoctorSelection = observer(() => {
 
   return (
     <div className={styles.form_section}>
-      <label htmlFor="doctor" className={styles.label}>
+      <label htmlFor="doctorSelect" className={styles.label}>
         Доктор:
       </label>
       <select
