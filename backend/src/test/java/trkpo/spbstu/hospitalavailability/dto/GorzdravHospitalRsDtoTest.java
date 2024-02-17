@@ -1,13 +1,13 @@
 package trkpo.spbstu.hospitalavailability.dto;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class GorzdravHospitalRsDtoTest {
+class GorzdravHospitalRsDtoTest {
 
     @Test
-    public void testGorzdravHospitalRs() {
+    void testGorzdravHospitalRs() {
         GorzdravHospitalRsDto dto = new GorzdravHospitalRsDto(1L, 55.75, 37.61, 2L, "Test Address", "Test Full Name", "Test Short Name", "+7-900-000-1122");
         assertEquals(1L, dto.getGorzdravId());
         assertEquals(55.75, dto.getLongitude(), 0.01);

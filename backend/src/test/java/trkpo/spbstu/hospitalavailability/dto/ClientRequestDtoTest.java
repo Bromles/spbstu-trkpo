@@ -1,31 +1,32 @@
 package trkpo.spbstu.hospitalavailability.dto;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import javax.validation.ConstraintViolation;
 import javax.validation.Validation;
 import javax.validation.Validator;
 import java.util.Set;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class ClientRequestDtoTest {
+class ClientRequestDtoTest {
     private final Validator validator = Validation.buildDefaultValidatorFactory().getValidator();
+    private final String ID = "id";
+    private final String EMAIL = "test@domain.com";
 
     @Test
-    public void testKeycloakIdIsNull() {
+    void testKeycloakIdIsNull() {
         ClientRequestDto clientDto = new ClientRequestDto();
-        clientDto.setEmail("test@domain.com");
+        clientDto.setEmail(EMAIL);
         Set<ConstraintViolation<ClientRequestDto>> violations = this.validator.validate(clientDto);
         assertEquals(1, violations.size());
         assertEquals("must not be null", violations.iterator().next().getMessage());
     }
 
     @Test
-    public void testEmailIsNull() {
+    void testEmailIsNull() {
         ClientRequestDto clientDto = new ClientRequestDto();
-        clientDto.setKeycloakId("id");
+        clientDto.setKeycloakId(ID);
 
         Set<ConstraintViolation<ClientRequestDto>> violations = this.validator.validate(clientDto);
         assertEquals(1, violations.size());
@@ -33,9 +34,9 @@ public class ClientRequestDtoTest {
     }
 
     @Test
-    public void testEmailIsInvalid() {
+    void testEmailIsInvalid() {
         ClientRequestDto clientDto = new ClientRequestDto();
-        clientDto.setKeycloakId("id");
+        clientDto.setKeycloakId(ID);
         clientDto.setEmail("invalidEmail");
 
         Set<ConstraintViolation<ClientRequestDto>> violations = this.validator.validate(clientDto);
@@ -44,16 +45,14 @@ public class ClientRequestDtoTest {
     }
 
     @Test
-    public void testValidClientRequestDto() {
+    void testValidClientRequestDto() {
         ClientRequestDto clientDto = new ClientRequestDto();
-        String id = "id";
-        String email = "test@domain.com";
-        clientDto.setKeycloakId(id);
-        clientDto.setEmail(email);
+        clientDto.setKeycloakId(ID);
+        clientDto.setEmail(EMAIL);
 
         Set<ConstraintViolation<ClientRequestDto>> violations = this.validator.validate(clientDto);
         assertTrue(violations.isEmpty());
-        assertEquals(clientDto.getEmail(), email);
-        assertEquals(clientDto.getKeycloakId(), id);
+        assertEquals(clientDto.getKeycloakId(), ID);
+        assertEquals(clientDto.getEmail(), EMAIL);
     }
 }

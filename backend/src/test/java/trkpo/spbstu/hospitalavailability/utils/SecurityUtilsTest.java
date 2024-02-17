@@ -30,29 +30,29 @@ public class SecurityUtilsTest {
     private Jwt jwt;
 
     @BeforeEach
-    public void setUp() {
+    void setUp() {
         when(securityContext.getAuthentication()).thenReturn(authentication);
         SecurityContextHolder.setContext(securityContext);
     }
 
     @Test
-    public void shouldReturnUserKeyString() {
+    void shouldReturnUserKeyString() {
         when(authentication.getPrincipal()).thenReturn(jwt);
         when(jwt.getSubject()).thenReturn("UserKey");
 
-        String userKey =  SecurityUtils.getUserKey();
+        String userKey = SecurityUtils.getUserKey();
         assertEquals("UserKey", userKey);
     }
 
     @Test
-    public void shouldThrowForbiddenExceptionForInvalidUserKey() {
+    void shouldThrowForbiddenExceptionForInvalidUserKey() {
         when(authentication.getPrincipal()).thenThrow(getClassCastException());
 
         assertThrows(ForbiddenException.class, SecurityUtils::getUserKey);
     }
 
     @Test
-    public void shouldReturnUserMailString() {
+    void shouldReturnUserMailString() {
         when(authentication.getPrincipal()).thenReturn(jwt);
         when(jwt.getClaimAsString("preferred_username")).thenReturn("UserMail");
 
@@ -61,7 +61,7 @@ public class SecurityUtilsTest {
     }
 
     @Test
-    public void shouldThrowForbiddenExceptionForInvalidUserMail() {
+    void shouldThrowForbiddenExceptionForInvalidUserMail() {
         when(authentication.getPrincipal()).thenThrow(getClassCastException());
 
         assertThrows(ForbiddenException.class, SecurityUtils::getUserMail);
