@@ -1,18 +1,18 @@
-import { makeAutoObservable } from "mobx";
+import {makeObservable, observable} from "mobx";
 
 export class SelectionStore {
-  private _selectedHospitalId: number;
-  private _selectedDistrictId: number;
-  private _selectedDoctorId: number;
-  private _selectedDirectionId: number;
+  _selectedHospitalId = -1;
+  _selectedDistrictId = -1;
+  _selectedDoctorId = -1;
+  _selectedDirectionId = -1;
 
   constructor() {
-    this._selectedHospitalId = -1;
-    this._selectedDistrictId = -1;
-    this._selectedDoctorId = -1;
-    this._selectedDirectionId = -1;
-
-    makeAutoObservable(this);
+    makeObservable(this, {
+      _selectedHospitalId: observable,
+      _selectedDistrictId: observable,
+      _selectedDoctorId: observable,
+      _selectedDirectionId: observable,
+    });
   }
 
   get selectedHospitalId() {

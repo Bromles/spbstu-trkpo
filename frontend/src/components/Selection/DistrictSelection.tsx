@@ -21,7 +21,7 @@ export const DistrictSelection = observer(() => {
 
   return (
     <div className={styles.form_section}>
-      <label htmlFor="district" className={styles.label}>
+      <label htmlFor="districtSelect" className={styles.label}>
         Район:
       </label>
       <select
