@@ -3,6 +3,7 @@ import {DistrictSelection} from "@/components/Selection/DistrictSelection";
 import {useGlobalStore, useSelectionStore} from "@/utils/hooks";
 import {SelectionStore} from "@/stores/SelectionStore";
 import {makeObservable} from "mobx";
+import { Mock, afterEach, describe, expect, it, vi } from "vitest";
 
 class MockSelectionStore extends SelectionStore {
     constructor() {
@@ -15,9 +16,10 @@ class MockSelectionStore extends SelectionStore {
     }
 }
 
-jest.mock("@/utils/hooks", () => ({
-    useGlobalStore: jest.fn(),
-    useSelectionStore: jest.fn(),
+vi.mock("@/utils/hooks", () => ({
+    useGlobalStore: vi.fn(),
+    useSelectionStore: vi.fn(),
+    useClientToken: vi.fn().mockReturnValue("mocked-client-token"),
 }));
 
 describe("DistrictSelection", () => {
@@ -32,12 +34,12 @@ describe("DistrictSelection", () => {
         };
 
         selectionStore = new MockSelectionStore();
-        (useGlobalStore as jest.Mock).mockReturnValue(globalStore);
-        (useSelectionStore as jest.Mock).mockReturnValue(selectionStore);
+        (useGlobalStore as Mock).mockReturnValue(globalStore);
+        (useSelectionStore as Mock).mockReturnValue(selectionStore);
     });
 
     afterEach(() => {
-        jest.resetAllMocks();
+        vi.resetAllMocks();
     });
 
     it("should render the component without crashing", () => {
