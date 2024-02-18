@@ -24,8 +24,10 @@ jobs:
           cache: maven
       # - name: Setup Docker Compose
       #   run: docker compose -f compose.yml up -d database auth_server
+      - name: Cd into backend
+        run: cd backend
       - name: Run tests
-        run: cd backend && mvn --batch-mode --update-snapshots verify
+        run: mvn --batch-mode --update-snapshots verify
         env:
           AUTH_SERVER_JWKS_URL: ${{ env.AUTH_SERVER_JWKS_URL }}
           DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
@@ -48,8 +50,10 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: "16"
+      - name: Cd into frontend
+        run: cd frontend
       - name: Run tests
-        run: cd frontend && npm ci && npm run build --if-present && npm run test
+        run: npm ci && npm run build --if-present && npm run test
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v4.0.1
         with:
