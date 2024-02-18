@@ -22,8 +22,8 @@ jobs:
           distribution: "temurin"
           java-version: "17"
           cache: maven
-      - name: Setup Docker Compose
-        run: docker compose -f compose.yml up -d database auth_server
+      # - name: Setup Docker Compose
+      #   run: docker compose -f compose.yml up -d database auth_server
       - name: Run tests
         run: cd backend && mvn --batch-mode --update-snapshots verify
         env:
