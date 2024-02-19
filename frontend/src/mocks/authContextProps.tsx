@@ -10,7 +10,7 @@ import {
     SignoutSilentArgs,
     User,
     UserManagerEvents,
-    UserManagerSettings
+    UserManagerSettings, UserProfile
 } from "oidc-client-ts";
 import {makeObservable} from "mobx";
 import { UserManager } from 'oidc-client';
@@ -22,7 +22,7 @@ export class MockAuthContextProps implements AuthContextProps {
     readonly settings: UserManagerSettings;
     activeNavigator?: "signinRedirect" | "signinPopup" | "signinSilent" | "signoutRedirect" | "signoutPopup" | "signoutSilent";
     error?: Error;
-
+    user?: User | null;
 
     constructor(isLoading: boolean, isAuthenticated: boolean,
                 activeNavigator: "signinRedirect" | "signinPopup" | "signinSilent" | "signoutRedirect" | "signoutPopup" | "signoutSilent",
@@ -40,10 +40,15 @@ export class MockAuthContextProps implements AuthContextProps {
         this.isAuthenticated = isAuthenticated;
         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
         // @ts-ignore
-        this.events = userManager.events; // new UserManagerEvents(new UserManagerSettingsStore(new MockUserManagerSettings()));
+        this.events = userManager.events;
         this.settings = new MockUserManagerSettings();
         this.error = error;
         this.activeNavigator = activeNavigator;
+        this.user = new User({
+            access_token: "mock-access-token",
+            token_type: "Bearer",
+            profile: mockUserProfile,
+        });
         makeObservable(this, {
             isAuthenticated: true,
             isLoading: true
@@ -75,16 +80,7 @@ export class MockAuthContextProps implements AuthContextProps {
             get expires_in(): number | undefined {
                 return undefined;
             },
-            profile: {
-                name: "Mock User",
-                email: "mockuser@example.com",
-                preferred_username: "mockuser",
-                sub: "",
-                iss: "",
-                aud: "",
-                exp: 12,
-                iat: 34,
-            },
+            profile: mockUserProfile,
             session_state: null,
             state: undefined,
             token_type: "",
@@ -133,6 +129,17 @@ export class MockAuthContextProps implements AuthContextProps {
     stopSilentRenew(): void {
     }
 }
+
+const mockUserProfile: UserProfile = {
+    name: "Mock User",
+    email: "mockuser@example.com",
+    preferred_username: "mockuser",
+    sub: "mock-sub",
+    iss: "",
+    aud: "",
+    exp: 12,
+    iat: 34,
+};
 
 export class MockUserManagerSettings implements UserManagerSettings {
     authority: string;
