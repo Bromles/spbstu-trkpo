@@ -3,21 +3,42 @@ import { SelectionStore } from '@/stores/SelectionStore';
 import {expect} from "vitest";
 
 describe('GlobalStore', () => {
+    let globalStore: GlobalStore;
+
+    beforeEach(() => {
+        globalStore = new GlobalStore();
+    });
+
     it('should create a GlobalStore', () => {
-        const globalStore = new GlobalStore();
         expect(globalStore).toBeTruthy();
     });
 
-    it('should set hospitals', () => {
-        const globalStore = new GlobalStore();
+    it('get and set hospitals', () => {
         const hospitals = [ { id: 1, gorzdravId: 1, districtId: 1, shortName: "Травмпункт 1", fullName: "Травмпункт 1 Выборгского района",
             latitude: 3344, longitude: 555, address: "за тридевять земель", phone: "88005553535" }];
         globalStore.hospitals = hospitals;
         expect(globalStore.hospitals).toEqual(hospitals);
     });
 
+    it('get and set districts', () => {
+        const districts = [{ id: 1, gorzdravId: 1, name: "Адмиралтейский" }];
+        globalStore.districts = districts;
+        expect(globalStore.districts).toEqual(districts);
+    });
+
+    it('get and set directions', () => {
+        const directions = [{ id: 1, countFreeTicket: 25, name: "Терапевт" }];
+        globalStore.directions = directions;
+        expect(globalStore.directions).toEqual(directions);
+    });
+
+    it('get and set doctors', () => {
+        const doctors = [{ gorzdravId: 1, name: "Петров" }];
+        globalStore.doctors = doctors;
+        expect(globalStore.doctors).toEqual(doctors);
+    });
+
     it('reload toggle', () => {
-        const globalStore = new GlobalStore();
         expect(globalStore.trackingToggle).toEqual(false);
         globalStore.toggleReload();
         expect(globalStore.trackingToggle).toEqual(true);
@@ -25,13 +46,17 @@ describe('GlobalStore', () => {
 });
 
 describe('SelectionStore', () => {
+    let selectionStore: SelectionStore;
+
+    beforeEach(() => {
+        selectionStore = new SelectionStore();
+    });
+
     it('should create a SelectionStore', () => {
-        const selectionStore = new SelectionStore();
         expect(selectionStore).toBeTruthy();
     });
 
     it('should set selected hospital id', () => {
-        const selectionStore = new SelectionStore();
         selectionStore.selectedHospitalId = 1;
         expect(selectionStore.selectedHospitalId).toEqual(1);
     });

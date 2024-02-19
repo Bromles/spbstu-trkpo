@@ -21,16 +21,22 @@ vi.mock("@/utils/apiUtils", () => ({
 let globalStore: MockGlobalStore;
 
 vi.mock("@/components/Selection/SelectionApi", () => ({
-    fetchDirections: vi.fn(() => Promise.resolve({data: globalStore.directions})),
-    fetchDoctors: vi.fn((directionId: number) => Promise.resolve(
-        {data: [globalStore.doctors.find(doctor => doctor.gorzdravId === directionId)]})),
+    fetchDirections: vi.fn(() => {
+        console.log("Mocked fetchDirections called");
+        return Promise.resolve({data: globalStore.directions});
+    }),
+    fetchDoctors: vi.fn((directionId: number) => {
+        console.log("Mocked fetchDoctors called");
+        return Promise.resolve(
+            {data: [globalStore.doctors.find(doctor => doctor.gorzdravId === directionId)]});
+    }),
 }));
 
 describe("DirectionSelection", () => {
     let selectionStore: MockSelectionStore;
 
     beforeEach(() => {
-        globalStore = new MockGlobalStore();
+        const globalStore = new MockGlobalStore();
         selectionStore = new MockSelectionStore();
 
         (useGlobalStore as Mock).mockReturnValue(globalStore);

@@ -38,4 +38,16 @@ describe('AuthGuard', () => {
         render(<AuthGuard>{childText}</AuthGuard>);
         expect(screen.getByText(childText)).toBeTruthy();
     });
+
+    it("Signing in", () => {
+        (useAuth as Mock).mockReturnValue(new MockAuthContextProps(false, true, "signinSilent", undefined));
+        render(<AuthGuard>any</AuthGuard>);
+        expect(screen.getByText('Signing you in ...')).toBeTruthy();
+    });
+
+    it("Signing out", () => {
+        (useAuth as Mock).mockReturnValue(new MockAuthContextProps(false, true, "signoutRedirect", undefined));
+        render(<AuthGuard>any</AuthGuard>);
+        expect(screen.getByText('Signing you out ...')).toBeTruthy();
+    });
 });
