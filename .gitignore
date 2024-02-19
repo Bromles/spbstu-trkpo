@@ -6,7 +6,7 @@ gradlew.bat
 /backend/target
 /frontend/build
 /**/.idea
-/frontend/node_modules
+/**/node_modules
 backend/.env
 logs
 .vscode
