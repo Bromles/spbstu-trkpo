@@ -2,7 +2,7 @@
 import { ChangeEvent, useCallback, useEffect } from "react";
 import styles from "@/pages/Home/Home.module.css";
 import { getBackendUrl } from "@/utils/apiUtils";
-import { fetchDirections } from "./SelectionApi";
+import { fetchDirections } from "@/components/Selection/SelectionApi";
 import {
   useClientToken,
   useGlobalStore,

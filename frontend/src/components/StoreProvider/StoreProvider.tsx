@@ -1,6 +1,6 @@
 import { GlobalStore } from "@/stores/GlobalStore";
 import React, { useState } from "react";
-import { SelectionStore } from "../../stores/SelectionStore";
+import { SelectionStore } from "@/stores/SelectionStore";
 
 export const GlobalStoreContext = React.createContext<GlobalStore | null>(null);
 export const SelectionStoreContext = React.createContext<SelectionStore | null>(

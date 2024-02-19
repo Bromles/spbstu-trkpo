@@ -5,7 +5,4 @@ public class BackendUnavailableException extends RuntimeException {
         super(message);
     }
 
-    public BackendUnavailableException(String message, Throwable cause) {
-        super(message, cause);
-    }
 }
