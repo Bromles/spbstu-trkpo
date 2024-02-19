@@ -16,7 +16,8 @@ export const NavBar = () => {
     <header className={styles.header}>
       <div className={styles.container}>
         <div className={styles.name}>
-          {auth.isAuthenticated && clientLastname && <br />}
+          {auth.isAuthenticated && clientLastname}
+          {clientLastname && <br />}
           {auth.isAuthenticated && clientEmail}
         </div>
         <nav>
