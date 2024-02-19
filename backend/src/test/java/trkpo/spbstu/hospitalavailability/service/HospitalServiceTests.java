@@ -29,7 +29,7 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.any;
 
 @ExtendWith(MockitoExtension.class)
-public class HospitalServiceTests {
+class HospitalServiceTests {
 
     @Mock
     private GorzdravService gorzdravService;
@@ -75,7 +75,7 @@ public class HospitalServiceTests {
     }
 
     @Test
-    public void testInsert() {
+    void testInsert() {
         GorzdravHospitalRsDto dto = new GorzdravHospitalRsDto(ID, LONGITUDE, LATITUDE, DISTRICT_ID, ADDRESS, FULL_NAME, SHORT_NAME, PHONE);
         List<GorzdravHospitalRsDto> hospitals = List.of(dto);
         Hospital hospital = getHospital();
@@ -87,7 +87,7 @@ public class HospitalServiceTests {
     }
 
     @Test
-    public void testUpdate() {
+    void testUpdate() {
         GorzdravHospitalRsDto dto = new GorzdravHospitalRsDto(ID, LONGITUDE, LATITUDE, DISTRICT_ID, ADDRESS, FULL_NAME, SHORT_NAME, PHONE);
         List<GorzdravHospitalRsDto> hospitals = List.of(dto);
         when(hospitalRepository.findByGorzdravId(ID)).thenReturn(Optional.empty());

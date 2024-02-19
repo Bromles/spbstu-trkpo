@@ -19,7 +19,7 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.any;
 
 @ExtendWith(MockitoExtension.class)
-public class NotificationMailSenderTests {
+class NotificationMailSenderTests {
 
     @Mock
     private MailSender mailSender;

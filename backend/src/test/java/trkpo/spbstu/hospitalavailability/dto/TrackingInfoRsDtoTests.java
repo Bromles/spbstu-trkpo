@@ -6,7 +6,7 @@ import org.testcontainers.shaded.org.apache.commons.lang3.RandomStringUtils;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class TrackingInfoRsDtoTests {
+class TrackingInfoRsDtoTests {
 
     private static final String DOCTOR_NAME = RandomStringUtils.randomAlphabetic(5);
     private static final String DIRECTION_NAME =  RandomStringUtils.randomAlphabetic(5);

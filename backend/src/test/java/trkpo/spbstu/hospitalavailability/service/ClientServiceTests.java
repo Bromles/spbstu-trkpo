@@ -19,7 +19,7 @@ import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.never;
 
 @ExtendWith(MockitoExtension.class)
-public class ClientServiceTests {
+class ClientServiceTests {
 
     @Mock
     private ClientRepository clientRepository;

@@ -7,7 +7,7 @@ import org.testcontainers.shaded.org.apache.commons.lang3.RandomUtils;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class TrackingResponseDtoTest {
+class TrackingResponseDtoTest {
 
     private static final long ID = RandomUtils.nextLong();
     private static final long GORZDRAV_ID = RandomUtils.nextLong();

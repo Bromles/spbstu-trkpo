@@ -14,7 +14,7 @@ import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class TrackingRequestDtoTests {
+class TrackingRequestDtoTests {
 
     private Validator validator;
     private static final long DOCTOR_ID = RandomUtils.nextLong();

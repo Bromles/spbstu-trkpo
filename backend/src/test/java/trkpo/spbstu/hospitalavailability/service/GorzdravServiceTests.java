@@ -25,7 +25,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
-public class GorzdravServiceTests {
+class GorzdravServiceTests {
 
     @Mock
     private RestTemplate restTemplate;
