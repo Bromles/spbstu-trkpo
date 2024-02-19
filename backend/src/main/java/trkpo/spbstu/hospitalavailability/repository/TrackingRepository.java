@@ -12,8 +12,6 @@ import java.util.UUID;
 public interface TrackingRepository extends JpaRepository<Tracking, Long> {
     List<Tracking> findByIsFinishedFalse();
 
-    long removeById(Long id);
-
     List<Tracking> findByIsFinishedFalseAndClientKeycloakId(UUID id);
 
     @NonNull
