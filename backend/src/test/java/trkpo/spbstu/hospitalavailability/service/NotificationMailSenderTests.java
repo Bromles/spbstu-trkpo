@@ -1,6 +1,5 @@
 package trkpo.spbstu.hospitalavailability.service;
 
-import lombok.Cleanup;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -10,13 +9,7 @@ import org.springframework.mail.MailException;
 import org.springframework.mail.MailSender;
 import org.springframework.mail.SimpleMailMessage;
 import org.testcontainers.shaded.org.apache.commons.lang3.RandomStringUtils;
-import trkpo.spbstu.hospitalavailability.dto.TrackingRequestDto;
 import trkpo.spbstu.hospitalavailability.exception.BackendUnavailableException;
-
-import javax.validation.ConstraintViolation;
-import javax.validation.ValidatorFactory;
-
-import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
