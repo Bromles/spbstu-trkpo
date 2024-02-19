@@ -1,0 +1,23 @@
+component_management:
+  paths:
+   - "frontend"
+   - "backend"
+  individual_components:
+    - component_id: frontend
+    - component_id: backend
+
+ignore:
+  - "frontend/dist"
+  - "frontend/node_modules"
+  - "frontend/src/test"
+  - "frontend/src/mocks"
+  - "frontend/src/components/HospitalMap"
+  - "**/*.scss"
+  - "frontend/vite.config.ts"
+  - "frontend/vitest.config.ts"
+  - "frontend/tsconfig.node.json"
+  - "frontend/tsconfig.json"
+  - "**/*.html"
+  - "**/*.cjs"
+  - "**/*.md"
+  - "**/Dockerfile"
