@@ -1,20 +1,11 @@
-import { SelectionStore } from "@/stores/SelectionStore";
 import { useGlobalStore, useSelectionStore } from "@/utils/hooks";
-import { makeObservable } from "mobx";
 import { DoctorSelection } from "./DoctorSelection";
 import { fireEvent, render, screen } from "@testing-library/react";
 import { Mock, afterEach, describe, expect, it, vi } from "vitest";
-
-class MockSelectionStore extends SelectionStore {
-  constructor() {
-    super();
-    this.selectedHospitalId = -1;
-    this.selectedDistrictId = -1;
-    this.selectedDoctorId = -1;
-    this.selectedDirectionId = -1;
-    makeObservable(this);
-  }
-}
+import {DistrictSelection} from "@/components/Selection/DistrictSelection";
+import {HospitalSelection} from "@/components/Selection/HospitalSelection";
+import {DirectionSelection} from "@/components/Selection/DirectionSelection";
+import {MockGlobalStore, MockSelectionStore} from "@/mocks/stores";
 
 vi.mock("@/utils/hooks", () => ({
   useGlobalStore: vi.fn(),
@@ -22,16 +13,14 @@ vi.mock("@/utils/hooks", () => ({
   useClientToken: vi.fn().mockReturnValue("mocked-client-token"),
 }));
 
-describe("DirectionSelection", () => {
-  let globalStore;
+describe("DoctorSelection", () => {
+  let globalStore: MockGlobalStore;
   let selectionStore: MockSelectionStore;
 
   beforeEach(() => {
-    globalStore = {
-      doctors: [{ gorzdravId: 1, name: "Петров" }],
-    };
 
     selectionStore = new MockSelectionStore();
+    globalStore = new MockGlobalStore();
     (useGlobalStore as Mock).mockReturnValue(globalStore);
     (useSelectionStore as Mock).mockReturnValue(selectionStore);
   });
@@ -40,23 +29,38 @@ describe("DirectionSelection", () => {
     vi.resetAllMocks();
   });
 
+  it("should save directions to global store correctly", () => {
+    expect(globalStore.districts[0].name).toEqual("Адмиралтейский");
+    expect(globalStore.directions[0].countFreeTicket).toEqual(25);
+    expect(globalStore.trackingToggle).toEqual(false);
+  });
+
   it("should render the component without crashing", () => {
     render(<DoctorSelection />);
     expect(screen.getByLabelText("Доктор:")).toBeTruthy();
   });
 
-  //   it("should handle doctor selection change", () => {
-  //     render(<DoctorSelection />);
+    it("should handle doctor selection change", () => {
+      render(<DistrictSelection />);
+      const districtSelect = screen.getByLabelText("Район:") as HTMLSelectElement;
+      fireEvent.change(districtSelect, {target: {value: "1"}});
 
-  //     const directionSelect = screen.getByLabelText(
-  //       "Доктор:"
-  //     ) as HTMLSelectElement;
-  //     expect(directionSelect.value).toEqual("-1");
+      render(<HospitalSelection />);
+      const hospitalSelect = screen.getByLabelText("Больница:") as HTMLSelectElement;
+      fireEvent.change(hospitalSelect, {target: {value: "2"}});
 
-  //     fireEvent.change(directionSelect, { target: { value: "1" } });
-  //     expect(selectionStore.selectedDistrictId).toEqual(1);
+      render(<DirectionSelection />);
+      const directionSelect = screen.getByLabelText("Направление:") as HTMLSelectElement;
+      fireEvent.change(directionSelect, { target: { value: "1" } });
 
-  //     const displayedDistrictName = screen.getByText("Петров");
-  //     expect(displayedDistrictName).toBeTruthy();
-  //   });
+      render(<DoctorSelection />);
+      const doctorSelect = screen.getByLabelText("Доктор:") as HTMLSelectElement;
+      expect(doctorSelect.value).toEqual("-1");
+
+      fireEvent.change(doctorSelect, { target: { value: "1" } });
+      expect(selectionStore.selectedDoctorId).toEqual(1);
+
+      const displayedDoctorName = screen.getByText("Петров");
+      expect(displayedDoctorName).toBeTruthy();
+    });
 });
