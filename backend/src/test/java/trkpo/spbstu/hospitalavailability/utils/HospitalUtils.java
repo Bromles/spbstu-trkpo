@@ -8,6 +8,7 @@ public class HospitalUtils {
         Hospital hospital = new Hospital();
         hospital.setAddress("address");
         hospital.setLatitude(RandomUtils.nextDouble());
+        hospital.setLongitude(RandomUtils.nextDouble());
         hospital.setPhone("phone");
         hospital.setShortName("shortName");
         hospital.setDistrictId(RandomUtils.nextLong());

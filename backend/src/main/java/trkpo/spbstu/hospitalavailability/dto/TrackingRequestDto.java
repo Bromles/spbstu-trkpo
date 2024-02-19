@@ -9,10 +9,10 @@ import javax.validation.constraints.PositiveOrZero;
 public class TrackingRequestDto {
     @PositiveOrZero
     @NotNull
-    private long directionId;
+    private Long directionId;
     @PositiveOrZero
     private Long doctorId;
     @PositiveOrZero
     @NotNull
-    private long hospitalId;
+    private Long hospitalId;
 }
