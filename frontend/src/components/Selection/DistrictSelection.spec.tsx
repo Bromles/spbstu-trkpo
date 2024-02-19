@@ -1,20 +1,9 @@
 import {fireEvent, render, screen} from '@testing-library/react';
 import {DistrictSelection} from "@/components/Selection/DistrictSelection";
 import {useGlobalStore, useSelectionStore} from "@/utils/hooks";
-import {SelectionStore} from "@/stores/SelectionStore";
-import {makeObservable} from "mobx";
 import { Mock, afterEach, describe, expect, it, vi } from "vitest";
+import {MockGlobalStore, MockSelectionStore} from "@/mocks/stores";
 
-class MockSelectionStore extends SelectionStore {
-    constructor() {
-        super();
-        this.selectedHospitalId = -1;
-        this.selectedDistrictId = -1;
-        this.selectedDoctorId = -1;
-        this.selectedDirectionId = -1;
-        makeObservable(this);
-    }
-}
 
 vi.mock("@/utils/hooks", () => ({
     useGlobalStore: vi.fn(),
@@ -23,16 +12,12 @@ vi.mock("@/utils/hooks", () => ({
 }));
 
 describe("DistrictSelection", () => {
-    let globalStore;
+    let globalStore: MockGlobalStore;
     let selectionStore: MockSelectionStore;
 
     beforeEach(() => {
-        globalStore = {
-            districts: [
-                {gorzdravId: 1, name: 'Адмиралтейский'},
-            ],
-        };
 
+        globalStore = new MockGlobalStore();
         selectionStore = new MockSelectionStore();
         (useGlobalStore as Mock).mockReturnValue(globalStore);
         (useSelectionStore as Mock).mockReturnValue(selectionStore);

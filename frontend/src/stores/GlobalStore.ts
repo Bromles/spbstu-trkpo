@@ -1,21 +1,28 @@
-import { makeAutoObservable } from "mobx";
-import { Hospital, District, Doctor, Direction } from "../utils/types";
+import {makeObservable, observable} from "mobx";
+import { Hospital, District, Doctor, Direction } from "@/utils/types";
 
 export class GlobalStore {
-  private _hospitals: Hospital[];
-  private _districts: District[];
-  private _doctors: Doctor[];
-  private _directions: Direction[];
-  private _reloadTrackingToggle: boolean;
+  _hospitals: Hospital[] = [];
+  _districts: District[] = [];
+  _doctors: Doctor[] = [];
+  _directions: Direction[] = [];
+  _reloadTrackingToggle = false;
 
   constructor() {
-    this._hospitals = [];
-    this._districts = [];
-    this._doctors = [];
-    this._directions = [];
-    this._reloadTrackingToggle = false;
-
-    makeAutoObservable(this);
+    makeObservable(this, {
+      _hospitals: observable,
+      _districts: observable,
+      _doctors: observable,
+      _directions: observable,
+      _reloadTrackingToggle: observable
+    });
+    // this._hospitals = [];
+    // this._districts = [];
+    // this._doctors = [];
+    // this._directions = [];
+    // this._reloadTrackingToggle = false;
+    //
+    // makeAutoObservable(this);
   }
 
   get hospitals() {

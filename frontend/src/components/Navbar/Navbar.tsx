@@ -1,11 +1,10 @@
 import { useAuth } from "react-oidc-context";
-import styles from "./Navbar.module.css";
+import styles from "@/components/Navbar/Navbar.module.css";
 
 export const NavBar = () => {
   const auth = useAuth();
   const clientEmail = auth.user?.profile.preferred_username;
   const clientLastname = auth.user?.profile.family_name;
-
   const authButtonHandler = () =>
     auth.isAuthenticated
       ? void auth.signoutRedirect({
