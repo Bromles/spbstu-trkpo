@@ -12,7 +12,7 @@ ignore:
   - "frontend/src/test"
   - "frontend/src/mocks"
   - "frontend/src/components/HospitalMap"
-  - "**/*.scss"
+  - "**/*.css"
   - "frontend/vite.config.ts"
   - "frontend/vitest.config.ts"
   - "frontend/tsconfig.node.json"
