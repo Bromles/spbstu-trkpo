@@ -48,7 +48,11 @@ export default defineConfig({
         "tsconfig.json",
         "tsconfig.node.json",
         "src/components/HospitalMap/*",
-        "src/utils/*"
+        "src/utils/apiUtils.ts",
+        "src/utils/oidcConfig.ts",
+        "src/utils/types.ts",
+        "src/utils/Router.tsx",
+        "src/components/Tracking/*",
       ],
     },
   },
