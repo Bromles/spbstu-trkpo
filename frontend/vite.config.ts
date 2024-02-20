@@ -52,7 +52,6 @@ export default defineConfig({
         "src/utils/oidcConfig.ts",
         "src/utils/types.ts",
         "src/utils/Router.tsx",
-        "src/components/Tracking/*",
       ],
     },
   },
