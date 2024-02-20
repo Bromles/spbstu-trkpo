@@ -13,7 +13,7 @@ import {
     UserManagerSettings, UserProfile
 } from "oidc-client-ts";
 import {makeObservable} from "mobx";
-import { UserManager } from 'oidc-client';
+import { UserManager } from 'oidc-client-ts';
 
 export class MockAuthContextProps implements AuthContextProps {
     readonly events: UserManagerEvents;
