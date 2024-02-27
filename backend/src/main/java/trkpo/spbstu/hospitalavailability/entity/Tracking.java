@@ -37,12 +37,12 @@ public class Tracking {
     @Column(name = "date", nullable = false, columnDefinition = "TIMESTAMP")
     private LocalDateTime date;
 
-    @ManyToOne(cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REFRESH, CascadeType.DETACH})
-    @JoinColumn(name = "client_id", nullable = false, insertable = false, updatable = false)
+    @ManyToOne
+    @JoinColumn(name = "client_id", nullable = false)
     private Client client;
 
-    @ManyToOne(cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REFRESH, CascadeType.DETACH})
-    @JoinColumn(name = "hospital_id", nullable = false, insertable = false, updatable = false)
+    @ManyToOne
+    @JoinColumn(name = "hospital_id", nullable = false)
     private Hospital hospital;
 
     public Tracking(TrackingRequestDto requestDto, Hospital hospital, Client client) {

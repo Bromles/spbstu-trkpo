@@ -5,3 +5,9 @@ spring:
       properties:
         format_sql: true
     show-sql: true
+
+logging:
+  level:
+    org.hibernate:
+      SQL: debug
+      type.descriptor.sql: trace

@@ -1,6 +1,7 @@
 package trkpo.spbstu.hospitalavailability.controller;
 
 import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -13,6 +14,8 @@ import org.springframework.security.oauth2.jwt.JwtDecoder;
 import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.test.context.DynamicPropertyRegistry;
 import org.springframework.test.context.DynamicPropertySource;
+import org.springframework.transaction.PlatformTransactionManager;
+import org.springframework.transaction.support.TransactionTemplate;
 import org.testcontainers.containers.PostgreSQLContainer;
 import org.testcontainers.junit.jupiter.Container;
 import org.testcontainers.junit.jupiter.Testcontainers;
@@ -21,6 +24,7 @@ import trkpo.spbstu.hospitalavailability.entity.Client;
 import trkpo.spbstu.hospitalavailability.entity.District;
 import trkpo.spbstu.hospitalavailability.entity.Hospital;
 import trkpo.spbstu.hospitalavailability.entity.Tracking;
+import trkpo.spbstu.hospitalavailability.mapper.TrackingMapper;
 import trkpo.spbstu.hospitalavailability.repository.ClientRepository;
 import trkpo.spbstu.hospitalavailability.repository.DistrictRepository;
 import trkpo.spbstu.hospitalavailability.repository.HospitalRepository;
@@ -34,8 +38,8 @@ import java.util.UUID;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @Testcontainers
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 class TrackingControllerIntegrationTest {
     private static final String TEST_UUID = "5eb95f44-abbc-45e7-b760-0875ba0b8dec";
     private static final String TEST_PASSWORD = "test";
@@ -56,6 +60,14 @@ class TrackingControllerIntegrationTest {
     private TestRestTemplate testRestTemplate;
 
     @Autowired
+    private TrackingMapper trackingMapper;
+
+    private TransactionTemplate transactionTemplate;
+
+    @Autowired
+    private PlatformTransactionManager transactionManager;
+
+    @Autowired
     private TrackingRepository trackingRepository;
     @Autowired
     private HospitalRepository hospitalRepository;
@@ -63,6 +75,11 @@ class TrackingControllerIntegrationTest {
     private ClientRepository clientRepository;
     @Autowired
     private DistrictRepository districtRepository;
+
+    @BeforeEach
+    void setup() {
+        this.transactionTemplate = new TransactionTemplate(transactionManager);
+    }
 
     @AfterEach
     void resetDb() {
@@ -84,28 +101,37 @@ class TrackingControllerIntegrationTest {
     void whenValidInput_ThenReturn200() {
         assertTrue(POSTGRESQL_CONTAINER.isRunning());
 
-        var district = new District();
-        district.setName("Test district");
-        //districtRepository.save(district);
+        var tracking = transactionTemplate.execute(status -> {
+            var district = new District();
+            district.setId(1L);
+            district.setName("Test district");
 
-        var hospital = new Hospital();
-        hospital.setAddress("test address");
-        hospital.setFullName("Test hospital");
-        hospital.setShortName("Hospital");
-        hospital.setPhone("00000000");
-        hospital.setDistrict(district);
-        //hospitalRepository.save(hospital);
+            var hospital = new Hospital();
+            hospital.setId(1L);
+            hospital.setAddress("test address");
+            hospital.setFullName("Test hospital");
+            hospital.setShortName("Hospital");
+            hospital.setPhone("00000000");
+            hospital.setDistrictId(district.getId());
+            hospital.setDistrict(district);
+            hospitalRepository.saveAndFlush(hospital);
 
-        var client = new Client();
-        client.setKeycloakId(UUID.fromString(TEST_UUID));
-        client.setEmail("test@test.ru");
-        //clientRepository.save(client);
+            var client = new Client();
+            client.setId(1L);
+            client.setKeycloakId(UUID.fromString(TEST_UUID));
+            client.setEmail("test@test.ru");
+            clientRepository.saveAndFlush(client);
 
-        var tracking = new Tracking();
-        tracking.setDate(LocalDateTime.now());
-        tracking.setHospital(hospital);
-        tracking.setClient(client);
-        trackingRepository.saveAndFlush(tracking);
+            var trackingEntity = new Tracking();
+            trackingEntity.setId(1L);
+            trackingEntity.setDate(LocalDateTime.now());
+            trackingEntity.setHospital(hospital);
+            trackingEntity.setClient(client);
+            trackingEntity.setDoctorId(1L);
+            trackingRepository.saveAndFlush(trackingEntity);
+
+            return trackingEntity;
+        });
 
         var headers = new HttpHeaders();
         var token = new String(Base64.getEncoder().encode(TEST_PASSWORD.getBytes(StandardCharsets.UTF_8)));
@@ -120,6 +146,6 @@ class TrackingControllerIntegrationTest {
         var body = response.getBody();
 
         assertEquals(HttpStatus.OK, response.getStatusCode());
-        assertIterableEquals(List.of(tracking), body);
+        assertIterableEquals(List.of(trackingMapper.toTrackingDto(tracking)), body);
     }
 }
