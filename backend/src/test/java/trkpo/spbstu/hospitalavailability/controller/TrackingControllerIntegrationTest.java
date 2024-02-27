@@ -33,7 +33,6 @@ import trkpo.spbstu.hospitalavailability.repository.DistrictRepository;
 import trkpo.spbstu.hospitalavailability.repository.HospitalRepository;
 import trkpo.spbstu.hospitalavailability.repository.TrackingRepository;
 
-import javax.transaction.Transactional;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.UUID;
@@ -53,7 +52,7 @@ class TrackingControllerIntegrationTest {
 
     @Container
     @SuppressWarnings("resource")
-    private  PostgreSQLContainer<?> POSTGRESQL_CONTAINER = new PostgreSQLContainer<>("postgres:16.0")
+    private static final PostgreSQLContainer<?> POSTGRESQL_CONTAINER = new PostgreSQLContainer<>("postgres:16.0")
             .withDatabaseName("backend_db")
             .withUsername("hospital")
             .withPassword("password");
@@ -103,12 +102,12 @@ class TrackingControllerIntegrationTest {
         districtRepository.deleteAll();
     }
 
-    /*@DynamicPropertySource
+    @DynamicPropertySource
     static void postgresProperties(DynamicPropertyRegistry registry) {
         registry.add("spring.datasource.url", POSTGRESQL_CONTAINER::getJdbcUrl);
         registry.add("spring.datasource.username", POSTGRESQL_CONTAINER::getUsername);
         registry.add("spring.datasource.password", POSTGRESQL_CONTAINER::getPassword);
-    }*/
+    }
 
     @Test
     void whenValidInput_ThenReturn200() throws Exception {

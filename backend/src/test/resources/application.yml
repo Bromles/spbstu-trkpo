@@ -1,8 +1,4 @@
 spring:
-  datasource:
-    url: jdbc:tc:postgresql:16.0:///backend_db
-    username: hospital
-    password: password
   jpa:
     hibernate:
       ddl-auto: create
