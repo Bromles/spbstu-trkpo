@@ -25,9 +25,9 @@ public class TrackingController {
         return trackingService.deleteTracking(id);
     }
 
-    @GetMapping("/{keycloak_uuid}")
-    public List<TrackingResponseDto> getActiveUserTracking(@PathVariable @NotNull String keycloak_uuid) {
-        return trackingService.findUserActiveTracking(keycloak_uuid);
+    @GetMapping("/{keycloakUuid}")
+    public List<TrackingResponseDto> getActiveUserTracking(@PathVariable @NotNull String keycloakUuid) {
+        return trackingService.findUserActiveTracking(keycloakUuid);
     }
 
     @PostMapping

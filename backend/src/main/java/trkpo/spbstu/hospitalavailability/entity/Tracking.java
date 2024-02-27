@@ -38,11 +38,11 @@ public class Tracking {
     private LocalDateTime date;
 
     @ManyToOne
-    @JoinColumn(name = "client_id", nullable = false, insertable = false, updatable = false)
+    @JoinColumn(name = "client_id", nullable = false)
     private Client client;
 
     @ManyToOne
-    @JoinColumn(name = "hospital_id", nullable = false, insertable = false, updatable = false)
+    @JoinColumn(name = "hospital_id", nullable = false)
     private Hospital hospital;
 
     public Tracking(TrackingRequestDto requestDto, Hospital hospital, Client client) {

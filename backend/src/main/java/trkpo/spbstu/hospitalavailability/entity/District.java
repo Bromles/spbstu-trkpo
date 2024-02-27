@@ -3,12 +3,14 @@ package trkpo.spbstu.hospitalavailability.entity;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.ToString;
 
 import javax.persistence.*;
 
 @Entity
 @Getter
 @Setter
+@ToString
 @Table(name = "district")
 @NoArgsConstructor
 public class District {
