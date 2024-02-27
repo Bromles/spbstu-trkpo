@@ -90,8 +90,6 @@ class TrackingControllerIntegrationTest {
         mvc = MockMvcBuilders.webAppContextSetup(context)
                 .apply(springSecurity())
                 .build();
-
-        resetDb();
     }
 
     @AfterEach
