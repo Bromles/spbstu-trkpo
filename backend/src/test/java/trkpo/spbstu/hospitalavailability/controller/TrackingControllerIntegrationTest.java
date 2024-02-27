@@ -12,6 +12,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.mail.MailSender;
 import org.springframework.security.oauth2.core.oidc.StandardClaimNames;
 import org.springframework.security.oauth2.jwt.JwtDecoder;
+import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.DynamicPropertyRegistry;
 import org.springframework.test.context.DynamicPropertySource;
 import org.springframework.test.web.servlet.MockMvc;
@@ -32,6 +33,7 @@ import trkpo.spbstu.hospitalavailability.repository.DistrictRepository;
 import trkpo.spbstu.hospitalavailability.repository.HospitalRepository;
 import trkpo.spbstu.hospitalavailability.repository.TrackingRepository;
 
+import javax.transaction.Transactional;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.UUID;
@@ -43,6 +45,7 @@ import static org.springframework.security.test.web.servlet.setup.SecurityMockMv
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+@DirtiesContext
 @Testcontainers
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 class TrackingControllerIntegrationTest {
@@ -50,7 +53,7 @@ class TrackingControllerIntegrationTest {
 
     @Container
     @SuppressWarnings("resource")
-    private static final PostgreSQLContainer<?> POSTGRESQL_CONTAINER = new PostgreSQLContainer<>("postgres:16.0")
+    private  PostgreSQLContainer<?> POSTGRESQL_CONTAINER = new PostgreSQLContainer<>("postgres:16.0")
             .withDatabaseName("backend_db")
             .withUsername("hospital")
             .withPassword("password");
@@ -88,6 +91,8 @@ class TrackingControllerIntegrationTest {
         mvc = MockMvcBuilders.webAppContextSetup(context)
                 .apply(springSecurity())
                 .build();
+
+        resetDb();
     }
 
     @AfterEach
@@ -98,12 +103,12 @@ class TrackingControllerIntegrationTest {
         districtRepository.deleteAll();
     }
 
-    @DynamicPropertySource
+    /*@DynamicPropertySource
     static void postgresProperties(DynamicPropertyRegistry registry) {
         registry.add("spring.datasource.url", POSTGRESQL_CONTAINER::getJdbcUrl);
         registry.add("spring.datasource.username", POSTGRESQL_CONTAINER::getUsername);
         registry.add("spring.datasource.password", POSTGRESQL_CONTAINER::getPassword);
-    }
+    }*/
 
     @Test
     void whenValidInput_ThenReturn200() throws Exception {
@@ -111,11 +116,10 @@ class TrackingControllerIntegrationTest {
 
         var tracking = simpleTransactionTemplate.execute(status -> {
             var district = new District();
-            district.setId(1L);
             district.setName("Test district");
+            districtRepository.saveAndFlush(district);
 
             var hospital = new Hospital();
-            hospital.setId(1L);
             hospital.setAddress("test address");
             hospital.setFullName("Test hospital");
             hospital.setShortName("Hospital");
@@ -125,13 +129,11 @@ class TrackingControllerIntegrationTest {
             hospitalRepository.saveAndFlush(hospital);
 
             var client = new Client();
-            client.setId(1L);
             client.setKeycloakId(UUID.fromString(TEST_UUID));
             client.setEmail("test@test.ru");
             clientRepository.saveAndFlush(client);
 
             var trackingEntity = new Tracking();
-            trackingEntity.setId(1L);
             trackingEntity.setDate(LocalDateTime.now());
             trackingEntity.setHospital(hospital);
             trackingEntity.setClient(client);
@@ -171,11 +173,10 @@ class TrackingControllerIntegrationTest {
 
         simpleTransactionTemplate.executeWithoutResult(status -> {
             var district = new District();
-            district.setId(1L);
             district.setName("Test district");
+            districtRepository.saveAndFlush(district);
 
             var hospital = new Hospital();
-            hospital.setId(1L);
             hospital.setAddress("test address");
             hospital.setFullName("Test hospital");
             hospital.setShortName("Hospital");
@@ -185,13 +186,11 @@ class TrackingControllerIntegrationTest {
             hospitalRepository.saveAndFlush(hospital);
 
             var client = new Client();
-            client.setId(1L);
             client.setKeycloakId(UUID.fromString(TEST_UUID));
             client.setEmail("test@test.ru");
             clientRepository.saveAndFlush(client);
 
             var trackingEntity = new Tracking();
-            trackingEntity.setId(1L);
             trackingEntity.setDate(LocalDateTime.now());
             trackingEntity.setHospital(hospital);
             trackingEntity.setClient(client);
