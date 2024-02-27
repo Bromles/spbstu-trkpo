@@ -101,9 +101,9 @@ public class GorzdravService {
         return specialties;
     }
 
-    public List<GorzdravDoctorRsDto> getDoctorsBySpecialityId(Long GorzdravHospitalId, Long GorzdravSpecialityId) {
+    public List<GorzdravDoctorRsDto> getDoctorsBySpecialityId(Long gorzdravHospitalId, Long gorzdravSpecialityId) {
         errorNum = 0L;
-        String path = "/schedule/lpu/" + GorzdravHospitalId + "/speciality/" + GorzdravSpecialityId + "/doctors";
+        String path = "/schedule/lpu/" + gorzdravHospitalId + "/speciality/" + gorzdravSpecialityId + "/doctors";
         ResponseEntity<String> response = restTemplate.getForEntity(path, String.class);
         checkStatusCode(response);
 

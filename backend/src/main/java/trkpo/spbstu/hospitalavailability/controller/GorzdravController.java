@@ -36,10 +36,10 @@ public class GorzdravController {
         return districtService.findAll();
     }
 
-    @GetMapping("/doctors/{gorzdrav_hospital_id}/{gorzdrav_speciality_id}")
-    public List<GorzdravDoctorRsDto> getDoctorsBySpecialityId(@PathVariable @NotNull Long gorzdrav_hospital_id,
-                                                              @PathVariable @NotNull Long gorzdrav_speciality_id) {
-        return gorzdravService.getDoctorsBySpecialityId(gorzdrav_hospital_id, gorzdrav_speciality_id);
+    @GetMapping("/doctors/{gorzdravHospitalId}/{gorzdravSpecialityId}")
+    public List<GorzdravDoctorRsDto> getDoctorsBySpecialityId(@PathVariable @NotNull Long gorzdravHospitalId,
+                                                              @PathVariable @NotNull Long gorzdravSpecialityId) {
+        return gorzdravService.getDoctorsBySpecialityId(gorzdravHospitalId, gorzdravSpecialityId);
     }
 
     @PostMapping("/district")

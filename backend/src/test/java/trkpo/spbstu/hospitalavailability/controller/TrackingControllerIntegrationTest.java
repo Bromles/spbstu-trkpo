@@ -12,6 +12,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.mail.MailSender;
 import org.springframework.security.oauth2.core.oidc.StandardClaimNames;
 import org.springframework.security.oauth2.jwt.JwtDecoder;
+import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.DynamicPropertyRegistry;
 import org.springframework.test.context.DynamicPropertySource;
 import org.springframework.test.web.servlet.MockMvc;
@@ -37,10 +38,13 @@ import java.util.List;
 import java.util.UUID;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.anonymous;
 import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.jwt;
 import static org.springframework.security.test.web.servlet.setup.SecurityMockMvcConfigurers.springSecurity;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+@DirtiesContext
 @Testcontainers
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 class TrackingControllerIntegrationTest {
@@ -109,11 +113,10 @@ class TrackingControllerIntegrationTest {
 
         var tracking = simpleTransactionTemplate.execute(status -> {
             var district = new District();
-            district.setId(1L);
             district.setName("Test district");
+            districtRepository.saveAndFlush(district);
 
             var hospital = new Hospital();
-            hospital.setId(1L);
             hospital.setAddress("test address");
             hospital.setFullName("Test hospital");
             hospital.setShortName("Hospital");
@@ -123,13 +126,11 @@ class TrackingControllerIntegrationTest {
             hospitalRepository.saveAndFlush(hospital);
 
             var client = new Client();
-            client.setId(1L);
             client.setKeycloakId(UUID.fromString(TEST_UUID));
             client.setEmail("test@test.ru");
             clientRepository.saveAndFlush(client);
 
             var trackingEntity = new Tracking();
-            trackingEntity.setId(1L);
             trackingEntity.setDate(LocalDateTime.now());
             trackingEntity.setHospital(hospital);
             trackingEntity.setClient(client);
@@ -156,5 +157,52 @@ class TrackingControllerIntegrationTest {
 
         assertEquals(HttpStatus.OK.value(), response.getStatus());
         assertIterableEquals(List.of(trackingMapper.toTrackingDto(tracking)), body);
+    }
+
+    @Test
+    void whenNoUser_ThenReturn401() throws Exception {
+        mvc.perform(get("/v1/tracking/" + TEST_UUID).with(anonymous())).andExpect(status().isUnauthorized());
+    }
+
+    @Test
+    void whenWrongUser_ThenReturn403() throws Exception {
+        assertTrue(POSTGRESQL_CONTAINER.isRunning());
+
+        simpleTransactionTemplate.executeWithoutResult(status -> {
+            var district = new District();
+            district.setName("Test district");
+            districtRepository.saveAndFlush(district);
+
+            var hospital = new Hospital();
+            hospital.setAddress("test address");
+            hospital.setFullName("Test hospital");
+            hospital.setShortName("Hospital");
+            hospital.setPhone("00000000");
+            hospital.setDistrictId(district.getId());
+            hospital.setDistrict(district);
+            hospitalRepository.saveAndFlush(hospital);
+
+            var client = new Client();
+            client.setKeycloakId(UUID.fromString(TEST_UUID));
+            client.setEmail("test@test.ru");
+            clientRepository.saveAndFlush(client);
+
+            var trackingEntity = new Tracking();
+            trackingEntity.setDate(LocalDateTime.now());
+            trackingEntity.setHospital(hospital);
+            trackingEntity.setClient(client);
+            trackingRepository.saveAndFlush(trackingEntity);
+        });
+
+        var anotherUuid = UUID.randomUUID();
+
+        mvc.perform(get("/v1/tracking/" + TEST_UUID)
+                .with(jwt()
+                        .jwt(jwt -> jwt
+                                .claim(StandardClaimNames.PREFERRED_USERNAME, anotherUuid.toString())
+                                .claim(StandardClaimNames.SUB, anotherUuid.toString())
+                        )
+                )
+        ).andExpect(status().isForbidden());
     }
 }

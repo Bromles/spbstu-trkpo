@@ -60,6 +60,10 @@ public class TrackingService {
     }
 
     public List<TrackingResponseDto> findUserActiveTracking(String keycloakUuid) {
+        if (!SecurityUtils.getUserKey().equals(keycloakUuid)) {
+            throw new ForbiddenException("No access to tracking info");
+        }
+
         UUID uuid = UUID.fromString(keycloakUuid);
         List<Tracking> trackings = trackingRepository.findByIsFinishedFalseAndClientKeycloakId(uuid).stream()
                 .map(tracking -> {
