@@ -1,11 +1,11 @@
 package trkpo.spbstu.hospitalavailability.service;
 
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.json.JSONObject;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.scheduling.annotation.Scheduled;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.transaction.support.TransactionTemplate;
@@ -30,8 +30,8 @@ import java.sql.Timestamp;
 import java.time.Duration;
 import java.util.List;
 import java.util.UUID;
-import java.util.stream.Collectors;
 import java.util.concurrent.TimeUnit;
+import java.util.stream.Collectors;
 
 @Slf4j
 @Service
@@ -59,11 +59,11 @@ public class TrackingService {
         return id;
     }
 
-    public List<TrackingResponseDto> findUserActiveTracking(String keycloak_uuid) {
-        UUID uuid = UUID.fromString(keycloak_uuid);
+    public List<TrackingResponseDto> findUserActiveTracking(String keycloakUuid) {
+        UUID uuid = UUID.fromString(keycloakUuid);
         List<Tracking> trackings = trackingRepository.findByIsFinishedFalseAndClientKeycloakId(uuid).stream()
                 .map(tracking -> {
-                    if (tracking.getDoctorId() == -1L) {
+                    if (tracking.getDoctorId() != null && tracking.getDoctorId() == -1L) {
                         tracking.setDoctorId(null);
                     }
                     return tracking;
@@ -90,7 +90,7 @@ public class TrackingService {
         return trackingMapper.toTrackingDto(trackingRepository.save(tracking));
     }
 
-    @SuppressWarnings("squid:S6809")
+    @SuppressWarnings({"squid:S6809", "squid:S2229"})
     @Scheduled(fixedRate = 15, timeUnit = TimeUnit.MINUTES)
     public void waitingFreeAppointments() {
         List<Tracking> activeTracking = trackingRepository.findByIsFinishedFalse();
@@ -108,17 +108,19 @@ public class TrackingService {
         String message;
         if (doctorId == -1L) {
             existAppointments = existsSpecialtiesAppointments(tracking.getHospital().getGorzdravId(), tracking.getDirectionId());
-            message =  " на направление " + trackingInfoRsDto.getDirectionName();
-        } else {
+            message = " на направление " + trackingInfoRsDto.getDirectionName();
+        }
+        else {
             existAppointments = existsDoctorsAppointments(tracking.getHospital().getGorzdravId(), tracking.getDoctorId());
-            message =  " на направление " + trackingInfoRsDto.getDirectionName() + " ко врачу " + trackingInfoRsDto.getDoctorName();
+            message = " на направление " + trackingInfoRsDto.getDirectionName() + " ко врачу " + trackingInfoRsDto.getDoctorName();
         }
         if (existAppointments) {
             trackingRepository.updateTrackingFinishedById(true, id);
             notificationMailSender.sendMessage(tracking.getClient().getEmail(), "Появились талоны для записи!",
                     "Ура, Ура скорее беги записываться к врачу, появились свободные талоны в больницу " +
                             tracking.getHospital().getFullName() + message);
-        } else {
+        }
+        else {
             long durationDays = Duration.between(tracking.getDate(), new Timestamp(System.currentTimeMillis()).toLocalDateTime()).toDays();
             if (durationDays >= 60) {
                 trackingRepository.updateTrackingFinishedById(true, id);

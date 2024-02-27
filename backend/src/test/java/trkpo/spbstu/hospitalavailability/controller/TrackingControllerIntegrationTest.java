@@ -62,10 +62,8 @@ class TrackingControllerIntegrationTest {
     @Autowired
     private TrackingMapper trackingMapper;
 
-    private TransactionTemplate transactionTemplate;
-
     @Autowired
-    private PlatformTransactionManager transactionManager;
+    private TransactionTemplate simpleTransactionTemplate;
 
     @Autowired
     private TrackingRepository trackingRepository;
@@ -76,10 +74,6 @@ class TrackingControllerIntegrationTest {
     @Autowired
     private DistrictRepository districtRepository;
 
-    @BeforeEach
-    void setup() {
-        this.transactionTemplate = new TransactionTemplate(transactionManager);
-    }
 
     @AfterEach
     void resetDb() {
@@ -101,7 +95,7 @@ class TrackingControllerIntegrationTest {
     void whenValidInput_ThenReturn200() {
         assertTrue(POSTGRESQL_CONTAINER.isRunning());
 
-        var tracking = transactionTemplate.execute(status -> {
+        var tracking = simpleTransactionTemplate.execute(status -> {
             var district = new District();
             district.setId(1L);
             district.setName("Test district");
@@ -127,7 +121,6 @@ class TrackingControllerIntegrationTest {
             trackingEntity.setDate(LocalDateTime.now());
             trackingEntity.setHospital(hospital);
             trackingEntity.setClient(client);
-            trackingEntity.setDoctorId(1L);
             trackingRepository.saveAndFlush(trackingEntity);
 
             return trackingEntity;
@@ -144,6 +137,7 @@ class TrackingControllerIntegrationTest {
                 });
 
         var body = response.getBody();
+        tracking.setDoctorId(null);
 
         assertEquals(HttpStatus.OK, response.getStatusCode());
         assertIterableEquals(List.of(trackingMapper.toTrackingDto(tracking)), body);
