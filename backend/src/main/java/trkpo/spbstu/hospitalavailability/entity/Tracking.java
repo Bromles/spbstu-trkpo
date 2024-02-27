@@ -37,11 +37,11 @@ public class Tracking {
     @Column(name = "date", nullable = false, columnDefinition = "TIMESTAMP")
     private LocalDateTime date;
 
-    @ManyToOne
+    @ManyToOne(cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REFRESH, CascadeType.DETACH})
     @JoinColumn(name = "client_id", nullable = false, insertable = false, updatable = false)
     private Client client;
 
-    @ManyToOne
+    @ManyToOne(cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REFRESH, CascadeType.DETACH})
     @JoinColumn(name = "hospital_id", nullable = false, insertable = false, updatable = false)
     private Hospital hospital;
 
