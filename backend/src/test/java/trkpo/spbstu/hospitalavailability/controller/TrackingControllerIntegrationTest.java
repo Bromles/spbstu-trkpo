@@ -137,6 +137,7 @@ class TrackingControllerIntegrationTest {
 
             return trackingEntity;
         });
+
         var response = mvc
                 .perform(get("/v1/tracking/" + TEST_UUID)
                         .with(jwt()
