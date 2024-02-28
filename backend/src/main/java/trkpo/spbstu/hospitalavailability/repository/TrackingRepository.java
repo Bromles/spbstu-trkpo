@@ -16,7 +16,6 @@ public interface TrackingRepository extends JpaRepository<Tracking, Long> {
 
     @NonNull
     @SuppressWarnings({"overrides", "unchecked"})
-    @Modifying
     @Query(value = "insert into tracking(date, direction_id, doctor_id, is_finished, client_id, hospital_id) values " +
             "(:#{#track.date}, :#{#track.directionId}, :#{#track.doctorId}, :#{#track.isFinished}, :#{#track.client.id}, :#{#track.hospital.id})" +
             "on conflict(direction_id, doctor_id, client_id, hospital_id) do update SET " +
