@@ -23,10 +23,13 @@ import org.testcontainers.junit.jupiter.Testcontainers;
 import trkpo.spbstu.hospitalavailability.dto.*;
 import trkpo.spbstu.hospitalavailability.entity.District;
 import trkpo.spbstu.hospitalavailability.exception.NotFoundException;
+import trkpo.spbstu.hospitalavailability.mapper.HospitalMapper;
 import trkpo.spbstu.hospitalavailability.mapper.TrackingMapper;
 import trkpo.spbstu.hospitalavailability.repository.DistrictRepository;
 import trkpo.spbstu.hospitalavailability.repository.HospitalRepository;
+import trkpo.spbstu.hospitalavailability.service.DistrictService;
 import trkpo.spbstu.hospitalavailability.service.GorzdravService;
+import trkpo.spbstu.hospitalavailability.service.HospitalService;
 
 import java.util.List;
 
@@ -57,13 +60,18 @@ class GorzdravControllerIntegrationTest {
     private JwtDecoder jwtDecoder;
     @MockBean
     private GorzdravService gorzdravService;
-
+    @MockBean
+    private DistrictService districtService;
+    @MockBean
+    private HospitalService hospitalService;
     @Autowired
     private HospitalRepository hospitalRepository;
     @Autowired
     private DistrictRepository districtRepository;
     @Autowired
     private WebApplicationContext context;
+    @Autowired
+    private HospitalMapper hospitalMapper;
     private MockMvc mvc;
     @Autowired
     private ObjectMapper objectMapper;
@@ -181,14 +189,17 @@ class GorzdravControllerIntegrationTest {
         district.setName("Test district");
         districtRepository.saveAndFlush(district);
 
-        var hospitalDto = new GorzdravHospitalRsDto();
-        hospitalDto.setAddress("test address");
-        hospitalDto.setFullName("Test hospital");
-        hospitalDto.setShortName("Hospital");
-        hospitalDto.setPhone("00000000");
-        hospitalDto.setDistrictId(district.getId());
-
-        when(gorzdravService.getHospitals()).thenReturn(List.of(hospitalDto));
+        HospitalResponseDto hospitalResponseDto = new HospitalResponseDto();
+        hospitalResponseDto.setId(1L);
+        hospitalResponseDto.setGorzdravId(1L);
+        hospitalResponseDto.setAddress("ADDRESS");
+        hospitalResponseDto.setDistrictId(district.getGorzdravId());
+        hospitalResponseDto.setPhone("PHONE");
+        hospitalResponseDto.setFullName("FULL_NAME");
+        hospitalResponseDto.setShortName("SHORT_NAME");
+        hospitalResponseDto.setLongitude(1.0);
+        hospitalResponseDto.setLatitude(1.0);
+        when(hospitalService.findAll()).thenReturn(List.of(hospitalResponseDto));
 
         var response = mvc.perform(get("/v1/gorzdrav/hospital")
                 .with(jwt()
@@ -202,14 +213,17 @@ class GorzdravControllerIntegrationTest {
         });
 
         assertEquals(HttpStatus.OK.value(), response.getStatus());
-        assertIterableEquals(List.of(hospitalDto), body);
+        assertIterableEquals(List.of(hospitalResponseDto), body);
     }
 
     @Test
     void whenGetDistricts_ThenReturn200() throws Exception {
         var dto = new GorzdravDistrictRsDto(1L, "gorzdravId");
-
-        when(gorzdravService.getDistricts()).thenReturn(List.of(dto));
+        DistrictResponseDto districtResponseDto = new DistrictResponseDto();
+        districtResponseDto.setId(1L);
+        districtResponseDto.setGorzdravId(1L);
+        districtResponseDto.setName("gorzdravId");
+        when(districtService.findAll()).thenReturn(List.of(districtResponseDto));
 
         var response = mvc.perform(get("/v1/gorzdrav/district")
                 .with(jwt()
