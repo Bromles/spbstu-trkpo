@@ -48,7 +48,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @Testcontainers
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class AddTrackingIntegrationTests {
+public class AddTrackingIntegrationTest {
 
     private static final String TEST_UUID = UUID.randomUUID().toString();
     private static final Long HOSPITAL_G_ID = RandomUtils.nextLong();
@@ -152,7 +152,7 @@ public class AddTrackingIntegrationTests {
     }
 
     @Test
-    void whenWhenHospitalNotFound_ThenReturn404() throws Exception {
+    void whenHospitalNotFound_ThenReturn404() throws Exception {
         assertTrue(POSTGRESQL_CONTAINER.isRunning());
         createClient();
         TrackingRequestDto trackingRequestDto = new TrackingRequestDto();
@@ -206,6 +206,8 @@ public class AddTrackingIntegrationTests {
         assertTrue(trackingNew.isPresent());
         assertNotEquals(trackingNew.get().getDate(), tracking.getDate(), "Дата не изменилась");
     }
+
+
 
     private Client createClient() {
         return simpleTransactionTemplate.execute(status -> {
