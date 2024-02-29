@@ -88,7 +88,7 @@ class GorzdravControllerIntegrationTest {
     }
 
     @DynamicPropertySource
-    static void postgresProperties(DynamicPropertyRegistry registry) {
+    void postgresProperties(DynamicPropertyRegistry registry) {
         registry.add("spring.datasource.url", POSTGRESQL_CONTAINER::getJdbcUrl);
         registry.add("spring.datasource.username", POSTGRESQL_CONTAINER::getUsername);
         registry.add("spring.datasource.password", POSTGRESQL_CONTAINER::getPassword);
