@@ -209,7 +209,7 @@ class GorzdravControllerIntegrationTest {
                         )
                 )
         ).andReturn().getResponse();
-        List<GorzdravHospitalRsDto> body = objectMapper.readValue(response.getContentAsString(), new TypeReference<>() {
+        List<HospitalResponseDto> body = objectMapper.readValue(response.getContentAsString(), new TypeReference<>() {
         });
 
         assertEquals(HttpStatus.OK.value(), response.getStatus());
