@@ -142,7 +142,7 @@ class GorzdravControllerIntegrationTest {
 
         when(gorzdravService.getSpecialties(hospitalId)).thenReturn(List.of(dto));
 
-        var response = mvc.perform(get("/v1/gorzdrav/doctors/" + hospitalId)
+        var response = mvc.perform(get("/v1/gorzdrav/specialties/" + hospitalId)
                         .with(jwt()
                                 .jwt(jwt -> jwt
                                         .claim(StandardClaimNames.PREFERRED_USERNAME, TEST_UUID)
@@ -165,15 +165,14 @@ class GorzdravControllerIntegrationTest {
 
         when(gorzdravService.getSpecialties(hospitalId)).thenThrow(new NotFoundException("Hospital or specialties not found"));
 
-        var response = mvc.perform(get("/v1/gorzdrav/doctors/" + hospitalId)
+        mvc.perform(get("/v1/gorzdrav/specialties/" + hospitalId)
                 .with(jwt()
                         .jwt(jwt -> jwt
                                 .claim(StandardClaimNames.PREFERRED_USERNAME, TEST_UUID)
                                 .claim(StandardClaimNames.SUB, TEST_UUID)
                         )
                 )
-        ).andExpect(status().isNotFound()).andReturn().getResponse();
-        assertEquals(HttpStatus.NOT_FOUND.value(), response.getStatus());
+        ).andExpect(status().isNotFound());
     }
 
     @Test
@@ -198,7 +197,7 @@ class GorzdravControllerIntegrationTest {
                                 .claim(StandardClaimNames.SUB, TEST_UUID)
                         )
                 )
-        ).andExpect(status().isOk()).andReturn().getResponse();
+        ).andReturn().getResponse();
         List<GorzdravHospitalRsDto> body = objectMapper.readValue(response.getContentAsString(), new TypeReference<>() {
         });
 
@@ -219,8 +218,8 @@ class GorzdravControllerIntegrationTest {
                                 .claim(StandardClaimNames.SUB, TEST_UUID)
                         )
                 )
-        ).andExpect(status().isOk()).andReturn().getResponse();
-        List<GorzdravHospitalRsDto> body = objectMapper.readValue(response.getContentAsString(), new TypeReference<>() {
+        ).andReturn().getResponse();
+        List<GorzdravDistrictRsDto> body = objectMapper.readValue(response.getContentAsString(), new TypeReference<>() {
         });
 
         assertEquals(HttpStatus.OK.value(), response.getStatus());
@@ -242,7 +241,7 @@ class GorzdravControllerIntegrationTest {
                                 .claim(StandardClaimNames.SUB, TEST_UUID)
                         )
                 )
-        ).andExpect(status().isOk()).andReturn().getResponse();
+        ).andReturn().getResponse();
         List<GorzdravDoctorRsDto> body = objectMapper.readValue(response.getContentAsString(), new TypeReference<>() {
         });
         assertIterableEquals(List.of(gorzdravDoctorRsDto), body);
