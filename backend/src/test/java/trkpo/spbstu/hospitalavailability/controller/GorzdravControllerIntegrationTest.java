@@ -1,11 +1,14 @@
 package trkpo.spbstu.hospitalavailability.controller;
 
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.http.HttpStatus;
 import org.springframework.mail.MailSender;
 import org.springframework.security.oauth2.core.oidc.StandardClaimNames;
 import org.springframework.security.oauth2.jwt.JwtDecoder;
@@ -17,9 +20,10 @@ import org.springframework.web.context.WebApplicationContext;
 import org.testcontainers.containers.PostgreSQLContainer;
 import org.testcontainers.junit.jupiter.Container;
 import org.testcontainers.junit.jupiter.Testcontainers;
-import trkpo.spbstu.hospitalavailability.dto.GorzdravDistrictRsDto;
-import trkpo.spbstu.hospitalavailability.dto.GorzdravHospitalRsDto;
+import trkpo.spbstu.hospitalavailability.dto.*;
 import trkpo.spbstu.hospitalavailability.entity.District;
+import trkpo.spbstu.hospitalavailability.exception.NotFoundException;
+import trkpo.spbstu.hospitalavailability.mapper.TrackingMapper;
 import trkpo.spbstu.hospitalavailability.repository.DistrictRepository;
 import trkpo.spbstu.hospitalavailability.repository.HospitalRepository;
 import trkpo.spbstu.hospitalavailability.service.GorzdravService;
@@ -27,10 +31,12 @@ import trkpo.spbstu.hospitalavailability.service.GorzdravService;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertIterableEquals;
 import static org.mockito.Mockito.when;
 import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.jwt;
 import static org.springframework.security.test.web.servlet.setup.SecurityMockMvcConfigurers.springSecurity;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @Testcontainers
@@ -56,10 +62,11 @@ class GorzdravControllerIntegrationTest {
     private HospitalRepository hospitalRepository;
     @Autowired
     private DistrictRepository districtRepository;
-
     @Autowired
     private WebApplicationContext context;
     private MockMvc mvc;
+    @Autowired
+    private ObjectMapper objectMapper;
 
     @BeforeEach
     void setup() {
@@ -125,5 +132,119 @@ class GorzdravControllerIntegrationTest {
         ).andExpect(status().isOk());
 
         assertEquals(1, districtRepository.count());
+    }
+
+
+    @Test
+    void whenGetSpecialties_ThenReturn200() throws Exception {
+        Long hospitalId = 1L;
+        GorzdravSpecialtiesDto dto = new GorzdravSpecialtiesDto(1L, 20L, "Test Name");
+
+        when(gorzdravService.getSpecialties(hospitalId)).thenReturn(List.of(dto));
+
+        var response = mvc.perform(get("/v1/gorzdrav/doctors/" + hospitalId)
+                        .with(jwt()
+                                .jwt(jwt -> jwt
+                                        .claim(StandardClaimNames.PREFERRED_USERNAME, TEST_UUID)
+                                        .claim(StandardClaimNames.SUB, TEST_UUID)
+                                )
+                        )
+                ).andReturn()
+                .getResponse();
+
+        List<GorzdravSpecialtiesDto> body = objectMapper.readValue(response.getContentAsString(), new TypeReference<>() {
+        });
+
+        assertEquals(HttpStatus.OK.value(), response.getStatus());
+        assertIterableEquals(List.of(dto), body);
+    }
+
+    @Test
+    void whenGetSpecialtiesInNonExistingHospital_ThenReturn404() throws Exception {
+        Long hospitalId = 1L;
+
+        when(gorzdravService.getSpecialties(hospitalId)).thenThrow(new NotFoundException("Hospital or specialties not found"));
+
+        var response = mvc.perform(get("/v1/gorzdrav/doctors/" + hospitalId)
+                .with(jwt()
+                        .jwt(jwt -> jwt
+                                .claim(StandardClaimNames.PREFERRED_USERNAME, TEST_UUID)
+                                .claim(StandardClaimNames.SUB, TEST_UUID)
+                        )
+                )
+        ).andExpect(status().isNotFound()).andReturn().getResponse();
+        assertEquals(HttpStatus.NOT_FOUND.value(), response.getStatus());
+    }
+
+    @Test
+    void whenGetHospitals_ThenReturn200() throws Exception {
+        var district = new District();
+        district.setName("Test district");
+        districtRepository.saveAndFlush(district);
+
+        var hospitalDto = new GorzdravHospitalRsDto();
+        hospitalDto.setAddress("test address");
+        hospitalDto.setFullName("Test hospital");
+        hospitalDto.setShortName("Hospital");
+        hospitalDto.setPhone("00000000");
+        hospitalDto.setDistrictId(district.getId());
+
+        when(gorzdravService.getHospitals()).thenReturn(List.of(hospitalDto));
+
+        var response = mvc.perform(get("/v1/gorzdrav/hospital")
+                .with(jwt()
+                        .jwt(jwt -> jwt
+                                .claim(StandardClaimNames.PREFERRED_USERNAME, TEST_UUID)
+                                .claim(StandardClaimNames.SUB, TEST_UUID)
+                        )
+                )
+        ).andExpect(status().isNotFound()).andReturn().getResponse();
+        List<GorzdravHospitalRsDto> body = objectMapper.readValue(response.getContentAsString(), new TypeReference<>() {
+        });
+
+        assertEquals(HttpStatus.OK.value(), response.getStatus());
+        assertIterableEquals(List.of(hospitalDto), body);
+    }
+
+    @Test
+    void whenGetDistricts_ThenReturn200() throws Exception {
+        var dto = new GorzdravDistrictRsDto(1L, "gorzdravId");
+
+        when(gorzdravService.getDistricts()).thenReturn(List.of(dto));
+
+        var response = mvc.perform(get("/v1/gorzdrav/district")
+                .with(jwt()
+                        .jwt(jwt -> jwt
+                                .claim(StandardClaimNames.PREFERRED_USERNAME, TEST_UUID)
+                                .claim(StandardClaimNames.SUB, TEST_UUID)
+                        )
+                )
+        ).andExpect(status().isNotFound()).andReturn().getResponse();
+        List<GorzdravHospitalRsDto> body = objectMapper.readValue(response.getContentAsString(), new TypeReference<>() {
+        });
+
+        assertEquals(HttpStatus.OK.value(), response.getStatus());
+        assertIterableEquals(List.of(dto), body);
+    }
+
+    @Test
+    void whenGetDoctorsBySpecialityId_ThenReturn200() throws Exception {
+        Long specialityId = 1L;
+        Long hospitalId = 1L;
+        GorzdravDoctorRsDto gorzdravDoctorRsDto = new GorzdravDoctorRsDto(1L, "NAME");
+
+        when(gorzdravService.getDoctorsBySpecialityId(hospitalId, specialityId)).thenReturn(List.of(gorzdravDoctorRsDto));
+
+        var response = mvc.perform(get("/v1/gorzdrav/doctors/" + hospitalId + "/" + specialityId)
+                .with(jwt()
+                        .jwt(jwt -> jwt
+                                .claim(StandardClaimNames.PREFERRED_USERNAME, TEST_UUID)
+                                .claim(StandardClaimNames.SUB, TEST_UUID)
+                        )
+                )
+        ).andExpect(status().isOk()).andReturn().getResponse();
+        List<GorzdravDoctorRsDto> body = objectMapper.readValue(response.getContentAsString(), new TypeReference<>() {
+        });
+        assertIterableEquals(List.of(gorzdravDoctorRsDto), body);
     }
 }
