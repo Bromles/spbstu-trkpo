@@ -49,7 +49,7 @@ class GorzdravControllerIntegrationTest {
 
     @Container
     @SuppressWarnings("resource")
-    private static final PostgreSQLContainer<?> POSTGRESQL_CONTAINER = new PostgreSQLContainer<>("postgres:16.0")
+    private final PostgreSQLContainer<?> POSTGRESQL_CONTAINER = new PostgreSQLContainer<>("postgres:16.0")
             .withDatabaseName("backend_db")
             .withUsername("hospital")
             .withPassword("password");
@@ -70,8 +70,6 @@ class GorzdravControllerIntegrationTest {
     private DistrictRepository districtRepository;
     @Autowired
     private WebApplicationContext context;
-    @Autowired
-    private HospitalMapper hospitalMapper;
     private MockMvc mvc;
     @Autowired
     private ObjectMapper objectMapper;
