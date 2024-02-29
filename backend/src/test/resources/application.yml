@@ -1,8 +1,13 @@
 spring:
+  datasource:
+    url: jdbc:tc:postgresql:16.0:///backend_db
+
   jpa:
     hibernate:
       ddl-auto: create
-      properties:
+    properties:
+      hibernate:
+        dialect: "org.hibernate.dialect.PostgreSQLDialect"
         format_sql: true
     show-sql: true
 

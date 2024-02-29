@@ -49,7 +49,7 @@ class GorzdravControllerIntegrationTest {
 
     @Container
     @SuppressWarnings("resource")
-    private final PostgreSQLContainer<?> POSTGRESQL_CONTAINER = new PostgreSQLContainer<>("postgres:16.0")
+    private PostgreSQLContainer<?> POSTGRESQL_CONTAINER = new PostgreSQLContainer<>("postgres:16.0")
             .withDatabaseName("backend_db")
             .withUsername("hospital")
             .withPassword("password");
@@ -88,10 +88,13 @@ class GorzdravControllerIntegrationTest {
     }
 
     @DynamicPropertySource
-    void postgresProperties(DynamicPropertyRegistry registry) {
-        registry.add("spring.datasource.url", POSTGRESQL_CONTAINER::getJdbcUrl);
-        registry.add("spring.datasource.username", POSTGRESQL_CONTAINER::getUsername);
-        registry.add("spring.datasource.password", POSTGRESQL_CONTAINER::getPassword);
+    static void postgresProperties(DynamicPropertyRegistry registry) {
+        //registry.add("spring.datasource.url", POSTGRESQL_CONTAINER::getJdbcUrl);
+        //registry.add("spring.datasource.username", POSTGRESQL_CONTAINER::getUsername);
+        //registry.add("spring.datasource.password", POSTGRESQL_CONTAINER::getPassword);
+
+        registry.add("spring.datasource.username", () -> "hospital");
+        registry.add("spring.datasource.password", () -> "password");
     }
 
     @Test
