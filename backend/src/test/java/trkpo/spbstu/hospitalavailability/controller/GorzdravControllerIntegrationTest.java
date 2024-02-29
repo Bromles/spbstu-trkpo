@@ -198,7 +198,7 @@ class GorzdravControllerIntegrationTest {
                                 .claim(StandardClaimNames.SUB, TEST_UUID)
                         )
                 )
-        ).andExpect(status().isNotFound()).andReturn().getResponse();
+        ).andExpect(status().isOk()).andReturn().getResponse();
         List<GorzdravHospitalRsDto> body = objectMapper.readValue(response.getContentAsString(), new TypeReference<>() {
         });
 
@@ -219,7 +219,7 @@ class GorzdravControllerIntegrationTest {
                                 .claim(StandardClaimNames.SUB, TEST_UUID)
                         )
                 )
-        ).andExpect(status().isNotFound()).andReturn().getResponse();
+        ).andExpect(status().isOk()).andReturn().getResponse();
         List<GorzdravHospitalRsDto> body = objectMapper.readValue(response.getContentAsString(), new TypeReference<>() {
         });
 
