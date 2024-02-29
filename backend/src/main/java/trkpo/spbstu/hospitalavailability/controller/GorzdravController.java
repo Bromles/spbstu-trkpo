@@ -60,6 +60,7 @@ public class GorzdravController {
     @PostMapping("/hospital")
     public void updateHospitals() {
         hospitalService.updateAll();
+        System.out.println("");
     }
 
     @GetMapping("/trackingInfo/{hospitalId}/{directionId}/{doctorId}")

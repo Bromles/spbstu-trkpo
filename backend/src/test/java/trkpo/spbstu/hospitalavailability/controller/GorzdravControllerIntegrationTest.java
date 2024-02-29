@@ -8,6 +8,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.boot.test.mock.mockito.SpyBean;
 import org.springframework.http.HttpStatus;
 import org.springframework.mail.MailSender;
 import org.springframework.security.oauth2.core.oidc.StandardClaimNames;
@@ -23,8 +24,6 @@ import org.testcontainers.junit.jupiter.Testcontainers;
 import trkpo.spbstu.hospitalavailability.dto.*;
 import trkpo.spbstu.hospitalavailability.entity.District;
 import trkpo.spbstu.hospitalavailability.exception.NotFoundException;
-import trkpo.spbstu.hospitalavailability.mapper.HospitalMapper;
-import trkpo.spbstu.hospitalavailability.mapper.TrackingMapper;
 import trkpo.spbstu.hospitalavailability.repository.DistrictRepository;
 import trkpo.spbstu.hospitalavailability.repository.HospitalRepository;
 import trkpo.spbstu.hospitalavailability.service.DistrictService;
@@ -38,8 +37,8 @@ import static org.junit.jupiter.api.Assertions.assertIterableEquals;
 import static org.mockito.Mockito.when;
 import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.jwt;
 import static org.springframework.security.test.web.servlet.setup.SecurityMockMvcConfigurers.springSecurity;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @Testcontainers
@@ -49,7 +48,7 @@ class GorzdravControllerIntegrationTest {
 
     @Container
     @SuppressWarnings("resource")
-    private PostgreSQLContainer<?> POSTGRESQL_CONTAINER = new PostgreSQLContainer<>("postgres:16.0")
+    private static final PostgreSQLContainer<?> POSTGRESQL_CONTAINER = new PostgreSQLContainer<>("postgres:16.0")
             .withDatabaseName("backend_db")
             .withUsername("hospital")
             .withPassword("password");
@@ -60,9 +59,9 @@ class GorzdravControllerIntegrationTest {
     private JwtDecoder jwtDecoder;
     @MockBean
     private GorzdravService gorzdravService;
-    @MockBean
+    @SpyBean
     private DistrictService districtService;
-    @MockBean
+    @SpyBean
     private HospitalService hospitalService;
     @Autowired
     private HospitalRepository hospitalRepository;
@@ -89,12 +88,9 @@ class GorzdravControllerIntegrationTest {
 
     @DynamicPropertySource
     static void postgresProperties(DynamicPropertyRegistry registry) {
-        //registry.add("spring.datasource.url", POSTGRESQL_CONTAINER::getJdbcUrl);
-        //registry.add("spring.datasource.username", POSTGRESQL_CONTAINER::getUsername);
-        //registry.add("spring.datasource.password", POSTGRESQL_CONTAINER::getPassword);
-
-        registry.add("spring.datasource.username", () -> "hospital");
-        registry.add("spring.datasource.password", () -> "password");
+        registry.add("spring.datasource.url", POSTGRESQL_CONTAINER::getJdbcUrl);
+        registry.add("spring.datasource.username", POSTGRESQL_CONTAINER::getUsername);
+        registry.add("spring.datasource.password", POSTGRESQL_CONTAINER::getPassword);
     }
 
     @Test

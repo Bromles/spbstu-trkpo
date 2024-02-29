@@ -1,7 +1,4 @@
 spring:
-  datasource:
-    url: jdbc:tc:postgresql:16.0:///backend_db
-
   jpa:
     hibernate:
       ddl-auto: create
