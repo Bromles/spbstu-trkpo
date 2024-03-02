@@ -257,4 +257,21 @@ class GorzdravControllerIntegrationTest {
         });
         assertIterableEquals(List.of(gorzdravDoctorRsDto), body);
     }
+
+    @Test
+    void whenInvalidHospitalSpecialIds_ThenReturn200() throws Exception {
+        long specialityId = -1012L;
+        long hospitalId = -154L;
+
+        var response = mvc.perform(get("/v1/gorzdrav/doctors/" + hospitalId + "/" + specialityId)
+                .with(jwt()
+                        .jwt(jwt -> jwt
+                                .claim(StandardClaimNames.PREFERRED_USERNAME, TEST_UUID)
+                                .claim(StandardClaimNames.SUB, TEST_UUID)
+                        )
+                )
+        ).andExpect(status().isOk()).andReturn().getResponse();
+        List<GorzdravDoctorRsDto> body = objectMapper.readValue(response.getContentAsString(),  new TypeReference<>() {});
+        assertEquals(List.of(), body);
+    }
 }
