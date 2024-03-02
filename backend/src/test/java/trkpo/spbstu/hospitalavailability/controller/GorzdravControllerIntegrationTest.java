@@ -262,7 +262,6 @@ class GorzdravControllerIntegrationTest {
     void whenInvalidHospitalSpecialIds_ThenReturn200() throws Exception {
         long specialityId = -1012L;
         long hospitalId = -154L;
-        when(gorzdravService.getDoctorsBySpecialityId(hospitalId, specialityId)).thenReturn(List.of());
 
         var response = mvc.perform(get("/v1/gorzdrav/doctors/" + hospitalId + "/" + specialityId)
                 .with(jwt()
