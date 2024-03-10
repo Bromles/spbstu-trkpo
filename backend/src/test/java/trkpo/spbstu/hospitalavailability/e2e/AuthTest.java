@@ -11,6 +11,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import trkpo.spbstu.hospitalavailability.e2e.pages.KeycloakLoginPage;
 import trkpo.spbstu.hospitalavailability.e2e.pages.UnauthPage;
 
+import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
 public class AuthTest {
@@ -43,5 +44,16 @@ public class AuthTest {
         WebElement email = driver.findElement(By.xpath("//*[@id='root']//*[@class='_name_13u23_37']"));
         System.out.println(email.getText());
         assertTrue(email.getText().contains("kate_boriso2002@mail.ru"));
+    }
+
+    @Test
+    public void invalidInputLoginTest() {
+        unauthPage.clickLoginBtn();
+        loginPage.inputLogin("doesnotexist@mail.ru");
+        loginPage.inputPasswd("123456");
+        loginPage.clickLoginBtn();
+
+        WebElement error = driver.findElement(By.xpath("//*[@id='input-error']"));
+        assertNotNull(error);
     }
 }
