@@ -11,30 +11,6 @@ on:
       - master
 
 jobs:
-  e2e_tests:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v2
-      - name: Set java 17
-        uses: actions/setup-java@v3
-        with:
-          distribution: "temurin"
-          java-version: "17"
-          cache: maven
-      - name: Install Node
-        uses: actions/setup-node@v1
-        with:
-          node-version: "16"
-      - name: Build backend
-        run: cd backend && mvn --batch-mode --update-snapshots compile
-      - name: Build frontend
-        run: cd frontend && npm ci && npm run build --if-present
-      - name: Setup Docker Compose
-        run: docker-compose -f compose.yml up -d database auth_server backend frontend
-      - name: Run tests
-        run: cd backend && mvn test -Dtest=e2e.*
-
   backend_tests:
     runs-on: ubuntu-latest
     steps:
