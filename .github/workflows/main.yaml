@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup Docker Compose
-        run: docker-compose -f ../compose.yml up -d database auth_server backend frontend
+        run: cd .. && docker-compose -f compose.yml up -d database auth_server backend frontend
       - name: Run tests
         run: cd backend && mvn test -Dtest=E2e.*
 
