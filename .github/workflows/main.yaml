@@ -15,8 +15,10 @@ jobs:
     needs: [backend_tests, frontend_tests]
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
       - name: Setup Docker Compose
-        run: cd backend && docker-compose up -d database auth_server backend frontend
+        run: docker-compose up -d database auth_server backend frontend
       - name: Run tests
         run: cd backend && mvn test -Dtest=E2e.*
 
