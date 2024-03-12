@@ -53,3 +53,12 @@ jobs:
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           fail_ci_if_error: true
+
+  e2e_tests:
+    needs: backend_tests frontend_tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Docker Compose
+        run: docker-compose -f compose.yml up -d database auth_server backend frontend
+      - name: Run tests
+        run: cd backend && mvn test -Dtest=E2e.*
