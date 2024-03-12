@@ -15,10 +15,8 @@ jobs:
     needs: [backend_tests, frontend_tests]
     runs-on: ubuntu-latest
     steps:
-      - name: Print current working directory
-        run: echo "Current working directory is $(pwd)"
       - name: Setup Docker Compose
-        run: docker-compose -f compose.yml up -d database auth_server backend frontend
+        run: docker-compose up -d database auth_server backend frontend
       - name: Run tests
         run: cd backend && mvn test -Dtest=E2e.*
 
