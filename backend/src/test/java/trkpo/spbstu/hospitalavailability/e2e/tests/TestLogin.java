@@ -6,7 +6,7 @@ import trkpo.spbstu.hospitalavailability.e2e.TestBase;
 public class TestLogin extends TestBase {
 
     @Test
-    void testEnd2EndGoToLoginPage() {
+    void testGoToLoginPage() {
         goToLoginPage();
     }
 }
