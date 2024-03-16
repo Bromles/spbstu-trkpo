@@ -21,9 +21,9 @@ import static com.codeborne.selenide.Selenide.open;
 
 @SpringBootTest(classes = HospitalAvailabilityApplication.class)
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
-public class TestBase {
+public class E2eTestBase {
 
-    protected static final Logger logger = LoggerFactory.getLogger(TestBase.class);
+    protected static final Logger logger = LoggerFactory.getLogger(E2eTestBase.class);
     protected static final By LOGIN_BUTTON = By.xpath("//*[contains(text(), 'Вход | Регистрация')]");
 
     @Autowired
@@ -36,7 +36,7 @@ public class TestBase {
     protected TrackingRepository trackingRepository;
 
     @BeforeEach
-    void startDriver() {
+    public void startDriver() {
         WebDriverManager.chromedriver().setup();
         logger.info("Переходим на страницу главную");
         open("http://localhost:8123");

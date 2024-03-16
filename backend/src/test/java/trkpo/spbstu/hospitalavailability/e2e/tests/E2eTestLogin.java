@@ -1,12 +1,12 @@
 package trkpo.spbstu.hospitalavailability.e2e.tests;
 
 import org.junit.jupiter.api.Test;
-import trkpo.spbstu.hospitalavailability.e2e.TestBase;
+import trkpo.spbstu.hospitalavailability.e2e.E2eTestBase;
 
-public class E2eTestLogin extends TestBase {
+public class E2eTestLogin extends E2eTestBase {
 
     @Test
-    void E2eTestGoToLoginPage() {
+    public void E2eTestGoToLoginPage() {
         goToLoginPage();
     }
 }
