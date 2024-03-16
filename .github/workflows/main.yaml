@@ -20,7 +20,7 @@ jobs:
       - name: Setup Docker Compose
         run: docker-compose up -d database auth_server backend frontend
       - name: Run tests
-        run: cd backend && mvn test -Dtest=E2e.*
+        run: cd backend/src/main/java/trkpo/spbstu/hospitalavailability/e2e && mvn test
 
   backend_tests:
     runs-on: ubuntu-latest

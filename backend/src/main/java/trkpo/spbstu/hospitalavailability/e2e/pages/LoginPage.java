@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
 
-public class LoginPage extends PageBase {
+public class LoginPage extends BasePage {
 
     private static final By USERNAME = By.id("username");
     private static final By PASSWORD = By.id("password");

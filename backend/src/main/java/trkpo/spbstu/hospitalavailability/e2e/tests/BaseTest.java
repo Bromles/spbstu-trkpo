@@ -1,4 +1,4 @@
-package trkpo.spbstu.hospitalavailability.e2e;
+package trkpo.spbstu.hospitalavailability.e2e.tests;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.BeforeEach;
@@ -21,9 +21,9 @@ import static com.codeborne.selenide.Selenide.open;
 
 @SpringBootTest(classes = HospitalAvailabilityApplication.class)
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
-public class E2eTestBase {
+public class BaseTest {
 
-    protected static final Logger logger = LoggerFactory.getLogger(E2eTestBase.class);
+    protected static final Logger logger = LoggerFactory.getLogger(BaseTest.class);
     protected static final By LOGIN_BUTTON = By.xpath("//*[contains(text(), 'Вход | Регистрация')]");
 
     @Autowired
