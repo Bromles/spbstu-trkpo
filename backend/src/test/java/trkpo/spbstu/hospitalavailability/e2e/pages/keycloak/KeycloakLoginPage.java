@@ -1,4 +1,4 @@
-package trkpo.spbstu.hospitalavailability.e2e.pages;
+package trkpo.spbstu.hospitalavailability.e2e.pages.keycloak;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
