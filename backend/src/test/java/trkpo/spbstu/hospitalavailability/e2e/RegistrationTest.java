@@ -38,7 +38,7 @@ public class RegistrationTest {
 
     @BeforeClass
     public static void setup() {
-        System.setProperty("webdriver.gecko.driver", "/Users/kate-bor/Downloads/geckodriver");
+        System.setProperty("webdriver.gecko.driver", "./src/test/resources/geckodriver");
 
         driver = new FirefoxDriver();
         unauthPage = new UnauthPage(driver);

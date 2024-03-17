@@ -1,5 +1,7 @@
 package trkpo.spbstu.hospitalavailability.e2e;
 
+import java.time.Duration;
+import java.time.temporal.ChronoUnit;
 import java.util.concurrent.TimeUnit;
 
 import org.junit.BeforeClass;
@@ -8,6 +10,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import trkpo.spbstu.hospitalavailability.e2e.pages.keycloak.KeycloakLoginPage;
 import trkpo.spbstu.hospitalavailability.e2e.pages.MainPage;
 import trkpo.spbstu.hospitalavailability.e2e.pages.UnauthPage;
@@ -24,7 +28,7 @@ public class AuthTest {
 
     @BeforeClass
     public static void setup() {
-        System.setProperty("webdriver.gecko.driver", "/Users/kate-bor/Downloads/geckodriver");
+        System.setProperty("webdriver.gecko.driver", "./src/test/resources/geckodriver");
 
         driver = new FirefoxDriver();
         unauthPage = new UnauthPage(driver);
@@ -45,8 +49,10 @@ public class AuthTest {
         loginPage.inputPasswd("123456");
         loginPage.clickLoginBtn();
 
+        WebDriverWait wait = new WebDriverWait(driver, Duration.of(10, ChronoUnit.SECONDS));
+        wait.until((ExpectedCondition<Boolean>) driver -> !mainPage.getUserInfo().equals(""));
         String userInfo = mainPage.getUserInfo();
-        assertTrue(userInfo.contains("kate_boriso2002@mail.ru"));
+        assertTrue(userInfo.contains("Borisova\nkate_boriso2002@mail.ru"));
     }
 
     @Test
