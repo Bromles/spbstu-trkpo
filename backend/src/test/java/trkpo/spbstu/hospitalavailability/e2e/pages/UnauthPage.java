@@ -1,22 +1,23 @@
 package trkpo.spbstu.hospitalavailability.e2e.pages;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.By;
+import trkpo.spbstu.hospitalavailability.e2e.pages.keycloak.KeycloakLoginPage;
 
-public class UnauthPage {
+import static com.codeborne.selenide.Condition.visible;
+import static com.codeborne.selenide.Selenide.$;
 
-    public WebDriver driver;
-    @FindBy(xpath = "//*[contains(text(), 'Вход | Регистрация')]")
-    private WebElement loginBtn;
+public class UnauthPage extends BasePage{
 
-    public UnauthPage(WebDriver driver) {
-        PageFactory.initElements(driver, this);
-        this.driver = driver;
+    private static final By loginBtn = By.xpath("//*[contains(text(), 'Вход | Регистрация')]");
+    @Override
+    protected void checkPage() {
+        logger.info("Провалидируем анонимную страницу");
+        $(loginBtn).shouldBe(visible.because("Нет кнопик Входа/Регистрации"));
+        logger.info("Успешно открыли анонимную страницу");
     }
 
-    public void clickLoginBtn() {
-        loginBtn.click();
+    public KeycloakLoginPage clickLoginBtn() {
+        $(loginBtn).click();
+        return new KeycloakLoginPage();
     }
 }

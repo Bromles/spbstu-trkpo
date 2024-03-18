@@ -41,14 +41,6 @@ public class RegistrationTest {
         System.setProperty("webdriver.gecko.driver", "./src/test/resources/geckodriver");
 
         driver = new FirefoxDriver();
-        unauthPage = new UnauthPage(driver);
-        mainPage = new MainPage(driver);
-        loginPage = new KeycloakLoginPage(driver);
-        registrationPage = new KeycloakRegistrationPage(driver);
-        emailUnauthPage = new EmailUnauthPage(driver);
-        emailLoginPage = new EmailLoginPage(driver);
-        emailPasswordPage = new EmailPasswordPage(driver);
-        emailMainPage = new EmailMainPage(driver);
 
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
