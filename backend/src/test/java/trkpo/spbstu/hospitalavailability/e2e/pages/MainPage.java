@@ -35,11 +35,13 @@ public class MainPage extends BasePage {
     }
 
     public void selectDistrict(int number) {
+        $(districtSelector).shouldBe(visible.because("Нет селектора районов"), Duration.ofSeconds(10));
         Select districtSelect = new Select($(districtSelector));
         districtSelect.selectByIndex(number);
     }
 
     public void selectHospital(int number) {
+        $(hospitalSelector).shouldBe(visible.because("Нет селектора больниц"), Duration.ofSeconds(10));
         Select hospitalSelect = new Select($(hospitalSelector));
         hospitalSelect.selectByIndex(number);
 
