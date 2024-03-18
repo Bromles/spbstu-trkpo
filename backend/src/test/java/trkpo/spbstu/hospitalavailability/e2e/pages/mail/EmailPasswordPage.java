@@ -22,11 +22,13 @@ public class EmailPasswordPage extends BasePage {
         logger.info("Успешно открыли страницу ввода пароля для почты");
     }
 
-    public void inputPassword(String pwd) {
+    public EmailPasswordPage inputPassword(String pwd) {
         $(passwordField).sendKeys(pwd);
+        return this;
     }
 
-    public void clickLoginBtn() {
+    public EmailMainPage clickLoginBtn() {
         $(loginBtn).click();
+        return new EmailMainPage();
     }
 }

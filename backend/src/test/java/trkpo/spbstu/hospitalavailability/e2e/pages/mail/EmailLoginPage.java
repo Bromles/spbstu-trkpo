@@ -19,11 +19,13 @@ public class EmailLoginPage extends BasePage {
         logger.info("Успешно открыли страницу ввода логина для входа в почту");
     }
 
-    public void inputLogin(String login) {
+    public EmailLoginPage inputLogin(String login) {
         $(loginField).sendKeys(login);
+        return this;
     }
 
-    public void clickEnterPasswordBtn() {
+    public EmailPasswordPage clickEnterPasswordBtn() {
         $(nextStepBtn).click();
+        return new EmailPasswordPage();
     }
 }

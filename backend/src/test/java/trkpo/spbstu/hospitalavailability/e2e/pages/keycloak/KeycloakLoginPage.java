@@ -2,7 +2,6 @@ package trkpo.spbstu.hospitalavailability.e2e.pages.keycloak;
 
 import org.openqa.selenium.By;
 import trkpo.spbstu.hospitalavailability.e2e.pages.BasePage;
-import trkpo.spbstu.hospitalavailability.e2e.pages.MainPage;
 
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
@@ -14,6 +13,7 @@ public class KeycloakLoginPage extends BasePage {
     private static final By registerRef = By.xpath("//*[contains(@tabindex, '6')]");
     private static final By loginField = By.id("username");
     private static final By passwordField = By.id("password");
+    private static final By error = By.id("input-error");
 
     @Override
     protected void checkPage() {
@@ -26,17 +26,17 @@ public class KeycloakLoginPage extends BasePage {
         logger.info("Успешно открыли страницу Логина");
     }
 
-    public MainPage clickLoginBtn() {
+    public void clickLoginBtn() {
         $(loginBtn).click();
-        return new MainPage();
     }
 
     public void clickForgotPasswordRef() {
         $(forgotPasswordRef).click();
     }
 
-    public void clickRegisterRef() {
+    public KeycloakRegistrationPage clickRegisterRef() {
         $(registerRef).click();
+        return new KeycloakRegistrationPage();
     }
 
     public KeycloakLoginPage inputLogin(String login) {
@@ -47,5 +47,9 @@ public class KeycloakLoginPage extends BasePage {
     public KeycloakLoginPage inputPasswd(String passwd) {
         $(passwordField).sendKeys(passwd);
         return this;
+    }
+
+    public boolean errorIsDisplayed() {
+        return $(error).isDisplayed();
     }
 }

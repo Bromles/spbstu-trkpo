@@ -27,24 +27,30 @@ public class KeycloakRegistrationPage extends BasePage {
         logger.info("Успешно открыли страницу регистрации");
     }
 
-    public void inputFirstName(String firstName) {
+    public KeycloakRegistrationPage inputFirstName(String firstName) {
         $(firstNameField).sendKeys(firstName);
+        return this;
     }
 
-    public void inputLastName(String lastName) {
+    public KeycloakRegistrationPage inputLastName(String lastName) {
         $(lastNameField).sendKeys(lastName);
+        return this;
+
     }
 
-    public void inputEmail(String email) {
+    public KeycloakRegistrationPage inputEmail(String email) {
         $(emailField).sendKeys(email);
+        return this;
     }
 
-    public void inputPasswd(String passwd) {
+    public KeycloakRegistrationPage inputPasswd(String passwd) {
         $(passwordField).sendKeys(passwd);
+        return this;
     }
 
-    public void inputPasswdConfirm(String passwd) {
+    public KeycloakRegistrationPage inputPasswdConfirm(String passwd) {
         $(passwordConfirmField).sendKeys(passwd);
+        return this;
     }
 
     public void clickRegisterBtn() {
