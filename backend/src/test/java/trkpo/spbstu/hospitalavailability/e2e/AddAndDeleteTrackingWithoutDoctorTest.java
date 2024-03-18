@@ -5,7 +5,7 @@ import trkpo.spbstu.hospitalavailability.e2e.pages.MainPage;
 
 import static org.junit.Assert.assertEquals;
 
-public class AddTrackingWithoutDoctorTest extends BaseTest{
+public class AddAndDeleteTrackingWithoutDoctorTest extends BaseTest{
 
     private static final String DEFAULT_EMAIL = "spbstu.trkpo@yandex.ru";
     private static final String DEFAULT_PWD = "5130904/00104";
