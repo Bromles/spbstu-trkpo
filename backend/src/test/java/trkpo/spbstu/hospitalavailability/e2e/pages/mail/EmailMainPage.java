@@ -1,21 +1,23 @@
 package trkpo.spbstu.hospitalavailability.e2e.pages.mail;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.By;
+import trkpo.spbstu.hospitalavailability.e2e.pages.BasePage;
 
-public class EmailMainPage {
-    public WebDriver driver;
-    @FindBy(xpath = "//*[@id='app-canvas']//*[contains(text(), 'Сервер авторизации записи к докторам')]")
-    private WebElement lastMessage;
+import static com.codeborne.selenide.Condition.visible;
+import static com.codeborne.selenide.Selenide.$;
 
-    public EmailMainPage(WebDriver driver) {
-        PageFactory.initElements(driver, this);
-        this.driver = driver;
+public class EmailMainPage extends BasePage {
+    private static final By lastMessage = By.xpath("//*[@id='app-canvas']//*[contains(text(), 'Сервер авторизации записи к докторам')]");
+    private static final By link = By.xpath("//div[@class='letter__body']//a[1]");
+    @Override
+    protected void checkPage() {
+        logger.info("Провалидируем главную страницу почты");
+        $(lastMessage).shouldBe(visible.because("Нет сообщения"));
+        logger.info("Успешно открыли главную страницу почты");
     }
 
-    public void openLastMessage() {
-        lastMessage.click();
+    public String openLastMessageAndGetLing() {
+        $(lastMessage).click();
+        return $(lastMessage).$(link).shouldBe(visible.because("Нет ссылки")).getAttribute("href");
     }
 }

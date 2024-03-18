@@ -1,22 +1,25 @@
 package trkpo.spbstu.hospitalavailability.e2e.pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
-public class MainPage {
+import java.time.Duration;
+import java.time.temporal.ChronoUnit;
+
+import static com.codeborne.selenide.Condition.visible;
+import static com.codeborne.selenide.Selenide.$;
+
+public class MainPage extends BasePage {
 
     public WebDriver driver;
-    @FindBy(xpath = "//*[@id='root']//*[@class='_name_13u23_37']")
-    private WebElement userInfo;
+    private static final By userInfo = By.xpath("//*[@id='root']//*[@class='_name_13u23_37']");
 
-    public MainPage(WebDriver driver) {
-        PageFactory.initElements(driver, this);
-        this.driver = driver;
+    @Override
+    protected void checkPage() {
+        $(userInfo).shouldBe(visible.because("Нет информации в шапке профиля"), Duration.of(30, ChronoUnit.SECONDS));
     }
 
     public String getUserInfo() {
-        return userInfo.getText();
+        return $(userInfo).getText();
     }
 }

@@ -1,47 +1,55 @@
 package trkpo.spbstu.hospitalavailability.e2e.pages.keycloak;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.By;
+import trkpo.spbstu.hospitalavailability.e2e.pages.BasePage;
 
-public class KeycloakLoginPage {
-    public WebDriver driver;
-    @FindBy(xpath = "//*[contains(@tabindex, '4')]")
-    private WebElement loginBtn;
+import static com.codeborne.selenide.Condition.visible;
+import static com.codeborne.selenide.Selenide.$;
 
-    @FindBy(xpath = "//*[contains(@tabindex, '5')]")
-    private WebElement forgotPasswordRef;
-    @FindBy(xpath = "//*[contains(@tabindex, '6')]")
-    private WebElement registerRef;
+public class KeycloakLoginPage extends BasePage {
 
-    @FindBy(xpath = "//*[contains(@id, 'username')]")
-    private WebElement loginField;
-    @FindBy(xpath = "//*[contains(@id, 'password')]")
-    private WebElement passwordField;
+    private static final By loginBtn = By.xpath("//*[contains(@tabindex, '4')]");
+    private static final By forgotPasswordRef = By.xpath("//*[contains(@tabindex, '5')]");
+    private static final By registerRef = By.xpath("//*[contains(@tabindex, '6')]");
+    private static final By loginField = By.id("username");
+    private static final By passwordField = By.id("password");
+    private static final By error = By.id("input-error");
 
-    public KeycloakLoginPage(WebDriver driver) {
-        PageFactory.initElements(driver, this);
-        this.driver = driver;
+    @Override
+    protected void checkPage() {
+        logger.info("Проволидируем страницу Логина");
+        $(loginBtn).shouldBe(visible.because("Нет кнопки Логина"));
+        $(forgotPasswordRef).shouldBe(visible.because("Нет кнопки смены пароля"));
+        $(registerRef).shouldBe(visible.because("Нет кнопки регистрации"));
+        $(loginField).shouldBe(visible.because("Нет поля ввода логина"));
+        $(passwordField).shouldBe(visible.because("Нет кнопки ввода пароля"));
+        logger.info("Успешно открыли страницу Логина");
     }
 
     public void clickLoginBtn() {
-        loginBtn.click();
+        $(loginBtn).click();
     }
 
     public void clickForgotPasswordRef() {
-        forgotPasswordRef.click();
+        $(forgotPasswordRef).click();
     }
 
-    public void clickRegisterRef() {
-        registerRef.click();
+    public KeycloakRegistrationPage clickRegisterRef() {
+        $(registerRef).click();
+        return new KeycloakRegistrationPage();
     }
 
-    public void inputLogin(String login) {
-        loginField.sendKeys(login);
+    public KeycloakLoginPage inputLogin(String login) {
+        $(loginField).sendKeys(login);
+        return this;
     }
 
-    public void inputPasswd(String passwd) {
-        passwordField.sendKeys(passwd);
+    public KeycloakLoginPage inputPasswd(String passwd) {
+        $(passwordField).sendKeys(passwd);
+        return this;
+    }
+
+    public boolean errorIsDisplayed() {
+        return $(error).isDisplayed();
     }
 }

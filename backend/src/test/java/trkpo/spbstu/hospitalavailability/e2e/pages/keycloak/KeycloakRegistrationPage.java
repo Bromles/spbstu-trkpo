@@ -1,52 +1,59 @@
 package trkpo.spbstu.hospitalavailability.e2e.pages.keycloak;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.By;
+import trkpo.spbstu.hospitalavailability.e2e.pages.BasePage;
 
-public class KeycloakRegistrationPage {
-    public WebDriver driver;
-    @FindBy(xpath = "//*[contains(@id, 'firstName')]")
-    private WebElement firstNameField;
-    @FindBy(xpath = "//*[contains(@id, 'lastName')]")
-    private WebElement lastNameField;
-    @FindBy(xpath = "//*[contains(@id, 'email')]")
-    private WebElement emailField;
-    @FindBy(xpath = "//*[contains(@id, 'password')]")
-    private WebElement passwordField;
-    @FindBy(xpath = "//*[contains(@id, 'password-confirm')]")
-    private WebElement passwordConfirmField;
-    @FindBy(xpath = "//*[contains(@type, 'submit')]")
-    private WebElement submit;
+import static com.codeborne.selenide.Condition.visible;
+import static com.codeborne.selenide.Selenide.$;
 
+public class KeycloakRegistrationPage extends BasePage {
 
-    public KeycloakRegistrationPage(WebDriver driver) {
-        PageFactory.initElements(driver, this);
-        this.driver = driver;
+    private static final By firstNameField = By.id("firstName");
+    private static final By lastNameField = By.id("lastName");
+    private static final By emailField = By.id("email");
+    private static final By passwordField = By.id("password");
+    private static final By passwordConfirmField = By.id("password-confirm");
+    private static final By submit =  By.xpath("//*[contains(@type, 'submit')]");
+
+    @Override
+    protected void checkPage() {
+        logger.info("Провалидируем страницу Регистрации");
+        $(firstNameField).shouldBe(visible.because("Нет поля ввода Имени"));
+        $(lastNameField).shouldBe(visible.because("Нет поля ввода Фамилии"));
+        $(emailField).shouldBe(visible.because("Нет поля ввода Почта"));
+        $(passwordField).shouldBe(visible.because("Нет поля ввода Пароля"));
+        $(passwordConfirmField).shouldBe(visible.because("Нет поля ввода Подтверждения пароля"));
+        $(submit).shouldBe(visible.because("Нет кнопки Сохранить"));
+        logger.info("Успешно открыли страницу регистрации");
     }
 
-    public void inputFirstName(String firstName) {
-        firstNameField.sendKeys(firstName);
+    public KeycloakRegistrationPage inputFirstName(String firstName) {
+        $(firstNameField).sendKeys(firstName);
+        return this;
     }
 
-    public void inputLastName(String lastName) {
-        lastNameField.sendKeys(lastName);
+    public KeycloakRegistrationPage inputLastName(String lastName) {
+        $(lastNameField).sendKeys(lastName);
+        return this;
+
     }
 
-    public void inputEmail(String email) {
-        emailField.sendKeys(email);
+    public KeycloakRegistrationPage inputEmail(String email) {
+        $(emailField).sendKeys(email);
+        return this;
     }
 
-    public void inputPasswd(String passwd) {
-        passwordField.sendKeys(passwd);
+    public KeycloakRegistrationPage inputPasswd(String passwd) {
+        $(passwordField).sendKeys(passwd);
+        return this;
     }
 
-    public void inputPasswdConfirm(String passwd) {
-        passwordConfirmField.sendKeys(passwd);
+    public KeycloakRegistrationPage inputPasswdConfirm(String passwd) {
+        $(passwordConfirmField).sendKeys(passwd);
+        return this;
     }
 
     public void clickRegisterBtn() {
-        submit.click();
+        $(submit).click();
     }
 }
