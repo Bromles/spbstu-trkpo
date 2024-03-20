@@ -1,6 +1,7 @@
 package trkpo.spbstu.hospitalavailability.e2e.pages.keycloak;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import trkpo.spbstu.hospitalavailability.e2e.pages.BasePage;
 
 import static com.codeborne.selenide.Condition.visible;
@@ -14,6 +15,8 @@ public class KeycloakRegistrationPage extends BasePage {
     private static final By passwordField = By.id("password");
     private static final By passwordConfirmField = By.id("password-confirm");
     private static final By submit =  By.xpath("//*[contains(@type, 'submit')]");
+    private static final By pwdError =  By.xpath("//*[@id='input-error-password']");
+    private static final By emailError =  By.xpath("//*[@id='input-error-email']");
 
     @Override
     protected void checkPage() {
@@ -55,5 +58,17 @@ public class KeycloakRegistrationPage extends BasePage {
 
     public void clickRegisterBtn() {
         $(submit).click();
+    }
+
+    public WebElement getPwdError() {
+        return $(pwdError);
+    }
+
+    public WebElement getEmailError() {
+        return $(emailError);
+    }
+
+    public void cleanInputEmail() {
+        $(emailField).clear();
     }
 }
