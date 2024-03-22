@@ -40,14 +40,14 @@ public class RegistrationTest extends BaseTest{
         SelenideElement frameElement = $(By.xpath("//iframe[@class='ag-popup__frame__layout__iframe']"));
         Selenide.switchTo().frame(frameElement);
 
-        EmailMainPage emailMainPage = new EmailLoginPage()
+        new EmailLoginPage()
                 .inputLogin(emailLogin)
                 .clickEnterPasswordBtn()
                 .inputPassword(emailPwd)
                 .clickLoginBtn();
-        Selenide.switchTo().defaultContent(); //здесь ошибка
 
-        String link = emailMainPage.openLastMessageAndGetLing();
+        Selenide.switchTo().defaultContent();
+        String link = new EmailMainPage().openLastMessageAndGetLing();
         open(link);
         String userInfo = new MainPage().getUserInfo();
         assertTrue(userInfo.contains(emailLogin + "@mail.ru"));

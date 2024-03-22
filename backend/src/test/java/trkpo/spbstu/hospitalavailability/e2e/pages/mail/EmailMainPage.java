@@ -18,6 +18,6 @@ public class EmailMainPage extends BasePage {
 
     public String openLastMessageAndGetLing() {
         $(lastMessage).click();
-        return $(lastMessage).$(link).shouldBe(visible.because("Нет ссылки")).getAttribute("href");
+        return $(link).shouldBe(visible.because("Нет ссылки")).getAttribute("href");
     }
 }
