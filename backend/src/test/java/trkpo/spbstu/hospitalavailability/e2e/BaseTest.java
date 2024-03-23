@@ -3,6 +3,9 @@ package trkpo.spbstu.hospitalavailability.e2e;
 import org.junit.BeforeClass;
 import org.junit.jupiter.api.TestInstance;
 import com.codeborne.selenide.Configuration;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import trkpo.spbstu.hospitalavailability.e2e.pages.BasePage;
 import trkpo.spbstu.hospitalavailability.e2e.pages.UnauthPage;
 
 import static com.codeborne.selenide.Selenide.open;
@@ -11,6 +14,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class BaseTest {
 
     protected static UnauthPage unauthPage;
+    protected static final Logger logger = LoggerFactory.getLogger(BasePage.class);
 
     @BeforeClass
     public static void startDriver() {
@@ -18,7 +22,7 @@ public class BaseTest {
         Configuration.browser = "firefox";
         Configuration.baseUrl = "http://localhost:4200";
         Configuration.browserSize = "1920x1080";
-        Configuration.timeout = 10000;
+        Configuration.remoteConnectionTimeout = 10000;
         open("/");
         unauthPage = new UnauthPage();
     }

@@ -2,15 +2,17 @@ package trkpo.spbstu.hospitalavailability.e2e.pages;
 
 import com.codeborne.selenide.Selenide;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.time.Duration;
-import java.time.temporal.ChronoUnit;
+import java.util.List;
 
+import static com.codeborne.selenide.Condition.enabled;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
+import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
 
 public class MainPage extends BasePage {
 
@@ -24,10 +26,12 @@ public class MainPage extends BasePage {
     private static final By hospitalSelector = By.id("hospitalSelect");
     private static final By directionSelector = By.id("directionSelect");
     private static final By doctorSelector = By.id("doctorSelect");
+    private static final By mapContainer = By.xpath("//*[@class = '_map_tjinb_1']");
 
     @Override
     protected void checkPage() {
-        $(userInfo).shouldBe(visible.because("Нет информации в шапке профиля"), Duration.of(30, ChronoUnit.SECONDS));
+        $(userInfo).shouldBe(visible.because("Нет информации в шапке профиля"),  Duration.ofSeconds(10));
+        $(mapContainer).shouldBe(visible.because("Нет карты"), Duration.ofSeconds(30));
     }
 
     public String getUserInfo() {
@@ -35,16 +39,15 @@ public class MainPage extends BasePage {
     }
 
     public void selectDistrict(int number) {
-        $(districtSelector).shouldBe(visible.because("Нет селектора районов"), Duration.ofSeconds(10));
+        $(districtSelector).shouldBe(enabled.because("Нельзя выбрать район"), Duration.ofSeconds(10));
         Select districtSelect = new Select($(districtSelector));
         districtSelect.selectByIndex(number);
     }
 
     public void selectHospital(int number) {
-        $(hospitalSelector).shouldBe(visible.because("Нет селектора больниц"), Duration.ofSeconds(10));
+        $(hospitalSelector).shouldBe(enabled.because("Нельзя выбрать больницу"), Duration.ofSeconds(10));
         Select hospitalSelect = new Select($(hospitalSelector));
         hospitalSelect.selectByIndex(number);
-
     }
 
     public void selectDirection(int number) {
@@ -58,13 +61,32 @@ public class MainPage extends BasePage {
     }
 
     public void selectDoctor(int number) {
-        $(doctorSelector).shouldBe(visible.because("Нет селектора докторов"), Duration.ofSeconds(10));
+        $(doctorSelector).shouldBe(enabled.because("Cелектор не кликабельны"), Duration.ofSeconds(10));
         Select doctorSelect = new Select($(doctorSelector));
         doctorSelect.selectByIndex(number);
     }
 
     public void clickStartTrackingBtn() {
-        $(startTrackingBtn).click();
+        $(startTrackingBtn).shouldBe(enabled.because("Кнопка не кликаьельна")).click();
+    }
+
+    public boolean checkStartTrackingBtnIsEnabled() {
+        return $(startTrackingBtn).isEnabled();
+    }
+
+    public boolean checkDistrictSelectorIsEnabled() {
+        return $(districtSelector).isEnabled();
+    }
+
+    public boolean checkHospitalSelectorIsEnabled() {
+       return $(hospitalSelector).isEnabled();
+    }
+
+    public boolean checkDirectionSelectorIsEnabled() {
+        return $(directionSelector).isEnabled();
+    }
+    public boolean checkDoctorSelectorIsEnabled() {
+        return $(doctorSelector).isEnabled();
     }
 
     public int getTrackingCount() {
@@ -77,5 +99,34 @@ public class MainPage extends BasePage {
 
     public void clickStopTrackingBtn() {
         $(stopTrackingBtn).click();
+    }
+
+    public String getSelectedDistrict() {
+        List<WebElement> elemnts = new Select($(districtSelector)).getAllSelectedOptions();
+        assertThat(elemnts).size().isEqualTo(1);
+        return elemnts.get(0).getText();
+    }
+
+    public String getSelectedHospital() {
+        List<WebElement> elemnts = new Select($(hospitalSelector)).getAllSelectedOptions();
+        assertThat(elemnts).size().isEqualTo(1);
+        return elemnts.get(0).getText();
+    }
+
+    public String getSelectedDoctor() {
+        List<WebElement> elemnts = new Select($(doctorSelector)).getAllSelectedOptions();
+        assertThat(elemnts).size().isEqualTo(1);
+        return elemnts.get(0).getText();
+    }
+
+    public String getSelectedDirection() {
+        List<WebElement> elemnts = new Select($(directionSelector)).getAllSelectedOptions();
+        assertThat(elemnts).size().isEqualTo(1);
+        return elemnts.get(0).getText();
+    }
+
+    public MapWrapper getMapWrapper() {
+        logger.info("");
+        return new MapWrapper($(mapContainer));
     }
 }
