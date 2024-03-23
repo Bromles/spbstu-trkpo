@@ -93,12 +93,12 @@ public class MainPage extends BasePage {
         return $(trackingContainer).$$(trackingItem).size();
     }
 
-    public void clickExitBtn() {
-        $(exitBtn).click();
-    }
-
     public void clickStopTrackingBtn() {
         $(stopTrackingBtn).click();
+    }
+
+    public void clickExit() {
+        $(exitBtn).click();
     }
 
     public String getSelectedDistrict() {

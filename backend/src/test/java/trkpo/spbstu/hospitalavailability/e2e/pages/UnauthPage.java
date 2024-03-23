@@ -20,4 +20,8 @@ public class UnauthPage extends BasePage{
         $(loginBtn).click();
         return new KeycloakLoginPage();
     }
+
+    public boolean isActiveLoginBtn() {
+        return loginBtn != null;
+    }
 }

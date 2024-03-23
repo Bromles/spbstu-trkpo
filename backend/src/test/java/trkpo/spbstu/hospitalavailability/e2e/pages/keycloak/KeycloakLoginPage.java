@@ -30,8 +30,9 @@ public class KeycloakLoginPage extends BasePage {
         $(loginBtn).click();
     }
 
-    public void clickForgotPasswordRef() {
+    public ChangePasswordPage clickForgotPasswordRef() {
         $(forgotPasswordRef).click();
+        return new ChangePasswordPage();
     }
 
     public KeycloakRegistrationPage clickRegisterRef() {
