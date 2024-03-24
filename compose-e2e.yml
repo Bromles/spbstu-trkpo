@@ -49,6 +49,7 @@ services:
   backend:
     container_name: backend
     build: backend/
+    image: spbstu-trkpo-frontend
     environment:
       DB_URL: "jdbc:postgresql://database:5432/backend_db"
       DB_USERNAME: "hospital"
@@ -70,6 +71,7 @@ services:
   frontend:
     container_name: frontend
     build: frontend/
+    image: spbstu-trkpo-frontend
     ports:
       - "4200:80"
     deploy:

@@ -101,7 +101,7 @@ jobs:
         uses: jwalton/gh-docker-logs@v2
         if: failure()
         with:
-            images: 'postgres,quay.io/keycloak/keycloak'
+            images: 'postgres,quay.io/keycloak/keycloak,spbstu-trkpo-backend,spbstu-trkpo-frontend'
       - name: Upload debug artifacts
         uses: actions/upload-artifact@v4
         if: failure()
