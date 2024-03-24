@@ -62,7 +62,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v2
       - name: Setup containers
-        run: docker-compose -f compose-e2e.yml up -d
+        run: docker-compose -f compose-e2e.yml up --build -d
       - name: Install Node
         uses: actions/setup-node@v1
         with:

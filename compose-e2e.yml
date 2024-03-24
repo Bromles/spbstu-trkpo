@@ -45,3 +45,14 @@ services:
           memory: 512M
     depends_on:
       - database
+
+  frontend:
+    container_name: frontend
+    build: frontend/
+    ports:
+      - "8123:80"
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: 512M
