@@ -34,11 +34,6 @@
   }
 }
 
-.name {
-  margin-left: 50px;
-  color: #dbd3d3;
-}
-
 @media (max-width: 640px) {
   .container {
     text-align: center;
