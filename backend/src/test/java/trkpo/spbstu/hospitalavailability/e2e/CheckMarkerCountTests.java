@@ -1,11 +1,13 @@
 package trkpo.spbstu.hospitalavailability.e2e;
 
+import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import trkpo.spbstu.hospitalavailability.e2e.pages.MainPage;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+@Slf4j
 class CheckMarkerCountTests extends BaseTest {
 
     private static final String DEFAULT_EMAIL = "spbstu.trkpo@yandex.ru";
@@ -13,16 +15,16 @@ class CheckMarkerCountTests extends BaseTest {
 
     @Test
     void checkMarkerCountTests() {
-        logger.info("Тест проверяет, что при выборе района количество маркеров на карте становится меньше," +
+        log.info("Тест проверяет, что при выборе района количество маркеров на карте становится меньше," +
                 " а при выборе больницы, маркер остается один");
 
-        logger.info("Залогинемся юзером " + DEFAULT_EMAIL);
+        log.info("Залогинемся юзером " + DEFAULT_EMAIL);
         unauthPage.clickLoginBtn()
                 .inputLogin(DEFAULT_EMAIL)
                 .inputPasswd(DEFAULT_PWD)
                 .clickLoginBtn();
 
-        logger.info("Веберем район, больницу, направление и врача");
+        log.info("Веберем район, больницу, направление и врача");
         MainPage mainPage = new MainPage();
         int count = mainPage.getMapWrapper().getMarkerCount();
         mainPage.selectDistrict(1);
@@ -31,11 +33,11 @@ class CheckMarkerCountTests extends BaseTest {
         mainPage.selectHospital(1);
         assertThat(mainPage.getMapWrapper().getMarkerCount()).as("Должен остаться 1 маркер")
                 .isEqualTo(1);
-        logger.info("Сбросим селектор районов");
+        log.info("Сбросим селектор районов");
         mainPage.selectDistrict(0);
         assertThat(mainPage.getMapWrapper().getMarkerCount()).as("Должен быть больше чем один маркер")
                 .isGreaterThan(1);
-        logger.info("Успешно проверили количество маркеров на карте");
+        log.info("Успешно проверили количество маркеров на карте");
 
         mainPage.clickExit();
         assertTrue(unauthPage.isActiveLoginBtn());
