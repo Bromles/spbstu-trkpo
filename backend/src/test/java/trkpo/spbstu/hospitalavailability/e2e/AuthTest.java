@@ -76,7 +76,11 @@ class AuthTest extends BaseTest {
         String link = new EmailMainPage(EmailMainPage.Purpose.RESET_PASSWORD).openLastMessageAndGetLink();
         open(link);
 
-        String userInfo = new MainPage().getUserInfo();
+        MainPage mainPage = new MainPage();
+        String userInfo = mainPage.getUserInfo();
         assertTrue(userInfo.contains(emailLogin + "@mail.ru"));
+
+        mainPage.clickExit();
+        assertTrue(unauthPage.isActiveLoginBtn());
     }
 }
