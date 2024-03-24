@@ -16,7 +16,7 @@ import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
 
 public class MainPage extends BasePage {
 
-    private static final By userInfo = By.xpath("//*[@id='root']//*[@class='navbar-name']");
+    private static final By userInfo = By.xpath("//*[@id='root']//*[@class='_name_13u23_37']");
     private static final By startTrackingBtn = By.xpath("//button[normalize-space()='Начать отслеживание']");
     private static final By exitBtn = By.xpath("//button[normalize-space()='Выход']");
     private static final By stopTrackingBtn = By.xpath("//button[normalize-space()='Закончить отслеживание']");
