@@ -76,12 +76,14 @@ jobs:
           distribution: "temurin"
           java-version: "17"
           cache: maven
+      - name: Setup geckodriver
+        uses: browser-actions/setup-geckodriver@latest
       - name: Setup Firefox
         uses: browser-actions/setup-firefox@latest
       - name: Firefox version
         run: firefox --version
       - name: Run tests
-        run: mvn --batch-mode --update-snapshots verify -Dselenide.headless=true
+        run: mvn --batch-mode --update-snapshots verify -Dselenide.headless=true -DisCI=true
         working-directory: ./backend
         env:
           AUTH_SERVER_JWKS_URL: ${{ env.AUTH_SERVER_JWKS_URL }}
