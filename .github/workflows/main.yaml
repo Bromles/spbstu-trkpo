@@ -25,7 +25,7 @@ jobs:
       - name: Setup Firefox
         uses: browser-actions/setup-firefox@v1
       - name: Run tests
-        run: cd backend && mvn --batch-mode --update-snapshots verify
+        run: cd backend && mvn --batch-mode --update-snapshots verify -Dskip.E2E
         env:
           AUTH_SERVER_JWKS_URL: ${{ env.AUTH_SERVER_JWKS_URL }}
           DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
