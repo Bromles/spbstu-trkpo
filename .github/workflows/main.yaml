@@ -78,6 +78,8 @@ jobs:
           cache: maven
       - name: Setup geckodriver
         uses: browser-actions/setup-geckodriver@latest
+        with:
+          geckodriver-version: 0.34.0
       - name: Setup Firefox
         uses: browser-actions/setup-firefox@latest
       - name: Firefox version
