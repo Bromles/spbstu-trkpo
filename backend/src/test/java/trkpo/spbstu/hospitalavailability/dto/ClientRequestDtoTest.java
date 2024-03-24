@@ -1,7 +1,6 @@
 package trkpo.spbstu.hospitalavailability.dto;
 
 import lombok.Cleanup;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -11,12 +10,13 @@ import javax.validation.Validator;
 import javax.validation.ValidatorFactory;
 import java.util.Set;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class ClientRequestDtoTest {
-    private Validator validator;
     private final String ID = "id";
     private final String EMAIL = "test@domain.com";
+    private Validator validator;
 
     @BeforeEach
     void setUp() {

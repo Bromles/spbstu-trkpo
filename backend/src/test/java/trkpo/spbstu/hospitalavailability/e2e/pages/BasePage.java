@@ -11,5 +11,6 @@ public class BasePage {
         checkPage();
     }
 
-    protected void checkPage() {}
+    protected void checkPage() {
+    }
 }

@@ -3,8 +3,6 @@ package trkpo.spbstu.hospitalavailability.utils;
 import org.testcontainers.shaded.org.apache.commons.lang3.RandomUtils;
 import trkpo.spbstu.hospitalavailability.entity.District;
 
-import java.util.Random;
-
 public class DistrictUtils {
     public static District getDistrict() {
         District district = new District();

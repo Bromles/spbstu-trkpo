@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
 
 public class EmailPasswordPage extends BasePage {
-    private static final By passwordField =  By.xpath("//*[contains(@name, 'password')]");
+    private static final By passwordField = By.xpath("//*[contains(@name, 'password')]");
     private static final By loginBtn = By.xpath("//*[contains(@data-test-id, 'submit-button')]");
 
     @Override

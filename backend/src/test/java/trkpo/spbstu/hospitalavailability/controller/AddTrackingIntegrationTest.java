@@ -48,7 +48,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @Testcontainers
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class AddTrackingIntegrationTest {
+class AddTrackingIntegrationTest {
 
     private static final String TEST_UUID = UUID.randomUUID().toString();
     private static final Long HOSPITAL_G_ID = RandomUtils.nextLong();
@@ -85,6 +85,13 @@ public class AddTrackingIntegrationTest {
     private DistrictRepository districtRepository;
     private MockMvc mvc;
 
+    @DynamicPropertySource
+    static void postgresProperties(DynamicPropertyRegistry registry) {
+        registry.add("spring.datasource.url", POSTGRESQL_CONTAINER::getJdbcUrl);
+        registry.add("spring.datasource.username", POSTGRESQL_CONTAINER::getUsername);
+        registry.add("spring.datasource.password", POSTGRESQL_CONTAINER::getPassword);
+    }
+
     @BeforeEach
     void setup() {
         mvc = MockMvcBuilders.webAppContextSetup(context)
@@ -100,13 +107,6 @@ public class AddTrackingIntegrationTest {
         districtRepository.deleteAll();
     }
 
-    @DynamicPropertySource
-    static void postgresProperties(DynamicPropertyRegistry registry) {
-        registry.add("spring.datasource.url", POSTGRESQL_CONTAINER::getJdbcUrl);
-        registry.add("spring.datasource.username", POSTGRESQL_CONTAINER::getUsername);
-        registry.add("spring.datasource.password", POSTGRESQL_CONTAINER::getPassword);
-    }
-
     @Test
     void whenValidInput_ThenReturn200() throws Exception {
         assertTrue(POSTGRESQL_CONTAINER.isRunning());
@@ -118,24 +118,25 @@ public class AddTrackingIntegrationTest {
         trackingRequestDto.setHospitalId(HOSPITAL_G_ID);
         trackingRequestDto.setDirectionId(DIRECTION_ID);
         MvcResult response = mvc.perform(post("/v1/tracking")
-                                .content(objectMapper.writeValueAsString(trackingRequestDto))
-                                .contentType(MediaType.APPLICATION_JSON)
-                        .with(jwt()
-                                .jwt(jwt -> jwt
-                                        .claim(StandardClaimNames.PREFERRED_USERNAME, TEST_UUID)
-                                        .claim(StandardClaimNames.SUB, TEST_UUID))
-                        )
-                 ).andExpect(status().isOk()).andReturn();
+                .content(objectMapper.writeValueAsString(trackingRequestDto))
+                .contentType(MediaType.APPLICATION_JSON)
+                .with(jwt()
+                        .jwt(jwt -> jwt
+                                .claim(StandardClaimNames.PREFERRED_USERNAME, TEST_UUID)
+                                .claim(StandardClaimNames.SUB, TEST_UUID))
+                )
+        ).andExpect(status().isOk()).andReturn();
 
-        TrackingResponseDto trackingResponseDto = objectMapper.readValue(response.getResponse().getContentAsString(), new TypeReference<>() {});
+        TrackingResponseDto trackingResponseDto = objectMapper.readValue(response.getResponse().getContentAsString(), new TypeReference<>() {
+        });
         assertAll("Проверим поля ответа",
                 () -> assertFalse(trackingResponseDto.isFinished()),
                 () -> assertEquals(trackingResponseDto.getHospitalId(), hospital.getId()),
                 () -> assertEquals(trackingResponseDto.getDoctorId(), -1L),
                 () -> assertEquals(trackingResponseDto.getClientId(), client.getId()),
-                () -> assertEquals(trackingResponseDto.getDirectionId(), DIRECTION_ID),
-                () -> assertEquals(trackingResponseDto.getHospitalGorzdravId(), HOSPITAL_G_ID),
-                () -> assertEquals(trackingResponseDto.getHospitalFullName(), FULL_NAME));
+                () -> assertEquals(DIRECTION_ID, trackingResponseDto.getDirectionId()),
+                () -> assertEquals(HOSPITAL_G_ID, trackingResponseDto.getHospitalGorzdravId()),
+                () -> assertEquals(FULL_NAME, trackingResponseDto.getHospitalFullName()));
     }
 
     @Test
@@ -200,13 +201,13 @@ public class AddTrackingIntegrationTest {
                 )
         ).andExpect(status().isOk()).andReturn();
 
-        TrackingResponseDto trackingResponseDto = objectMapper.readValue(response.getResponse().getContentAsString(), new TypeReference<>() {});
+        TrackingResponseDto trackingResponseDto = objectMapper.readValue(response.getResponse().getContentAsString(), new TypeReference<>() {
+        });
         assertEquals(trackingResponseDto, trackingMapper.toTrackingDto(tracking), "Изменились поля, которые не должны были менятся");
         Optional<Tracking> trackingNew = trackingRepository.findById(tracking.getId());
         assertTrue(trackingNew.isPresent());
         assertNotEquals(trackingNew.get().getDate(), tracking.getDate(), "Дата не изменилась");
     }
-
 
 
     private Client createClient() {
@@ -219,7 +220,7 @@ public class AddTrackingIntegrationTest {
         });
     }
 
-    private Hospital createHospital(){
+    private Hospital createHospital() {
         return simpleTransactionTemplate.execute(status -> {
             var district = new District();
             district.setName(RandomStringUtils.randomAlphabetic(5));

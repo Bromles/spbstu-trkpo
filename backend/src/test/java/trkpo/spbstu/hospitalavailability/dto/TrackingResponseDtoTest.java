@@ -19,7 +19,7 @@ class TrackingResponseDtoTest {
     private static final String FULL_NAME = RandomStringUtils.randomAlphabetic(5);
 
     @Test
-    void testTrackingResponseDto(){
+    void testTrackingResponseDto() {
         TrackingResponseDto dto = new TrackingResponseDto();
         dto.setClientId(CLIENT_ID);
         dto.setFinished(FINISHED);
@@ -35,7 +35,7 @@ class TrackingResponseDtoTest {
                 () -> assertEquals(dto.getDirectionId(), DIRECTION_ID),
                 () -> assertEquals(dto.getDoctorId(), DOCTOR_ID),
                 () -> assertEquals(dto.getHospitalGorzdravId(), GORZDRAV_ID),
-                () -> assertEquals(dto.getHospitalId(),HOSPITAL_ID),
+                () -> assertEquals(dto.getHospitalId(), HOSPITAL_ID),
                 () -> assertEquals(dto.getHospitalFullName(), FULL_NAME),
                 () -> assertEquals(dto.isFinished(), FINISHED));
     }

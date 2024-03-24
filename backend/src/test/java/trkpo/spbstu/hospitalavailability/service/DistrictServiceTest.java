@@ -24,31 +24,24 @@ import static org.mockito.Mockito.*;
 @ExtendWith(MockitoExtension.class)
 class DistrictServiceTest {
 
+    private final DistrictMapper districtMapper = new DistrictMapperImpl();
+    private final Long ID = 1L;
+    private final GorzdravDistrictRsDto GORZDRAV_DISTRICT_RS = new GorzdravDistrictRsDto(ID, "gorzdravId");
     @Mock
     private DistrictRepository districtRepository;
-
-    private final DistrictMapper districtMapper = new DistrictMapperImpl();
-
     @Mock
     private GorzdravService gorzdravService;
-
     @Mock
     private TransactionTemplate simpleTransactionTemplate;
-
     @Mock
     private EntityManager entityManager;
-
     private DistrictService districtService;
-
-    private final Long ID = 1L;
 
     private District getDefaultDistrict() {
         District district = new District();
         district.setName("District");
         return district;
     }
-
-    private final GorzdravDistrictRsDto GORZDRAV_DISTRICT_RS = new GorzdravDistrictRsDto(ID, "gorzdravId");
 
     @BeforeEach
     void setup() {

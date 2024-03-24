@@ -83,6 +83,13 @@ class TrackingControllerIntegrationTest {
 
     private MockMvc mvc;
 
+    @DynamicPropertySource
+    static void postgresProperties(DynamicPropertyRegistry registry) {
+        registry.add("spring.datasource.url", POSTGRESQL_CONTAINER::getJdbcUrl);
+        registry.add("spring.datasource.username", POSTGRESQL_CONTAINER::getUsername);
+        registry.add("spring.datasource.password", POSTGRESQL_CONTAINER::getPassword);
+    }
+
     @BeforeEach
     void setup() {
         mvc = MockMvcBuilders.webAppContextSetup(context)
@@ -96,13 +103,6 @@ class TrackingControllerIntegrationTest {
         clientRepository.deleteAll();
         hospitalRepository.deleteAll();
         districtRepository.deleteAll();
-    }
-
-    @DynamicPropertySource
-    static void postgresProperties(DynamicPropertyRegistry registry) {
-        registry.add("spring.datasource.url", POSTGRESQL_CONTAINER::getJdbcUrl);
-        registry.add("spring.datasource.username", POSTGRESQL_CONTAINER::getUsername);
-        registry.add("spring.datasource.password", POSTGRESQL_CONTAINER::getPassword);
     }
 
     @Test
@@ -151,6 +151,7 @@ class TrackingControllerIntegrationTest {
         List<TrackingResponseDto> body = objectMapper.readValue(response.getContentAsString(), new TypeReference<>() {
         });
 
+        assertNotNull(tracking);
         tracking.setDoctorId(null);
 
         assertEquals(HttpStatus.OK.value(), response.getStatus());

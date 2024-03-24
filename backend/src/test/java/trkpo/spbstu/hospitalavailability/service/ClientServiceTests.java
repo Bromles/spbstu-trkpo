@@ -12,19 +12,15 @@ import trkpo.spbstu.hospitalavailability.repository.ClientRepository;
 import java.util.Optional;
 import java.util.UUID;
 
-import static org.mockito.Mockito.doNothing;
-import static org.mockito.Mockito.when;
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.times;
-import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
 class ClientServiceTests {
 
-    @Mock
-    private ClientRepository clientRepository;
     private static final UUID CLIENT_UUID = UUID.randomUUID();
     private static final String EMAIL = "test@example.com";
+    @Mock
+    private ClientRepository clientRepository;
     private ClientService clientService;
 
     @BeforeEach

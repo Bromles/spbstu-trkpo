@@ -9,20 +9,19 @@ import javax.validation.ConstraintViolation;
 import javax.validation.Validation;
 import javax.validation.Validator;
 import javax.validation.ValidatorFactory;
-
 import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class TrackingRequestDtoTests {
 
-    private Validator validator;
     private static final long DOCTOR_ID = RandomUtils.nextLong();
     private static final long HOSPITAL_ID = RandomUtils.nextLong();
     private static final long DIRECTION_ID = RandomUtils.nextLong();
     private static final Long NEGATIVE_ID = -1L;
     private static final String VALIDATION_NEGATIVE_ERROR = "must be greater than or equal to 0";
     private static final String VALIDATION_NOT_NULL_ERROR = "must not be null";
+    private Validator validator;
 
     @BeforeEach
     void setUp() {
@@ -49,7 +48,7 @@ class TrackingRequestDtoTests {
         trackingRequestDto.setDoctorId(DOCTOR_ID);
         Set<ConstraintViolation<TrackingRequestDto>> violations = this.validator.validate(trackingRequestDto);
         assertEquals(1, violations.size());
-        assertEquals(violations.iterator().next().getMessage(),VALIDATION_NOT_NULL_ERROR, "The validator did not work");
+        assertEquals(violations.iterator().next().getMessage(), VALIDATION_NOT_NULL_ERROR, "The validator did not work");
     }
 
     @Test

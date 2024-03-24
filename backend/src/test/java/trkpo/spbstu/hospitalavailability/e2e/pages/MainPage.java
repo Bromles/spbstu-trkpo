@@ -54,7 +54,7 @@ public class MainPage extends BasePage {
         WebDriverWait wait = new WebDriverWait(Selenide.webdriver().driver().getWebDriver(), Duration.ofSeconds(30));
         wait.until((ExpectedCondition<Boolean>) driver -> {
             Select select = new Select($(directionSelector));
-            return select.getOptions().size()>1;
+            return select.getOptions().size() > 1;
         });
         Select directionSelect = new Select($(directionSelector));
         directionSelect.selectByIndex(number);
