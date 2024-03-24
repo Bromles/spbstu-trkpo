@@ -7,10 +7,8 @@ import org.junit.jupiter.api.TestMethodOrder;
 import trkpo.spbstu.hospitalavailability.e2e.pages.MainPage;
 import trkpo.spbstu.hospitalavailability.e2e.pages.keycloak.KeycloakLoginPage;
 
-import static com.codeborne.selenide.Selenide.open;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-@Order(2)
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 class AuthTest extends BaseTest {
 
