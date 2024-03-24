@@ -57,7 +57,7 @@ jobs:
           fail_ci_if_error: true
 
   e2e_tests:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
