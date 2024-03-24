@@ -1,21 +1,19 @@
 package trkpo.spbstu.hospitalavailability.e2e.pages.mail;
 
+import lombok.RequiredArgsConstructor;
 import org.openqa.selenium.By;
 import trkpo.spbstu.hospitalavailability.e2e.pages.BasePage;
 
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
 
+@RequiredArgsConstructor
 public class EmailMainPage extends BasePage {
     private static final By lastEmailMessage = By.xpath("//*[@id='app-canvas']//*[contains(text(), 'Verify email') or contains(text(), 'Подтверждение email')]");
     private static final By lastPasswordMessage = By.xpath("//*[@id='app-canvas']//*[contains(text(), 'Reset password') or contains(text(), 'Сброс пароля')]");
     private static final By link = By.xpath("//div[@class='letter__body']//a[1]");
 
     private final Purpose purpose;
-
-    public EmailMainPage(Purpose purpose) {
-        this.purpose = purpose;
-    }
 
     @Override
     protected void checkPage() {
