@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class EmailLoginPage extends BasePage {
 
-    private static final By loginField =  By.name("username");
+    private static final By loginField = By.name("username");
     private static final By nextStepBtn = By.xpath("//*[contains(@data-test-id, 'next-button')]");
 
     @Override

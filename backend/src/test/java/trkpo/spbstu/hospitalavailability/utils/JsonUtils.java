@@ -48,6 +48,7 @@ public class JsonUtils {
         response.put("success", true);
         return response.toString();
     }
+
     public static String getBadJson(Long id) throws JSONException {
         JSONObject specialties = new JSONObject();
         specialties.put("id", id);

@@ -16,13 +16,11 @@ import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
 class DistrictRepositoryTest {
-    @Mock
-    private DistrictRepository districtRepository;
-
     private static final long ID = new Random().nextLong();
     private static final long GORZDRAV_ID = new Random().nextLong();
     private static final String NAME = "test district";
-
+    @Mock
+    private DistrictRepository districtRepository;
     @InjectMocks
     private District district = new District();
 

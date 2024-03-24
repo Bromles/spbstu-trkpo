@@ -9,8 +9,8 @@ import org.testcontainers.shaded.org.apache.commons.lang3.RandomStringUtils;
 import trkpo.spbstu.hospitalavailability.dto.ClientRequestDto;
 import trkpo.spbstu.hospitalavailability.service.ClientService;
 
-import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
 
 
 @ExtendWith(MockitoExtension.class)

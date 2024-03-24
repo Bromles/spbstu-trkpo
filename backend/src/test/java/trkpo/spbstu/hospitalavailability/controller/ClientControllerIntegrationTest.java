@@ -1,8 +1,6 @@
 package trkpo.spbstu.hospitalavailability.controller;
 
 
-import java.util.UUID;
-
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -26,6 +24,8 @@ import org.testcontainers.shaded.org.apache.commons.lang3.RandomStringUtils;
 import trkpo.spbstu.hospitalavailability.dto.ClientRequestDto;
 import trkpo.spbstu.hospitalavailability.repository.ClientRepository;
 
+import java.util.UUID;
+
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.jwt;
@@ -35,7 +35,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @Testcontainers
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class ClientControllerIntegrationTest {
+class ClientControllerIntegrationTest {
     private static final String TEST_UUID = UUID.randomUUID().toString();
 
     @Container
@@ -57,6 +57,13 @@ public class ClientControllerIntegrationTest {
     private ClientRepository clientRepository;
     private MockMvc mvc;
 
+    @DynamicPropertySource
+    static void postgresProperties(DynamicPropertyRegistry registry) {
+        registry.add("spring.datasource.url", POSTGRESQL_CONTAINER::getJdbcUrl);
+        registry.add("spring.datasource.username", POSTGRESQL_CONTAINER::getUsername);
+        registry.add("spring.datasource.password", POSTGRESQL_CONTAINER::getPassword);
+    }
+
     @BeforeEach
     void setup() {
         mvc = MockMvcBuilders.webAppContextSetup(context)
@@ -67,13 +74,6 @@ public class ClientControllerIntegrationTest {
     @AfterEach
     void resetDb() {
         clientRepository.deleteAll();
-    }
-
-    @DynamicPropertySource
-    static void postgresProperties(DynamicPropertyRegistry registry) {
-        registry.add("spring.datasource.url", POSTGRESQL_CONTAINER::getJdbcUrl);
-        registry.add("spring.datasource.username", POSTGRESQL_CONTAINER::getUsername);
-        registry.add("spring.datasource.password", POSTGRESQL_CONTAINER::getPassword);
     }
 
     @Test

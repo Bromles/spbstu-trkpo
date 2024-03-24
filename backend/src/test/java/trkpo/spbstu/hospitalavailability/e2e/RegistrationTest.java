@@ -2,7 +2,8 @@ package trkpo.spbstu.hospitalavailability.e2e;
 
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
-import org.junit.Test;
+import org.junit.jupiter.api.Order;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import trkpo.spbstu.hospitalavailability.e2e.pages.MainPage;
 import trkpo.spbstu.hospitalavailability.e2e.pages.keycloak.KeycloakRegistrationPage;
@@ -12,14 +13,16 @@ import trkpo.spbstu.hospitalavailability.e2e.pages.mail.EmailUnauthPage;
 
 import java.util.Set;
 
-import static com.codeborne.selenide.Selenide.*;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.open;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class RegistrationTest extends BaseTest{
+@Order(1)
+class RegistrationTest extends BaseTest {
 
     @Test
-    public void validInputRegistrationTest() {
+    void validInputRegistrationTest() {
         String emailLogin = "test_testov2025";
         String emailPwd = "u2BeyRrOBo2&";
         String pwd = "123456";
@@ -54,7 +57,7 @@ public class RegistrationTest extends BaseTest{
     }
 
     @Test
-    public void invalidInputRegistrationTest() {
+    void invalidInputRegistrationTest() {
         KeycloakRegistrationPage registrationPage = unauthPage.clickLoginBtn()
                 .clickRegisterRef()
                 .inputFirstName("qwerty")
@@ -66,8 +69,8 @@ public class RegistrationTest extends BaseTest{
         registrationPage.clickRegisterBtn();
 
         assertTrue(Set.of("Некорректный пароль: длина пароля должна быть не менее 6 символов(а).",
-                                "Invalid password: minimum length 6.")
-                        .contains(registrationPage.getPwdError().getText().trim()));
+                        "Invalid password: minimum length 6.")
+                .contains(registrationPage.getPwdError().getText().trim()));
 
         //длинный пароль
         registrationPage.inputPasswd("12345678912345678912345");

@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class TrackingInfoRsDtoTests {
 
     private static final String DOCTOR_NAME = RandomStringUtils.randomAlphabetic(5);
-    private static final String DIRECTION_NAME =  RandomStringUtils.randomAlphabetic(5);
+    private static final String DIRECTION_NAME = RandomStringUtils.randomAlphabetic(5);
 
     @Test
     void testTrackingInfoRsDto() {

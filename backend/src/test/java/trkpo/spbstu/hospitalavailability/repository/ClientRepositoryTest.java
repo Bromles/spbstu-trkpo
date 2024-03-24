@@ -17,13 +17,11 @@ import static org.mockito.Mockito.*;
 @ExtendWith(MockitoExtension.class)
 class ClientRepositoryTest {
 
-    @Mock
-    private ClientRepository clientRepository;
-
     private static final UUID KEYCLOAK_ID = UUID.randomUUID();
     private static final long ID = new Random().nextLong();
     private static final String EMAIL = "test@gmail.com";
-
+    @Mock
+    private ClientRepository clientRepository;
     @InjectMocks
     private Client client = new Client();
 

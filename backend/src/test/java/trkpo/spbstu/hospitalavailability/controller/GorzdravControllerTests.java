@@ -20,13 +20,6 @@ import static org.mockito.Mockito.*;
 @ExtendWith(MockitoExtension.class)
 class GorzdravControllerTests {
 
-    @Mock
-    private DistrictService districtService;
-    @Mock
-    private HospitalService hospitalService;
-    @Mock
-    private GorzdravService gorzdravService;
-    private GorzdravController gorzdravController;
     private static final Long ID = 1L;
     private static final Long GORZDRAV_ID = 2L;
     private static final String NAME = RandomStringUtils.randomAlphabetic(5);
@@ -38,7 +31,14 @@ class GorzdravControllerTests {
     private static final String FULL_NAME = RandomStringUtils.randomAlphabetic(5);
     private static final String SHORT_NAME = RandomStringUtils.randomAlphabetic(5);
     private static final String DOCTOR_NAME = RandomStringUtils.randomAlphabetic(5);
-    private static final String DIRECTION_NAME =  RandomStringUtils.randomAlphabetic(5);
+    private static final String DIRECTION_NAME = RandomStringUtils.randomAlphabetic(5);
+    @Mock
+    private DistrictService districtService;
+    @Mock
+    private HospitalService hospitalService;
+    @Mock
+    private GorzdravService gorzdravService;
+    private GorzdravController gorzdravController;
 
     @BeforeEach
     void setUp() {

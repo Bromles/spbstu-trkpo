@@ -13,20 +13,17 @@ import trkpo.spbstu.hospitalavailability.exception.BackendUnavailableException;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.times;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.any;
+import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
 class NotificationMailSenderTests {
 
+    private static final String USER_MAIL = "user@example.com";
+    private static final String SUBJECT = RandomStringUtils.randomAlphabetic(5);
+    private static final String MESSAGE = RandomStringUtils.randomAlphabetic(5);
     @Mock
     private MailSender mailSender;
     private NotificationMailSender notificationMailSender;
-    private static final String USER_MAIL = "user@example.com";
-    private static final String SUBJECT = RandomStringUtils.randomAlphabetic(5);
-    private static final String MESSAGE  = RandomStringUtils.randomAlphabetic(5);
 
     @BeforeEach
     void setup() {

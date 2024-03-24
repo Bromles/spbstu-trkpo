@@ -73,6 +73,13 @@ class GorzdravControllerIntegrationTest {
     @Autowired
     private ObjectMapper objectMapper;
 
+    @DynamicPropertySource
+    static void postgresProperties(DynamicPropertyRegistry registry) {
+        registry.add("spring.datasource.url", POSTGRESQL_CONTAINER::getJdbcUrl);
+        registry.add("spring.datasource.username", POSTGRESQL_CONTAINER::getUsername);
+        registry.add("spring.datasource.password", POSTGRESQL_CONTAINER::getPassword);
+    }
+
     @BeforeEach
     void setup() {
         mvc = MockMvcBuilders.webAppContextSetup(context)
@@ -84,13 +91,6 @@ class GorzdravControllerIntegrationTest {
     void resetDb() {
         hospitalRepository.deleteAll();
         districtRepository.deleteAll();
-    }
-
-    @DynamicPropertySource
-    static void postgresProperties(DynamicPropertyRegistry registry) {
-        registry.add("spring.datasource.url", POSTGRESQL_CONTAINER::getJdbcUrl);
-        registry.add("spring.datasource.username", POSTGRESQL_CONTAINER::getUsername);
-        registry.add("spring.datasource.password", POSTGRESQL_CONTAINER::getPassword);
     }
 
     @Test
@@ -271,7 +271,8 @@ class GorzdravControllerIntegrationTest {
                         )
                 )
         ).andExpect(status().isOk()).andReturn().getResponse();
-        List<GorzdravDoctorRsDto> body = objectMapper.readValue(response.getContentAsString(),  new TypeReference<>() {});
+        List<GorzdravDoctorRsDto> body = objectMapper.readValue(response.getContentAsString(), new TypeReference<>() {
+        });
         assertEquals(List.of(), body);
     }
 }

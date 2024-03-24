@@ -1,9 +1,6 @@
 package trkpo.spbstu.hospitalavailability.controller;
 
 
-import java.time.LocalDateTime;
-import java.util.UUID;
-
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -35,9 +32,10 @@ import trkpo.spbstu.hospitalavailability.repository.DistrictRepository;
 import trkpo.spbstu.hospitalavailability.repository.HospitalRepository;
 import trkpo.spbstu.hospitalavailability.repository.TrackingRepository;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import java.time.LocalDateTime;
+import java.util.UUID;
+
+import static org.junit.jupiter.api.Assertions.*;
 import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.jwt;
 import static org.springframework.security.test.web.servlet.setup.SecurityMockMvcConfigurers.springSecurity;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.delete;
@@ -45,7 +43,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @Testcontainers
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class DeleteTrackingIntegrationTest {
+class DeleteTrackingIntegrationTest {
     private static final String TEST_UUID = UUID.randomUUID().toString();
     private static final String TEST_UUID2 = UUID.randomUUID().toString();
     private static final Long HOSPITAL_G_ID = RandomUtils.nextLong();
@@ -78,6 +76,13 @@ public class DeleteTrackingIntegrationTest {
     private DistrictRepository districtRepository;
     private MockMvc mvc;
 
+    @DynamicPropertySource
+    static void postgresProperties(DynamicPropertyRegistry registry) {
+        registry.add("spring.datasource.url", POSTGRESQL_CONTAINER::getJdbcUrl);
+        registry.add("spring.datasource.username", POSTGRESQL_CONTAINER::getUsername);
+        registry.add("spring.datasource.password", POSTGRESQL_CONTAINER::getPassword);
+    }
+
     @BeforeEach
     void setup() {
         mvc = MockMvcBuilders.webAppContextSetup(context)
@@ -91,13 +96,6 @@ public class DeleteTrackingIntegrationTest {
         hospitalRepository.deleteAll();
         clientRepository.deleteAll();
         districtRepository.deleteAll();
-    }
-
-    @DynamicPropertySource
-    static void postgresProperties(DynamicPropertyRegistry registry) {
-        registry.add("spring.datasource.url", POSTGRESQL_CONTAINER::getJdbcUrl);
-        registry.add("spring.datasource.username", POSTGRESQL_CONTAINER::getUsername);
-        registry.add("spring.datasource.password", POSTGRESQL_CONTAINER::getPassword);
     }
 
     @Test
