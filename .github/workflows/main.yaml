@@ -99,6 +99,13 @@ jobs:
         if: failure()
         with:
             images: 'postgres,quay.io/keycloak/keycloak'
+      - name: Upload debug artifacts
+        uses: actions/upload-artifacts@v4
+        if: failure()
+        with:
+          name: debug-info
+          path: /home/runner/work/spbstu-trkpo/spbstu-trkpo/backend/build/reports/tests/*
+          overwrite: true
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v4.0.1
         with:
