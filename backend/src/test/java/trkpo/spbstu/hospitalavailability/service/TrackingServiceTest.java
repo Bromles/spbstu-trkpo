@@ -37,17 +37,19 @@ import java.util.Optional;
 import java.util.Random;
 import java.util.UUID;
 
-import static org.junit.Assert.assertThrows;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
 class TrackingServiceTest {
 
+    protected static final TrackingInfoRsDto TRACKING_INFO_RS_DTO = new TrackingInfoRsDto("Doctor Name", "Direction Name");
+    private static final UUID KEYCLOAK_ID = UUID.randomUUID();
+    private static final long ID = new Random().nextLong();
+    protected static final GorzdravSpecialtiesDto GORZDRAV_SPECIALTIES_DTO = new GorzdravSpecialtiesDto(ID, 10L, "Specialty name");
+    private final TrackingMapper trackingMapper = new TrackingMapperImpl();
     @Mock
     private TrackingRepository trackingRepository;
-    private final TrackingMapper trackingMapper = new TrackingMapperImpl();
     @Mock
     private ClientRepository clientRepository;
     @Mock
@@ -67,11 +69,6 @@ class TrackingServiceTest {
     @Mock
     private NotificationMailSender notificationMailSender;
     private TrackingService trackingService;
-
-    private static final UUID KEYCLOAK_ID = UUID.randomUUID();
-    private static final long ID = new Random().nextLong();
-    protected static final TrackingInfoRsDto TRACKING_INFO_RS_DTO = new TrackingInfoRsDto("Doctor Name", "Direction Name");
-    protected static final GorzdravSpecialtiesDto GORZDRAV_SPECIALTIES_DTO = new GorzdravSpecialtiesDto(ID, 10L, "Specialty name");
 
     private Client getDefaultClient() {
         Client client = new Client();

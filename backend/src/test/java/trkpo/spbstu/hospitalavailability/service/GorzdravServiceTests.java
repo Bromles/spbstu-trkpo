@@ -27,9 +27,6 @@ import static org.mockito.Mockito.when;
 @ExtendWith(MockitoExtension.class)
 class GorzdravServiceTests {
 
-    @Mock
-    private RestTemplate restTemplate;
-    private GorzdravService gorzdravService;
     private static final String FULL_NAME = RandomStringUtils.randomAlphabetic(5);
     private static final String SHORT_NAME = RandomStringUtils.randomAlphabetic(5);
     private static final String ADDRESS = RandomStringUtils.randomAlphabetic(5);
@@ -43,6 +40,9 @@ class GorzdravServiceTests {
     private static final Long HOSPITAL_ID = RandomUtils.nextLong();
     private static final Long DOCTOR_ID = RandomUtils.nextLong();
     private static final Long SP_ID = RandomUtils.nextLong();
+    @Mock
+    private RestTemplate restTemplate;
+    private GorzdravService gorzdravService;
 
     @BeforeEach
     void setup() {
@@ -70,7 +70,7 @@ class GorzdravServiceTests {
 
     @ParameterizedTest
     @ValueSource(ints = {503, 502})
-    void testGetHospitalsWithBadHttpStatus(int httpStatus){
+    void testGetHospitalsWithBadHttpStatus(int httpStatus) {
         ResponseEntity<String> responseEntity = new ResponseEntity<>("", HttpStatus.valueOf(httpStatus));
         String url = "/shared/lpus";
         when(restTemplate.getForEntity(url, String.class)).thenReturn(responseEntity);
@@ -101,7 +101,7 @@ class GorzdravServiceTests {
 
     @ParameterizedTest
     @ValueSource(ints = {503, 502})
-    void testGetDistrictWithBadHttpStatus(int httpStatus){
+    void testGetDistrictWithBadHttpStatus(int httpStatus) {
         ResponseEntity<String> responseEntity = new ResponseEntity<>("", HttpStatus.valueOf(httpStatus));
         String url = "/shared/districts";
         when(restTemplate.getForEntity(url, String.class)).thenReturn(responseEntity);
@@ -142,7 +142,7 @@ class GorzdravServiceTests {
     }
 
     @Test
-    void getSpecialtiesNotFound(){
+    void getSpecialtiesNotFound() {
         ResponseEntity<String> responseEntity = new ResponseEntity<>("{\"success\": false}", HttpStatus.OK);
         String url = "/schedule/lpu/" + HOSPITAL_ID + "/specialties";
         when(restTemplate.getForEntity(url, String.class)).thenReturn(responseEntity);
@@ -161,7 +161,7 @@ class GorzdravServiceTests {
     @Test
     void getDoctorsBySpecialityId() throws JSONException {
         ResponseEntity<String> responseEntity = new ResponseEntity<>(JsonUtils.getUniversalJson(ID, DOCTOR_NAME), HttpStatus.OK);
-        String url = "/schedule/lpu/" + HOSPITAL_ID  + "/speciality/" + SP_ID + "/doctors";
+        String url = "/schedule/lpu/" + HOSPITAL_ID + "/speciality/" + SP_ID + "/doctors";
         when(restTemplate.getForEntity(url, String.class)).thenReturn(responseEntity);
 
         List<GorzdravDoctorRsDto> doctors = gorzdravService.getDoctorsBySpecialityId(HOSPITAL_ID, SP_ID);
@@ -191,8 +191,8 @@ class GorzdravServiceTests {
 
     @Test
     void getTrackingInfoTest() throws JSONException {
-        String urlForGetDoctorName = "/schedule/lpu/"+ HOSPITAL_ID + "/speciality/" + SP_ID + "/doctors";
-        String urlForGetDirectionName = "/schedule/lpu/"+ HOSPITAL_ID + "/specialties";
+        String urlForGetDoctorName = "/schedule/lpu/" + HOSPITAL_ID + "/speciality/" + SP_ID + "/doctors";
+        String urlForGetDirectionName = "/schedule/lpu/" + HOSPITAL_ID + "/specialties";
 
         ResponseEntity<String> responseEntityGetDoctorName = new ResponseEntity<>(JsonUtils.getUniversalJson(DOCTOR_ID, DOCTOR_NAME), HttpStatus.OK);
         ResponseEntity<String> responseEntityGetDirectionName = new ResponseEntity<>(JsonUtils.getUniversalJson(SP_ID, SP_NAME), HttpStatus.OK);
@@ -201,7 +201,7 @@ class GorzdravServiceTests {
         when(restTemplate.getForEntity(urlForGetDirectionName, String.class)).thenReturn(responseEntityGetDirectionName);
 
         TrackingInfoRsDto trackingInfoRsDto = gorzdravService.getTrackingInfo(HOSPITAL_ID, SP_ID, DOCTOR_ID);
-        assertNotNull(trackingInfoRsDto,"Empty answer");
+        assertNotNull(trackingInfoRsDto, "Empty answer");
         assertAll("Checking the response fields",
                 () -> assertEquals(trackingInfoRsDto.getDirectionName(), SP_NAME),
                 () -> assertEquals(trackingInfoRsDto.getDoctorName(), DOCTOR_NAME));
@@ -210,13 +210,13 @@ class GorzdravServiceTests {
     @Test
     void getTrackingInfoTestWithoutDoctor() throws JSONException {
         Long doctorId = -1L;
-        String urlForGetDirectionName = "/schedule/lpu/"+ HOSPITAL_ID + "/specialties";
+        String urlForGetDirectionName = "/schedule/lpu/" + HOSPITAL_ID + "/specialties";
 
         ResponseEntity<String> responseEntityGetDirectionName = new ResponseEntity<>(JsonUtils.getUniversalJson(SP_ID, SP_NAME), HttpStatus.OK);
         when(restTemplate.getForEntity(urlForGetDirectionName, String.class)).thenReturn(responseEntityGetDirectionName);
 
         TrackingInfoRsDto trackingInfoRsDto = gorzdravService.getTrackingInfo(HOSPITAL_ID, SP_ID, doctorId);
-        assertNotNull(trackingInfoRsDto,"Empty");
+        assertNotNull(trackingInfoRsDto, "Empty");
         assertAll("Checking the response fields",
                 () -> assertEquals(trackingInfoRsDto.getDirectionName(), SP_NAME),
                 () -> assertEquals(trackingInfoRsDto.getDoctorName(), "Без разницы"));
@@ -225,8 +225,8 @@ class GorzdravServiceTests {
     @Test
     void getTrackingInfoTestNoInfoAboutDoctor() throws JSONException {
         Long anotherDoctorId = RandomUtils.nextLong();
-        String urlForGetDoctorName = "/schedule/lpu/"+ HOSPITAL_ID + "/speciality/" + SP_ID + "/doctors";
-        String urlForGetDirectionName = "/schedule/lpu/"+ HOSPITAL_ID + "/specialties";
+        String urlForGetDoctorName = "/schedule/lpu/" + HOSPITAL_ID + "/speciality/" + SP_ID + "/doctors";
+        String urlForGetDirectionName = "/schedule/lpu/" + HOSPITAL_ID + "/specialties";
 
         ResponseEntity<String> responseEntityGetDoctorName = new ResponseEntity<>(JsonUtils.getUniversalJson(anotherDoctorId, DOCTOR_NAME), HttpStatus.OK);
         ResponseEntity<String> responseEntityGetDirectionName = new ResponseEntity<>(JsonUtils.getUniversalJson(SP_ID, SP_NAME), HttpStatus.OK);
@@ -235,7 +235,7 @@ class GorzdravServiceTests {
         when(restTemplate.getForEntity(urlForGetDirectionName, String.class)).thenReturn(responseEntityGetDirectionName);
 
         TrackingInfoRsDto trackingInfoRsDto = gorzdravService.getTrackingInfo(HOSPITAL_ID, SP_ID, DOCTOR_ID);
-        assertNotNull(trackingInfoRsDto,"Empty");
+        assertNotNull(trackingInfoRsDto, "Empty");
         assertAll("Checking the response fields",
                 () -> assertEquals(trackingInfoRsDto.getDirectionName(), SP_NAME),
                 () -> assertEquals(trackingInfoRsDto.getDoctorName(), "Нет информации"));
@@ -244,8 +244,8 @@ class GorzdravServiceTests {
     @Test
     void getTrackingInfoTestNoInfoAboutDirection() throws JSONException {
         Long anotherDirectionId = RandomUtils.nextLong();
-        String urlForGetDoctorName = "/schedule/lpu/"+ HOSPITAL_ID + "/speciality/" + SP_ID + "/doctors";
-        String urlForGetDirectionName = "/schedule/lpu/"+ HOSPITAL_ID + "/specialties";
+        String urlForGetDoctorName = "/schedule/lpu/" + HOSPITAL_ID + "/speciality/" + SP_ID + "/doctors";
+        String urlForGetDirectionName = "/schedule/lpu/" + HOSPITAL_ID + "/specialties";
 
         ResponseEntity<String> responseEntityGetDoctorName = new ResponseEntity<>(JsonUtils.getUniversalJson(DOCTOR_ID, DOCTOR_NAME), HttpStatus.OK);
         ResponseEntity<String> responseEntityGetDirectionName = new ResponseEntity<>(JsonUtils.getUniversalJson(anotherDirectionId, SP_NAME), HttpStatus.OK);
@@ -254,7 +254,7 @@ class GorzdravServiceTests {
         when(restTemplate.getForEntity(urlForGetDirectionName, String.class)).thenReturn(responseEntityGetDirectionName);
 
         TrackingInfoRsDto trackingInfoRsDto = gorzdravService.getTrackingInfo(HOSPITAL_ID, SP_ID, DOCTOR_ID);
-        assertNotNull(trackingInfoRsDto,"Empty");
+        assertNotNull(trackingInfoRsDto, "Empty");
         assertAll("Checking the response fields",
                 () -> assertEquals(trackingInfoRsDto.getDirectionName(), "Нет информации"),
                 () -> assertEquals(trackingInfoRsDto.getDoctorName(), DOCTOR_NAME));
@@ -263,24 +263,24 @@ class GorzdravServiceTests {
     @ParameterizedTest
     @ValueSource(ints = {503, 502})
     void getTrackingInfoTestBadHttpStatusGetDoctorName(int httpStatus) {
-        String urlForGetDoctorName = "/schedule/lpu/"+ HOSPITAL_ID + "/speciality/" + SP_ID + "/doctors";
+        String urlForGetDoctorName = "/schedule/lpu/" + HOSPITAL_ID + "/speciality/" + SP_ID + "/doctors";
 
         ResponseEntity<String> responseEntityGetDoctorName = new ResponseEntity<>("", HttpStatus.valueOf(httpStatus));
         when(restTemplate.getForEntity(urlForGetDoctorName, String.class)).thenReturn(responseEntityGetDoctorName);
-        assertThrows(BackendUnavailableException.class, () ->gorzdravService.getTrackingInfo(HOSPITAL_ID, SP_ID, DOCTOR_ID));
+        assertThrows(BackendUnavailableException.class, () -> gorzdravService.getTrackingInfo(HOSPITAL_ID, SP_ID, DOCTOR_ID));
     }
 
     @ParameterizedTest
     @ValueSource(ints = {503, 502})
     void getTrackingInfoTestBadHttpStatusGetDirectionalName(int httpStatus) throws JSONException {
-        String urlForGetDoctorName = "/schedule/lpu/"+ HOSPITAL_ID + "/speciality/" + SP_ID + "/doctors";
-        String urlForGetDirectionName = "/schedule/lpu/"+ HOSPITAL_ID + "/specialties";
+        String urlForGetDoctorName = "/schedule/lpu/" + HOSPITAL_ID + "/speciality/" + SP_ID + "/doctors";
+        String urlForGetDirectionName = "/schedule/lpu/" + HOSPITAL_ID + "/specialties";
 
         ResponseEntity<String> responseEntityGetDoctorName = new ResponseEntity<>(JsonUtils.getUniversalJson(DOCTOR_ID, DOCTOR_NAME), HttpStatus.OK);
         ResponseEntity<String> responseEntityGetDirectionName = new ResponseEntity<>("", HttpStatus.valueOf(httpStatus));
 
         when(restTemplate.getForEntity(urlForGetDoctorName, String.class)).thenReturn(responseEntityGetDoctorName);
         when(restTemplate.getForEntity(urlForGetDirectionName, String.class)).thenReturn(responseEntityGetDirectionName);
-        assertThrows(BackendUnavailableException.class, () ->gorzdravService.getTrackingInfo(HOSPITAL_ID, SP_ID, DOCTOR_ID));
+        assertThrows(BackendUnavailableException.class, () -> gorzdravService.getTrackingInfo(HOSPITAL_ID, SP_ID, DOCTOR_ID));
     }
 }

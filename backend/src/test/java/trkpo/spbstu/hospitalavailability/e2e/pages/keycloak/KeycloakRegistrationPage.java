@@ -14,9 +14,9 @@ public class KeycloakRegistrationPage extends BasePage {
     private static final By emailField = By.id("email");
     private static final By passwordField = By.id("password");
     private static final By passwordConfirmField = By.id("password-confirm");
-    private static final By submit =  By.xpath("//*[contains(@type, 'submit')]");
-    private static final By pwdError =  By.xpath("//*[@id='input-error-password']");
-    private static final By emailError =  By.xpath("//*[@id='input-error-email']");
+    private static final By submit = By.xpath("//*[contains(@type, 'submit')]");
+    private static final By pwdError = By.xpath("//*[@id='input-error-password']");
+    private static final By emailError = By.xpath("//*[@id='input-error-email']");
 
     @Override
     protected void checkPage() {

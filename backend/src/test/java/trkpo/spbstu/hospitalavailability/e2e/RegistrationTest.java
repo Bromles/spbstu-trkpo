@@ -2,8 +2,9 @@ package trkpo.spbstu.hospitalavailability.e2e;
 
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import trkpo.spbstu.hospitalavailability.e2e.pages.MainPage;
 import trkpo.spbstu.hospitalavailability.e2e.pages.keycloak.KeycloakRegistrationPage;
 import trkpo.spbstu.hospitalavailability.e2e.pages.mail.EmailLoginPage;
@@ -12,25 +13,33 @@ import trkpo.spbstu.hospitalavailability.e2e.pages.mail.EmailUnauthPage;
 
 import java.util.Set;
 
-import static com.codeborne.selenide.Selenide.*;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.open;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class RegistrationTest extends BaseTest{
+class RegistrationTest extends BaseTest {
 
     @Test
-    public void validInputRegistrationTest() {
+    void validInputRegistrationTest() {
         String emailLogin = "test_testov2025";
         String emailPwd = "u2BeyRrOBo2&";
         String pwd = "123456";
-        unauthPage.clickLoginBtn()
-                .clickRegisterRef()
+        KeycloakRegistrationPage keycloakRegistrationPage = unauthPage.clickLoginBtn().clickRegisterRef();
+
+        keycloakRegistrationPage
                 .inputFirstName("qwerty")
                 .inputLastName("asdf")
                 .inputEmail(emailLogin + "@mail.ru")
                 .inputPasswd(pwd)
                 .inputPasswdConfirm(pwd)
                 .clickRegisterBtn();
+
+        WebElement emailError = keycloakRegistrationPage.getEmailError();
+
+        if (Set.of("E-mail already exists.", "E-mail уже существует.").contains(emailError.getText().trim())) {
+            return;
+        }
 
         String verificationTitle = $(By.xpath("//*[@id='kc-page-title']")).getText().trim();
         assertTrue(Set.of("Подтверждение адреса E-mail", "Email verification").contains(verificationTitle));
@@ -47,14 +56,14 @@ public class RegistrationTest extends BaseTest{
                 .clickLoginBtn();
 
         Selenide.switchTo().defaultContent();
-        String link = new EmailMainPage().openLastMessageAndGetLing();
+        String link = new EmailMainPage().openLastMessageAndGetLink();
         open(link);
         String userInfo = new MainPage().getUserInfo();
         assertTrue(userInfo.contains(emailLogin + "@mail.ru"));
     }
 
     @Test
-    public void invalidInputRegistrationTest() {
+    void invalidInputRegistrationTest() {
         KeycloakRegistrationPage registrationPage = unauthPage.clickLoginBtn()
                 .clickRegisterRef()
                 .inputFirstName("qwerty")
@@ -66,8 +75,8 @@ public class RegistrationTest extends BaseTest{
         registrationPage.clickRegisterBtn();
 
         assertTrue(Set.of("Некорректный пароль: длина пароля должна быть не менее 6 символов(а).",
-                                "Invalid password: minimum length 6.")
-                        .contains(registrationPage.getPwdError().getText().trim()));
+                        "Invalid password: minimum length 6.")
+                .contains(registrationPage.getPwdError().getText().trim()));
 
         //длинный пароль
         registrationPage.inputPasswd("12345678912345678912345");

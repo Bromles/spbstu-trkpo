@@ -20,9 +20,6 @@ import static org.mockito.Mockito.*;
 @ExtendWith(MockitoExtension.class)
 class TrackingControllerTests {
 
-    @Mock
-    private TrackingService trackingService;
-    private TrackingController trackingController;
     private static final long ID = RandomUtils.nextLong();
     private static final long GORZDRAV_ID = RandomUtils.nextLong();
     private static final long HOSPITAL_ID = RandomUtils.nextLong();
@@ -31,6 +28,9 @@ class TrackingControllerTests {
     private static final long CLIENT_ID = RandomUtils.nextLong();
     private static final long DOCTOR_ID = RandomUtils.nextLong();
     private static final String FULL_NAME = RandomStringUtils.randomAlphabetic(5);
+    @Mock
+    private TrackingService trackingService;
+    private TrackingController trackingController;
 
     @BeforeEach
     void setUp() {
@@ -64,7 +64,7 @@ class TrackingControllerTests {
         trackingRequestDto.setDoctorId(DOCTOR_ID);
         trackingRequestDto.setDirectionId(DIRECTION_ID);
         when(trackingService.addTracking(any(TrackingRequestDto.class))).thenReturn(trackingResponseDto);
-        TrackingResponseDto result  = trackingController.addTracking(trackingRequestDto);
+        TrackingResponseDto result = trackingController.addTracking(trackingRequestDto);
         assertEquals(result, trackingResponseDto);
         verify(trackingService, times(1)).addTracking(trackingRequestDto);
     }

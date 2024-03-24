@@ -1,17 +1,19 @@
 package trkpo.spbstu.hospitalavailability.e2e;
 
-import org.junit.Test;
+
+import org.junit.jupiter.api.Test;
 import trkpo.spbstu.hospitalavailability.e2e.pages.MainPage;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class AddAndDeleteTrackingWithDoctorTest extends BaseTest{
+
+class AddAndDeleteTrackingWithDoctorTest extends BaseTest {
 
     private static final String DEFAULT_EMAIL = "spbstu.trkpo@yandex.ru";
     private static final String DEFAULT_PWD = "5130904/00104";
 
     @Test
-    public void addAndDeleteTrackingWithDoctorTest() {
+    void addAndDeleteTrackingWithDoctorTest() {
         unauthPage.clickLoginBtn()
                 .inputLogin(DEFAULT_EMAIL)
                 .inputPasswd(DEFAULT_PWD)
@@ -22,9 +24,10 @@ public class AddAndDeleteTrackingWithDoctorTest extends BaseTest{
         mainPage.selectDirection(1);
         mainPage.selectDoctor(1);
         mainPage.clickStartTrackingBtn();
-        assertEquals(mainPage.getTrackingCount(), 1);
+        assertEquals(1, mainPage.getTrackingCount());
 
         mainPage.clickStopTrackingBtn();
         assertEquals(0, mainPage.getTrackingCount());
+        mainPage.clickExit();
     }
 }

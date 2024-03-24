@@ -15,22 +15,24 @@ import trkpo.spbstu.hospitalavailability.mapper.HospitalMapper;
 import trkpo.spbstu.hospitalavailability.repository.HospitalRepository;
 
 import javax.persistence.EntityManager;
-
 import java.util.List;
 import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.mockito.Mockito.*;
 import static trkpo.spbstu.hospitalavailability.utils.HospitalUtils.getHospital;
-import static org.mockito.Mockito.when;
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.times;
-import static org.mockito.Mockito.anyList;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.any;
 
 @ExtendWith(MockitoExtension.class)
 class HospitalServiceTests {
 
+    private static final String FULL_NAME = RandomStringUtils.randomAlphabetic(5);
+    private static final String SHORT_NAME = RandomStringUtils.randomAlphabetic(5);
+    private static final String ADDRESS = RandomStringUtils.randomAlphabetic(5);
+    private static final Long ID = RandomUtils.nextLong();
+    private static final Long DISTRICT_ID = RandomUtils.nextLong();
+    private static final String PHONE = "(812) 246-39-90";
+    private static final Double LONGITUDE = RandomUtils.nextDouble();
+    private static final Double LATITUDE = RandomUtils.nextDouble();
     @Mock
     private GorzdravService gorzdravService;
     @Mock
@@ -42,14 +44,6 @@ class HospitalServiceTests {
     @Mock
     private EntityManager entityManager;
     private HospitalService hospitalService;
-    private static final String FULL_NAME = RandomStringUtils.randomAlphabetic(5);
-    private static final String SHORT_NAME = RandomStringUtils.randomAlphabetic(5);
-    private static final String ADDRESS = RandomStringUtils.randomAlphabetic(5);
-    private static final Long ID = RandomUtils.nextLong();
-    private static final Long DISTRICT_ID = RandomUtils.nextLong();
-    private static final String PHONE = "(812) 246-39-90";
-    private static final Double LONGITUDE = RandomUtils.nextDouble();
-    private static final Double LATITUDE = RandomUtils.nextDouble();
 
     @BeforeEach
     void setup() {
@@ -59,11 +53,11 @@ class HospitalServiceTests {
 
     @Test
     void testFindAll() {
-       when(hospitalRepository.findAll()).thenReturn(List.of());
-       HospitalResponseDto mockHospitalResponseDto = mock(HospitalResponseDto.class);
-       when(hospitalMapper.toHospitalDto(anyList())).thenReturn(List.of(mockHospitalResponseDto));
-       List<HospitalResponseDto> hospitalResponseDto = hospitalService.findAll();
-       assertThat(hospitalResponseDto).containsExactly(mockHospitalResponseDto);
+        when(hospitalRepository.findAll()).thenReturn(List.of());
+        HospitalResponseDto mockHospitalResponseDto = mock(HospitalResponseDto.class);
+        when(hospitalMapper.toHospitalDto(anyList())).thenReturn(List.of(mockHospitalResponseDto));
+        List<HospitalResponseDto> hospitalResponseDto = hospitalService.findAll();
+        assertThat(hospitalResponseDto).containsExactly(mockHospitalResponseDto);
     }
 
     @Test
