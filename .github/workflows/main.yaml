@@ -94,6 +94,11 @@ jobs:
           DB_USERNAME: ${{ secrets.DB_USERNAME }}
           MAIL_PASSWORD: ${{ secrets.MAIL_PASSWORD }}
           MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
+      - name: Dump docker logs
+        uses: jwalton/gh-docker-logs@v2
+        if: failure()
+        with:
+            images: 'postgres,keycloak'
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v4.0.1
         with:
