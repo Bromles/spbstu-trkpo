@@ -3,13 +3,17 @@ package trkpo.spbstu.hospitalavailability.e2e;
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
+import org.openqa.selenium.By;
 import trkpo.spbstu.hospitalavailability.e2e.pages.UnauthPage;
 
+import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
 public abstract class BaseTest {
 
     protected static UnauthPage unauthPage;
+
+    private static final By exitBtn = By.xpath("//button[normalize-space()='Выход']");
 
     @BeforeAll
     public static void startDriver() {
@@ -35,6 +39,11 @@ public abstract class BaseTest {
     @BeforeEach
     public void startPage() {
         open("/");
+
+        if ($(exitBtn).exists()) {
+            $(exitBtn).click();
+        }
+
         unauthPage = new UnauthPage();
     }
 
