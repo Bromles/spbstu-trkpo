@@ -19,11 +19,13 @@ public abstract class BaseTest {
 
     @BeforeAll
     public static void startDriver() {
-        if (System.getProperty("os.name", "").contains("Windows")) {
-            System.setProperty("webdriver.gecko.driver", "./src/test/resources/geckodriver.exe");
+        if (isWindows()) {
+            System.setProperty("webdriver.gecko.driver", "./src/test/resources/drivers/geckodriver-win.exe");
             Configuration.browserBinary = "C:/Program Files/Mozilla Firefox/firefox.exe";
-        } else {
-            System.setProperty("webdriver.gecko.driver", "./src/test/resources/geckodriver");
+        } else if (isMac()) {
+            System.setProperty("webdriver.gecko.driver", "./src/test/resources/drivers/geckodriver-macos");
+        } else if (isLinux()) {
+            System.setProperty("webdriver.gecko.driver", "./src/test/resources/drivers/geckodriver-linux");
         }
 
         Configuration.browser = "firefox";
@@ -36,5 +38,21 @@ public abstract class BaseTest {
     public void startPage() {
         open("/");
         unauthPage = new UnauthPage();
+    }
+
+    private static String getOsName() {
+        return System.getProperty("os.name", "").toLowerCase();
+    }
+
+    private static boolean isMac() {
+        return getOsName().contains("mac");
+    }
+
+    private static boolean isLinux() {
+        return getOsName().contains("linux");
+    }
+
+    private static boolean isWindows() {
+        return getOsName().contains("windows");
     }
 }
