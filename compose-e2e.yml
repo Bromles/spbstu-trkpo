@@ -49,7 +49,7 @@ services:
   backend:
     container_name: backend
     build: backend/
-    image: spbstu-trkpo-frontend
+    image: spbstu-trkpo-backend
     environment:
       DB_URL: "jdbc:postgresql://database:5432/backend_db"
       DB_USERNAME: "hospital"
