@@ -26,7 +26,7 @@ public abstract class BaseTest {
             System.setProperty("webdriver.gecko.driver", "./src/test/resources/geckodriver");
         }
 
-        Configuration.headless = true;
+        //Configuration.headless = true;
         Configuration.browser = "firefox";
         Configuration.baseUrl = "http://localhost:4200";
         Configuration.browserSize = "1920x1080";
