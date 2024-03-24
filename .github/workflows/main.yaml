@@ -84,6 +84,9 @@ jobs:
         uses: browser-actions/setup-firefox@latest
       - name: Firefox version
         run: firefox --version
+      - name: Sleep for 70 seconds for Gorzdrav update
+        run: sleep 70s
+        shell: bash
       - name: Run tests
         run: mvn --batch-mode --update-snapshots verify -Dselenide.headless=true -DisCI=true
         working-directory: ./backend
