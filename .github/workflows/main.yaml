@@ -76,8 +76,12 @@ jobs:
           distribution: "temurin"
           java-version: "17"
           cache: maven
+      - name: Setup firefox driver
+        uses: browser-actions/setup-geckodriver@latest
       - name: Setup Firefox
-        uses: browser-actions/setup-firefox@v1
+        uses: browser-actions/setup-firefox@latest
+      - name: Firefox version
+        run: firefox --version
       - name: Run tests
         run: mvn --batch-mode --update-snapshots verify -Dselenide.headless=true
         working-directory: ./backend
