@@ -61,7 +61,7 @@ services:
     depends_on:
       - database
       - auth_server
-    restart: unless-stopped
+    restart: on-failure:3
     deploy:
       resources:
         limits:
