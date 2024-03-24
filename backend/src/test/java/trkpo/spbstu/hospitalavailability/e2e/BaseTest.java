@@ -23,7 +23,7 @@ public abstract class BaseTest {
             System.setProperty("webdriver.gecko.driver", "./src/test/resources/geckodriver.exe");
             Configuration.browserBinary = "C:/Program Files/Mozilla Firefox/firefox.exe";
         } else {
-            System.setProperty("webdriver.gecko.driver", "./src/test/resources/geckodriver");
+            //System.setProperty("webdriver.gecko.driver", "./src/test/resources/geckodriver");
         }
 
         Configuration.browser = "firefox";
