@@ -56,7 +56,7 @@ class RegistrationTest extends BaseTest {
                 .clickLoginBtn();
 
         Selenide.switchTo().defaultContent();
-        String link = new EmailMainPage().openLastMessageAndGetLink();
+        String link = new EmailMainPage(EmailMainPage.Purpose.VERIFY_EMAIL).openLastMessageAndGetLink();
         open(link);
         String userInfo = new MainPage().getUserInfo();
         assertTrue(userInfo.contains(emailLogin + "@mail.ru"));
