@@ -33,7 +33,7 @@ public class HospitalService {
     }
 
     @SuppressWarnings("squid:S6809") // Ложный ворнинг про вызов в обход прокси
-    @Scheduled(fixedDelay = 10080, initialDelay = 0, timeUnit = TimeUnit.MINUTES)
+    @Scheduled(fixedDelay = 10080, initialDelay = 1, timeUnit = TimeUnit.MINUTES)
     @Transactional
     public void updateAll() {
         List<GorzdravHospitalRsDto> hospitals = gorzdravService.getHospitals();

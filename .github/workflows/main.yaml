@@ -113,4 +113,4 @@ jobs:
           fail_ci_if_error: true
       - name: Stop containers
         if: always()
-        run: docker-compose -f compose-e2e.yml down
+        run: docker-compose -f compose-e2e.yml down -v
