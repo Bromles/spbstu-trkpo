@@ -54,5 +54,8 @@ class SelectorResetTest extends BaseTest{
 
         assertFalse(mainPage.checkStartTrackingBtnIsEnabled(), "Кнопка не кликабельна");
         logger.info("Успешно проверили сброс селектора");
+
+        mainPage.clickExit();
+        assertTrue(unauthPage.isActiveLoginBtn());
     }
 }

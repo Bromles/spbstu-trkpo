@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 import trkpo.spbstu.hospitalavailability.e2e.pages.MainPage;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class CheckMarkerCountTests extends BaseTest {
 
@@ -35,5 +36,8 @@ class CheckMarkerCountTests extends BaseTest {
         assertThat(mainPage.getMapWrapper().getMarkerCount()).as("Должен быть больше чем один маркер")
                 .isGreaterThan(1);
         logger.info("Успешно проверили количество маркеров на карте");
+
+        mainPage.clickExit();
+        assertTrue(unauthPage.isActiveLoginBtn());
     }
 }
