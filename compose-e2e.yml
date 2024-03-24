@@ -13,7 +13,6 @@ services:
       POSTGRES_USER: hospital
       POSTGRES_PASSWORD: password
       POSTGRES_MULTIPLE_DATABASES: keycloak_db,backend_db
-    restart: unless-stopped
     ports:
       - "5433:5432"
     deploy:
@@ -38,7 +37,6 @@ services:
       - "8099:8099"
     command:
       - start-dev
-    restart: unless-stopped
     deploy:
       resources:
         limits:
@@ -51,8 +49,9 @@ services:
     build: frontend/
     ports:
       - "4200:80"
-    restart: unless-stopped
     deploy:
       resources:
         limits:
           memory: 512M
+    depends_on:
+      - auth_server
