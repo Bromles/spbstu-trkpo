@@ -100,7 +100,7 @@ jobs:
         with:
             images: 'postgres,quay.io/keycloak/keycloak'
       - name: Upload debug artifacts
-        uses: actions/upload-artifacts@v4
+        uses: actions/upload-artifact@v4
         if: failure()
         with:
           name: debug-info
