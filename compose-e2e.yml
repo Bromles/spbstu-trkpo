@@ -50,7 +50,7 @@ services:
     container_name: frontend
     build: frontend/
     ports:
-      - "8123:80"
+      - "4200:80"
     restart: unless-stopped
     deploy:
       resources:
