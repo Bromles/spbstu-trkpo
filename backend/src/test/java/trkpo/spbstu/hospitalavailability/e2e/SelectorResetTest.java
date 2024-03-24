@@ -1,6 +1,6 @@
 package trkpo.spbstu.hospitalavailability.e2e;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import trkpo.spbstu.hospitalavailability.e2e.pages.MainPage;
 
 import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
