@@ -7,7 +7,7 @@ import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class SelectorResetTest extends BaseTest{
+class SelectorResetTest extends BaseTest{
 
     private static final String DEFAULT_EMAIL = "spbstu.trkpo@yandex.ru";
     private static final String DEFAULT_PWD = "5130904/00104";
@@ -17,7 +17,7 @@ public class SelectorResetTest extends BaseTest{
     private static final String EXPECTED_DIRECTION = "Выберите направление";
 
     @Test
-    public void selectorResetTest() {
+    void selectorResetTest() {
         logger.info("Тест проверяет, что при сбросе селектора, все селекторы ниже сбрасываются до начального");
 
         logger.info("Залогинемся юзером " + DEFAULT_EMAIL);

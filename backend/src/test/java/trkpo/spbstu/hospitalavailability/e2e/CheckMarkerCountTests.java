@@ -5,13 +5,13 @@ import trkpo.spbstu.hospitalavailability.e2e.pages.MainPage;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class CheckMarkerCountTests extends BaseTest {
+class CheckMarkerCountTests extends BaseTest {
 
     private static final String DEFAULT_EMAIL = "spbstu.trkpo@yandex.ru";
     private static final String DEFAULT_PWD = "5130904/00104";
 
     @Test
-    public void checkMarkerCountTests() {
+    void checkMarkerCountTests() {
         logger.info("Тест проверяет, что при выборе района количество маркеров на карте становится меньше," +
                 " а при выборе больницы, маркер остается один");
 
