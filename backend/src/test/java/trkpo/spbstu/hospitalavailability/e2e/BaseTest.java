@@ -14,7 +14,7 @@ public abstract class BaseTest {
     @BeforeAll
     public static void startDriver() {
         if (isCi()) {
-            System.setProperty("webdriver.gecko.driver", "geckodriver");
+            //System.setProperty("webdriver.gecko.driver", "geckodriver");
         } else {
             if (isWindows()) {
                 System.setProperty("webdriver.gecko.driver", "./src/test/resources/drivers/geckodriver-win.exe");
