@@ -2,6 +2,7 @@ package trkpo.spbstu.hospitalavailability.e2e;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.TestInstance;
 import trkpo.spbstu.hospitalavailability.e2e.pages.UnauthPage;
 
@@ -25,6 +26,10 @@ public abstract class BaseTest {
         Configuration.baseUrl = "http://localhost:4200";
         Configuration.browserSize = "1920x1080";
         Configuration.timeout = 10000;
+    }
+
+    @BeforeEach
+    public void startPage() {
         open("/");
         unauthPage = new UnauthPage();
     }

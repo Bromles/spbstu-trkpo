@@ -17,7 +17,7 @@ public class EmailMainPage extends BasePage {
         logger.info("Успешно открыли главную страницу почты");
     }
 
-    public String openLastMessageAndGetLing() {
+    public String openLastMessageAndGetLink() {
         $(lastMessage).click();
         return $(link).shouldBe(visible.because("Нет ссылки")).getAttribute("href");
     }
