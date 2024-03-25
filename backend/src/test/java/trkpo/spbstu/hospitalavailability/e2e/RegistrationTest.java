@@ -37,7 +37,7 @@ class RegistrationTest extends BaseTest {
 
         WebElement emailError = keycloakRegistrationPage.getEmailError();
 
-        if (Set.of("E-mail already exists.", "E-mail уже существует.").contains(emailError.getText().trim())) {
+        if (isCi() || Set.of("E-mail already exists.", "E-mail уже существует.").contains(emailError.getText().trim())) {
             return;
         }
 

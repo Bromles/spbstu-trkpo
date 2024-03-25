@@ -51,19 +51,19 @@ public abstract class BaseTest {
         return System.getProperty("os.name", "").toLowerCase();
     }
 
-    private static boolean isMac() {
+    protected static boolean isMac() {
         return getOsName().contains("mac");
     }
 
-    private static boolean isLinux() {
+    protected static boolean isLinux() {
         return getOsName().contains("linux");
     }
 
-    private static boolean isWindows() {
+    protected static boolean isWindows() {
         return getOsName().contains("windows");
     }
 
-    private static boolean isCi() {
+    protected static boolean isCi() {
         return Boolean.parseBoolean(System.getProperty("isCI", "false"));
     }
 }
