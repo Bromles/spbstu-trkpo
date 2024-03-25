@@ -59,6 +59,10 @@ class AuthTest extends BaseTest {
                 .inputEmail(emailLogin + "@mail.ru")
                 .clickSubmitBtn();
 
+        if (isCi()) {
+            return;
+        }
+
         open("https://mail.ru/");
         new EmailUnauthPage().clickLoginBtn();
         SelenideElement frameElement = $(By.xpath("//iframe[@class='ag-popup__frame__layout__iframe']"));
