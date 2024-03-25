@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Платный прием",
+      "freeParticipantCount": 31,
+      "freeTicketCount": 31,
+      "id": "117.146",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Константинова М.Ю. (Платный прием)",
+      "nearestDate": "2024-03-28T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

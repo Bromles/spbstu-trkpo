@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "141",
+      "lastDate": null,
+      "name": "Мамерзаев Нариман Алимирзоевич",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

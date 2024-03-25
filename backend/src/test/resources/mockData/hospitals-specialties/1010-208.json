@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 9,
+      "freeTicketCount": 9,
+      "id": "18",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "ЛебедеваСЮ ДЕТИ только 1 участок",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "20",
+      "lastDate": null,
+      "name": "ЛебедеваСЮ 1 часток! (только 1 участок!!!!!)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "35",
+      "lastDate": null,
+      "name": "Лукин Фёдор Дмитриевич Парнас (только ПАРНАС!!!!!)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "3",
+      "lastDate": null,
+      "name": "Реул ЕА 2уч.+ 4 УЧАСТОК!",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "13",
+      "lastDate": null,
+      "name": "Реул ЕА ДЕТИ +  4 уч.ДЕТИ",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

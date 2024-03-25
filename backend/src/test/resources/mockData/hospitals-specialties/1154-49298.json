@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "г. Пушкин, Софийский б-р, д. 28.",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "360",
+      "lastDate": null,
+      "name": "Колесникова Лилия Муллояновна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "г. Пушкин, Софийский б-р, д. 28.",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1216",
+      "lastDate": null,
+      "name": "Макарова Полина Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "пос. Шушары, пер. Вилеровский д. 8",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "1211",
+      "lastDate": "2024-04-01T13:45:00",
+      "name": "Наговицына Ксения Олеговна",
+      "nearestDate": "2024-03-29T13:15:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

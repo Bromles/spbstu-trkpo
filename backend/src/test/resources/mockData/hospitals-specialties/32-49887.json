@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "295",
+      "lastDate": null,
+      "name": "Овдиенко Ирина Викторовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "471",
+      "lastDate": null,
+      "name": "Чухман Виктория Юрьевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

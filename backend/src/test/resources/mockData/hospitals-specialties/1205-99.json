@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "18 УЧ",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 65,
+      "freeTicketCount": 85,
+      "id": "914",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Балашова Ирина Вячеславовна",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "34 УЧ",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 49,
+      "freeTicketCount": 65,
+      "id": "1021",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": "Кузнецов Вадим Андреевич",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "20 УЧ",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 60,
+      "freeTicketCount": 76,
+      "id": "950",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Прокопенко Мария Олеговна",
+      "nearestDate": "2024-04-05T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

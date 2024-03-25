@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "187",
+      "lastDate": null,
+      "name": "Житников А.С",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

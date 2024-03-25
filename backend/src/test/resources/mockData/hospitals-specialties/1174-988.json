@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 597,
+      "freeTicketCount": 597,
+      "id": "п100.988",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Диспансеризация ГП100 ПОЛ.ОТД.12",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

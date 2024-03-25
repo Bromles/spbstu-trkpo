@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 120,
+      "freeTicketCount": 120,
+      "id": "a134ce82-e119-11ee-bc64-00155d03021b",
+      "lastDate": "2024-04-08T19:30:00",
+      "name": "Центр Здоровья (Центр Здоровья, Центр Здоровья, )",
+      "nearestDate": "2024-04-01T09:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

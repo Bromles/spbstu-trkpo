@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": "10т",
+      "ariaType": null,
+      "comment": "с 01.04.2024 по 08.04.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "500",
+      "lastDate": null,
+      "name": "Крутова Лариса Ивановна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "29т",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "843",
+      "lastDate": null,
+      "name": "Мамбетова Елизавета Дмитриевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "30т",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "59",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Мишурова Надежда Александровна",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "03т",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "859",
+      "lastDate": null,
+      "name": "Пермякова Людмила Олеговна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "33т",
+      "ariaType": null,
+      "comment": "08.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "60",
+      "lastDate": null,
+      "name": "Полежай Галина Васильевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "579",
+      "lastDate": null,
+      "name": "Ярцев Михаил Владимирович",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

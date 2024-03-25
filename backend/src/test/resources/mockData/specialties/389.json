@@ -1,0 +1,62 @@
+{
+  "result": [
+    {
+      "id": "wvDg9y3j5fDo4PLw",
+      "ferId": "66",
+      "name": "Врач-гериатр",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "wvDg9y3u9PLg6/zs7uvu4w==",
+      "ferId": "20",
+      "name": "Врач-офтальмолог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "wvDg9y3y5fDg7+Xi8l/z9+Dx8uru4vvp",
+      "ferId": "27",
+      "name": "Врач-терапевт участковый",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "wvDg91/u4fnl6V/v8ODq8ujq6A==",
+      "ferId": "16",
+      "name": "Врач общей практики",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "x+Dv6PH8X+3gX+Lg6vbo7eD26P5f7vJfQ09WSUQtMTk=",
+      "ferId": "55",
+      "name": "Запись на вакцинацию от COVID-19",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "0+Pr8+Hr5e3t4P9f5Ojx7+Dt8eXw6Ofg9uj/",
+      "ferId": "58",
+      "name": "Углубленная диспансеризация",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Кабинет инфекциониста",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 92,
+      "freeTicketCount": 92,
+      "id": "815",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Яременко Тамара Николаевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Кабинет инфекциониста",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 132,
+      "freeTicketCount": 132,
+      "id": "2217",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Гафиятуллина Земфира Минуллаевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

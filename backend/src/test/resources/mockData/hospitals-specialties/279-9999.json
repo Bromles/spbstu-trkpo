@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Отделение Диспансеризации",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 201,
+      "freeTicketCount": 201,
+      "id": "1619",
+      "lastDate": "2024-03-25T00:00:00",
+      "name": "Кабинет Профилактики (Углубленная Диспансеризация Для Переболевших Covid-19)",
+      "nearestDate": "2024-04-05T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

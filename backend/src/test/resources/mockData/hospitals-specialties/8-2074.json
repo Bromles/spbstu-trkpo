@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": "3 ",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "210",
+      "lastDate": null,
+      "name": "Грунина Екатерина Вениаминовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "5 ",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 3,
+      "freeTicketCount": 39,
+      "id": "213",
+      "lastDate": "2024-04-08T16:48:00",
+      "name": "Ионина Елена Павловна",
+      "nearestDate": "2024-04-08T15:36:00"
+    },
+    {
+      "ariaNumber": "4 ",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "430",
+      "lastDate": null,
+      "name": "Киселева Наталья Михайловна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "214",
+      "lastDate": null,
+      "name": "Начкепия Наталья Михайловна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "6 ",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 8,
+      "freeTicketCount": 52,
+      "id": "5014",
+      "lastDate": "2024-04-08T17:12:00",
+      "name": "Ульмасов Алишер Хамидович",
+      "nearestDate": "2024-04-04T10:00:00"
+    },
+    {
+      "ariaNumber": "7 ",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 22,
+      "id": "3685",
+      "lastDate": "2024-03-29T15:00:00",
+      "name": "Чичаева Татьяна Ивановна",
+      "nearestDate": "2024-03-29T15:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

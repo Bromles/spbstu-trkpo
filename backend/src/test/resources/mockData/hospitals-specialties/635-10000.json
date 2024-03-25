@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "904",
+      "lastDate": null,
+      "name": "Запись На Вакцинацию Против Грипп (Кроме Covid-19) ",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

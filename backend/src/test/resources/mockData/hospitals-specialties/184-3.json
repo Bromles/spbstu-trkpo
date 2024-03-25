@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "625",
+      "lastDate": null,
+      "name": "Кузнецова Ирина Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 25,
+      "freeTicketCount": 25,
+      "id": "752",
+      "lastDate": "2024-04-02T00:00:00",
+      "name": "Парамонова Олеся Владиславовна",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

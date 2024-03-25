@@ -1,0 +1,85 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "-990000669",
+      "lastDate": null,
+      "name": "Дежурный терапевт",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "990000124",
+      "lastDate": null,
+      "name": "Петрова Алла Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "990000128",
+      "lastDate": null,
+      "name": "Сафронова Галина Олеговна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "990000290",
+      "lastDate": null,
+      "name": "Вахидова Елена Евгеньевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "990000313",
+      "lastDate": null,
+      "name": "Рыжих Марина Валериевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "990000320",
+      "lastDate": null,
+      "name": "Хромых Елена Леонидовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "990001154",
+      "lastDate": null,
+      "name": "Плисова Ольга Викторовна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

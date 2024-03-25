@@ -1,0 +1,26 @@
+{
+  "result": [
+    {
+      "id": "208",
+      "ferId": "16",
+      "name": "Общей Практики",
+      "countFreeParticipant": 9,
+      "countFreeTicket": 9,
+      "lastDate": "2024-03-29T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "44",
+      "ferId": "14",
+      "name": "НЕВРОПАТОЛОГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

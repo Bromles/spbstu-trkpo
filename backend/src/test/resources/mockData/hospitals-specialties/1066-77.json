@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 36,
+      "id": "43",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ПОВТОРНЫЙ ПРИЕМ БУРЕЙКО Е.Е.",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 43,
+      "id": "44",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": " ПОВТОРНЫЙ ПРИЕМ КЛИМОВА Н.С.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 42,
+      "id": "42",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ПОВТОРНЫЙ ПРИЕМ ГРЯЗНОВА М.И.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 6,
+      "id": "52",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": "ПОВТОРНЫЙ ПРИЕМ ДЕМАШИНА Е.А.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 58,
+      "id": "57",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ПОВТОРНЫЙ ПРИЕМ ПИСКАРЕВА И.А.",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

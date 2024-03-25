@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 524,
+      "freeTicketCount": 524,
+      "id": "105830000043",
+      "lastDate": "2024-05-15T19:30:00",
+      "name": "Аболмасов Владислав Олегович",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 518,
+      "freeTicketCount": 518,
+      "id": "105830000017",
+      "lastDate": "2024-05-15T15:30:00",
+      "name": "Галдин Ян Борисович",
+      "nearestDate": "2024-03-26T13:00:00"
+    },
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 524,
+      "freeTicketCount": 524,
+      "id": "105830000010",
+      "lastDate": "2024-05-15T19:30:00",
+      "name": "Малышева Ксения Александровна",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 518,
+      "freeTicketCount": 518,
+      "id": "105830000047",
+      "lastDate": "2024-05-15T15:30:00",
+      "name": "Сенопальников Геннадий Евгеньевич",
+      "nearestDate": "2024-03-26T13:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

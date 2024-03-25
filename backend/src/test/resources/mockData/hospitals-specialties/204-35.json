@@ -1,0 +1,118 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 102,
+      "id": "59",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Миронов В.В. 1 отд ",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 97,
+      "id": "214",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Арсеньева О.Ю.1 отд. ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 58,
+      "id": "92",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Гребенникова Д.О. 2 отд. ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 85,
+      "id": "85",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Демирташева М.Ю. 2 отд ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 82,
+      "id": "242",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Киселёва К.А. 1 отд.(за Рахманкулову)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 67,
+      "id": "50",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Комарова А.В. 2отд. ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 79,
+      "id": "143",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Пазылова Ш.А. 2отд. ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 81,
+      "id": "94",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Панченко М.В. 1 отд. ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 94,
+      "id": "86",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Смирнова М.М. 1 отд. ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 96,
+      "id": "47,1",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Толкачева А.И. 2отд ",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "19",
+      "lastDate": null,
+      "name": "Александрова Светлана Александровна каб. №211",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "20",
+      "lastDate": null,
+      "name": "Рябинин Вадим Владимирович каб. №211",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

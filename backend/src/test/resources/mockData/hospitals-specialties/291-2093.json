@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "39",
+      "lastDate": null,
+      "name": "Дубенский Михаил Дмитриевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8882",
+      "lastDate": null,
+      "name": "Емельянова Наталья Константиновна (55)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "37",
+      "lastDate": null,
+      "name": "Максимкин Константин Александрович",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

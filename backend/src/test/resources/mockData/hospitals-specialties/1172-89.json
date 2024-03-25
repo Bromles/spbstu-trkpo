@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Офис врача общей практики (1-й Предпортовый)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 129,
+      "freeTicketCount": 164,
+      "id": "560",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Кириченко Сергей Андреевич",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

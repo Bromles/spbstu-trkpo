@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "п14.28",
+      "lastDate": null,
+      "name": "БЕЛЯМОВА А.Ф.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "п14.280",
+      "lastDate": null,
+      "name": "ЯКУНИН М.С.",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,85 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "12",
+      "lastDate": null,
+      "name": "Байрамова Эльвира Байрамовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 32,
+      "freeTicketCount": 32,
+      "id": "19",
+      "lastDate": "2024-04-08T13:00:00",
+      "name": "Демидова Людмила Сергеевна",
+      "nearestDate": "2024-03-26T09:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "9",
+      "lastDate": null,
+      "name": "Дмитриева Марина Федоровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 28,
+      "freeTicketCount": 28,
+      "id": "18",
+      "lastDate": "2024-04-08T13:00:00",
+      "name": "Луговская Алена Вячеславовна",
+      "nearestDate": "2024-03-29T17:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "15",
+      "lastDate": "2024-04-08T17:00:00",
+      "name": "Меркушин Михаил Михайлович",
+      "nearestDate": "2024-04-08T17:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 22,
+      "freeTicketCount": 22,
+      "id": "120",
+      "lastDate": "2024-04-08T13:00:00",
+      "name": "Сорокин Илья Дмитриевич",
+      "nearestDate": "2024-03-29T19:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 17,
+      "freeTicketCount": 17,
+      "id": "16",
+      "lastDate": "2024-04-02T13:00:00",
+      "name": "Хрущев Александр Юрьевич",
+      "nearestDate": "2024-03-27T10:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

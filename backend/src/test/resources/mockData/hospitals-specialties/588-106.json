@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "39",
+      "lastDate": "2024-03-25T16:44:57.3125422+03:00",
+      "name": "Дмитриева Екатерина Андреевна ",
+      "nearestDate": "2024-03-25T16:44:57.3125422+03:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "40",
+      "lastDate": "2024-03-25T16:44:57.3155424+03:00",
+      "name": "Жук Лидия Григорьевна ",
+      "nearestDate": "2024-03-25T16:44:57.3155424+03:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "53",
+      "lastDate": "2024-03-25T16:44:57.3195426+03:00",
+      "name": "Соколова Ирина Валериевна ",
+      "nearestDate": "2024-03-25T16:44:57.3195426+03:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "55",
+      "lastDate": "2024-03-25T16:44:57.3235428+03:00",
+      "name": "Трункова Ольга Борисовна ",
+      "nearestDate": "2024-03-25T16:44:57.3235428+03:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

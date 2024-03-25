@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "421",
+      "lastDate": null,
+      "name": "Ганенко Александр Владимирович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "дежурный врач",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "484",
+      "lastDate": "2024-04-08T19:10:00",
+      "name": "Леончук Юрий Владимирович",
+      "nearestDate": "2024-04-08T17:10:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

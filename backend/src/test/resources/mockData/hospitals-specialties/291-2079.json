@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "7,8,10 и 15  2ТО",
+      "ariaType": null,
+      "comment": " ДН",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 9,
+      "id": "8215",
+      "lastDate": "2024-04-03T12:24:00",
+      "name": "Калев Анатолий Александрович (55)",
+      "nearestDate": "2024-04-03T12:12:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": " ДН",
+      "freeParticipantCount": 26,
+      "freeTicketCount": 36,
+      "id": "8639",
+      "lastDate": "2024-04-08T19:11:00",
+      "name": "Ковалев Иван Дмитриевич",
+      "nearestDate": "2024-03-28T18:47:00"
+    },
+    {
+      "ariaNumber": "3 ТО 112 ГП",
+      "ariaType": null,
+      "comment": "Участок №18 3 Т.О. ДН",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8918",
+      "lastDate": null,
+      "name": "Трофанчук Оксана Всеволодовна (55)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

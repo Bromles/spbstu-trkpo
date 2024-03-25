@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Кабинет врача детского хирурга",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1979",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Аветян Андрей Юрьевич",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "Кабинет врача детского хирурга",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2158",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Коростелева Ирина Викторовна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

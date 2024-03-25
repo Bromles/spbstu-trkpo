@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "2-ое Детское фтизиатрическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 558,
+      "freeTicketCount": 1006,
+      "id": "64",
+      "lastDate": "2024-07-02T00:00:00",
+      "name": "Пивоварова Татьяна Алексеевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "2-ое Детское фтизиатрическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 869,
+      "freeTicketCount": 1538,
+      "id": "66",
+      "lastDate": "2024-11-22T00:00:00",
+      "name": "Канаева Ольга Сергеевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,26 @@
+{
+  "result": [
+    {
+      "id": "92134157",
+      "ferId": "27",
+      "name": "Терапия",
+      "countFreeParticipant": 48,
+      "countFreeTicket": 48,
+      "lastDate": "2024-04-04T12:00:00",
+      "nearestDate": "2024-04-01T08:30:00"
+    },
+    {
+      "id": "92134172",
+      "ferId": "30",
+      "name": "Хирургия",
+      "countFreeParticipant": 8,
+      "countFreeTicket": 8,
+      "lastDate": "2024-04-04T13:00:00",
+      "nearestDate": "2024-04-04T08:20:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "18",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1615",
+      "lastDate": null,
+      "name": "Парасюк Анастасия Руслановна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

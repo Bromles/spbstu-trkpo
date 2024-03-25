@@ -1,0 +1,26 @@
+{
+  "result": [
+    {
+      "id": "2",
+      "ferId": "224",
+      "name": "Акушер-гинеколог",
+      "countFreeParticipant": 33,
+      "countFreeTicket": 33,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "78",
+      "ferId": "27",
+      "name": "Терапевт",
+      "countFreeParticipant": 135,
+      "countFreeTicket": 135,
+      "lastDate": "2024-04-16T00:00:00",
+      "nearestDate": "2024-03-29T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

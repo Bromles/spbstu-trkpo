@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "КОРОЛЕВА 57, 59/1,2,,4,5,Прием на Парашютная, 42/2 ЧЁТ, С16-20 НЕЧЁТ С09-13",
+      "freeParticipantCount": 19,
+      "freeTicketCount": 19,
+      "id": "54f167db-5f2e-11ed-bbaf-b496918ad4af",
+      "lastDate": "2024-04-01T12:20:00",
+      "name": "Левицкая Инна Владимировна (врач общей практики (семейный врач))",
+      "nearestDate": "2024-03-29T10:20:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

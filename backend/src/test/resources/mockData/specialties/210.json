@@ -1,0 +1,35 @@
+{
+  "result": [
+    {
+      "id": "35",
+      "ferId": "8",
+      "name": "АКУШЕР-ГИНЕКОЛ.",
+      "countFreeParticipant": 130,
+      "countFreeTicket": 258,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "3",
+      "ferId": "27",
+      "name": "ТЕРАПЕВТ",
+      "countFreeParticipant": 82,
+      "countFreeTicket": 138,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "id": "94",
+      "ferId": "0",
+      "name": "ПСИХОЛОГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 43,
+      "freeTicketCount": 43,
+      "id": "п73.729",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "БОРОНИНА Л.В.",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 40,
+      "freeTicketCount": 40,
+      "id": "п73.730",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "ТИТОВА Н.Г.",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

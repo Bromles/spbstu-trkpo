@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ОТПУСК: с 25.03.24 по 28.03.24",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1",
+      "lastDate": null,
+      "name": "Калиничева Ольга Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ОТПУСК: с 18.04.24 по 22.04.24",
+      "freeParticipantCount": 75,
+      "freeTicketCount": 75,
+      "id": "505",
+      "lastDate": "2024-04-08T19:00:00",
+      "name": "Манчинская Анна Александровна",
+      "nearestDate": "2024-03-25T19:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

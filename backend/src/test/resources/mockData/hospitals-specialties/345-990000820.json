@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Взрослый прием",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "-990000671",
+      "lastDate": null,
+      "name": "Врач-стоматолог-хирург",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

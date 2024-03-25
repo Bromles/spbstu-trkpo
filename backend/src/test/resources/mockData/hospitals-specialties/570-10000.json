@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Дет.стоматология",
+      "ariaType": null,
+      "comment": "с 01.04.2024 по 05.04.2024: без приема",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1017",
+      "lastDate": null,
+      "name": "Кузнецова Юлия Эдуардовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "Дет.стоматология",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 29.03.2024: без приема;\n08.04.2024: без приема",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "896",
+      "lastDate": null,
+      "name": "Щербакова Мария Николаевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

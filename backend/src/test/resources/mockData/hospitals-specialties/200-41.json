@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "д71.344",
+      "lastDate": null,
+      "name": "ПРИЕМ НА ЗАРЕЧНОЙ 41 Федотова И.Л.,офтальмолог, каб.205",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "д71.98",
+      "lastDate": null,
+      "name": "Познякова Т.И., 320 КАБ. офтальмолог",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "д71.469",
+      "lastDate": null,
+      "name": "Приём на ТОЛУБЕЕВСКОМ, 6 офтальмолог НОВИКОВА А.Ю.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "д71.348",
+      "lastDate": null,
+      "name": "Федотова И.Л.(Заречная,41),офтальмолог, День здорового ребёнка,каб.205",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "д71.87",
+      "lastDate": null,
+      "name": "Шраер Н.В., 318 КАБ. офтальмолог",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "д71.367",
+      "lastDate": null,
+      "name": "Шраер Н.В., ДИСПАНСЕРИЗАЦИЯ, 318 КАБ.",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

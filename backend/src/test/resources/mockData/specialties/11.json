@@ -1,0 +1,98 @@
+{
+  "result": [
+    {
+      "id": "2088",
+      "ferId": "8",
+      "name": "Акушер-гинеколог",
+      "countFreeParticipant": 30,
+      "countFreeTicket": 30,
+      "lastDate": "2024-03-29T13:04:00",
+      "nearestDate": "2024-03-26T10:24:00"
+    },
+    {
+      "id": "92143627",
+      "ferId": "55",
+      "name": "Вакцинация от COVID-19",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "2120",
+      "ferId": "35",
+      "name": "Врач функциональной диагностики",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "2091",
+      "ferId": "14",
+      "name": "Невролог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "2101",
+      "ferId": "19",
+      "name": "Оториноларинголог (ЛОР)",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "2080",
+      "ferId": "22",
+      "name": "Педиатр",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "2081",
+      "ferId": "22",
+      "name": "Педиатр участковый",
+      "countFreeParticipant": 9,
+      "countFreeTicket": 19,
+      "lastDate": "2024-04-05T10:45:00",
+      "nearestDate": "2024-03-26T16:30:00"
+    },
+    {
+      "id": "2074",
+      "ferId": "27",
+      "name": "Терапевт",
+      "countFreeParticipant": 50,
+      "countFreeTicket": 75,
+      "lastDate": "2024-04-05T11:00:00",
+      "nearestDate": "2024-03-28T17:48:00"
+    },
+    {
+      "id": "2075",
+      "ferId": "27",
+      "name": "Терапевт участковый",
+      "countFreeParticipant": 142,
+      "countFreeTicket": 207,
+      "lastDate": "2024-04-05T19:00:00",
+      "nearestDate": "2024-03-26T09:24:00"
+    },
+    {
+      "id": "2093",
+      "ferId": "30",
+      "name": "Хирург",
+      "countFreeParticipant": 21,
+      "countFreeTicket": 31,
+      "lastDate": "2024-04-05T18:05:00",
+      "nearestDate": "2024-03-25T16:35:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

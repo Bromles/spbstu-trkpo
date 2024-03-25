@@ -1,0 +1,107 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "221",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Адеева А.В.",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "73",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Захарова Н.Н.",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "70",
+      "lastDate": "2024-03-25T00:00:00",
+      "name": "Иванова М.К.",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "185",
+      "lastDate": "2024-03-25T00:00:00",
+      "name": "Клюкова А.Е",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 12,
+      "freeTicketCount": 12,
+      "id": "71",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Черкасов А.Р.",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "227",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Шарапов Р.Е. хир.",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "96",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Яковлев А.А.",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "101",
+      "lastDate": null,
+      "name": "Нигай Д.А.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "77",
+      "lastDate": null,
+      "name": "Ряполов В.М.",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

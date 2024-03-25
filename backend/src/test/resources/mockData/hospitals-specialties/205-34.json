@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 46,
+      "freeTicketCount": 46,
+      "id": "130",
+      "lastDate": "2024-04-10T00:00:00",
+      "name": "Журавлева Н.Ю.",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 66,
+      "freeTicketCount": 66,
+      "id": "88",
+      "lastDate": "2024-04-11T00:00:00",
+      "name": "Сабич",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 65,
+      "freeTicketCount": 65,
+      "id": "163",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "Савиновская Е.Ю.",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,53 @@
+{
+  "result": [
+    {
+      "id": "2088",
+      "ferId": "8",
+      "name": "Акушер-гинеколог",
+      "countFreeParticipant": 260,
+      "countFreeTicket": 260,
+      "lastDate": "2024-04-08T19:30:00",
+      "nearestDate": "2024-03-25T16:45:00"
+    },
+    {
+      "id": "2169",
+      "ferId": "98",
+      "name": "Психолог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "2074",
+      "ferId": "27",
+      "name": "Терапевт",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "2098",
+      "ferId": "145",
+      "name": "Уролог",
+      "countFreeParticipant": 2,
+      "countFreeTicket": 2,
+      "lastDate": "2024-04-08T11:45:00",
+      "nearestDate": "2024-04-08T11:30:00"
+    },
+    {
+      "id": "2105",
+      "ferId": "31",
+      "name": "Эндокринолог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

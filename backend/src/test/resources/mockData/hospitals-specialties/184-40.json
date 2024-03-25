@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "746",
+      "lastDate": null,
+      "name": "Дугулубгов Кантемир Замирович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "649",
+      "lastDate": null,
+      "name": "Литвина Анна Марковна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 13,
+      "freeTicketCount": 25,
+      "id": "420",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Плешанова Анна Юрьевна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "с 01.04.2024 по 02.04.2024: Диспансеризация школьников;\n05.04.2024: Диспансеризация школьников;\n08.04.2024: Диспансеризация школьников",
+      "freeParticipantCount": 41,
+      "freeTicketCount": 41,
+      "id": "423",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Шалина Галина Адамовна",
+      "nearestDate": "2024-03-29T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

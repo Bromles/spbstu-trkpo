@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "02.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "747",
+      "lastDate": null,
+      "name": "Павельев Евгений Геннадьевич",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

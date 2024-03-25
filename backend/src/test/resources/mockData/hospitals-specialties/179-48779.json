@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 56,
+      "freeTicketCount": 88,
+      "id": "558",
+      "lastDate": "2024-04-08T12:50:00",
+      "name": "Побережный Сергей Сергеевич",
+      "nearestDate": "2024-04-01T10:10:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,140 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "465",
+      "lastDate": null,
+      "name": "Белокурова Наталья Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "439",
+      "lastDate": null,
+      "name": "Деньков Дмитрий Александрович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 29.03.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "244",
+      "lastDate": null,
+      "name": "Дроздов Дмитрий Павлович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "440",
+      "lastDate": null,
+      "name": "Зюзина Марина Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "481",
+      "lastDate": null,
+      "name": "Клишова Евгения Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 29.03.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "664",
+      "lastDate": null,
+      "name": "Магомедова Загра Джамавовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "639",
+      "lastDate": null,
+      "name": "Попова Ирина Ивановна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 29.03.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "82",
+      "lastDate": null,
+      "name": "Пустовойт Наталья Вячеславовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "809",
+      "lastDate": null,
+      "name": "Старикова Татьяна Константиновна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 29.03.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "78",
+      "lastDate": null,
+      "name": "Тахтаева Наталья Юрьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "755",
+      "lastDate": null,
+      "name": "Титова Анна Викторовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "с 01.04.2024 по 08.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "628",
+      "lastDate": null,
+      "name": "Штин Ксения Сергеевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

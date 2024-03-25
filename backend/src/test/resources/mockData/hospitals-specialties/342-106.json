@@ -1,0 +1,162 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 101,
+      "id": "57",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Васильева Ольга Викторовна ",
+      "nearestDate": "2024-03-25T17:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 95,
+      "id": "59",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Вылева Светлана Александровна ",
+      "nearestDate": "2024-03-26T16:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 96,
+      "id": "60",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Гаврилина Наталья Александровна ",
+      "nearestDate": "2024-03-26T15:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 125,
+      "id": "84",
+      "lastDate": "2024-04-08T14:00:00",
+      "name": "Горелик Яна Михайловна ",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 93,
+      "freeTicketCount": 1457,
+      "id": "2",
+      "lastDate": "2024-04-08T16:40:00",
+      "name": "Дежурный врач ",
+      "nearestDate": "2024-03-25T16:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 40,
+      "id": "131",
+      "lastDate": "2024-04-05T14:00:00",
+      "name": "Егорова Наталья Владимировна ",
+      "nearestDate": "2024-03-27T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 87,
+      "id": "82",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Зобина Людмила Анатольевна ",
+      "nearestDate": "2024-03-26T15:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 84,
+      "id": "61",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Кириллова Наталья Александровна ",
+      "nearestDate": "2024-03-26T15:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 54,
+      "id": "108",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Климова Альбина Растямовна ",
+      "nearestDate": "2024-04-01T16:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 99,
+      "id": "62",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Кутовенко Ирина Александровна ",
+      "nearestDate": "2024-03-26T16:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 118,
+      "id": "94",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Салех Светлана Александровна ",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 90,
+      "id": "64",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Самойлова Светлана Владимировна ",
+      "nearestDate": "2024-03-26T16:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 103,
+      "id": "104",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Себрерос Корона Татьяна Анатольевна ",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 39,
+      "id": "50",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Сыройкина Галина Николаевна ",
+      "nearestDate": "2024-03-25T17:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

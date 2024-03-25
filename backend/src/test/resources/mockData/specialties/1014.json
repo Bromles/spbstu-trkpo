@@ -1,0 +1,26 @@
+{
+  "result": [
+    {
+      "id": "34",
+      "ferId": "171",
+      "name": "Стоматология общей практики",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "60",
+      "ferId": "176",
+      "name": "Стоматология терапевтическая",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

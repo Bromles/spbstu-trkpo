@@ -1,0 +1,71 @@
+{
+  "result": [
+    {
+      "id": "51493",
+      "ferId": "16",
+      "name": "Общая врачебная практика (семейная медицина)",
+      "countFreeParticipant": 54,
+      "countFreeTicket": 54,
+      "lastDate": "2024-04-05T19:30:00",
+      "nearestDate": "2024-04-01T09:45:00"
+    },
+    {
+      "id": "51524",
+      "ferId": "176",
+      "name": "Стоматология терапевтическая",
+      "countFreeParticipant": 76,
+      "countFreeTicket": 76,
+      "lastDate": "2024-04-05T19:00:00",
+      "nearestDate": "2024-03-26T08:15:00"
+    },
+    {
+      "id": "51525",
+      "ferId": "177",
+      "name": "Стоматология хирургическая",
+      "countFreeParticipant": 81,
+      "countFreeTicket": 81,
+      "lastDate": "2024-04-05T18:15:00",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "id": "51529",
+      "ferId": "27",
+      "name": "Терапия",
+      "countFreeParticipant": 44,
+      "countFreeTicket": 44,
+      "lastDate": "2024-04-05T11:30:00",
+      "nearestDate": "2024-04-01T10:20:00"
+    },
+    {
+      "id": "51537",
+      "ferId": "145",
+      "name": "Урология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "51543",
+      "ferId": "30",
+      "name": "Хирургия",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "51545",
+      "ferId": "31",
+      "name": "Эндокринология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

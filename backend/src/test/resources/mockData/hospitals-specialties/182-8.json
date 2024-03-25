@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 31.03.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "243",
+      "lastDate": null,
+      "name": "Петрова Римма Эдуардовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "138",
+      "lastDate": null,
+      "name": "Старостин Борис Давидович",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

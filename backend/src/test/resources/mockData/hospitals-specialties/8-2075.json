@@ -1,0 +1,173 @@
+{
+  "result": [
+    {
+      "ariaNumber": "2 ",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "6754",
+      "lastDate": null,
+      "name": "Герлец Елизавета Яковлевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "14 ",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 37,
+      "id": "9378",
+      "lastDate": "2024-04-08T11:12:00",
+      "name": "Горнович Людмила Анатольевна",
+      "nearestDate": "2024-04-08T09:36:00"
+    },
+    {
+      "ariaNumber": "19 ",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 6,
+      "freeTicketCount": 47,
+      "id": "9577",
+      "lastDate": "2024-04-08T11:12:00",
+      "name": "Гумматли Эльмин Шаиг Оглы",
+      "nearestDate": "2024-04-05T10:24:00"
+    },
+    {
+      "ariaNumber": "9",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "9494",
+      "lastDate": null,
+      "name": "Гусейнова Саният Якубовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "13 ",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "6870",
+      "lastDate": null,
+      "name": "Дашкина Анастасия Алексеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "16",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 6,
+      "freeTicketCount": 29,
+      "id": "225",
+      "lastDate": "2024-04-08T10:00:00",
+      "name": "Деревянко Татьяна Петровна",
+      "nearestDate": "2024-03-26T17:48:00"
+    },
+    {
+      "ariaNumber": "20",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 34,
+      "id": "8655",
+      "lastDate": "2024-04-08T08:24:00",
+      "name": "Куликова Наталья Евгеньевна",
+      "nearestDate": "2024-04-08T08:00:00"
+    },
+    {
+      "ariaNumber": "10 ",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "5245",
+      "lastDate": null,
+      "name": "Кызласова Мария Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "18 ",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 3,
+      "freeTicketCount": 15,
+      "id": "7523",
+      "lastDate": "2024-04-08T11:24:00",
+      "name": "Сардиянов Азамат Ибрагимович",
+      "nearestDate": "2024-04-08T10:36:00"
+    },
+    {
+      "ariaNumber": "8 ",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 5,
+      "freeTicketCount": 19,
+      "id": "5147",
+      "lastDate": "2024-04-08T17:12:00",
+      "name": "Тимченко Александр Сергеевич",
+      "nearestDate": "2024-04-08T15:12:00"
+    },
+    {
+      "ariaNumber": "12 ",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8532",
+      "lastDate": null,
+      "name": "Турбина Екатерина Леонидовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "24 ",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "3580",
+      "lastDate": null,
+      "name": "Халикова Мамлакат Суюновна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "11 ",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "6503",
+      "lastDate": null,
+      "name": "Чикина Ксения Евгеньевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "17 ",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 5,
+      "freeTicketCount": 40,
+      "id": "9485",
+      "lastDate": "2024-04-08T10:48:00",
+      "name": "Шелковникова Кристина Витальевна",
+      "nearestDate": "2024-04-08T09:12:00"
+    },
+    {
+      "ariaNumber": "25",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 3,
+      "id": "9371",
+      "lastDate": "2024-04-08T09:12:00",
+      "name": "Штепин Валерий Александрович",
+      "nearestDate": "2024-04-08T09:12:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

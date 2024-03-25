@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 130,
+      "freeTicketCount": 130,
+      "id": "1036",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Вагнер Татьяна Александровна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 88,
+      "freeTicketCount": 88,
+      "id": "989",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Курдюкова Валерия Анатольевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

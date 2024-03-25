@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Офтальмологическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "405",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Трофименко Дарья Сергеевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Офтальмологическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "515",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Цевденов Сергей Аркадьевич",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "Офтальмологическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "538",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Пантюхина Яна Юрьевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

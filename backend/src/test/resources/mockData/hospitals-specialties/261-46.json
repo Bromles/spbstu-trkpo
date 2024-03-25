@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "3.91",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Гуськова А.А. ",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 11,
+      "freeTicketCount": 11,
+      "id": "3.74",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Кабачий М.С.   ",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

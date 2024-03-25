@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 30,
+      "freeTicketCount": 30,
+      "id": "оп027",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "Данилина НА  ",
+      "nearestDate": "2024-04-04T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 25,
+      "freeTicketCount": 25,
+      "id": "оп293",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "Каширина СГ  ",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 17,
+      "freeTicketCount": 17,
+      "id": "оп168",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "Коротаева ЮЮ ",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 16,
+      "freeTicketCount": 16,
+      "id": "оп189",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "Смирнова ВВ ",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 35,
+      "freeTicketCount": 35,
+      "id": "ут131",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "Терехов РЮ",
+      "nearestDate": "2024-04-04T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "оп347",
+      "lastDate": null,
+      "name": "Медведева ОА (ВОП)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

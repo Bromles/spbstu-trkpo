@@ -1,0 +1,140 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 61,
+      "freeTicketCount": 61,
+      "id": "1Т42",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "АБРАМОВА О.В. 1 тер.отделение",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 115,
+      "freeTicketCount": 115,
+      "id": "1Т22",
+      "lastDate": "2024-04-09T00:00:00",
+      "name": "ВАРЛАМОВА И.А. 1 тер.отделение",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 63,
+      "freeTicketCount": 63,
+      "id": "1Т36",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ВОЙЦЕХОВСКАЯ В.О.  1 тер.отделение",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 56,
+      "freeTicketCount": 56,
+      "id": "2Т2",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ГАЛОМЗИК А.Н. 2 тер.отделение  болеет 13.03",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 84,
+      "freeTicketCount": 84,
+      "id": "1Т41",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ЕГОРОВА Д.Г. 1 тер.отделение",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 9,
+      "freeTicketCount": 9,
+      "id": "1Т35",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ИБРАГИМОВ М.И. 1 тер.отделение",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 81,
+      "freeTicketCount": 81,
+      "id": "1Т31",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ИСМАИЛОВА Д.А. 1 тер.отделение ",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 18,
+      "freeTicketCount": 18,
+      "id": "2Т33",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ОХРЕМЧУК ИП  2 тер.отделение",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 29,
+      "freeTicketCount": 29,
+      "id": "1Т11",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "РЯБИНИНА О.А.   1 тер.отделение",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 30,
+      "freeTicketCount": 30,
+      "id": "2Т34",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "САЛЕХ Л.А. 2 тер.отделение",
+      "nearestDate": "2024-04-04T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 108,
+      "freeTicketCount": 108,
+      "id": "1Т43",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "СУЛТАНОВА Р.Р.  1 тер.отделение",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 34,
+      "freeTicketCount": 94,
+      "id": "3Т6",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ЦЕМДЯНКИНА Т.А. 2 тер.отделение",
+      "nearestDate": "2024-04-04T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

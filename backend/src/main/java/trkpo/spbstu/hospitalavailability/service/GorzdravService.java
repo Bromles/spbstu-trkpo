@@ -5,18 +5,20 @@ import lombok.extern.slf4j.Slf4j;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-import trkpo.spbstu.hospitalavailability.dto.GorzdravDistrictRsDto;
-import trkpo.spbstu.hospitalavailability.dto.GorzdravDoctorRsDto;
-import trkpo.spbstu.hospitalavailability.dto.GorzdravHospitalRsDto;
-import trkpo.spbstu.hospitalavailability.dto.GorzdravSpecialtiesDto;
-import trkpo.spbstu.hospitalavailability.dto.TrackingInfoRsDto;
+import trkpo.spbstu.hospitalavailability.dto.*;
 import trkpo.spbstu.hospitalavailability.exception.BackendUnavailableException;
 import trkpo.spbstu.hospitalavailability.exception.NotFoundException;
 
+import java.io.File;
+import java.io.IOException;
+import java.net.URISyntaxException;
+import java.net.URL;
+import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -29,12 +31,28 @@ public class GorzdravService {
 
     private Long errorNum;
 
+    @Value("${USE_LOCAL_GORZDRAV:false}")
+    private boolean useLocal;
+
     public List<GorzdravHospitalRsDto> getHospitals() {
         errorNum = 0L;
-        ResponseEntity<String> response = restTemplate.getForEntity("/shared/lpus", String.class);
-        checkStatusCode(response);
+        ResponseEntity<String> response;
 
+        if (useLocal) {
+            try {
+                URL url = getClass().getClassLoader().getResource("./mockData/hospitals.json");
+                String data = Files.readString(new File(url.toURI()).toPath());
+                response = ResponseEntity.ok(data);
+            } catch (URISyntaxException | IOException e) {
+                response = ResponseEntity.ok("");
+            }
+        } else {
+            response = restTemplate.getForEntity("/shared/lpus", String.class);
+        }
+
+        checkStatusCode(response);
         String responseBody = response.getBody();
+
         JSONArray array = new JSONObject(responseBody).getJSONArray("result");
 
         List<GorzdravHospitalRsDto> hospitalRs = new ArrayList<>();
@@ -51,11 +69,23 @@ public class GorzdravService {
 
     public List<GorzdravDistrictRsDto> getDistricts() {
         errorNum = 0L;
+        ResponseEntity<String> response;
 
-        ResponseEntity<String> response = restTemplate.getForEntity("/shared/districts", String.class);
+        if (useLocal) {
+            try {
+                URL url = getClass().getClassLoader().getResource("./mockData/districts.json");
+                String data = Files.readString(new File(url.toURI()).toPath());
+                response = ResponseEntity.ok(data);
+            } catch (URISyntaxException | IOException e) {
+                response = ResponseEntity.ok("");
+            }
+        } else {
+            response = restTemplate.getForEntity("/shared/districts", String.class);
+        }
+
         checkStatusCode(response);
-
         String responseBody = response.getBody();
+
         JSONArray array = new JSONObject(responseBody).getJSONArray("result");
 
         List<GorzdravDistrictRsDto> districtsRs = new ArrayList<>();
@@ -73,7 +103,7 @@ public class GorzdravService {
     public TrackingInfoRsDto getTrackingInfo(Long hospitalId, Long directionId, Long doctorId) {
         String doctorName = "Без разницы";
         if (doctorId != null && doctorId != -1) {
-            doctorName = getDoctornName(doctorId, directionId, hospitalId);
+            doctorName = getDoctorName(doctorId, directionId, hospitalId);
         }
         return new TrackingInfoRsDto(
                 getDirectionName(directionId, hospitalId),
@@ -82,19 +112,32 @@ public class GorzdravService {
     }
 
     public List<GorzdravSpecialtiesDto> getSpecialties(Long gorzdravHospitalId) {
-        ResponseEntity<String> response = restTemplate.getForEntity("/schedule/lpu/" + gorzdravHospitalId + "/specialties", String.class);
-        checkStatusCode(response);
+        ResponseEntity<String> response;
 
+        if (useLocal) {
+            try {
+                URL url = getClass().getClassLoader().getResource("./mockData/specialties/" + gorzdravHospitalId + ".json");
+                String data = Files.readString(new File(url.toURI()).toPath());
+                response = ResponseEntity.ok(data);
+            } catch (URISyntaxException | IOException e) {
+                response = ResponseEntity.ok("");
+            }
+        } else {
+            response = restTemplate.getForEntity("/schedule/lpu/" + gorzdravHospitalId + "/specialties", String.class);
+        }
+
+        checkStatusCode(response);
         String responseBody = response.getBody();
-        if(!new JSONObject(responseBody).getBoolean("success")) {
+
+        if (!new JSONObject(responseBody).getBoolean("success")) {
             throw new NotFoundException("Hospital or specialties not found");
         }
         JSONArray array = new JSONObject(responseBody).getJSONArray("result");
         List<GorzdravSpecialtiesDto> specialties = new ArrayList<>();
         for (int i = 0; i < array.length(); i++) {
             JSONObject jsObj = array.getJSONObject(i);
-            var special= convertToSpecialtiesDto(jsObj);
-            if (special!= null) {
+            var special = convertToSpecialtiesDto(jsObj);
+            if (special != null) {
                 specialties.add(special);
             }
         }
@@ -103,11 +146,25 @@ public class GorzdravService {
 
     public List<GorzdravDoctorRsDto> getDoctorsBySpecialityId(Long gorzdravHospitalId, Long gorzdravSpecialityId) {
         errorNum = 0L;
-        String path = "/schedule/lpu/" + gorzdravHospitalId + "/speciality/" + gorzdravSpecialityId + "/doctors";
-        ResponseEntity<String> response = restTemplate.getForEntity(path, String.class);
-        checkStatusCode(response);
+        ResponseEntity<String> response;
 
+        if (useLocal) {
+            try {
+                String path = "./mockData/hospitals-specialties/" + gorzdravHospitalId + "-" + gorzdravSpecialityId + ".json";
+                URL url = getClass().getClassLoader().getResource(path);
+                String data = Files.readString(new File(url.toURI()).toPath());
+                response = ResponseEntity.ok(data);
+            } catch (URISyntaxException | IOException e) {
+                response = ResponseEntity.ok("");
+            }
+        } else {
+            String path = "/schedule/lpu/" + gorzdravHospitalId + "/speciality/" + gorzdravSpecialityId + "/doctors";
+            response = restTemplate.getForEntity(path, String.class);
+        }
+
+        checkStatusCode(response);
         String responseBody = response.getBody();
+
         try {
             JSONArray array = new JSONObject(responseBody).getJSONArray("result");
             List<GorzdravDoctorRsDto> doctorsRs = new ArrayList<>();
@@ -125,15 +182,42 @@ public class GorzdravService {
     }
 
     private String getDirectionName(long directionId, long hospitalId) {
-        ResponseEntity<String> response = restTemplate.getForEntity("/schedule/lpu/"+ hospitalId + "/specialties", String.class);
+        ResponseEntity<String> response;
+
+        if (useLocal) {
+            try {
+                URL url = getClass().getClassLoader().getResource("./mockData/specialties/" + hospitalId + ".json");
+                String data = Files.readString(new File(url.toURI()).toPath());
+                response = ResponseEntity.ok(data);
+            } catch (URISyntaxException | IOException e) {
+                response = ResponseEntity.ok("");
+            }
+        } else {
+            response = restTemplate.getForEntity("/schedule/lpu/" + hospitalId + "/specialties", String.class);
+        }
+
         return getNameById(response, directionId);
     }
 
-    private String getDoctornName(long doctorId, long directionId, long hospitalId) {
-        ResponseEntity<String> response = restTemplate.getForEntity(
-                "/schedule/lpu/"+ hospitalId + "/speciality/" + directionId + "/doctors",
-                String.class
-        );
+    private String getDoctorName(long doctorId, long directionId, long hospitalId) {
+        ResponseEntity<String> response;
+
+        if (useLocal) {
+            try {
+                String path = "./mockData/hospitals-specialties/" + hospitalId + "-" + directionId + ".json";
+                URL url = getClass().getClassLoader().getResource(path);
+                String data = Files.readString(new File(url.toURI()).toPath());
+                response = ResponseEntity.ok(data);
+            } catch (URISyntaxException | IOException e) {
+                response = ResponseEntity.ok("");
+            }
+        } else {
+            response = restTemplate.getForEntity(
+                    "/schedule/lpu/" + hospitalId + "/speciality/" + directionId + "/doctors",
+                    String.class
+            );
+        }
+
         return getNameById(response, doctorId);
     }
 

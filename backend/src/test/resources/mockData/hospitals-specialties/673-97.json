@@ -1,0 +1,96 @@
+{
+  "result": [
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 524,
+      "freeTicketCount": 524,
+      "id": "175830000001",
+      "lastDate": "2024-05-15T19:30:00",
+      "name": "Гылыпкылова Кристина Константиновна",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 518,
+      "freeTicketCount": 518,
+      "id": "175830000002",
+      "lastDate": "2024-05-15T15:30:00",
+      "name": "Давыдова Вера Иосифовна",
+      "nearestDate": "2024-03-26T13:00:00"
+    },
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 486,
+      "freeTicketCount": 486,
+      "id": "175830000037",
+      "lastDate": "2024-05-15T19:00:00",
+      "name": "Еналеев Ринат Джиганшиевич",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 518,
+      "freeTicketCount": 518,
+      "id": "175830000024",
+      "lastDate": "2024-05-15T15:30:00",
+      "name": "Кирсанова Светлана Сергеевна",
+      "nearestDate": "2024-03-26T13:00:00"
+    },
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 74,
+      "freeTicketCount": 74,
+      "id": "205830000002",
+      "lastDate": "2024-05-15T13:30:00",
+      "name": "Кошкин Виктор Авенирович",
+      "nearestDate": "2024-03-26T13:00:00"
+    },
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 74,
+      "freeTicketCount": 74,
+      "id": "205830000003",
+      "lastDate": "2024-05-15T14:30:00",
+      "name": "Небредовская Елена Валерьевна",
+      "nearestDate": "2024-03-26T14:00:00"
+    },
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 522,
+      "freeTicketCount": 522,
+      "id": "175830000043",
+      "lastDate": "2024-05-15T19:30:00",
+      "name": "Рыбакова Юлия Валерьевна",
+      "nearestDate": "2024-03-25T18:00:00"
+    },
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 524,
+      "freeTicketCount": 524,
+      "id": "175830000026",
+      "lastDate": "2024-05-15T19:30:00",
+      "name": "Соколова Лариса Николаевна",
+      "nearestDate": "2024-03-25T17:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

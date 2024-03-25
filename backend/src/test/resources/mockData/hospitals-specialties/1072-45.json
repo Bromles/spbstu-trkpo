@@ -1,0 +1,85 @@
+{
+  "result": [
+    {
+      "ariaNumber": "705",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "539",
+      "lastDate": null,
+      "name": "Белов Алексей Николаевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "706",
+      "ariaType": null,
+      "comment": "25.03.2024: Нетрудоспособность (Болезнь, карантин и т.п.)",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "69",
+      "lastDate": null,
+      "name": "Бочкова Елена Львовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "707",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 29.03.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "70",
+      "lastDate": null,
+      "name": "Дашкова Наталья Евгеньевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "704",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "71",
+      "lastDate": null,
+      "name": "Клусевич Наталья Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "708",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "358",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Копчак Дарья Викторовна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "703",
+      "ariaType": null,
+      "comment": "08.04.2024: Учёба",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "304",
+      "lastDate": null,
+      "name": "Крюкова Людмила Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "709",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "612",
+      "lastDate": null,
+      "name": "Платонова Ольга Васильевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

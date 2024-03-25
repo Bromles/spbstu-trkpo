@@ -1,0 +1,129 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 52,
+      "freeTicketCount": 137,
+      "id": "д6.106а",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "АХАДОВА А.И. 4 уч. (до 1 года)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 37,
+      "freeTicketCount": 124,
+      "id": "д6.28",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "ВТОРОВ МА 14+10 уч. (ДО 1 ГОДА) ",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 53,
+      "freeTicketCount": 140,
+      "id": "д6.105а",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "ГРИГОРЬЕВА К.М. 3 уч. (ДО 1  ГОДА)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 44,
+      "freeTicketCount": 121,
+      "id": "д6.102",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "МАГОМЕДОВА Н.М. 7 уч. (дети до 1 года)",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 30,
+      "freeTicketCount": 112,
+      "id": "д6.25",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "МОЖАРОВСКАЯ ТВ 9 уч. ( ДО 1 ГОДА)",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 38,
+      "freeTicketCount": 117,
+      "id": "д6.55а",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "НОВИЧКОВА С.М. 2 уч. (ДО 1 года)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 38,
+      "freeTicketCount": 113,
+      "id": "д6.29",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "РЫЖАКОВА ЛН 15 уч. (ДО 1 ГОДА)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 25,
+      "id": "д6.27",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "САЛАМОВА ГВ 8 уч. (ДО 1 ГОДА)",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 44,
+      "freeTicketCount": 133,
+      "id": "д6.92а",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "СТРЕХАЛЬСКАЯ Е,С, 5 уч. (ДЕТИ ДО 1 ГОДА)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "д6.68а",
+      "lastDate": null,
+      "name": "6 уч. (ДО 1 ГОДА) Запись через уч.медсестру",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "д6.104",
+      "lastDate": null,
+      "name": "ШИН Т.Г. 11 уч. запись через уч.медсестру (ДО 1 ГОДА)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

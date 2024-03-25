@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 30,
+      "freeTicketCount": 30,
+      "id": "п30.91",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ШАВРОВ А.Е. 19.04 приёма нет",
+      "nearestDate": "2024-04-04T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

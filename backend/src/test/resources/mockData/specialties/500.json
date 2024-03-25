@@ -1,0 +1,44 @@
+{
+  "result": [
+    {
+      "id": "778688d3-c4a5-11ec-9830-089798a49211",
+      "ferId": "27",
+      "name": "Врач-терапевт",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "12f59fce-c262-11ec-9830-089798a49211",
+      "ferId": "20",
+      "name": "Врач-офтальмолог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "759eed1b-0dc9-11ed-bba5-b496918ad4ad",
+      "ferId": "19",
+      "name": "Врач-отоларинголог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "7b66c767-ebeb-11ec-bba1-b496918ad4ad",
+      "ferId": "27",
+      "name": "Врач общей практики (семейный врач)",
+      "countFreeParticipant": 1,
+      "countFreeTicket": 1,
+      "lastDate": "2024-03-26T09:30:00",
+      "nearestDate": "2024-03-26T09:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

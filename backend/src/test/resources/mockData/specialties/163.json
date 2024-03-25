@@ -1,0 +1,80 @@
+{
+  "result": [
+    {
+      "id": "10000",
+      "ferId": "206",
+      "name": "Бокс, симптомы ОРВИ/Грипп/COVID",
+      "countFreeParticipant": 92,
+      "countFreeTicket": 92,
+      "lastDate": "2024-04-03T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "109",
+      "ferId": "55",
+      "name": "Вакцинация от COVID-19",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "18",
+      "ferId": "42",
+      "name": "Детский уролог-андролог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "19",
+      "ferId": "11",
+      "name": "Детский хирург",
+      "countFreeParticipant": 218,
+      "countFreeTicket": 218,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "48",
+      "ferId": "19",
+      "name": "Отоларинголог",
+      "countFreeParticipant": 219,
+      "countFreeTicket": 219,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "102",
+      "ferId": "20",
+      "name": "Офтальмолог",
+      "countFreeParticipant": 162,
+      "countFreeTicket": 162,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "52",
+      "ferId": "22",
+      "name": "Педиатр",
+      "countFreeParticipant": 1208,
+      "countFreeTicket": 1273,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "81",
+      "ferId": "28",
+      "name": "Травматолог-ортопед",
+      "countFreeParticipant": 35,
+      "countFreeTicket": 35,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-03-28T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

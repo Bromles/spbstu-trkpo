@@ -1,0 +1,118 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 15,
+      "freeTicketCount": 27,
+      "id": "д20.67",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Батталова О.У. (9 уч.)",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 12,
+      "freeTicketCount": 20,
+      "id": "д20.76",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Богатырев А.Х. (3 уч.) 12 уч. с 25.03-29.03 ",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 10,
+      "id": "д20.65",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Васильева Е.А. (2 уч.)  Отпуск с 18.03-31.03",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 12,
+      "id": "д20.55",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Володина Н.И.(1, 12 А уч.) ",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 15,
+      "freeTicketCount": 24,
+      "id": "д20.52",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Галиева Э.И.(6уч.) ",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 6,
+      "id": "д20.43",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Данилова К.А. (4, 11 уч.) ",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 21,
+      "freeTicketCount": 29,
+      "id": "д20.66",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Дорошкевич Артур Олегович (13 уч.)",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 10,
+      "freeTicketCount": 14,
+      "id": "д20.54",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Сидорова А.А.(10 уч.)  2 уч. с 18.03-29.03 ",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 9,
+      "freeTicketCount": 12,
+      "id": "д20.73",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Тарасенко Д. Д. (12, 11 уч.) Отпуск с 25.03-29.03",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 7,
+      "id": "д20.32",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Хирная Е.И. (5,7,8 уч.) ",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

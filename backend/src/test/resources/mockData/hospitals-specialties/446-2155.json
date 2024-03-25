@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "7540",
+      "lastDate": "2024-04-05T13:00:00",
+      "name": "Шмагун Ирина Михайловна",
+      "nearestDate": "2024-04-04T13:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

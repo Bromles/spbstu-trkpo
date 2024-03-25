@@ -1,0 +1,107 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 74,
+      "freeTicketCount": 211,
+      "id": "ВОП13",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "АНТИПОВА Д.Б. ",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 153,
+      "freeTicketCount": 268,
+      "id": "ВОП20",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "ЕВДОКИМОВА Е.Б.",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 132,
+      "freeTicketCount": 208,
+      "id": "ВОП3",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "ИВАНЦОВА Г.В. ",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 48,
+      "freeTicketCount": 98,
+      "id": "ВОП17",
+      "lastDate": "2024-04-11T00:00:00",
+      "name": "КОЛБИНЦЕВ А.О.",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 13,
+      "freeTicketCount": 28,
+      "id": "ВОП4",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "ЛЕВБЕРГ Л.Ю. ",
+      "nearestDate": "2024-04-04T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 156,
+      "freeTicketCount": 256,
+      "id": "ВОП18",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "ОЛЬШИН К.А. ",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "ВОП15",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "ПОЛОЗОВА Н.М. ",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 29,
+      "freeTicketCount": 52,
+      "id": "ВОП16",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "ПОРТНОВ М.В. ",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 165,
+      "freeTicketCount": 252,
+      "id": "ВОП19",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "ЧУРИКОВА Ю.Н.",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

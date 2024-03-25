@@ -1,0 +1,250 @@
+{
+  "result": [
+    {
+      "ariaNumber": "17 Участок",
+      "ariaType": null,
+      "comment": "26.03.2024: Командировки служебные;\n27.03.2024: Командировки служебные;\n28.03.2024: Командировки служебные;\n29.03.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1859",
+      "lastDate": null,
+      "name": "Алиева Сапият Тимуровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "14 Участок",
+      "ariaType": null,
+      "comment": "26.03.2024: Командировки служебные;\n28.03.2024: Командировки служебные;\n29.03.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1748",
+      "lastDate": null,
+      "name": "Афанасьев Валерий Вячеславович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "11 Участок",
+      "ariaType": null,
+      "comment": "29.03.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "563",
+      "lastDate": null,
+      "name": "Баталова Малика Османовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "23 Участок",
+      "ariaType": null,
+      "comment": "26.03.2024: Командировки служебные;\n27.03.2024: Командировки служебные;\n28.03.2024: Командировки служебные;\n29.03.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1900",
+      "lastDate": null,
+      "name": "Беляева Лилия Альбертовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "15 Участок",
+      "ariaType": null,
+      "comment": "26.03.2024: Командировки служебные;\n28.03.2024: Командировки служебные;\n29.03.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1689",
+      "lastDate": null,
+      "name": "Владимиров Алексей Алексеевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "08 Участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1869",
+      "lastDate": null,
+      "name": "Волокитин Кирилл Сергеевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "05 Участок",
+      "ariaType": null,
+      "comment": "26.03.2024: Командировки служебные;\n27.03.2024: Командировки служебные;\n28.03.2024: Командировки служебные;\n29.03.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1510",
+      "lastDate": null,
+      "name": "Гунина Анастасия Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "07 Участок",
+      "ariaType": null,
+      "comment": "26.03.2024: Командировки служебные;\n27.03.2024: Командировки служебные;\n28.03.2024: Командировки служебные;\n29.03.2024: Командировки служебные;\n29.03.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "574",
+      "lastDate": null,
+      "name": "Денисова Ольга Васильевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "09 Участок",
+      "ariaType": null,
+      "comment": "26.03.2024: Командировки служебные;\n26.03.2024: Командировки служебные;\n27.03.2024: Командировки служебные;\n28.03.2024: Командировки служебные;\n29.03.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1858",
+      "lastDate": null,
+      "name": "Зайцева Марина Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "01 Участок",
+      "ariaType": null,
+      "comment": "26.03.2024: Командировки служебные;\n27.03.2024: Командировки служебные;\n28.03.2024: Командировки служебные;\n29.03.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1850",
+      "lastDate": null,
+      "name": "Казак Анастасия Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "04 Участок",
+      "ariaType": null,
+      "comment": "27.03.2024: Командировки служебные;\n29.03.2024: Командировки служебные",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 6,
+      "id": "1851",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": "Казак Сергей Михайлович",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "02 Участок",
+      "ariaType": null,
+      "comment": "26.03.2024: Командировки служебные;\n27.03.2024: Командировки служебные;\n28.03.2024: Командировки служебные;\n29.03.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "582",
+      "lastDate": null,
+      "name": "Ковалевич Тамара Алексеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "12 Участок",
+      "ariaType": null,
+      "comment": "26.03.2024: Командировки служебные;\n26.03.2024: Командировки служебные;\n27.03.2024: Командировки служебные;\n29.03.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1860",
+      "lastDate": null,
+      "name": "Котова Мария Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "10 Участок",
+      "ariaType": null,
+      "comment": "26.03.2024: Командировки служебные;\n27.03.2024: Командировки служебные;\n28.03.2024: Командировки служебные;\n28.03.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1745",
+      "lastDate": null,
+      "name": "Ластовская Кристина Валерьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "03 Участок",
+      "ariaType": null,
+      "comment": "26.03.2024: Командировки служебные;\n26.03.2024: Командировки служебные;\n27.03.2024: Командировки служебные;\n28.03.2024: Командировки служебные;\n29.03.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1349",
+      "lastDate": null,
+      "name": "Максимова Ольга Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "22 Участок",
+      "ariaType": null,
+      "comment": "26.03.2024: Командировки служебные;\n27.03.2024: Командировки служебные;\n28.03.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1696",
+      "lastDate": null,
+      "name": "Некрасов Михаил Сергеевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "06 Участок",
+      "ariaType": null,
+      "comment": "27.03.2024: Командировки служебные;\n28.03.2024: Командировки служебные;\n29.03.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1852",
+      "lastDate": null,
+      "name": "Орлянская Ольга Геннадьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "21 Участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1649",
+      "lastDate": null,
+      "name": "Пожалова Юлия Андреевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "19 Участок",
+      "ariaType": null,
+      "comment": "26.03.2024: Командировки служебные;\n28.03.2024: Командировки служебные;\n29.03.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1899",
+      "lastDate": null,
+      "name": "Сайко Давид Алексеевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "18 Участок",
+      "ariaType": null,
+      "comment": "27.03.2024: Командировки служебные;\n28.03.2024: Командировки служебные;\n29.03.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1862",
+      "lastDate": null,
+      "name": "Селезнева Анастасия Павловна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "20 Участок",
+      "ariaType": null,
+      "comment": "с 27.03.2024 по 28.03.2024: Командировки служебные;\n28.03.2024: Командировки служебные;\n29.03.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1426",
+      "lastDate": null,
+      "name": "Тихомирова Татьяна Евгеньевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "13 Участок",
+      "ariaType": null,
+      "comment": "27.03.2024: Командировки служебные;\n28.03.2024: Командировки служебные;\n29.03.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1701",
+      "lastDate": null,
+      "name": "Филипова Кристина Сергеевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

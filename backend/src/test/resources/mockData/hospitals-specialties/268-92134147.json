@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 40,
+      "freeTicketCount": 40,
+      "id": "157",
+      "lastDate": "2024-04-08T18:11:00",
+      "name": "Каланджи Наталья Георгиевна",
+      "nearestDate": "2024-04-02T10:03:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

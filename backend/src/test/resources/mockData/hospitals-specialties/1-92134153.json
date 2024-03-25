@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "412 ",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "3028",
+      "lastDate": null,
+      "name": "Ефимова Елена Васильевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "411 ",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2636",
+      "lastDate": null,
+      "name": "Ионова Регина Валериевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

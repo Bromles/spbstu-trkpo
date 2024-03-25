@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 397,
+      "freeTicketCount": 397,
+      "id": "27",
+      "lastDate": "2024-04-18T00:00:00",
+      "name": "Ал-Банна Рамиз Субхи Хамуда",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

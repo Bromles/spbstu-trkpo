@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": "07 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "577",
+      "lastDate": null,
+      "name": "Алиева Муаттар Илхомовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "09 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "80",
+      "lastDate": null,
+      "name": "Баркова Елена Васильевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "05 уч.",
+      "ariaType": null,
+      "comment": "25.03.2024: Учебный отпуск;\n26.03.2024: Простои целосменные;\nс 27.03.2024 по 29.03.2024: Учебный отпуск;\nс 01.04.2024 по 05.04.2024: Учебный отпуск",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "56",
+      "lastDate": null,
+      "name": "Бояркина Елизавета Павловна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "06 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "342",
+      "lastDate": null,
+      "name": "Тиль Юлия Юрьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "24 ДПО",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1401",
+      "lastDate": null,
+      "name": "Эшмуродова Иззатой Абдуллаевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

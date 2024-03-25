@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 127,
+      "freeTicketCount": 127,
+      "id": "103",
+      "lastDate": "2024-04-29T00:00:00",
+      "name": "Иванов Кирилл Александрович",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 75,
+      "freeTicketCount": 75,
+      "id": "208",
+      "lastDate": "2024-04-30T00:00:00",
+      "name": "Мельников Кирилл Олегович",
+      "nearestDate": "2024-04-15T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

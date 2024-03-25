@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 87,
+      "freeTicketCount": 87,
+      "id": "53",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Захарова Е.И.(по вторникам нет записи)",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 11,
+      "freeTicketCount": 11,
+      "id": "74",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Сугак Е. В.(по средам нет записи)отп с 25/03-31/03",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 38,
+      "freeTicketCount": 38,
+      "id": "241839",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Фатина Е.В.(по четвергам нет записи)",
+      "nearestDate": "2024-04-03T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

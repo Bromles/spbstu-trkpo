@@ -1,0 +1,44 @@
+{
+  "result": [
+    {
+      "id": "2151",
+      "ferId": "209",
+      "name": "Стоматолог-ортопед (ПЛАТНЫЙ ПРИЕМ)",
+      "countFreeParticipant": 25,
+      "countFreeTicket": 25,
+      "lastDate": "2024-04-08T16:30:00",
+      "nearestDate": "2024-03-28T09:30:00"
+    },
+    {
+      "id": "6189",
+      "ferId": "176",
+      "name": "Стоматолог-пародонтолог",
+      "countFreeParticipant": 2,
+      "countFreeTicket": 2,
+      "lastDate": "2024-04-08T13:00:00",
+      "nearestDate": "2024-04-08T08:30:00"
+    },
+    {
+      "id": "2083",
+      "ferId": "176",
+      "name": "Стоматолог-терапевт",
+      "countFreeParticipant": 12,
+      "countFreeTicket": 12,
+      "lastDate": "2024-04-08T16:30:00",
+      "nearestDate": "2024-04-04T12:30:00"
+    },
+    {
+      "id": "2084",
+      "ferId": "177",
+      "name": "Стоматолог-хирург",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

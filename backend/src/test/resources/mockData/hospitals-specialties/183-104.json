@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 46,
+      "freeTicketCount": 46,
+      "id": "800",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Кабинет Вакцинации От Covid 19 Спутник Лайт",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 48,
+      "freeTicketCount": 48,
+      "id": "755",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Кабинет Вакцинации От Covid-19 Конвасэл Кабинет № С515",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

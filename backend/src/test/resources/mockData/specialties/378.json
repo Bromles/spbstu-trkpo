@@ -1,0 +1,17 @@
+{
+  "result": [
+    {
+      "id": "48874",
+      "ferId": "29",
+      "name": "Фтизиатрия",
+      "countFreeParticipant": 385,
+      "countFreeTicket": 385,
+      "lastDate": "2024-04-08T18:36:00",
+      "nearestDate": "2024-03-25T16:54:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

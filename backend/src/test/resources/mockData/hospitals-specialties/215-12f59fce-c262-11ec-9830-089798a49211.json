@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "каб.245",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "61c95c81-0dbe-11ed-bba5-b496918ad4ad",
+      "lastDate": null,
+      "name": "Гусинская Дарья Николаевна (Врач-офтальмолог)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "каб.245",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "67c0c5c9-0dbe-11ed-bba5-b496918ad4ad",
+      "lastDate": null,
+      "name": "Румянцева Юлия Михайловна (Врач-офтальмолог)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

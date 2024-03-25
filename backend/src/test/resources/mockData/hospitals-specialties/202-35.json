@@ -1,0 +1,85 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "gk.101",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Романцова Л.Н.",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 14,
+      "freeTicketCount": 14,
+      "id": "gk.102",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Сташко СП",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "gk.43",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Шакина А.А.",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "gk.024",
+      "lastDate": null,
+      "name": "Брюквина Т.И.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "gk.28",
+      "lastDate": null,
+      "name": "КУПРИЯНОВА А.В",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "gk.034",
+      "lastDate": null,
+      "name": "Туманина Ю. А.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "gk.033",
+      "lastDate": null,
+      "name": "Шевцова О.В.",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

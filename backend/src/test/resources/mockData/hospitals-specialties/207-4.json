@@ -1,0 +1,140 @@
+{
+  "result": [
+    {
+      "ariaNumber": "10,13",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 62,
+      "freeTicketCount": 62,
+      "id": "п49.175",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "АНДРЕЕВА ЕЛИЗАВЕТА СЕРГЕЕВНА 10 уч ",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "12,13",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 62,
+      "freeTicketCount": 62,
+      "id": "П49.181",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ГОЛИЧНИКОВА АНАСТАСИЯ АЛЕКСЕЕВНА  12 уч ",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "8",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 52,
+      "freeTicketCount": 76,
+      "id": "п49.62",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Иванова А.И. 8 уч (отпуск 08.04-21.04)",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "4",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 35,
+      "freeTicketCount": 35,
+      "id": "п63.85",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "КНИС АНАСТАСИЯ ИЛЬИНИЧНА 4 уч (отпуск 15.04-28.04)",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "9,8",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 70,
+      "freeTicketCount": 80,
+      "id": "п49.11",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "КОЗЛОВА ОЛЬГА ИВАНОВНА  9 уч ",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "14",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 93,
+      "freeTicketCount": 93,
+      "id": "п49.106",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "КОНДРАТЬЕВА СУРИЯ АБУГАЛИЕВНА 14 уч ",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "6,7",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 89,
+      "freeTicketCount": 89,
+      "id": "п49.86",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ЛЮБИМОВА ВАЛЕРИЯ НИКОЛАЕВНА 6 уч.",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "2,7",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 83,
+      "freeTicketCount": 83,
+      "id": "п49.117",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "МАЗУР АННА ПАВЛОВНА 2 уч   ",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "1,3",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 10,
+      "freeTicketCount": 10,
+      "id": "49.131",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "МЕДВЕДЕВА МИЛАНА ОЛЕГОВНА 1,3 уч  ",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "11",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 88,
+      "freeTicketCount": 88,
+      "id": "п49.97",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ФЕДОРЕНКОВА ВИКТОРИЯ ИВАНОВНА 11 уч (отпуск 22.04-28.04)",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "5,7",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 98,
+      "freeTicketCount": 98,
+      "id": "п49.63",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ЧИРКОВ ЮРИЙ АНАТОЛЬЕВИЧ  5 уч.  ",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "7",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "п49.93",
+      "lastDate": null,
+      "name": "КУЗНЕЦОВА ЮЛИЯ ИГОРЕВНА  7 уч. (отпуск 01.04-28.04)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

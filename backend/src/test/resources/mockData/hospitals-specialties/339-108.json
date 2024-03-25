@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 42,
+      "id": "203",
+      "lastDate": "2024-04-04T20:45:00",
+      "name": "Алексеенко Артем Вадимович ",
+      "nearestDate": "2024-04-02T14:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 139,
+      "id": "40",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Бикчинтаев Анатолий Александрович ",
+      "nearestDate": "2024-03-26T15:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 151,
+      "id": "43",
+      "lastDate": "2024-04-05T20:45:00",
+      "name": "Дионесов Андрей Всеволодович ",
+      "nearestDate": "2024-03-25T17:25:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 171,
+      "id": "206",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Калашников Роман Сергеевич ",
+      "nearestDate": "2024-03-26T14:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 194,
+      "id": "262",
+      "lastDate": "2024-04-08T13:45:00",
+      "name": "Николаев Алексей Алексеевич ",
+      "nearestDate": "2024-03-25T17:25:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

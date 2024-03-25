@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "25.03.2024: Очередные и дополнительные отпуска;\n27.03.2024: Очередные и дополнительные отпуска;\n29.03.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 62,
+      "freeTicketCount": 119,
+      "id": "365",
+      "lastDate": "2024-04-22T00:00:00",
+      "name": "Дрейлинг Михаил Петрович",
+      "nearestDate": "2024-04-03T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

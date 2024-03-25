@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "2,3",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "20",
+      "lastDate": null,
+      "name": "Зенюкова Т.В. (Юнтоловский 47/3) ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "п63.55",
+      "lastDate": null,
+      "name": "Кобелева Е.А. ",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

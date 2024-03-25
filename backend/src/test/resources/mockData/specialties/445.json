@@ -1,0 +1,17 @@
+{
+  "result": [
+    {
+      "id": "92135855",
+      "ferId": "8",
+      "name": "Акушерство и гинекология ( маммолог) Направление ОБЯЗАТЕЛЬНО!",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

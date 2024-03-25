@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 56,
+      "freeTicketCount": 274,
+      "id": "537",
+      "lastDate": "2024-04-08T13:45:00",
+      "name": "Блохина Виолетта Антоновна ",
+      "nearestDate": "2024-03-26T15:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 39,
+      "freeTicketCount": 197,
+      "id": "476",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Борщова Екатерина Сергеевна ",
+      "nearestDate": "2024-03-26T15:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 73,
+      "id": "475",
+      "lastDate": "2024-04-03T20:45:00",
+      "name": "Мясников Тарас Сергеевич ",
+      "nearestDate": "2024-03-26T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 47,
+      "freeTicketCount": 249,
+      "id": "512",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Павлов Артем Викторович ",
+      "nearestDate": "2024-03-25T16:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 24,
+      "freeTicketCount": 134,
+      "id": "410",
+      "lastDate": "2024-04-08T13:45:00",
+      "name": "Скраливецкий Евгений Борисович ",
+      "nearestDate": "2024-03-25T16:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

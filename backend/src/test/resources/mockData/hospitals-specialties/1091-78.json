@@ -1,0 +1,140 @@
+{
+  "result": [
+    {
+      "ariaNumber": "902",
+      "ariaType": null,
+      "comment": "01.04.2024: Дежурный врач",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2806",
+      "lastDate": null,
+      "name": "Алеф Рушан Гуль",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "905",
+      "ariaType": null,
+      "comment": "с 27.03.2024 по 08.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1820",
+      "lastDate": null,
+      "name": "Андреев Тимофей Александрович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "901",
+      "ariaType": null,
+      "comment": "05.04.2024: Дежурный врач;\n08.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1221",
+      "lastDate": null,
+      "name": "Горбачева Екатерина Вячеславовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "910",
+      "ariaType": null,
+      "comment": "28.03.2024: Дежурный врач",
+      "freeParticipantCount": 15,
+      "freeTicketCount": 15,
+      "id": "1588",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Гочияев Халит Азреталиевич",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "909",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 29.03.2024: Очередные и дополнительные отпуска;\n02.04.2024: Дежурный врач;\n08.04.2024: Дежурный врач",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "1586",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Лобжанидзе Георгий Федорович",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "912",
+      "ariaType": null,
+      "comment": "03.04.2024: Дежурный врач",
+      "freeParticipantCount": 12,
+      "freeTicketCount": 12,
+      "id": "2810",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Мертехина Маргарита Александровна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "903",
+      "ariaType": null,
+      "comment": "25.03.2024: Дежурный врач",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1969",
+      "lastDate": null,
+      "name": "Мирзегасанова Телли Арифовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "904",
+      "ariaType": null,
+      "comment": "27.03.2024: Дежурный врач",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "792",
+      "lastDate": null,
+      "name": "Перова Анна Викторовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "911",
+      "ariaType": null,
+      "comment": "29.03.2024: Дежурный врач",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2056",
+      "lastDate": null,
+      "name": "Подлесная Вера Игоревна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "906",
+      "ariaType": null,
+      "comment": "26.03.2024: Дежурный врач;\n04.04.2024: Дежурный врач",
+      "freeParticipantCount": 27,
+      "freeTicketCount": 27,
+      "id": "2763",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": "Раковчена Виктория Андреевна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "907",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "1583",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": "Тамасханова Медея Мусаевна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "908",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "1925",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Цветова Елена Сергеевна",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

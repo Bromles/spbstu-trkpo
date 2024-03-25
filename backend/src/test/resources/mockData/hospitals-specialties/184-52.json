@@ -1,0 +1,228 @@
+{
+  "result": [
+    {
+      "ariaNumber": "13 участок ДПО8",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 43,
+      "freeTicketCount": 43,
+      "id": "758",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Абаскулиев Полат Тельманович",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "7 участок ДПО8",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 17,
+      "freeTicketCount": 17,
+      "id": "400",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Александрова Татьяна Львовна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "653",
+      "lastDate": null,
+      "name": "Баширова Ирина Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "2 участок ДПО8",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 36,
+      "freeTicketCount": 36,
+      "id": "793",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Белова Татьяна Васильевна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "1 участок ДПО8",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 94,
+      "freeTicketCount": 94,
+      "id": "784",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Васильева Злата Максимовна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 29.03.2024: Отпуск",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "468",
+      "lastDate": null,
+      "name": "Замятина Юлия Евгеньевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "2 участок ДПО8",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "596",
+      "lastDate": null,
+      "name": "Зернюк Альбина Сагидулловна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "396",
+      "lastDate": null,
+      "name": "Ивлева Лейла Абидулловна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "10 участок ДПО8",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 31,
+      "freeTicketCount": 31,
+      "id": "761",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Ивченкова Анна Яновна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "10 участок ДПО8",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "686",
+      "lastDate": null,
+      "name": "Ковальчук Валентина Геннадьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "13 участок ДПО8",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "679",
+      "lastDate": null,
+      "name": "Копаева Анна Станиславовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "4 участок ДПО8",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "462",
+      "lastDate": null,
+      "name": "Лукина Галина Геннадьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "8 участок ДПО8",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 36,
+      "freeTicketCount": 36,
+      "id": "577",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Плотникова Мария Александровна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "5 участок ДПО8",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "558",
+      "lastDate": null,
+      "name": "Смирнова Анна Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "6 участок ДПО8",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 25,
+      "freeTicketCount": 25,
+      "id": "401",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Соловьева Екатерина Михайловна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "5 участок ДПО8",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "754",
+      "lastDate": null,
+      "name": "Соложенцев Артём Геннадьевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "2 участок ДПО8",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "574",
+      "lastDate": null,
+      "name": "Стекольщикова Евгения Андреевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "1 участок ДПО8",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "695",
+      "lastDate": null,
+      "name": "Ульяхина Ольга Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "2 участок ДПО8",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "531",
+      "lastDate": null,
+      "name": "Ходкевич Елена Васильевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "13 участок ДПО8",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "572",
+      "lastDate": null,
+      "name": "Хомутова Анна Андреевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

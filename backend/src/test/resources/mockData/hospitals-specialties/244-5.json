@@ -1,0 +1,96 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "ут231",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Городнов ВВ (ТЕР2)",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "ут409",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Камбаров ШФ",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 13,
+      "freeTicketCount": 13,
+      "id": "ут421",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Кондратова АИ",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "ут098",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Кузнецова СА",
+      "nearestDate": "2024-04-04T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 33,
+      "freeTicketCount": 33,
+      "id": "ут424",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Новикова ОА",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 32,
+      "freeTicketCount": 32,
+      "id": "ут365",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Рутгайзер ДД",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "ут374",
+      "lastDate": null,
+      "name": "Баранова КД",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "ут293",
+      "lastDate": null,
+      "name": "Михайлова ЕА",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

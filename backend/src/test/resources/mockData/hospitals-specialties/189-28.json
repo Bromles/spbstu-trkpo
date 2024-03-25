@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "117.99",
+      "lastDate": "2024-04-15T00:00:00",
+      "name": "Мчедлидзе Б.О.",
+      "nearestDate": "2024-04-15T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

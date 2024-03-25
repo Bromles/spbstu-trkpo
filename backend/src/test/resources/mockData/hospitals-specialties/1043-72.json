@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 62,
+      "freeTicketCount": 132,
+      "id": "п8.293",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "БУХКАЛОВА ТАТЬЯНА СЕРГЕЕВНА (ОВОП) участок 3-06",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 39,
+      "freeTicketCount": 84,
+      "id": "п8.112",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ИЧАНСКИЙ РОМАН НИКОЛАЕВИЧ (ОВОП) участок 3-02 (отпуск 25.03.2024 - 31.03.2024)",
+      "nearestDate": "2024-04-03T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Детский уролог-андролог",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 34,
+      "freeTicketCount": 40,
+      "id": "2062",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Глухов Никита Алексеевич возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "71e51657-00ff-11ed-bba2-b496918ad4ad",
+      "lastDate": "2024-04-08T15:00:00",
+      "name": "Павловская Янина Владимировна (Врач детский эндокринолог)",
+      "nearestDate": "2024-04-08T14:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 39,
+      "freeTicketCount": 39,
+      "id": "58edc941-5dd4-11ee-bbf6-b496918ad4af",
+      "lastDate": "2024-04-05T19:15:00",
+      "name": "Хастинова Асият Тимурлановна (Врач детский эндокринолог)",
+      "nearestDate": "2024-04-01T10:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

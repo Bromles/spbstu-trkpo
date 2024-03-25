@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 92,
+      "freeTicketCount": 99,
+      "id": "32",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Чубова Валерия Николаевна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 102,
+      "freeTicketCount": 102,
+      "id": "111",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Юдина Ольга Валерьевна",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

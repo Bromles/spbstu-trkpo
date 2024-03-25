@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 145,
+      "freeTicketCount": 145,
+      "id": "eUFxZEFBTkFRQUU=",
+      "lastDate": "2024-04-08T20:25:00",
+      "name": "Кабинет Центра Здоровья (скрининговое тестирование)",
+      "nearestDate": "2024-03-26T15:15:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

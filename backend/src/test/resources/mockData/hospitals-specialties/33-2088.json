@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 18,
+      "freeTicketCount": 36,
+      "id": "1475",
+      "lastDate": "2024-04-02T14:30:00",
+      "name": "Кабисова Ланда Юрьевна",
+      "nearestDate": "2024-03-26T14:15:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

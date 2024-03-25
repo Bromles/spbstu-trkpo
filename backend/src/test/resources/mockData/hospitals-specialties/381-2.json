@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "08.04.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "725",
+      "lastDate": null,
+      "name": "Бардинова Мария Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "349",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Валова Марина Анатольевна",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

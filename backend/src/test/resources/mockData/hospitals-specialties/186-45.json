@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "04 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 77,
+      "freeTicketCount": 77,
+      "id": "575",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Кердяшева Маргарита Сергеевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "11 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 31,
+      "freeTicketCount": 31,
+      "id": "578",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Майорова Ольга Ивановна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "01 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 84,
+      "freeTicketCount": 84,
+      "id": "576",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Потемкина Софья Андреевна",
+      "nearestDate": "2024-04-15T00:00:00"
+    },
+    {
+      "ariaNumber": "06 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 15,
+      "freeTicketCount": 15,
+      "id": "462",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Фомин Алексей Александрович",
+      "nearestDate": "2024-04-08T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

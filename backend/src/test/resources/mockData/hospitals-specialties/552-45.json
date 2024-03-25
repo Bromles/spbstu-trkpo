@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": "5УЧ ВОП Стач142",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 53,
+      "freeTicketCount": 53,
+      "id": "964",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Житарюк Марта Ильинична",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "4УЧ ВОП Стач142",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 100,
+      "freeTicketCount": 100,
+      "id": "732",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Каракин Вячеслав Евгеньевич",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "1УЧ ВОП Стач142",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 104,
+      "freeTicketCount": 104,
+      "id": "1896",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Кузьмина Елена Анатольевна",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "3УЧ ВОП Стач142",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 26.03.2024: Командировки служебные;\nс 27.03.2024 по 28.03.2024: Командировки служебные;\nс 29.03.2024 по 08.04.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "131",
+      "lastDate": null,
+      "name": "Симакин Александр Васильевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "2УЧ ВОП Стач142",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 87,
+      "freeTicketCount": 87,
+      "id": "983",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Филатов Сергей Анатольевич",
+      "nearestDate": "2024-04-05T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "485",
+      "lastDate": "2024-04-08T17:20:00",
+      "name": "Стасюченок Наталья Владимировна",
+      "nearestDate": "2024-04-08T17:20:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

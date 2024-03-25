@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "25",
+      "lastDate": null,
+      "name": "Кубачева Залина Шамильевна (ул.Школьная д.116) ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "к12.40Ф",
+      "lastDate": null,
+      "name": "Курчатова Марина Юрьевна (Школьная116) ОТПУСК 25.03-31.03",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "23",
+      "lastDate": null,
+      "name": "Леонтьева Анастасия Владимировна (Школьная 116) ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 1,
+      "id": "16",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Трухина Ирина Сергеевна (Школьная 116)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "к12.21",
+      "lastDate": null,
+      "name": "Черепанова Наталья Александровна (ул. Школьная д. 116) ",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,152 @@
+{
+  "result": [
+    {
+      "id": "10000",
+      "ferId": "206",
+      "name": "Бокс, симптомы ОРВИ/Грипп/COVID",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "97",
+      "ferId": "55",
+      "name": "Вакцинация от COVID-19",
+      "countFreeParticipant": 40,
+      "countFreeTicket": 40,
+      "lastDate": "2024-04-04T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "11",
+      "ferId": "66",
+      "name": "Гериатр",
+      "countFreeParticipant": 44,
+      "countFreeTicket": 53,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "9999",
+      "ferId": "58",
+      "name": "Запись на углубленную диспансеризацию",
+      "countFreeParticipant": 56,
+      "countFreeTicket": 56,
+      "lastDate": "2024-04-04T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "23",
+      "ferId": "32",
+      "name": "Инфекционист",
+      "countFreeParticipant": 110,
+      "countFreeTicket": 110,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "24",
+      "ferId": "118",
+      "name": "Кардиолог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "10003",
+      "ferId": null,
+      "name": "Медицинский психолог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "40",
+      "ferId": "14",
+      "name": "Невролог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "45",
+      "ferId": "224",
+      "name": "Общая практика",
+      "countFreeParticipant": 85,
+      "countFreeTicket": 85,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "id": "48",
+      "ferId": "19",
+      "name": "Отоларинголог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "49",
+      "ferId": "20",
+      "name": "Офтальмолог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "78",
+      "ferId": "27",
+      "name": "Терапевт",
+      "countFreeParticipant": 43,
+      "countFreeTicket": 43,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "id": "84",
+      "ferId": "145",
+      "name": "Уролог",
+      "countFreeParticipant": 37,
+      "countFreeTicket": 37,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "id": "89",
+      "ferId": "30",
+      "name": "Хирург",
+      "countFreeParticipant": 1,
+      "countFreeTicket": 1,
+      "lastDate": "2024-03-28T00:00:00",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "id": "10002",
+      "ferId": null,
+      "name": "Центр Здоровья",
+      "countFreeParticipant": 184,
+      "countFreeTicket": 184,
+      "lastDate": "2024-04-04T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "91",
+      "ferId": "31",
+      "name": "Эндокринолог",
+      "countFreeParticipant": 51,
+      "countFreeTicket": 51,
+      "lastDate": "2024-04-12T00:00:00",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 92,
+      "freeTicketCount": 92,
+      "id": "п73.436",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "73 КОСТЮКОВА Н.В.",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 50,
+      "freeTicketCount": 50,
+      "id": "п73.459",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "73 ПУШКАРЕВА Л.М.",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "п73.440",
+      "lastDate": null,
+      "name": "73 КИРИЛЛОВА Т.Ю.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "п73.460",
+      "lastDate": null,
+      "name": "73 КИРИЛЛОВА Т.Ю.(удаление зубов)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

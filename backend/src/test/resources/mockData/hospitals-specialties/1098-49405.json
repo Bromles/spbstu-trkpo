@@ -1,0 +1,85 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "127",
+      "lastDate": null,
+      "name": "Безенова Наталья Ивановна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №5, Участок №22, Участок №23",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "128",
+      "lastDate": "2024-04-05T10:00:00",
+      "name": "Власова Ася Александровна",
+      "nearestDate": "2024-04-05T10:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "230",
+      "lastDate": null,
+      "name": "Дубровская Лариса Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №4, Участок №7, Участок №25",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "131",
+      "lastDate": null,
+      "name": "Мацкевич Юлия Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №1, Участок №21/1",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "133",
+      "lastDate": null,
+      "name": "Царегородцева Ирина Анатольевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "134",
+      "lastDate": null,
+      "name": "Щадрина Лариса Абелевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №3, Участок №21/3",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "754",
+      "lastDate": "2024-04-08T12:00:00",
+      "name": "Щербакова Светлана Анатольевна",
+      "nearestDate": "2024-04-01T10:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

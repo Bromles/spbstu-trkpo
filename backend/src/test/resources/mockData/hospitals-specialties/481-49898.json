@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 6,
+      "freeTicketCount": 6,
+      "id": "1251",
+      "lastDate": "2024-03-30T10:50:00",
+      "name": "Кенджаев Акбар Шодимахмадович",
+      "nearestDate": "2024-03-30T09:10:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "196",
+      "lastDate": null,
+      "name": "Кольц Александр Васильевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "261",
+      "lastDate": null,
+      "name": "Мерцалов Максим Сергеевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 10,
+      "freeTicketCount": 17,
+      "id": "953",
+      "lastDate": "2024-04-08T18:15:00",
+      "name": "Цой Александр Юрьевич",
+      "nearestDate": "2024-04-05T11:15:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

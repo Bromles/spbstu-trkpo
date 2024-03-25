@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 112,
+      "id": "82",
+      "lastDate": "2024-04-08T14:00:00",
+      "name": "Дубовик Дмитрий Александрович ",
+      "nearestDate": "2024-03-25T20:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 101,
+      "id": "100",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Тихонова Мария Юрьевна ",
+      "nearestDate": "2024-03-26T15:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

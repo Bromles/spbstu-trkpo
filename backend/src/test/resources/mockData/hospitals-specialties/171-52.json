@@ -1,0 +1,140 @@
+{
+  "result": [
+    {
+      "ariaNumber": "7, 12 Куйбышева 25",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 36,
+      "freeTicketCount": 36,
+      "id": "409",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Антипова Анна Владимировна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "10 Воскова 15/17",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 19,
+      "freeTicketCount": 19,
+      "id": "260",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Григорьева Екатерина Владимировна",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "3,4 Воскова 15/17",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 16,
+      "freeTicketCount": 24,
+      "id": "536",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Долгополов Кирилл Викторович",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "11 Куйбышева 25, каб.7",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 38,
+      "freeTicketCount": 41,
+      "id": "491",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Кожуховский Юрий Вячеславович",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "8 Воскова 15/17",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 16,
+      "freeTicketCount": 16,
+      "id": "538",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Кочиев Никита Олегович",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "495",
+      "lastDate": null,
+      "name": "Кудрявцева Дарья Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "1,2 Воскова 15/17",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 14,
+      "freeTicketCount": 14,
+      "id": "523",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Мыслинчук Ольга Михайловна",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "492",
+      "lastDate": null,
+      "name": "Никипорец Наталья Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "13 Куйбышева 25",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "283",
+      "lastDate": null,
+      "name": "Остафийчук Ирина Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "5 Куйбышева 25",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 26,
+      "freeTicketCount": 26,
+      "id": "418",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Ступников Филипп Павлович",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "6 Куйбышева 25",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "436",
+      "lastDate": null,
+      "name": "Трофимова Кристина Валерьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "9 Куйбышева 25, каб. 7",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 21,
+      "freeTicketCount": 21,
+      "id": "512",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Фомина Анна Дмитриевна",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

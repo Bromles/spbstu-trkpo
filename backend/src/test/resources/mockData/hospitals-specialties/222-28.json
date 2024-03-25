@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 164,
+      "freeTicketCount": 164,
+      "id": "ДПО2.127",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "БЕКБУЗАРОВА Х.В.  ",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "ДПО2.021",
+      "lastDate": "2024-04-03T00:00:00",
+      "name": "БУРХАНОВ В.В. ",
+      "nearestDate": "2024-03-27T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

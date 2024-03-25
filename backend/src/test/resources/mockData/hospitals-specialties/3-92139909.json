@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 65,
+      "freeTicketCount": 65,
+      "id": "1804",
+      "lastDate": "2024-04-08T11:40:00",
+      "name": "Кабинет профилактики (углубленная диспансеризация) ",
+      "nearestDate": "2024-03-27T10:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 164,
+      "freeTicketCount": 164,
+      "id": "1861",
+      "lastDate": "2024-04-08T18:30:00",
+      "name": "Кабинет профилактики (углубленная диспансеризация) ",
+      "nearestDate": "2024-03-25T16:50:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 91,
+      "freeTicketCount": 91,
+      "id": "2165",
+      "lastDate": "2024-04-08T17:50:00",
+      "name": "Кабинет профилактики (углубленная диспансеризация) ",
+      "nearestDate": "2024-03-25T17:10:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

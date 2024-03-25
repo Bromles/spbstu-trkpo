@@ -1,0 +1,17 @@
+{
+  "result": [
+    {
+      "id": "000488",
+      "ferId": "55",
+      "name": "Вакцинация от COVID-19",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

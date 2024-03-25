@@ -1,0 +1,161 @@
+{
+  "result": [
+    {
+      "id": "48772",
+      "ferId": "8",
+      "name": "Акушерство и гинекология",
+      "countFreeParticipant": 97,
+      "countFreeTicket": 107,
+      "lastDate": "2024-04-08T17:20:00",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "id": "48773",
+      "ferId": "77",
+      "name": "Аллергология и иммунология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "48790",
+      "ferId": "79",
+      "name": "Гастроэнтерология",
+      "countFreeParticipant": 3,
+      "countFreeTicket": 12,
+      "lastDate": "2024-04-08T14:30:00",
+      "nearestDate": "2024-04-08T14:00:00"
+    },
+    {
+      "id": "48776",
+      "ferId": "10",
+      "name": "Дерматовенерология",
+      "countFreeParticipant": 96,
+      "countFreeTicket": 130,
+      "lastDate": "2024-04-08T13:15:00",
+      "nearestDate": "2024-03-27T09:00:00"
+    },
+    {
+      "id": "48911",
+      "ferId": "42",
+      "name": "Детская урология-андрология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "48820",
+      "ferId": "11",
+      "name": "Детская хирургия",
+      "countFreeParticipant": 127,
+      "countFreeTicket": 200,
+      "lastDate": "2024-04-08T15:30:00",
+      "nearestDate": "2024-03-26T10:10:00"
+    },
+    {
+      "id": "48822",
+      "ferId": "83",
+      "name": "Детская эндокринология",
+      "countFreeParticipant": 33,
+      "countFreeTicket": 49,
+      "lastDate": "2024-04-08T16:15:00",
+      "nearestDate": "2024-04-02T14:15:00"
+    },
+    {
+      "id": "49358",
+      "ferId": "0",
+      "name": "Логопедия",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "49919",
+      "ferId": "98",
+      "name": "Медицинская психология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "48782",
+      "ferId": "14",
+      "name": "Неврология",
+      "countFreeParticipant": 53,
+      "countFreeTicket": 65,
+      "lastDate": "2024-04-05T14:00:00",
+      "nearestDate": "2024-03-29T08:15:00"
+    },
+    {
+      "id": "48829",
+      "ferId": "173",
+      "name": "Ортодонтия",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "48784",
+      "ferId": "19",
+      "name": "Оториноларингология",
+      "countFreeParticipant": 81,
+      "countFreeTicket": 145,
+      "lastDate": "2024-04-05T18:45:00",
+      "nearestDate": "2024-04-01T09:30:00"
+    },
+    {
+      "id": "48785",
+      "ferId": "20",
+      "name": "Офтальмология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "48816",
+      "ferId": "22",
+      "name": "Педиатрия",
+      "countFreeParticipant": 475,
+      "countFreeTicket": 492,
+      "lastDate": "2024-04-08T19:48:00",
+      "nearestDate": "2024-03-27T08:00:00"
+    },
+    {
+      "id": "48830",
+      "ferId": "174",
+      "name": "Стоматология детская",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "48844",
+      "ferId": "171",
+      "name": "Стоматология общей практики",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "48846",
+      "ferId": "233",
+      "name": "Стоматология профилактическая",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

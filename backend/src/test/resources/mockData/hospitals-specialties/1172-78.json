@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Офис врача общей практики (1-й Предпортовый)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 122,
+      "freeTicketCount": 172,
+      "id": "306",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Махашева Элина Эдуардовна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Офис врача общей практики (1-й Предпортовый)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 102,
+      "freeTicketCount": 113,
+      "id": "522",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Шарифов Максим Гурметович",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

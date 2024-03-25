@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 67,
+      "freeTicketCount": 67,
+      "id": "п94.998",
+      "lastDate": "2024-03-30T00:00:00",
+      "name": "ДИСПАНСЕРИЗАЦИЯ",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

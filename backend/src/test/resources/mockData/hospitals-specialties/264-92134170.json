@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 76,
+      "freeTicketCount": 76,
+      "id": "427",
+      "lastDate": "2024-04-08T13:12:00",
+      "name": "Опалихин Александр Владимирович",
+      "nearestDate": "2024-04-01T08:36:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

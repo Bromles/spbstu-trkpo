@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 96,
+      "freeTicketCount": 96,
+      "id": "736",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Кокина Мария Андреевна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 133,
+      "freeTicketCount": 133,
+      "id": "744",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Назаревская Анна Владимировна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

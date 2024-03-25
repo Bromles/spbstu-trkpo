@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №8",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "19",
+      "lastDate": "2024-04-08T17:00:00",
+      "name": "Охлопкова Светлана Игоревна",
+      "nearestDate": "2024-04-08T17:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "23",
+      "lastDate": "2024-04-02T10:00:00",
+      "name": "Счастливая Анна Викторовна",
+      "nearestDate": "2024-04-02T10:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №9",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 6,
+      "id": "1001",
+      "lastDate": "2024-04-08T12:00:00",
+      "name": "Цыренова Галина Геннадьевна",
+      "nearestDate": "2024-04-03T10:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

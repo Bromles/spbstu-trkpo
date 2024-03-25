@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "619",
+      "lastDate": null,
+      "name": "Битюков Константин Анатольевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "725",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Киселева Ольга Николаевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 48,
+      "freeTicketCount": 48,
+      "id": "227",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Митюряев Виктор Анатольевич",
+      "nearestDate": "2024-04-08T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

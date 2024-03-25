@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ОСМ ПМ СП",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "201",
+      "lastDate": "2024-03-28T10:00:00",
+      "name": "Богодомова Татьяна Викторовна",
+      "nearestDate": "2024-03-28T10:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ОСМ ПМ СП",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "251",
+      "lastDate": "2024-03-29T10:00:00",
+      "name": "Груздева Екатерина Михайловна",
+      "nearestDate": "2024-03-28T16:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

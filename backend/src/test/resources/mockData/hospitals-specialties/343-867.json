@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 72,
+      "freeTicketCount": 72,
+      "id": "16",
+      "lastDate": "2024-04-08T19:50:00",
+      "name": "Симонов Виктор Вячеславович",
+      "nearestDate": "2024-03-28T16:40:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

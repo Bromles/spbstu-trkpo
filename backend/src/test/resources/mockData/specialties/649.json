@@ -1,0 +1,17 @@
+{
+  "result": [
+    {
+      "id": "48517",
+      "ferId": null,
+      "name": "Детский дерматолог",
+      "countFreeParticipant": 129,
+      "countFreeTicket": 129,
+      "lastDate": "2024-04-03T18:45:00",
+      "nearestDate": "2024-03-26T08:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

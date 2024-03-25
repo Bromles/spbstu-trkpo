@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "1-69,5а,19а,5_1-5_63,38,22а,5_22б,5_19а,5_13а",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 10,
+      "freeTicketCount": 10,
+      "id": "p123.104",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ОГУРЦОВА М.М.  309 каб.",
+      "nearestDate": "2024-04-08T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

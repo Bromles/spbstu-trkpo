@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "208 ",
+      "freeParticipantCount": 159,
+      "freeTicketCount": 159,
+      "id": "1110",
+      "lastDate": "2024-04-08T19:45:00",
+      "name": "Кожевникова Татьяна Ивановна",
+      "nearestDate": "2024-03-26T16:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

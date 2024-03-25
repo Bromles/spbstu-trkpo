@@ -1,0 +1,35 @@
+{
+  "result": [
+    {
+      "id": "92134157",
+      "ferId": "27",
+      "name": "Терапия",
+      "countFreeParticipant": 147,
+      "countFreeTicket": 147,
+      "lastDate": "2024-04-08T13:45:00",
+      "nearestDate": "2024-03-26T13:45:00"
+    },
+    {
+      "id": "92134182",
+      "ferId": "145",
+      "name": "Урология.Только по направлению ",
+      "countFreeParticipant": 61,
+      "countFreeTicket": 61,
+      "lastDate": "2024-04-08T18:45:00",
+      "nearestDate": "2024-04-01T14:30:00"
+    },
+    {
+      "id": "92134179",
+      "ferId": "31",
+      "name": "Эндокринология. Направление ОБЯЗАТЕЛЬНО!",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,35 @@
+{
+  "result": [
+    {
+      "id": "wuXt5fDu6+7j",
+      "ferId": "10",
+      "name": "Венеролог",
+      "countFreeParticipant": 506,
+      "countFreeTicket": 506,
+      "lastDate": "2024-04-12T20:15:00",
+      "nearestDate": "2024-03-27T07:30:00"
+    },
+    {
+      "id": "xOXw7ODy7uvu4w==",
+      "ferId": "10",
+      "name": "Дерматолог",
+      "countFreeParticipant": 746,
+      "countFreeTicket": 746,
+      "lastDate": "2024-04-12T19:45:00",
+      "nearestDate": null
+    },
+    {
+      "id": "xOXw7ODy7uvu41/k5fLx6ujp",
+      "ferId": "10",
+      "name": "Дерматолог детский",
+      "countFreeParticipant": 136,
+      "countFreeTicket": 136,
+      "lastDate": "2024-04-12T19:15:00",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

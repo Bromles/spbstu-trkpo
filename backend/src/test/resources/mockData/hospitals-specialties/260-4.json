@@ -1,0 +1,184 @@
+{
+  "result": [
+    {
+      "ariaNumber": "5_8,5_9,5_6,5_24,5_21,5_20,5_22,5_1,5_2",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 37,
+      "freeTicketCount": 37,
+      "id": "127",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Булискерия Т.Т. ТО1",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "5_17,5_18,5_15,5_61,5_19,5_13а,5_19а,",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 68,
+      "freeTicketCount": 68,
+      "id": "186",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Гордеева Е.А. ТО2",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "5_3,5_6,5_24,5_21,5_1,5_2,5_20,5_22",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 6,
+      "id": "42",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Добрынина В. И. ТО1",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "5_12,5_10,5_15,5_61,5_19,5_13а,5_19а,",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 83,
+      "freeTicketCount": 83,
+      "id": "84",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Зиновьева В.Д. ТО2",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "5_62,5_15,5_61,5_19,5_13а,5_19а,",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 71,
+      "freeTicketCount": 71,
+      "id": "138",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Зубкова А. А. ТО2",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "5_23,5_15,5_61,5_19,5_13а,5_19а,",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 82,
+      "freeTicketCount": 82,
+      "id": "1810",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Калинина Т.А. ТО2",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "5_14,5_15,5_61,5_19,5_13а,5_19а,",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 61,
+      "freeTicketCount": 61,
+      "id": "103",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Курчик Е.В. ТО2",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "5_11,5_15,5_61,5_19,5_13а,5_19а,",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 98,
+      "freeTicketCount": 98,
+      "id": "1815",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Курьякова И.Е. ТО2",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "5_13,5_15,5_61,5_19,5_13а,5_19а,",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 76,
+      "freeTicketCount": 76,
+      "id": "147",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Литвиненко А.С. ТО2",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "5_59,5_61,5_15,5_19,5_13а,5_19а,",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 110,
+      "freeTicketCount": 110,
+      "id": "1818",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Лукина И.М. ТО2",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "5_5,5_63,5_6,5_24,5_21,5_1,5_2,5_20,5_22",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 12,
+      "freeTicketCount": 12,
+      "id": "139",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Петухова С.Е. ТО1",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "5_4,5_2,5_6,5_24,5_21,5_1,5_2,5_20,5_22",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 19,
+      "freeTicketCount": 19,
+      "id": "44",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Смелова Н.Г. ТО1",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "5_7,5_63,5_6,5_24,5_1,5_2,5_21,5_20,5_22",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 44,
+      "freeTicketCount": 44,
+      "id": "187",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Хайдар Д.А. ТО1",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "5_16,5_22б,5_15,5_61,5_23,5_19,5_13а,5_19а,",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 106,
+      "freeTicketCount": 106,
+      "id": "98",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Хайруллоева Р.Ф. ТО2",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "5_60,5_19,5_19а,5_15,5_61,5_19,5_13а,5_19а,",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 71,
+      "freeTicketCount": 71,
+      "id": "83",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Эздеков И.З. ТО2",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "5_19,5_13а,5_19а,5_15,5_61,",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "59",
+      "lastDate": null,
+      "name": "Зернова Д.В. ТО2(с 20/03 И.О. Зав.ТО2)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

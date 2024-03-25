@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "1400",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Садртдинова Ильяна Ильфировна",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

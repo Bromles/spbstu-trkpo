@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "1265e84c-d0a5-11ee-bc1d-b496918ad90e",
+      "lastDate": "2024-04-08T15:30:00",
+      "name": "Алиева Камала Ниджат кызы (Врач акушер-гинеколог)",
+      "nearestDate": "2024-04-08T15:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

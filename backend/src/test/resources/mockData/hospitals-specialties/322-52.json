@@ -1,0 +1,107 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Участок 7,12",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 111,
+      "freeTicketCount": 111,
+      "id": "441",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Ардишвили Наталья Алексеевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "689",
+      "lastDate": null,
+      "name": "Балькова Ирина Анатольевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "Участок 2,10",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 98,
+      "freeTicketCount": 98,
+      "id": "376",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Десенко Светлана Анатольевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "621",
+      "lastDate": null,
+      "name": "Иванов Алексей Александрович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "Участок 3,9",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 116,
+      "freeTicketCount": 116,
+      "id": "686",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Мищенко Анастасия Александровна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "Участок 1,8",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 110,
+      "freeTicketCount": 110,
+      "id": "695",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Нагорнова Алена Владимировна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "Участок 5,6",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 102,
+      "freeTicketCount": 102,
+      "id": "347",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Некрасова Мария Владимировна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 133,
+      "freeTicketCount": 133,
+      "id": "358",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Сюгирова Роза Михайловна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "Участок 4,11",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 105,
+      "freeTicketCount": 105,
+      "id": "346",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Трощенкова Надежда Николаевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

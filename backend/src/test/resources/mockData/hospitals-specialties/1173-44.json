@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 10,
+      "id": "д62.138",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Павлушкина О.А. (СОЮЗНЫЙ 7)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

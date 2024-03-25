@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 34,
+      "id": "п8.231",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "БАГАНДОВ АРСЛАН БАГАНДОВИЧ (отпуск 15.04.2024 - 21.04.2024)",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 33,
+      "id": "п8.71",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "НИКОЛОВ ДЕНИС ВЯЧЕСЛАВОВИЧ ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 25,
+      "id": "п8.217",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ПЕШЕХОНОВ КИРИЛЛ СЕРГЕЕВИЧ",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

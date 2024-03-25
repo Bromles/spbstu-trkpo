@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 155,
+      "freeTicketCount": 244,
+      "id": "328",
+      "lastDate": "2024-04-08T16:40:00",
+      "name": "Бажанов Николай Николаевич (явка в регистратуру за 20 мин.)",
+      "nearestDate": "2024-03-26T15:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 133,
+      "freeTicketCount": 207,
+      "id": "329",
+      "lastDate": "2024-04-08T13:50:00",
+      "name": "Борсуков Вадим Николаевич (явка в регистратуру за 20 мин.)",
+      "nearestDate": "2024-03-26T08:50:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 185,
+      "freeTicketCount": 282,
+      "id": "417",
+      "lastDate": "2024-04-08T16:40:00",
+      "name": "Коновалова Валерия Валерьевна (явка в регистратуру за 20 мин.)",
+      "nearestDate": "2024-03-26T15:20:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,89 @@
+{
+  "result": [
+    {
+      "id": "18",
+      "ferId": "32",
+      "name": "ИНФЕКЦИОНИСТ",
+      "countFreeParticipant": 51,
+      "countFreeTicket": 51,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "id": "44",
+      "ferId": "14",
+      "name": "НЕВРОЛОГ 08.04-04.05 приёма нет",
+      "countFreeParticipant": 102,
+      "countFreeTicket": 102,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "27",
+      "ferId": "28",
+      "name": "ОРТОПЕД (ВТ-НЕТ, ЧТ-ДО ГОДА)",
+      "countFreeParticipant": 8,
+      "countFreeTicket": 8,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "id": "42",
+      "ferId": "19",
+      "name": "ОТОРИНОЛАРИНГОЛОГ (ВТ-НЕТ, ЧТ-ДО ГОДА)",
+      "countFreeParticipant": 30,
+      "countFreeTicket": 30,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-04-04T00:00:00"
+    },
+    {
+      "id": "37",
+      "ferId": "22",
+      "name": "ПЕДИАТР",
+      "countFreeParticipant": 437,
+      "countFreeTicket": 437,
+      "lastDate": "2024-04-03T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "38",
+      "ferId": "22",
+      "name": "ПЕДИАТР (ДЕТИ ДО ГОДА)",
+      "countFreeParticipant": 285,
+      "countFreeTicket": 285,
+      "lastDate": "2024-04-04T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "370",
+      "ferId": "22",
+      "name": "ПЕДИАТР КОМНАТЫ ЗДОРОВОГО РЕБЁНКА",
+      "countFreeParticipant": 75,
+      "countFreeTicket": 75,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "id": "19",
+      "ferId": "34",
+      "name": "ФИЗИОТЕРАПЕВТ ПН-ПРИЁМА НЕТ",
+      "countFreeParticipant": 118,
+      "countFreeTicket": 118,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "41",
+      "ferId": "20",
+      "name": "ОФТАЛЬМОЛОГ (ЧТ- ТОЛЬКО ДЕТИ ДО ГОДА)",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

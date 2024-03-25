@@ -1,0 +1,96 @@
+{
+  "result": [
+    {
+      "ariaNumber": "8 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "408",
+      "lastDate": null,
+      "name": "Асадуллаева Дилноза Бахтиёр Кизи",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "14 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "355",
+      "lastDate": null,
+      "name": "Васильева Зинаида Вячеславовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "7,9 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "21",
+      "lastDate": null,
+      "name": "Дангадзе Нино Георгиевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "10,12 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "211",
+      "lastDate": null,
+      "name": "Дубровская Лариса Викторовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "11 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "409",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Кузнецова Виктория Юрьевна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "4,5 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "267",
+      "lastDate": null,
+      "name": "Налабордина Елена Анатольевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "3,6 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "172",
+      "lastDate": null,
+      "name": "Хейнлайд Ирина Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "13 уч.",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 29.03.2024: Нетрудоспособность (Болезнь, карантин и т.п.);\nс 01.04.2024 по 06.04.2024: Нетрудоспособность (Болезнь, карантин и т.п.);\n08.04.2024: Нетрудоспособность (Болезнь, карантин и т.п.)",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "390",
+      "lastDate": null,
+      "name": "Холматов Азизджон Валиевич",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

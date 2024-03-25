@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 105,
+      "freeTicketCount": 105,
+      "id": "840",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Аджигафаров Халил Айдерович",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 57,
+      "freeTicketCount": 57,
+      "id": "1166",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Смеловец Алина Игоревна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

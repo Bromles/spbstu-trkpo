@@ -1,0 +1,217 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 11,
+      "id": "406",
+      "lastDate": "2024-03-29T08:00:00",
+      "name": "Алиева Анна Анатольевна Пародонтолог",
+      "nearestDate": "2024-03-26T15:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 17,
+      "id": "277",
+      "lastDate": "2024-04-08T12:30:00",
+      "name": "Анисимова Анна Игоревна ",
+      "nearestDate": "2024-03-27T16:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 10,
+      "id": "261",
+      "lastDate": "2024-04-08T12:30:00",
+      "name": "Бабич Мария Владимировна ",
+      "nearestDate": "2024-04-04T12:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 11,
+      "freeTicketCount": 23,
+      "id": "232",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Дежурный врач (104 к)",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 42,
+      "id": "393",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Завьялова Анна Александровна Пародонтолог",
+      "nearestDate": "2024-03-26T18:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 31,
+      "id": "205",
+      "lastDate": "2024-04-08T13:15:00",
+      "name": "Килнас Татьяна Альбертовна ",
+      "nearestDate": "2024-03-27T19:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 27,
+      "id": "143",
+      "lastDate": "2024-04-08T13:15:00",
+      "name": "Колосова Ольга Петровна ",
+      "nearestDate": "2024-04-01T18:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 19,
+      "id": "355",
+      "lastDate": "2024-04-08T13:15:00",
+      "name": "Лосева Наталья Николаевна Пародонтолог",
+      "nearestDate": "2024-03-28T09:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 16,
+      "id": "339",
+      "lastDate": "2024-04-08T00:10:00",
+      "name": "Мельник Алена Владимировна ",
+      "nearestDate": "2024-04-03T09:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 6,
+      "id": "186",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Морозова Марина Львовна ",
+      "nearestDate": "2024-03-28T15:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 19,
+      "id": "141",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Никитина Ольга Сергеевна ",
+      "nearestDate": "2024-03-27T12:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 28,
+      "id": "206",
+      "lastDate": "2024-04-08T12:30:00",
+      "name": "Овчинникова Юлия Юрьевна ",
+      "nearestDate": "2024-03-28T09:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 30,
+      "id": "376",
+      "lastDate": "2024-04-08T12:30:00",
+      "name": "Сигатулина Дина Маратовна ",
+      "nearestDate": "2024-03-27T19:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 11,
+      "id": "402",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Таюшева Анна Владимировна ",
+      "nearestDate": "2024-04-03T10:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 27,
+      "id": "191",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Фролова Наталья Александровна ",
+      "nearestDate": "2024-04-03T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 32,
+      "id": "341",
+      "lastDate": "2024-04-08T13:15:00",
+      "name": "Черноус Виолетта Вячеславовна Пародонтолог",
+      "nearestDate": "2024-03-28T11:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 22,
+      "id": "209",
+      "lastDate": "2024-04-08T12:30:00",
+      "name": "Шевченко Татьяна Викторовна ",
+      "nearestDate": "2024-04-02T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 37,
+      "id": "194",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Щербакова Татьяна Владимировна ",
+      "nearestDate": "2024-03-27T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 19,
+      "id": "227",
+      "lastDate": "2024-04-08T00:10:00",
+      "name": "Эктова Алена Николаевна ",
+      "nearestDate": "2024-03-30T09:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

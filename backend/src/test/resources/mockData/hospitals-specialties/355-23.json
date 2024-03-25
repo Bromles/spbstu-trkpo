@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "14",
+      "lastDate": null,
+      "name": "Антонова Екатерина Геннадьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "14",
+      "lastDate": null,
+      "name": "Мадьяр Эдуард Владимирович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 28,
+      "freeTicketCount": 28,
+      "id": "28",
+      "lastDate": "2024-04-12T09:30:00",
+      "name": "Старцева Лидия Сергеевна",
+      "nearestDate": "2024-03-26T09:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "2 ПО",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1240",
+      "lastDate": null,
+      "name": "Ковцун Вадим Романович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "2 ПО",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1020",
+      "lastDate": null,
+      "name": "Шапиев Шамиль Робертович",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

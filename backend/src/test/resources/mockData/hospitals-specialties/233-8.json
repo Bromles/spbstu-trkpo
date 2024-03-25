@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Гастроэнтеролог ДПО № 68",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1590",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Евграфова Светлана Михайловна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Гастроэнтеролог ДПО № 68",
+      "ariaType": null,
+      "comment": "Прием ведется в ДПО 69 по адресу ул. Коммуны д. 32, корп. 1",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1685",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Лысенко Мария Сергеевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

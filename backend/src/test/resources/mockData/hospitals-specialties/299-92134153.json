@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "765",
+      "lastDate": "2024-03-26T16:45:00",
+      "name": "Данзанова Билигма Батоевна",
+      "nearestDate": "2024-03-26T15:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 10,
+      "freeTicketCount": 20,
+      "id": "349",
+      "lastDate": "2024-04-08T18:40:00",
+      "name": "Захарян Асмик Кароевна",
+      "nearestDate": "2024-03-28T09:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 9,
+      "freeTicketCount": 9,
+      "id": "219",
+      "lastDate": "2024-04-03T18:40:00",
+      "name": "Одляницкая Марина Владимировна",
+      "nearestDate": "2024-04-01T10:50:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

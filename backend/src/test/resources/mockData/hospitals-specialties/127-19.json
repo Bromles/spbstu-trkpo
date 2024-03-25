@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 34,
+      "freeTicketCount": 34,
+      "id": "849",
+      "lastDate": "2024-04-03T00:00:00",
+      "name": "Гончаров Антон Юрьевич",
+      "nearestDate": "2024-04-08T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

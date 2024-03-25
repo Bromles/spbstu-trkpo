@@ -1,0 +1,85 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "1320.715",
+      "lastDate": "2024-04-06T00:00:00",
+      "name": "Князева ГВ",
+      "nearestDate": "2024-04-06T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 16,
+      "freeTicketCount": 16,
+      "id": "1320.273",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Мамедова НФ",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 28,
+      "freeTicketCount": 28,
+      "id": "1320.662",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Тагиева СР",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 16,
+      "freeTicketCount": 16,
+      "id": "1320.762",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Шангина МВ",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1320.644",
+      "lastDate": null,
+      "name": "Морозова КВ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1320.726",
+      "lastDate": null,
+      "name": "Нуралиева МС",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1320.767",
+      "lastDate": null,
+      "name": "Семина ВВ",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

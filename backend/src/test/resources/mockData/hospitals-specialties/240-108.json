@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 62,
+      "id": "519",
+      "lastDate": "2024-04-08T13:45:00",
+      "name": "Андронов Максим Алексеевич ",
+      "nearestDate": "2024-03-25T20:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 95,
+      "id": "75",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Горбунов Максим Анатольевич ",
+      "nearestDate": "2024-03-26T20:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 11,
+      "freeTicketCount": 36,
+      "id": "534",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Дворецкова Екатерина Сергеевна (!!!пародонтологический прием!!!)",
+      "nearestDate": "2024-03-26T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 10,
+      "freeTicketCount": 178,
+      "id": "542",
+      "lastDate": "2024-04-08T13:45:00",
+      "name": "Майрукова Анастасия Петровна ",
+      "nearestDate": "2024-03-25T18:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 162,
+      "id": "497",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Сафиулин Дамир Раулевич ",
+      "nearestDate": "2024-03-26T18:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

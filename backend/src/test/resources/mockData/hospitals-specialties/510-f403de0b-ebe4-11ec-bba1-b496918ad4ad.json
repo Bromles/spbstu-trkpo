@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ПРИЕМ В ОФИСЕ АВИАКОНСТРУКТОРОВ 16-1,КАБИНЕТ 7",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "cc7df56f-b682-11ed-bbb2-b496918ad4af",
+      "lastDate": null,
+      "name": "Кохно Мария Анатольевна (Врач-офтальмолог)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

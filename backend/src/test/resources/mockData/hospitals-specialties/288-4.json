@@ -1,0 +1,217 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 9,
+      "freeTicketCount": 40,
+      "id": "144",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Алиев М.А. 326 каб",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 76,
+      "id": "115",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "Баженова А.Е. 30 уч. 419 каб.",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 65,
+      "id": "130",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "Бойков С.И. 31 уч. 406 каб.",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 52,
+      "id": "180",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "Булатова Е.А. 18 у. 416 каб.",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 69,
+      "id": "177",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "Виноградова Ю.В. 209 кабинет",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 60,
+      "id": "15532",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "ГЕОРГИЕВСКАЯ ТВ каб 325",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 10,
+      "freeTicketCount": 79,
+      "id": "168",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "ДОБКЕС А.В. каб.207 ",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 68,
+      "id": "170",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "Джикия Ш. Г. 23,25 уч. 209каб.",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 15,
+      "freeTicketCount": 86,
+      "id": "15224",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "ЗИМОВА С.Б. 408 каб.",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 79,
+      "id": "15534",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "ИВАНОВА Н.В. каб.416 ",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 17,
+      "id": "203",
+      "lastDate": "2024-04-03T00:00:00",
+      "name": "Лысенко Я.Д.  33 +11уч. 326каб.",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 9,
+      "freeTicketCount": 76,
+      "id": "227",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "Нестеров И.А. 17 уч. 419 каб",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 68,
+      "id": "197",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "ПРОЦЕНКО А.А. каб.418 ",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 33,
+      "id": "15210",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "СОКОЛОВА Т.А. каб 406 ",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 77,
+      "id": "159",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "Сергеев С. В. 13 уч. 313 каб ",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 26,
+      "freeTicketCount": 101,
+      "id": "15341",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "ХАНАНАШВИЛИ Г.И 417 каб.",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 20,
+      "freeTicketCount": 97,
+      "id": "164",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "Хотина Е.Н. 28 уч  325каб.",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 15,
+      "freeTicketCount": 102,
+      "id": "87",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "Чиликина М.С.каб409 34 уч. ",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 57,
+      "id": "163",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "Билгич Д.К.408к абинет",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

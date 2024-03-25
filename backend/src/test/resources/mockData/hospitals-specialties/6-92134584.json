@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Приём ведётся по адресу    пр. Нарвский , дом 7.      Очередные и дополнительные отпуска  с 22.03.2024  по 30.03.2024 .                                                             \n                                                                                                                  ",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "980",
+      "lastDate": null,
+      "name": "Метелькова Алина Александровна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

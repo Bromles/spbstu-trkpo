@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "26.03.2024: Нетрудоспособность (Болезнь, карантин и т.п.)",
+      "freeParticipantCount": 35,
+      "freeTicketCount": 35,
+      "id": "90",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Швец Надежда Александровна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

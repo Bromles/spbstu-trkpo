@@ -1,0 +1,26 @@
+{
+  "result": [
+    {
+      "id": "2147",
+      "ferId": "13",
+      "name": "Врач клинической лабораторной диагностики",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "2099",
+      "ferId": "17",
+      "name": "Онколог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

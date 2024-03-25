@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 11,
+      "freeTicketCount": 43,
+      "id": "15426",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Божок С.В.  каб.216 Отпуск с 01/04 по 07/04",
+      "nearestDate": "2024-04-23T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 48,
+      "id": "15083",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Кирьянова И.И. каб.215 ",
+      "nearestDate": "2024-04-23T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 12,
+      "freeTicketCount": 47,
+      "id": "15487",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Оборотова Л.Б. каб.215",
+      "nearestDate": "2024-04-23T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 22,
+      "id": "15287",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Султанова А.А. каб.216",
+      "nearestDate": "2024-04-23T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

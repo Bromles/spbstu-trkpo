@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "25.03.2024: Нетрудоспособность (Болезнь, карантин и т.п.)",
+      "freeParticipantCount": 92,
+      "freeTicketCount": 92,
+      "id": "26",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Голохов Анатолий Андреевич",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

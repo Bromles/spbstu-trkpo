@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Центр здоровья для детей",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 9,
+      "freeTicketCount": 9,
+      "id": "2134",
+      "lastDate": "2024-04-06T00:00:00",
+      "name": "Петрова Алина Дмитриевна",
+      "nearestDate": "2024-04-06T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

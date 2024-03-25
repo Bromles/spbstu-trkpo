@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Кабинет врача-детского хирурга",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 14,
+      "freeTicketCount": 15,
+      "id": "1947",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Камынин Юрий Васильевич возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Кабинет врача-детского хирурга",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "2008",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Шаров Роман Юрьевич возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

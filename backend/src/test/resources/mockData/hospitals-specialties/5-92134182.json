@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "860",
+      "lastDate": "2024-04-04T17:00:00",
+      "name": "Семенков Сергей Вениаминович (наб. Фонтанки 154)",
+      "nearestDate": "2024-04-04T16:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "955",
+      "lastDate": null,
+      "name": "Янюк Игорь Владимирович (наб. Фонтанки 154)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

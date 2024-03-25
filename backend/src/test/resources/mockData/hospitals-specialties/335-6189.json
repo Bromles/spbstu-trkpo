@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "(врач-пародонтолог)",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "321",
+      "lastDate": null,
+      "name": "Гончарова Екатерина Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "(врач-пародонтолог)",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 4,
+      "id": "371",
+      "lastDate": "2024-04-08T19:40:00",
+      "name": "Ленская Екатерина Александровна",
+      "nearestDate": "2024-04-08T15:40:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "(врач-пародонтолог)",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 4,
+      "id": "162",
+      "lastDate": "2024-04-08T12:00:00",
+      "name": "Соколова Людмила Александровна",
+      "nearestDate": "2024-04-08T09:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "363",
+      "lastDate": null,
+      "name": "Шенгелия Екатерина Александровна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

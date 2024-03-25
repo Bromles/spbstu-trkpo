@@ -1,0 +1,173 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 39,
+      "id": "114",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Акимов Владимир Владимирович (стоматолог-пародонтолог)",
+      "nearestDate": "2024-03-26T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 293,
+      "id": "64",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Аласханова Хеди Мовлдыевна ",
+      "nearestDate": "2024-03-25T18:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 56,
+      "id": "105",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Амбарцумян Гаяне Генриковна ",
+      "nearestDate": "2024-03-26T16:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 56,
+      "id": "66",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Байковская Татьяна Юрьевна ",
+      "nearestDate": "2024-03-25T18:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 62,
+      "id": "57",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Гецова Наталья Алексеевна ",
+      "nearestDate": "2024-03-26T16:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 261,
+      "id": "6",
+      "lastDate": "2024-04-08T16:40:00",
+      "name": "Коновалова Валерия Сергеевна ",
+      "nearestDate": "2024-03-26T16:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 63,
+      "id": "62",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Крыльцова Марина Геннадьевна ",
+      "nearestDate": "2024-03-25T18:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 10,
+      "freeTicketCount": 420,
+      "id": "126",
+      "lastDate": "2024-04-08T13:55:00",
+      "name": "Куфта Светлана Ивановна ",
+      "nearestDate": "2024-03-25T16:50:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 19,
+      "freeTicketCount": 151,
+      "id": "113",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Макарова Марина Владимировна ",
+      "nearestDate": "2024-03-26T16:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 9,
+      "freeTicketCount": 315,
+      "id": "122",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Распопова Елена Альбертовна ",
+      "nearestDate": "2024-03-26T15:10:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 16,
+      "freeTicketCount": 85,
+      "id": "94",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Санина Екатерина Юрьевна ",
+      "nearestDate": "2024-03-25T18:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 71,
+      "id": "34",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Смеречинская Валентина Николаевна ",
+      "nearestDate": "2024-03-25T18:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 21,
+      "id": "53",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Убакаева Наталья Федоровна ",
+      "nearestDate": "2024-03-26T16:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 51,
+      "id": "30",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Хащивская Иванна Владимировна ",
+      "nearestDate": "2024-03-26T16:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 51,
+      "id": "69",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Челпанова Анна Александровна ",
+      "nearestDate": "2024-03-26T16:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

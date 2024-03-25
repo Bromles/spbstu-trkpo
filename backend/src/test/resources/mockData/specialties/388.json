@@ -1,0 +1,116 @@
+{
+  "result": [
+    {
+      "id": "208",
+      "ferId": "24",
+      "name": "Рентгенолаборант",
+      "countFreeParticipant": 520,
+      "countFreeTicket": 520,
+      "lastDate": "2024-04-08T16:30:00",
+      "nearestDate": "2024-03-25T16:45:00"
+    },
+    {
+      "id": "106",
+      "ferId": "176",
+      "name": "Врач-стоматолог-терапевт",
+      "countFreeParticipant": 570,
+      "countFreeTicket": 570,
+      "lastDate": "2024-04-08T16:30:00",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "id": "107",
+      "ferId": "175",
+      "name": "Врач-стоматолог-ортопед",
+      "countFreeParticipant": 1664,
+      "countFreeTicket": 1664,
+      "lastDate": "2024-04-08T16:30:00",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "id": "105",
+      "ferId": "174",
+      "name": "Врач-стоматолог детский",
+      "countFreeParticipant": 1,
+      "countFreeTicket": 1,
+      "lastDate": "2024-04-08T13:30:00",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "id": "108",
+      "ferId": "177",
+      "name": "Врач-стоматолог-хирург",
+      "countFreeParticipant": 278,
+      "countFreeTicket": 278,
+      "lastDate": "2024-04-08T16:30:00",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "id": "103",
+      "ferId": "173",
+      "name": "Врач-ортодонт",
+      "countFreeParticipant": 3,
+      "countFreeTicket": 3,
+      "lastDate": "2024-04-08T16:30:00",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "id": "113",
+      "ferId": "208",
+      "name": "Зубной врач",
+      "countFreeParticipant": 20,
+      "countFreeTicket": 20,
+      "lastDate": "2024-04-08T12:00:00",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "id": "104",
+      "ferId": "171",
+      "name": "Врач-стоматолог",
+      "countFreeParticipant": 9,
+      "countFreeTicket": 9,
+      "lastDate": "2024-04-08T16:30:00",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "id": "13",
+      "ferId": "77",
+      "name": "Врач-аллерголог-иммунолог",
+      "countFreeParticipant": 52,
+      "countFreeTicket": 52,
+      "lastDate": "2024-04-08T16:30:00",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "id": "39",
+      "ferId": "17",
+      "name": "Врач-онколог",
+      "countFreeParticipant": 32,
+      "countFreeTicket": 32,
+      "lastDate": "2024-04-04T12:40:00",
+      "nearestDate": "2024-03-26T09:00:00"
+    },
+    {
+      "id": "83",
+      "ferId": "34",
+      "name": "Врач-физиотерапевт",
+      "countFreeParticipant": 36,
+      "countFreeTicket": 36,
+      "lastDate": "2024-04-04T20:00:00",
+      "nearestDate": "2024-03-26T09:00:00"
+    },
+    {
+      "id": "109",
+      "ferId": "50",
+      "name": "Врач-челюстно-лицевой хирург",
+      "countFreeParticipant": 20,
+      "countFreeTicket": 20,
+      "lastDate": "2024-03-29T13:30:00",
+      "nearestDate": "2024-03-26T15:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

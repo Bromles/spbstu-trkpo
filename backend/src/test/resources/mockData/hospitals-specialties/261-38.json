@@ -1,0 +1,283 @@
+{
+  "result": [
+    {
+      "ariaNumber": "9, 1/2 6",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 37,
+      "freeTicketCount": 65,
+      "id": "3.48",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Богданова Е.Л. уч. 6, 9, ",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 19,
+      "id": "3.56",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Богданова Е.Л. уч. 6, 9, (дети до года) Не работает.",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "8",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 17,
+      "freeTicketCount": 17,
+      "id": "3.55",
+      "lastDate": "2024-04-16T00:00:00",
+      "name": "Виногорова А.А. уч.  8,  (дети до года) ",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "8",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 58,
+      "freeTicketCount": 58,
+      "id": "3.008",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Виногорова А.А. уч. 8",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "4",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 56,
+      "freeTicketCount": 56,
+      "id": "3.82",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Гузенко С.С.",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "4",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 16,
+      "freeTicketCount": 16,
+      "id": "3.87",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Гузенко С.С. (дети до года)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "1",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 12,
+      "freeTicketCount": 12,
+      "id": "3.51",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Еременко Е.Н. уч. 1 (дети до года) ",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "1;",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 64,
+      "freeTicketCount": 64,
+      "id": "3.44",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Еременко Е.Н. уч.1. ",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 62,
+      "freeTicketCount": 62,
+      "id": "3.101",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Иванова О.В. 11 участок",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 11,
+      "freeTicketCount": 11,
+      "id": "3.102",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Иванова О.В. уч. 11 СТРОГО ДЕТИ ДО 1г",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "10,6 уч. 1/2",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "3.83",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Козловский Е.Ю. уч 10+1/2 6 (дети до года) г.",
+      "nearestDate": "2024-04-04T00:00:00"
+    },
+    {
+      "ariaNumber": "10,6 уч. 1/2",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 44,
+      "freeTicketCount": 44,
+      "id": "3.80",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Козловский Е.Ю. уч. 10,6 УЧ. ",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 89,
+      "freeTicketCount": 89,
+      "id": "3.007",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Литвиненко О.О.(подростковый) ..  .",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "7",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 60,
+      "freeTicketCount": 60,
+      "id": "3.90",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Минко Н.В. 7 уч.",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "7",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 14,
+      "freeTicketCount": 14,
+      "id": "3.93",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Минко Н.В. 7 уч. (дети до года)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "12",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "3.79",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Нежинская И.Д. уч.12 (дети до года) ",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "12",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 13,
+      "freeTicketCount": 13,
+      "id": "3.001",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Нежинская И.Д. уч.12.",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "2;.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 24,
+      "freeTicketCount": 24,
+      "id": "3.57",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Сайфутдинова И.А. 2 уч (дети до года ) ",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "2 ",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 53,
+      "freeTicketCount": 53,
+      "id": "3.010",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Сайфутдинова И.А. 2 уч. ",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "13; 1/2.7.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 19,
+      "freeTicketCount": 19,
+      "id": "3.104",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Субратова И.А.  13 уч (дети до года)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "13",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 47,
+      "freeTicketCount": 47,
+      "id": "3.103",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Субратова И.А. ,13 уч",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "3",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 14,
+      "freeTicketCount": 14,
+      "id": "3.50",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Филатов Д.Г. уч 3 (дети до года) ",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "3",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 65,
+      "freeTicketCount": 65,
+      "id": "3.003",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Филатов Д.Г.уч.3.г",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "5,1",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 19,
+      "freeTicketCount": 19,
+      "id": "3.53",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Филиппов И.В. уч 5 (дети до года)  ",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "5,1",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 66,
+      "freeTicketCount": 66,
+      "id": "3.005",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Филиппов И.В. уч.5",
+      "nearestDate": "2024-03-27T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

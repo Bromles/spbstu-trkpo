@@ -1,0 +1,239 @@
+{
+  "result": [
+    {
+      "ariaNumber": "17 ТУ 3ТО",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 63,
+      "freeTicketCount": 63,
+      "id": "802",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Амарян Арсен Арменович",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "10 ТУ 3ТО",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 46,
+      "freeTicketCount": 46,
+      "id": "949",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Арутюнян Серго Корюнович",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "06 ТУ 1ТО",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 82,
+      "freeTicketCount": 82,
+      "id": "49",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Ацполь Елена Алексеевна",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "07 ТУ 2ТО",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 90,
+      "freeTicketCount": 90,
+      "id": "44",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Буренина Надежда Константиновна",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "08 ТУ 2ТО",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 62,
+      "freeTicketCount": 62,
+      "id": "987",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Гамзаев Расул Насруллаевич",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "03 ТУ 3ТО",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 48,
+      "freeTicketCount": 48,
+      "id": "1011",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Голик Надежда Викторовна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "08 ТУ 1ТО",
+      "ariaType": null,
+      "comment": "с 01.04.2024 по 07.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 11,
+      "freeTicketCount": 11,
+      "id": "1064",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Железов Олег Эдуардович",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "17 ТУ 2ТО",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 102,
+      "freeTicketCount": 102,
+      "id": "1116",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Кузьмичев Андрей Рафигович",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "16 ТУ 3ТО",
+      "ariaType": null,
+      "comment": "08.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "903",
+      "lastDate": null,
+      "name": "Магомедов Магомед Калимуллаевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "04 ТУ 2ТО",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 29,
+      "freeTicketCount": 29,
+      "id": "103",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Мотылева Светлана Валерьевна",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "15 ТУ 3ТО",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "904",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Мусаев Азамат Насрутдинович",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "14 ТУ 2ТО",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 38,
+      "freeTicketCount": 38,
+      "id": "702",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Незнайкина Елена Александровна",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "12 ТУ 1ТО",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 62,
+      "freeTicketCount": 62,
+      "id": "829",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Омаров Али Магомедович",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "05 ТУ 2ТО",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 100,
+      "freeTicketCount": 100,
+      "id": "56",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Патрина Валентина Петровна",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "1 Терапевтическое Отделение",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 78,
+      "freeTicketCount": 78,
+      "id": "1131",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Петрова Ольга Сергеевна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "04 ТУ 1ТО",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 30,
+      "freeTicketCount": 30,
+      "id": "945",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Приходченко Илья Сергеевич",
+      "nearestDate": "2024-04-04T00:00:00"
+    },
+    {
+      "ariaNumber": "07 ТУ 3ТО",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 08.04.2024: Нетрудоспособность (Болезнь, карантин и т.п.)",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "726",
+      "lastDate": null,
+      "name": "Сластихина Вера Павловна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "1 Терапевтическое Отделение",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1054",
+      "lastDate": null,
+      "name": "Чапля Владислава Олеговна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "02 ТУ 3ТО",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 71,
+      "freeTicketCount": 71,
+      "id": "988",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Чекоев Зелимхан Алиевич",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "09 ТУ 2ТО",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 26.03.2024: Очередные и дополнительные отпуска;\nс 27.03.2024 по 28.03.2024: Очередные и дополнительные отпуска;\nс 29.03.2024 по 31.03.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 78,
+      "freeTicketCount": 78,
+      "id": "47",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Щапина Лариса Николаевна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "06 ТУ 2ТО",
+      "ariaType": null,
+      "comment": "28.03.2024: Командировки служебные;\n29.03.2024: Командировки служебные",
+      "freeParticipantCount": 79,
+      "freeTicketCount": 79,
+      "id": "218",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Щербакова Елена Алексеевна",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

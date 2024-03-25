@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "29 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 92,
+      "freeTicketCount": 144,
+      "id": "1902",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Калмык Ирина Владимировна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "27 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 141,
+      "freeTicketCount": 141,
+      "id": "1927",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Киселева Мария Романовна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,35 @@
+{
+  "result": [
+    {
+      "id": "2088",
+      "ferId": "8",
+      "name": "Акушер-гинеколог",
+      "countFreeParticipant": 202,
+      "countFreeTicket": 202,
+      "lastDate": "2024-04-08T19:20:00",
+      "nearestDate": "2024-03-28T15:36:00"
+    },
+    {
+      "id": "92133597",
+      "ferId": "27",
+      "name": "Терапевт ЖК",
+      "countFreeParticipant": 29,
+      "countFreeTicket": 29,
+      "lastDate": "2024-04-08T14:04:00",
+      "nearestDate": "2024-03-29T13:48:00"
+    },
+    {
+      "id": "92136441",
+      "ferId": null,
+      "name": "Юрист",
+      "countFreeParticipant": 4,
+      "countFreeTicket": 4,
+      "lastDate": "2024-04-01T17:00:00",
+      "nearestDate": "2024-04-01T15:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

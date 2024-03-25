@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 350,
+      "freeTicketCount": 350,
+      "id": "988",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "ДИСПАНСЕРИЗАЦИЯ ПРОФОСМОТР 101 каб.",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 284,
+      "freeTicketCount": 284,
+      "id": "1390.133",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "ДИСПАНСЕРИЗАЦИЯ\\ПРОФОСМОТР 109 каб.",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 212,
+      "freeTicketCount": 212,
+      "id": "1390.111",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "ДИСПАНСЕРИЗАЦИЯ\\ПРОФОСМОТР 121 каб.",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

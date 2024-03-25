@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "3235",
+      "lastDate": null,
+      "name": "Акимова Регина Равильевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "3236",
+      "lastDate": null,
+      "name": "Акимова Регина Равильевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 18,
+      "freeTicketCount": 18,
+      "id": "3348",
+      "lastDate": "2024-04-05T11:45:00",
+      "name": "Добрякова Ирина Александровна",
+      "nearestDate": "2024-04-01T08:15:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 30,
+      "freeTicketCount": 30,
+      "id": "3423",
+      "lastDate": "2024-04-05T18:00:00",
+      "name": "Колпакова Елизавета Юрьевна",
+      "nearestDate": "2024-03-26T08:30:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 28,
+      "freeTicketCount": 28,
+      "id": "3611",
+      "lastDate": "2024-04-05T19:00:00",
+      "name": "Русачкова Ирина Викторовна",
+      "nearestDate": "2024-03-26T08:15:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

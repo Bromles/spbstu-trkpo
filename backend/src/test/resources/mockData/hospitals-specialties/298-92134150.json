@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "169",
+      "lastDate": "2024-03-26T14:45:00",
+      "name": "Васильева Оксана Анатольевна",
+      "nearestDate": "2024-03-26T14:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "187",
+      "lastDate": null,
+      "name": "Якушева Валентина Викторовна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

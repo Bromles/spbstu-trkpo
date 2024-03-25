@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "04.04.2024: Командировки служебные;\n08.04.2024: Отпуск",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1045",
+      "lastDate": null,
+      "name": "Атаян Андроник Герасимович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "67",
+      "lastDate": null,
+      "name": "Зайцева Валерия Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "47",
+      "lastDate": null,
+      "name": "Коркин Яков Леонидович",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

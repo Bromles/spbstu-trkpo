@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "82",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Сорокин Борис Николаевич",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 10,
+      "freeTicketCount": 10,
+      "id": "553",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Феоктистова Елена Сергеевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

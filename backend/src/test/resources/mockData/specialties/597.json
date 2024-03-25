@@ -1,0 +1,35 @@
+{
+  "result": [
+    {
+      "id": "92134160",
+      "ferId": "66",
+      "name": "Гериатрия",
+      "countFreeParticipant": 54,
+      "countFreeTicket": 54,
+      "lastDate": "2024-04-08T14:30:00",
+      "nearestDate": "2024-04-01T10:00:00"
+    },
+    {
+      "id": "92134235",
+      "ferId": "23",
+      "name": "Психиатрия",
+      "countFreeParticipant": 8,
+      "countFreeTicket": 8,
+      "lastDate": "2024-04-04T13:30:00",
+      "nearestDate": "2024-04-04T09:00:00"
+    },
+    {
+      "id": "92135837",
+      "ferId": "98",
+      "name": "Психолог",
+      "countFreeParticipant": 73,
+      "countFreeTicket": 73,
+      "lastDate": "2024-04-08T15:30:00",
+      "nearestDate": "2024-03-26T08:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

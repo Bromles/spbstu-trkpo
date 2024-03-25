@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 38,
+      "freeTicketCount": 50,
+      "id": "414",
+      "lastDate": "2024-04-08T15:00:00",
+      "name": "Дежурный врач (Осмотр и оказание неотложной помощи, явка в регистратуру за 20 мин.)",
+      "nearestDate": "2024-04-01T10:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

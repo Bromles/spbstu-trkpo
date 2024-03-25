@@ -1,0 +1,71 @@
+{
+  "result": [
+    {
+      "id": "8",
+      "ferId": "79",
+      "name": "Гастроэнтеролог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "24",
+      "ferId": "118",
+      "name": "Кардиолог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "40",
+      "ferId": "14",
+      "name": "Невролог",
+      "countFreeParticipant": 61,
+      "countFreeTicket": 61,
+      "lastDate": "2024-04-19T00:00:00",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "id": "46",
+      "ferId": "17",
+      "name": "Онколог",
+      "countFreeParticipant": 28,
+      "countFreeTicket": 28,
+      "lastDate": "2024-04-06T00:00:00",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "id": "48",
+      "ferId": "19",
+      "name": "Отоларинголог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "57",
+      "ferId": "90",
+      "name": "Пульмонолог",
+      "countFreeParticipant": 12,
+      "countFreeTicket": 12,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "id": "84",
+      "ferId": "145",
+      "name": "Уролог",
+      "countFreeParticipant": 8,
+      "countFreeTicket": 8,
+      "lastDate": "2024-04-06T00:00:00",
+      "nearestDate": "2024-04-06T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

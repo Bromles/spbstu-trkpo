@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 114,
+      "id": "41",
+      "lastDate": "2024-04-08T14:00:00",
+      "name": "Курбатов Владимир Владимирович ",
+      "nearestDate": "2024-03-26T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 69,
+      "id": "42",
+      "lastDate": "2024-04-05T13:45:00",
+      "name": "Прудников Андрей Сергеевич ",
+      "nearestDate": "2024-03-26T15:15:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

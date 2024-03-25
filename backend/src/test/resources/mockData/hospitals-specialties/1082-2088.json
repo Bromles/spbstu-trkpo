@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ОСМ ПМ СП",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 6,
+      "id": "23",
+      "lastDate": "2024-03-29T14:00:00",
+      "name": "Ивашова Елена Ивановна",
+      "nearestDate": "2024-03-26T14:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

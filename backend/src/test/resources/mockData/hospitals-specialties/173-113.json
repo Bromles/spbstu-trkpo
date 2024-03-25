@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 10,
+      "freeTicketCount": 74,
+      "id": "759",
+      "lastDate": "2024-04-08T16:20:00",
+      "name": "Игнатьева Светлана Валерьевна !!!Терапевтический ВЗРОСЛЫЙ прием!!!",
+      "nearestDate": "2024-03-26T15:40:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

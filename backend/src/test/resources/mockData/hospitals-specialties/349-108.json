@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 307,
+      "id": "259",
+      "lastDate": "2024-04-08T13:45:00",
+      "name": "Гурбанов Вадим Адалетович (явка в регистратуру за 20 мин.)",
+      "nearestDate": "2024-03-25T18:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 184,
+      "id": "256",
+      "lastDate": "2024-04-08T16:40:00",
+      "name": "Круковский Александр Михайлович (явка в регистратуру за 20 мин.)",
+      "nearestDate": "2024-03-26T15:10:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 261,
+      "id": "258",
+      "lastDate": "2024-04-08T16:40:00",
+      "name": "Петров Игорь Сергеевич (явка в регистратуру за 20 мин.)",
+      "nearestDate": "2024-03-26T15:10:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 234,
+      "id": "260",
+      "lastDate": "2024-04-08T16:40:00",
+      "name": "Середкин Роман Константинович (явка в регистратуру за 20 мин.)",
+      "nearestDate": "2024-03-26T15:10:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 211,
+      "id": "261",
+      "lastDate": "2024-04-08T13:45:00",
+      "name": "Харченко Михаил Геннадьевич (явка в регистратуру за 20 мин.)",
+      "nearestDate": "2024-03-25T18:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 103,
+      "id": "491",
+      "lastDate": "2024-04-08T13:45:00",
+      "name": "Шаров Максим Васильевич ",
+      "nearestDate": "2024-03-27T08:40:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

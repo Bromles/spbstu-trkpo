@@ -1,0 +1,89 @@
+{
+  "result": [
+    {
+      "id": "49278",
+      "ferId": "8",
+      "name": "Акушерство и гинекология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "92139813",
+      "ferId": "55",
+      "name": "Вакцинация от COVID-19",
+      "countFreeParticipant": 559,
+      "countFreeTicket": 559,
+      "lastDate": "2024-04-09T14:45:00",
+      "nearestDate": "2024-03-26T09:00:00"
+    },
+    {
+      "id": "92140555",
+      "ferId": null,
+      "name": "Доврачебный кабинет",
+      "countFreeParticipant": 4,
+      "countFreeTicket": 4,
+      "lastDate": "2024-04-08T16:10:00",
+      "nearestDate": "2024-04-08T14:30:00"
+    },
+    {
+      "id": "92140686",
+      "ferId": null,
+      "name": "Кабинет Медико-Психологического Консультирования",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "92140557",
+      "ferId": null,
+      "name": "Кабинет диспансеризации",
+      "countFreeParticipant": 34,
+      "countFreeTicket": 34,
+      "lastDate": "2024-04-08T12:40:00",
+      "nearestDate": "2024-04-01T12:40:00"
+    },
+    {
+      "id": "49321",
+      "ferId": "19",
+      "name": "Оториноларингология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "49322",
+      "ferId": "20",
+      "name": "Офтальмология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "49351",
+      "ferId": "27",
+      "name": "Терапия",
+      "countFreeParticipant": 748,
+      "countFreeTicket": 748,
+      "lastDate": "2024-04-09T18:07:00",
+      "nearestDate": "2024-03-25T16:36:00"
+    },
+    {
+      "id": "49365",
+      "ferId": "30",
+      "name": "Хирургия",
+      "countFreeParticipant": 9,
+      "countFreeTicket": 9,
+      "lastDate": "2024-04-08T16:54:00",
+      "nearestDate": "2024-04-05T08:56:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

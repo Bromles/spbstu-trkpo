@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "6a8c07e9-bc02-11ec-982f-089798a49211",
+      "lastDate": "2024-03-25T16:40:00",
+      "name": "Бутрим Александра Юрьевна (Колопроктолог, врач-колопроктолог, )",
+      "nearestDate": "2024-03-25T16:40:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "eb3a7a53-ea9d-11ee-bc65-00155d03021b",
+      "lastDate": null,
+      "name": "Шинко Ада Олеговна (Колопроктолог, врач-колопроктолог, )",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "6a8c03c1-bc02-11ec-982f-089798a49211",
+      "lastDate": null,
+      "name": "Аванесян Григорий Рубикович (Колопроктолог, врач-колопроктолог, )",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "07ac369a-aed0-11ee-bc57-00155d03021b",
+      "lastDate": null,
+      "name": "Шульженко Мария Михайловна (Колопроктолог, врач-колопроктолог, )",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

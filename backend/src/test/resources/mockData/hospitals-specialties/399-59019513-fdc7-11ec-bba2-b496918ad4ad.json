@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ОВОП Серебристый",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "95d9188d-5a9a-11ed-bbaf-b496918ad4af",
+      "lastDate": null,
+      "name": "Радченко Светлана Александровна (Диспансеризация)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

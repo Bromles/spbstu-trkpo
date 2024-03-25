@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "27.03.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "770",
+      "lastDate": null,
+      "name": "Ворыпина Маргарита Михайловна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "27.03.2024: Командировки служебные;\n03.04.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "850",
+      "lastDate": null,
+      "name": "Калинина Диана Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "592",
+      "lastDate": null,
+      "name": "Мешвелиани Елена Валерьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "437",
+      "lastDate": null,
+      "name": "Ставицкая Ольга Александровна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

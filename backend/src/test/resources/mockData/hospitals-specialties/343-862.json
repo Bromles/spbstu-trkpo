@@ -1,0 +1,85 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "3205",
+      "lastDate": "2024-04-08T09:20:00",
+      "name": "Алексеева Елена Семеновна",
+      "nearestDate": "2024-03-27T19:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "6565",
+      "lastDate": "2024-04-04T18:10:00",
+      "name": "Евдокимова Диана Михайловна",
+      "nearestDate": "2024-04-04T16:50:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 26,
+      "freeTicketCount": 26,
+      "id": "6574",
+      "lastDate": "2024-04-08T11:20:00",
+      "name": "Евсюкова Елена Владимировна",
+      "nearestDate": "2024-03-26T11:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 20,
+      "freeTicketCount": 20,
+      "id": "31",
+      "lastDate": "2024-04-08T19:30:00",
+      "name": "Ларина Лариса Александровна",
+      "nearestDate": "2024-04-02T16:50:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 12,
+      "freeTicketCount": 12,
+      "id": "6546",
+      "lastDate": "2024-04-05T11:20:00",
+      "name": "Лицоева Олеся Павловна",
+      "nearestDate": "2024-04-01T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "32",
+      "lastDate": null,
+      "name": "Луговская Юлиана Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "33",
+      "lastDate": "2024-04-04T09:20:00",
+      "name": "Лунникова Елена Кирилловна",
+      "nearestDate": "2024-03-28T08:40:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

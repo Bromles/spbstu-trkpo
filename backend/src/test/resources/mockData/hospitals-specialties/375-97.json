@@ -1,0 +1,96 @@
+{
+  "result": [
+    {
+      "ariaNumber": "1 отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "116",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Хачикян Кристине Романовна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "2 отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "130",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Чикаева Екатерина Евгеньевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "2 отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "165",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Кузнецова Евгения Алексеевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "1 отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "184",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Гарипова Оксана Сергеевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "2 отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "188",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Оснач Андрей Петрович",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "2 отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "189",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Мустафаева Севда Фаризовна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "2 отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "190",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Байрачная Юлия Игоревна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "1 отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 2,
+      "id": "203",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Постников Артем Александрович",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

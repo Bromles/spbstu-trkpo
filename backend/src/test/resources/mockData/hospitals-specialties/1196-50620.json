@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "пос. Шушары, тер. Ленсоветовский, д. 31",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "1250",
+      "lastDate": "2024-04-08T13:57:00",
+      "name": "Тихомирова Ольга Геннадьевна",
+      "nearestDate": "2024-03-26T16:37:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": "12-22",
+      "ariaType": null,
+      "comment": "II отделение",
+      "freeParticipantCount": 15,
+      "freeTicketCount": 15,
+      "id": "1390.400",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Малышева А.И. (18 участок)",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "1-11",
+      "ariaType": null,
+      "comment": "В период отсутствия врача можно записаться к любому терапевту I отделения",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1390.340",
+      "lastDate": null,
+      "name": "Жуков Г.В. (9 участок)/ПРИЕМА НЕТ/",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "1-11",
+      "ariaType": null,
+      "comment": "I отделение",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1390.306",
+      "lastDate": null,
+      "name": "Кара А.П. (5 участок)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "23-33",
+      "ariaType": null,
+      "comment": "III отделение",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1390.110",
+      "lastDate": null,
+      "name": "Колонтай  И.В. (23 участок)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "12-22",
+      "ariaType": null,
+      "comment": "II отделение",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1390.115",
+      "lastDate": null,
+      "name": "Рыжова Н.Н.(22 участок)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

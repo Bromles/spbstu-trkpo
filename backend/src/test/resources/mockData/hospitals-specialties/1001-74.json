@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "ул Царицынская д.1",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "пм65.292",
+      "lastDate": "2024-03-25T00:00:00",
+      "name": "Алексеев Д.В.",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "ул Царицынская д.1",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.291",
+      "lastDate": null,
+      "name": "Дьяченко Т.Н.",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

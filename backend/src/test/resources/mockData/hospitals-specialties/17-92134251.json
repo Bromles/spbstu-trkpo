@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "35 ",
+      "freeParticipantCount": 61,
+      "freeTicketCount": 61,
+      "id": "1230",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Одинцева Валерия Евгеньевна",
+      "nearestDate": "2024-03-28T11:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "52 ",
+      "freeParticipantCount": 81,
+      "freeTicketCount": 81,
+      "id": "1885",
+      "lastDate": "2024-04-08T13:00:00",
+      "name": "Уланова Людмила Александровна",
+      "nearestDate": "2024-03-27T08:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

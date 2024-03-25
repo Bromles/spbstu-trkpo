@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "20, 23, 25, 26, 27",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1588",
+      "lastDate": null,
+      "name": "Егорова Ирина Витальевна (Парфёновская 11, к.1)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "21, 23, 25, 26, 27",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 48,
+      "freeTicketCount": 48,
+      "id": "1596",
+      "lastDate": "2024-04-04T12:00:00",
+      "name": "Кузьмина Юлия Александровна (Парфеновская 11)",
+      "nearestDate": "2024-04-01T08:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 38,
+      "freeTicketCount": 38,
+      "id": "575",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Ерахтин Станислав Викторович",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 16,
+      "freeTicketCount": 16,
+      "id": "139",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Соколова Инна Альфредовна",
+      "nearestDate": "2024-04-05T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

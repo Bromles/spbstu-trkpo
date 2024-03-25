@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "к33.55",
+      "lastDate": null,
+      "name": "БАГРОВА НН (Филиал, ул. Русановская, д.17, к.2, пом.11Н)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "к33.45",
+      "lastDate": null,
+      "name": "КОНУРОВСКАЯ ЛА (Филиал, ул. Русановская, д.17, к.2, пом.11Н) (отпуск с 04.09.",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

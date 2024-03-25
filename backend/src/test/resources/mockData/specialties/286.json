@@ -1,0 +1,116 @@
+{
+  "result": [
+    {
+      "id": "441",
+      "ferId": "14",
+      "name": "Невропатолог до 3х лет",
+      "countFreeParticipant": 18,
+      "countFreeTicket": 18,
+      "lastDate": "2024-04-01T00:00:00",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "id": "1000",
+      "ferId": "28",
+      "name": "Ортопед",
+      "countFreeParticipant": 49,
+      "countFreeTicket": 49,
+      "lastDate": "2024-04-02T00:00:00",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "id": "42",
+      "ferId": "19",
+      "name": "Отоларинголог",
+      "countFreeParticipant": 23,
+      "countFreeTicket": 23,
+      "lastDate": "2024-04-02T00:00:00",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "id": "41",
+      "ferId": "20",
+      "name": "Офтальмолог",
+      "countFreeParticipant": 3,
+      "countFreeTicket": 3,
+      "lastDate": "2024-04-02T00:00:00",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "id": "38",
+      "ferId": "22",
+      "name": "Педиатр участковый",
+      "countFreeParticipant": 138,
+      "countFreeTicket": 138,
+      "lastDate": "2024-03-31T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "22",
+      "ferId": "35",
+      "name": "ФУНКЦ.ДИАГНОСТ. (ЭКГ)",
+      "countFreeParticipant": 6,
+      "countFreeTicket": 6,
+      "lastDate": "2024-03-29T00:00:00",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "id": "16",
+      "ferId": "77",
+      "name": "Аллерголог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "11",
+      "ferId": "79",
+      "name": "Гастроэнтеролог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "440",
+      "ferId": "14",
+      "name": "Невропатолог с 3х лет",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "58",
+      "ferId": "24",
+      "name": "РЕНТГЕНОЛОГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "57",
+      "ferId": "33",
+      "name": "УЗИ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "23",
+      "ferId": "30",
+      "name": "Хирург",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

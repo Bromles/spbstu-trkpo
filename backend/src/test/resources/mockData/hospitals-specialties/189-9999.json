@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 238,
+      "freeTicketCount": 238,
+      "id": "117.119",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Романов М.Е..",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 127,
+      "freeTicketCount": 127,
+      "id": "117.78",
+      "lastDate": "2024-04-15T00:00:00",
+      "name": "Саркисова Г.И ",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

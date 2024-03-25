@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 26,
+      "freeTicketCount": 26,
+      "id": "85",
+      "lastDate": "2024-04-01T15:00:00",
+      "name": "Антонов Михаил Михайлович",
+      "nearestDate": "2024-03-26T09:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 50,
+      "freeTicketCount": 50,
+      "id": "89",
+      "lastDate": "2024-04-01T14:45:00",
+      "name": "Мельникова Галина Юрьевна",
+      "nearestDate": "2024-03-27T15:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

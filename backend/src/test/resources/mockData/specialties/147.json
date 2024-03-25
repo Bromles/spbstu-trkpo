@@ -1,0 +1,89 @@
+{
+  "result": [
+    {
+      "id": "7",
+      "ferId": "58",
+      "name": "Восстановительная медицина",
+      "countFreeParticipant": 45,
+      "countFreeTicket": 45,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "8",
+      "ferId": "79",
+      "name": "Гастроэнтеролог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "19",
+      "ferId": "11",
+      "name": "Детский хирург",
+      "countFreeParticipant": 99,
+      "countFreeTicket": 103,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "id": "20",
+      "ferId": "83",
+      "name": "Детский эндокринолог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "33",
+      "ferId": "230",
+      "name": "ЛФК",
+      "countFreeParticipant": 43,
+      "countFreeTicket": 43,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "40",
+      "ferId": "14",
+      "name": "Невролог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "43",
+      "ferId": "89",
+      "name": "Нефролог",
+      "countFreeParticipant": 32,
+      "countFreeTicket": 32,
+      "lastDate": "2024-04-04T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "52",
+      "ferId": "22",
+      "name": "Педиатр",
+      "countFreeParticipant": 704,
+      "countFreeTicket": 896,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "81",
+      "ferId": "28",
+      "name": "Травматолог-ортопед",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

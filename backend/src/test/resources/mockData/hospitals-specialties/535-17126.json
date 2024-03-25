@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "4588",
+      "lastDate": null,
+      "name": "Даминева Элина Вадимовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "5921",
+      "lastDate": null,
+      "name": "Дерешовский Александр Сергеевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 26,
+      "freeTicketCount": 26,
+      "id": "6013",
+      "lastDate": "2024-04-12T13:30:00",
+      "name": "Джанашия Николай Владимирович",
+      "nearestDate": "2024-04-03T12:15:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "5247",
+      "lastDate": null,
+      "name": "Киселева Юлия Леонидовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "4625",
+      "lastDate": null,
+      "name": "Кулиева Рена Сакит Кызы",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "5930",
+      "lastDate": null,
+      "name": "Юдин Виталий Анатольевич",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

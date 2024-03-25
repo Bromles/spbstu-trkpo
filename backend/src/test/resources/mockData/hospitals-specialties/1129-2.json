@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Ботаническая д 3/2",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "4",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Беседина ГА( Ботаническая 3/2)",
+      "nearestDate": "2024-03-27T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

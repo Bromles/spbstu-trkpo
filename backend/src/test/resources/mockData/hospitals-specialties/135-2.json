@@ -1,0 +1,85 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "517",
+      "lastDate": null,
+      "name": "Дан Анастасия Андреевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 21,
+      "freeTicketCount": 21,
+      "id": "560",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Кроликова Елена Владимировна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 42,
+      "freeTicketCount": 42,
+      "id": "613",
+      "lastDate": "2024-04-03T00:00:00",
+      "name": "Паруш Ольга Вячеславовна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "275",
+      "lastDate": null,
+      "name": "Пацей Жанна Борисовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 27,
+      "freeTicketCount": 27,
+      "id": "341",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Рокотянская Кристина Максимовна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 35,
+      "freeTicketCount": 35,
+      "id": "280",
+      "lastDate": "2024-03-25T00:00:00",
+      "name": "Савонова Анжелика Геннадьевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "277",
+      "lastDate": null,
+      "name": "Семенова Нино Сергеевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 31.03.2024: Нетрудоспособность (Болезнь, карантин и т.п.);\nс 01.04.2024 по 05.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "497",
+      "lastDate": null,
+      "name": "Апаева Элеонора Викторовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "25.03.2024: без приема",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "751",
+      "lastDate": null,
+      "name": "Леванова Елизавета Павловна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

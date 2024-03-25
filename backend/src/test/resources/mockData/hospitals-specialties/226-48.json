@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "ЛОР (17)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "65",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Московченко Виктор Гаврилович",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "ЛОР (17)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 1,
+      "id": "1932",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Радзиховская Ярослава Андреевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

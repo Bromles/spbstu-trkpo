@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ОСМ ПМ СП",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "22",
+      "lastDate": null,
+      "name": "Знаменщикова Ольга Валентиновна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ОСМ ПМ СП",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "33",
+      "lastDate": null,
+      "name": "Пация Манана Зубикоевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

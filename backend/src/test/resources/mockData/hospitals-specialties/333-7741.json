@@ -1,0 +1,173 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 13,
+      "freeTicketCount": 13,
+      "id": "52",
+      "lastDate": "2024-04-03T13:00:00",
+      "name": "Веденская Елена Александровна",
+      "nearestDate": "2024-04-03T08:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "68",
+      "lastDate": "2024-04-02T11:00:00",
+      "name": "Горячева Галина Юрьевна",
+      "nearestDate": "2024-04-02T08:40:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 26,
+      "freeTicketCount": 26,
+      "id": "54",
+      "lastDate": "2024-04-05T13:00:00",
+      "name": "Ивочкина Евгения Юрьевна",
+      "nearestDate": "2024-04-03T11:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 18,
+      "freeTicketCount": 18,
+      "id": "55",
+      "lastDate": "2024-04-03T13:36:00",
+      "name": "Карачинская Ирина Николаевна",
+      "nearestDate": "2024-04-03T10:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "321",
+      "lastDate": "2024-04-03T18:30:00",
+      "name": "Клюева Татьяна Анатольевна",
+      "nearestDate": "2024-03-27T16:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 11,
+      "freeTicketCount": 11,
+      "id": "56",
+      "lastDate": "2024-03-29T18:30:00",
+      "name": "Ковалева Галина Викторовна",
+      "nearestDate": "2024-03-29T14:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "298",
+      "lastDate": null,
+      "name": "Лапардина Ирина Викторовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "57",
+      "lastDate": null,
+      "name": "Моисеева Галина Игнатьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "332",
+      "lastDate": "2024-04-02T11:30:00",
+      "name": "Падалко Евгений Анатольевич",
+      "nearestDate": "2024-04-02T08:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "112",
+      "lastDate": null,
+      "name": "Слесаренко Ирина Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "566",
+      "lastDate": null,
+      "name": "Сорокина Екатерина Дмитриевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 13,
+      "freeTicketCount": 13,
+      "id": "59",
+      "lastDate": "2024-04-03T12:45:00",
+      "name": "Тулинцева Анжела Ивановна",
+      "nearestDate": "2024-03-26T14:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "542",
+      "lastDate": null,
+      "name": "Федотова Юлия Абелиевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "537",
+      "lastDate": null,
+      "name": "Хажомия Кристина Девиевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "479",
+      "lastDate": null,
+      "name": "Шокурова Юлия Михайловна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

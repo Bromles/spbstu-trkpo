@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 298,
+      "freeTicketCount": 298,
+      "id": "д71.548",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "АЛЕКСАНДРОВА И.Н.",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

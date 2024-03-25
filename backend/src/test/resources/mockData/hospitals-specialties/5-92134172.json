@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "1483",
+      "lastDate": "2024-04-01T17:00:00",
+      "name": "Ильясбеков Джамалудин Абукарович",
+      "nearestDate": "2024-04-01T17:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1094",
+      "lastDate": null,
+      "name": "Новиков Александр Сергеевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "1128",
+      "lastDate": "2024-04-04T08:40:00",
+      "name": "Соколова Дарья Александровна",
+      "nearestDate": "2024-04-04T08:40:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1059",
+      "lastDate": null,
+      "name": "Хохиашвили Гия Дмитриевич",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

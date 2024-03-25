@@ -1,0 +1,85 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 13,
+      "freeTicketCount": 13,
+      "id": "318",
+      "lastDate": "2024-04-03T19:30:00",
+      "name": "Аленкина Мария Георгиевна ",
+      "nearestDate": "2024-03-27T15:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "174",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Денисов Антон Николаевич ",
+      "nearestDate": "2024-04-01T10:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 40,
+      "freeTicketCount": 40,
+      "id": "179",
+      "lastDate": "2024-04-08T15:30:00",
+      "name": "Жамулаев Абдул-Керим Арбиевич ",
+      "nearestDate": "2024-04-01T11:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 16,
+      "freeTicketCount": 16,
+      "id": "266",
+      "lastDate": "2024-03-28T20:30:00",
+      "name": "Ковалев Михаил Икрамбекович ",
+      "nearestDate": "2024-03-25T20:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 99,
+      "freeTicketCount": 99,
+      "id": "202",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Нечкин Сергей Борисович ",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 68,
+      "freeTicketCount": 68,
+      "id": "294",
+      "lastDate": "2024-04-05T17:30:00",
+      "name": "Реутова Анастасия Петровна ",
+      "nearestDate": "2024-03-26T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 34,
+      "freeTicketCount": 34,
+      "id": "287",
+      "lastDate": "2024-04-08T12:30:00",
+      "name": "Сандухадзе Дито Дитович ",
+      "nearestDate": "2024-03-27T10:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 179,
+      "freeTicketCount": 179,
+      "id": "623",
+      "lastDate": "2024-03-25T00:00:00",
+      "name": "Профилактические Прививки ",
+      "nearestDate": "2024-03-30T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

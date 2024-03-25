@@ -1,0 +1,272 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 65,
+      "freeTicketCount": 91,
+      "id": "16043",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Авилова Ю.А. 2 отд. каб.308 б/л с 21.03 по 01.04",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 121,
+      "freeTicketCount": 153,
+      "id": "14004",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Барбакадзе М.Г. 3 отд. каб.304",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 117,
+      "freeTicketCount": 151,
+      "id": "15516",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Блдеян Р.В. 2 отд. каб.310 ",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 80,
+      "freeTicketCount": 106,
+      "id": "17027",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Волокитина Ю.Н. 1 отд. каб.306",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 96,
+      "freeTicketCount": 113,
+      "id": "15357",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Гафарова З.Ф. 1 отд. каб.302 отпуск 25/3-31/03",
+      "nearestDate": "2024-04-04T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 101,
+      "freeTicketCount": 121,
+      "id": "15366",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Давыдова А.И. 1 отд. каб.311 ",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 93,
+      "freeTicketCount": 113,
+      "id": "15300",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Ельцов А.И. 1 отд. каб.313 Без приема с 25.03 по 29.03 ",
+      "nearestDate": "2024-04-04T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 31,
+      "freeTicketCount": 51,
+      "id": "15081",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Зайцева М.А. 2 отд. каб.313",
+      "nearestDate": "2024-04-12T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 117,
+      "freeTicketCount": 137,
+      "id": "15598",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Иванова В.В. 1 отд. каб.307 ",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 102,
+      "freeTicketCount": 133,
+      "id": "15500",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Крухмалев В.В. 3 отд. каб.301 ",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 92,
+      "freeTicketCount": 112,
+      "id": "14877",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Кузнецова И.В. 3 отд. каб.303 На больничном с 18/03",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 112,
+      "freeTicketCount": 136,
+      "id": "15579",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Кульневич С.О. 3 отд. каб.308 ",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 113,
+      "freeTicketCount": 139,
+      "id": "16050",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Лищинская А.В. 2 отд. каб.302 отпуск 15.04-19.04",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 84,
+      "freeTicketCount": 110,
+      "id": "16683",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Лопатин Я.Р. 2 отд. каб.118    б/л с 25.03",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 120,
+      "freeTicketCount": 149,
+      "id": "15530",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Лыткина Л.А. 2 отд. каб.304",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 140,
+      "freeTicketCount": 172,
+      "id": "14076",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Михаленко Е.Н. 3 отд. каб.307",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 11,
+      "freeTicketCount": 19,
+      "id": "16026",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Мурадов К.А. 1 отд. каб.305 отпуск с 02/04-30.04",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 123,
+      "freeTicketCount": 157,
+      "id": "15390",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Нурмамедова М.А. 2 отд. каб.311 ",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 114,
+      "freeTicketCount": 143,
+      "id": "15506",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Полежаев Д.Е. 3отд.  каб.310 ",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 120,
+      "freeTicketCount": 153,
+      "id": "15590",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Пополитов Е.Е. 2 отд. каб.303 ",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 82,
+      "freeTicketCount": 108,
+      "id": "16678",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Роговская Д.В. 1 отд. каб.312 ",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 114,
+      "freeTicketCount": 146,
+      "id": "15542",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Улитовский Д.А. 2 отд. каб.312",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 89,
+      "freeTicketCount": 114,
+      "id": "15529",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Чивильдеев А.В. 3 отд. каб.305 отпуск с 09.04-15.04",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 116,
+      "freeTicketCount": 141,
+      "id": "15113",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Шишкина О.Б. 1 отд. каб.325",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

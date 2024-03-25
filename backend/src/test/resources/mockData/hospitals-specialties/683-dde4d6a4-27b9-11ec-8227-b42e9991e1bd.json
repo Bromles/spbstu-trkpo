@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "dde4d6a7-27b9-11ec-8227-b42e9991e1bd",
+      "lastDate": null,
+      "name": "Сичкар Олег Григорьевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "eba1c270-7478-11ed-8287-00155d01320d",
+      "lastDate": null,
+      "name": "Петроченкова Анастасия Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "5eae8121-6112-11ee-843a-00155d01320d",
+      "lastDate": null,
+      "name": "Зозуля Мария Васильевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

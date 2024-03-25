@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 9,
+      "id": "170",
+      "lastDate": "2024-04-08T16:20:00",
+      "name": "Игнатьева Вера Николаевна ",
+      "nearestDate": "2024-03-27T13:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 13,
+      "id": "251",
+      "lastDate": "2024-04-08T16:20:00",
+      "name": "Лугова Юлия Михайловна ",
+      "nearestDate": "2024-04-01T08:40:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 4,
+      "id": "278",
+      "lastDate": "2024-03-29T08:40:00",
+      "name": "Татараев Саид Маллаевич ",
+      "nearestDate": "2024-03-28T15:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

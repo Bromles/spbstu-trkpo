@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "1-10,11-20,21-32,40",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 6,
+      "id": "д71.693",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "ЕМЕЛЕЕВ М.М.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "1-10,11-20,21-32,40",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 3,
+      "id": "д71.832",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "МЕДВЕДЕВА К.А.",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

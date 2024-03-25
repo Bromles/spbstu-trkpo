@@ -1,0 +1,107 @@
+{
+  "result": [
+    {
+      "ariaNumber": "13УЧ-101",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "32",
+      "lastDate": null,
+      "name": "Анастасидис Алики Якимовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 220,
+      "freeTicketCount": 220,
+      "id": "1603",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Кабинет Диспансеризация ( Диспансеризация)",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "06УЧ-101",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1591",
+      "lastDate": null,
+      "name": "Кислякова Анна Дмитриевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "09УЧ-101",
+      "ariaType": null,
+      "comment": "25.03.2024: Командировки служебные;\nс 26.03.2024 по 27.03.2024: Командировки служебные;\nс 28.03.2024 по 29.03.2024: Командировки служебные;\nс 30.03.2024 по 31.03.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1889",
+      "lastDate": null,
+      "name": "Косенко Вера Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "03УЧ-101",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "35",
+      "lastDate": null,
+      "name": "Крячко Елена Григорьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "15УЧ-101",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "87",
+      "lastDate": null,
+      "name": "Павлович Елена Викторовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "12УЧ-101",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "127",
+      "lastDate": null,
+      "name": "Перейма Наталья Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "14УЧ-101",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1322",
+      "lastDate": null,
+      "name": "Суслова Татьяна Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "11УЧ-101",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1426",
+      "lastDate": null,
+      "name": "Харченко Анна Валерьевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

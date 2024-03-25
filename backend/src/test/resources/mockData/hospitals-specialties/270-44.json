@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "1-10,11-20,21-32,40",
+      "ariaType": null,
+      "comment": "Врач принимает строго по направлению!!!!!!!",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 40,
+      "id": "д71.206",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "ГЕРМАНОВИЧ И.Л.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "1-10,11-20,21-32,40",
+      "ariaType": null,
+      "comment": "Врач принимает строго по направлению!!!!!!!",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 86,
+      "id": "д71.223",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "КРАСНЯК Г.Н.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "1-10,11-20,21-32,40",
+      "ariaType": null,
+      "comment": "Врач принимает строго по направлению!!!!!!!",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 65,
+      "id": "д71.766",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "ПОДКОРЫТОВА Т.Г.",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

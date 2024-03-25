@@ -1,0 +1,35 @@
+{
+  "result": [
+    {
+      "id": "80",
+      "ferId": "22",
+      "name": "Бокс, симптомы ОРВИ/Грипп/COVID",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "83",
+      "ferId": "0",
+      "name": "ВЫПИСКА ИЗ Н/П",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 11,
+      "lastDate": "2024-04-01T00:00:00",
+      "nearestDate": null
+    },
+    {
+      "id": "38",
+      "ferId": "22",
+      "name": "ПЕДИАТР ПО УЧАСТКАМ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 64,
+      "lastDate": "2024-04-01T00:00:00",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,151 @@
+{
+  "result": [
+    {
+      "ariaNumber": "1 уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 19,
+      "freeTicketCount": 19,
+      "id": "1945",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Ходкевич Елена Васильевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Первое педиатрическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 16,
+      "freeTicketCount": 16,
+      "id": "1949",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Александрова Наталия Борисовна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Второе педиатрическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "1956",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Кальшова Лариса Николаевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Второе педиатрическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "1959",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Машковцева Ирина Владимировна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "3 уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 20,
+      "freeTicketCount": 20,
+      "id": "2083",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Магнева Юлия Александровна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Первое педиатрическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 28,
+      "freeTicketCount": 28,
+      "id": "2094",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Насибулин Ринат Рафаэлевич",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Первое педиатрическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 21,
+      "freeTicketCount": 21,
+      "id": "2122",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Кулагин Олег Владимирович",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Первое педиатрическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 31,
+      "freeTicketCount": 31,
+      "id": "2127",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Герасименко Варвара Сергеевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Второе педиатрическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 41,
+      "freeTicketCount": 41,
+      "id": "2149",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Каллагова Диана Казбековна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Второе педиатрическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 46,
+      "freeTicketCount": 46,
+      "id": "2152",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Китаев Александр Эдуардович",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Второе педиатрическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 41,
+      "freeTicketCount": 42,
+      "id": "2207",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Трухачева Наталья Артемовна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Второе педиатрическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 35,
+      "freeTicketCount": 35,
+      "id": "2216",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Гешев Исламбек Заурбекович",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Второе педиатрическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 45,
+      "freeTicketCount": 45,
+      "id": "2218",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Нетрусова Алена Игоревна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

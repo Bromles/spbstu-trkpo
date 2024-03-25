@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "202",
+      "lastDate": null,
+      "name": "ПОВТ.ПРИЕМ ( ДЯГИЛЕВА А.К.)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "89",
+      "lastDate": null,
+      "name": "ПОВТ.ПРИЕМ (КУЗЬМИНА А.С)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "60",
+      "lastDate": null,
+      "name": "ПОВТ.ПРИЕМ (Маркова Н.Н.)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "65",
+      "lastDate": null,
+      "name": "ПОВТ.ПРИЕМ (Никонова Н.Г.)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "67",
+      "lastDate": null,
+      "name": "ПОВТ.ПРИЕМ (Семибратная А.А.)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "139",
+      "lastDate": null,
+      "name": "ПОВТОРНЫЙ ПРИЕМ(Нурутдинова А.Д.)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

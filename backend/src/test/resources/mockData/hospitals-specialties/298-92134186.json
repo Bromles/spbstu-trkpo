@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "\r\n",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "260",
+      "lastDate": "2024-04-03T12:15:00",
+      "name": "Лушнова Анастасия Михайловна",
+      "nearestDate": "2024-03-28T17:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

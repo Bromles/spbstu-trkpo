@@ -1,0 +1,85 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 27,
+      "freeTicketCount": 27,
+      "id": "227",
+      "lastDate": "2024-03-30T00:00:00",
+      "name": "Сурнина Гульнара Рифовна",
+      "nearestDate": "2024-03-30T00:00:00"
+    },
+    {
+      "ariaNumber": "Терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 62,
+      "freeTicketCount": 62,
+      "id": "228",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Рябченко Виктор Михайлович",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "Терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 222,
+      "freeTicketCount": 222,
+      "id": "230",
+      "lastDate": "2024-04-19T00:00:00",
+      "name": "Капитонова Екатерина Алексеевна",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "Терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 196,
+      "freeTicketCount": 196,
+      "id": "234",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Богданова Надежда Александровна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "Терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 18,
+      "freeTicketCount": 18,
+      "id": "239",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Серебрицкая Наталья Александровна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 338,
+      "freeTicketCount": 338,
+      "id": "241",
+      "lastDate": "2024-04-25T00:00:00",
+      "name": "Крейдик Елена Николаевна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "Терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 55,
+      "freeTicketCount": 55,
+      "id": "243",
+      "lastDate": "2024-04-25T00:00:00",
+      "name": "Шаулина Елена Алексеевна",
+      "nearestDate": "2024-04-23T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

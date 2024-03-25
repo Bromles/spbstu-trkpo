@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Терапевтический кабинет",
+      "ariaType": null,
+      "comment": "с 01.04.2024 по 08.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 48,
+      "freeTicketCount": 48,
+      "id": "847",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Бровко Мария Владимировна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

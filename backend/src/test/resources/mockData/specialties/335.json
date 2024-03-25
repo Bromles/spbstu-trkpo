@@ -1,0 +1,35 @@
+{
+  "result": [
+    {
+      "id": "6189",
+      "ferId": "177",
+      "name": "Стоматолог-пародонтолог",
+      "countFreeParticipant": 5,
+      "countFreeTicket": 8,
+      "lastDate": "2024-04-08T19:40:00",
+      "nearestDate": "2024-04-08T09:00:00"
+    },
+    {
+      "id": "2083",
+      "ferId": "176",
+      "name": "Стоматолог-терапевт",
+      "countFreeParticipant": 72,
+      "countFreeTicket": 493,
+      "lastDate": "2024-04-08T20:20:00",
+      "nearestDate": "2024-03-25T17:40:00"
+    },
+    {
+      "id": "2084",
+      "ferId": "177",
+      "name": "Стоматолог-хирург",
+      "countFreeParticipant": 85,
+      "countFreeTicket": 252,
+      "lastDate": "2024-04-08T19:30:00",
+      "nearestDate": "2024-03-25T17:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

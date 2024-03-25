@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 75,
+      "freeTicketCount": 75,
+      "id": "п30.047",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "САФОНОВА Н.А. 25.03-31.03 приёма нет",
+      "nearestDate": "2024-04-02T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

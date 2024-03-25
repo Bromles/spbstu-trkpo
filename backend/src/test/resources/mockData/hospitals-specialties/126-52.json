@@ -1,0 +1,85 @@
+{
+  "result": [
+    {
+      "ariaNumber": "2УЧ-36",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 46,
+      "freeTicketCount": 46,
+      "id": "1496",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Бадмаева Алёна Алексеевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "6УЧ-36",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 51,
+      "freeTicketCount": 51,
+      "id": "172",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": "Ведомская Светлана Григорьевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "7УЧ-36",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 46,
+      "freeTicketCount": 46,
+      "id": "1834",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": "Завьялова Анастасия Анатольевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "8УЧ-36",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 61,
+      "freeTicketCount": 61,
+      "id": "410",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Недосекова Людмила Ивановна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "3УЧ-36",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 08.04.2024: Нетрудоспособность (Болезнь, карантин и т.п.)",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1686",
+      "lastDate": null,
+      "name": "Пикулин Дмитрий Владиславович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "5УЧ-36",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 60,
+      "freeTicketCount": 60,
+      "id": "166",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Филатова Нина Викторовна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "1УЧ-36",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 71,
+      "freeTicketCount": 71,
+      "id": "272",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Черненко Людмила Васильевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

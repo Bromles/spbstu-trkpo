@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "2 ",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 50,
+      "freeTicketCount": 75,
+      "id": "1806",
+      "lastDate": "2024-04-05T11:00:00",
+      "name": "Менская Татьяна Васильевна",
+      "nearestDate": "2024-03-28T17:48:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Отпуск",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8891",
+      "lastDate": null,
+      "name": "Фурсова Елена Витальевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,85 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Ортодонтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "191",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Рогова Елена Владимировна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Ортодонтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "193",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Зинченко Елена Владимировна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Ортодонтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "194",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Семёнова Ольга Викторовна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Ортодонтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 22,
+      "freeTicketCount": 22,
+      "id": "197",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Боброва Екатерина Владимировна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Ортодонтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "243",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Плаксина Анна Леонидовна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "Ортодонтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "244",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Погудина Наталия Анатольевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Ортодонтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 25,
+      "freeTicketCount": 25,
+      "id": "311",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Сузько Мария Викторовна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

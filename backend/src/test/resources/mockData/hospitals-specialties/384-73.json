@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "45",
+      "lastDate": null,
+      "name": "Богомолова Ирина Витальевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "235",
+      "lastDate": null,
+      "name": "Верхотурова Наталья Васильевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "374",
+      "lastDate": null,
+      "name": "Виноградова Елена Юрьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "29.03.2024: Нетрудоспособность (Болезнь, карантин и т.п.)",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "69",
+      "lastDate": null,
+      "name": "Магомедова Бэла Мухамедовна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 22,
+      "freeTicketCount": 41,
+      "id": "71",
+      "lastDate": "2024-04-08T17:23:00",
+      "name": "Павлова Ольга Владимировна",
+      "nearestDate": "2024-04-01T16:31:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

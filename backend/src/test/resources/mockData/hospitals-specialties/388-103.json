@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "181",
+      "lastDate": "2024-03-25T16:41:40.3423999+03:00",
+      "name": "Закревская Елена Ричардовна ",
+      "nearestDate": "2024-03-25T16:41:40.3423999+03:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "282",
+      "lastDate": "2024-04-08T14:00:00",
+      "name": "Сандухадзе Дито Дитович ",
+      "nearestDate": "2024-04-08T10:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

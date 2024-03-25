@@ -1,0 +1,283 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 1,
+      "id": "293",
+      "lastDate": null,
+      "name": "Баймашкина Регина Альбертовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 1,
+      "id": "338",
+      "lastDate": null,
+      "name": "Богданова Евгения Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "дежурный врач",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "35",
+      "lastDate": null,
+      "name": "Гниппа Юлия Геннадьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "283",
+      "lastDate": null,
+      "name": "Горюнова Ирина Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "114",
+      "lastDate": null,
+      "name": "Денисова Нина Евгеньевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "20",
+      "lastDate": null,
+      "name": "Извекова Екатерина Анатольевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "19",
+      "lastDate": null,
+      "name": "Исаева Наталия Васильевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "117",
+      "lastDate": null,
+      "name": "Киселева Галина Петровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "пародонтолог",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 2,
+      "id": "48",
+      "lastDate": null,
+      "name": "Кузик Алла Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 1,
+      "id": "347",
+      "lastDate": null,
+      "name": "Морковина Юлия Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 1,
+      "id": "412",
+      "lastDate": null,
+      "name": "Мыльникова Кристина Алексеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "пародонтолог",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 3,
+      "id": "39",
+      "lastDate": null,
+      "name": "Некрасова Валентина Анатольевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "57",
+      "lastDate": null,
+      "name": "Нестерова Виктория Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 1,
+      "id": "358",
+      "lastDate": null,
+      "name": "Пиллер Ксения Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 1,
+      "id": "371",
+      "lastDate": null,
+      "name": "Пифо Мария Юрьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 1,
+      "id": "479",
+      "lastDate": null,
+      "name": "Приходько Виктория Анатольевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "417",
+      "lastDate": null,
+      "name": "Рыжик Оксана Геннадьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "дежурный врач",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "26",
+      "lastDate": null,
+      "name": "Силич Светлана Игоревна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "309",
+      "lastDate": null,
+      "name": "Симонян Шогик Симоновна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "289",
+      "lastDate": null,
+      "name": "Спесивцева Елена Григорьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 1,
+      "id": "28",
+      "lastDate": null,
+      "name": "Цветкова Анна Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 2,
+      "id": "30",
+      "lastDate": null,
+      "name": "Шамалова Галина Романовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "334",
+      "lastDate": null,
+      "name": "Швыдка Оксана Петровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "дежурный врач",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "255",
+      "lastDate": null,
+      "name": "Юрченко Алла Ивановна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "507",
+      "lastDate": null,
+      "name": "Якубовская Ксения Павловна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

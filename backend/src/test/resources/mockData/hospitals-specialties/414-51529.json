@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 44,
+      "freeTicketCount": 44,
+      "id": "3437",
+      "lastDate": "2024-04-05T11:30:00",
+      "name": "Костюк Татьяна Петровна",
+      "nearestDate": "2024-04-01T10:20:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "3582",
+      "lastDate": null,
+      "name": "Поборцева Марина Петровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "3626",
+      "lastDate": null,
+      "name": "Семина Ольга Владимировна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

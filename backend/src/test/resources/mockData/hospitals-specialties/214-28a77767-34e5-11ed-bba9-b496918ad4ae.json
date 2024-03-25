@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "0bc0156d-6a42-11ed-bbb0-b496918ad4af",
+      "lastDate": "2024-03-29T19:30:00",
+      "name": "Телемедицина Терапия (ТЕЛЕМЕДИЦИНА )",
+      "nearestDate": "2024-03-28T19:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "f63a24d3-6a41-11ed-bbb0-b496918ad4af",
+      "lastDate": null,
+      "name": "Телемедицина Эндокринология (ТЕЛЕМЕДИЦИНА )",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "5a501be1-6a41-11ed-bbb0-b496918ad4af",
+      "lastDate": "2024-04-01T14:15:00",
+      "name": "Телемедицина Кардиология (ТЕЛЕМЕДИЦИНА )",
+      "nearestDate": "2024-04-01T14:15:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

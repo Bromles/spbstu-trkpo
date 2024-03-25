@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "471",
+      "lastDate": null,
+      "name": "Дохова Марианна Ивановна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 13,
+      "freeTicketCount": 13,
+      "id": "514",
+      "lastDate": "2024-04-13T00:00:00",
+      "name": "Петрова Людмила Сергеевна",
+      "nearestDate": "2024-04-12T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 10,
+      "freeTicketCount": 10,
+      "id": "п100.227",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Максимова Е.А. ( с 15.04 по 28.04 без приема)",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 36,
+      "freeTicketCount": 36,
+      "id": "п100.598",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Тагиров А.З.",
+      "nearestDate": "2024-04-04T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

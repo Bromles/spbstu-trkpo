@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "г. Пушкин, Софийский б-р, д. 28.",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "1217",
+      "lastDate": "2024-04-08T13:15:00",
+      "name": "Кочубеева Татьяна Александровна",
+      "nearestDate": "2024-03-26T15:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

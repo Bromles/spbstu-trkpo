@@ -1,0 +1,173 @@
+{
+  "result": [
+    {
+      "ariaNumber": "09 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "621",
+      "lastDate": null,
+      "name": "Беляева Ольга Геннадьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "29 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "582",
+      "lastDate": null,
+      "name": "Владыченкова Елизавета Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "11 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "764",
+      "lastDate": null,
+      "name": "Елыманова Ольга Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "27 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "328",
+      "lastDate": null,
+      "name": "Коломенская Татьяна Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "24 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "325",
+      "lastDate": null,
+      "name": "Кравчук Оксана Михайловна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "02 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "697",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Кувалдина Светлана Викторовна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "20 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "593",
+      "lastDate": null,
+      "name": "Литман Ольга Игоревна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "17 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "675",
+      "lastDate": null,
+      "name": "Мелешкин Иван Валерьевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "03 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "728",
+      "lastDate": null,
+      "name": "Минаев Андрей Владимирович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "28 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "599",
+      "lastDate": null,
+      "name": "Миронова Зинаида Эдуардовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "12 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "568",
+      "lastDate": null,
+      "name": "Морозова Татьяна Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "10 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "451",
+      "lastDate": null,
+      "name": "Соловьева Валентина Алексеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "07 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "310",
+      "lastDate": null,
+      "name": "Сухова Любовь Валентиновна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "01 участок",
+      "ariaType": null,
+      "comment": "25.03.2024: Очередные и дополнительные отпуска;\n26.03.2024: Очередные и дополнительные отпуска;\n27.03.2024: Очередные и дополнительные отпуска;\n28.03.2024: Очередные и дополнительные отпуска;\n29.03.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "640",
+      "lastDate": null,
+      "name": "Урбан Мария Олеговна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "23 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "421",
+      "lastDate": null,
+      "name": "Шаврина Ольга Александровна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "25 уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2016",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Братикина Сюзанна Васильевна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "24 уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "2155",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Литвинова Анастасия Валерьевна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "26 уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 10,
+      "freeTicketCount": 11,
+      "id": "2164",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Салихова Рукият Газимагомедовна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "27 уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 31,
+      "freeTicketCount": 33,
+      "id": "2192",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Орцханов Магомед Исаевич возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

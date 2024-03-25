@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 13,
+      "freeTicketCount": 50,
+      "id": "д62.170",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Бажанова Т.В. (СОЮЗНЫЙ 7)",
+      "nearestDate": "2024-04-04T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 45,
+      "id": "д62.130",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Горбицкая М.С. (СОЮЗНЫЙ 7)",
+      "nearestDate": "2024-04-05T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

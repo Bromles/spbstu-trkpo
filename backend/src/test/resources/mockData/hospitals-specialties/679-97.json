@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 481,
+      "freeTicketCount": 481,
+      "id": "245830000001",
+      "lastDate": "2024-05-15T15:00:00",
+      "name": "Калмыкова Карина Викторовна",
+      "nearestDate": "2024-03-26T13:00:00"
+    },
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 485,
+      "freeTicketCount": 485,
+      "id": "245830000007",
+      "lastDate": "2024-05-15T19:00:00",
+      "name": "Тощева Галина Ивановна",
+      "nearestDate": "2024-03-25T17:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

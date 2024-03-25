@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 21,
+      "freeTicketCount": 26,
+      "id": "896",
+      "lastDate": "2024-04-04T16:50:00",
+      "name": "Шкляев Дмитрий Павлович",
+      "nearestDate": "2024-03-26T08:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

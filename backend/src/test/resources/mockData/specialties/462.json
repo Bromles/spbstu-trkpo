@@ -1,0 +1,17 @@
+{
+  "result": [
+    {
+      "id": "92139128",
+      "ferId": "29",
+      "name": "Фтизиатр",
+      "countFreeParticipant": 28,
+      "countFreeTicket": 35,
+      "lastDate": "2024-03-29T16:20:00",
+      "nearestDate": "2024-03-26T09:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

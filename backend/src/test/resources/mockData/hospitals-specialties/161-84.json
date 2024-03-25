@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "26.03.2024: Командировки служебные;\n27.03.2024: Командировки служебные;\n28.03.2024: Командировки служебные;\n29.03.2024: Командировки служебные;\nс 30.03.2024 по 31.03.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2834",
+      "lastDate": null,
+      "name": "Винникова Александра Юрьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 31.03.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "872",
+      "lastDate": null,
+      "name": "Пиявский Александр Владимирович",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

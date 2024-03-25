@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "28.03.2024: Командировки служебные",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "1620",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Ломакин Олег Андреевич",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "787",
+      "lastDate": null,
+      "name": "Степанов Иван Васильевич",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

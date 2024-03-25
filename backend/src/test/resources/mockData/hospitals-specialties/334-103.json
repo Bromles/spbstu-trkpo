@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 1,
+      "id": "372",
+      "lastDate": "2024-03-28T16:45:00",
+      "name": "Дрягина Елена Викторовна ",
+      "nearestDate": "2024-03-28T16:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

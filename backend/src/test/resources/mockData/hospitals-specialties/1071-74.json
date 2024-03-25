@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 27,
+      "freeTicketCount": 27,
+      "id": "1922",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Загитова Рената Дамировна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 90,
+      "freeTicketCount": 90,
+      "id": "1602",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Молоков Алексей Владимирович",
+      "nearestDate": "2024-04-22T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 81,
+      "freeTicketCount": 81,
+      "id": "1844",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Севагина Валентина Олеговна",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "879",
+      "lastDate": null,
+      "name": "Тимченко Жылдыз Аскаровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 38,
+      "freeTicketCount": 38,
+      "id": "2809",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Чакветадзе Серго Робинзонович",
+      "nearestDate": "2024-04-08T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

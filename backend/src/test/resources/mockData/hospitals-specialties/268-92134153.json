@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Вторая, четвертая среда месяца - глаукомный день.",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "588",
+      "lastDate": null,
+      "name": "Никитонова Надежда Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Вторая, четвертая среда месяца - глаукомный день.",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "825",
+      "lastDate": null,
+      "name": "Хусаенова Гульнара Айратовна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

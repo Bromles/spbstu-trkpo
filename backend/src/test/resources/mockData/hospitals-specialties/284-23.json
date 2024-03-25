@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 10,
+      "freeTicketCount": 53,
+      "id": "16696",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Андросова А.В. ",
+      "nearestDate": "2024-04-23T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 26,
+      "freeTicketCount": 26,
+      "id": "15218",
+      "lastDate": "2024-04-19T00:00:00",
+      "name": "Созинов Е.А  каб.319 на Б/Л с 25.03; с 01/04 на учебе",
+      "nearestDate": "2024-04-16T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 43,
+      "freeTicketCount": 88,
+      "id": "15055",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Шарипов Ш.А. каб.319 ",
+      "nearestDate": "2024-04-17T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

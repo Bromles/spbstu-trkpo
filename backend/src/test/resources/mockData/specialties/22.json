@@ -1,0 +1,161 @@
+{
+  "result": [
+    {
+      "id": "92135135",
+      "ferId": "8",
+      "name": "Акушерство и гинекология (до 12 лет)",
+      "countFreeParticipant": 4,
+      "countFreeTicket": 4,
+      "lastDate": "2024-04-05T11:15:00",
+      "nearestDate": "2024-04-03T11:00:00"
+    },
+    {
+      "id": "92134141",
+      "ferId": "255",
+      "name": "Аллергология и иммунология",
+      "countFreeParticipant": 5,
+      "countFreeTicket": 5,
+      "lastDate": "2024-04-09T11:45:00",
+      "nearestDate": "2024-04-09T09:45:00"
+    },
+    {
+      "id": "92134158",
+      "ferId": "79",
+      "name": "Гастроэнтерология",
+      "countFreeParticipant": 13,
+      "countFreeTicket": 13,
+      "lastDate": "2024-04-09T17:45:00",
+      "nearestDate": "2024-04-08T12:45:00"
+    },
+    {
+      "id": "92134187",
+      "ferId": "81",
+      "name": "Детская кардиология",
+      "countFreeParticipant": 71,
+      "countFreeTicket": 71,
+      "lastDate": "2024-04-09T19:00:00",
+      "nearestDate": "2024-04-01T09:45:00"
+    },
+    {
+      "id": "92134188",
+      "ferId": "11",
+      "name": "Детская хирургия",
+      "countFreeParticipant": 33,
+      "countFreeTicket": 33,
+      "lastDate": "2024-04-09T13:15:00",
+      "nearestDate": "2024-04-02T09:45:00"
+    },
+    {
+      "id": "92134186",
+      "ferId": "83",
+      "name": "Детская эндокринология",
+      "countFreeParticipant": 23,
+      "countFreeTicket": 23,
+      "lastDate": "2024-04-09T19:30:00",
+      "nearestDate": "2024-04-08T09:30:00"
+    },
+    {
+      "id": "92134147",
+      "ferId": "32",
+      "name": "Инфекционные болезни",
+      "countFreeParticipant": 124,
+      "countFreeTicket": 124,
+      "lastDate": "2024-04-09T14:30:00",
+      "nearestDate": "2024-03-26T13:00:00"
+    },
+    {
+      "id": "92134558",
+      "ferId": "0",
+      "name": "Логопедия",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "92134150",
+      "ferId": "14",
+      "name": "Неврология",
+      "countFreeParticipant": 29,
+      "countFreeTicket": 29,
+      "lastDate": "2024-04-09T19:15:00",
+      "nearestDate": "2024-04-08T08:45:00"
+    },
+    {
+      "id": "92134311",
+      "ferId": "89",
+      "name": "Нефрология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "92134152",
+      "ferId": "19",
+      "name": "Оториноларингология",
+      "countFreeParticipant": 2,
+      "countFreeTicket": 2,
+      "lastDate": "2024-04-09T13:45:00",
+      "nearestDate": "2024-04-03T13:45:00"
+    },
+    {
+      "id": "92134153",
+      "ferId": "20",
+      "name": "Офтальмология",
+      "countFreeParticipant": 22,
+      "countFreeTicket": 22,
+      "lastDate": "2024-04-09T18:45:00",
+      "nearestDate": "2024-04-08T08:45:00"
+    },
+    {
+      "id": "92134184",
+      "ferId": "22",
+      "name": "Педиатрия",
+      "countFreeParticipant": 684,
+      "countFreeTicket": 684,
+      "lastDate": "2024-04-09T19:45:00",
+      "nearestDate": "2024-03-25T18:00:00"
+    },
+    {
+      "id": "92137642",
+      "ferId": null,
+      "name": "Психолог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "92134316",
+      "ferId": "90",
+      "name": "Пульмонология",
+      "countFreeParticipant": 44,
+      "countFreeTicket": 44,
+      "lastDate": "2024-04-09T14:40:00",
+      "nearestDate": "2024-04-02T14:20:00"
+    },
+    {
+      "id": "92135108",
+      "ferId": "27",
+      "name": "Реабилитолог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "92134170",
+      "ferId": "28",
+      "name": "Травматология и ортопедия",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

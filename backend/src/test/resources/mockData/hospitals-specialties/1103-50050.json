@@ -1,0 +1,96 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Участок №15",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "141",
+      "lastDate": null,
+      "name": "Аназарова Самира Эйман кызы",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Участок №5",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "10",
+      "lastDate": null,
+      "name": "Бабицкая Наталья Вадимовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Участок №7",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "171",
+      "lastDate": null,
+      "name": "Димова Ольга Ивановна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Участок №8",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "26",
+      "lastDate": null,
+      "name": "Ехменина Оксана Игоревна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Участок №2",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "275",
+      "lastDate": null,
+      "name": "Казанова Ульяна Олеговна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Участок №10",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "146",
+      "lastDate": null,
+      "name": "Ладанова Элина Олеговна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Участок №3",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "173",
+      "lastDate": null,
+      "name": "Малсугенова Кулизар Хасановна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Только гинекологический приём (специализированный)",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "218",
+      "lastDate": null,
+      "name": "Яковлева Вероника Леонидовна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

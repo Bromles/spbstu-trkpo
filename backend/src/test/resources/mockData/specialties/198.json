@@ -1,0 +1,80 @@
+{
+  "result": [
+    {
+      "id": "19",
+      "ferId": "11",
+      "name": "Детский хирург",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "49",
+      "ferId": "20",
+      "name": "Офтальмолог",
+      "countFreeParticipant": 13,
+      "countFreeTicket": 14,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "52",
+      "ferId": "22",
+      "name": "Педиатр",
+      "countFreeParticipant": 356,
+      "countFreeTicket": 357,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "101",
+      "ferId": "19",
+      "name": "Отоларинголог",
+      "countFreeParticipant": 11,
+      "countFreeTicket": 11,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "153",
+      "ferId": "36",
+      "name": "Врач-эндоскопист: дети от 6 лет",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": "2024-04-01T00:00:00",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "id": "295",
+      "ferId": "22",
+      "name": "Педиатр (для справок)",
+      "countFreeParticipant": 195,
+      "countFreeTicket": 195,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "296",
+      "ferId": "22",
+      "name": "Педиатр (реакция манту)",
+      "countFreeParticipant": 24,
+      "countFreeTicket": 25,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "297",
+      "ferId": "22",
+      "name": "Педиатр (Центр здоровья)",
+      "countFreeParticipant": 9,
+      "countFreeTicket": 9,
+      "lastDate": "2024-04-06T00:00:00",
+      "nearestDate": "2024-04-06T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

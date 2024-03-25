@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 30,
+      "freeTicketCount": 44,
+      "id": "48",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Зонова Д.Н.",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 93,
+      "freeTicketCount": 121,
+      "id": "3",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Ковальчук А.К.",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 94,
+      "freeTicketCount": 125,
+      "id": "45",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Радовская В.А.",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 84,
+      "freeTicketCount": 113,
+      "id": "47",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Рублева А.О.",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 86,
+      "freeTicketCount": 115,
+      "id": "9",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Саратова Л.В.",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 66,
+      "freeTicketCount": 87,
+      "id": "10",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Трактирова М.П.",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

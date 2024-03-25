@@ -1,0 +1,118 @@
+{
+  "result": [
+    {
+      "ariaNumber": "4 отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 1,
+      "id": "34",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Мкртчян Лали Гамлетовна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "4 отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "36",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Антипова Виктория Васильевна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "4 отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "67",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Зорька Ирина Викторовна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "3 отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "71",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Кузнецова Светлана Михайловна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "3 отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "78",
+      "lastDate": "2024-04-06T00:00:00",
+      "name": "Корнилова Ирина Николаевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "3 отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 3,
+      "id": "119",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Макарихина Валентина Николаевна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "4 отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "256",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Ольшаник Александра Анатольевна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "3 отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "345",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Пягай Наталья Валерьевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "4 отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "346",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Федосова Ксения Алексеевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "4 отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 13,
+      "freeTicketCount": 14,
+      "id": "352",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Дежурный Врач Осмотр  ",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 23,
+      "freeTicketCount": 23,
+      "id": "81880.81",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Исмаилова А.Я.",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 20,
+      "freeTicketCount": 39,
+      "id": "81880.101",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Самошкина М.Е.",
+      "nearestDate": "2024-04-04T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

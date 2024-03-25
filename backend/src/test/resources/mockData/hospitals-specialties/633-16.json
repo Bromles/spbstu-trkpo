@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Кабинет врача-детского кардиолога ОР",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "2141",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Собко Надежда Григорьевна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

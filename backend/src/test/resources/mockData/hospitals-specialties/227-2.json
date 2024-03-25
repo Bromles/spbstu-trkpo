@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": "ГИНЕКОЛОГИЧЕСКОЕ(10)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "814",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Пестова Оксана Вячеславовна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "ГИНЕКОЛОГИЧЕСКОЕ(10)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "874",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Прохоров Юрий Владимирович",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "ГИНЕКОЛОГИЧЕСКОЕ(10)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1533",
+      "lastDate": "2024-03-30T00:00:00",
+      "name": "Воронцова Лилия Константиновна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "ГИНЕКОЛОГИЧЕСКОЕ(10)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 14,
+      "id": "1798",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Давыдкина Виктория Викторовна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "ГИНЕКОЛОГИЧЕСКОЕ(10)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 15,
+      "id": "1868",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Шаварина Юлия Васильевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "ГИНЕКОЛОГИЧЕСКОЕ(10)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 30,
+      "id": "2005",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Долуханова Парвана Ровшановна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

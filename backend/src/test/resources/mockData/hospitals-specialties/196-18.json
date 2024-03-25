@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 210,
+      "freeTicketCount": 210,
+      "id": "п13.574",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "Капралова О.Л. Инфекционист",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

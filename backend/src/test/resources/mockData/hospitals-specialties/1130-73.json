@@ -1,0 +1,96 @@
+{
+  "result": [
+    {
+      "ariaNumber": "СТОМАТОЛОГИЯ П38",
+      "ariaType": null,
+      "comment": "08.04.2024: без приема",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "761",
+      "lastDate": null,
+      "name": "Аббасов Ниджат Эльсевар Оглы",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "СТОМАТОЛОГИЯ П38",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 31.03.2024: без приема",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "748",
+      "lastDate": "2024-04-19T00:00:00",
+      "name": "Антонова Екатерина Васильевна",
+      "nearestDate": "2024-04-23T00:00:00"
+    },
+    {
+      "ariaNumber": "СТОМАТОЛОГИЯ П38",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 40,
+      "freeTicketCount": 40,
+      "id": "1032",
+      "lastDate": "2024-03-25T00:00:00",
+      "name": "Дежурный Врач Стоматолог",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "СТОМАТОЛОГИЯ П38",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "305",
+      "lastDate": "2024-04-19T00:00:00",
+      "name": "Думачева Мария Александровна",
+      "nearestDate": "2024-04-23T00:00:00"
+    },
+    {
+      "ariaNumber": "СТОМАТОЛОГИЯ П38",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 31.03.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 6,
+      "id": "413",
+      "lastDate": "2024-04-16T00:00:00",
+      "name": "Кашникова Лидия Александровна",
+      "nearestDate": "2024-04-23T00:00:00"
+    },
+    {
+      "ariaNumber": "СТОМАТОЛОГИЯ П38",
+      "ariaType": null,
+      "comment": "с 01.04.2024 по 05.04.2024: без приема",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "301",
+      "lastDate": null,
+      "name": "Комиссарова Татьяна Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "СТОМАТОЛОГИЯ П38",
+      "ariaType": null,
+      "comment": "с 01.04.2024 по 08.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "284",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Погребняк Елена Александровна",
+      "nearestDate": "2024-04-23T00:00:00"
+    },
+    {
+      "ariaNumber": "СТОМАТОЛОГИЯ П38",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 31.03.2024: Очередные и дополнительные отпуска;\nс 01.04.2024 по 05.04.2024: без приема",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "286",
+      "lastDate": null,
+      "name": "Храмцовская Наталия Игоревна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

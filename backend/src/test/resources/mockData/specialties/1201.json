@@ -1,0 +1,26 @@
+{
+  "result": [
+    {
+      "id": "45",
+      "ferId": "224",
+      "name": "Общая практика",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "52",
+      "ferId": "22",
+      "name": "Педиатр",
+      "countFreeParticipant": 99,
+      "countFreeTicket": 99,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-27T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,17 @@
+{
+  "result": [
+    {
+      "id": "wvDg9y3y5fDg7+Xi8l/z9+Dx8uru4vvp",
+      "ferId": "27",
+      "name": "Врач-терапевт участковый",
+      "countFreeParticipant": 28,
+      "countFreeTicket": 28,
+      "lastDate": "2024-03-29T19:45:00",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

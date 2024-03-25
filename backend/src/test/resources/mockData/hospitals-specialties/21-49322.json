@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2236",
+      "lastDate": null,
+      "name": "Гасымова Саида Низами кызы",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "13, 14, 15, 16, 17, 18, 19, 20, 21, 22",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1380",
+      "lastDate": null,
+      "name": "Иванова Наталья Александровна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

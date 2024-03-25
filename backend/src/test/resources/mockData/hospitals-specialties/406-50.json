@@ -1,0 +1,85 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 79,
+      "freeTicketCount": 111,
+      "id": "37",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Арутюнян Л. М.",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 85,
+      "freeTicketCount": 108,
+      "id": "15",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Гринева И.Г.",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 35,
+      "freeTicketCount": 58,
+      "id": "36",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Кобзарева К. Г.",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 150,
+      "freeTicketCount": 186,
+      "id": "5",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Куборский Ф.А.",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 17,
+      "freeTicketCount": 21,
+      "id": "33",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Мухина Д. Ю.",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 65,
+      "freeTicketCount": 93,
+      "id": "8",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Парфенова А.Г. (ДЕТСКИЙ ПРИЕМ)",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 71,
+      "freeTicketCount": 93,
+      "id": "16",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Сергеева Л.А. (ДЕТСКИЙ ПРИЕМ)",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

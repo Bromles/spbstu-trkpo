@@ -1,0 +1,162 @@
+{
+  "result": [
+    {
+      "ariaNumber": "20УЧ-43",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1853",
+      "lastDate": null,
+      "name": "Аль Хашеб Ибрагим Абдулкудос Ибрагим",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "29",
+      "lastDate": null,
+      "name": "Аникеева Наталья Ивановна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "3УЧ-43",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 06.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1752",
+      "lastDate": null,
+      "name": "Громыко Анастасия Евгеньевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "7УЧ-43",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 31.03.2024: Нетрудоспособность (Болезнь, карантин и т.п.)",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "56",
+      "lastDate": null,
+      "name": "Данилец Ирина Анатольевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "11УЧ-43",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1876",
+      "lastDate": null,
+      "name": "Дьячков Глеб Денисович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "15УЧ-43",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 31.03.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1669",
+      "lastDate": null,
+      "name": "Ирматов Арген Набиевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 475,
+      "freeTicketCount": 475,
+      "id": "1595",
+      "lastDate": "2024-03-25T00:00:00",
+      "name": "Кабинет Диспансеризация ( Диспансеризация)",
+      "nearestDate": "2024-04-23T00:00:00"
+    },
+    {
+      "ariaNumber": "12УЧ-43",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1607",
+      "lastDate": null,
+      "name": "Казбеков Ибрагим Мустапаевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "16УЧ-43",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1679",
+      "lastDate": null,
+      "name": "Костромкина Марина Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "9УЧ-43",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 08.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1058",
+      "lastDate": null,
+      "name": "Маазов Мааз Тажибович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "4УЧ-43",
+      "ariaType": null,
+      "comment": "с 01.04.2024 по 05.04.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1868",
+      "lastDate": null,
+      "name": "Мамажанов Достонбек ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 07.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1689",
+      "lastDate": null,
+      "name": "Салаватова Кистаман Наримановна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "5УЧ-43",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1860",
+      "lastDate": null,
+      "name": "Халимов Абдуджалил Абдумавлонович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 31.03.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1682",
+      "lastDate": null,
+      "name": "Шапаренко Дарья Витальевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

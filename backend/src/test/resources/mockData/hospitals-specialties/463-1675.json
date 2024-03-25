@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 34,
+      "freeTicketCount": 34,
+      "id": "26",
+      "lastDate": "2024-04-24T09:30:00",
+      "name": "Чернявский Игорь Владимирович",
+      "nearestDate": "2024-04-10T08:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "57",
+      "lastDate": null,
+      "name": "Ко Василий Юрьевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "141",
+      "lastDate": null,
+      "name": "Александров Алексей Александрович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 19,
+      "freeTicketCount": 19,
+      "id": "509",
+      "lastDate": "2024-04-24T09:30:00",
+      "name": "Чуркин Михаил Александрович",
+      "nearestDate": "2024-04-12T08:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

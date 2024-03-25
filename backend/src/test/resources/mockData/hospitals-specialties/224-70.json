@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 22,
+      "freeTicketCount": 22,
+      "id": "197",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "МАКСИМЕНКО И.Н.(ВЕДЕТ ПРИЕМ НА БОГАТЫРСКОМ)",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 51,
+      "freeTicketCount": 51,
+      "id": "38",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "МИТЮК  М.Ю.",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

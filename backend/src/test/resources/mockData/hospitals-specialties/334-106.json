@@ -1,0 +1,151 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 72,
+      "id": "350",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Алексеева Ирина Вячеславовна ",
+      "nearestDate": "2024-03-25T17:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 62,
+      "id": "339",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Андреева Вера Ивановна ",
+      "nearestDate": "2024-03-26T15:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 55,
+      "id": "341",
+      "lastDate": "2024-04-05T13:30:00",
+      "name": "Багатурия Лиана Борисовна ",
+      "nearestDate": "2024-03-26T15:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 26,
+      "id": "354",
+      "lastDate": "2024-04-05T19:30:00",
+      "name": "Балицкая Галина Александровна ",
+      "nearestDate": "2024-04-01T15:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 59,
+      "id": "344",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Боброва Ирина Владимировна ",
+      "nearestDate": "2024-03-26T15:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 76,
+      "id": "352",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Василенко Светлана Владимировна ",
+      "nearestDate": "2024-03-25T17:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 68,
+      "id": "429",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Глуховская Алла Игоревна ",
+      "nearestDate": "2024-03-26T15:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 57,
+      "id": "357",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Жукова Елена Владимировна ",
+      "nearestDate": "2024-03-25T17:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 44,
+      "id": "547",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Новикова Ольга Владимировна ",
+      "nearestDate": "2024-04-01T15:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 45,
+      "id": "517",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Соловьёва Евгения Андреевна ",
+      "nearestDate": "2024-03-26T17:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 81,
+      "id": "485",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Тимошенко Анна Михайловна ",
+      "nearestDate": "2024-03-26T15:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 45,
+      "id": "363",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Ушкова Анастасия Викторовна ",
+      "nearestDate": "2024-04-01T16:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 25,
+      "id": "510",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Федотова Марина Александровна ",
+      "nearestDate": "2024-03-25T18:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

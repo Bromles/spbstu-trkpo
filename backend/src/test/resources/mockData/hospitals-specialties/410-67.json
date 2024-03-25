@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 76,
+      "freeTicketCount": 76,
+      "id": "6070.444",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "СОМОНОВА Ю.Л., каб. № 9 ",
+      "nearestDate": "2024-03-27T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

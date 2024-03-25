@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 233,
+      "freeTicketCount": 233,
+      "id": "1550",
+      "lastDate": "2024-03-25T00:00:00",
+      "name": "Кабинет Вакцинации От Covid-19 1 Этап По53 Каб 207",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1664",
+      "lastDate": null,
+      "name": "Кабинет Вакцинации От Covid-19 Спутник Лайт По53",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1608",
+      "lastDate": null,
+      "name": "Кабинет Декабристов (Пер.8) Вакцинации От Covid-19 1 Этап (Выездная Бригада Пер.Декабристов 8)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1593",
+      "lastDate": null,
+      "name": "Кабинет Корабли Вакцинации От Covid-19 1 Этап (Выездная Бригада Кораблестроителей21К)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1596",
+      "lastDate": null,
+      "name": "Кабинет По53 Вакцинации От Covid-19 Ковивак",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

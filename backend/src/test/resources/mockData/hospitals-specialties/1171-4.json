@@ -1,0 +1,129 @@
+{
+  "result": [
+    {
+      "ariaNumber": "27",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 23,
+      "freeTicketCount": 260,
+      "id": "д71.794",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "АБАЗОВ М.Н.",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "26,23",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 11,
+      "freeTicketCount": 238,
+      "id": "д71.799",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "ГОРОДЕЦКАЯ Я.А.",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "30,32,24",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 9,
+      "freeTicketCount": 317,
+      "id": "д71.687",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "КРЮКОВ А.Г.",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "31",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 10,
+      "freeTicketCount": 74,
+      "id": "д71.678",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "ЛЕНОК О.П.",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "25,23",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 368,
+      "id": "д71.563",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "ЛЕЩЕНКО Е.В.",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "28,32,24",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 377,
+      "id": "д71.817",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "МАМЕДОВ Ф.М.",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "21",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 16,
+      "freeTicketCount": 260,
+      "id": "д71.835",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "МЕДВЕДЕВ Р.Ю.",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "29",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 59,
+      "id": "д71.569",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "НАБАТОВА И.В.",
+      "nearestDate": "2024-04-12T00:00:00"
+    },
+    {
+      "ariaNumber": "21-32",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 48,
+      "id": "д71.569_1",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "НАБАТОВА И.В. (заведующий 3 ТО)",
+      "nearestDate": "2024-04-12T00:00:00"
+    },
+    {
+      "ariaNumber": "22",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 16,
+      "freeTicketCount": 254,
+      "id": "д71.386",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "ЧУДОВА А.В.",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "24",
+      "ariaType": null,
+      "comment": "врач в отпуске с 18/03 -14/04",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 105,
+      "id": "д71.695",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "БЫЧКОВА Е.С.",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

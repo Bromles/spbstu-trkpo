@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "пос. Шушары, тер. Ленсоветовский, д. 31 стр. 1",
+      "freeParticipantCount": 124,
+      "freeTicketCount": 124,
+      "id": "1244",
+      "lastDate": "2024-04-08T20:00:00",
+      "name": "Исмайылов Вугар Акиф оглы",
+      "nearestDate": "2024-03-27T16:40:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "п. Шушары, м-н Славянка, ул. Ростовская, д.14/16",
+      "freeParticipantCount": 26,
+      "freeTicketCount": 26,
+      "id": "595",
+      "lastDate": "2024-04-05T13:30:00",
+      "name": "Календеров Данияр Тойгонбаевич",
+      "nearestDate": "2024-04-02T09:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "г. Пушкин, Софийский б-р, д. 28",
+      "freeParticipantCount": 166,
+      "freeTicketCount": 166,
+      "id": "534",
+      "lastDate": "2024-04-08T13:40:00",
+      "name": "Кендалиев Тимур Русланович",
+      "nearestDate": "2024-03-26T16:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "г. Пушкин, Софийский б-р, д. 28",
+      "freeParticipantCount": 163,
+      "freeTicketCount": 163,
+      "id": "272",
+      "lastDate": "2024-04-08T20:10:00",
+      "name": "Экбал Махмуд ",
+      "nearestDate": "2024-03-27T15:10:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

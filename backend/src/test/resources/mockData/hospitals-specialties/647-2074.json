@@ -1,0 +1,129 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Участок №27 4 Т.О. ДН",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8912",
+      "lastDate": null,
+      "name": "Бесова Ирина Сергеевна (Офис ВОП)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "9054",
+      "lastDate": null,
+      "name": "Васильков Алексей Владимирович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8969",
+      "lastDate": null,
+      "name": "Глухов Святослав Михайлович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "9003",
+      "lastDate": null,
+      "name": "Колесников Константин Павлович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "30, 34 ТО4",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8116",
+      "lastDate": null,
+      "name": "Марченко Евгения Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "28  ТО 4 ",
+      "ariaType": null,
+      "comment": "Участок №34 4Т.О. ДН",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "77",
+      "lastDate": null,
+      "name": "Октябрьская Ирина Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8978",
+      "lastDate": null,
+      "name": "Пономарева Анастасия Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": " ДН",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8915",
+      "lastDate": null,
+      "name": "Семенюк Татьяна Владимировна (Офис ВОП)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Участок №29 4 Т.О. ДН",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8916",
+      "lastDate": null,
+      "name": "Сидоркович Юлия Николаевна (Офис ВОП)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Участок №30 4Т.О. ДН",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8914",
+      "lastDate": null,
+      "name": "Силиник Тимур Антонович (Офис ВОП)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "32, 33  ТО 4",
+      "ariaType": null,
+      "comment": "Участок №32 4Т.О. ДН",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "74",
+      "lastDate": null,
+      "name": "Шевчук Надежда Константиновна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

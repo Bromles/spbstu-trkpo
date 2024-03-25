@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 54,
+      "freeTicketCount": 54,
+      "id": "2331",
+      "lastDate": "2024-04-08T08:28:00",
+      "name": "Белова Светлана Вячеславовна",
+      "nearestDate": "2024-03-29T09:24:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2332",
+      "lastDate": null,
+      "name": "Белова Светлана Вячеславовна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

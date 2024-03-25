@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "401 ",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "3263",
+      "lastDate": null,
+      "name": "Воробьева Татьяна Михайловна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "401 ",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "3029",
+      "lastDate": null,
+      "name": "Петрайтис Евгения Александровна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

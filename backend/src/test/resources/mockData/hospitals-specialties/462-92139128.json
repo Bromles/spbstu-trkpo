@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "обсл. Сестрорецк",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 5,
+      "id": "4249",
+      "lastDate": "2024-03-26T16:20:00",
+      "name": "Варакина Екатерина Владимировна",
+      "nearestDate": "2024-03-26T14:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "обсл. детей",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 10,
+      "id": "1379",
+      "lastDate": "2024-03-29T16:20:00",
+      "name": "Егоров Александр Викторович",
+      "nearestDate": "2024-03-26T09:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "обсл. Зеленогорск и Песочный",
+      "freeParticipantCount": 16,
+      "freeTicketCount": 20,
+      "id": "5272",
+      "lastDate": "2024-03-29T11:20:00",
+      "name": "Руднева Зинаида Федоровна",
+      "nearestDate": "2024-03-26T09:35:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

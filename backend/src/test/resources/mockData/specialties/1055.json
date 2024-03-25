@@ -1,0 +1,26 @@
+{
+  "result": [
+    {
+      "id": "000104",
+      "ferId": "16",
+      "name": "Врач общей практики",
+      "countFreeParticipant": 699,
+      "countFreeTicket": 699,
+      "lastDate": "2024-04-26T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "9999",
+      "ferId": "58",
+      "name": "Кабинет профилактики (углубленная диспансеризация)",
+      "countFreeParticipant": 16,
+      "countFreeTicket": 16,
+      "lastDate": "2024-03-29T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,85 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 13,
+      "id": "567",
+      "lastDate": "2024-04-08T13:20:00",
+      "name": "Булашова Виктория Олеговна ",
+      "nearestDate": "2024-03-27T15:40:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 13,
+      "id": "586",
+      "lastDate": "2024-04-08T16:20:00",
+      "name": "Вотякова Елена Анатольевна ",
+      "nearestDate": "2024-04-02T16:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 19,
+      "id": "502",
+      "lastDate": "2024-04-08T00:10:00",
+      "name": "Захарова Дарья Анатольевна ",
+      "nearestDate": "2024-04-02T12:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 12,
+      "id": "585",
+      "lastDate": "2024-04-08T16:20:00",
+      "name": "Ким Вероника Гемуновна ",
+      "nearestDate": "2024-04-01T12:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 12,
+      "id": "569",
+      "lastDate": "2024-04-05T13:20:00",
+      "name": "Поспелова Ирина Алексеевна ",
+      "nearestDate": "2024-04-01T12:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 7,
+      "id": "489",
+      "lastDate": "2024-04-08T13:20:00",
+      "name": "Штурманова Юлия Сергеевна ",
+      "nearestDate": "2024-04-02T10:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 23,
+      "id": "549",
+      "lastDate": "2024-04-08T13:20:00",
+      "name": "Яцких Марина Михайловна ",
+      "nearestDate": "2024-03-25T17:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 6,
+      "freeTicketCount": 6,
+      "id": "60",
+      "lastDate": "2024-04-08T14:00:00",
+      "name": "Данилюк Алла Леонидовна",
+      "nearestDate": "2024-03-29T09:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "61",
+      "lastDate": "2024-04-08T14:20:00",
+      "name": "Дронникова Нина Валентиновна",
+      "nearestDate": "2024-03-28T09:20:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "64",
+      "lastDate": null,
+      "name": "Кочмарев Николай Владимирович",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

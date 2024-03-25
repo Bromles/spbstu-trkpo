@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Кабинет врача офтальмолога",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 1,
+      "id": "1969",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Мурашова Ирина Владимировна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Кабинет врача офтальмолога",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2090",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Матвеева Евгения Сергеевна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

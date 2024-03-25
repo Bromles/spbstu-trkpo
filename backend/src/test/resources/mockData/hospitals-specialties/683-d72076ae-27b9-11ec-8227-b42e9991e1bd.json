@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 57,
+      "freeTicketCount": 57,
+      "id": "d72076b1-27b9-11ec-8227-b42e9991e1bd",
+      "lastDate": "2024-04-22T19:40:00",
+      "name": "Васильев Дмитрий Алексеевич",
+      "nearestDate": "2024-04-01T17:40:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "0deca8a3-2fb2-11ee-83da-00155d01320d",
+      "lastDate": null,
+      "name": "Гордеева Елизавета Евгеньевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

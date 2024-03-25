@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 29,
+      "freeTicketCount": 29,
+      "id": "306",
+      "lastDate": "2024-04-03T00:00:00",
+      "name": "Бутусов Евгений Борисович",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 32,
+      "freeTicketCount": 32,
+      "id": "157",
+      "lastDate": "2024-04-03T00:00:00",
+      "name": "Штырова Вероника Николаевна",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

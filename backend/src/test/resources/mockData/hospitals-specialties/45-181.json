@@ -1,0 +1,85 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 17,
+      "freeTicketCount": 17,
+      "id": "1320.716",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Акрамова ЛТ",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 31,
+      "freeTicketCount": 31,
+      "id": "1320.740",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Арансон ЮИ",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 24,
+      "freeTicketCount": 24,
+      "id": "1320.638",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Голубев АА",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 41,
+      "freeTicketCount": 41,
+      "id": "1320.753",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Гришмановская ВА",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 28,
+      "freeTicketCount": 28,
+      "id": "1320.757",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Майер ДА",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 49,
+      "freeTicketCount": 49,
+      "id": "1320.165",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Савенко БА",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 37,
+      "freeTicketCount": 37,
+      "id": "1320.618",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Шавкатжонов ШШ",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

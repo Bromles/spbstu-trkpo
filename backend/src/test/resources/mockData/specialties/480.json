@@ -1,0 +1,26 @@
+{
+  "result": [
+    {
+      "id": "35",
+      "ferId": "8",
+      "name": "Акушерство и гинекология(ЖК31)",
+      "countFreeParticipant": 61,
+      "countFreeTicket": 61,
+      "lastDate": "2024-04-06T00:00:00",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "id": "3",
+      "ferId": "27",
+      "name": "Терапия (Приём в ЖК №31)",
+      "countFreeParticipant": 86,
+      "countFreeTicket": 86,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "eUFxZEFBwUFUQUE=",
+      "lastDate": null,
+      "name": "Кабинет вакцинации от COVID-19, (пepвый этaп) ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "eUFxZEFBwUFUQUI=",
+      "lastDate": null,
+      "name": "Кабинет вакцинации от COVID-19, к.323 ",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

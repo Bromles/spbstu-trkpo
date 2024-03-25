@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "23уч20",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 59,
+      "freeTicketCount": 59,
+      "id": "254",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Крылова Ирина Александровна",
+      "nearestDate": "2024-04-02T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

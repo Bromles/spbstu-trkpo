@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 33,
+      "freeTicketCount": 46,
+      "id": "1320.721",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Бильданова ЛТ",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 49,
+      "freeTicketCount": 62,
+      "id": "1320.764",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Хорошев АД",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1320.75",
+      "lastDate": null,
+      "name": "Казакова НИ",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

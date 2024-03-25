@@ -1,0 +1,184 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Время вызова с 9.00 - 15.00",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "488",
+      "lastDate": null,
+      "name": "Барсукова Любовь Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "адрес: Гжатская 5 каб 211 Городская поликлиника 118 участок №10",
+      "freeParticipantCount": 22,
+      "freeTicketCount": 56,
+      "id": "690",
+      "lastDate": "2024-04-02T10:20:00",
+      "name": "Гальцова Ольга Ивановна",
+      "nearestDate": "2024-03-26T08:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "адрес: Гжатская 5 каб 211 Городская поликлиника 118 участок №13",
+      "freeParticipantCount": 20,
+      "freeTicketCount": 40,
+      "id": "692",
+      "lastDate": "2024-04-02T16:30:00",
+      "name": "Громкова Анастасия Валерьевна",
+      "nearestDate": "2024-03-26T14:10:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "адрес: Гжатская 5 каб 211 Городская поликлиника 118  участок №2",
+      "freeParticipantCount": 30,
+      "freeTicketCount": 82,
+      "id": "719",
+      "lastDate": "2024-04-02T13:10:00",
+      "name": "Змушко Василина Сергеевна",
+      "nearestDate": "2024-03-26T11:10:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "адрес: Гжатская 5 каб 210 Городская поликлиника 118  участок №3",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 36,
+      "id": "468",
+      "lastDate": "2024-04-02T13:30:00",
+      "name": "Каргина Ольга Владимировна",
+      "nearestDate": "2024-03-26T11:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "отпуск с 16.10 по 01.11.2023",
+      "freeParticipantCount": 25,
+      "freeTicketCount": 64,
+      "id": "159",
+      "lastDate": "2024-04-05T15:40:00",
+      "name": "Костеникова Татьяна Альбертовна",
+      "nearestDate": "2024-03-26T12:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "73",
+      "lastDate": null,
+      "name": "Ладыгинская Ирина Степановна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "адрес: Гжатская 5 каб 210 Городская поликлиника 118 участок №15",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 9,
+      "id": "766",
+      "lastDate": "2024-04-02T15:30:00",
+      "name": "Никитина Александра Анатольевна",
+      "nearestDate": "2024-04-02T14:10:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 25,
+      "freeTicketCount": 64,
+      "id": "478",
+      "lastDate": "2024-04-05T13:20:00",
+      "name": "Смирнов Евгений Васильевич",
+      "nearestDate": "2024-03-28T19:10:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "адрес: Гжатская 5 каб 210 Городская поликлиника 118 участок №9",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "624",
+      "lastDate": null,
+      "name": "Соколова Марина Алексеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "725",
+      "lastDate": null,
+      "name": "Стороженко Людмила Ивановна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "адрес: Гжатская 5 каб 210 Городская поликлиника 118 участок №6",
+      "freeParticipantCount": 18,
+      "freeTicketCount": 42,
+      "id": "636",
+      "lastDate": "2024-04-02T19:30:00",
+      "name": "Тарасенко Елена Владимировна",
+      "nearestDate": "2024-03-26T19:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "дети до 4-х месяцев",
+      "freeParticipantCount": 58,
+      "freeTicketCount": 116,
+      "id": "693",
+      "lastDate": "2024-04-05T12:20:00",
+      "name": "Хейнолайнен Ольга Владимировна",
+      "nearestDate": "2024-03-25T16:40:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 16,
+      "freeTicketCount": 40,
+      "id": "37",
+      "lastDate": "2024-04-05T10:20:00",
+      "name": "Шарова Татьяна Валерьевна",
+      "nearestDate": "2024-04-02T08:10:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "адрес: Гжатская 5 каб 211 Городская поликлиника 118 участок №5",
+      "freeParticipantCount": 12,
+      "freeTicketCount": 42,
+      "id": "688",
+      "lastDate": "2024-04-02T19:20:00",
+      "name": "Шелковникова Ольга Георгиевна",
+      "nearestDate": "2024-03-26T18:50:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "адрес: Гжатская 5 каб 211 Городская поликлиника 118 8 участок",
+      "freeParticipantCount": 22,
+      "freeTicketCount": 48,
+      "id": "689",
+      "lastDate": "2024-04-02T16:30:00",
+      "name": "Якимова Ольга Георгиевна",
+      "nearestDate": "2024-03-26T14:50:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

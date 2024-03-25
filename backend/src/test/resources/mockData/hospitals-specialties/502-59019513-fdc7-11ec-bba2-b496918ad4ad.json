@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ПРИЕМ В ОФИСЕ КОМЕНДАНТСКИЙ ПР.53-4",
+      "freeParticipantCount": 15,
+      "freeTicketCount": 15,
+      "id": "2748f23d-0e59-11ed-bba5-b496918ad4ad",
+      "lastDate": "2024-04-01T12:00:00",
+      "name": "Тиунов Владимир Александрович (Диспансеризация)",
+      "nearestDate": "2024-03-26T17:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ОВОП на Комендантском 53-4",
+      "freeParticipantCount": 12,
+      "freeTicketCount": 12,
+      "id": "c2e21c27-2dac-11ed-bba9-b496918ad4ae",
+      "lastDate": "2024-03-29T19:00:00",
+      "name": "Хасанова Диана Олеговна (Диспансеризация)",
+      "nearestDate": "2024-03-25T18:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "приём ОВОП Комендантский 53-4 (отд.1)",
+      "freeParticipantCount": 9,
+      "freeTicketCount": 9,
+      "id": "33232df8-f622-11ec-bba1-b496918ad4ad",
+      "lastDate": "2024-03-29T19:00:00",
+      "name": "Омарова Тавус Магомедовна (Диспансеризация)",
+      "nearestDate": "2024-03-26T10:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

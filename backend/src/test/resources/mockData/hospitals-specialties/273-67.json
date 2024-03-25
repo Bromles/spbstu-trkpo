@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 52,
+      "freeTicketCount": 52,
+      "id": "д51.55",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Сестринский пост",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

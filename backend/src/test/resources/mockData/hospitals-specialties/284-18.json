@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 168,
+      "freeTicketCount": 168,
+      "id": "16697",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Шевелева В.П.",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

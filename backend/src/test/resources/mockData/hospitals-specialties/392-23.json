@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 67,
+      "freeTicketCount": 129,
+      "id": "п.65",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Фиалковская  Н.В (ПО 63, с 18 лет и старше)",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Хирургия",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "908",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Колесов Владимир Александрович",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Хирургия",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1848",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Мясников Дмитрий Анатольевич",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "Хирургия",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2075",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Эренценова Элла Григорьевна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "Хирургия",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2083",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Фаттоев Муроджон Мавлонович",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

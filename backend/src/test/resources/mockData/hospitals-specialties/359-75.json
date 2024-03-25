@@ -1,0 +1,184 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Возможная задержка приема +/- 30 мин",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 5,
+      "id": "8450.116",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "АВДЕЕВА О.В. каб.21",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Возможная задержка приема +/- 30 мин",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8450.117",
+      "lastDate": null,
+      "name": "ГУСТАЙТИС Н.А. каб.23",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Возможная задержка приема +/- 30 мин",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 5,
+      "id": "019",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ИСААКОВА М.Н. каб 21",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Возможна задержка приема +/- 30 минут",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8450.125",
+      "lastDate": null,
+      "name": "КАХИАНИ К.А. КАБ 21",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "возможная задержка приема +/- 30 мин",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8450.41",
+      "lastDate": null,
+      "name": "КУНАЕВА В.М. КАБ 24",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "возможная задержка приема +/- 30 мин",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 4,
+      "id": "8450.121",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "КУТУЕВА Н.К. КАБ 21",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "возможная задержка приема +/- 30 мин",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 5,
+      "id": "8450.73",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ЛАВРИНЕНКО С.Н. КАБ 21",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Возможная задержка приема +/- 30 мин",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8450.45",
+      "lastDate": null,
+      "name": "МАШКОВА А.И. КАБ 24",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "возможная задержка приема +/- 30 мин",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8450.137",
+      "lastDate": null,
+      "name": "МИШЕНКОВА А.Ю. каб 24",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "возможная задержка приема +/- 30 мин",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8450.137A",
+      "lastDate": null,
+      "name": "МИШЕНКОВА АЮ ТОЛЬКО ОСМОТР, СПРАВКИ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "возможная задержка приема +/- 30 мин",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8450.118",
+      "lastDate": null,
+      "name": "НОВИКОВА М.Ю. каб.24",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "возможная задержка приема +/- 30 мин",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 3,
+      "id": "8450.137В",
+      "lastDate": "2024-03-25T00:00:00",
+      "name": "ОСМОТР, СПРАВКИ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "возможная задержка приема +/- 30 мин",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8450.48",
+      "lastDate": null,
+      "name": "ПЛАТОНОВА Н.Н. КАБ 21",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "возможная задержка приема +/- 30 мин",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8450.135",
+      "lastDate": null,
+      "name": "СЫРОВА А.В. каб 23",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "возможная задержка приема +/- 30 мин",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8450.72",
+      "lastDate": null,
+      "name": "ХУРШУДЯН А.А. КАБ 23",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Возможная задержка приема +/- 30 мин",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 5,
+      "id": "8450.114",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ЦЕПАЕВА В.Н. каб 24",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

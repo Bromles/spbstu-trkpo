@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 32,
+      "freeTicketCount": 55,
+      "id": "к12.1007",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Галкина Ольга Дмитриевна ",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 33,
+      "freeTicketCount": 68,
+      "id": "4190.63",
+      "lastDate": "2024-04-09T00:00:00",
+      "name": "Леонтьева Мария Олеговна  (Лахтинский пр.98Б) ",
+      "nearestDate": "2024-04-02T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

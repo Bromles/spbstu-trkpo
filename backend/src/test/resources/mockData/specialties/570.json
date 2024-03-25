@@ -1,0 +1,44 @@
+{
+  "result": [
+    {
+      "id": "47",
+      "ferId": "173",
+      "name": "Ортодонт",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "71",
+      "ferId": "174",
+      "name": "Стоматолог детский",
+      "countFreeParticipant": 21,
+      "countFreeTicket": 21,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "id": "10000",
+      "ferId": "171",
+      "name": "Стоматология общей практики",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "10002",
+      "ferId": "233",
+      "name": "Стоматология профилактическая",
+      "countFreeParticipant": 20,
+      "countFreeTicket": 20,
+      "lastDate": "2024-04-19T00:00:00",
+      "nearestDate": "2024-04-11T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

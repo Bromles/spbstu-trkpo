@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "3",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 36,
+      "freeTicketCount": 72,
+      "id": "1584",
+      "lastDate": "2024-04-08T16:50:00",
+      "name": "Войнова Наталья Владимировна",
+      "nearestDate": "2024-04-01T16:10:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1583",
+      "lastDate": null,
+      "name": "Елгина Елена Анатольевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "4",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 28,
+      "freeTicketCount": 56,
+      "id": "8438",
+      "lastDate": "2024-04-08T13:40:00",
+      "name": "Черных Алина Сергеевна",
+      "nearestDate": "2024-04-01T12:20:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "170",
+      "lastDate": null,
+      "name": "Кудрявая Анна Борисовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "42",
+      "lastDate": null,
+      "name": "Ледник Наталия Викторовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "428",
+      "lastDate": null,
+      "name": "Невярович Елена Евгеньевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "44",
+      "lastDate": null,
+      "name": "Перлова Марина Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 31.03.2024: Командировки служебные;\nс 01.04.2024 по 08.04.2024: Отпуск в связи с родами",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1629",
+      "lastDate": null,
+      "name": "Смирнова Лилия Алексеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 29.03.2024: Нетрудоспособность (Болезнь, карантин и т.п.);\nс 01.04.2024 по 05.04.2024: Нетрудоспособность (Болезнь, карантин и т.п.);\n08.04.2024: Нетрудоспособность (Болезнь, карантин и т.п.)",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "43",
+      "lastDate": null,
+      "name": "Федорова Евгения Петровна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

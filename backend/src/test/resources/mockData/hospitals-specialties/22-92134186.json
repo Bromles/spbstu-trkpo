@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 23,
+      "freeTicketCount": 23,
+      "id": "1579",
+      "lastDate": "2024-04-09T19:30:00",
+      "name": "Печатникова Мария Ивановна",
+      "nearestDate": "2024-04-08T09:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

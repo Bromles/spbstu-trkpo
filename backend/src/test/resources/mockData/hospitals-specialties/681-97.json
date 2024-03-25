@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 481,
+      "freeTicketCount": 481,
+      "id": "235830000001",
+      "lastDate": "2024-05-15T15:00:00",
+      "name": "Алексеева Надежда Ивановна",
+      "nearestDate": "2024-03-26T13:00:00"
+    },
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 486,
+      "freeTicketCount": 486,
+      "id": "235830000003",
+      "lastDate": "2024-05-15T19:00:00",
+      "name": "Буковцова Ольга Сергеевна",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 481,
+      "freeTicketCount": 481,
+      "id": "235830000005",
+      "lastDate": "2024-05-15T15:00:00",
+      "name": "Елагина Яна Юрьевна",
+      "nearestDate": "2024-03-26T13:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

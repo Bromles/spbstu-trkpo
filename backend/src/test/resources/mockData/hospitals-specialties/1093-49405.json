@@ -1,0 +1,140 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №7",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "329",
+      "lastDate": "2024-03-26T16:50:00",
+      "name": "Базлова Галина Владимировна",
+      "nearestDate": "2024-03-26T16:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №10",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "330",
+      "lastDate": null,
+      "name": "Возовикова Ольга Алексеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "1008",
+      "lastDate": "2024-04-08T18:30:00",
+      "name": "Володеенко Ольга Владимировна",
+      "nearestDate": "2024-04-05T12:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №1",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "679",
+      "lastDate": null,
+      "name": "Гайдукова Алиса Андреевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №9, Участок №11",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "7",
+      "lastDate": null,
+      "name": "Летифова Нелли Гаджиевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "13",
+      "lastDate": null,
+      "name": "Мисюрова Ольга Петровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №8",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8",
+      "lastDate": null,
+      "name": "Митроченкова Наталья Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "779",
+      "lastDate": null,
+      "name": "Михелева Татьяна Юрьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "14",
+      "lastDate": null,
+      "name": "Ордина Маргарита Юрьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №5",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "9",
+      "lastDate": null,
+      "name": "Петрова Алина Витальевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "15",
+      "lastDate": null,
+      "name": "Сермус Марина Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №2",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "10",
+      "lastDate": "2024-03-26T11:50:00",
+      "name": "Черкасова Наталья Анатольевна",
+      "nearestDate": "2024-03-26T11:50:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

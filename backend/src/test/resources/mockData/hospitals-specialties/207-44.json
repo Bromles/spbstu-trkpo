@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "п49.100",
+      "lastDate": null,
+      "name": "ИБРАГИМХАЛИЛОВ АБДУРАХМАН РАСУЛОВИЧ ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "п49.8",
+      "lastDate": null,
+      "name": "ПЕТРОВ АЛЕКСАНДР АНДРЕЕВИЧ  ",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

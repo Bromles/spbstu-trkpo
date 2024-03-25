@@ -1,0 +1,107 @@
+{
+  "result": [
+    {
+      "ariaNumber": "01 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "181",
+      "lastDate": null,
+      "name": "Гореславская Татьяна Валентиновна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "13 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "380",
+      "lastDate": null,
+      "name": "Жуков Александр Сергеевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "12 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 23,
+      "freeTicketCount": 23,
+      "id": "15",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Лякова Наталья Николаевна",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "10 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "614",
+      "lastDate": null,
+      "name": "Поповская Наталья Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "14 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "5",
+      "lastDate": null,
+      "name": "Пугачева Мария Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "07 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "362",
+      "lastDate": null,
+      "name": "Романова Елена Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "05 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 62,
+      "freeTicketCount": 62,
+      "id": "290",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Рупанова Людмила Павловна",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "03 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "428",
+      "lastDate": null,
+      "name": "Тенальдова Анастасия Михайловна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "527",
+      "lastDate": null,
+      "name": "Шепотько Ирина Викторовна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

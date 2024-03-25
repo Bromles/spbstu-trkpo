@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "ОВОП пр. Новочеркасский д. 25",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 15,
+      "freeTicketCount": 22,
+      "id": "1534",
+      "lastDate": "2024-03-25T00:00:00",
+      "name": "Бокс Симптомы Орви/Грипп/Covid ",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "ОВОП пр. Новочеркасский д. 25",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 21,
+      "freeTicketCount": 21,
+      "id": "1535",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Бокс Симптомы Орви/Грипп/Covid ",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

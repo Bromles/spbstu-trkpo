@@ -1,0 +1,96 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "6070.931",
+      "lastDate": null,
+      "name": "АБРАМАШВИЛИ К. Н. -1 уч., каб.7",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "6070.608",
+      "lastDate": null,
+      "name": "ДМИТРИЕВА Е.И. -10 уч., отпуск 01.04 - 07.04",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "15301",
+      "lastDate": null,
+      "name": "ДМИТРИЕВА Наталия Ролландовна (заведующий), каб. №8",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "15308",
+      "lastDate": null,
+      "name": "ЖАРОВА Д.В. -5уч.отп.01.04-28.04.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "6070.589",
+      "lastDate": null,
+      "name": "ЛЕБЕДЕВА А.И.-9 уч., отпуск с 25.03 - 31.03",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "15678",
+      "lastDate": null,
+      "name": "МУРЗИКОВА М.А.- 4 уч., 5 каб. ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "15677",
+      "lastDate": null,
+      "name": "СТАРИКОВА Е.И. - 2 уч., 5 каб.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "15663111",
+      "lastDate": null,
+      "name": "ЧЕЧУРОВА М.А. - 6.уч., 2 каб.",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

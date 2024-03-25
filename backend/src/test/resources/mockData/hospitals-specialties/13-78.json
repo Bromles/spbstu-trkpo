@@ -1,0 +1,151 @@
+{
+  "result": [
+    {
+      "ariaNumber": "14 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1000",
+      "lastDate": null,
+      "name": "Болотов Павел Николаевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "2 ПО",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "961",
+      "lastDate": null,
+      "name": "Вызов Врача На Дом  ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "07 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1402",
+      "lastDate": null,
+      "name": "Ибрахим Мохамед Мустафа Хамди ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "05 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "27",
+      "lastDate": null,
+      "name": "Кабалоева Вера Магометовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "16 уч.",
+      "ariaType": null,
+      "comment": "27.03.2024: Командировки служебные;\n28.03.2024: Командировки служебные;\n08.04.2024: Отпуск",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "714",
+      "lastDate": null,
+      "name": "Кинякин Виталий Олегович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "09 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1360",
+      "lastDate": null,
+      "name": "Константинова Алина Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "11 уч.",
+      "ariaType": null,
+      "comment": "с 01.04.2024 по 07.04.2024: Отпуск",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "935",
+      "lastDate": null,
+      "name": "Кривопуск Снежана Юрьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "13 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "60",
+      "lastDate": null,
+      "name": "Медведева Татьяна Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "08 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1359",
+      "lastDate": null,
+      "name": "Невзоров Владимир Андреевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "15 уч.",
+      "ariaType": null,
+      "comment": "с 01.04.2024 по 08.04.2024: Отпуск",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1146",
+      "lastDate": null,
+      "name": "Николаева Тамара Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "03 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1356",
+      "lastDate": null,
+      "name": "Саркисян Ангелина Феликсовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "12 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1077",
+      "lastDate": null,
+      "name": "Споршев Иван Дмитриевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "04 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1076",
+      "lastDate": null,
+      "name": "Черненко Дарья Олеговна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

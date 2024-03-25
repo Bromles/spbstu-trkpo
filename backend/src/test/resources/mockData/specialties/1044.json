@@ -1,0 +1,17 @@
+{
+  "result": [
+    {
+      "id": "92134159",
+      "ferId": "80",
+      "name": "Гематология (только беременные). Направление ОБЯЗАТЕЛЬНО!",
+      "countFreeParticipant": 109,
+      "countFreeTicket": 109,
+      "lastDate": "2024-04-08T19:30:00",
+      "nearestDate": "2024-03-29T09:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диспансерное наблюдение Туриская 13 К 1  Каб № 10",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "63eef4f6-f48f-11ed-bbbe-b496918ad4af",
+      "lastDate": "2024-03-29T18:40:00",
+      "name": "Павлова Галина Витальевна (Врач терапевт участковый)",
+      "nearestDate": "2024-03-26T10:40:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диспансерное наблюдение Туристская 13 К 1  Каб",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "9effaa33-af8b-11ee-bc1b-b496918ad90d",
+      "lastDate": "2024-03-29T18:30:00",
+      "name": "Онейчик Светлана Васильевна (Врач терапевт участковый)",
+      "nearestDate": "2024-03-29T18:10:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диспансерное наблюдение  Туристкая 13К1 . Адреса участка на сайте поликлиники  https://p114.ru/wp-content/uploads/2023/12/terapiya2.pdf   . На время отсутствия врача запись производится к врачу своего отделения .",
+      "freeParticipantCount": 14,
+      "freeTicketCount": 14,
+      "id": "7ab1973e-cb25-11ee-bc1d-b496918ad90e",
+      "lastDate": "2024-03-29T12:00:00",
+      "name": "Дюбкачева Екатерина Сергеевна",
+      "nearestDate": "2024-03-28T17:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

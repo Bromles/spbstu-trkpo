@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Консультационно-диагностическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 24,
+      "freeTicketCount": 24,
+      "id": "2117",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Ломакина Алена Анатольевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Кабинет врача невролога",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 57,
+      "freeTicketCount": 57,
+      "id": "2149",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Ярукова Ольга Сергеевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Консультационно-диагностическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2187",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Ломакина(Профприем) Алена Анатольевна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "Кабинет врача невролога",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2188",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Ярукова(Профприем) Ольга Сергеевна",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

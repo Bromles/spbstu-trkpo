@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": "23, 24, 25, 27, 29, 30, 32, 33, 34, 39, 41, 42, 45",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "518",
+      "lastDate": null,
+      "name": "Арутюнян Арпине Араиковна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "3, 4, 6, 7, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19,",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "641",
+      "lastDate": null,
+      "name": "Баев Евгений Олегович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "23, 24, 25, 26, 27, 28, 29, 30, 32, 33, 34, 39, 45",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "866",
+      "lastDate": null,
+      "name": "Запарина Дарина Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "5, 7, 8, 9, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21",
+      "ariaType": null,
+      "comment": "Приём ведётся только по чётным числам.",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "826",
+      "lastDate": null,
+      "name": "Мартынова Маргарита Юрьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "1, 2, 7, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "828",
+      "lastDate": null,
+      "name": "Ти Джамиля Далгатовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "7, 8, 9, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 2",
+      "ariaType": null,
+      "comment": "С 20.03.2024 г. приём временно не ведётся.",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "838",
+      "lastDate": null,
+      "name": "Фадеева Зинаида Владимировна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

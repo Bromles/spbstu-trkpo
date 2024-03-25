@@ -1,0 +1,134 @@
+{
+  "result": [
+    {
+      "id": "52463",
+      "ferId": null,
+      "name": "Вакцинация (кроме COVID-19)",
+      "countFreeParticipant": 523,
+      "countFreeTicket": 523,
+      "lastDate": "2024-04-08T13:55:00",
+      "nearestDate": "2024-03-26T08:30:00"
+    },
+    {
+      "id": "52449",
+      "ferId": null,
+      "name": "Вакцинация от COVID-19",
+      "countFreeParticipant": 538,
+      "countFreeTicket": 538,
+      "lastDate": "2024-04-08T13:55:00",
+      "nearestDate": "2024-03-26T08:30:00"
+    },
+    {
+      "id": "49900",
+      "ferId": "32",
+      "name": "Инфекционные болезни",
+      "countFreeParticipant": 110,
+      "countFreeTicket": 129,
+      "lastDate": "2024-04-08T14:42:00",
+      "nearestDate": "2024-03-26T13:36:00"
+    },
+    {
+      "id": "50234",
+      "ferId": null,
+      "name": "Кабинет Профилактики (Углубленная Диспансеризация)",
+      "countFreeParticipant": 56,
+      "countFreeTicket": 93,
+      "lastDate": "2024-04-08T12:30:00",
+      "nearestDate": "2024-03-27T10:10:00"
+    },
+    {
+      "id": "49884",
+      "ferId": "224",
+      "name": "Общая врачебная практика (семейная медицина)",
+      "countFreeParticipant": 17,
+      "countFreeTicket": 17,
+      "lastDate": "2024-04-01T12:45:00",
+      "nearestDate": "2024-04-01T08:45:00"
+    },
+    {
+      "id": "49887",
+      "ferId": "19",
+      "name": "Оториноларингология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "49888",
+      "ferId": "20",
+      "name": "Офтальмология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "49933",
+      "ferId": "90",
+      "name": "Пульмонология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "49961",
+      "ferId": "176",
+      "name": "Стоматология терапевтическая",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "49962",
+      "ferId": "177",
+      "name": "Стоматология хирургическая",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "49895",
+      "ferId": "27",
+      "name": "Терапия",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "52483",
+      "ferId": "27",
+      "name": "Терапия (прием иногородних)",
+      "countFreeParticipant": 34,
+      "countFreeTicket": 34,
+      "lastDate": "2024-04-08T08:30:00",
+      "nearestDate": "2024-03-26T08:30:00"
+    },
+    {
+      "id": "49943",
+      "ferId": "145",
+      "name": "Урология",
+      "countFreeParticipant": 94,
+      "countFreeTicket": 114,
+      "lastDate": "2024-04-08T18:00:00",
+      "nearestDate": "2024-03-29T10:27:00"
+    },
+    {
+      "id": "49898",
+      "ferId": "30",
+      "name": "Хирургия",
+      "countFreeParticipant": 16,
+      "countFreeTicket": 23,
+      "lastDate": "2024-04-08T18:15:00",
+      "nearestDate": "2024-03-30T09:10:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

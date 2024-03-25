@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ПРИЁМ В ГП114, УЛ. ШКОЛЬНАЯ Д.116 КОРП.1",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "b98618ce-7988-11ee-bc18-b496918ad90e",
+      "lastDate": null,
+      "name": "Дудкин Филипп Сергеевич (врач-психотерапевт)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

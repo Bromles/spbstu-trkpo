@@ -1,0 +1,162 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "558",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "1 Уч. Золотарева Анна Валентиновна(Груднички)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 16,
+      "freeTicketCount": 16,
+      "id": "566",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "10 Уч. Москалева Наталия Леонидовна(Груднички)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "1156",
+      "lastDate": "2024-04-02T00:00:00",
+      "name": "11 Уч Петренко Валерия Сергеевна(Груднички)",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 26.03.2024: Отпуск",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "568",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "12 Уч. Лябихова Светлана Леонидовна(Груднички)",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 11,
+      "freeTicketCount": 11,
+      "id": "1185",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "13 Уч. Юкина Екатерина Сергеевна",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 9,
+      "freeTicketCount": 9,
+      "id": "570",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "14 Уч. Шульгина Елена Владимировна(Груднички)",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 31.03.2024: Нетрудоспособность (Болезнь, карантин и т.п.)",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "571",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "15 Уч. Соловян Владислав Игоревич(Груднички)",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 16,
+      "freeTicketCount": 16,
+      "id": "832",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "3 Уч. Пилюгина Александра Юрьевна (Груднички)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "711",
+      "lastDate": "2024-04-02T00:00:00",
+      "name": "4 Уч. Петрова Анна Владимировна(Груднички)",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 6,
+      "id": "651",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "5 Уч. Толкушина Анна Александровна(Груднички)",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 11,
+      "freeTicketCount": 11,
+      "id": "561",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "6 Уч. Козындо Марина Борисовна(Груднички)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 11,
+      "freeTicketCount": 11,
+      "id": "562",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "7 Уч. Козындо Елена Борисовна(Груднички)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "с 01.04.2024 по 08.04.2024: Отпуск",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "656",
+      "lastDate": null,
+      "name": "8 Уч. Соболева Мария Владимировна(Груднички)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "08.04.2024: Отпуск",
+      "freeParticipantCount": 14,
+      "freeTicketCount": 14,
+      "id": "894",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "9 Уч. Романова Екатерина Алексеевна (Груднички)",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

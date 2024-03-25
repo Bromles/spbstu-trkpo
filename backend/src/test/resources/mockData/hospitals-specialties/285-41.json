@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "15584",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Науменко О.М. б/л с 18/03, отп. с 22/03-31/03,  ",
+      "nearestDate": "2024-04-24T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "15124",
+      "lastDate": null,
+      "name": "Миронихина О И ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 3,
+      "id": "15487",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Оборотова Л.Б.",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

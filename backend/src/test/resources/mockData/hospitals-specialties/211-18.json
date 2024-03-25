@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 69,
+      "freeTicketCount": 69,
+      "id": "п98.4",
+      "lastDate": "2024-04-09T00:00:00",
+      "name": "Вагина Галина Васильевна ",
+      "nearestDate": "2024-03-29T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

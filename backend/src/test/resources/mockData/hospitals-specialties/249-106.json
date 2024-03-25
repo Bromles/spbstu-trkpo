@@ -1,0 +1,162 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 80,
+      "id": "136",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Антонова Дарья Сергеевна (лечение без острой боли, плановое)",
+      "nearestDate": "2024-03-26T15:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 74,
+      "id": "25",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Горячева Александра Александровна (лечение без острой боли, плановое)",
+      "nearestDate": "2024-03-25T17:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 152,
+      "id": "15",
+      "lastDate": "2024-04-08T13:45:00",
+      "name": "Данилевич-Дзевентковская Татьяна Генриховна (осмотры, справки)",
+      "nearestDate": "2024-03-25T18:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 61,
+      "id": "44",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Захарова Этери Омариевна (лечение без острой боли, плановое)",
+      "nearestDate": "2024-03-26T15:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 14,
+      "id": "45",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Зернышкин Алексей Александрович (лечение без острой боли, плановое)",
+      "nearestDate": "2024-04-05T15:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 187,
+      "id": "159",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Кирюхина Наталия Юрьевна (осмотры, справки)",
+      "nearestDate": "2024-03-26T15:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 37,
+      "id": "31",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Курилко Екатерина Михайловна (лечение без острой боли, плановое)",
+      "nearestDate": "2024-03-26T15:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 67,
+      "id": "46",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Кючукова Людмила Анатольевна (лечение без острой боли, плановое)",
+      "nearestDate": "2024-03-26T15:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 36,
+      "id": "49",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Метлич Надежда Алексеевна (лечение без острой боли, плановое)",
+      "nearestDate": "2024-03-26T15:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 62,
+      "id": "132",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Митченко Елена Владимировна (лечение без острой боли, плановое)",
+      "nearestDate": "2024-03-26T15:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 32,
+      "id": "50",
+      "lastDate": "2024-04-04T20:30:00",
+      "name": "Пекарникова Наталья Викторовна (лечение без острой боли, плановое)",
+      "nearestDate": "2024-03-26T15:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 90,
+      "id": "29",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Сивохо Нина Евгеньевна (лечение без острой боли, плановое)",
+      "nearestDate": "2024-03-25T17:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 75,
+      "id": "51",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Скрябина Лада Борисовна (лечение без острой боли, плановое)",
+      "nearestDate": "2024-03-25T17:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 26,
+      "id": "27",
+      "lastDate": "2024-04-02T20:15:00",
+      "name": "Яковлева Светлана Юрьевна (лечение без острой боли, плановое)",
+      "nearestDate": "2024-03-29T08:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

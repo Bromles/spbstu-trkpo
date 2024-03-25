@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "ул Царицынская д.1",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.599",
+      "lastDate": null,
+      "name": "Оз Рената Менеровна.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "ул Царицынская д.1",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.333",
+      "lastDate": null,
+      "name": "РЫЖКОВА С П",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

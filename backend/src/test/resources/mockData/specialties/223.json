@@ -1,0 +1,62 @@
+{
+  "result": [
+    {
+      "id": "44",
+      "ferId": "14",
+      "name": "НЕВРОПАТОЛОГ",
+      "countFreeParticipant": 3,
+      "countFreeTicket": 4,
+      "lastDate": "2024-04-06T00:00:00",
+      "nearestDate": "2024-04-06T00:00:00"
+    },
+    {
+      "id": "37",
+      "ferId": "22",
+      "name": "ПЕДИАТР",
+      "countFreeParticipant": 554,
+      "countFreeTicket": 554,
+      "lastDate": "2024-04-09T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "23",
+      "ferId": "11",
+      "name": "ХИРУРГ",
+      "countFreeParticipant": 2,
+      "countFreeTicket": 2,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "id": "42",
+      "ferId": "19",
+      "name": "ОТОЛАРИНГОЛОГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "27",
+      "ferId": "28",
+      "name": "ТРАВМАТОЛ/ОРТОП",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "28",
+      "ferId": "145",
+      "name": "УРОЛОГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

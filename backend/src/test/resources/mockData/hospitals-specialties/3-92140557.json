@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 73,
+      "freeTicketCount": 73,
+      "id": "2193",
+      "lastDate": "2024-04-08T13:15:00",
+      "name": "Кабинет Диспансеризации ",
+      "nearestDate": "2024-03-27T09:15:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

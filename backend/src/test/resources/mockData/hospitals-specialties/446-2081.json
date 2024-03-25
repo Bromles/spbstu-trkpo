@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "2",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 37,
+      "freeTicketCount": 74,
+      "id": "2760",
+      "lastDate": "2024-04-08T19:00:00",
+      "name": "Петрова Наталья Владимировна",
+      "nearestDate": "2024-04-01T17:10:00"
+    },
+    {
+      "ariaNumber": "1",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 38,
+      "freeTicketCount": 76,
+      "id": "6797",
+      "lastDate": "2024-04-08T10:50:00",
+      "name": "Шишкова Елена Васильевна",
+      "nearestDate": "2024-04-03T13:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": " КАБИНЕТ 246",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "778688db-c4a5-11ec-9830-089798a49211",
+      "lastDate": null,
+      "name": "Джиджавадзе Ростом Мурманович (Врач-ортопед)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

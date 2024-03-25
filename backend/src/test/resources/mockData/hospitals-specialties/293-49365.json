@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 4,
+      "freeTicketCount": 7,
+      "id": "1804",
+      "lastDate": "2024-04-01T15:45:00",
+      "name": "Арутюнов Артур Лаврентьевич",
+      "nearestDate": "2024-04-01T14:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "585",
+      "lastDate": null,
+      "name": "Давыдов Дмитрий Викторович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 14,
+      "freeTicketCount": 18,
+      "id": "838",
+      "lastDate": "2024-04-01T12:15:00",
+      "name": "Матуа Гога Нугзариевич",
+      "nearestDate": "2024-03-27T11:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 8,
+      "id": "1337",
+      "lastDate": "2024-04-01T14:55:00",
+      "name": "Матухин Игорь Валерьевич",
+      "nearestDate": "2024-04-01T14:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1295",
+      "lastDate": null,
+      "name": "Суворов Антон Вячеславович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 12,
+      "freeTicketCount": 15,
+      "id": "762",
+      "lastDate": "2024-04-01T19:08:00",
+      "name": "Черных Александр Петрович",
+      "nearestDate": "2024-03-28T10:33:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

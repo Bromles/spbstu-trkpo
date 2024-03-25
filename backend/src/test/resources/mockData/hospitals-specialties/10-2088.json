@@ -1,0 +1,85 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 15,
+      "freeTicketCount": 29,
+      "id": "8814",
+      "lastDate": "2024-04-05T17:44:00",
+      "name": "Андреева Ирина Владимировна",
+      "nearestDate": "2024-04-01T14:32:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "3676",
+      "lastDate": null,
+      "name": "Подыряк Алена Васильевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Отпуск",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8709",
+      "lastDate": null,
+      "name": "Седая Татьяна Олеговна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Отпуск",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8753",
+      "lastDate": null,
+      "name": "Седая Татьяна Олеговна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 15,
+      "freeTicketCount": 28,
+      "id": "8463",
+      "lastDate": "2024-04-05T12:44:00",
+      "name": "Тарасова Анна Александровна",
+      "nearestDate": "2024-04-02T09:16:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "9862",
+      "lastDate": null,
+      "name": "Тарасова Анна Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "6701",
+      "lastDate": null,
+      "name": "Худовекова Александра Михайловна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

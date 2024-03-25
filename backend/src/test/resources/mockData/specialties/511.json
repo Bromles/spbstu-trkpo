@@ -1,0 +1,35 @@
+{
+  "result": [
+    {
+      "id": "7b66c767-ebeb-11ec-bba1-b496918ad4ad",
+      "ferId": "27",
+      "name": "Врач общей практики (семейный врач)",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "9da2bd35-c261-11ec-9830-089798a49211",
+      "ferId": "27",
+      "name": "врач-терапевт участковый",
+      "countFreeParticipant": 18,
+      "countFreeTicket": 18,
+      "lastDate": "2024-03-29T18:40:00",
+      "nearestDate": "2024-03-26T10:40:00"
+    },
+    {
+      "id": "12f59fce-c262-11ec-9830-089798a49211",
+      "ferId": "20",
+      "name": "Врач-офтальмолог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

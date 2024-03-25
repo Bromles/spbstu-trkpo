@@ -1,0 +1,125 @@
+{
+  "result": [
+    {
+      "id": "16",
+      "ferId": "77",
+      "name": "Аллергология и иммунология",
+      "countFreeParticipant": 432,
+      "countFreeTicket": 432,
+      "lastDate": "2024-04-15T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "988",
+      "ferId": "27",
+      "name": "Диспансеризация",
+      "countFreeParticipant": 326,
+      "countFreeTicket": 326,
+      "lastDate": "2024-04-24T00:00:00",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "id": "18",
+      "ferId": "32",
+      "name": "Инфекционные болезни",
+      "countFreeParticipant": 330,
+      "countFreeTicket": 330,
+      "lastDate": "2024-04-12T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "84",
+      "ferId": "0",
+      "name": "Медицинская психология (прием в ЖК-31)",
+      "countFreeParticipant": 20,
+      "countFreeTicket": 20,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "id": "42",
+      "ferId": "19",
+      "name": "Оториноларингология",
+      "countFreeParticipant": 82,
+      "countFreeTicket": 108,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "id": "181",
+      "ferId": "27",
+      "name": "Терапия 1-е отделение",
+      "countFreeParticipant": 227,
+      "countFreeTicket": 227,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "id": "182",
+      "ferId": "27",
+      "name": "Терапия 2-е отделение",
+      "countFreeParticipant": 191,
+      "countFreeTicket": 196,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "id": "9999",
+      "ferId": "58",
+      "name": "Углубленная диспансеризация",
+      "countFreeParticipant": 13,
+      "countFreeTicket": 13,
+      "lastDate": "2024-03-29T00:00:00",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "id": "41",
+      "ferId": "20",
+      "name": "Офтальмология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 24,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": null
+    },
+    {
+      "id": "94",
+      "ferId": "98",
+      "name": "Психотерапевт (приём в ЖК №31)",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 20,
+      "lastDate": "2024-04-24T00:00:00",
+      "nearestDate": null
+    },
+    {
+      "id": "28",
+      "ferId": "145",
+      "name": "Урология ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "23",
+      "ferId": "30",
+      "name": "Хирургия",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 58,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": null
+    },
+    {
+      "id": "14",
+      "ferId": "31",
+      "name": "Эндокринология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 60,
+      "lastDate": "2024-04-16T00:00:00",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

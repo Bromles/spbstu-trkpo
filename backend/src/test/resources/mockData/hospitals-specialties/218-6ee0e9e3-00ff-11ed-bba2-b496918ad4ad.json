@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "7ffdda71-c4a6-11ec-9830-089798a49211",
+      "lastDate": null,
+      "name": "Лавриненко Анастасия Игоревна (Врач-травматолог-ортопед)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "26f9ad44-f39c-11ec-bba1-b496918ad4ad",
+      "lastDate": null,
+      "name": "Тищенко Александр Борисович (Врач-травматолог-ортопед)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

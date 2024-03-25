@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "ДПО36",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 260,
+      "freeTicketCount": 260,
+      "id": "1878",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Кабинет Доврачебный Помощи",
+      "nearestDate": "2024-04-05T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

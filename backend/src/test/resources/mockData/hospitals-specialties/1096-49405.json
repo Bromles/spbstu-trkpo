@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №3",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "682",
+      "lastDate": null,
+      "name": "Гордиенко Алексей Леонидович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №6",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "83",
+      "lastDate": null,
+      "name": "Гринберг Мария Ефимовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №6",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "963",
+      "lastDate": null,
+      "name": "Иванова Дарья Леонидовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №1",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "79",
+      "lastDate": null,
+      "name": "Марьенко Ирина Игоревна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №4",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "709",
+      "lastDate": null,
+      "name": "Николаева Наталья Игоревна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №2",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "80",
+      "lastDate": null,
+      "name": "Таранец Елена Германовна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

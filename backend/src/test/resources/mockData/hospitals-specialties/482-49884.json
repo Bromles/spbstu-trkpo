@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Детскосельский, ул. Центральная 8 корп.3",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "790",
+      "lastDate": null,
+      "name": "Александрова Юлия Михайловна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "792",
+      "lastDate": null,
+      "name": "Назарова Лилия Константиновна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,107 @@
+{
+  "result": [
+    {
+      "ariaNumber": "7 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 91,
+      "freeTicketCount": 91,
+      "id": "718",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Асанидзе Владимир Эльдариевич",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "8 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 101,
+      "freeTicketCount": 101,
+      "id": "739",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Баканов Григорий ",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "9 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 57,
+      "freeTicketCount": 57,
+      "id": "679",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Булатова Лилия Фанисовна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "6 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "720",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Волков Юрий Кириллович",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "5 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 78,
+      "freeTicketCount": 78,
+      "id": "499",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Гацалова Ирина Рамазановна",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "2 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "713",
+      "lastDate": null,
+      "name": "Полозова Юлианна Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "1 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 47,
+      "freeTicketCount": 47,
+      "id": "725",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Султанова Ольга Эльбрусовна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "4 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 41,
+      "freeTicketCount": 41,
+      "id": "710",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Филимонова Юлия Витальевна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "3 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 80,
+      "freeTicketCount": 80,
+      "id": "721",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Халапкина Мария Андреевна",
+      "nearestDate": "2024-03-29T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

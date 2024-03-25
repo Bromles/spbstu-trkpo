@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №25",
+      "freeParticipantCount": 11,
+      "freeTicketCount": 11,
+      "id": "897",
+      "lastDate": "2024-04-08T18:30:00",
+      "name": "Сорочкина Наталья Васильевна",
+      "nearestDate": "2024-04-02T10:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

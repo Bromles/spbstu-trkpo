@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Гинекологическое ДПО № 66",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 52,
+      "freeTicketCount": 52,
+      "id": "1815",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Трубецкая Татьяна Евгеньевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Гинекологическое ДПО № 66",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "2118",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": "Бондарь Ольга Александровна",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

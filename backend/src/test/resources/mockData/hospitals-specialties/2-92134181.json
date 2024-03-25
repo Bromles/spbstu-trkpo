@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "277",
+      "lastDate": null,
+      "name": "Кондаков Дмитрий Вячеславович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "300",
+      "lastDate": "2024-04-08T11:20:00",
+      "name": "Молчанова Наталья Борисовна",
+      "nearestDate": "2024-04-08T09:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 36,
+      "freeTicketCount": 36,
+      "id": "363",
+      "lastDate": "2024-04-08T19:00:00",
+      "name": "Петрова Елена Александровна",
+      "nearestDate": "2024-04-01T17:40:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 42,
+      "freeTicketCount": 42,
+      "id": "81",
+      "lastDate": "2024-04-08T19:00:00",
+      "name": "Попов Юрий Иустинович",
+      "nearestDate": "2024-03-29T18:40:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

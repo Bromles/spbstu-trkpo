@@ -1,0 +1,134 @@
+{
+  "result": [
+    {
+      "id": "92137741",
+      "ferId": null,
+      "name": "Вакцинация (кроме COVID-19)",
+      "countFreeParticipant": 148,
+      "countFreeTicket": 148,
+      "lastDate": "2024-04-08T15:40:00",
+      "nearestDate": "2024-03-26T12:00:00"
+    },
+    {
+      "id": "92136952",
+      "ferId": "55",
+      "name": "Вакцинация от COVID-19",
+      "countFreeParticipant": 45,
+      "countFreeTicket": 45,
+      "lastDate": "2024-04-08T15:50:00",
+      "nearestDate": "2024-03-26T18:35:00"
+    },
+    {
+      "id": "2176",
+      "ferId": "0",
+      "name": "Диспансеризация",
+      "countFreeParticipant": 157,
+      "countFreeTicket": 157,
+      "lastDate": "2024-04-08T16:15:00",
+      "nearestDate": "2024-03-25T18:15:00"
+    },
+    {
+      "id": "2117",
+      "ferId": "32",
+      "name": "Инфекционист",
+      "countFreeParticipant": 115,
+      "countFreeTicket": 115,
+      "lastDate": "2024-04-05T18:45:00",
+      "nearestDate": "2024-03-26T16:00:00"
+    },
+    {
+      "id": "92137052",
+      "ferId": "58",
+      "name": "Кабинет профилактики (углубленная диспансеризация)",
+      "countFreeParticipant": 82,
+      "countFreeTicket": 82,
+      "lastDate": "2024-04-08T15:45:00",
+      "nearestDate": "2024-03-26T09:00:00"
+    },
+    {
+      "id": "2136",
+      "ferId": "43",
+      "name": "Колопроктолог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "2101",
+      "ferId": "19",
+      "name": "Оториноларинголог",
+      "countFreeParticipant": 1,
+      "countFreeTicket": 1,
+      "lastDate": "2024-03-25T18:45:00",
+      "nearestDate": "2024-03-25T18:45:00"
+    },
+    {
+      "id": "2090",
+      "ferId": "20",
+      "name": "Офтальмолог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "2104",
+      "ferId": "91",
+      "name": "Ревматолог",
+      "countFreeParticipant": 17,
+      "countFreeTicket": 17,
+      "lastDate": "2024-04-08T18:30:00",
+      "nearestDate": "2024-03-25T16:45:00"
+    },
+    {
+      "id": "2075",
+      "ferId": "27",
+      "name": "Терапевт участковый",
+      "countFreeParticipant": 169,
+      "countFreeTicket": 511,
+      "lastDate": "2024-04-08T19:18:00",
+      "nearestDate": "2024-03-25T19:30:00"
+    },
+    {
+      "id": "2098",
+      "ferId": "145",
+      "name": "Уролог",
+      "countFreeParticipant": 270,
+      "countFreeTicket": 270,
+      "lastDate": "2024-04-08T19:45:00",
+      "nearestDate": "2024-03-25T19:45:00"
+    },
+    {
+      "id": "92137252",
+      "ferId": "24",
+      "name": "Флюорография",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "2093",
+      "ferId": "30",
+      "name": "Хирург",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "2105",
+      "ferId": "31",
+      "name": "Эндокринолог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "4",
+      "lastDate": "2024-04-23T15:30:00",
+      "name": "Бакурова Виктория Ивановна",
+      "nearestDate": "2024-04-23T15:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 32,
+      "freeTicketCount": 32,
+      "id": "6",
+      "lastDate": "2024-04-24T15:30:00",
+      "name": "Гоголин Павел Александрович",
+      "nearestDate": "2024-04-15T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 53,
+      "freeTicketCount": 53,
+      "id": "78",
+      "lastDate": "2024-04-24T12:00:00",
+      "name": "Бадзагуа Майя Шермадиновна",
+      "nearestDate": "2024-04-09T14:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "146",
+      "lastDate": "2024-04-24T12:00:00",
+      "name": "Дашкевич Татьяна Юрьевна",
+      "nearestDate": "2024-04-24T12:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "406",
+      "lastDate": null,
+      "name": "Зверева Анна Анатольевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 51,
+      "freeTicketCount": 51,
+      "id": "414",
+      "lastDate": "2024-04-24T15:30:00",
+      "name": "Кучеренко Карина Юрьевна",
+      "nearestDate": "2024-04-10T14:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

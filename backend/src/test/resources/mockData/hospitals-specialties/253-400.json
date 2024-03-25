@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 30,
+      "freeTicketCount": 30,
+      "id": "72",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Ганенко В.А. (мужчины,платно)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 121,
+      "freeTicketCount": 121,
+      "id": "70",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Левина Е.Б.(анонимн.,платно)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 18,
+      "freeTicketCount": 18,
+      "id": "71",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Лузгина Е.А.(анонимн., платно)",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,44 @@
+{
+  "result": [
+    {
+      "id": "122",
+      "ferId": "55",
+      "name": "Вакцинация от COVID-19",
+      "countFreeParticipant": 147,
+      "countFreeTicket": 147,
+      "lastDate": "2024-04-12T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "48",
+      "ferId": "19",
+      "name": "Отоларинголог",
+      "countFreeParticipant": 38,
+      "countFreeTicket": 38,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "49",
+      "ferId": "20",
+      "name": "Офтальмолог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "78",
+      "ferId": "27",
+      "name": "Терапевт",
+      "countFreeParticipant": 191,
+      "countFreeTicket": 191,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

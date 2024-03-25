@@ -1,0 +1,118 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "922",
+      "lastDate": null,
+      "name": "Алимова Наталия Игоревна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "998",
+      "lastDate": null,
+      "name": "Беляйкина Александра Андреевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1073",
+      "lastDate": null,
+      "name": "Григорьева Аделя Равильевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №5",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "339",
+      "lastDate": "2024-04-08T18:30:00",
+      "name": "Друженкова Ольга Михайловна",
+      "nearestDate": "2024-04-02T12:30:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "956",
+      "lastDate": null,
+      "name": "Егорова Ирина Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №6",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "846",
+      "lastDate": null,
+      "name": "Еремина Ольга Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №20",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "655",
+      "lastDate": null,
+      "name": "Зайцева Анастасия Вадимовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "819",
+      "lastDate": null,
+      "name": "Ощепкова Ольга Анатольевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "668",
+      "lastDate": null,
+      "name": "Хабарова Вероника Глебовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "901",
+      "lastDate": null,
+      "name": "Яшина Яна Васильевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

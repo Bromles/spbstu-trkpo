@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 12,
+      "freeTicketCount": 12,
+      "id": "п8.321",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ВАЛЬВАЧЕВ ВЯЧЕСЛАВ АНАТОЛЬЕВИЧ (отпуск 15.04.2024 - 28.04.2024)",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "п8.213",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "КАБАЕВА ТАТЬЯНА НИКОЛАЕВНА (отпуск 25.03.2024 - 31.03.2024)",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "П8.139",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "УГРОВАТЫЙ ЮРИЙ ВЯЧЕСЛАВОВИЧ ",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "п8.234",
+      "lastDate": null,
+      "name": "КУЗНЕЦОВ АЛЕКСЕЙ СЕРГЕЕВИЧ (отпуск 08.04.2024 - 14.04.2024)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

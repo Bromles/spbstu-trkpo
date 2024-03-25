@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 105,
+      "freeTicketCount": 105,
+      "id": "ДПО70.36",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Баев В.Ю. ",
+      "nearestDate": "2024-03-29T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

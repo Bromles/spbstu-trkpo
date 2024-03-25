@@ -1,0 +1,85 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 12,
+      "freeTicketCount": 12,
+      "id": "15011УД",
+      "lastDate": "2024-04-09T00:00:00",
+      "name": "КОЖУШКО В.С -УД",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 12,
+      "freeTicketCount": 12,
+      "id": "6070.711УД",
+      "lastDate": "2024-04-09T00:00:00",
+      "name": "ПАХОМОВА Л.А.-УД",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 11,
+      "freeTicketCount": 11,
+      "id": "6070.753УД",
+      "lastDate": "2024-04-09T00:00:00",
+      "name": "ТРОЯК К.М.-УД",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "15923677УД",
+      "lastDate": null,
+      "name": "КЛЕЙМЕНОВА Е.Г.-УД",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "6070.554УД",
+      "lastDate": null,
+      "name": "КОЛЕСНИКОВА И.Г-УД",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "6070.752УД",
+      "lastDate": null,
+      "name": "КОРЕПАНОВА Л.А.-УД",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "15009УД",
+      "lastDate": null,
+      "name": "КРЯЖКОВА ИЮ -УД",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

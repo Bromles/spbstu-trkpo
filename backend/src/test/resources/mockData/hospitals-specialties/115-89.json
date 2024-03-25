@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Хирургический кабинет",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "982",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Шилов Сергей Егорович",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Хирургический кабинет",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 1,
+      "id": "2448",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Шапуров Александр Викторович",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Хирургический кабинет",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 3,
+      "id": "2504",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Хасанов Нурягды Бахтыярович",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

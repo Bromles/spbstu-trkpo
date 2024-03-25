@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 164,
+      "id": "162",
+      "lastDate": "2024-04-06T14:30:00",
+      "name": "Заплатина Ирина Николаевна (осмотры, справки)",
+      "nearestDate": "2024-03-27T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 210,
+      "id": "161",
+      "lastDate": "2024-04-08T13:45:00",
+      "name": "Перепечко Елена Михайловна (осмотры,справки)",
+      "nearestDate": "2024-03-25T18:15:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

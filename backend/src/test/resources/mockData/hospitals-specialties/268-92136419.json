@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 123,
+      "freeTicketCount": 123,
+      "id": "821",
+      "lastDate": "2024-04-08T14:10:00",
+      "name": "Диспансеризация и профилактические осмотры (209каб.)",
+      "nearestDate": "2024-03-26T17:40:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 155,
+      "freeTicketCount": 155,
+      "id": "750",
+      "lastDate": "2024-04-08T19:30:00",
+      "name": "Диспансеризация и профилактические осмотры (217каб.)",
+      "nearestDate": "2024-03-26T11:20:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

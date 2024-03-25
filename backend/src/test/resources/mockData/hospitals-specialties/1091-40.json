@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 31.03.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "1262",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Гупалюк Алексей Александрович",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

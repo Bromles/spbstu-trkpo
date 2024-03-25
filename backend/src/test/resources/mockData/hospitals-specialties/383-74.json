@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Хирургический кабинет",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 36,
+      "freeTicketCount": 36,
+      "id": "28",
+      "lastDate": "2024-04-22T00:00:00",
+      "name": "Зодьян Артем Анатольевич",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Хирургический кабинет",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 90,
+      "freeTicketCount": 90,
+      "id": "31",
+      "lastDate": "2024-04-22T00:00:00",
+      "name": "Исаева Залина Богдановна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Хирургический кабинет",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 41,
+      "freeTicketCount": 41,
+      "id": "151",
+      "lastDate": "2024-04-18T00:00:00",
+      "name": "Романова Кристина Максудовна",
+      "nearestDate": "2024-03-30T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

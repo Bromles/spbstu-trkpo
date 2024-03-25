@@ -1,0 +1,71 @@
+{
+  "result": [
+    {
+      "id": "6a8c03c9-bc02-11ec-982f-089798a49211",
+      "ferId": "17",
+      "name": "Онколог",
+      "countFreeParticipant": 20,
+      "countFreeTicket": 20,
+      "lastDate": "2024-04-08T19:20:00",
+      "nearestDate": "2024-04-04T08:00:00"
+    },
+    {
+      "id": "eabeff0d-d6f5-11ee-bc62-00155d03021b",
+      "ferId": "79",
+      "name": "Гастроэнтеролог (телемедицина)",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "b2c39c36-d6f5-11ee-bc62-00155d03021b",
+      "ferId": "31",
+      "name": "Эндокринолог (телемедицина)",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "6a8c03bc-bc02-11ec-982f-089798a49211",
+      "ferId": "43",
+      "name": "Колопроктолог",
+      "countFreeParticipant": 1,
+      "countFreeTicket": 1,
+      "lastDate": "2024-03-25T16:40:00",
+      "nearestDate": "2024-03-25T16:40:00"
+    },
+    {
+      "id": "d3499345-d6f5-11ee-bc62-00155d03021b",
+      "ferId": "17",
+      "name": "Онколог (телемедицина)",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "84008e43-e119-11ee-bc64-00155d03021b",
+      "ferId": "27",
+      "name": "Центр Здоровья",
+      "countFreeParticipant": 120,
+      "countFreeTicket": 120,
+      "lastDate": "2024-04-08T19:30:00",
+      "nearestDate": "2024-04-01T09:30:00"
+    },
+    {
+      "id": "745cf336-bc02-11ec-982f-089798a49211",
+      "ferId": "19",
+      "name": "Оториноларинголог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

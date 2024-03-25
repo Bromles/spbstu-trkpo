@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 216,
+      "freeTicketCount": 216,
+      "id": "1551",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Конвасэл  307Кб По4",
+      "nearestDate": "2024-04-05T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

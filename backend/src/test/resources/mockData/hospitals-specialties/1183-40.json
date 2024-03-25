@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 61,
+      "freeTicketCount": 61,
+      "id": "919",
+      "lastDate": "2024-04-19T00:00:00",
+      "name": "Лапаева Наталья Юрьевна",
+      "nearestDate": "2024-04-02T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

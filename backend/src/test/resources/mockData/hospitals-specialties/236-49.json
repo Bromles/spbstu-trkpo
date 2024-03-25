@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Офтальмологическое ДПО № 66",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1547",
+      "lastDate": "2024-04-03T00:00:00",
+      "name": "Гайдар Дарья Ивановна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Офтальмологическое ДПО № 66",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 6,
+      "freeTicketCount": 6,
+      "id": "1718",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Немцева Елена Эрнестовна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

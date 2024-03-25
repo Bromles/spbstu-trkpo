@@ -1,0 +1,80 @@
+{
+  "result": [
+    {
+      "id": "9999",
+      "ferId": "58",
+      "name": "Запись на углубленную диспансеризацию",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "23",
+      "ferId": "32",
+      "name": "Инфекционист",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "48",
+      "ferId": "19",
+      "name": "Отоларинголог",
+      "countFreeParticipant": 47,
+      "countFreeTicket": 47,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "id": "49",
+      "ferId": "20",
+      "name": "Офтальмолог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "78",
+      "ferId": "27",
+      "name": "Терапевт",
+      "countFreeParticipant": 68,
+      "countFreeTicket": 68,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "id": "84",
+      "ferId": "145",
+      "name": "Уролог",
+      "countFreeParticipant": 130,
+      "countFreeTicket": 130,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "id": "89",
+      "ferId": "30",
+      "name": "Хирург",
+      "countFreeParticipant": 11,
+      "countFreeTicket": 11,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "id": "10011",
+      "ferId": "224",
+      "name": "Центр Здоровья",
+      "countFreeParticipant": 231,
+      "countFreeTicket": 231,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

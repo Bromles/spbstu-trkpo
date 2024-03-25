@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Гериатрическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 100,
+      "freeTicketCount": 101,
+      "id": "374",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Едакова Марина Альбертовна возраст 60г-",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

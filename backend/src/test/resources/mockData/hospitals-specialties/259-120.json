@@ -1,0 +1,140 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 280,
+      "freeTicketCount": 280,
+      "id": "133",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Авдеева Е.И. Первичный приём по направлениям ф057",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 33,
+      "freeTicketCount": 33,
+      "id": "75",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Задворнова Д.А. Первичный прием по направлениям ",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 153,
+      "freeTicketCount": 153,
+      "id": "201611",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Иванюхин А.А. Приём по 109 ПО ",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 186,
+      "freeTicketCount": 186,
+      "id": "142",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Круглова Е.А. Прием по 44 ПО",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 154,
+      "freeTicketCount": 154,
+      "id": "5330.497",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Курышин В.Ю. Прием по 19 ПО ",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 216,
+      "freeTicketCount": 216,
+      "id": "131",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Некрасов Д. В.  Прием по 123 ПО",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 18,
+      "freeTicketCount": 18,
+      "id": "109.5330.517",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Немцева В.П.  Прием по 56 ПО ",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 164,
+      "freeTicketCount": 164,
+      "id": "5330.457",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Скляренко Т.В. Прием по  78 ПО ",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 241,
+      "freeTicketCount": 241,
+      "id": "126",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Томова Э.Я. Прием по 5 ПО",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "5330.451",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Холопов Д.В. Онкогинеколог",
+      "nearestDate": "2024-04-24T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "141",
+      "lastDate": null,
+      "name": "Клемешева Н.С. Химиотер-т(Запись через врача)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "146",
+      "lastDate": null,
+      "name": "Круковский Н.В. Химиотер-т (Запись через врача)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

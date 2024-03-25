@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": "5",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 20,
+      "freeTicketCount": 20,
+      "id": "7",
+      "lastDate": "2024-03-29T12:36:00",
+      "name": "Александрова Валентина Ивановна",
+      "nearestDate": "2024-03-26T12:48:00"
+    },
+    {
+      "ariaNumber": "2",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "35",
+      "lastDate": null,
+      "name": "Давидьянц Елена Валентиновна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "3",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 22,
+      "freeTicketCount": 22,
+      "id": "6",
+      "lastDate": "2024-03-29T18:24:00",
+      "name": "Крестова Татьяна Кимовна",
+      "nearestDate": "2024-03-26T09:24:00"
+    },
+    {
+      "ariaNumber": "1",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 21,
+      "freeTicketCount": 21,
+      "id": "8",
+      "lastDate": "2024-03-29T15:36:00",
+      "name": "Мамажанов Бахтиёр Садыкович",
+      "nearestDate": "2024-03-26T09:24:00"
+    },
+    {
+      "ariaNumber": "4",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 20,
+      "freeTicketCount": 20,
+      "id": "13",
+      "lastDate": "2024-03-29T12:36:00",
+      "name": "Сухоруков Виктор Юрьевич",
+      "nearestDate": "2024-03-26T14:24:00"
+    },
+    {
+      "ariaNumber": "6",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 21,
+      "freeTicketCount": 21,
+      "id": "58",
+      "lastDate": "2024-03-29T17:24:00",
+      "name": "Якупов Рустем Валерьевич",
+      "nearestDate": "2024-03-25T17:24:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

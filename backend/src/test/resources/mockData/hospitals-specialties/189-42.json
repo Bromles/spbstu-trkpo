@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 131,
+      "freeTicketCount": 131,
+      "id": "117.181",
+      "lastDate": "2024-04-15T00:00:00",
+      "name": "Гаджимагомедова Д.М",
+      "nearestDate": "2024-04-04T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 117,
+      "freeTicketCount": 117,
+      "id": "117.179",
+      "lastDate": "2024-04-15T00:00:00",
+      "name": "Лежнева К.А. ",
+      "nearestDate": "2024-04-05T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

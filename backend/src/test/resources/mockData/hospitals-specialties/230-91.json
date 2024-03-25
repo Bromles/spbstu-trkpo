@@ -1,0 +1,96 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Эндокринологическое(ГДЦ)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 126,
+      "id": "1803",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Смирнова Ирина Петровна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Эндокринологическое(ГДЦ)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1905",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Бицоева Роксана Валерьевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Эндокринологическое(ГДЦ)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1906",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Ильина Виктория Викторовна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Эндокринологическое(ГДЦ)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1908",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Егорова Анастасия Юрьевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Эндокринологическое(ГДЦ)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1909",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Ерофеева Юлия Сергеевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Эндокринологическое(ГДЦ)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1911",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Терентьева Татьяна Викторовна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "Эндокринологическое(ГДЦ)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1912",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Томайлы Мария Евгеньевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Эндокринологическое(ГДЦ)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 108,
+      "id": "1919",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Баенко Евгения Юрьевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

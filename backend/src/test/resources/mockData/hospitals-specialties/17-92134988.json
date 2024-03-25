@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "55 ",
+      "freeParticipantCount": 78,
+      "freeTicketCount": 78,
+      "id": "1216",
+      "lastDate": "2024-04-08T19:45:00",
+      "name": "Завьялов Игорь Викторович",
+      "nearestDate": "2024-03-26T10:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "55 ",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "2540",
+      "lastDate": "2024-04-08T12:20:00",
+      "name": "Цахилова Елена Магрезовна",
+      "nearestDate": "2024-04-08T12:20:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

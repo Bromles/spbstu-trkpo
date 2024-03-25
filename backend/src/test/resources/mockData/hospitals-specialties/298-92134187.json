@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 67,
+      "freeTicketCount": 67,
+      "id": "548",
+      "lastDate": "2024-04-05T13:30:00",
+      "name": "Ефимова Наталья Владимировна",
+      "nearestDate": "2024-03-26T14:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 108,
+      "freeTicketCount": 108,
+      "id": "195",
+      "lastDate": "2024-04-08T18:30:00",
+      "name": "Пушкарева Мария Александровна",
+      "nearestDate": "2024-03-25T18:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

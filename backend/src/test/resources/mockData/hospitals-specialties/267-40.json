@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "08.04.2024: Учеба",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "70",
+      "lastDate": "2024-04-03T00:00:00",
+      "name": "Подорожная Наталья Валерьевна",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 17,
+      "freeTicketCount": 17,
+      "id": "618",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Шишлянникова Екатерина Максимовна",
+      "nearestDate": "2024-04-04T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

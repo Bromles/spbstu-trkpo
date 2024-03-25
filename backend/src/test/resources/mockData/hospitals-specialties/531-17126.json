@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 125,
+      "freeTicketCount": 125,
+      "id": "5100",
+      "lastDate": "2024-04-12T19:00:00",
+      "name": "Арамянц Георгий Тигранович",
+      "nearestDate": "2024-04-01T10:40:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 50,
+      "freeTicketCount": 50,
+      "id": "4643",
+      "lastDate": "2024-04-11T11:40:00",
+      "name": "Мухамеджанов Алексей Викторович",
+      "nearestDate": "2024-03-29T10:20:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 83,
+      "freeTicketCount": 83,
+      "id": "4669",
+      "lastDate": "2024-04-12T19:00:00",
+      "name": "Роковая Ольга Евгеньевна",
+      "nearestDate": "2024-03-26T16:40:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "5438",
+      "lastDate": null,
+      "name": "Спириденко Данила Алексеевич",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

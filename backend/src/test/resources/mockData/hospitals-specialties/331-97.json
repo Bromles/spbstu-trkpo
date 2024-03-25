@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 34,
+      "freeTicketCount": 34,
+      "id": "185",
+      "lastDate": "2024-04-29T00:00:00",
+      "name": "Сапига Анна Николаевна",
+      "nearestDate": "2024-04-05T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

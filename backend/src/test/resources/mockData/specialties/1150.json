@@ -1,0 +1,35 @@
+{
+  "result": [
+    {
+      "id": "72",
+      "ferId": "16",
+      "name": "ВРАЧ ОБЩЕЙ ПРАКТИКИ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "4",
+      "ferId": "27",
+      "name": "ТЕРАПЕВТ УЧАСТ.",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "14",
+      "ferId": "31",
+      "name": "ЭНДОКРИНОЛОГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "КАБИНЕТ 210",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1e6e83b1-90b1-11ed-bbb2-b496918ad4af",
+      "lastDate": null,
+      "name": "Чарышкина Юлия Викторовна (Врач-оториноларинголог)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "КАБИНЕТ 210, ОТПУСК 26.02-07.03,22.04-26.04, УЧЕБА 11.03-29.03.",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "98638597-ebe2-11ec-bba1-b496918ad4ad",
+      "lastDate": "2024-04-08T15:12:00",
+      "name": "Бойко Лариса Анатольевна (Врач-оториноларинголог)",
+      "nearestDate": "2024-04-08T15:12:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

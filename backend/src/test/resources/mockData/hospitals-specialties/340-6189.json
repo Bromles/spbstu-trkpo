@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Стоматолог-пародонтолог",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "262",
+      "lastDate": "2024-04-08T13:00:00",
+      "name": "Арзуманян Анджела Владимировна",
+      "nearestDate": "2024-04-08T08:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Стоматолог-пародонтолог",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "221",
+      "lastDate": null,
+      "name": "Кузьмина Екатерина Петровна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

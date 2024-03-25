@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "648",
+      "lastDate": null,
+      "name": "Сысак Петр Петрович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 69,
+      "freeTicketCount": 69,
+      "id": "638",
+      "lastDate": "2024-04-08T18:45:00",
+      "name": "Юсупов Багаутдин Набиюллаевич",
+      "nearestDate": "2024-04-01T14:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

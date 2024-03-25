@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 10,
+      "freeTicketCount": 10,
+      "id": "д71.286",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Савран А.О., врач-ЛФК, С 0 ДО 3 ЛЕТ 309 КАБ",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 27,
+      "freeTicketCount": 27,
+      "id": "д71.97",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Савран А.О., врач-ЛФК, С 3 ДО 17 ЛЕТ 309 КАБ",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 12,
+      "freeTicketCount": 12,
+      "id": "д71.131",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": "Тридубенко Т.А. ЛФК С 3 ДО 17 ЛЕТ каб.№219",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

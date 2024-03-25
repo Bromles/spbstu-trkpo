@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "12 Педиатрический участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 31,
+      "freeTicketCount": 31,
+      "id": "563",
+      "lastDate": "2024-04-05T11:48:00",
+      "name": "Новикова Нина Алексеевна",
+      "nearestDate": "2024-03-29T11:00:00"
+    },
+    {
+      "ariaNumber": "10 Педиатрический участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 43,
+      "freeTicketCount": 43,
+      "id": "613",
+      "lastDate": "2024-04-05T14:48:00",
+      "name": "Саид Нурулла Абубакар",
+      "nearestDate": "2024-03-25T19:06:00"
+    },
+    {
+      "ariaNumber": "11 Педиатрический участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 32,
+      "freeTicketCount": 32,
+      "id": "564",
+      "lastDate": "2024-04-05T17:48:00",
+      "name": "Шин Мая Сергеевна",
+      "nearestDate": "2024-03-27T14:24:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

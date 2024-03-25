@@ -1,0 +1,184 @@
+{
+  "result": [
+    {
+      "ariaNumber": "1",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "1117",
+      "lastDate": "2024-04-05T09:28:00",
+      "name": "Авакян Марина Хачиковна",
+      "nearestDate": "2024-04-02T08:46:00"
+    },
+    {
+      "ariaNumber": "15",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 9,
+      "freeTicketCount": 9,
+      "id": "2276",
+      "lastDate": "2024-04-05T15:28:00",
+      "name": "Балаева Анастасия Игоревна",
+      "nearestDate": "2024-03-26T11:10:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2037",
+      "lastDate": null,
+      "name": "Врач для выписки кабинет",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 22,
+      "freeTicketCount": 22,
+      "id": "2253",
+      "lastDate": "2024-03-26T09:55:00",
+      "name": "Врач для выписки кабинет",
+      "nearestDate": "2024-03-26T08:00:00"
+    },
+    {
+      "ariaNumber": "10",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "964",
+      "lastDate": "2024-04-08T08:18:00",
+      "name": "Данилова Ольга Ивановна",
+      "nearestDate": "2024-04-01T08:28:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "511",
+      "lastDate": null,
+      "name": "Исаева Александра Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "5, 6",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "823",
+      "lastDate": "2024-04-08T14:00:00",
+      "name": "Кобзар Наталья Дмитриевна",
+      "nearestDate": "2024-04-03T13:48:00"
+    },
+    {
+      "ariaNumber": "16",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 11,
+      "freeTicketCount": 11,
+      "id": "2019",
+      "lastDate": "2024-04-08T13:18:00",
+      "name": "Медведев Семен Викторович",
+      "nearestDate": "2024-03-26T14:02:00"
+    },
+    {
+      "ariaNumber": "12, 18",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1982",
+      "lastDate": null,
+      "name": "Одегова Ольга Антоновна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "11, 17",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2370",
+      "lastDate": null,
+      "name": "Окунева Галина Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "14",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "1950",
+      "lastDate": "2024-04-08T09:18:00",
+      "name": "Орлова Фируза Маратовна",
+      "nearestDate": "2024-04-03T16:56:00"
+    },
+    {
+      "ariaNumber": "13",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2290",
+      "lastDate": null,
+      "name": "Симоненко Мария Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "3, 8",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1421",
+      "lastDate": null,
+      "name": "Симонок Галина Анатольевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 53,
+      "freeTicketCount": 53,
+      "id": "2209",
+      "lastDate": "2024-04-08T12:06:00",
+      "name": "Справка об эпидокружении ",
+      "nearestDate": "2024-03-26T12:18:00"
+    },
+    {
+      "ariaNumber": "7, 9",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "625",
+      "lastDate": null,
+      "name": "Тюкина Татьяна Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "2, 4",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "587",
+      "lastDate": "2024-04-05T10:58:00",
+      "name": "Шевченко Елена Николаевна",
+      "nearestDate": "2024-04-03T09:28:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,62 @@
+{
+  "result": [
+    {
+      "id": "9999",
+      "ferId": "58",
+      "name": "Запись на углубленную диспансеризацию",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "73",
+      "ferId": "176",
+      "name": "Стоматология терапевтическая",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "74",
+      "ferId": "177",
+      "name": "Стоматология хирургическая",
+      "countFreeParticipant": 29,
+      "countFreeTicket": 29,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "id": "78",
+      "ferId": "27",
+      "name": "Терапевт",
+      "countFreeParticipant": 1,
+      "countFreeTicket": 1,
+      "lastDate": "2024-03-29T00:00:00",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "id": "84",
+      "ferId": "145",
+      "name": "Уролог",
+      "countFreeParticipant": 82,
+      "countFreeTicket": 82,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "89",
+      "ferId": "30",
+      "name": "Хирург",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

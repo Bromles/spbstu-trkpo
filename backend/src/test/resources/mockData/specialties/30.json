@@ -1,0 +1,98 @@
+{
+  "result": [
+    {
+      "id": "977",
+      "ferId": "27",
+      "name": "Врач терапевт",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "981",
+      "ferId": "30",
+      "name": "Врач хирург",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "990",
+      "ferId": "27",
+      "name": "Врач общей практики (семейный врач)",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "1015",
+      "ferId": "32",
+      "name": "Врач инфекционист",
+      "countFreeParticipant": 33,
+      "countFreeTicket": 33,
+      "lastDate": "2024-04-08T13:00:00",
+      "nearestDate": "2024-04-01T10:40:00"
+    },
+    {
+      "id": "1018",
+      "ferId": "43",
+      "name": "Врач колопроктолог",
+      "countFreeParticipant": 5,
+      "countFreeTicket": 5,
+      "lastDate": "2024-04-08T16:20:00",
+      "nearestDate": "2024-04-05T15:40:00"
+    },
+    {
+      "id": "1022",
+      "ferId": "19",
+      "name": "Врач оториноларинголог",
+      "countFreeParticipant": 1,
+      "countFreeTicket": 1,
+      "lastDate": "2024-04-08T16:24:00",
+      "nearestDate": "2024-04-08T16:24:00"
+    },
+    {
+      "id": "1058",
+      "ferId": "20",
+      "name": "Врач офтальмолог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "1198",
+      "ferId": "145",
+      "name": "Врач уролог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "9999",
+      "ferId": "58",
+      "name": "Диспансеризация 106 кабинет",
+      "countFreeParticipant": 28,
+      "countFreeTicket": 28,
+      "lastDate": "2024-04-08T19:45:00",
+      "nearestDate": "2024-04-01T18:30:00"
+    },
+    {
+      "id": "201744",
+      "ferId": "154",
+      "name": "Углублённая диспансеризация",
+      "countFreeParticipant": 1,
+      "countFreeTicket": 1,
+      "lastDate": "2024-03-26T13:45:00",
+      "nearestDate": "2024-03-26T13:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "40",
+      "lastDate": null,
+      "name": "Беляков Андрей Викторович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "отп.17.08-04.09",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "36",
+      "lastDate": null,
+      "name": "Мазурец Александр Матфеевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8881",
+      "lastDate": null,
+      "name": "Никулин Эдуард Анатольевич (41)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 10,
+      "freeTicketCount": 10,
+      "id": "120",
+      "lastDate": "2024-04-08T13:40:00",
+      "name": "Цветкова Елена Владимировна 41",
+      "nearestDate": "2024-04-02T09:20:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

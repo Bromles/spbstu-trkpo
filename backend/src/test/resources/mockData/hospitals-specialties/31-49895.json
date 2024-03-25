@@ -1,0 +1,184 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 8,
+      "freeTicketCount": 11,
+      "id": "1245",
+      "lastDate": "2024-04-01T11:45:00",
+      "name": "Абдулаева Патимат Абдулаевна",
+      "nearestDate": "2024-04-01T10:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "п. Александровская , Волхонское шоссе д.31",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "506",
+      "lastDate": null,
+      "name": "Бойцова Алла Анатольевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "533",
+      "lastDate": null,
+      "name": "Власенко Анастасия Олеговна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "330",
+      "lastDate": null,
+      "name": "Гольцова Ирина Павловна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "806",
+      "lastDate": null,
+      "name": "Ермоленко Андрей Михайлович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "804",
+      "lastDate": null,
+      "name": "Иванова Ирина Степановна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 9,
+      "freeTicketCount": 9,
+      "id": "530",
+      "lastDate": "2024-04-01T12:00:00",
+      "name": "Исмоилов Фаррухджон Атхамович",
+      "nearestDate": "2024-04-01T09:45:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "805",
+      "lastDate": null,
+      "name": "Калганова Марина Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 4,
+      "freeTicketCount": 5,
+      "id": "132",
+      "lastDate": "2024-04-01T18:00:00",
+      "name": "Морозов Виталий Анатольевич",
+      "nearestDate": "2024-04-01T15:45:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "203",
+      "lastDate": null,
+      "name": "Непомилуева Анна Анатольевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "896",
+      "lastDate": null,
+      "name": "Ринкевич Зарина Аскаталиевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "800",
+      "lastDate": null,
+      "name": "Романченко Антон Сергеевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "129",
+      "lastDate": null,
+      "name": "Семёнова Ирина Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "310",
+      "lastDate": "2024-04-01T11:30:00",
+      "name": "Сомов Николай Александрович",
+      "nearestDate": "2024-04-01T11:30:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "126",
+      "lastDate": "2024-04-01T11:45:00",
+      "name": "Чекалкина Валентина Николаевна",
+      "nearestDate": "2024-04-01T10:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 10,
+      "freeTicketCount": 13,
+      "id": "127",
+      "lastDate": "2024-04-01T12:00:00",
+      "name": "Юркова Ольга Дмитриевна",
+      "nearestDate": "2024-03-29T12:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

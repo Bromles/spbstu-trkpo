@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Д/П №32 ул.Будапештская, д.66, к. 2, т.246-38-74",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 67,
+      "freeTicketCount": 67,
+      "id": "73",
+      "lastDate": "2024-04-03T13:00:00",
+      "name": "Жучкова Ирина Вячеславовна",
+      "nearestDate": "2024-03-29T08:15:00"
+    },
+    {
+      "ariaNumber": "Д/П №32 ул.Будапештская, д.66, к. 2, т.246-38-74",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 62,
+      "freeTicketCount": 62,
+      "id": "74",
+      "lastDate": "2024-04-03T18:45:00",
+      "name": "Яковлева Оксана Александровна",
+      "nearestDate": "2024-03-26T08:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

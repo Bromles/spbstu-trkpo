@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 74,
+      "freeTicketCount": 74,
+      "id": "1414",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Корсакова Марина Геннадьевна",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "260",
+      "lastDate": null,
+      "name": "Сергачева Елена Ивановна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

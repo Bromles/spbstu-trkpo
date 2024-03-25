@@ -1,0 +1,151 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 37,
+      "freeTicketCount": 37,
+      "id": "17",
+      "lastDate": "2024-04-03T00:00:00",
+      "name": "Баширова Ирина Александровна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "7 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 42,
+      "freeTicketCount": 42,
+      "id": "7",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Боброва Ирина Игоревна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "4 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 15,
+      "freeTicketCount": 15,
+      "id": "203",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Вахрушева Ксения Геннадьевна",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "1 участок ул. Кременчугская 13 к2 А",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 17,
+      "freeTicketCount": 17,
+      "id": "708",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Гайсина Наиля Ренатовна",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "11 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 17,
+      "freeTicketCount": 17,
+      "id": "13",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Герасимова Наталья Александровна",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "16 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "297",
+      "lastDate": null,
+      "name": "Гергардт Екатерина Вячеславовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "8 Участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 20,
+      "freeTicketCount": 20,
+      "id": "269",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Мартынова Александра Александровна",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "12 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "5",
+      "lastDate": null,
+      "name": "Мстиславская Тамара Васильевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "15 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "11",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Паничева Лариса Борисовна",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "9 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 33,
+      "freeTicketCount": 33,
+      "id": "681",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Решетняк Илья Александрович",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "6 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 96,
+      "freeTicketCount": 96,
+      "id": "265",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Соловьева Ксения Сергеевна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "3 участок ул. Кременчугская 13 к2 А",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "709",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Топчий Евгения Юрьевна",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "14 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 30,
+      "freeTicketCount": 30,
+      "id": "700",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Шигапова Валерия Идрисовна",
+      "nearestDate": "2024-03-27T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

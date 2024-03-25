@@ -1,0 +1,283 @@
+{
+  "result": [
+    {
+      "ariaNumber": "402",
+      "ariaType": null,
+      "comment": "27.03.2024: Дежурный врач",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "763",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Александрова Татьяна Валентиновна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "502",
+      "ariaType": null,
+      "comment": "с 04.04.2024 по 05.04.2024: Учёба;\nс 06.04.2024 по 07.04.2024: Учёба;\n08.04.2024: Учёба",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1222",
+      "lastDate": null,
+      "name": "Богданова Валерия Валерьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "404",
+      "ariaType": null,
+      "comment": "26.03.2024: Дежурный врач",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1813",
+      "lastDate": null,
+      "name": "Гришина Татьяна Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "501",
+      "ariaType": null,
+      "comment": "25.03.2024: Очередные и дополнительные отпуска;\nс 01.04.2024 по 05.04.2024: Очередные и дополнительные отпуска;\n08.04.2024: Дежурный врач",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1473",
+      "lastDate": null,
+      "name": "Давыдов Иван Владимирович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "504",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "336",
+      "lastDate": null,
+      "name": "Доросс Антон Андреевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "503",
+      "ariaType": null,
+      "comment": "03.04.2024: Дежурный врач;\n05.04.2024: Дежурный врач",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "2691",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Доротенко Анна Александровна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "507",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 29.03.2024: Нетрудоспособность (Болезнь, карантин и т.п.)",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2038",
+      "lastDate": null,
+      "name": "Забродин Алексей Эдуардович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "500",
+      "ariaType": null,
+      "comment": "28.03.2024: Дежурный врач",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2738",
+      "lastDate": null,
+      "name": "Казимагомедова Гехвер Казимагомедовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "505",
+      "ariaType": null,
+      "comment": "26.03.2024: Дежурный врач",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "64",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Корешкова Галина Петровна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "410",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2723",
+      "lastDate": null,
+      "name": "Кузнецова Анна Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "506",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "506",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Латышкина Ольга Юрьевна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "410",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1552",
+      "lastDate": null,
+      "name": "Лисицина Вероника Евгеньевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "407",
+      "ariaType": null,
+      "comment": "01.04.2024: Дежурный врач",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1457",
+      "lastDate": null,
+      "name": "Марчук Константин Алексеевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "510",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 03.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "352",
+      "lastDate": null,
+      "name": "Мельниченко Ирина Львовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "406",
+      "ariaType": null,
+      "comment": "03.04.2024: Дежурный врач",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1781",
+      "lastDate": null,
+      "name": "Мухидинова Фарангиз Шухратовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "411",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "2802",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Орлова Виктория Анатольевна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "512",
+      "ariaType": null,
+      "comment": "29.03.2024: Дежурный врач",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2821",
+      "lastDate": null,
+      "name": "Полочанская Марина Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1839",
+      "lastDate": null,
+      "name": "Серогодская Полина Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "401",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1821",
+      "lastDate": null,
+      "name": "Силантьева Виктория Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "403",
+      "ariaType": null,
+      "comment": "08.04.2024: Дежурный врач",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "847",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Скобелева Елена Ювенальевна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "508",
+      "ariaType": null,
+      "comment": "02.04.2024: Дежурный врач",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "868",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Сова Елена Николаевна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "408",
+      "ariaType": null,
+      "comment": "29.03.2024: Дежурный врач;\n04.04.2024: Дежурный врач",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1848",
+      "lastDate": null,
+      "name": "Твердохлебов Сергей Владимирович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "405",
+      "ariaType": null,
+      "comment": "25.03.2024: Нетрудоспособность (Болезнь, карантин и т.п.)",
+      "freeParticipantCount": 27,
+      "freeTicketCount": 27,
+      "id": "60",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Титова Марина Владимировна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "509",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1223",
+      "lastDate": null,
+      "name": "Толмачев Андрей Георгиевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "511",
+      "ariaType": null,
+      "comment": "25.03.2024: Дежурный врач",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2046",
+      "lastDate": null,
+      "name": "Юрлова Софья Андреевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

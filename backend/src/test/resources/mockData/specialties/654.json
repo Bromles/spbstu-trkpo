@@ -1,0 +1,26 @@
+{
+  "result": [
+    {
+      "id": "61bf79ef-e8c8-11ed-80fc-ac1f6b341b15",
+      "ferId": "29",
+      "name": "Фтизиатрия (педиатрия)",
+      "countFreeParticipant": 59,
+      "countFreeTicket": 59,
+      "lastDate": "2024-03-29T13:15:00",
+      "nearestDate": "2024-03-26T09:30:00"
+    },
+    {
+      "id": "e4990646-468f-11ed-80f7-ac1f6b341b15",
+      "ferId": "29",
+      "name": "Фтизиатрия",
+      "countFreeParticipant": 394,
+      "countFreeTicket": 394,
+      "lastDate": "2024-03-29T18:15:00",
+      "nearestDate": "2024-03-25T16:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

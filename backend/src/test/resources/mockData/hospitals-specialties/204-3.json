@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 153,
+      "freeTicketCount": 162,
+      "id": "208",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "Шмидт М.П 1 отд. ",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "18",
+      "lastDate": null,
+      "name": "Ольховая И.А. 2отд.(бол.лист)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "31",
+      "lastDate": null,
+      "name": "Карсонова Елена Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "08.04.2024: Учеба",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "828",
+      "lastDate": null,
+      "name": "Козадаева Лилия Юрьевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

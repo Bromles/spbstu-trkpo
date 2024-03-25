@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "17п",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "76",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Данилова Галина Николаевна",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "04п",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "764",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Ткаченко Алина Дмитриевна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "06п",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "751",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Халматова Дилхумор ",
+      "nearestDate": "2024-03-27T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

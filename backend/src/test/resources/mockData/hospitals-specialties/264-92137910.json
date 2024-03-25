@@ -1,0 +1,118 @@
+{
+  "result": [
+    {
+      "ariaNumber": "2 Педиатрический участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 73,
+      "freeTicketCount": 73,
+      "id": "461",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Бердова Яна Львовна",
+      "nearestDate": "2024-03-27T14:50:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 29,
+      "freeTicketCount": 29,
+      "id": "769",
+      "lastDate": "2024-04-08T11:24:00",
+      "name": "Выдача справок ДПО 43",
+      "nearestDate": "2024-03-26T09:12:00"
+    },
+    {
+      "ariaNumber": "3 Педиатрический участок, 6 Педиатрический участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 42,
+      "freeTicketCount": 42,
+      "id": "969",
+      "lastDate": "2024-04-08T13:40:00",
+      "name": "Инина Елена Михайловна",
+      "nearestDate": "2024-04-01T12:20:00"
+    },
+    {
+      "ariaNumber": "5 Педиатрический участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 68,
+      "freeTicketCount": 68,
+      "id": "960",
+      "lastDate": "2024-04-08T19:40:00",
+      "name": "Киронова Раъногул Диловаровна",
+      "nearestDate": "2024-03-25T19:10:00"
+    },
+    {
+      "ariaNumber": "4 Педиатрический участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 54,
+      "freeTicketCount": 54,
+      "id": "372",
+      "lastDate": "2024-04-08T10:40:00",
+      "name": "Клемина Наталья Борисовна",
+      "nearestDate": "2024-03-27T18:30:00"
+    },
+    {
+      "ariaNumber": "1 Педиатрический участок, 2 Педиатрический участок, 3 Педиатрический участок, 4 Педиатрический участок, 5 Педиатрический участок, 6 Педиатрический участок, 7 Педиатрический участок, 8 Педиатрический участок, 9 Педиатрический участок",
+      "ariaType": null,
+      "comment": "Врач-педиатр дежурный (ТОЛЬКО ДЛЯ ЗАБОЛЕВШИХ ДЕТЕЙ)",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "680",
+      "lastDate": null,
+      "name": "Козлова Евгения Дмитриевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "8 Педиатрический участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 51,
+      "freeTicketCount": 51,
+      "id": "869",
+      "lastDate": "2024-04-08T11:40:00",
+      "name": "Мухина Оксана Николаевна",
+      "nearestDate": "2024-03-29T09:40:00"
+    },
+    {
+      "ariaNumber": "1 Педиатрический участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 46,
+      "freeTicketCount": 46,
+      "id": "873",
+      "lastDate": "2024-04-08T19:40:00",
+      "name": "Оскольских Ольга Михайловна",
+      "nearestDate": "2024-03-29T13:10:00"
+    },
+    {
+      "ariaNumber": "7 Педиатрический участок, 9 Педиатрический участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 62,
+      "freeTicketCount": 62,
+      "id": "298",
+      "lastDate": "2024-04-08T19:40:00",
+      "name": "Пескин Валерий Владимирович",
+      "nearestDate": "2024-03-25T17:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 189,
+      "freeTicketCount": 189,
+      "id": "341",
+      "lastDate": "2024-04-08T19:00:00",
+      "name": "Шемякина Ольга Евгеньевна",
+      "nearestDate": "2024-03-27T17:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

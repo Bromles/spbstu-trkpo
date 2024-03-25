@@ -1,0 +1,96 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "ул Царицынская д.1",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.033",
+      "lastDate": null,
+      "name": "БЕЛЯЕВА И В",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "ул Царицынская д.1",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.036",
+      "lastDate": null,
+      "name": "ВОРОПАЕВА Т В",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "ул Царицынская д.1",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.809",
+      "lastDate": null,
+      "name": "ВОРОПАЕВА Т.А.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "ул Царицынская д.1",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 2,
+      "id": "ПМ65.695",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "ЗЕЗИНА Н.А.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.032",
+      "lastDate": null,
+      "name": "КИСЕЛЕВА Н Д",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.817",
+      "lastDate": null,
+      "name": "КРАЕВСКАЯ И.А.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.269",
+      "lastDate": null,
+      "name": "Пхиклешвили Ш.А.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.272",
+      "lastDate": null,
+      "name": "Терентьева О.И.",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

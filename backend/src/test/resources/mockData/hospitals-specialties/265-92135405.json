@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 31,
+      "freeTicketCount": 31,
+      "id": "247",
+      "lastDate": "2024-04-08T13:20:00",
+      "name": "Мыскина Надежда Александровна",
+      "nearestDate": "2024-04-01T10:20:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

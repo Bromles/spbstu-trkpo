@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "15,16",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 51,
+      "freeTicketCount": 76,
+      "id": "ОВОП.1",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": " Брызгин Александр Иванович ",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "17",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 10,
+      "id": "ОВОП.2",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": " Кумеда Яна Александровна ",
+      "nearestDate": "2024-04-04T00:00:00"
+    },
+    {
+      "ariaNumber": "19",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 66,
+      "freeTicketCount": 97,
+      "id": "ОВОП.4",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Миронов Роман Владимирович",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "18",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 54,
+      "freeTicketCount": 83,
+      "id": "ОВОП.3",
+      "lastDate": "2024-04-11T00:00:00",
+      "name": "Савельева Виолетта Евгеньевна ",
+      "nearestDate": "2024-03-27T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

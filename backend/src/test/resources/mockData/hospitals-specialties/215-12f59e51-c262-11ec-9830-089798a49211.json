@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "каб.317",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "61c95b0d-0dbe-11ed-bba5-b496918ad4ad",
+      "lastDate": null,
+      "name": "Алексеева Инна Владимировна (Врач-уролог)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "каб.317",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "6dc27b84-0dbe-11ed-bba5-b496918ad4ad",
+      "lastDate": null,
+      "name": "Терещенко Роман Викторович (Врач-уролог)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 33,
+      "freeTicketCount": 33,
+      "id": "745",
+      "lastDate": "2024-04-03T00:00:00",
+      "name": "Дугулубгов Кантемир Замирович",
+      "nearestDate": "2024-03-28T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

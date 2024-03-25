@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 14,
+      "freeTicketCount": 14,
+      "id": "д71.17",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Покровская Л.В., нефролог, 313 КАБ",
+      "nearestDate": "2024-03-27T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

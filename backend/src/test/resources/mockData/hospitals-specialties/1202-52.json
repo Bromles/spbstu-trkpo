@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Офис врача - педиатра",
+      "ariaType": null,
+      "comment": "Прием ведется по адресу ул. Пейзажная, д. 10. ",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1528",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Вербицкий Сергей Леонидович возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Офис врача - педиатра",
+      "ariaType": null,
+      "comment": "Прием ведется по адресу ул. Пейзажная, д. 10. ",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 6,
+      "id": "2194",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Карабасова Яна Олеговна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Офис врача - педиатра",
+      "ariaType": null,
+      "comment": "Прием ведется по адресу ул. Пейзажная, д. 10. ",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2218",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Ильина Полина Дмитриевна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Офис врача - педиатра",
+      "ariaType": null,
+      "comment": "Прием ведется по адресу ул. Пейзажная, д. 10.",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 4,
+      "id": "2238",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Репенёк Елена Ивановна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

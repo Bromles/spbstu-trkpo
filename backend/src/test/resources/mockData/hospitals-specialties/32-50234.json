@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 140,
+      "freeTicketCount": 140,
+      "id": "1153",
+      "lastDate": "2024-04-08T19:00:00",
+      "name": "Кабинет Профилактики (Углубленная Диспансеризация)",
+      "nearestDate": "2024-03-27T11:10:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

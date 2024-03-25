@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "г. Пушкин, Софийский б-р, д. 28",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 6,
+      "id": "1189",
+      "lastDate": "2024-03-26T17:40:00",
+      "name": "Губаева Айгуль Ринатовна",
+      "nearestDate": "2024-03-26T14:40:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "пос. Шушары, тер. Ленсоветовский, д. 31 стр. 1",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "970",
+      "lastDate": "2024-04-08T19:30:00",
+      "name": "Колесов Александр Викторович",
+      "nearestDate": "2024-04-08T16:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "г. Пушкин, Софийский б-р, д. 28",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1237",
+      "lastDate": null,
+      "name": "Русанова Вита Владимировна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

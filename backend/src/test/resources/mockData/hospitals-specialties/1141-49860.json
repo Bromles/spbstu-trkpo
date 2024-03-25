@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "950",
+      "lastDate": "2024-04-05T09:00:00",
+      "name": "Иванова Наталья Геннадьевна",
+      "nearestDate": "2024-04-03T09:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "1006",
+      "lastDate": "2024-04-05T09:00:00",
+      "name": "Лебедева Екатерина Дмитриевна",
+      "nearestDate": "2024-04-04T09:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "838",
+      "lastDate": null,
+      "name": "Левитина Елена Адольфовна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

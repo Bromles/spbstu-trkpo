@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 32,
+      "freeTicketCount": 32,
+      "id": "779",
+      "lastDate": "2024-04-08T18:40:00",
+      "name": "Булгакова Елена Васильевна",
+      "nearestDate": "2024-03-26T11:40:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

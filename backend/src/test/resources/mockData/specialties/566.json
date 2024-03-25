@@ -1,0 +1,35 @@
+{
+  "result": [
+    {
+      "id": "72",
+      "ferId": "16",
+      "name": "ВРАЧ ОБЩЕЙ ПРАКТИКИ",
+      "countFreeParticipant": 161,
+      "countFreeTicket": 161,
+      "lastDate": "2024-04-24T00:00:00",
+      "nearestDate": "2024-04-04T00:00:00"
+    },
+    {
+      "id": "9999",
+      "ferId": "58",
+      "name": "Углубленная диспансеризация",
+      "countFreeParticipant": 11,
+      "countFreeTicket": 11,
+      "lastDate": "2024-03-29T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "77",
+      "ferId": "0",
+      "name": "ЭКГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

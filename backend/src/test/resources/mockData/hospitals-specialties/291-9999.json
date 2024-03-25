@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 311,
+      "freeTicketCount": 311,
+      "id": "8800",
+      "lastDate": "2024-04-08T19:40:00",
+      "name": "Диспансеризация Угл. диспансеризация (55)",
+      "nearestDate": "2024-03-25T16:40:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": "11 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "826",
+      "lastDate": null,
+      "name": "Абилова Дилбархон Мусажановна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "20 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "365",
+      "lastDate": null,
+      "name": "Абрамова Татьяна Викторовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "12 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "825",
+      "lastDate": null,
+      "name": "Ганиева Мухаббат Рахимбердиевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "18т",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 30.03.2024: Командировки служебные;\nс 01.04.2024 по 05.04.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "763",
+      "lastDate": null,
+      "name": "Пивень Юлия Петровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "36т",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "535",
+      "lastDate": null,
+      "name": "Пичужников Сергей Валерьевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "21т",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "743",
+      "lastDate": null,
+      "name": "Шондин Владимир Геннадьевич",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

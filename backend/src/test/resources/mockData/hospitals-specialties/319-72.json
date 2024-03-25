@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 21,
+      "freeTicketCount": 58,
+      "id": "184",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Митченко Ольга Анатольевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 46,
+      "freeTicketCount": 77,
+      "id": "399",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Мухсинов Юрий Джавланович",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 34,
+      "freeTicketCount": 54,
+      "id": "412",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Фомин Станислав Александрович",
+      "nearestDate": "2024-03-27T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 16,
+      "freeTicketCount": 68,
+      "id": "1290",
+      "lastDate": "2024-04-08T12:00:00",
+      "name": "Усова Наталья Олеговна",
+      "nearestDate": "2024-04-02T15:20:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

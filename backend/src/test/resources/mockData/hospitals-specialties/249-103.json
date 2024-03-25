@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 13,
+      "id": "164",
+      "lastDate": "2024-03-26T20:45:00",
+      "name": "Дмитриева Ирина Юрьевна (Детский приём. Первичная консультация)",
+      "nearestDate": "2024-03-26T15:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 82,
+      "id": "87",
+      "lastDate": "2024-03-29T13:45:00",
+      "name": "Кирилина Мария Викторовна (Детский приём. Первичная консультация)",
+      "nearestDate": "2024-03-26T15:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 60,
+      "id": "120",
+      "lastDate": "2024-03-29T13:45:00",
+      "name": "Кирилина Светлана Вячеславовна (Детский приём. Первичная консультация)",
+      "nearestDate": "2024-03-27T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 71,
+      "id": "86",
+      "lastDate": "2024-03-29T20:45:00",
+      "name": "Киселева Юлия Владимировна (Детский приём. Первичная консультация)",
+      "nearestDate": "2024-03-27T15:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 32,
+      "id": "88",
+      "lastDate": "2024-03-26T13:45:00",
+      "name": "Клюева Екатерина Александровна (Детский приём. Первичная консультация)",
+      "nearestDate": "2024-03-25T16:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

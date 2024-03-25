@@ -1,0 +1,151 @@
+{
+  "result": [
+    {
+      "ariaNumber": "9",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "5517",
+      "lastDate": null,
+      "name": "Багаутдинова Солтанат Абакаровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "7",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "9",
+      "lastDate": null,
+      "name": "Барбулат Вадим Анатольевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "3",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "36",
+      "lastDate": null,
+      "name": "Безвиконная Светлана Олеговна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "12",
+      "ariaType": null,
+      "comment": "21.03-27.03 отпуск. Прием бер.ведет Багаутдинова С.А.",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "573",
+      "lastDate": null,
+      "name": "Клеман Анжелика Дмитриевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Дежурный врач.\n",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "5741",
+      "lastDate": null,
+      "name": "Койбаев Сосланбек Заурбекович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "6",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "4879",
+      "lastDate": null,
+      "name": "Ляпустина Елена Андреевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "1",
+      "ariaType": null,
+      "comment": "01.04-12.04 гин. приема нет.",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "5808",
+      "lastDate": null,
+      "name": "Мазитова Мария Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "4",
+      "ariaType": null,
+      "comment": "20.03-26.03 отпуск. Прием бер. ведет Мазитова М.С.",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "5787",
+      "lastDate": null,
+      "name": "Митина Анастасия Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "11",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "5805",
+      "lastDate": null,
+      "name": "Рахмонова Шахноза Шоймардоновна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "10",
+      "ariaType": null,
+      "comment": "28.03-03.04 отпуск. Прием бер.ведет Мазитова М.С.",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "5631",
+      "lastDate": null,
+      "name": "Рязанова Анна Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "2",
+      "ariaType": null,
+      "comment": "01.04 - 07.04 отпуск.",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "5320",
+      "lastDate": null,
+      "name": "Серова Анастасия Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "8",
+      "ariaType": null,
+      "comment": "25.03 приема нет",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "52",
+      "lastDate": null,
+      "name": "Спиридонова Эмма Иннокентьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "5",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "5508",
+      "lastDate": null,
+      "name": "Челак Ирина Валерьевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "125",
+      "lastDate": null,
+      "name": "Арестов Андрей Владимирович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 12,
+      "freeTicketCount": 19,
+      "id": "9778",
+      "lastDate": "2024-04-04T16:20:00",
+      "name": "Иевлев Анатолий Евгеньевич",
+      "nearestDate": "2024-04-02T10:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

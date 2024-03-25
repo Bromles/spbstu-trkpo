@@ -1,0 +1,173 @@
+{
+  "result": [
+    {
+      "ariaNumber": "06",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 60,
+      "freeTicketCount": 60,
+      "id": "308",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Бамбах Дарья Дмитриевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "05",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 46,
+      "freeTicketCount": 46,
+      "id": "2689",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Грынив-Моспан Денис Николаевич",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "04",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 08.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "744",
+      "lastDate": null,
+      "name": "Лукьянова Ольга Игоревна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "13",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 65,
+      "freeTicketCount": 65,
+      "id": "808",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Михайленко Ирина Петровна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "01",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 61,
+      "freeTicketCount": 61,
+      "id": "2823",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": "Можегова Татьяна Валерьевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "14",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 63,
+      "freeTicketCount": 63,
+      "id": "523",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Нкура Ольга Юрьевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "08",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 54,
+      "freeTicketCount": 54,
+      "id": "937",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": "Погодаева Ксения Сергеевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "03",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 69,
+      "freeTicketCount": 69,
+      "id": "608",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Соколовская Надежда Геннадьевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "09",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 31,
+      "freeTicketCount": 31,
+      "id": "2025",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Танцура Валерия Сергеевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "07",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 44,
+      "freeTicketCount": 44,
+      "id": "687",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": "Тихомирова Анастасия Владимировна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "15",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 63,
+      "freeTicketCount": 63,
+      "id": "1982",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Трубникова Анастасия Романовна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "10",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 65,
+      "freeTicketCount": 65,
+      "id": "848",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Трухина Олеся Александровна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "11",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 60,
+      "freeTicketCount": 60,
+      "id": "343",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Чухрова Оксана Юрьевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "02",
+      "ariaType": null,
+      "comment": "03.04.2024: Нетрудоспособность (Болезнь, карантин и т.п.)",
+      "freeParticipantCount": 37,
+      "freeTicketCount": 37,
+      "id": "759",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Чучалова Наталья Викторовна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "12",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 31.03.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 26,
+      "freeTicketCount": 26,
+      "id": "615",
+      "lastDate": "2024-04-02T00:00:00",
+      "name": "Штурмина Евгения Викторовна",
+      "nearestDate": "2024-04-08T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

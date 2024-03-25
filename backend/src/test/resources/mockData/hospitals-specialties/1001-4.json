@@ -1,0 +1,96 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "ул Царицынская д.1",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.112",
+      "lastDate": null,
+      "name": "Валова И.Д (Царицынская д.1)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.1335",
+      "lastDate": null,
+      "name": "Иванникова СГ(Царицынская д1)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.174",
+      "lastDate": null,
+      "name": "КОСТИКОВА Е.Е (Царицынская д1)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "ул Царицынская д.1",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.1330",
+      "lastDate": null,
+      "name": "Королькова Н.Н.( Царицынская д1)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "ул Царицынская д.1",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.96",
+      "lastDate": null,
+      "name": "Мусаева Суфигури Мусаевна (Царицынская 1)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.284",
+      "lastDate": null,
+      "name": "СИЛИНА Е.Н(Царицынская д1)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "ул Царицынская д.1",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.022",
+      "lastDate": null,
+      "name": "ХРАМЦОВ О В (Царицынская д1)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.171",
+      "lastDate": null,
+      "name": "Щекарева А.И (Царицынская д1)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

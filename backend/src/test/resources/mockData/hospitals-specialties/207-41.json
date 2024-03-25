@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 6,
+      "id": "п63.76",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ЗОЛИНА СВЕТЛАНА СЕРГЕЕВНА ",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 39,
+      "freeTicketCount": 39,
+      "id": "П49.73",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "МЕДВЕДНИКОВА ТАМАРА НИКОЛАЕВНА ",
+      "nearestDate": "2024-03-27T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

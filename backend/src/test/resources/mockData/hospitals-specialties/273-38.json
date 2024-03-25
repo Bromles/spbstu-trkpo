@@ -1,0 +1,118 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 42,
+      "freeTicketCount": 42,
+      "id": "Д51.1882",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Алсаллоум Моаяд 19уч.",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 56,
+      "freeTicketCount": 56,
+      "id": "Д51.86",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Болдырева М.В. 9уч",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 77,
+      "freeTicketCount": 77,
+      "id": "д51.607",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Кирносов С.В. 4уч",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 52,
+      "freeTicketCount": 52,
+      "id": "д51.681",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Кузьмина Е.Н. 6уч",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 28,
+      "freeTicketCount": 28,
+      "id": "д51.871",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Лебедева Е.Д. 2уч",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 56,
+      "freeTicketCount": 56,
+      "id": "д51.605",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Лиханова М.Г. 5уч",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 88,
+      "freeTicketCount": 88,
+      "id": "480.195",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Полубояринова ДА 3 уч.",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 69,
+      "freeTicketCount": 69,
+      "id": "д51.153",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Рожнов ПВ 8уч",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 68,
+      "freeTicketCount": 68,
+      "id": "Д51.87",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Шуйкина О.Л. 10уч",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "д51.56",
+      "lastDate": null,
+      "name": "кабинет 210",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

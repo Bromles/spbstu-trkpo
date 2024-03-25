@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "7ffdda76-c4a6-11ec-9830-089798a49211",
+      "lastDate": null,
+      "name": "Петрова Елена Алексеевна (Врач-детский хирург)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "71e5174b-00ff-11ed-bba2-b496918ad4ad",
+      "lastDate": null,
+      "name": "Сенчуров Евгений Михайлович (Врач детский хирург)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "7412df6b-00ff-11ed-bba2-b496918ad4ad",
+      "lastDate": null,
+      "name": "Шамилёва Лариса Викторовна (Врач детский хирург)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

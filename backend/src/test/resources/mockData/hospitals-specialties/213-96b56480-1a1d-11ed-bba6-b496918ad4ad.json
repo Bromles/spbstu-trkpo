@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "f55a1587-6cdd-11ee-bc18-b496918ad90e",
+      "lastDate": "2024-04-08T15:00:00",
+      "name": "Дудкин Филипп Сергеевич (Кабинет № 308)",
+      "nearestDate": "2024-04-08T15:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

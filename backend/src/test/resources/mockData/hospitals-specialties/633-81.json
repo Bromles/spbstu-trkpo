@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Ортопед-травматолог",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1943",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Игнатов Александр Владимирович",
+      "nearestDate": "2024-03-27T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

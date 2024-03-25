@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 69,
+      "freeTicketCount": 69,
+      "id": "18",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "КУЗИНА НМ венерология, женщины",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 11,
+      "freeTicketCount": 11,
+      "id": "152",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "ЛУЗГИНА ЕА (венерология по направлениям)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 56,
+      "freeTicketCount": 56,
+      "id": "52",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "ЛУЗГИНА ЕА венерология, женщины",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 120,
+      "freeTicketCount": 120,
+      "id": "135",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Левина (платно) женская венерология",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 244,
+      "freeTicketCount": 244,
+      "id": "156",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Левина Е.Б.(по направлениям)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 245,
+      "freeTicketCount": 245,
+      "id": "61",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Обследование на вен.заб.Левина",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

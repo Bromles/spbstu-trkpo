@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 96,
+      "freeTicketCount": 120,
+      "id": "16031",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Гумерова Э.З. 3 отд. каб.118 ",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 56,
+      "freeTicketCount": 71,
+      "id": "16702",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Макарова О.И. 3 Т.О. 306 каб.",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 104,
+      "freeTicketCount": 137,
+      "id": "17020",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Студеникина Е.С 2 отд. каб.325 ",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

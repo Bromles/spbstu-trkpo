@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 14,
+      "freeTicketCount": 14,
+      "id": "п13.518",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Банайтис Р.И. ВОП",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 21,
+      "freeTicketCount": 21,
+      "id": "п13.386",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Кононова Г. И.",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "п13.388",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": "Шаховская О. Ю.",
+      "nearestDate": "2024-03-28T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

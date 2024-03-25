@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "1 ",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 15,
+      "id": "106",
+      "lastDate": "2024-04-08T16:12:00",
+      "name": "Стройкова Анна Михайловна",
+      "nearestDate": "2024-04-08T15:48:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

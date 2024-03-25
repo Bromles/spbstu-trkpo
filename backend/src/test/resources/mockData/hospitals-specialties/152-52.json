@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": "6 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 57,
+      "freeTicketCount": 57,
+      "id": "353",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Абузакри Валид Ахмад Мухаммед",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "5 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 71,
+      "freeTicketCount": 71,
+      "id": "388",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "Бразгун Юлия Руслановна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "1 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 89,
+      "freeTicketCount": 89,
+      "id": "375",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "Демченко Вера Борисовна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "2 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 83,
+      "freeTicketCount": 83,
+      "id": "33",
+      "lastDate": "2024-04-10T00:00:00",
+      "name": "Лайтнер Александра Васильевна",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "3 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 83,
+      "freeTicketCount": 83,
+      "id": "221",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "Макаренко Светлана Евгеньевна",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "4 уч.",
+      "ariaType": null,
+      "comment": "с 01.04.2024 по 08.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "341",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Сидоркина Ирина Васильевна",
+      "nearestDate": "2024-03-29T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

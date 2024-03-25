@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "232 ",
+      "freeParticipantCount": 244,
+      "freeTicketCount": 244,
+      "id": "2865",
+      "lastDate": "2024-04-08T14:45:00",
+      "name": "Шелехова Анастасия Андреевна",
+      "nearestDate": "2024-03-26T11:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,17 @@
+{
+  "result": [
+    {
+      "id": "990",
+      "ferId": "27",
+      "name": "Врач общей практики (семейный врач)",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

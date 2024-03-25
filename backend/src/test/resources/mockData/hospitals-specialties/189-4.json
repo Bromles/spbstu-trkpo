@@ -1,0 +1,217 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 19,
+      "freeTicketCount": 37,
+      "id": "117.172",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Анохина А.В. (1 т.о.)",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 59,
+      "freeTicketCount": 84,
+      "id": "117.152",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Глухова Н.Г.( 2 т.о.)",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 48,
+      "freeTicketCount": 77,
+      "id": "117.131",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Гришанова О.А. (1т.о.)",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 18,
+      "freeTicketCount": 35,
+      "id": "117.107",
+      "lastDate": "2024-04-02T00:00:00",
+      "name": "Джебирханов А.С.-Х ( 1 т.о.)",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 57,
+      "freeTicketCount": 82,
+      "id": "117.140",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Дзюба О.М. (2 т.о.)",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 53,
+      "freeTicketCount": 81,
+      "id": "117.124",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Иванова В.В. (1 т.о)",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 54,
+      "freeTicketCount": 78,
+      "id": "117.в18",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Калинкина И.Б. (2 т.о.)",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 52,
+      "freeTicketCount": 76,
+      "id": "117.в172",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Коробова Е.Е. (2 т.о.) ",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 53,
+      "freeTicketCount": 82,
+      "id": "117.154",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Марченко Ю.Б. (1т.о.)",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 49,
+      "freeTicketCount": 82,
+      "id": "117.183",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Морозов Д.А. (1 т.о)",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 15,
+      "id": "117.84",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Никитенкова Г.Н.( 1 т.о.)",
+      "nearestDate": "2024-04-04T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 20,
+      "freeTicketCount": 35,
+      "id": "117.95",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Погребная С.Е. (1т.о.)",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 54,
+      "freeTicketCount": 87,
+      "id": "117.150",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Руденко Г.Н.( 1 т.о.)",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 53,
+      "freeTicketCount": 77,
+      "id": "117.в28",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Сун-Сай Л.Н. (2 т.о.)",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 58,
+      "freeTicketCount": 83,
+      "id": "117.в10",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Суханкина И.Е. (2 т.о)",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 56,
+      "freeTicketCount": 81,
+      "id": "117.110",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Токарева Е.Ю.(2 т.о)",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 39,
+      "freeTicketCount": 57,
+      "id": "117.177",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Хаммасова Э.С. (2 т.о)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "117.134",
+      "lastDate": null,
+      "name": "Касаткин Э.Д. (1 т.о.)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 1,
+      "id": "117.132",
+      "lastDate": "2024-03-25T00:00:00",
+      "name": "Шапошников И.А.(2 т.о.)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

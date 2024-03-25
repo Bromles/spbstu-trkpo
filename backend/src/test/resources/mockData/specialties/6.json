@@ -1,0 +1,26 @@
+{
+  "result": [
+    {
+      "id": "92134140",
+      "ferId": "8",
+      "name": "Акушерство и гинекология",
+      "countFreeParticipant": 114,
+      "countFreeTicket": 114,
+      "lastDate": "2024-04-08T19:00:00",
+      "nearestDate": "2024-03-29T10:30:00"
+    },
+    {
+      "id": "92134584",
+      "ferId": "8",
+      "name": "Гинеколог - эндокринолог.Направление ОБЯЗАТЕЛЬНО только для пациенток из других районов города в рамках ОМС ! Приём только не беременных!",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "1175",
+      "lastDate": "2024-04-05T11:40:00",
+      "name": "Таранова Наталья Владимировна",
+      "nearestDate": "2024-04-05T09:40:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

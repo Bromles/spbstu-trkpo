@@ -1,0 +1,17 @@
+{
+  "result": [
+    {
+      "id": "48772",
+      "ferId": "8",
+      "name": "Акушерство и гинекология",
+      "countFreeParticipant": 81,
+      "countFreeTicket": 161,
+      "lastDate": "2024-04-08T18:45:00",
+      "nearestDate": "2024-04-02T16:15:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

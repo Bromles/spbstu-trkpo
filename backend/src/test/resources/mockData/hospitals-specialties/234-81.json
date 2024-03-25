@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Травматолого-ортопедическое ДПО № 9",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1496",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Бельцова Татьяна Геннадьевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Травматолого-ортопедическое ДПО № 9",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1631",
+      "lastDate": "2024-04-03T00:00:00",
+      "name": "Кешишев Илья Аристотельевич",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,118 @@
+{
+  "result": [
+    {
+      "ariaNumber": "5 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "409",
+      "lastDate": "2024-04-22T00:00:00",
+      "name": "Вершняк Ольга Леонидовна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "4 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "410",
+      "lastDate": "2024-04-25T00:00:00",
+      "name": "Джигарь Жанна Геннадьевна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "3 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "447",
+      "lastDate": "2024-04-26T00:00:00",
+      "name": "Мыкыртычева Вероника Владимировна",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "1 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "457",
+      "lastDate": "2024-04-25T00:00:00",
+      "name": "Дементьев Алексей Викторович",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "ПНД",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 6,
+      "id": "502",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Кондрашкин Сергей Александрович",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "6 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "510",
+      "lastDate": "2024-04-10T00:00:00",
+      "name": "Боровая Мария Андреевна",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "АДН участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "520",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Иванов Олег Васильевич",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "8 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "521",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Татаренков Алексей Сергеевич",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "2 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "535",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Шикера Александра Михайловна",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "7 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 721,
+      "id": "536",
+      "lastDate": "2024-06-28T00:00:00",
+      "name": "Беспалова Дарья Александровна",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

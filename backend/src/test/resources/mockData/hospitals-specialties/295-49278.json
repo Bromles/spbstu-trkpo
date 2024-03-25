@@ -1,0 +1,162 @@
+{
+  "result": [
+    {
+      "ariaNumber": "ЖК10 - Участок№4",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1862",
+      "lastDate": null,
+      "name": "Галухина Анастасия Дмитриевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "ЖК10 - Участок№7",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1364",
+      "lastDate": null,
+      "name": "Грушко Виктория Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1985",
+      "lastDate": null,
+      "name": "Дежурный Врач ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "ЖК10 - Участок№2",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "610",
+      "lastDate": null,
+      "name": "Иванилова Евгения Ростиславовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "ЖК10 - Участок№9",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1389",
+      "lastDate": null,
+      "name": "Кабардова Асият Хабаловна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "ЖК10 - Участок№8",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1921",
+      "lastDate": null,
+      "name": "Льянова Малика Магометовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "ЖК10 - Участок№6",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1920",
+      "lastDate": null,
+      "name": "Матухина Марина Германовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "ЖК10 - Участок№3",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "744",
+      "lastDate": null,
+      "name": "Мохова Виктория Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "ЖК10 - Участок№5",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "573",
+      "lastDate": null,
+      "name": "Пиругина Юлия Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "Дежурный врач",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "498",
+      "lastDate": null,
+      "name": "Радемахер Лариса Борисовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2037",
+      "lastDate": null,
+      "name": "Синепалова Екатерина Андреевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "499",
+      "lastDate": null,
+      "name": "Сычева Елена Игоревна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "ЖК10 - Участок№1",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1993",
+      "lastDate": null,
+      "name": "Тимонина Вера Игоревна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "Дежурный врач",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "420",
+      "lastDate": null,
+      "name": "Тучкова Марина Владимировна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

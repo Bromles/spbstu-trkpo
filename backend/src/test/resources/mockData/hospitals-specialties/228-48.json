@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "ЛОР (18)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 184,
+      "id": "1039",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Шевченко Александр Александрович",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "ЛОР (18)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 220,
+      "id": "1809",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Суворова Роза-Любовь Сергеевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

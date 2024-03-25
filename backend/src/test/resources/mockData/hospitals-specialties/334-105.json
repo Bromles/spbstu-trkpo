@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 21,
+      "id": "378",
+      "lastDate": "2024-04-04T13:30:00",
+      "name": "Ефремова Марина Анатольевна (Детский прием)",
+      "nearestDate": "2024-03-26T19:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 66,
+      "id": "523",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Ильина Антонина Сергеевна ",
+      "nearestDate": "2024-03-26T15:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 32,
+      "id": "382",
+      "lastDate": "2024-04-06T13:30:00",
+      "name": "Рудакова Ирина Сергеевна (Детский прием)",
+      "nearestDate": "2024-03-29T11:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 62,
+      "id": "548",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Цузой Марина Николаевна ",
+      "nearestDate": "2024-03-25T17:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 64,
+      "id": "386",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Шерстнёва Анна Ильинична (Детский прием)",
+      "nearestDate": "2024-03-26T08:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

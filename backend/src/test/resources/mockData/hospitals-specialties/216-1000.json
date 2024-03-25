@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 84,
+      "freeTicketCount": 84,
+      "id": "0024",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "ХАБИБИ НАСАБ БАХАДОР   (ОРТОПЕД)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "34",
+      "lastDate": null,
+      "name": "ИВАНОВА ИРИНА ВАДИМОВНА (ТОЛЬКО ПАЦИЕНТЫ ДПО№16)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

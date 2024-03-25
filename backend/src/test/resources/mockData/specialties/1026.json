@@ -1,0 +1,35 @@
+{
+  "result": [
+    {
+      "id": "99",
+      "ferId": "0",
+      "name": "ПСИХОЛОГ",
+      "countFreeParticipant": 12,
+      "countFreeTicket": 12,
+      "lastDate": "2024-03-29T00:00:00",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "id": "35",
+      "ferId": "8",
+      "name": "ГИНЕКОЛОГ (т.4097663)",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "9",
+      "ferId": "91",
+      "name": "РЕВМАТОЛОГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

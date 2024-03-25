@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": "27уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 79,
+      "freeTicketCount": 79,
+      "id": "952",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Михеев Денис Валентинович",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "29уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 42,
+      "freeTicketCount": 57,
+      "id": "2301",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Краснощек Дарья Сергеевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "37 уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 4,
+      "freeTicketCount": 69,
+      "id": "2513",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Шевченко Анастасия Игоревна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "28уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 61,
+      "freeTicketCount": 61,
+      "id": "2514",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Бериева Милана Арсеновна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "25уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 3,
+      "freeTicketCount": 81,
+      "id": "2536",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Ржевская Валентина Михайловна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

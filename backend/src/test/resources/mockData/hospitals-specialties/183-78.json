@@ -1,0 +1,250 @@
+{
+  "result": [
+    {
+      "ariaNumber": "5 уч",
+      "ariaType": null,
+      "comment": "28.03.2024: Командировки служебные;\n02.04.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 11,
+      "id": "170",
+      "lastDate": null,
+      "name": "Алексеева Зоя Васильевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "20 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 33,
+      "id": "983",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Алиева Дайганат Уллубиевна",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "16 уч",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 31.03.2024: Отпуск;\n08.04.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "943",
+      "lastDate": null,
+      "name": "Баталина Мария Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "11 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 25,
+      "id": "977",
+      "lastDate": null,
+      "name": "Борцова Оксана Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "7 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 34,
+      "id": "479",
+      "lastDate": null,
+      "name": "Горфина Ида Григорьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "13 уч",
+      "ariaType": null,
+      "comment": "с 04.04.2024 по 08.04.2024: Учеба",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 17,
+      "id": "987",
+      "lastDate": null,
+      "name": "Ермилова Светлана Алексеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "25 уч",
+      "ariaType": null,
+      "comment": "28.03.2024: Командировки служебные",
+      "freeParticipantCount": 13,
+      "freeTicketCount": 52,
+      "id": "933",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Камынина Марина Ивановна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "17 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 31,
+      "id": "663",
+      "lastDate": null,
+      "name": "Козлова Светлана Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "6 уч",
+      "ariaType": null,
+      "comment": "29.03.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 13,
+      "id": "88",
+      "lastDate": null,
+      "name": "Краснова Татьяна Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "8 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "955",
+      "lastDate": null,
+      "name": "Лукашева Марина Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "2 уч",
+      "ariaType": null,
+      "comment": "02.04.2024: Командировки служебные",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 46,
+      "id": "935",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Матюхина Екатерина Александровна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "22 уч",
+      "ariaType": null,
+      "comment": "26.03.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 27,
+      "id": "786",
+      "lastDate": null,
+      "name": "Павлюченко Виктория Романовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "23 уч",
+      "ariaType": null,
+      "comment": "26.03.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 19,
+      "id": "979",
+      "lastDate": null,
+      "name": "Панеш Марина Руслановна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "12 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 12,
+      "id": "752",
+      "lastDate": null,
+      "name": "Пархоменко Светлана Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "33 уч",
+      "ariaType": null,
+      "comment": "01.04.2024: Командировки служебные;\n08.04.2024: Командировки служебные",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 16,
+      "id": "904",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Попова Ольга Алексеевна",
+      "nearestDate": "2024-04-04T00:00:00"
+    },
+    {
+      "ariaNumber": "19 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 36,
+      "id": "957",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Ренев Ярослав Николаевич",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "18 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "116",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Смирнова Ольга Сергеевна",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "28 уч",
+      "ariaType": null,
+      "comment": "27.03.2024: Командировки служебные;\n03.04.2024: Командировки служебные",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 18,
+      "id": "969",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Трунилова Галина Андреевна",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "21 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 44,
+      "id": "932",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Устинов Иван Дмитриевич",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "29 уч",
+      "ariaType": null,
+      "comment": "05.04.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 21,
+      "id": "959",
+      "lastDate": null,
+      "name": "Хамама Муханнад ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "32 уч",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 02.04.2024: Отпуск;\n04.04.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "98",
+      "lastDate": null,
+      "name": "Чапова Наталья Афанасьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "26 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 16,
+      "id": "39",
+      "lastDate": null,
+      "name": "Щавинская Екатерина Алексеевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

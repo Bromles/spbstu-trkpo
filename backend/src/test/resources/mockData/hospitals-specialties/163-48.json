@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 113,
+      "freeTicketCount": 113,
+      "id": "1372",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Амирова Алина Альбертовна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 106,
+      "freeTicketCount": 106,
+      "id": "634",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Монахова Ольга Владиславовна",
+      "nearestDate": "2024-03-27T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

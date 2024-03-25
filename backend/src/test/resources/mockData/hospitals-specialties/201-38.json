@@ -1,0 +1,118 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 17,
+      "freeTicketCount": 17,
+      "id": "д26.68",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "6+10+3 уч.Терентьева А.А. ",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "д26.155",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "8+9+5 уч. Машкова П.И.",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 24,
+      "freeTicketCount": 24,
+      "id": "д26.47",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Большакова Т. С. -справки",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 37,
+      "freeTicketCount": 37,
+      "id": "д.51",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "ПРИВИВКИ (иметь справку об отсутствии карантина в школе/саду)",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "д26.153",
+      "lastDate": null,
+      "name": "1+7+5 уч. Иванова П.Ю.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "д26.154",
+      "lastDate": null,
+      "name": "1+7+5 уч. Иванова П.Ю. - здоровые дети до 3лет,проф.осм.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "д26.126",
+      "lastDate": null,
+      "name": "4+2+3 уч. Каверзнева Э.В.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "д26.63",
+      "lastDate": null,
+      "name": "4+2+3 уч. Каверзнева Э.В.-здоровые дети до 3 лет,проф.осм",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "д26.67",
+      "lastDate": null,
+      "name": "6+10+3 уч.Терентьева А.А.-здоровые дети до 3лет,проф.осм.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "д26.150",
+      "lastDate": null,
+      "name": "8+9+5 уч. Машкова П.И.- здоровые дети до 3 лет, проф. осм.",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 29,
+      "freeTicketCount": 29,
+      "id": "d789896e-1a58-11ed-bba6-b496918ad4ad",
+      "lastDate": "2024-04-08T15:45:00",
+      "name": "Шевелев Сергей Эдуардович (кабинет № 242)",
+      "nearestDate": "2024-04-01T15:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

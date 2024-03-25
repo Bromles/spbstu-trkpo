@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 36,
+      "freeTicketCount": 36,
+      "id": "d9068fd1-ed5b-11ec-bba1-b496918ad4ad",
+      "lastDate": "2024-03-29T18:30:00",
+      "name": "Радченко Светлана Александровна (врач общей практики (семейный врач))",
+      "nearestDate": "2024-03-26T09:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

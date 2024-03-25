@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "28 ",
+      "freeParticipantCount": 12,
+      "freeTicketCount": 12,
+      "id": "2567",
+      "lastDate": "2024-04-08T19:40:00",
+      "name": "Цахилова Елена Магрезовна",
+      "nearestDate": "2024-03-26T12:40:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

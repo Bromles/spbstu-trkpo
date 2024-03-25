@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 528,
+      "freeTicketCount": 528,
+      "id": "145830000042",
+      "lastDate": "2024-05-15T19:30:00",
+      "name": "Вороненков Василий Сергеевич",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 518,
+      "freeTicketCount": 518,
+      "id": "145830000034",
+      "lastDate": "2024-05-15T15:30:00",
+      "name": "Садовская Ольга Николаевна",
+      "nearestDate": "2024-03-26T13:00:00"
+    },
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 518,
+      "freeTicketCount": 518,
+      "id": "145830000002",
+      "lastDate": "2024-05-15T15:30:00",
+      "name": "Самородов Сергей Борисович",
+      "nearestDate": "2024-03-26T13:00:00"
+    },
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 524,
+      "freeTicketCount": 524,
+      "id": "145830000003",
+      "lastDate": "2024-05-15T19:30:00",
+      "name": "Соболев Дмитрий Николаевич",
+      "nearestDate": "2024-03-25T17:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

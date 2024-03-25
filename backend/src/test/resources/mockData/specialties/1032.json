@@ -1,0 +1,17 @@
+{
+  "result": [
+    {
+      "id": "102",
+      "ferId": "17",
+      "name": "Онкология",
+      "countFreeParticipant": 4,
+      "countFreeTicket": 4,
+      "lastDate": "2024-03-29T09:00:00",
+      "nearestDate": "2024-03-26T09:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

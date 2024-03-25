@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 7,
+      "id": "407",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Агапова Дарья Дмитриевна ",
+      "nearestDate": "2024-04-08T16:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

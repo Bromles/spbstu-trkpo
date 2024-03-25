@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "каб.321",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "486f1e30-eb20-11ed-bbbd-b496918ad4ae",
+      "lastDate": null,
+      "name": "Филь Степан Юрьевич (Врач-травматолог ортопед)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

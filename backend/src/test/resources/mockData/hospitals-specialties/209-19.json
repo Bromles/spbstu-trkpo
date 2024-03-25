@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 49,
+      "freeTicketCount": 58,
+      "id": "д20.63",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Тарбеева  О.В. ",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

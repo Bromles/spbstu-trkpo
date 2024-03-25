@@ -1,0 +1,107 @@
+{
+  "result": [
+    {
+      "id": "35",
+      "ferId": "8",
+      "name": "АКУШЕР-ГИНЕКОЛ.",
+      "countFreeParticipant": 8,
+      "countFreeTicket": 8,
+      "lastDate": "2024-04-01T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "79",
+      "ferId": "55",
+      "name": "Вакцинация от COVID-19",
+      "countFreeParticipant": 87,
+      "countFreeTicket": 87,
+      "lastDate": "2024-03-29T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "59",
+      "ferId": "66",
+      "name": "ГЕРИАТР",
+      "countFreeParticipant": 159,
+      "countFreeTicket": 159,
+      "lastDate": "2024-04-12T00:00:00",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "id": "42",
+      "ferId": "19",
+      "name": "ОТОРИНОЛАРИНГОЛОГ",
+      "countFreeParticipant": 13,
+      "countFreeTicket": 16,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "id": "410",
+      "ferId": "27",
+      "name": "Прививочный кабинет",
+      "countFreeParticipant": 84,
+      "countFreeTicket": 84,
+      "lastDate": "2024-03-29T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "4",
+      "ferId": "27",
+      "name": "ТЕРАПЕВТ УЧАСТ.",
+      "countFreeParticipant": 15,
+      "countFreeTicket": 15,
+      "lastDate": "2024-04-01T00:00:00",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "id": "9999",
+      "ferId": "58",
+      "name": "Углубленная диспансеризация",
+      "countFreeParticipant": 248,
+      "countFreeTicket": 248,
+      "lastDate": "2024-04-24T00:00:00",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "id": "1200",
+      "ferId": "0",
+      "name": "ФИЛЬТР-БОКС",
+      "countFreeParticipant": 203,
+      "countFreeTicket": 203,
+      "lastDate": "2024-03-29T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "72",
+      "ferId": "16",
+      "name": "ВРАЧ ОБЩЕЙ ПРАКТИКИ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "41",
+      "ferId": "20",
+      "name": "ОФТАЛЬМОЛОГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "23",
+      "ferId": "30",
+      "name": "ХИРУРГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

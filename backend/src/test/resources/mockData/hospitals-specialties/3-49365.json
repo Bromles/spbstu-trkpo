@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Приём по адресу: ул. Танкиста Хрустицкого, 5, ПО№45",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "2226",
+      "lastDate": "2024-04-08T12:14:00",
+      "name": "Афанасенко Михаил Алексеевич",
+      "nearestDate": "2024-04-08T12:14:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "841",
+      "lastDate": null,
+      "name": "Быданов Антон Викторович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1858",
+      "lastDate": null,
+      "name": "Ченцова Елена Николаевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

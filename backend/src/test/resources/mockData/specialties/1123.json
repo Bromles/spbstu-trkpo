@@ -1,0 +1,17 @@
+{
+  "result": [
+    {
+      "id": "4",
+      "ferId": "27",
+      "name": "ТЕРАПЕВТ ОВОП на Приморском 46",
+      "countFreeParticipant": 1,
+      "countFreeTicket": 10,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-04-08T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": "ОВОП- 6 Участок № 55",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "716",
+      "lastDate": "2024-03-29T11:15:00",
+      "name": "Латыпова Людмила Александровна",
+      "nearestDate": "2024-03-28T19:15:00"
+    },
+    {
+      "ariaNumber": "ОВОП- 6 Участок № 52",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "603",
+      "lastDate": null,
+      "name": "Мельникова Юлия Константиновна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "ОВОП- 6 Участок № 51",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 13,
+      "freeTicketCount": 13,
+      "id": "1396",
+      "lastDate": "2024-03-29T19:30:00",
+      "name": "Охапкина Екатерина Сергеевна",
+      "nearestDate": "2024-03-27T18:30:00"
+    },
+    {
+      "ariaNumber": "ОВОП- 6 Участок № 53",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 15,
+      "freeTicketCount": 15,
+      "id": "411",
+      "lastDate": "2024-03-29T19:30:00",
+      "name": "Сибикина Татьяна Борисовна",
+      "nearestDate": "2024-03-27T18:15:00"
+    },
+    {
+      "ariaNumber": "ОВОП- 6 Участок № 54",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "416",
+      "lastDate": null,
+      "name": "Степанова Екатерина Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "ОВОП- 6 Участок № 56",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 23,
+      "freeTicketCount": 23,
+      "id": "1843",
+      "lastDate": "2024-03-29T11:30:00",
+      "name": "Султонов Мирзоназар Сайфиддинович",
+      "nearestDate": "2024-03-26T18:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

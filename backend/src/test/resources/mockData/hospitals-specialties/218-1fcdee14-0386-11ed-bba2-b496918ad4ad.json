@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "оформление документов для военного комиссариата",
+      "freeParticipantCount": 85,
+      "freeTicketCount": 85,
+      "id": "71e5166c-00ff-11ed-bba2-b496918ad4ad",
+      "lastDate": "2024-04-08T14:40:00",
+      "name": "Попова Анастасия Сергеевна (Врач-педиатр подростковый)",
+      "nearestDate": "2024-03-28T11:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

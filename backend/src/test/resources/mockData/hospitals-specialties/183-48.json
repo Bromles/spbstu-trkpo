@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 106,
+      "id": "985",
+      "lastDate": null,
+      "name": "Богданова Татьяна Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 110,
+      "id": "531",
+      "lastDate": "2024-04-02T00:00:00",
+      "name": "Резникова Юлия Борисовна",
+      "nearestDate": "2024-04-02T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

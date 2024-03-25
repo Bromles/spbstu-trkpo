@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "28.03.2024: Командировки служебные;\n04.04.2024: Командировки служебные",
+      "freeParticipantCount": 49,
+      "freeTicketCount": 49,
+      "id": "813",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Зимирев Вячеслав Николаевич",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 31.03.2024: Командировки служебные;\n05.04.2024: Командировки служебные",
+      "freeParticipantCount": 53,
+      "freeTicketCount": 53,
+      "id": "805",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Сорокин Артур Анатольевич",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "с 24.07-28.07 каб.107",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "61c95ca9-0dbe-11ed-bba5-b496918ad4ad",
+      "lastDate": null,
+      "name": "Девочкина Светлана Алексеевна (Диспансеризация)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "КАБИНЕТ 107 Диспансеризация",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "ec5722b7-6b27-11ed-bbb0-b496918ad4af",
+      "lastDate": null,
+      "name": "Ломоть Лариса Николаевна (Врач-терапевт)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диспансеризация",
+      "freeParticipantCount": 214,
+      "freeTicketCount": 214,
+      "id": "d2d0e9e3-9c94-11ed-bbb2-b496918ad4af",
+      "lastDate": "2024-04-08T15:40:00",
+      "name": "Кабинет Профилактики Диспансеризации 116 (Диспансеризация)",
+      "nearestDate": "2024-03-25T17:20:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

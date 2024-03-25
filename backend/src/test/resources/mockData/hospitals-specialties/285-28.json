@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 40,
+      "freeTicketCount": 40,
+      "id": "16687",
+      "lastDate": "2024-04-19T00:00:00",
+      "name": "Жиганшин Д.М.по неч.дням приём в 37 каб.",
+      "nearestDate": "2024-04-12T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 215,
+      "freeTicketCount": 215,
+      "id": "15284",
+      "lastDate": "2024-04-19T00:00:00",
+      "name": "Янюк К.В. отп, с 22/04-28/04",
+      "nearestDate": "2024-04-03T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,184 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 68,
+      "id": "381",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Акопян Алина Викторовна  (ПЛАНОВОЕ ЛЕЧЕНИЕ)",
+      "nearestDate": "2024-03-26T09:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 16,
+      "id": "326",
+      "lastDate": "2024-04-08T12:30:00",
+      "name": "Антонов Андрей Михайлович (ПЛАНОВОЕ ЛЕЧЕНИЕ)",
+      "nearestDate": "2024-04-01T15:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 30,
+      "id": "379",
+      "lastDate": "2024-04-08T16:00:00",
+      "name": "Горская Виктория Викторовна (ПЛАНОВОЕ ЛЕЧЕНИЕ)",
+      "nearestDate": "2024-03-26T17:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 51,
+      "id": "399",
+      "lastDate": "2024-04-08T16:00:00",
+      "name": "Грушина Ольга Владимировна (ПЛАНОВОЕ ЛЕЧЕНИЕ)",
+      "nearestDate": "2024-03-26T17:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "371",
+      "lastDate": "2024-04-08T16:35:00",
+      "name": "Дежурный врач ПЕРВИЧНЫЙ ОСМОТР (явка в регистратуру за 20 мин.)",
+      "nearestDate": "2024-04-08T13:10:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 35,
+      "id": "332",
+      "lastDate": "2024-04-08T16:00:00",
+      "name": "Ермохина Елена Владимировна (ПЛАНОВОЕ ЛЕЧЕНИЕ)",
+      "nearestDate": "2024-04-01T09:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 16,
+      "id": "339",
+      "lastDate": "2024-04-04T19:30:00",
+      "name": "Короткая Мария Сергеевна  (ПЛАНОВОЕ ЛЕЧЕНИЕ)",
+      "nearestDate": "2024-04-02T15:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 72,
+      "id": "340",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Лабзина Нина Николаевна (ПЛАНОВОЕ ЛЕЧЕНИЕ)",
+      "nearestDate": "2024-03-26T09:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 86,
+      "id": "341",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Мельников Александр Дмитриевич (ПЛАНОВОЕ ЛЕЧЕНИЕ)",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 72,
+      "id": "369",
+      "lastDate": "2024-04-08T16:00:00",
+      "name": "Никитин Евгений Геннадьевич (ПЛАНОВОЕ ЛЕЧЕНИЕ)",
+      "nearestDate": "2024-03-26T15:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 83,
+      "id": "368",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Селянина Татьяна Сергеевна (ПЛАНОВОЕ ЛЕЧЕНИЕ)",
+      "nearestDate": "2024-03-25T18:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 71,
+      "id": "344",
+      "lastDate": "2024-04-08T16:00:00",
+      "name": "Семенова Ольга Валерьевна (ПЛАНОВОЕ ЛЕЧЕНИЕ)",
+      "nearestDate": "2024-03-26T15:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 82,
+      "id": "345",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Симученкова Юлия Эдуардовна (ПЛАНОВОЕ ЛЕЧЕНИЕ)",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 63,
+      "id": "346",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Соловьева Светлана Александровна (ПЛАНОВОЕ ЛЕЧЕНИЕ)",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 27,
+      "id": "410",
+      "lastDate": "2024-04-08T16:00:00",
+      "name": "Чумаченко Наталья Анатольевна (ПЛАНОВОЕ ЛЕЧЕНИЕ)",
+      "nearestDate": "2024-04-02T15:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 32,
+      "id": "350",
+      "lastDate": "2024-04-06T13:30:00",
+      "name": "Шумакова Татьяна Юрьевна  (ПЛАНОВОЕ ЛЕЧЕНИЕ)",
+      "nearestDate": "2024-03-26T11:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

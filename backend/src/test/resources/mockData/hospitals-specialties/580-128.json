@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Психотерапевтический кабинет",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "420",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Моргунова Ульяна Николаевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

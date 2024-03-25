@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Врач принимает по адресу: ул. Турку, 5/13",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "185",
+      "lastDate": null,
+      "name": "Квицинская Элина Анатольевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "932",
+      "lastDate": null,
+      "name": "Смирнова Екатерина Юрьевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

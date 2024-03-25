@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 50,
+      "freeTicketCount": 50,
+      "id": "541",
+      "lastDate": "2024-04-08T13:36:00",
+      "name": "Кондратьева Наталья Николаевна",
+      "nearestDate": "2024-03-26T10:36:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

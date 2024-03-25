@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 9,
+      "freeTicketCount": 9,
+      "id": "274",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Хамчиев Джамбулат Муратович (Осмотр, Острая Боль",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "Терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "289",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Афитулин Данил Олегович (Осмотр, Острая Боль)",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,151 @@
+{
+  "result": [
+    {
+      "ariaNumber": "1, 3, 24, 25",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 11,
+      "freeTicketCount": 21,
+      "id": "272",
+      "lastDate": "2024-04-08T15:48:00",
+      "name": "Алешугина Елена Генриховна",
+      "nearestDate": "2024-04-05T08:05:00"
+    },
+    {
+      "ariaNumber": "12, 17",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 20,
+      "freeTicketCount": 30,
+      "id": "288",
+      "lastDate": "2024-04-08T11:48:00",
+      "name": "Бызова Дарья Владимировна",
+      "nearestDate": "2024-04-04T08:12:00"
+    },
+    {
+      "ariaNumber": "14, 28",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 45,
+      "freeTicketCount": 56,
+      "id": "1053",
+      "lastDate": "2024-04-08T09:48:00",
+      "name": "Григорьянц Диана Артуровна",
+      "nearestDate": "2024-03-29T17:36:00"
+    },
+    {
+      "ariaNumber": "13, 18",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 75,
+      "freeTicketCount": 85,
+      "id": "929",
+      "lastDate": "2024-04-08T11:36:00",
+      "name": "Груничев Михаил Анатольевич",
+      "nearestDate": "2024-03-28T10:12:00"
+    },
+    {
+      "ariaNumber": "12, 13, 14, 15, 16, 17, 18, 26, 27, 28",
+      "ariaType": null,
+      "comment": "Врач-терапевт дежурный (ТОЛЬКО ДЛЯ ПАЦИЕНТОВ С ПРИЗНАКАМИ ОРВИ)",
+      "freeParticipantCount": 13,
+      "freeTicketCount": 13,
+      "id": "283",
+      "lastDate": "2024-03-26T13:30:00",
+      "name": "Данилова Юлия Вячеславовна",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 201,
+      "freeTicketCount": 201,
+      "id": "706",
+      "lastDate": "2024-04-08T19:30:00",
+      "name": "Диспансеризация - -",
+      "nearestDate": "2024-03-26T15:30:00"
+    },
+    {
+      "ariaNumber": "15, 27",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 20,
+      "freeTicketCount": 30,
+      "id": "946",
+      "lastDate": "2024-04-08T09:48:00",
+      "name": "Зеленюк Татьяна Яковлевна",
+      "nearestDate": "2024-04-04T10:36:00"
+    },
+    {
+      "ariaNumber": "4, 5, 25",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 5,
+      "freeTicketCount": 16,
+      "id": "1055",
+      "lastDate": "2024-04-08T17:36:00",
+      "name": "Лобов Борис Романович",
+      "nearestDate": "2024-04-08T16:12:00"
+    },
+    {
+      "ariaNumber": "16, 26",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 27,
+      "freeTicketCount": 38,
+      "id": "743",
+      "lastDate": "2024-04-08T17:48:00",
+      "name": "Макеева Софья Витальевна",
+      "nearestDate": "2024-04-02T17:12:00"
+    },
+    {
+      "ariaNumber": "1, 2, 3, 4, 5, 6, 7, 8, 24, 25",
+      "ariaType": null,
+      "comment": "Врач-терапевт дежурный (ТОЛЬКО ДЛЯ ПАЦИЕНТОВ С ПРИЗНАКАМИ ОРВИ)",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "810",
+      "lastDate": null,
+      "name": "Михайлов Владимир Александрович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "6, 8, 25",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 21,
+      "freeTicketCount": 31,
+      "id": "279",
+      "lastDate": "2024-04-08T17:36:00",
+      "name": "Фуртова Наталья Вениаминовна",
+      "nearestDate": "2024-03-27T10:00:00"
+    },
+    {
+      "ariaNumber": "1, 2",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 6,
+      "freeTicketCount": 12,
+      "id": "486",
+      "lastDate": "2024-04-08T15:36:00",
+      "name": "Шутова Елена Юрьевна",
+      "nearestDate": "2024-04-08T14:36:00"
+    },
+    {
+      "ariaNumber": "2, 7, 25",
+      "ariaType": null,
+      "comment": "\n",
+      "freeParticipantCount": 39,
+      "freeTicketCount": 50,
+      "id": "954",
+      "lastDate": "2024-04-08T17:36:00",
+      "name": "Яворский Анатолий Сергеевич",
+      "nearestDate": "2024-03-26T16:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

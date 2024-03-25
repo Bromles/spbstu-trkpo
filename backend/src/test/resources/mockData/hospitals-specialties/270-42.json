@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "1-10,11-20,21-32,40",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 97,
+      "id": "д71.586",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "КРАЕВ В.А.",
+      "nearestDate": "2024-04-12T00:00:00"
+    },
+    {
+      "ariaNumber": "1-10,11-20,21-32,40",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 108,
+      "id": "д71.792",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "КАСИМОВ А.А.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "1-10,11-20,21-32,40",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 35,
+      "id": "д71.247",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "СИЛИНА Т.В.",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

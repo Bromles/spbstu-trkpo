@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "p123.61",
+      "lastDate": null,
+      "name": "ОВЧИННИКОВА  С.О. 301 каб.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "p123.146",
+      "lastDate": null,
+      "name": "ПАБЕРЗС Е.В. 318 каб",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 1,
+      "id": "p123.84",
+      "lastDate": "2024-04-09T00:00:00",
+      "name": "ПЕТРОВСКАЯ А.С. 318 каб",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": "22 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1267",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Лапина Виолетта Эдуардовна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "21 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1439",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Тагандурдыева Дженнет Собетовна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "23 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 14,
+      "id": "1629",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Мехтиева Марьям Абдулла Кызы",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "23 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 60,
+      "id": "1853",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Курникова Ирина Константиновна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "24 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 84,
+      "id": "2004",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Кравчун Наталья Валерьяновна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "20 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 12,
+      "id": "2008",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Дьяченко Лилия Витальевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,140 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 67,
+      "freeTicketCount": 67,
+      "id": "437",
+      "lastDate": "2024-04-25T13:20:00",
+      "name": "Абрамова Диана Георгиевна",
+      "nearestDate": "2024-04-05T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 71,
+      "freeTicketCount": 71,
+      "id": "582",
+      "lastDate": "2024-04-24T13:20:00",
+      "name": "Апанюк Оксана Викторовна",
+      "nearestDate": "2024-04-02T09:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 64,
+      "freeTicketCount": 64,
+      "id": "782",
+      "lastDate": "2024-04-25T19:20:00",
+      "name": "Гридина Ирина Николаевна",
+      "nearestDate": "2024-04-08T09:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 76,
+      "freeTicketCount": 76,
+      "id": "555",
+      "lastDate": "2024-04-25T19:20:00",
+      "name": "Дмитриева Ольга Борисовна",
+      "nearestDate": "2024-04-03T15:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 87,
+      "freeTicketCount": 87,
+      "id": "704",
+      "lastDate": "2024-04-25T13:20:00",
+      "name": "Калмыкова Надежда Александровна",
+      "nearestDate": "2024-04-01T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 77,
+      "freeTicketCount": 77,
+      "id": "440",
+      "lastDate": "2024-04-25T13:20:00",
+      "name": "Киселева Анна Кириковна",
+      "nearestDate": "2024-04-03T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 82,
+      "freeTicketCount": 82,
+      "id": "441",
+      "lastDate": "2024-04-25T13:20:00",
+      "name": "Конкина Ольга Евгеньевна",
+      "nearestDate": "2024-04-01T10:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 83,
+      "freeTicketCount": 83,
+      "id": "783",
+      "lastDate": "2024-04-25T13:20:00",
+      "name": "Левковская Ольга Геннадьевна",
+      "nearestDate": "2024-04-02T16:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 82,
+      "freeTicketCount": 82,
+      "id": "433",
+      "lastDate": "2024-04-25T19:20:00",
+      "name": "Сауленкова Ольга Вадимовна",
+      "nearestDate": "2024-04-01T14:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 63,
+      "freeTicketCount": 63,
+      "id": "784",
+      "lastDate": "2024-04-25T13:20:00",
+      "name": "Сташевская Ольга Михайловна",
+      "nearestDate": "2024-04-05T11:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 81,
+      "freeTicketCount": 81,
+      "id": "449",
+      "lastDate": "2024-04-25T19:20:00",
+      "name": "Шатилова Елена Юрьевна",
+      "nearestDate": "2024-04-01T15:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 82,
+      "freeTicketCount": 82,
+      "id": "785",
+      "lastDate": "2024-04-25T19:20:00",
+      "name": "Щепетильникова Анна Анатольевна",
+      "nearestDate": "2024-04-02T08:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

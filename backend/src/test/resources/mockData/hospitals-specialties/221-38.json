@@ -1,0 +1,107 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 38,
+      "freeTicketCount": 38,
+      "id": "п30.49",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": " 1 уч. ВАСИЛЬЕВА Е.Н. ДЕТИ ДО ГОДА",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 33,
+      "freeTicketCount": 33,
+      "id": "п30.051",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": " 2 уч. СОЛОЩЕНКО Л.И. ДЕТИ ДО ГОДА",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 35,
+      "freeTicketCount": 35,
+      "id": "3560.116",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": " 4 уч. КРУГЛОВА Д.А. ДЕТИ ДО ГОДА",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 17,
+      "freeTicketCount": 17,
+      "id": "п30.57",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": " 5 уч. МАШКОВА Е.Н. ДЕТИ ДО ГОДА 01.04-21.04 по записи к др. врачу",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 30,
+      "freeTicketCount": 30,
+      "id": "п30.054",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": " 6 уч. АНАНЬЕВА С.В. ДЕТИ ДО ГОДА",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 35,
+      "freeTicketCount": 35,
+      "id": "п30.50",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": " 7 уч. МИХАЙЛЕВА Е.Н. ДЕТИ ДО ГОДА",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 33,
+      "freeTicketCount": 33,
+      "id": "3560.124",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": " 8 уч. ЧУМКИНА О.А. ДЕТИ ДО ГОДА",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 34,
+      "freeTicketCount": 34,
+      "id": "3560.122",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": " 9 уч. КУЛАГИНА А.Д. ДЕТИ ДО ГОДА",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 30,
+      "freeTicketCount": 30,
+      "id": "п30.40п",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "10 уч. ШЕВЧЕНКО Т.В. ДЕТИ ДО ГОДА",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

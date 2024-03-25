@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "a07c2139-8eb9-11ee-bc19-b496918ad90d",
+      "lastDate": null,
+      "name": "Кабинет Доврачебной Помощи (Кабинет доврачебной помощи)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

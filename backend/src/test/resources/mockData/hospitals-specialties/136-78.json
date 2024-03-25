@@ -1,0 +1,173 @@
+{
+  "result": [
+    {
+      "ariaNumber": "104",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "552",
+      "lastDate": null,
+      "name": "Астахова Елена Викторовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "100",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "244",
+      "lastDate": null,
+      "name": "Богданова Ольга Станиславовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "366",
+      "lastDate": null,
+      "name": "Гулякин Игорь Юрьевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "602",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 29.03.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "901",
+      "lastDate": null,
+      "name": "Гупалюк Ольга Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "105",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "36",
+      "lastDate": null,
+      "name": "Дмитриева Елена Анатольевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "106",
+      "ariaType": null,
+      "comment": "08.04.2024: Учёба",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1422",
+      "lastDate": null,
+      "name": "Ершов Александр Петрович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "604",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1860",
+      "lastDate": null,
+      "name": "Кондратьева Наталья Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "607",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1840",
+      "lastDate": null,
+      "name": "Мамедова Лейла Адильевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "108",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 29.03.2024: Нетрудоспособность (Болезнь, карантин и т.п.)",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1307",
+      "lastDate": null,
+      "name": "Мещерякова Анна Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "102",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "378",
+      "lastDate": null,
+      "name": "Надводнюк Наталья Петровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "603",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "892",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Утешев Александр Александрович",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "107",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 29.03.2024: Очередные и дополнительные отпуска;\nс 01.04.2024 по 03.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "1305",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Федосеева Ольга Александровна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "606",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "685",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Храпков Дмитрий Ливерьевич",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "605",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "1012",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Чернов Андрей Константинович",
+      "nearestDate": "2024-04-04T00:00:00"
+    },
+    {
+      "ariaNumber": "103",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 29.03.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "599",
+      "lastDate": null,
+      "name": "Чилингарян Татевик Размиковна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

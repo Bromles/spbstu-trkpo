@@ -1,0 +1,118 @@
+{
+  "result": [
+    {
+      "ariaNumber": "17 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "766",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Асеев Николай Николаевич",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "13 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "322",
+      "lastDate": null,
+      "name": "Атарская Ольга Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "12 уч",
+      "ariaType": null,
+      "comment": "с 01.04.2024 по 08.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "893",
+      "lastDate": null,
+      "name": "Гадисов Исмаил Абасович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "18 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "757",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Зайцева Анастасия Анатольевна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "5 уч",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 31.03.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "691",
+      "lastDate": null,
+      "name": "Кицмаришвили Анна Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "14 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "920",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Лазуткин Даниил Сергеевич",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "9 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "749",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Семикина Ирина Дмитриевна",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "7 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "865",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Филатов Денис Витальевич",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "16 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "875",
+      "lastDate": null,
+      "name": "Хамитов Артем Фоатович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "15 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "916",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Шейхаметов Кемал Шевкетович",
+      "nearestDate": "2024-04-05T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

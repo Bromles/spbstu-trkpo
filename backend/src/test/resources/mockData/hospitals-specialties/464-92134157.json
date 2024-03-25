@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Приём беременных Адмиралтейского района  и  РД № 9 (ЖК № 17 ). .Направление ОБЯЗАТЕЛЬНО только для пациенток ЖК№ 17. Приём ведётся по адресу :  наб. реки Фонтанки, дом 155.  ",
+      "freeParticipantCount": 147,
+      "freeTicketCount": 147,
+      "id": "975",
+      "lastDate": "2024-04-08T13:45:00",
+      "name": "Бахтадзе Нато Шотаевна",
+      "nearestDate": "2024-03-26T13:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

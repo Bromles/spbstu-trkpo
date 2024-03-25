@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "5_1-5_63,5_22а,5_13а,5_19а,5_22б, 1-90",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "81",
+      "lastDate": null,
+      "name": "Перелыгина Н.С.",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

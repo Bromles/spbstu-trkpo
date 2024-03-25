@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 30,
+      "freeTicketCount": 165,
+      "id": "1399",
+      "lastDate": "2024-04-08T18:00:00",
+      "name": "Бабаева Светлана Владимировна",
+      "nearestDate": "2024-03-26T08:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 6,
+      "freeTicketCount": 18,
+      "id": "1142",
+      "lastDate": "2024-03-28T14:45:00",
+      "name": "Величко Ольга Валентиновна",
+      "nearestDate": "2024-03-26T14:15:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

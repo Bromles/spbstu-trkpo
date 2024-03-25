@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 6,
+      "freeTicketCount": 6,
+      "id": "8879",
+      "lastDate": "2024-04-08T17:45:00",
+      "name": "Даева Евгения Юрьевна (55)",
+      "nearestDate": "2024-04-08T15:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

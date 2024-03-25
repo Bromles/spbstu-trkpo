@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 33,
+      "freeTicketCount": 33,
+      "id": "1229",
+      "lastDate": "2024-04-09T13:15:00",
+      "name": "Мешков Филипп Викторович",
+      "nearestDate": "2024-04-02T09:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,89 @@
+{
+  "result": [
+    {
+      "id": "38",
+      "ferId": "22",
+      "name": "ПЕДИАТР УЧ.- (ТОЛЬКО здоровые до 3 лет)",
+      "countFreeParticipant": 13,
+      "countFreeTicket": 13,
+      "lastDate": "2024-03-28T00:00:00",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "id": "37",
+      "ferId": "22",
+      "name": "ПЕДИАТР УЧАСТ.(пн,вт,ср,пт))",
+      "countFreeParticipant": 24,
+      "countFreeTicket": 24,
+      "lastDate": "2024-03-29T00:00:00",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "id": "141",
+      "ferId": "31",
+      "name": "ЭНДОКРИНОЛОГ-13,6,73 п-ки",
+      "countFreeParticipant": 6,
+      "countFreeTicket": 6,
+      "lastDate": "2024-03-29T00:00:00",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "id": "35-1",
+      "ferId": "8",
+      "name": "ГИНЕКОЛОГ-13,6,73 п-ки",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "44",
+      "ferId": "14",
+      "name": "НЕВРОПАТОЛОГ-13,6,73 п-ки",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "1000",
+      "ferId": "28",
+      "name": "ОРТОПЕД-13,6,73 п-ки",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "41",
+      "ferId": "20",
+      "name": "ОФТАЛЬМОЛОГ-13,6,73 п-ки",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "28",
+      "ferId": "145",
+      "name": "УРОЛОГ-АНДРОЛОГ-13,6,73 п-ки",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 13,
+      "lastDate": "2024-04-01T00:00:00",
+      "nearestDate": null
+    },
+    {
+      "id": "23",
+      "ferId": "30",
+      "name": "ХИРУРГ-13,6,73 п-ки",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 38,
+      "lastDate": "2024-04-01T00:00:00",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

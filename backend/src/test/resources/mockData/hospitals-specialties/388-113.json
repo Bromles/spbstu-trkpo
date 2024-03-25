@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 20,
+      "freeTicketCount": 20,
+      "id": "224",
+      "lastDate": "2024-04-08T12:00:00",
+      "name": "Иванович Любовь Павловна ",
+      "nearestDate": "2024-03-26T12:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

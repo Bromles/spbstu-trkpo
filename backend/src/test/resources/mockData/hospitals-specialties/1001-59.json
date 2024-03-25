@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "ул Царицынская д.1",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.87",
+      "lastDate": null,
+      "name": "Борзёнкова Л.А",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

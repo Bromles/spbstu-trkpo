@@ -1,0 +1,17 @@
+{
+  "result": [
+    {
+      "id": "10000",
+      "ferId": "206",
+      "name": "Бокс, симптомы ОРВИ/Грипп/COVID",
+      "countFreeParticipant": 36,
+      "countFreeTicket": 43,
+      "lastDate": "2024-03-26T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

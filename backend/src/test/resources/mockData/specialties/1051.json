@@ -1,0 +1,17 @@
+{
+  "result": [
+    {
+      "id": "178",
+      "ferId": "32",
+      "name": "ИНФЕКЦИОННЫЕ БОЛЕЗНИ - лечебное дело. педиатрия - врачебные специальности",
+      "countFreeParticipant": 94,
+      "countFreeTicket": 94,
+      "lastDate": "2024-04-05T15:30:00",
+      "nearestDate": "2024-03-26T10:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

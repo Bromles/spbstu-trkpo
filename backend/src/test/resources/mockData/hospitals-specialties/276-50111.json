@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Эндокринолог ТОЛЬКО ДЛЯ БЕРЕМЕННЫХ !!! ",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "637",
+      "lastDate": null,
+      "name": "Андреева Варвара Ивановна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

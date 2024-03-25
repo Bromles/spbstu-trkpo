@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 62,
+      "freeTicketCount": 78,
+      "id": "1248",
+      "lastDate": "2024-04-08T18:58:00",
+      "name": "Котунова Ольга Ивановна",
+      "nearestDate": "2024-03-28T17:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 3,
+      "freeTicketCount": 11,
+      "id": "327",
+      "lastDate": "2024-04-08T12:58:00",
+      "name": "Смирнова Светлана Анатольевна",
+      "nearestDate": "2024-04-08T09:30:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "114",
+      "lastDate": null,
+      "name": "Уханова Ольга Петровна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

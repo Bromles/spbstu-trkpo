@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 108,
+      "id": "34",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "ПОВТОРНЫЙ ПРИЕМ ДЛЯ БЕРЕМ.(Багаева М.Р.)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 111,
+      "id": "29",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "ПОВТОРНЫЙ ПРИЕМ ДЛЯ БЕРЕМ.(Зюзина С.В.)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 47,
+      "id": "30",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "ПОВТОРНЫЙ ПРИЕМ ДЛЯ БЕРЕМ.(Листова Е.А)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 116,
+      "id": "31",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "ПОВТОРНЫЙ ПРИЕМ ДЛЯ БЕРЕМ.(Сибирцева Н.А.)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

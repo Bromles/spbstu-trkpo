@@ -1,0 +1,85 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 79,
+      "freeTicketCount": 156,
+      "id": "п8.362",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "АНИКОВА АННА ЭДУАРДОВНА (ОВОП) участок 3-08, 3-09 (отпуск 08.04.2024 - 21.04.202",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 69,
+      "freeTicketCount": 143,
+      "id": "п8.280",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ВЕСЕЛОВА КСЕНИЯ АНДРЕЕВНА (ОВОП) участок 3-07",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 55,
+      "freeTicketCount": 138,
+      "id": "п8.368",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ГАДЖИЕВА АЙНУР ГЕЙДАР ГЫЗЫ (ОВОП) участок 3-05",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 100,
+      "freeTicketCount": 176,
+      "id": "п8.199",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "КУТЕПОВ ВЛАДИМИР ЮРЬЕВИЧ (ОВОП) участок 3-03 (отпуск 22.04.2024 - 28.04.2024)",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 59,
+      "freeTicketCount": 139,
+      "id": "п8.342",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "МИЛЕВИЧ ИРИНА АЛЕКСАНДРОВНА (ОВОП) участок 3-08 (25.03.2024 - 29.04.2024 нет при",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 138,
+      "freeTicketCount": 207,
+      "id": "п8.371",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ПЕТРОВА АНАСТАСИЯ ВИТАЛЬЕВНА (ОВОП) участок 3-04 ",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 114,
+      "freeTicketCount": 200,
+      "id": "п8.370",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ПТАШНИК ДАРЬЯ СЕРГЕЕВНА (ОВОП) 3-01, 3-02",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

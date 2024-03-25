@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №7",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "109",
+      "lastDate": null,
+      "name": "Кабанова Елизавета Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №22",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "103",
+      "lastDate": null,
+      "name": "Лих Людмила Вячеславовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №2",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "106",
+      "lastDate": null,
+      "name": "Мартинен Ольга Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №1",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "110",
+      "lastDate": null,
+      "name": "Михайлова Юлия Дмитриевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №8",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "824",
+      "lastDate": null,
+      "name": "Худякова Елена Владимировна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,125 @@
+{
+  "result": [
+    {
+      "id": "79",
+      "ferId": "55",
+      "name": "Вакцинация от COVID-19",
+      "countFreeParticipant": 32,
+      "countFreeTicket": 32,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "83",
+      "ferId": "27",
+      "name": "Вакцинация по национальному календарю",
+      "countFreeParticipant": 167,
+      "countFreeTicket": 167,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "18",
+      "ferId": "32",
+      "name": "Врач-инфекционист",
+      "countFreeParticipant": 373,
+      "countFreeTicket": 373,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "988",
+      "ferId": "27",
+      "name": "Диспансеризация",
+      "countFreeParticipant": 846,
+      "countFreeTicket": 846,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "986",
+      "ferId": "0",
+      "name": "Кабинет медико-психологического консультирования",
+      "countFreeParticipant": 2,
+      "countFreeTicket": 2,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "id": "81",
+      "ferId": "27",
+      "name": "Медицинские комиссии",
+      "countFreeParticipant": 13,
+      "countFreeTicket": 13,
+      "lastDate": "2024-04-04T00:00:00",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "id": "72",
+      "ferId": "16",
+      "name": "Общая врачебная практика",
+      "countFreeParticipant": 15,
+      "countFreeTicket": 15,
+      "lastDate": "2024-03-29T00:00:00",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "id": "41",
+      "ferId": "20",
+      "name": "Окулист (офтальмолог)",
+      "countFreeParticipant": 13,
+      "countFreeTicket": 92,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-04-04T00:00:00"
+    },
+    {
+      "id": "4",
+      "ferId": "27",
+      "name": "Терапевт",
+      "countFreeParticipant": 102,
+      "countFreeTicket": 163,
+      "lastDate": "2024-03-29T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "9999",
+      "ferId": "58",
+      "name": "Углубленная диспансеризация",
+      "countFreeParticipant": 4,
+      "countFreeTicket": 4,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "id": "23",
+      "ferId": "30",
+      "name": "Хирург",
+      "countFreeParticipant": 44,
+      "countFreeTicket": 44,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "id": "987",
+      "ferId": "0",
+      "name": "ЦЕНТР ЗДОРОВЬЯ",
+      "countFreeParticipant": 11,
+      "countFreeTicket": 11,
+      "lastDate": "2024-04-02T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "42",
+      "ferId": "19",
+      "name": "ЛОР (отоларинголог)",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

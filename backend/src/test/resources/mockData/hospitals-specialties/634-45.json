@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "16т",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 07.04.2024: Очередные и дополнительные отпуска;\n08.04.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "651",
+      "lastDate": null,
+      "name": "Рочене Юлия Викторовна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

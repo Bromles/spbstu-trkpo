@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 18,
+      "freeTicketCount": 18,
+      "id": "п102.435",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "Джабборов Барзин Бахромович",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 21,
+      "freeTicketCount": 21,
+      "id": "п102.392",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Пронькин Сергей Александрович",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 27,
+      "freeTicketCount": 27,
+      "id": "п102.241",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Храмцов Виктор Николаевич",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "п102.49",
+      "lastDate": null,
+      "name": "Савельев Сергей Юрьевич",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

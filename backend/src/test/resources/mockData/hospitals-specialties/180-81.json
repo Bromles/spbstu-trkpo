@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 36,
+      "freeTicketCount": 36,
+      "id": "687",
+      "lastDate": "2024-04-03T00:00:00",
+      "name": "Яковлева Вероника Анатольевна",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

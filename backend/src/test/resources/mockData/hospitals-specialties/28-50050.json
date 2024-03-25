@@ -1,0 +1,151 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Только детский гинекологический приём (специализированный)",
+      "freeParticipantCount": 18,
+      "freeTicketCount": 27,
+      "id": "240",
+      "lastDate": "2024-04-05T15:50:00",
+      "name": "(Детский гинеколог) Минаева Валерия Валериевна",
+      "nearestDate": "2024-04-02T13:10:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Только детский гинекологический приём (специализированный)",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 8,
+      "id": "11",
+      "lastDate": "2024-04-02T15:50:00",
+      "name": "Ватутина Ирина Александровна",
+      "nearestDate": "2024-04-02T14:50:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Только гинекологический приём (специализированный)",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "156",
+      "lastDate": null,
+      "name": "Ватутина Ирина Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Участок №11",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "279",
+      "lastDate": null,
+      "name": "Карась Дарья Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Участок №9",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "15",
+      "lastDate": null,
+      "name": "Князькова Ольга Викторовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Только гинекологический приём (специализированный)",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "27",
+      "lastDate": null,
+      "name": "Козявская Олеся Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Участок №4",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "28",
+      "lastDate": null,
+      "name": "Коржукова Ирина Семеновна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Участок № 1",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "32",
+      "lastDate": null,
+      "name": "Мещанская Ольга Алексеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Только гинекологический приём (специализированный)",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "199",
+      "lastDate": null,
+      "name": "Минаева Валерия Валериевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Участок №13",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "131",
+      "lastDate": null,
+      "name": "Татаренко Марина Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Участок №14",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "137",
+      "lastDate": null,
+      "name": "Федорова Кристина Валерьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Участок №6",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "215",
+      "lastDate": null,
+      "name": "Шин Елена Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "277",
+      "lastDate": null,
+      "name": "Школа молодых родителей ",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

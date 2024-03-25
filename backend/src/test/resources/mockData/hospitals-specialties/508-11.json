@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "1-69,5а,5_1-5_64,5_19а,5_60,5_8,38,5_22а,5_22б",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "p123.76",
+      "lastDate": null,
+      "name": "ТЕРЕНТЬЕВА К.В.(прием на Моравском,5)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

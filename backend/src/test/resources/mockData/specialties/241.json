@@ -1,0 +1,89 @@
+{
+  "result": [
+    {
+      "id": "84",
+      "ferId": "27",
+      "name": "БОКС, симптомы ОРВИ/ГРИПП/COVID",
+      "countFreeParticipant": 26,
+      "countFreeTicket": 26,
+      "lastDate": "2024-03-26T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "436",
+      "ferId": "1001",
+      "name": "КАБИНЕТ МЕДИКО-ПСИХОЛОГИЧЕСКОГО КОНСУЛЬТИРОВАНИЯ",
+      "countFreeParticipant": 1,
+      "countFreeTicket": 1,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "id": "85",
+      "ferId": "0",
+      "name": "ОРУЖЕЙНАЯ КОМИССИЯ",
+      "countFreeParticipant": 96,
+      "countFreeTicket": 96,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "4",
+      "ferId": "27",
+      "name": "ТЕРАПЕВТ УЧАСТ.",
+      "countFreeParticipant": 350,
+      "countFreeTicket": 1370,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "id": "28",
+      "ferId": "145",
+      "name": "УРОЛОГ",
+      "countFreeParticipant": 2,
+      "countFreeTicket": 92,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "id": "23",
+      "ferId": "30",
+      "name": "ХИРУРГ",
+      "countFreeParticipant": 25,
+      "countFreeTicket": 25,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "id": "805",
+      "ferId": "16",
+      "name": "ВР.ОБЩ.ПРАКТИКИ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 3,
+      "lastDate": "2024-03-29T00:00:00",
+      "nearestDate": null
+    },
+    {
+      "id": "42",
+      "ferId": "19",
+      "name": "ОТОЛАРИНГОЛОГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 11,
+      "lastDate": "2024-04-11T00:00:00",
+      "nearestDate": null
+    },
+    {
+      "id": "41",
+      "ferId": "20",
+      "name": "ОФТАЛЬМОЛОГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 107,
+      "lastDate": "2024-04-18T00:00:00",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

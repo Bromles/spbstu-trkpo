@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "отпуск 28.03-10.04",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "fe2ea254-1a57-11ed-bba6-b496918ad4ad",
+      "lastDate": null,
+      "name": "Бурец Вадим Юрьевич (Кабинет № 210)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "fe2ea1eb-1a57-11ed-bba6-b496918ad4ad",
+      "lastDate": null,
+      "name": "Антипова Дарья Алексеевна (Кабинет № 210)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,140 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 11,
+      "freeTicketCount": 11,
+      "id": "335",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Абзалова Лилия Равильевна",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "5 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "341",
+      "lastDate": null,
+      "name": "Ахметова Айлара Арсланалиевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "9 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 23,
+      "freeTicketCount": 23,
+      "id": "391",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Бойцев Алексей Дмитриевич",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "4 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 40,
+      "freeTicketCount": 40,
+      "id": "411",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Доброва Юлия Александровна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "5 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 37,
+      "freeTicketCount": 37,
+      "id": "426",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Измайлова Анастасия Александровна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 24,
+      "freeTicketCount": 24,
+      "id": "412",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Паршукова Елена Юрьевна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "7 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 41,
+      "freeTicketCount": 41,
+      "id": "27",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Пелешенко Елена Николаевна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "2 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 38,
+      "freeTicketCount": 38,
+      "id": "404",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Суховая Алёна Алексеевна",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "6 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 38,
+      "freeTicketCount": 38,
+      "id": "306",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Танцура Светлана Викторовна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "3 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 24,
+      "freeTicketCount": 24,
+      "id": "362",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Тугушева Галия Шамилевна",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "1 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 30,
+      "freeTicketCount": 30,
+      "id": "398",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Шамкова Елизавета Игоревна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "8 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 51,
+      "freeTicketCount": 51,
+      "id": "186",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Шахбаз Абдул Кудус ",
+      "nearestDate": "2024-03-27T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

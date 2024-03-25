@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 24,
+      "freeTicketCount": 24,
+      "id": "205830000002",
+      "lastDate": "2024-04-10T13:30:00",
+      "name": "Кошкин Виктор Авенирович",
+      "nearestDate": "2024-03-26T13:00:00"
+    },
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 24,
+      "freeTicketCount": 24,
+      "id": "205830000003",
+      "lastDate": "2024-04-10T14:30:00",
+      "name": "Небредовская Елена Валерьевна",
+      "nearestDate": "2024-03-26T14:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

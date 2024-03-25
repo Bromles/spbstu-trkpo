@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 4,
+      "id": "дп4.15",
+      "lastDate": "2024-04-06T00:00:00",
+      "name": "Соловьёв Д.Е НЕВРОПАТОЛОГ ОТПУСК С22/04-05/05",
+      "nearestDate": "2024-04-06T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

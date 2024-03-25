@@ -1,0 +1,129 @@
+{
+  "result": [
+    {
+      "ariaNumber": "4010, 4030, 4040",
+      "ariaType": null,
+      "comment": "пос. Шушары, ул. Пушкинская, д. 40",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "993",
+      "lastDate": "2024-03-27T13:12:00",
+      "name": "Акрамов Собир Кориджонович",
+      "nearestDate": "2024-03-27T13:12:00"
+    },
+    {
+      "ariaNumber": "4090, 4120",
+      "ariaType": null,
+      "comment": "пос. Шушары, пер. Вилеровский д. 8",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1089",
+      "lastDate": null,
+      "name": "Вирабян Анна Завеновна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "4010, 4020, 4030, 4040, 4050, 4060, 4070, 4080, 40",
+      "ariaType": null,
+      "comment": "<font color=red><b>Дети с признаками ОРВИ.</b></font></br>\r\nп. Шушары, ул.Пушкинская, д.40, кабинет №11.",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1278",
+      "lastDate": null,
+      "name": "Дежурный Врач (ОРВИ)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "4010, 4020, 4030, 4040, 4050, 4060, 4070, 4080, 40",
+      "ariaType": null,
+      "comment": "<font color=red><b>Только здоровые дети. Выдача справок.</b></font></br>\nп. Шушары, ул.Пушкинская, д.40, кабинет №11.",
+      "freeParticipantCount": 15,
+      "freeTicketCount": 15,
+      "id": "1279",
+      "lastDate": "2024-03-29T10:24:00",
+      "name": "Дежурный Врач (СПРАВКИ)",
+      "nearestDate": "2024-03-28T09:28:00"
+    },
+    {
+      "ariaNumber": "4100",
+      "ariaType": null,
+      "comment": "пос. Шушары, пер. Вилеровский д. 8",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1162",
+      "lastDate": null,
+      "name": "Залетова Екатерина Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "4050, 4080",
+      "ariaType": null,
+      "comment": "пос. Шушары, Пушкинская 40",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "574",
+      "lastDate": "2024-03-27T15:36:00",
+      "name": "Казиева Джамиля Руслановна",
+      "nearestDate": "2024-03-27T15:24:00"
+    },
+    {
+      "ariaNumber": "4010, 4020, 4030, 4040, 4050, 4060, 4070, 4080, 40",
+      "ariaType": null,
+      "comment": "ДЕЖУРНЫЙ ВРАЧ пос. Шушары, ул. Пушкинская, д.40",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "154",
+      "lastDate": null,
+      "name": "Кокина Людмила Петровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "4020",
+      "ariaType": null,
+      "comment": "пос. Шушары, ул. Пушкинская, д.40",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "602",
+      "lastDate": "2024-03-27T11:12:00",
+      "name": "Магамедова Динара Мафрудиновна",
+      "nearestDate": "2024-03-27T08:36:00"
+    },
+    {
+      "ariaNumber": "4110",
+      "ariaType": null,
+      "comment": "пос. Шушары, пер. Вилеровский д. 8",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "542",
+      "lastDate": "2024-03-27T10:48:00",
+      "name": "Носарева Ольга Ивановна",
+      "nearestDate": "2024-03-27T08:48:00"
+    },
+    {
+      "ariaNumber": "4050, 4070",
+      "ariaType": null,
+      "comment": "пос. Шушары, ул. Пушкинская, д. 40",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "56",
+      "lastDate": null,
+      "name": "Фарахов Денис Наильевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "4060",
+      "ariaType": null,
+      "comment": "пос. Шушары, пер. Вилеровский д. 8",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1203",
+      "lastDate": null,
+      "name": "Фарахова Мария Александровна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

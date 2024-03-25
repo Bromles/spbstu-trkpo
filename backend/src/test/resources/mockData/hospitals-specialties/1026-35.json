@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "ул. Шахматова д.12 к.4 ",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.18",
+      "lastDate": null,
+      "name": "Абрамова АВ (4 участок)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "ул. Шахматова д.12 к.4 ",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.20",
+      "lastDate": null,
+      "name": "Лоскутова О.В (2 участок)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.1332",
+      "lastDate": null,
+      "name": "Лосякова А.К.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "ул. Шахматова д.12 к.4 ",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.064",
+      "lastDate": null,
+      "name": "ФОМИНА Н В (1 участок)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,85 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "176",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Анохина Наталья Александровна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "Терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "182",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Хазанова Елена Яковлевна (Дети От 6 Лет)",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "Терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "225",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Гущина Галина Анатольевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "238",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Евдосеева Татьяна Ивановна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "276",
+      "lastDate": "2024-04-06T00:00:00",
+      "name": "Гасилова Ольга Михайловна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "Терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "283",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Иванова Марья Сергеевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Неотложная помощь",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "316",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Хамчиев Джамбулат Муратович",
+      "nearestDate": "2024-04-08T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

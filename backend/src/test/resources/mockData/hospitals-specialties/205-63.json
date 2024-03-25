@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 7,
+      "id": "153",
+      "lastDate": "2024-04-03T00:00:00",
+      "name": "Сотникова И.Н. - кольпоскопия (ЗАПИСЬ ЧЕРЕЗ ВРАЧА)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

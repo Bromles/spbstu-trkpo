@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 14,
+      "freeTicketCount": 14,
+      "id": "382",
+      "lastDate": "2024-04-05T12:45:00",
+      "name": "Павлова Марина Николаевна",
+      "nearestDate": "2024-04-04T09:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

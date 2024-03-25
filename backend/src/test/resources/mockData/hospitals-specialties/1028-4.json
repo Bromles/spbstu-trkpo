@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Парковая 20/3",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.18",
+      "lastDate": null,
+      "name": "Зайед К.А ( Парковая20/3)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Парковая 20/3",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.21",
+      "lastDate": null,
+      "name": "Камитова Д.И ( Парковая 20/3)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

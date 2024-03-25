@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 35,
+      "freeTicketCount": 35,
+      "id": "0032",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "ХОДОС КСЕНИЯ ГЕННАДЬЕВНА ( ХИРУРГ) ",
+      "nearestDate": "2024-03-29T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

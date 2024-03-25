@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 61,
+      "freeTicketCount": 80,
+      "id": "248",
+      "lastDate": "2024-04-08T17:30:00",
+      "name": "Лисицын Дмитрий Николаевич",
+      "nearestDate": "2024-03-26T10:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

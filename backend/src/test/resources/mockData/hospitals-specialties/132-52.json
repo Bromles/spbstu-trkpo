@@ -1,0 +1,239 @@
+{
+  "result": [
+    {
+      "ariaNumber": "14-д участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "965",
+      "lastDate": null,
+      "name": "Адильгереев Махач Абдулвагабович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "26-д участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 91,
+      "freeTicketCount": 91,
+      "id": "1108",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Ансимова Екатерина Викторовна",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "25-д участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 122,
+      "freeTicketCount": 122,
+      "id": "974",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Бабков Алексей Евгеньевич",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "18-д участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 129,
+      "freeTicketCount": 129,
+      "id": "1146",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Бабушкина Анастасия Владимировна",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "11-д участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 79,
+      "freeTicketCount": 79,
+      "id": "148",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Белякова Любовь Михайловна",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "17-д участок",
+      "ariaType": null,
+      "comment": "29.03.2024: Неявки, разрешенные законом (выполнение государственных обязанно",
+      "freeParticipantCount": 107,
+      "freeTicketCount": 107,
+      "id": "1143",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Веселова Марина Викторовна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "28-д участок",
+      "ariaType": null,
+      "comment": "25.03.2024: Нетрудоспособность (Болезнь, карантин и т.п.);\n26.03.2024: Нетрудоспособность (Болезнь, карантин и т.п.);\n27.03.2024: Нетрудоспособность (Болезнь, карантин и т.п.);\nс 28.03.2024 по 29.03.2024: Нетрудоспособность (Болезнь, карантин и т.п.);\n01.04.2024: Нетрудоспособность (Болезнь, карантин и т.п.);\n02.04.2024: Нетрудоспособность (Болезнь, карантин и т.п.);\n03.04.2024: Нетрудоспособность (Болезнь, карантин и т.п.);\n04.04.2024: Нетрудоспособность (Болезнь, карантин и т.п.);\n05.04.2024: Нетрудоспособность (Болезнь, карантин и т.п.);\n08.04.2024: Нетрудоспособность (Болезнь, карантин и т.п.)",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "946",
+      "lastDate": null,
+      "name": "Власовец Андрей Анатольевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "8-д участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 80,
+      "freeTicketCount": 80,
+      "id": "135",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Епифанова Елена Владимировна",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "12-д участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 90,
+      "freeTicketCount": 90,
+      "id": "226",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Жарова Татьяна Михайловна",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "24-д участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 128,
+      "freeTicketCount": 128,
+      "id": "1076",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Козлова Юлия Евгеньевна",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "1-д участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 106,
+      "freeTicketCount": 106,
+      "id": "1117",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Лапшинская Наталья Павловна",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "6-д участок",
+      "ariaType": null,
+      "comment": "01.04.2024: Нетрудоспособность (Болезнь, карантин и т.п.);\nс 02.04.2024 по 03.04.2024: Нетрудоспособность (Болезнь, карантин и т.п.);\n04.04.2024: Нетрудоспособность (Болезнь, карантин и т.п.);\n05.04.2024: Нетрудоспособность (Болезнь, карантин и т.п.);\n08.04.2024: Нетрудоспособность (Болезнь, карантин и т.п.)",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "140",
+      "lastDate": null,
+      "name": "Нагорная Татьяна Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "20-д участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 25,
+      "freeTicketCount": 25,
+      "id": "1093",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Носачева Сабина Романовна",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "3-д участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 100,
+      "freeTicketCount": 100,
+      "id": "1112",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Олейникова Юлия Дмитриевна",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "21-д участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 17,
+      "freeTicketCount": 17,
+      "id": "707",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Панкова Светлана Леонидовна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "22-д участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 88,
+      "freeTicketCount": 88,
+      "id": "1120",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Патронникова Татьяна Владимировна",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "19-д участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 87,
+      "freeTicketCount": 87,
+      "id": "1159",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Прокопьева Валерия Станиславовна",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "23-д участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 114,
+      "freeTicketCount": 114,
+      "id": "636",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Пушкарева Елена Андреевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "13-д участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 117,
+      "freeTicketCount": 117,
+      "id": "1109",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Фофанова Анастасия Владимировна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "4-д участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "431",
+      "lastDate": null,
+      "name": "Чаплыгина Наталия Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "16-д участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 115,
+      "freeTicketCount": 115,
+      "id": "1125",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Чередникова Виктория Юрьевна",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

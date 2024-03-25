@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "9 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 60,
+      "freeTicketCount": 70,
+      "id": "885",
+      "lastDate": "2024-04-08T14:48:00",
+      "name": "Латыпов Ренат Октябревич",
+      "nearestDate": "2024-03-28T10:12:00"
+    },
+    {
+      "ariaNumber": "10 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 21,
+      "freeTicketCount": 32,
+      "id": "965",
+      "lastDate": "2024-04-08T17:48:00",
+      "name": "Халилов Азамат Махин-Оглы",
+      "nearestDate": "2024-04-04T17:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

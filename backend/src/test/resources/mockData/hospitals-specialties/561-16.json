@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Кардиологическое ДПО № 22",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1716",
+      "lastDate": "2024-04-06T00:00:00",
+      "name": "Наливайко Елена Петровна возраст 0г-17г",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

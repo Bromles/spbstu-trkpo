@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ПРИЕМ В ОФИСЕ НА КОМЕНД,53/4",
+      "freeParticipantCount": 26,
+      "freeTicketCount": 26,
+      "id": "0d12683d-4a0b-11ed-bbac-b496918ad4ad",
+      "lastDate": "2024-04-01T12:50:00",
+      "name": "Тиунов Владимир Александрович (врач общей практики (семейный врач))",
+      "nearestDate": "2024-03-27T10:50:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

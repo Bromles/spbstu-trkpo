@@ -1,0 +1,140 @@
+{
+  "result": [
+    {
+      "ariaNumber": "3 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "658",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Балакирев Никита Андреевич",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "2 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "546",
+      "lastDate": null,
+      "name": "Баширова Альфира Руслановна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "14 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "742",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Быховец Анастасия Андреевна",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "1 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "665",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Дунаева Марина Петровна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "9 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "666",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Кучеров Дмитрий Константинович",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "4 уч",
+      "ariaType": null,
+      "comment": "27.03.2024: Конференция",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "529",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Кушнарёв Павел Александрович",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "11 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "601",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Николаев Дмитрий Евгеньевич",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "16 уч",
+      "ariaType": null,
+      "comment": "27.03.2024: Конференция;\n03.04.2024: Конференция",
+      "freeParticipantCount": 24,
+      "freeTicketCount": 24,
+      "id": "701",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Саможапова Сари Сергеевна",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "6 уч",
+      "ariaType": null,
+      "comment": "27.03.2024: Конференция;\n03.04.2024: Конференция",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "623",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Север Ирина Николаевна",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "12 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 12,
+      "freeTicketCount": 12,
+      "id": "719",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Серебрякова Ксения Владимировна",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "15 уч",
+      "ariaType": null,
+      "comment": "27.03.2024: Конференция",
+      "freeParticipantCount": 23,
+      "freeTicketCount": 23,
+      "id": "700",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Федина Мария Николаевна",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "10 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "702",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Хамицева Оксана Алановна",
+      "nearestDate": "2024-04-05T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

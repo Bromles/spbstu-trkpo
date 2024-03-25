@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ОСМ ПМ СП",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "279",
+      "lastDate": null,
+      "name": "Бунина Ангелина Дмитриевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ОСМ ПМ СП",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "257",
+      "lastDate": "2024-03-29T11:00:00",
+      "name": "Мирзалиева Ирина Мирзамагомедовна",
+      "nearestDate": "2024-03-26T15:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

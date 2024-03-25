@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "310.997",
+      "lastDate": "2024-03-29T13:10:00",
+      "name": "Галстян Лиана Шаваршовна",
+      "nearestDate": "2024-03-29T13:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 89,
+      "freeTicketCount": 89,
+      "id": "310.1012",
+      "lastDate": "2024-04-11T13:00:00",
+      "name": "Нариманян Наири Захарович",
+      "nearestDate": "2024-03-26T08:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

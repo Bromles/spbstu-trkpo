@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 121,
+      "freeTicketCount": 121,
+      "id": "398",
+      "lastDate": "2024-04-08T18:45:00",
+      "name": "Дибиров Хаджимурад Шамильевич",
+      "nearestDate": "2024-03-25T17:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

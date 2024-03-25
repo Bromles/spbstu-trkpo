@@ -1,0 +1,107 @@
+{
+  "result": [
+    {
+      "id": "79",
+      "ferId": "55",
+      "name": "Вакцинация от COVID-19",
+      "countFreeParticipant": 41,
+      "countFreeTicket": 41,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "id": "999",
+      "ferId": "27",
+      "name": "Диспансеризация, профосмотр",
+      "countFreeParticipant": 167,
+      "countFreeTicket": 167,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "18",
+      "ferId": "32",
+      "name": "Инфекционист",
+      "countFreeParticipant": 153,
+      "countFreeTicket": 153,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "42",
+      "ferId": "19",
+      "name": "Отоларинголог",
+      "countFreeParticipant": 43,
+      "countFreeTicket": 62,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "id": "4",
+      "ferId": "27",
+      "name": "Терапевт участковый",
+      "countFreeParticipant": 445,
+      "countFreeTicket": 445,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "id": "28",
+      "ferId": "145",
+      "name": "Уролог",
+      "countFreeParticipant": 128,
+      "countFreeTicket": 128,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "580",
+      "ferId": "24",
+      "name": "Флюорографический кабинет",
+      "countFreeParticipant": 120,
+      "countFreeTicket": 120,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "id": "23",
+      "ferId": "30",
+      "name": "Хирург",
+      "countFreeParticipant": 29,
+      "countFreeTicket": 50,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-04-04T00:00:00"
+    },
+    {
+      "id": "35",
+      "ferId": "8",
+      "name": "Гинеколог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "503",
+      "ferId": "23",
+      "name": "КАБИНЕТ МЕДИКО-ПСИХОЛОГИЧЕСКОГО КОНСУЛЬТИРОВАНИЯ ( ПСИХОЛОГ ) ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 1,
+      "lastDate": "2024-04-04T00:00:00",
+      "nearestDate": null
+    },
+    {
+      "id": "41",
+      "ferId": "20",
+      "name": "Офтальмолог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 71,
+      "lastDate": "2024-04-23T00:00:00",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

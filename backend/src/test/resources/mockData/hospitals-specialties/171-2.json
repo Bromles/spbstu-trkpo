@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 157,
+      "freeTicketCount": 157,
+      "id": "244",
+      "lastDate": "2024-04-13T00:00:00",
+      "name": "Шогирадзе Лаура Джумберовна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

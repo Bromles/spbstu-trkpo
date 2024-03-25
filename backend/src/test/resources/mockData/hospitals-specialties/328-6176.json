@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "женский венеролог (только для прописанных в Красносельском районе)\n",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "39",
+      "lastDate": null,
+      "name": "Глухий Наталья Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "мужской венеролог (только для прописанных в Красносельском районе)\n\n",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "40",
+      "lastDate": null,
+      "name": "Никонов Виталий Олегович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "женский венеролог (только для прописанных в Красносельском районе)\n",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "38",
+      "lastDate": null,
+      "name": "Яковлева Юлия Владимировна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

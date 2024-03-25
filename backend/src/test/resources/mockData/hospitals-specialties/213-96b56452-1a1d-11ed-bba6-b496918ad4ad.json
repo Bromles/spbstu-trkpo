@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "7421157d-1a58-11ed-bba6-b496918ad4ad",
+      "lastDate": null,
+      "name": "Ираиф Субхи Суфьян (Кабинет №139)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "742114ff-1a58-11ed-bba6-b496918ad4ad",
+      "lastDate": null,
+      "name": "Гуч Ирина Анатольевна (Кабинет № 137)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

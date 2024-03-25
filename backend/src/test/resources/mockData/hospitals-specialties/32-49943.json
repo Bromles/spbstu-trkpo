@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 7,
+      "freeTicketCount": 8,
+      "id": "1289",
+      "lastDate": "2024-04-08T18:12:00",
+      "name": "Гостюнин Сергей Владимирович",
+      "nearestDate": "2024-04-08T16:12:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 4,
+      "id": "45",
+      "lastDate": "2024-04-08T12:24:00",
+      "name": "Зайцев Виталий Борисович",
+      "nearestDate": "2024-04-08T12:12:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 3,
+      "id": "4",
+      "lastDate": "2024-04-08T15:50:00",
+      "name": "Дежурный врач (Проф.осмотр)",
+      "nearestDate": "2024-04-08T09:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "28",
+      "lastDate": "2024-03-25T16:46:19.6502643+03:00",
+      "name": "Молчан Виктория Александровна (Осмотры,справки)",
+      "nearestDate": "2024-03-25T16:46:19.6502643+03:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 2,
+      "id": "64",
+      "lastDate": "2024-04-03T09:10:00",
+      "name": "Романова Анна Олеговна (Осмотры,справки)",
+      "nearestDate": "2024-04-02T09:10:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 5,
+      "id": "56",
+      "lastDate": "2024-04-03T18:40:00",
+      "name": "Софронова Наталья Борисовна (Осмотры,справки)",
+      "nearestDate": "2024-03-29T14:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 89,
+      "freeTicketCount": 89,
+      "id": "582",
+      "lastDate": "2024-04-08T14:30:00",
+      "name": "Анишин Евгений Олегович",
+      "nearestDate": "2024-03-26T10:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

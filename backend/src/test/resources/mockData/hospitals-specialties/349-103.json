@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 4,
+      "id": "548",
+      "lastDate": "2024-04-06T01:00:00",
+      "name": "Боровец Дарья Сергеевна ",
+      "nearestDate": "2024-03-25T16:41:31.986521+03:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 4,
+      "id": "351",
+      "lastDate": "2024-03-30T01:00:00",
+      "name": "Жиленкова Елена Александровна Первичный прием, прием ул.П.Гарькавого д.14каб.301явка в регистратуру за 20 мин",
+      "nearestDate": "2024-03-25T16:41:31.9924899+03:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 6,
+      "id": "325",
+      "lastDate": "2024-04-08T11:20:00",
+      "name": "Кардаков Данила Алексеевич Первичный прием, прием ул.П.Гарькавого д.14каб.301явка в регистратуру за 20 мин",
+      "nearestDate": "2024-04-08T10:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 8,
+      "id": "401",
+      "lastDate": "2024-04-06T01:00:00",
+      "name": "Никулаева Дарья Олеговна Первичный прием, прием ул.П.Гарькавого д.14каб.301явка в регистратуру за 20 мин",
+      "nearestDate": "2024-03-25T16:41:32.0085123+03:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 3,
+      "id": "354",
+      "lastDate": "2024-04-04T10:00:00",
+      "name": "Никулаева Ирина Васильевна Первичный прием, прием ул.П.Гарькавого д.14каб.301явка в регистратуру за 20 мин",
+      "nearestDate": "2024-04-04T10:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

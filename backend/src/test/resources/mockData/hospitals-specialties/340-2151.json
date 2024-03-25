@@ -1,0 +1,118 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Стоматолог-ортопед (ПЛАТНЫЙ ПРИЕМ)",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "73",
+      "lastDate": "2024-04-04T12:00:00",
+      "name": "Восканов Евгений Борисович",
+      "nearestDate": "2024-04-04T12:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Стоматолог-ортопед (ПЛАТНЫЙ ПРИЕМ)",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "111",
+      "lastDate": "2024-04-08T12:30:00",
+      "name": "Гавышев Юрий Сергеевич",
+      "nearestDate": "2024-04-02T09:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Стоматолог-ортопед (ПЛАТНЫЙ ПРИЕМ)",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "112",
+      "lastDate": "2024-04-04T12:30:00",
+      "name": "Даниленков Дмитрий Александрович",
+      "nearestDate": "2024-04-04T09:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Стоматолог-ортопед (ПЛАТНЫЙ ПРИЕМ)",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "74",
+      "lastDate": "2024-04-01T09:30:00",
+      "name": "Кошкин Александр Александрович",
+      "nearestDate": "2024-04-01T09:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Стоматолог-ортопед (ПЛАТНЫЙ ПРИЕМ)",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "113",
+      "lastDate": null,
+      "name": "Павлов Кирилл Константинович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Стоматолог-ортопед (ПЛАТНЫЙ ПРИЕМ)",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "240",
+      "lastDate": "2024-04-05T12:30:00",
+      "name": "Пашкевич Владислав Дмитриевич",
+      "nearestDate": "2024-03-29T09:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Стоматолог-ортопед (ПЛАТНЫЙ ПРИЕМ)",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "114",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Пушков Валерий Витальевич",
+      "nearestDate": "2024-04-02T16:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Стоматолог-ортопед (ПЛАТНЫЙ ПРИЕМ)",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "95",
+      "lastDate": "2024-04-06T12:30:00",
+      "name": "Раков Павел Евгеньевич",
+      "nearestDate": "2024-03-29T18:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Стоматолог-ортопед (ПЛАТНЫЙ ПРИЕМ)",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "89",
+      "lastDate": "2024-04-06T09:30:00",
+      "name": "Цыбина Ольга Николаевна",
+      "nearestDate": "2024-03-28T09:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Стоматолог-ортопед (ПЛАТНЫЙ ПРИЕМ)",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "115",
+      "lastDate": null,
+      "name": "Шехмаметьева Ольга Вячеславовна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}
