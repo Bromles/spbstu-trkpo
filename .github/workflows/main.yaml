@@ -94,6 +94,7 @@ jobs:
           DB_USERNAME: ${{ secrets.DB_USERNAME }}
           MAIL_PASSWORD: ${{ secrets.MAIL_PASSWORD }}
           MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
+          USE_LOCAL_GORZDRAV: "true"
       - name: Dump docker logs
         uses: jwalton/gh-docker-logs@v2
         if: failure()
