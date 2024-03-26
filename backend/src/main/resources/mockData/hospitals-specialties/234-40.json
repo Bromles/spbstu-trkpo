@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Неврологическое ДПО № 9",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1761",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Пустовалова Галина Владимировна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

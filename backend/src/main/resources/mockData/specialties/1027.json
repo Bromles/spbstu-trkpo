@@ -1,0 +1,26 @@
+{
+  "result": [
+    {
+      "id": "50",
+      "ferId": "10",
+      "name": "ДЕРМАТО-ВЕНЕРОЛОГ",
+      "countFreeParticipant": 146,
+      "countFreeTicket": 146,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "id": "28",
+      "ferId": "145",
+      "name": "УРОЛОГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

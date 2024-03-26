@@ -1,0 +1,44 @@
+{
+  "result": [
+    {
+      "id": "105",
+      "ferId": "174",
+      "name": "Врач-стоматолог детский",
+      "countFreeParticipant": 6,
+      "countFreeTicket": 6,
+      "lastDate": "2024-04-08T16:30:00",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "id": "106",
+      "ferId": "176",
+      "name": "Врач-стоматолог-терапевт",
+      "countFreeParticipant": 32,
+      "countFreeTicket": 32,
+      "lastDate": "2024-04-08T16:30:00",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "id": "103",
+      "ferId": "173",
+      "name": "Врач-ортодонт",
+      "countFreeParticipant": 23,
+      "countFreeTicket": 23,
+      "lastDate": "2024-04-08T15:45:00",
+      "nearestDate": "2024-03-25T18:30:00"
+    },
+    {
+      "id": "104",
+      "ferId": "171",
+      "name": "Врач-стоматолог",
+      "countFreeParticipant": 1,
+      "countFreeTicket": 1,
+      "lastDate": "2024-04-08T16:30:00",
+      "nearestDate": "2024-03-26T16:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

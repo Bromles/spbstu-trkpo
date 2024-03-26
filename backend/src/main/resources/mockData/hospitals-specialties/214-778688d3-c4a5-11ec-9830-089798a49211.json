@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ПРИ СЕБЕ ИМЕТЬ ЭКГ, КАБИНЕТ 337",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "4349bf5c-9892-11ed-bbb2-b496918ad4af",
+      "lastDate": null,
+      "name": "Савина Елена Георгиевна (Врач-кардиолог)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

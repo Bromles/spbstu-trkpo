@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 517,
+      "freeTicketCount": 517,
+      "id": "215830000006",
+      "lastDate": "2024-05-15T15:30:00",
+      "name": "Вилкус Виктория Алексеевна",
+      "nearestDate": "2024-03-26T13:00:00"
+    },
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 524,
+      "freeTicketCount": 524,
+      "id": "215830000008",
+      "lastDate": "2024-05-15T19:30:00",
+      "name": "Исакова Елена Евгеньевна",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 524,
+      "freeTicketCount": 524,
+      "id": "215830000011",
+      "lastDate": "2024-05-15T19:30:00",
+      "name": "Коряковский Сергей Владимирович",
+      "nearestDate": "2024-03-25T17:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

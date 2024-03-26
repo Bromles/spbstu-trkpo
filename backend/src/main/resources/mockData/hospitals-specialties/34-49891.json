@@ -1,0 +1,140 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1286",
+      "lastDate": null,
+      "name": "Бегалиев Игорь Сейтякупович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1219",
+      "lastDate": null,
+      "name": "Денисов Иван Денисович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "984",
+      "lastDate": null,
+      "name": "Калинчев Леонид Николаевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1220",
+      "lastDate": null,
+      "name": "Крамаренко Ирина Леонидовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "1229",
+      "lastDate": "2024-03-29T12:20:00",
+      "name": "Партеев Петр Андреевич",
+      "nearestDate": "2024-03-29T12:20:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1225",
+      "lastDate": null,
+      "name": "Плотников Станислав Александрович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1221",
+      "lastDate": null,
+      "name": "Попова Алёна Вячеславовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1235",
+      "lastDate": null,
+      "name": "Спектор Нина Михайловна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "1222",
+      "lastDate": "2024-03-29T17:20:00",
+      "name": "Усманов Тимур Владимирович",
+      "nearestDate": "2024-03-26T17:20:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1234",
+      "lastDate": null,
+      "name": "Чураева Юлия Васильевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1223",
+      "lastDate": null,
+      "name": "Штомпель Дмитрий Валентинович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 16,
+      "freeTicketCount": 16,
+      "id": "1224",
+      "lastDate": "2024-03-29T18:00:00",
+      "name": "Якушев Юрий Николаевич",
+      "nearestDate": "2024-03-27T16:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

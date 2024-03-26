@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 43,
+      "freeTicketCount": 43,
+      "id": "к33.17",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "ШИКУН НА (Терапевт)",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

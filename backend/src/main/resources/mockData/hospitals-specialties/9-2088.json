@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "276",
+      "lastDate": null,
+      "name": "Абрамова Наталья Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 5,
+      "freeTicketCount": 23,
+      "id": "9469",
+      "lastDate": "2024-04-08T17:45:00",
+      "name": "Курош Елена Сергеевна",
+      "nearestDate": "2024-04-08T14:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "439",
+      "lastDate": null,
+      "name": "Предтеченская Татьяна Геннадьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 64,
+      "freeTicketCount": 86,
+      "id": "9609",
+      "lastDate": "2024-04-08T19:00:00",
+      "name": "Сагитов Азат Ринатович",
+      "nearestDate": "2024-03-26T11:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Отпуск",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 9,
+      "id": "275",
+      "lastDate": "2024-04-08T17:15:00",
+      "name": "Стогова Татьяна Константиновна",
+      "nearestDate": "2024-04-08T16:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "274",
+      "lastDate": null,
+      "name": "Шигапова Нурия Мунировна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

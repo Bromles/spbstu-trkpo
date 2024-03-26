@@ -1,0 +1,96 @@
+{
+  "result": [
+    {
+      "ariaNumber": "ОВОП- 4 Участок № 33",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "1086",
+      "lastDate": "2024-03-25T17:30:00",
+      "name": "Антонцев Алексей Юрьевич",
+      "nearestDate": "2024-03-25T17:15:00"
+    },
+    {
+      "ariaNumber": "ОВОП- 4 Участок № 32",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "658",
+      "lastDate": null,
+      "name": "Беляева Вера Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1691",
+      "lastDate": null,
+      "name": "Зухумова Мариям Раджабовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "ОВОП- 4 Участок № 37",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1616",
+      "lastDate": null,
+      "name": "Ильина Анна Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1502",
+      "lastDate": null,
+      "name": "Ли Лариса Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "ОВОП- 4 Участок № 35",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "821",
+      "lastDate": null,
+      "name": "Мансон Анастасия Вячеславовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "ОВОП- 4 Участок № 31, ОВОП- 4 Участок № 34",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1919",
+      "lastDate": null,
+      "name": "Машкова Ольга Алексеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "ОВОП- 4 Участок № 31, ОВОП- 4 Участок № 36",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1860",
+      "lastDate": null,
+      "name": "Пелинен Ирина Николаевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 149,
+      "freeTicketCount": 149,
+      "id": "161",
+      "lastDate": "2024-04-11T00:00:00",
+      "name": "Титова Ольга Викторовна",
+      "nearestDate": "2024-04-02T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

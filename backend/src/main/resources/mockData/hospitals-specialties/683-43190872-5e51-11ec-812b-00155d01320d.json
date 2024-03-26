@@ -1,0 +1,96 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "4c431dcc-5e51-11ec-812b-00155d01320d",
+      "lastDate": null,
+      "name": "Бизюлина Ирина Валентиновна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "392e2a21-709d-11ed-8281-00155d01320d",
+      "lastDate": null,
+      "name": "Хазбиева Фатима Джамбуловна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "985303c9-7f0f-11ed-8297-00155d013203",
+      "lastDate": null,
+      "name": "Швыдюк Олег Николаевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "5c51798b-b82a-11ed-82ea-00155d01320d",
+      "lastDate": null,
+      "name": "Колодин Тимур Викторович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8697156c-1bef-11ee-83b8-00155d01320d",
+      "lastDate": null,
+      "name": "Арапханова Марина Магомедовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "93c7c62c-6110-11ee-843a-00155d01320d",
+      "lastDate": null,
+      "name": "Хайруллина Аделя Айратовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "fa8394cc-6360-11ee-843f-00155d01320d",
+      "lastDate": null,
+      "name": "Победенная Елизавета Алексеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "e41ec2aa-8ac6-11ee-8483-00155d013203",
+      "lastDate": null,
+      "name": "Галюк Ярослава Кирилловна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

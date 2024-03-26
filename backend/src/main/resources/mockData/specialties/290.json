@@ -1,0 +1,62 @@
+{
+  "result": [
+    {
+      "id": "92135795",
+      "ferId": "55",
+      "name": "ВАКЦИНАЦИЯ ОТ COVID-19",
+      "countFreeParticipant": 192,
+      "countFreeTicket": 192,
+      "lastDate": "2024-04-06T11:45:00",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "id": "2117",
+      "ferId": "32",
+      "name": "Инфекционист",
+      "countFreeParticipant": 5,
+      "countFreeTicket": 5,
+      "lastDate": "2024-04-08T16:44:00",
+      "nearestDate": "2024-04-08T14:20:00"
+    },
+    {
+      "id": "2101",
+      "ferId": "19",
+      "name": "Оториноларинголог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "2090",
+      "ferId": "20",
+      "name": "Офтальмолог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "2074",
+      "ferId": "27",
+      "name": "Терапевт",
+      "countFreeParticipant": 575,
+      "countFreeTicket": 677,
+      "lastDate": "2024-04-08T19:00:00",
+      "nearestDate": "2024-03-25T18:48:00"
+    },
+    {
+      "id": "2093",
+      "ferId": "30",
+      "name": "Хирург",
+      "countFreeParticipant": 10,
+      "countFreeTicket": 10,
+      "lastDate": "2024-04-08T13:40:00",
+      "nearestDate": "2024-04-02T09:20:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

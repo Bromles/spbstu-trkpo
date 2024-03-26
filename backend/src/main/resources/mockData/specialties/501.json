@@ -1,0 +1,26 @@
+{
+  "result": [
+    {
+      "id": "73",
+      "ferId": "176",
+      "name": "Стоматология терапевтическая",
+      "countFreeParticipant": 918,
+      "countFreeTicket": 918,
+      "lastDate": "2024-04-25T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "217",
+      "ferId": "208",
+      "name": "Стоматология",
+      "countFreeParticipant": 225,
+      "countFreeTicket": 225,
+      "lastDate": "2024-04-24T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

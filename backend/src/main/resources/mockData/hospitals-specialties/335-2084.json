@@ -1,0 +1,96 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Возможна задержка приема  + - 30 минут",
+      "freeParticipantCount": 24,
+      "freeTicketCount": 56,
+      "id": "150",
+      "lastDate": "2024-04-08T19:30:00",
+      "name": "Александрова Ольга Геннадьевна",
+      "nearestDate": "2024-04-02T15:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 6,
+      "freeTicketCount": 24,
+      "id": "368",
+      "lastDate": "2024-04-04T19:00:00",
+      "name": "Белоусов Василий Романович",
+      "nearestDate": "2024-03-28T17:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Возможна задержка приема  + - 30 минут",
+      "freeParticipantCount": 16,
+      "freeTicketCount": 45,
+      "id": "350",
+      "lastDate": "2024-04-08T12:30:00",
+      "name": "Брецкий Евгений Николаевич",
+      "nearestDate": "2024-04-03T17:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Возможна задержка приема  + - 30 минут",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 21,
+      "id": "262",
+      "lastDate": "2024-04-08T19:00:00",
+      "name": "Внуков Алексей Андреевич",
+      "nearestDate": "2024-04-05T09:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Возможна задержка приема  + - 30 минут",
+      "freeParticipantCount": 16,
+      "freeTicketCount": 49,
+      "id": "152",
+      "lastDate": "2024-04-08T12:30:00",
+      "name": "Никитина Ольга Николаевна",
+      "nearestDate": "2024-03-25T17:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Возможна задержка приема  + - 30 минут",
+      "freeParticipantCount": 15,
+      "freeTicketCount": 46,
+      "id": "157",
+      "lastDate": "2024-04-08T19:30:00",
+      "name": "Соломатина Элеонора Валентиновна",
+      "nearestDate": "2024-04-02T17:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Возможна задержка приема  + - 30 минут",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 11,
+      "id": "273",
+      "lastDate": "2024-04-05T18:00:00",
+      "name": "Фархуллин Адель Ильфатович",
+      "nearestDate": "2024-04-05T17:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Возможна задержка приема  + - 30 минут",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "158",
+      "lastDate": null,
+      "name": "Холунина Наталья Николаевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

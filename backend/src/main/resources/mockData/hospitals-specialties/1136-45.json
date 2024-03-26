@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "23 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 65,
+      "freeTicketCount": 66,
+      "id": "624",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Танцюра Виктор Иванович",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,89 @@
+{
+  "result": [
+    {
+      "id": "50",
+      "ferId": "10",
+      "name": "ДЕРМАТО-ВЕНЕРОЛ",
+      "countFreeParticipant": 46,
+      "countFreeTicket": 46,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "id": "76",
+      "ferId": "11",
+      "name": "ДЕТСКИЙ ХИРУРГ",
+      "countFreeParticipant": 225,
+      "countFreeTicket": 225,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "10",
+      "ferId": "118",
+      "name": "КАРДИОЛОГ",
+      "countFreeParticipant": 24,
+      "countFreeTicket": 24,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "id": "44",
+      "ferId": "14",
+      "name": "НЕВРОПАТОЛОГ",
+      "countFreeParticipant": 3,
+      "countFreeTicket": 3,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "id": "380",
+      "ferId": "22",
+      "name": "ПЕДИАТР УЧ.(ВТОРНИК И ЧЕТВЕРГ-ДЕТИ ДО ТРЁХ ЛЕТ)",
+      "countFreeParticipant": 265,
+      "countFreeTicket": 265,
+      "lastDate": "2024-04-04T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "38",
+      "ferId": "22",
+      "name": "ПЕДИАТР УЧАСТ.",
+      "countFreeParticipant": 519,
+      "countFreeTicket": 519,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "id": "27",
+      "ferId": "28",
+      "name": "ОРТОПЕД",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "41",
+      "ferId": "20",
+      "name": "ОФТАЛЬМОЛОГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "14",
+      "ferId": "31",
+      "name": "ЭНДОКРИНОЛОГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

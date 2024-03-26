@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "3 ПО",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1422",
+      "lastDate": null,
+      "name": "Талипова Асылкул Келгенбаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "3 ПО",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1421",
+      "lastDate": null,
+      "name": "Шохина Ирина Михайловна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

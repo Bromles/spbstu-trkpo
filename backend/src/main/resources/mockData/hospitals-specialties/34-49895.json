@@ -1,0 +1,173 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "502",
+      "lastDate": null,
+      "name": "Архипова Анастасия Анатольевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "360",
+      "lastDate": "2024-04-01T12:45:00",
+      "name": "Барзман Галина Юрьевна",
+      "nearestDate": "2024-04-01T12:45:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "104",
+      "lastDate": null,
+      "name": "Бударина Олеся Петровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "520",
+      "lastDate": "2024-04-01T18:15:00",
+      "name": "Гаар Екатерина Сергеевна",
+      "nearestDate": "2024-04-01T18:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "282",
+      "lastDate": null,
+      "name": "Гладкая Татьяна Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "343",
+      "lastDate": "2024-03-29T15:45:00",
+      "name": "Ермоленко Ирина Николаевна",
+      "nearestDate": "2024-03-29T15:45:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "103",
+      "lastDate": "2024-04-01T19:15:00",
+      "name": "Жиронкина Татьяна Александровна",
+      "nearestDate": "2024-03-29T18:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "101",
+      "lastDate": "2024-04-01T11:00:00",
+      "name": "Исенгалиева Татьяна Темергалиевна",
+      "nearestDate": "2024-04-01T11:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "105",
+      "lastDate": null,
+      "name": "Коновалова Эвелина Вячеславовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "554",
+      "lastDate": "2024-04-01T19:15:00",
+      "name": "Панкратова Валерия Сергеевна",
+      "nearestDate": "2024-04-01T16:30:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "1243",
+      "lastDate": "2024-03-28T19:15:00",
+      "name": "Сороговец Мария Владимировна",
+      "nearestDate": "2024-03-28T17:15:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "470",
+      "lastDate": "2024-04-01T19:15:00",
+      "name": "Уваров Тимофей Гавриилович",
+      "nearestDate": "2024-03-28T16:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 6,
+      "freeTicketCount": 6,
+      "id": "160",
+      "lastDate": "2024-04-01T18:45:00",
+      "name": "Чайкина Галина Васильевна",
+      "nearestDate": "2024-04-01T16:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "810",
+      "lastDate": null,
+      "name": "Щербак Оксана Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "952",
+      "lastDate": null,
+      "name": "Янчук Юрий Владимирович",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

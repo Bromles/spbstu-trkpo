@@ -1,0 +1,80 @@
+{
+  "result": [
+    {
+      "id": "45",
+      "ferId": "224",
+      "name": "ВОП",
+      "countFreeParticipant": 31,
+      "countFreeTicket": 31,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "48",
+      "ferId": "19",
+      "name": "ЛОР",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 404,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "49",
+      "ferId": "20",
+      "name": "Офтальмолог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 140,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "78",
+      "ferId": "27",
+      "name": "Терапевт",
+      "countFreeParticipant": 568,
+      "countFreeTicket": 1020,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "84",
+      "ferId": "145",
+      "name": "Уролог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "89",
+      "ferId": "30",
+      "name": "Хирург",
+      "countFreeParticipant": 18,
+      "countFreeTicket": 18,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "292",
+      "ferId": "58",
+      "name": "Кабинет Профилактики (Углубленная Диспансеризация)",
+      "countFreeParticipant": 228,
+      "countFreeTicket": 276,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "10000",
+      "ferId": "206",
+      "name": "Бокс, симптомы ОРВИ/Грипп/COVID",
+      "countFreeParticipant": 149,
+      "countFreeTicket": 157,
+      "lastDate": "2024-03-28T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

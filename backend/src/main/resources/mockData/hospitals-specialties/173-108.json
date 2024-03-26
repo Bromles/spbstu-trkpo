@@ -1,0 +1,96 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 121,
+      "id": "828",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Абдуллаев Валижон Салижанович  ХИРУРГИЯ ВЗРОСЛЫЙ ПРИЕМ С 18 ЛЕТ",
+      "nearestDate": "2024-03-27T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 3,
+      "id": "658",
+      "lastDate": "2024-04-08T16:20:00",
+      "name": "Жилина Елена Сергеевна Взрослый приём.НЕ ХИРУРГ !!!  Пародонтология  Лечение дёсен,чистка",
+      "nearestDate": "2024-04-08T15:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 11,
+      "freeTicketCount": 128,
+      "id": "662",
+      "lastDate": "2024-04-05T13:45:00",
+      "name": "Казиев Анзор Исмаилович Взрослый приём. Хирургия",
+      "nearestDate": "2024-03-26T15:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 11,
+      "freeTicketCount": 180,
+      "id": "676",
+      "lastDate": "2024-04-08T13:45:00",
+      "name": "Коздоба Антон Олегович Взрослый приём. Хирургия с 18 лет",
+      "nearestDate": "2024-03-26T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 56,
+      "id": "663",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Кулябин Денис Сергеевич Взрослый приём. Хирургия с 18 лет",
+      "nearestDate": "2024-03-26T15:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 165,
+      "id": "664",
+      "lastDate": "2024-04-08T14:15:00",
+      "name": "Семенов Дмитрий Михайлович хирургия взрослый прием  с 18 лет",
+      "nearestDate": "2024-03-25T20:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 10,
+      "freeTicketCount": 145,
+      "id": "832",
+      "lastDate": "2024-04-08T13:45:00",
+      "name": "Туманевич Станислав Владимирович хирургический приём с 18 лет",
+      "nearestDate": "2024-03-25T20:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 43,
+      "id": "665",
+      "lastDate": "2024-04-05T18:30:00",
+      "name": "Юркевич Вячеслав Юрьевич взрослый прием хирургия с 18 лет",
+      "nearestDate": "2024-03-28T08:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "745cf339-bc02-11ec-982f-089798a49211",
+      "lastDate": null,
+      "name": "Сычева Любовь Михайловна (Оториноларинголог, врач-оториноларинголог, )",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

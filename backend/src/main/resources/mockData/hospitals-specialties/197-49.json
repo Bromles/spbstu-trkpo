@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Консультационно-диагностическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 69,
+      "freeTicketCount": 69,
+      "id": "2146",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Ходкевич Сергей Александрович",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Консультационно-диагностическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2182",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": "Ходкевич (Профприем) Сергей Александрович",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "Консультационно-диагностическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 83,
+      "freeTicketCount": 86,
+      "id": "2377",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Марьина Мария Николаевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Консультационно-диагностическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 20,
+      "freeTicketCount": 20,
+      "id": "2378",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": "Марьина (Профприем) Мария Николаевна",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

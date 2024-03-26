@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "9",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8279",
+      "lastDate": null,
+      "name": "Лаптев Евгений Юрьевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8690",
+      "lastDate": null,
+      "name": "Лаугина Светлана Олеговна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

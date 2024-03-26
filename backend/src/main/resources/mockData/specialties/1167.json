@@ -1,0 +1,35 @@
+{
+  "result": [
+    {
+      "id": "11",
+      "ferId": "66",
+      "name": "Гериатр",
+      "countFreeParticipant": 35,
+      "countFreeTicket": 35,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "40",
+      "ferId": "14",
+      "name": "Невролог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "56",
+      "ferId": "98",
+      "name": "Психотерапевт",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

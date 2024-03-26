@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 14,
+      "freeTicketCount": 14,
+      "id": "3.023",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Иванова Л.Ю. только ДПО 3, ДПО 32  ",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 67,
+      "freeTicketCount": 67,
+      "id": "3.022",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Шигина Т.Л. ДПО 41, ДПО 43, ДПО 64 ",
+      "nearestDate": "2024-03-28T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 30,
+      "freeTicketCount": 30,
+      "id": "1655",
+      "lastDate": "2024-03-29T13:04:00",
+      "name": "Денисова Галина Борисовна",
+      "nearestDate": "2024-03-26T10:24:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 43,
+      "freeTicketCount": 43,
+      "id": "11",
+      "lastDate": "2024-03-29T13:00:00",
+      "name": "Богданова Елена Александровна",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 43,
+      "freeTicketCount": 43,
+      "id": "10",
+      "lastDate": "2024-03-29T13:00:00",
+      "name": "Казаченко Людмила Александровна",
+      "nearestDate": "2024-03-25T17:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

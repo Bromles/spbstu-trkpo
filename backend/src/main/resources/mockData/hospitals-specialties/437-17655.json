@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Только флюорография",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "3643",
+      "lastDate": null,
+      "name": "Гаврилюк Владислав Эдуардович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "5982",
+      "lastDate": null,
+      "name": "Индирбиев Саид Русланович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "5954",
+      "lastDate": null,
+      "name": "Черныш Евгений Анатольевич",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

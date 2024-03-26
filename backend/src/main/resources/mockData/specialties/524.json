@@ -1,0 +1,80 @@
+{
+  "result": [
+    {
+      "id": "79",
+      "ferId": "55",
+      "name": "Вакцинация от COVID-19",
+      "countFreeParticipant": 26,
+      "countFreeTicket": 26,
+      "lastDate": "2024-03-29T00:00:00",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "id": "75",
+      "ferId": "0",
+      "name": "ОРУЖЕЙНАЯ КОМИССИЯ (платный прием)",
+      "countFreeParticipant": 2,
+      "countFreeTicket": 2,
+      "lastDate": "2024-03-26T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "42",
+      "ferId": "19",
+      "name": "ОТОРИНОЛАРИНГОЛОГ",
+      "countFreeParticipant": 11,
+      "countFreeTicket": 11,
+      "lastDate": "2024-04-10T00:00:00",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "id": "41",
+      "ferId": "20",
+      "name": "ОФТАЛЬМОЛОГ",
+      "countFreeParticipant": 3,
+      "countFreeTicket": 3,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "id": "81",
+      "ferId": "0",
+      "name": "ПЛАНОВАЯ ДИСПАНСЕРИЗАЦИЯ",
+      "countFreeParticipant": 139,
+      "countFreeTicket": 139,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "23",
+      "ferId": "30",
+      "name": "ХИРУРГ",
+      "countFreeParticipant": 57,
+      "countFreeTicket": 57,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "4",
+      "ferId": "27",
+      "name": "ТЕРАПЕВТ УЧАСТКОВЫЙ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "28",
+      "ferId": "145",
+      "name": "УРОЛОГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

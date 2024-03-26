@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 27,
+      "freeTicketCount": 78,
+      "id": "1077",
+      "lastDate": "2024-04-08T19:30:00",
+      "name": "Николаенко Елена Владимировна",
+      "nearestDate": "2024-03-27T08:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

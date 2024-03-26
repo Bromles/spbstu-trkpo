@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "29 (ул. Ленская д. 2/1, пр. Индустриальный д. 15)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "84",
+      "lastDate": null,
+      "name": "Осипова В.В. (33 участок)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "31 (Наставников д.12, д.14, д.16/1, д.16/2. Ленская д.8/1, д.6/5)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "92",
+      "lastDate": null,
+      "name": "Чеченко С.А. (31 участок)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "433",
+      "lastDate": null,
+      "name": "Каллагова З.Э (32 участок)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

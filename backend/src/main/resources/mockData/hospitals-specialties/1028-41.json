@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 45,
+      "freeTicketCount": 45,
+      "id": "пм65.181",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Почиковская О.А (Парковая 20/3)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 9,
+      "freeTicketCount": 9,
+      "id": "пм65.180",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Федорова НВ (Парковая 20/3)",
+      "nearestDate": "2024-03-29T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

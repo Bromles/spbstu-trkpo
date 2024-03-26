@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 55,
+      "freeTicketCount": 55,
+      "id": "пм65.184",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "ЛАДЫГИНА О.А ( Чебышевская 12/3)",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 38,
+      "freeTicketCount": 38,
+      "id": "пм65.259",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Милованова Г.Ю.(Чебышевская д.12 к.3)",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 53,
+      "freeTicketCount": 53,
+      "id": "пм65.500",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "ШАМШУДИНОВА И.Р (Чебышевская 12/3)",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "2038",
+      "lastDate": "2024-03-29T11:30:00",
+      "name": "Шалишева Дарья Дмитриевна",
+      "nearestDate": "2024-03-29T11:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "1977",
+      "lastDate": "2024-03-25T19:00:00",
+      "name": "Щербатюк Дарья Александровна",
+      "nearestDate": "2024-03-25T17:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

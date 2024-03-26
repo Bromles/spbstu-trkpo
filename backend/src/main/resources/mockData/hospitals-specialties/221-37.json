@@ -1,0 +1,107 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 55,
+      "freeTicketCount": 55,
+      "id": "п30.49п",
+      "lastDate": "2024-04-03T00:00:00",
+      "name": " 1 уч. ВАСИЛЬЕВА Е.Н.",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 53,
+      "freeTicketCount": 53,
+      "id": "п30.051п",
+      "lastDate": "2024-04-03T00:00:00",
+      "name": " 2 уч. СОЛОЩЕНКО Л.И.",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 50,
+      "freeTicketCount": 50,
+      "id": "3560.116п",
+      "lastDate": "2024-04-03T00:00:00",
+      "name": " 4 уч. КРУГЛОВА Д.А. 22.03 по записи к др. врачу",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 20,
+      "freeTicketCount": 20,
+      "id": "п30.57п",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": " 5 уч. МАШКОВА Е.Н. 01.04-21.04 по записи к др. врачу",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 52,
+      "freeTicketCount": 52,
+      "id": "п30.054п",
+      "lastDate": "2024-04-03T00:00:00",
+      "name": " 6 уч. АНАНЬЕВА С.В.",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 50,
+      "freeTicketCount": 50,
+      "id": "п30.50п",
+      "lastDate": "2024-04-03T00:00:00",
+      "name": " 7 уч. МИХАЙЛЕВА Е.Н.",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 60,
+      "freeTicketCount": 60,
+      "id": "3560.124п",
+      "lastDate": "2024-04-03T00:00:00",
+      "name": " 8 уч. ЧУМКИНА О.А.",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 43,
+      "freeTicketCount": 43,
+      "id": "3560.122п",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": " 9 уч. КУЛАГИНА А.Д. 03.04, 12.04 по записи к др. врачу",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 54,
+      "freeTicketCount": 54,
+      "id": "п30.40",
+      "lastDate": "2024-04-03T00:00:00",
+      "name": "10 уч. ШЕВЧЕНКО Т.В.",
+      "nearestDate": "2024-03-27T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

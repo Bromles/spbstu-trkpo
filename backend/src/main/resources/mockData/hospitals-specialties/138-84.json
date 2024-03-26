@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 49,
+      "freeTicketCount": 49,
+      "id": "1502",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Аскендеров Мунир Абдулсамадович",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 81,
+      "freeTicketCount": 81,
+      "id": "936",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Злобин Дмитрий Сергеевич",
+      "nearestDate": "2024-03-28T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

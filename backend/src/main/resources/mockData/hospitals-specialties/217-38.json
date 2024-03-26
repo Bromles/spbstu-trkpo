@@ -1,0 +1,173 @@
+{
+  "result": [
+    {
+      "ariaNumber": "1,11",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 50,
+      "freeTicketCount": 50,
+      "id": "ДПО70.30",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "№1 Байдакова О.А. ",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "10",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 36,
+      "freeTicketCount": 36,
+      "id": "ДПО70.78",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "№10 ТЮМЕНЦЕВА  О.А.",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "12",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 65,
+      "freeTicketCount": 65,
+      "id": "ДПО70.35",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "№12 Самсонова А.Ф. ",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "13",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 68,
+      "freeTicketCount": 68,
+      "id": "ДПО70.70",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "№13 Герасимова С.В.",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "14,11",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 44,
+      "freeTicketCount": 44,
+      "id": "дпо70.222",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "№14 БЕЗРУКОВА Н.В. ",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "15",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 58,
+      "freeTicketCount": 58,
+      "id": "дпо70.157",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "№15 Нежанцев В.О.",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "16,11,8",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 64,
+      "freeTicketCount": 64,
+      "id": "д70.119",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "№16 ИНОЗЕМЦЕВА К. А.",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "2",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 68,
+      "freeTicketCount": 68,
+      "id": "ДПО70.46",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "№2 Мирзамамитов Р.А.",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "3",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 68,
+      "freeTicketCount": 68,
+      "id": "ДПО70.40",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "№3 Васильков А.О.",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "4",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 41,
+      "freeTicketCount": 41,
+      "id": "ДПО70.25",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "№4 Иванова А.А.",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "5",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 67,
+      "freeTicketCount": 67,
+      "id": "ДПО70.49",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "№5 Данилова И.И.",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "6,11,8",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 59,
+      "freeTicketCount": 59,
+      "id": "д70.138",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "№6  ХЕДМАН А.С. ",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "7",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 70,
+      "freeTicketCount": 70,
+      "id": "ДПО70.45",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "№7 Никитина Н.Б",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "8",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 36,
+      "freeTicketCount": 36,
+      "id": "ДПО70.68",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "№8 Виноградова И.А.",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "9,11",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 65,
+      "freeTicketCount": 65,
+      "id": "ДПО70.27",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "№9   Магомедов З.К.",
+      "nearestDate": "2024-03-27T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

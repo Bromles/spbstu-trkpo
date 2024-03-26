@@ -1,0 +1,84 @@
+volumes:
+  db-data:
+
+services:
+  database:
+    container_name: database
+    image: postgres:16.0
+    volumes:
+      - db-data:/var/lib/postgresql/data
+      - ./docker_multiple_databases:/docker-entrypoint-initdb.d
+    shm_size: 256mb
+    environment:
+      POSTGRES_USER: hospital
+      POSTGRES_PASSWORD: password
+      POSTGRES_MULTIPLE_DATABASES: keycloak_db,backend_db
+    ports:
+      - "5433:5432"
+    restart: on-failure:3
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+
+  auth_server:
+    container_name: auth_server
+    image: quay.io/keycloak/keycloak:20.0.1
+    environment:
+      KC_DB: postgres
+      KC_DB_URL: jdbc:postgresql://database:5432/keycloak_db
+      KC_DB_USERNAME: hospital
+      KC_DB_PASSWORD: password
+      KEYCLOAK_ADMIN: hospital
+      KC_HTTP_ENABLED: "true"
+      KC_HTTP_PORT: 8099
+      KC_HOSTNAME_STRICT: "false"
+      KEYCLOAK_ADMIN_PASSWORD: password
+    ports:
+      - "8099:8099"
+    command:
+      - start-dev
+    restart: on-failure:3
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+    depends_on:
+      - database
+
+  backend:
+    container_name: backend
+    build: backend/
+    image: spbstu-trkpo-backend
+    environment:
+      DB_URL: "jdbc:postgresql://database:5432/backend_db"
+      DB_USERNAME: "hospital"
+      DB_PASSWORD: "password"
+      AUTH_SERVER_JWKS_URL: "http://auth_server:8099/realms/trkpo-hospital/protocol/openid-connect/certs"
+      MAIL_USERNAME: "spbstu.trkpo@yandex.ru"
+      MAIL_PASSWORD: "txspsbbjtmceuquq"
+      USE_LOCAL_GORZDRAV: "true"
+    ports:
+      - "8082:8080"
+    depends_on:
+      - database
+      - auth_server
+    restart: on-failure:3
+    deploy:
+      resources:
+        limits:
+          memory: 1G
+
+  frontend:
+    container_name: frontend
+    build: frontend/
+    image: spbstu-trkpo-frontend
+    ports:
+      - "4200:80"
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+    restart: on-failure:3
+    depends_on:
+      - backend

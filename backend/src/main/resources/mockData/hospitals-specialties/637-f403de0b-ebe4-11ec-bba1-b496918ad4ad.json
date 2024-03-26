@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ПРИЕМ В ОФИСЕ ПАРАШЮТНАЯ 42-2, ЧЁТ. С 14-20 НЕЧЁТ С08-14",
+      "freeParticipantCount": 15,
+      "freeTicketCount": 15,
+      "id": "07989f52-ed6f-11ec-bba1-b496918ad4ad",
+      "lastDate": "2024-04-08T15:48:00",
+      "name": "Настасий Альбина Сергеевна (Врач-офтальмолог)",
+      "nearestDate": "2024-04-05T08:36:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

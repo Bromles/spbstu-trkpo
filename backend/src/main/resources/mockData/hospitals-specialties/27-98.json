@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 48,
+      "freeTicketCount": 63,
+      "id": "4",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Бафталовская Ольга Алексеевна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 73,
+      "freeTicketCount": 73,
+      "id": "19",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Пантелеева Валентина Юрьевна",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

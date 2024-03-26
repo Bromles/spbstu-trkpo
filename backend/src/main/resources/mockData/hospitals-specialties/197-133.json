@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Физиотерапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 122,
+      "freeTicketCount": 122,
+      "id": "2240",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Пентюхова Елена Юрьевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

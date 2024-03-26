@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 14,
+      "freeTicketCount": 39,
+      "id": "188",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Коренева Инна Игнатьевна ",
+      "nearestDate": "2024-03-30T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 28,
+      "id": "187",
+      "lastDate": "2024-04-08T16:00:00",
+      "name": "Прахов Владимир Николаевич ",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 34,
+      "id": "185",
+      "lastDate": "2024-04-08T13:20:00",
+      "name": "Пурвина Наталья Николаевна ",
+      "nearestDate": "2024-03-27T20:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 12,
+      "freeTicketCount": 55,
+      "id": "212",
+      "lastDate": "2024-04-08T13:20:00",
+      "name": "Фаткуллина Светлана Шамилевна ",
+      "nearestDate": "2024-03-27T15:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 32,
+      "freeTicketCount": 62,
+      "id": "267",
+      "lastDate": "2024-04-08T13:20:00",
+      "name": "Шаргородская Ольга Альбертовна ",
+      "nearestDate": "2024-03-25T19:20:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

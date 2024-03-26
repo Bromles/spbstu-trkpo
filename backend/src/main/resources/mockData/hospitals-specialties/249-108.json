@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 511,
+      "id": "1",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Дежурный врач ",
+      "nearestDate": "2024-03-25T17:15:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

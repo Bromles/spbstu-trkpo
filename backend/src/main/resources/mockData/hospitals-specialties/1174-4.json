@@ -1,0 +1,118 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "терапевтические участки № 27, 29",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "п100.136",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Абаева Р.О. 3 ТО. 27/29 участки.",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "терапевтические участки № 42, 45",
+      "freeParticipantCount": 87,
+      "freeTicketCount": 87,
+      "id": "п100.482",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Алиева Ш.Г. 4 ТО. 42/45 участки. (с 15.04 по 28.04 без приема.)",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "терапевтический участок № 34",
+      "freeParticipantCount": 106,
+      "freeTicketCount": 106,
+      "id": "п100.605",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Антонова Е.В. 3ТО 34 участок.",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "терапевтический участок № 31",
+      "freeParticipantCount": 44,
+      "freeTicketCount": 44,
+      "id": "п100.491",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Дудин А.В. 3 ТО. 31 участок.",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "терапевтический участок № 30",
+      "freeParticipantCount": 90,
+      "freeTicketCount": 90,
+      "id": "п100.521",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Комлева А.Д. 3 ТО. 30 участок. (с 15.04 по 28.04 без приема.)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 128,
+      "freeTicketCount": 128,
+      "id": "п100.552",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Мастакова Е.А. 4 ТО.",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "терапевтические участки № 38, 39",
+      "freeParticipantCount": 105,
+      "freeTicketCount": 105,
+      "id": "п100.553",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Чокля Л.В. 4 ТО. 38/39 участки. (с 15.04 по 28.04 без приема.)",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "терапевтический участок № 28. с 18.03 по 31.03 и.о. зав. 3 тер. отделением.",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "п100.500",
+      "lastDate": null,
+      "name": "Быков В.А. 3 ТО. 28 участок. (с 18.03-31.03 и.о.зав. 3 тер.отделением, с 01.0",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "терапевтические участки № 40, 44",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "п100.497",
+      "lastDate": null,
+      "name": "Габдрахимова Р.Ф. 4 ТО. 40/44 участки.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "терапевтические участки № 37, 41, 43",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "п100.273",
+      "lastDate": null,
+      "name": "Герасименко В.Г. 4 ТО. 37/41/43 участки. (с 01.04 по 17.04 без приема)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

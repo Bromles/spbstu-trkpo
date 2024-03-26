@@ -1,0 +1,35 @@
+{
+  "result": [
+    {
+      "id": "2099",
+      "ferId": "17",
+      "name": "Онколог",
+      "countFreeParticipant": 7,
+      "countFreeTicket": 7,
+      "lastDate": "2024-04-08T19:23:00",
+      "nearestDate": "2024-04-04T09:42:00"
+    },
+    {
+      "id": "2101",
+      "ferId": "19",
+      "name": "Оториноларинголог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "2169",
+      "ferId": "98",
+      "name": "Психолог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

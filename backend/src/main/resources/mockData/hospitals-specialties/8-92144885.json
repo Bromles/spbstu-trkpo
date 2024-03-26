@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 105,
+      "freeTicketCount": 105,
+      "id": "7411",
+      "lastDate": "2024-04-08T12:45:00",
+      "name": "Кабинет профилактики (углубленная диспансеризация)",
+      "nearestDate": "2024-03-27T11:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "до 26.10.2022 имел название Кабинет профилактики (углубленная диспансеризация) каб 142",
+      "freeParticipantCount": 195,
+      "freeTicketCount": 195,
+      "id": "8185",
+      "lastDate": "2024-04-08T16:40:00",
+      "name": "Кабинет профилактики (углубленная диспансеризация) каб 109",
+      "nearestDate": "2024-03-25T16:40:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

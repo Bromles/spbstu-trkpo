@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 92,
+      "freeTicketCount": 92,
+      "id": "ДПО70.100",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "СПРАВКИ ОБ ЭПИД ОКРУЖЕНИИ",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

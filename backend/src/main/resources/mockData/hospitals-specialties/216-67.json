@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 1,
+      "id": "51",
+      "lastDate": "2024-04-10T00:00:00",
+      "name": "БЕЛЯЕВА ГАЛИНА ВЛАДИМИРОВНА ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 27,
+      "id": "54",
+      "lastDate": "2024-04-11T00:00:00",
+      "name": "ОСОЛОДКИНА АННА АНАТОЛЬЕВНА (ОТПУСК 19/03-28/03)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

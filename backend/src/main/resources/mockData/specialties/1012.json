@@ -1,0 +1,17 @@
+{
+  "result": [
+    {
+      "id": "72",
+      "ferId": "16",
+      "name": "ВРАЧИ ОБЩЕЙ ПРАКТИКИ (ОВОП №1)",
+      "countFreeParticipant": 123,
+      "countFreeTicket": 123,
+      "lastDate": "2024-04-12T00:00:00",
+      "nearestDate": "2024-04-04T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

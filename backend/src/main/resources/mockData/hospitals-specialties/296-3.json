@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 30,
+      "freeTicketCount": 30,
+      "id": "п76с.143",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Баранник Е.И.",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 16,
+      "freeTicketCount": 16,
+      "id": "п76с.96",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Егорова Г.С.",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 9,
+      "freeTicketCount": 9,
+      "id": "п76с.91",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Коробейникова Е.О.",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 137,
+      "freeTicketCount": 137,
+      "id": "п76с.17",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Рогулина Е.В.",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 19,
+      "freeTicketCount": 19,
+      "id": "п76с.5204",
+      "lastDate": "2024-03-30T00:00:00",
+      "name": "Савицкая О.А.",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

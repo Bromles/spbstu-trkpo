@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 167,
+      "freeTicketCount": 191,
+      "id": "14693",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Сопко З.А. ",
+      "nearestDate": "2024-04-10T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "16051",
+      "lastDate": null,
+      "name": "Божок Е.Ю.отп. с 01/04-07/04",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

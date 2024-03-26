@@ -1,0 +1,162 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 114,
+      "freeTicketCount": 114,
+      "id": "123568",
+      "lastDate": "2024-04-12T19:30:00",
+      "name": "Гайдей Кристина Петровна",
+      "nearestDate": "2024-03-27T17:10:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 51,
+      "freeTicketCount": 51,
+      "id": "333333",
+      "lastDate": "2024-04-12T13:45:00",
+      "name": "Кириллов Иван Викторович",
+      "nearestDate": "2024-04-08T09:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 183,
+      "freeTicketCount": 183,
+      "id": "152374",
+      "lastDate": "2024-04-12T19:30:00",
+      "name": "Козловская Надежда Сергеевна",
+      "nearestDate": "2024-03-25T18:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 188,
+      "freeTicketCount": 188,
+      "id": "128670",
+      "lastDate": "2024-04-12T19:30:00",
+      "name": "Крестникова Екатерина Николаевна",
+      "nearestDate": "2024-03-25T16:30:00"
+    },
+    {
+      "ariaNumber": "12",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 106,
+      "freeTicketCount": 106,
+      "id": "12380",
+      "lastDate": "2024-04-12T13:45:00",
+      "name": "Лобань Елена Владимировна",
+      "nearestDate": "2024-04-02T16:50:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 173,
+      "freeTicketCount": 173,
+      "id": "125312345",
+      "lastDate": "2024-04-12T13:20:00",
+      "name": "Малухина Тамара Борисовна",
+      "nearestDate": "2024-03-26T15:50:00"
+    },
+    {
+      "ariaNumber": "9",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 27,
+      "freeTicketCount": 27,
+      "id": "126705",
+      "lastDate": "2024-04-09T15:10:00",
+      "name": "Монахова Ирина Александровна",
+      "nearestDate": "2024-04-02T16:30:00"
+    },
+    {
+      "ariaNumber": "7",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 129,
+      "freeTicketCount": 129,
+      "id": "12345",
+      "lastDate": "2024-04-12T19:30:00",
+      "name": "Пикалёва Ольга Александровна",
+      "nearestDate": "2024-03-29T19:30:00"
+    },
+    {
+      "ariaNumber": "2",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 162,
+      "freeTicketCount": 162,
+      "id": "11002",
+      "lastDate": "2024-04-12T14:00:00",
+      "name": "Рамазанова Зарема Магомедрасуловна",
+      "nearestDate": "2024-03-26T18:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 176,
+      "freeTicketCount": 176,
+      "id": "123456788",
+      "lastDate": "2024-04-12T19:30:00",
+      "name": "Сатиева Дениза Германовна",
+      "nearestDate": "2024-03-25T19:10:00"
+    },
+    {
+      "ariaNumber": "6",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 164,
+      "freeTicketCount": 164,
+      "id": "8704",
+      "lastDate": "2024-04-12T19:30:00",
+      "name": "Смирнов Александр Евгеньевич",
+      "nearestDate": "2024-03-25T18:50:00"
+    },
+    {
+      "ariaNumber": "11",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 43,
+      "freeTicketCount": 43,
+      "id": "125446",
+      "lastDate": "2024-04-12T19:30:00",
+      "name": "Смирнов Александр Николаевич",
+      "nearestDate": "2024-04-08T17:10:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 173,
+      "freeTicketCount": 173,
+      "id": "545684646",
+      "lastDate": "2024-04-12T13:45:00",
+      "name": "Титаренко Елена Вадимовна",
+      "nearestDate": "2024-03-26T17:50:00"
+    },
+    {
+      "ariaNumber": "5",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "16439",
+      "lastDate": null,
+      "name": "Харсунова Ольга Владимировна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

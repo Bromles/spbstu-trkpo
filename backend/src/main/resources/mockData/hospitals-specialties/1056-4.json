@@ -1,0 +1,140 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 58,
+      "freeTicketCount": 58,
+      "id": "81880.115",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Азизова С.М.",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 79,
+      "freeTicketCount": 79,
+      "id": "81880.113",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Арсланбекова А.А.",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 76,
+      "freeTicketCount": 76,
+      "id": "81880.112",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Гарафиев И.Д.",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 45,
+      "freeTicketCount": 45,
+      "id": "81880.37",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Горлова М.О",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 81,
+      "freeTicketCount": 81,
+      "id": "81880.118",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Далгатова Ч.И.",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 44,
+      "freeTicketCount": 44,
+      "id": "81880.89",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Кутунаева Э.А",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 41,
+      "freeTicketCount": 41,
+      "id": "81880.105",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Моногарова П.С.",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 21,
+      "freeTicketCount": 21,
+      "id": "81880.79",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Семенов А.А.",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "81880.44",
+      "lastDate": null,
+      "name": "Гончарова С.Г.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "81880.97",
+      "lastDate": null,
+      "name": "Зуева А.В",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "81880.100",
+      "lastDate": null,
+      "name": "Лебедева Е.М.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "81880.116",
+      "lastDate": null,
+      "name": "Пореченский В.А.",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

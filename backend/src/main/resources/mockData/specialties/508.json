@@ -1,0 +1,152 @@
+{
+  "result": [
+    {
+      "id": "72",
+      "ferId": "16",
+      "name": "ВРАЧ ОБЩЕЙ ПРАКТИКИ",
+      "countFreeParticipant": 60,
+      "countFreeTicket": 60,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "id": "81",
+      "ferId": "31",
+      "name": "ДИАБЕТИЧЕСКАЯ РЕТИНОПАТИЯ",
+      "countFreeParticipant": 13,
+      "countFreeTicket": 13,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "70",
+      "ferId": "27",
+      "name": "ДИСПАНСЕРИЗАЦИЯ",
+      "countFreeParticipant": 68,
+      "countFreeTicket": 68,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "79",
+      "ferId": "55",
+      "name": "Кабинет вакцинации от Covid-19 ",
+      "countFreeParticipant": 69,
+      "countFreeTicket": 69,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "26",
+      "ferId": "43",
+      "name": "ПРОКТОЛОГ 123,109,5 п-ки",
+      "countFreeParticipant": 10,
+      "countFreeTicket": 10,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "id": "4",
+      "ferId": "27",
+      "name": "ТЕРАПЕВТ УЧАСТКОВЫЙ",
+      "countFreeParticipant": 115,
+      "countFreeTicket": 115,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "id": "28",
+      "ferId": "145",
+      "name": "УРОЛОГ  ",
+      "countFreeParticipant": 1,
+      "countFreeTicket": 1,
+      "lastDate": "2024-04-04T00:00:00",
+      "nearestDate": "2024-04-04T00:00:00"
+    },
+    {
+      "id": "23",
+      "ferId": "30",
+      "name": "ХИРУРГ ",
+      "countFreeParticipant": 1,
+      "countFreeTicket": 1,
+      "lastDate": "2024-03-25T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "85",
+      "ferId": "27",
+      "name": "ВЫПИСКА ИНСУЛИНА, П.О.С.П.",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "11",
+      "ferId": "79",
+      "name": "ГАСТРОЭНТЕРОЛОГзапись через терапевта",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "63",
+      "ferId": "43",
+      "name": "КОЛОНОСКОПИЯ ДЛЯ 5 и 109 ПОЛИКЛИНИКИ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 1,
+      "lastDate": "2024-04-11T00:00:00",
+      "nearestDate": null
+    },
+    {
+      "id": "42",
+      "ferId": "19",
+      "name": "ОТОЛАРИНГОЛОГ ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "41",
+      "ferId": "20",
+      "name": "ОФТАЛЬМОЛОГ ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "68",
+      "ferId": "30",
+      "name": "Сосудистый хирург (109,5,123)через Терапевта",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 18,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": null
+    },
+    {
+      "id": "62",
+      "ferId": "35",
+      "name": "ФГДС ДЛЯ  5 ПОЛИКЛИНИКИ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "14",
+      "ferId": "31",
+      "name": "ЭНДОКРИНОЛОГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 1,
+      "lastDate": "2024-04-09T00:00:00",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

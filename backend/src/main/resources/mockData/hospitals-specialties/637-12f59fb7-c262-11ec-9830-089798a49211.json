@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ПРИЕМ В ОФИСЕ ПАРАШЮТ.42-2",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "bd7245dd-ed70-11ec-bba1-b496918ad4ad",
+      "lastDate": null,
+      "name": "Мисчанчук Светлана Александровна (Врач-эндокринолог)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

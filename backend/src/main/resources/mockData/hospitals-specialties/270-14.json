@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "1-10,11-20,21-32,40",
+      "ariaType": null,
+      "comment": "Врач принимает строго по направлению!!!!!!!",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 90,
+      "id": "д71.350",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "АФАНАСЬЕВА Н.В.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "1-10,11-20,21-32,40",
+      "ariaType": null,
+      "comment": "Врач принимает строго по направлению!!!!!!!",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 67,
+      "id": "д71.583",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "ЛАЗАРЕВА Ю.Ю.",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Урологический кабинет",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 195,
+      "freeTicketCount": 241,
+      "id": "26",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Микаутадзе Александр Гуриевич",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Урологический кабинет",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 112,
+      "freeTicketCount": 177,
+      "id": "466",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Редченко Артем Александрович",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "д26.156",
+      "lastDate": null,
+      "name": "ПРИЕМ НА ЭНГЕЛЬСА 117, Шраер Н.В., ДИСПАНСЕРИЗАЦИЯ, 318 КАБ.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "д26.91",
+      "lastDate": null,
+      "name": "Сухинин УЗИ тбс+нсг+бр.пол.+сердце(первич.до 1г.) 208 КАБ.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "д26.97",
+      "lastDate": null,
+      "name": "невролог Вандер О.Л.(26по)дети до 1года",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "д26.135",
+      "lastDate": null,
+      "name": "ортопед Кузина Н.В. (26по) дети до 1 года",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "д26.96",
+      "lastDate": null,
+      "name": "отоларинголог Лучникова Е.А.(26по)дети до 1года",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "д26.146",
+      "lastDate": null,
+      "name": "хирург Асанов Б. Б. (26по) Дети до 1 года",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

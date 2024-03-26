@@ -1,0 +1,96 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 135,
+      "freeTicketCount": 135,
+      "id": "п7.188",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Васин Г.В.",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 135,
+      "freeTicketCount": 135,
+      "id": "п7.5",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Галущак Г.С.",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 77,
+      "freeTicketCount": 77,
+      "id": "п7.229",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Колесникова В.С.",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 142,
+      "freeTicketCount": 142,
+      "id": "п7.212",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Коробейникова А.Е.",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 144,
+      "freeTicketCount": 144,
+      "id": "п7.19",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Лазутина Г.В.",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 162,
+      "freeTicketCount": 162,
+      "id": "п7.1",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Лукшина Е.А.",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 179,
+      "freeTicketCount": 179,
+      "id": "п7.228",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Усова В.С.",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 59,
+      "freeTicketCount": 59,
+      "id": "п7.214",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Черных З.А.",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

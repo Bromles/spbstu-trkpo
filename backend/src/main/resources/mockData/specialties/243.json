@@ -1,0 +1,80 @@
+{
+  "result": [
+    {
+      "id": "80",
+      "ferId": "22",
+      "name": "Бокс, симптомы ОРВИ/Грипп/COVID",
+      "countFreeParticipant": 11,
+      "countFreeTicket": 11,
+      "lastDate": "2024-03-26T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "38",
+      "ferId": "22",
+      "name": "ПЕДИАТР ПО УЧАСТКАМ",
+      "countFreeParticipant": 12,
+      "countFreeTicket": 163,
+      "lastDate": "2024-04-01T00:00:00",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "id": "23",
+      "ferId": "11",
+      "name": "ХИРУРГ",
+      "countFreeParticipant": 89,
+      "countFreeTicket": 125,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "id": "50",
+      "ferId": "10",
+      "name": "ДЕРМАТОЛОГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "44",
+      "ferId": "14",
+      "name": "НЕВРОПАТОЛОГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "1000",
+      "ferId": "28",
+      "name": "ОРТОПЕД",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "42",
+      "ferId": "19",
+      "name": "ОТОЛАРИНГОЛОГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 8,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": null
+    },
+    {
+      "id": "41",
+      "ferId": "20",
+      "name": "ОФТАЛЬМОЛОГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

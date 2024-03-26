@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 26,
+      "id": "105",
+      "lastDate": "2024-04-05T13:30:00",
+      "name": "Ермилова Анна Петровна ",
+      "nearestDate": "2024-03-28T15:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 91,
+      "id": "59",
+      "lastDate": "2024-04-08T14:00:00",
+      "name": "Касумов Наби Тагир оглы ",
+      "nearestDate": "2024-03-25T17:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

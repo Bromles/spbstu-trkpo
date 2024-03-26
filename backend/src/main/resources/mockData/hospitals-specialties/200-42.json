@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "д71.117",
+      "lastDate": null,
+      "name": "ГУСАКОВА М.Н., ЛОР, С 0 ДО 1 ГОДА,  303 КАБ.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "д71.6",
+      "lastDate": null,
+      "name": "Гусакова М.Н., врач-ЛОР, 303 КАБ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "д71.162",
+      "lastDate": null,
+      "name": "ПРИЕМ НА ЗАРЕЧНОЙ 41, ЛОР, к.305 День здор.реб.ЕРШОВА Н.П..",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "д71.164",
+      "lastDate": null,
+      "name": "ПРИЕМ НА ЗАРЕЧНОЙ 41, ЛОР, к.305,ЕРШОВА Н.П.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "д71.461",
+      "lastDate": null,
+      "name": "Приём на ТОЛУБЕЕВСКОМ 6, ЛОР , Ершова Н.П.",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

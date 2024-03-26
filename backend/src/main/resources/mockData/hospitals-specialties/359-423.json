@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "возможная задержка приема +/- 30 мин",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8450.119",
+      "lastDate": null,
+      "name": "ЗИБОРОВА А.Н. каб 4",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "возможная задержка приема +/- 20 мин",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8450.108",
+      "lastDate": null,
+      "name": "МАЗУРОВА В.Д. каб.4",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Отпуск 11.03.2024 - 25.03.2024",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8450.127",
+      "lastDate": null,
+      "name": "СЕМЕНОВА С.С. каб 23",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

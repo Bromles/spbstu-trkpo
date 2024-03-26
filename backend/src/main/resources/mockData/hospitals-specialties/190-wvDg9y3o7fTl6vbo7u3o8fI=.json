@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 119,
+      "freeTicketCount": 119,
+      "id": "eUFvZEFBSEFCQUE=",
+      "lastDate": "2024-04-15T12:45:00",
+      "name": "Абдул Мафуз ",
+      "nearestDate": "2024-03-26T15:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

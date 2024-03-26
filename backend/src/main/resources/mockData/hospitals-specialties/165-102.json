@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "836",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": "Здоренко Елена Алексеевна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "с 01.04.2024 по 08.04.2024: Выходные и праздничные дни",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "500",
+      "lastDate": null,
+      "name": "Мухина Татьяна Анатольевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

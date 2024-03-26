@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 141,
+      "freeTicketCount": 141,
+      "id": "203",
+      "lastDate": "2024-04-22T00:00:00",
+      "name": "Попов Андрей Викторович",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 103,
+      "freeTicketCount": 103,
+      "id": "39",
+      "lastDate": "2024-04-18T00:00:00",
+      "name": "Сухова Оксана Сергеевна",
+      "nearestDate": "2024-04-04T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

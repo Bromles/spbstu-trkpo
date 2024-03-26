@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диспансерное наблюдение",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "a3ba654f-285f-11ed-bba8-b496918ad4af",
+      "lastDate": null,
+      "name": "Курганова Анжелика Константиновна (Дислек Невро)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

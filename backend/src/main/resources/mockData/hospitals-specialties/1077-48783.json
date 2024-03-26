@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "6, 21",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 23,
+      "freeTicketCount": 34,
+      "id": "946",
+      "lastDate": "2024-04-08T11:12:00",
+      "name": "Григорян Елена Валерьевна",
+      "nearestDate": "2024-04-03T10:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 14,
+      "freeTicketCount": 21,
+      "id": "1653",
+      "lastDate": "2024-04-08T11:24:00",
+      "name": "Павлова Ольга Николаевна",
+      "nearestDate": "2024-04-04T11:00:00"
+    },
+    {
+      "ariaNumber": "20, 21",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 29,
+      "freeTicketCount": 35,
+      "id": "581",
+      "lastDate": "2024-04-08T17:24:00",
+      "name": "Титов Дмитрий Александрович",
+      "nearestDate": "2024-04-02T10:24:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

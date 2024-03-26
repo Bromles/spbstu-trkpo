@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 41,
+      "id": "429",
+      "lastDate": "2024-04-08T16:00:00",
+      "name": "Денискина Анна Алексеевна (ПЛАНОВОЕ ЛЕЧЕНИЕ)",
+      "nearestDate": "2024-03-26T19:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 232,
+      "freeTicketCount": 345,
+      "id": "428",
+      "lastDate": "2024-04-08T13:50:00",
+      "name": "Захарян Рудольф Арменович ПРИЕМ ХИРУРГА",
+      "nearestDate": "2024-03-25T18:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

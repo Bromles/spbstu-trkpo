@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 15,
+      "freeTicketCount": 15,
+      "id": "84",
+      "lastDate": "2024-04-04T13:20:00",
+      "name": "Кокорина Оксана Александровна ",
+      "nearestDate": "2024-04-02T08:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 39,
+      "id": "81",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Шеина Елена Викторовна ",
+      "nearestDate": "2024-04-01T15:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

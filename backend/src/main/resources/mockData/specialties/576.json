@@ -1,0 +1,62 @@
+{
+  "result": [
+    {
+      "id": "49311",
+      "ferId": "14",
+      "name": "Неврология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "49315",
+      "ferId": "16",
+      "name": "Общая врачебная практика (семейная медицина)",
+      "countFreeParticipant": 34,
+      "countFreeTicket": 34,
+      "lastDate": "2024-03-29T18:45:00",
+      "nearestDate": "2024-03-26T11:00:00"
+    },
+    {
+      "id": "49325",
+      "ferId": "22",
+      "name": "Педиатрия",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "86512",
+      "ferId": "23",
+      "name": "Психология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "49351",
+      "ferId": "27",
+      "name": "Терапия",
+      "countFreeParticipant": 10,
+      "countFreeTicket": 10,
+      "lastDate": "2024-03-29T11:30:00",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "id": "87913",
+      "ferId": "290",
+      "name": "Физическая и реабилитационная медицина",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

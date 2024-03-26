@@ -1,0 +1,140 @@
+{
+  "result": [
+    {
+      "ariaNumber": "10-участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "1973",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Андреева Арина Алексеевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "5 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 6,
+      "id": "1278",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Анорьева Татьяна Геннадьевна",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "19 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 9,
+      "freeTicketCount": 9,
+      "id": "2072",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Бекленищева Елена Петровна",
+      "nearestDate": "2024-04-04T00:00:00"
+    },
+    {
+      "ariaNumber": "6 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "143",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Завьялова Нина Александровна",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "1 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "1222",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Зулина Наталья Геннадьевна",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "16 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "205",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Иванова Светлана Венедиктовна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "11-участок",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 31.03.2024: Нетрудоспособность (Болезнь, карантин и т.п.)",
+      "freeParticipantCount": 9,
+      "freeTicketCount": 9,
+      "id": "1978",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Иванова Юлия Михайловна",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "17 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "212",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Миронова Наталья Михайловна",
+      "nearestDate": "2024-04-04T00:00:00"
+    },
+    {
+      "ariaNumber": "8 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "1882",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Некипелова Ирина Анатольевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "3-участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 16,
+      "freeTicketCount": 16,
+      "id": "1713",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Никифоров Владимир Вячеславович",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "15-участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "210",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Поливаный Александр Борисович",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "22 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1979",
+      "lastDate": null,
+      "name": "Хугаева Мадина Елдаровна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

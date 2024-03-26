@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 96,
+      "id": "36",
+      "lastDate": "2024-04-05T20:30:00",
+      "name": "Александрова Елена Александровна ",
+      "nearestDate": "2024-03-25T19:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 32,
+      "freeTicketCount": 104,
+      "id": "94",
+      "lastDate": "2024-04-05T13:30:00",
+      "name": "Иванцов Никита Владимирович ",
+      "nearestDate": "2024-03-26T15:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 103,
+      "id": "41",
+      "lastDate": "2024-04-05T13:30:00",
+      "name": "Имамов Руслан Ахмед Оглы ",
+      "nearestDate": "2024-03-26T15:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 35,
+      "freeTicketCount": 98,
+      "id": "92",
+      "lastDate": "2024-04-05T20:30:00",
+      "name": "Маркин Максим Олегович ",
+      "nearestDate": "2024-03-25T17:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 103,
+      "id": "47",
+      "lastDate": "2024-04-05T20:30:00",
+      "name": "Никитина Елена Анатольевна ",
+      "nearestDate": "2024-03-25T17:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 106,
+      "id": "50",
+      "lastDate": "2024-04-05T20:30:00",
+      "name": "Пурыгин Сергей Николаевич ",
+      "nearestDate": "2024-03-25T17:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

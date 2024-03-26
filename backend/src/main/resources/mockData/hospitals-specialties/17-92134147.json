@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "1 ",
+      "freeParticipantCount": 71,
+      "freeTicketCount": 71,
+      "id": "3316",
+      "lastDate": "2024-04-08T13:20:00",
+      "name": "Семёнова Алла Ивановна",
+      "nearestDate": "2024-04-01T09:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "eUFvZEFBVUFCQUE=",
+      "lastDate": null,
+      "name": "Журило Наталья Борисовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "eUFvZEFBVUFDQUw=",
+      "lastDate": "2024-04-02T09:00:00",
+      "name": "Кулагина Елизавета Вячеславовна",
+      "nearestDate": "2024-04-02T09:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "eUFvZEFBVUFDQU4=",
+      "lastDate": null,
+      "name": "Волощук Юлия Николаевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

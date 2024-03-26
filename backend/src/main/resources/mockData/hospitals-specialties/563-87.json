@@ -1,0 +1,96 @@
+{
+  "result": [
+    {
+      "ariaNumber": "44 (обслуж.пол-ку №46)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 87,
+      "freeTicketCount": 146,
+      "id": "831",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Лузина Марина Николаевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "45 (обслуж.пол-ку №68)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 95,
+      "freeTicketCount": 115,
+      "id": "833",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Вербинская Вера Васильевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "46 (обслуж.пол-ки №66, №69)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 85,
+      "freeTicketCount": 85,
+      "id": "836",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Омельянова Наталия Павловна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "48 (обслуж.пол-ки №9, №34)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 65,
+      "freeTicketCount": 90,
+      "id": "867",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Пестова Анна Григорьевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "47 (обслуж.пол-ку №22)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 80,
+      "freeTicketCount": 114,
+      "id": "887",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Васильев Владимир Валерьевич",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "43 (обслуж.пол-ки №10)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 71,
+      "freeTicketCount": 123,
+      "id": "971",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Мидаева Лейла Николаевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "40 (обслуж.пол-ки №29, №61)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 60,
+      "freeTicketCount": 77,
+      "id": "1065",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Сидорова Ирина Владимировна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "41 (обслуж.пол-ки №42, №118)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 134,
+      "freeTicketCount": 153,
+      "id": "1077",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Подколзина Юлия Юрьевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

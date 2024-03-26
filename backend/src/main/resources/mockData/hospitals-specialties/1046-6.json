@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Профилактика пр.Маршака дом. 28",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 12,
+      "freeTicketCount": 15,
+      "id": "1316",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Кабинет Вакцинации От Covid-19 (1-Ый Этап)",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

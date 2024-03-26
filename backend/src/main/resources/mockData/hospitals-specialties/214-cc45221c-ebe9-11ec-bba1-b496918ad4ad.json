@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": " КАБИНЕТ 338, ",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "d845bc28-ebe9-11ec-bba1-b496918ad4ad",
+      "lastDate": "2024-04-08T15:45:00",
+      "name": "Терехина Вера Юрьевна (Врач-ревматолог)",
+      "nearestDate": "2024-04-08T15:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 7,
+      "freeTicketCount": 20,
+      "id": "1251",
+      "lastDate": "2024-04-08T16:10:00",
+      "name": "Мисюкевич Сергей Николаевич",
+      "nearestDate": "2024-03-26T09:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

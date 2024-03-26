@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "1598",
+      "lastDate": "2024-04-04T13:00:00",
+      "name": "Ильясбеков Джамалудин Абукарович (Парфеновская 11, к.1)",
+      "nearestDate": "2024-04-04T08:20:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

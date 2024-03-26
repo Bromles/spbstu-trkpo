@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №9, Участок №24",
+      "freeParticipantCount": 17,
+      "freeTicketCount": 17,
+      "id": "338",
+      "lastDate": "2024-04-08T18:00:00",
+      "name": "Джалилова Екатерина Олеговна",
+      "nearestDate": "2024-03-25T18:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

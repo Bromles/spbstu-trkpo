@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": " Парашютная ул. 34, 36, 38/1,2,3,4 ПРИЕМ В ОФИСЕ ПАРАШЮТНАЯ УЛ. 42--2 ЧЁТ. С 9-13 НЕЧЁТ С16-20",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "348b1728-ebe3-11ec-bba1-b496918ad4ad",
+      "lastDate": null,
+      "name": "Щербакова Екатерина Сергеевна (Врач-терапевт участковый)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Королева пр. 39/1,2, 43/1,2, 45, 47, 49 ПРИЕМ В ОФИСЕ ПАРАШЮТНАЯ УЛ. 42-2 ЧЁТ. С16-20 НЕЧЁТ. С09-13",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 6,
+      "id": "778688d6-c4a5-11ec-9830-089798a49211",
+      "lastDate": "2024-04-01T12:10:00",
+      "name": "Шарипова Аделя Шамилевна (Врач-терапевт участковый)",
+      "nearestDate": "2024-04-01T09:50:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

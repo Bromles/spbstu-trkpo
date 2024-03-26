@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 61,
+      "id": "419",
+      "lastDate": "2024-04-08T14:15:00",
+      "name": "Бадлуева Елена Эдуардовна (Детский приём)",
+      "nearestDate": "2024-04-01T14:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 97,
+      "id": "438",
+      "lastDate": "2024-04-08T16:15:00",
+      "name": "Верховская Евгения Дмитриевна (Детский приём)",
+      "nearestDate": "2024-03-26T15:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 41,
+      "id": "435",
+      "lastDate": "2024-04-08T13:15:00",
+      "name": "Жовтая Милана Дмитриевна (Детский приём)",
+      "nearestDate": "2024-03-26T10:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 26,
+      "id": "434",
+      "lastDate": "2024-04-08T16:00:00",
+      "name": "Хворостянская Дарья Сергеевна (Детский приём)",
+      "nearestDate": "2024-04-01T10:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 108,
+      "id": "238",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Винтовкина М.В. 1 отд",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 95,
+      "id": "106",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Лятифова О.В. 1 отд.(участок Багот)",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 99,
+      "id": "33",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Дюкова Д.В. 2 отд  ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 56,
+      "id": "85",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Максимова И.А. 2отд. (отпуск)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

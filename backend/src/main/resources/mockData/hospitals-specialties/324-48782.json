@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 53,
+      "freeTicketCount": 65,
+      "id": "1386",
+      "lastDate": "2024-04-05T14:00:00",
+      "name": "Смирнова Светлана Николаевна",
+      "nearestDate": "2024-03-29T08:15:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

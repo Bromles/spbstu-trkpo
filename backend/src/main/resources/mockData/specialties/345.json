@@ -1,0 +1,53 @@
+{
+  "result": [
+    {
+      "id": "990000752",
+      "ferId": "77",
+      "name": "Аллергология и иммунология [990000752]",
+      "countFreeParticipant": 1,
+      "countFreeTicket": 1,
+      "lastDate": "2024-03-25T17:15:00",
+      "nearestDate": "2024-03-25T17:15:00"
+    },
+    {
+      "id": "990000817",
+      "ferId": "171",
+      "name": "Стоматология общей практики [990000817]",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "990000819",
+      "ferId": "176",
+      "name": "Стоматология терапевтическая [990000819]",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "990000820",
+      "ferId": "177",
+      "name": "Стоматология хирургическая [990000820]",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "990000850",
+      "ferId": "174",
+      "name": "Стоматология детская [990000850]",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

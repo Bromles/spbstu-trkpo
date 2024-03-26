@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "г.Пушкин, Софийский б-р, 28",
+      "freeParticipantCount": 23,
+      "freeTicketCount": 23,
+      "id": "523",
+      "lastDate": "2024-04-08T14:06:00",
+      "name": "Леонтьева Елена Валентиновна",
+      "nearestDate": "2024-03-26T10:42:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

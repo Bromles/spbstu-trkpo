@@ -1,0 +1,206 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диспансерное наблюдение Камышовая 50 К1  Каб № 213 2-ое терапевтическое отделение . Адреса участка на сайте поликлиники  https://p114.ru/wp-content/uploads/2023/12/terapiya2.pdf   . На время отсутствия врача запись производится к врачу своего отделения .",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "61c95c2f-0dbe-11ed-bba5-b496918ad4ad",
+      "lastDate": null,
+      "name": "Витковская-ковалевич Наталия Константиновна (Врач терапевт участковый)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диспансерное наблюдение Камышовая 50 К1  Каб № 215 1-ое терапевтическое отделение . Адреса участка на сайте поликлиники https://p114.ru/wp-content/uploads/2023/12/terapiya1.pdf . На время отсутствия врача запись производится к врачу своего отделения .",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 6,
+      "id": "67c0c2dc-0dbe-11ed-bba5-b496918ad4ad",
+      "lastDate": "2024-04-01T12:40:00",
+      "name": "Каратаева Ангелина Олеговна (Врач терапевт участковый)",
+      "nearestDate": "2024-04-01T11:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": " каб. 243 Камышовая, 50 Диспансерное наблюдение ",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "67c0c3a7-0dbe-11ed-bba5-b496918ad4ad",
+      "lastDate": null,
+      "name": "Кузнецова Валерия Александровна (Врач терапевт участковый)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диспансерное наблюдение   Камышовая 50 К 1 каб № 217 1-ое терапевтическое отделение . Адреса участка на сайте поликлиники https://p114.ru/wp-content/uploads/2023/12/terapiya1.pdf . На время отсутствия врача запись производится к врачу своего отделения . ",
+      "freeParticipantCount": 14,
+      "freeTicketCount": 14,
+      "id": "67c0c498-0dbe-11ed-bba5-b496918ad4ad",
+      "lastDate": "2024-04-01T12:50:00",
+      "name": "Муканова Жанар Ибраймовна (Врач терапевт участковый)",
+      "nearestDate": "2024-03-26T18:10:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диспансерное наблюдение Камышовая 50 К1  Каб № 215  2-ое терапевтическое отделение . Адреса участка на сайте поликлиники  https://p114.ru/wp-content/uploads/2023/12/terapiya2.pdf   . На время отсутствия врача запись производится к врачу своего отделения .",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "67c0c528-0dbe-11ed-bba5-b496918ad4ad",
+      "lastDate": null,
+      "name": "Паркин Никита Алексеевич (Врач терапевт участковый)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диспансерное наблюдение Камышовая 50 К1  Каб № 243 1-ое терапевтическое отделение . Адреса участка на сайте поликлиники https://p114.ru/wp-content/uploads/2023/12/terapiya1.pdf . На время отсутствия врача запись производится к врачу своего отделения .",
+      "freeParticipantCount": 25,
+      "freeTicketCount": 25,
+      "id": "cbc85dc6-1cc6-11ed-bba6-b496918ad4ad",
+      "lastDate": "2024-04-01T12:50:00",
+      "name": "Царёва Мария Александровна (Врач терапевт участковый)",
+      "nearestDate": "2024-03-29T11:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диспансерное наблюдение Камышовая 50 К1  Каб № 238  2-ое терапевтическое отделение . Адреса участка на сайте поликлиники  https://p114.ru/wp-content/uploads/2023/12/terapiya2.pdf   . На время отсутствия врача запись производится к врачу своего отделения .",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "e100fd45-6997-11ed-bbb0-b496918ad4af",
+      "lastDate": null,
+      "name": "Дюбкачева Екатерина Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диспансерное наблюдение Камышовая 50 К1  Каб № 216 1-ое терапевтическое отделение . Адреса участка на сайте поликлиники https://p114.ru/wp-content/uploads/2023/12/terapiya1.pdf . На время отсутствия врача запись производится к врачу своего отделения .",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "23f7fa7c-8ff0-11ed-bbb2-b496918ad4af",
+      "lastDate": null,
+      "name": "Ермилова Ирина Сергеевна (Врач терапевт участковый)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диспансерное наблюдение Камышовая 50 К1  Каб № 213  1-ое терапевтическое отделение . Адреса участка на сайте поликлиники https://p114.ru/wp-content/uploads/2023/12/terapiya1.pdf . На время отсутствия врача запись производится к врачу своего отделения .",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "c6ac6af2-a875-11ed-bbb2-b496918ad4af",
+      "lastDate": null,
+      "name": "Баранова Валерия Валерьевна (Врач терапевт участковый)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диспансерное наблюдение Камышовая 50 К1  Каб № 238 1-ое терапевтическое отделение . Адреса участка на сайте поликлиники https://p114.ru/wp-content/uploads/2023/12/terapiya1.pdf . На время отсутствия врача запись производится к врачу своего отделения .",
+      "freeParticipantCount": 13,
+      "freeTicketCount": 13,
+      "id": "ade9ede6-ab6f-11ed-bbb2-b496918ad4af",
+      "lastDate": "2024-04-01T12:50:00",
+      "name": "Мурадханов Альберт Максимович (Врач терапевт участковый)",
+      "nearestDate": "2024-04-01T10:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диспансерное наблюдение Камышовая 50 К1  Каб № 242 1-ое терапевтическое отделение . Адреса участка на сайте поликлиники https://p114.ru/wp-content/uploads/2023/12/terapiya1.pdf . На время отсутствия врача запись производится к врачу своего отделения .",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "603e33cd-cfb5-11ed-bbb4-b496918ad4af",
+      "lastDate": null,
+      "name": "Панова Анастасия Васильевна (Врач терапевт участковый)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диспансерное наблюдение Камышовая 50 К1  Каб № 211   2-ое терапевтическое отделение . Адреса участка на сайте поликлиники  https://p114.ru/wp-content/uploads/2023/12/terapiya2.pdf   . На время отсутствия врача запись производится к врачу своего отделения .",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "ebf96c91-272b-11ee-bbbf-b496918ad4ad",
+      "lastDate": null,
+      "name": "Смирнова Ульяна Николаевна (Врач терапевт участковый)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диспансерное наблюдение Камышовая 50 К1  Каб № 214   2-ое терапевтическое отделение . Адреса участка на сайте поликлиники  https://p114.ru/wp-content/uploads/2023/12/terapiya2.pdf   . На время отсутствия врача запись производится к врачу своего отделения .",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "a1fac02b-2c69-11ee-bbbf-b496918ad4ad",
+      "lastDate": null,
+      "name": "Прасолова Ольга Сергеевна (Врач терапевт участковый)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диспансерное наблюдение Камышовая 50 К1  Каб № 211 1-ое терапевтическое отделение . Адреса участка на сайте поликлиники https://p114.ru/wp-content/uploads/2023/12/terapiya1.pdf . На время отсутствия врача запись производится к врачу своего отделения .",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 6,
+      "id": "fa701915-3c39-11ee-bbcb-b496918ad4ad",
+      "lastDate": "2024-04-01T12:50:00",
+      "name": "Хуснуллин Рамис Ильшатович (Врач терапевт участковый)",
+      "nearestDate": "2024-04-01T11:10:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диспансерное наблюдение Камышовая 50 К1  Каб № 217  2-ое терапевтическое отделение . Адреса участка на сайте поликлиники  https://p114.ru/wp-content/uploads/2023/12/terapiya2.pdf   . На время отсутствия врача запись производится к врачу своего отделения .",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "62af1e1c-402a-11ee-bbce-b496918ad4ad",
+      "lastDate": null,
+      "name": "Деревянко Елизавета Сергеевна (Врач терапевт участковый)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диспансерное наблюдение Камышовая 50 К1 каб.214 1-ое терапевтическое отделение . Адреса участка на сайте поликлиники https://p114.ru/wp-content/uploads/2023/12/terapiya1.pdf . На время отсутствия врача запись производится к врачу своего отделения .",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "6427781b-5e99-11ee-bbf6-b496918ad4af",
+      "lastDate": null,
+      "name": "Козловский Владислав Дмитриевич (Врач терапевт участковый)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диспансерное наблюдение Камышовая 50 К1  Каб № 216   2-ое терапевтическое отделение . Адреса участка на сайте поликлиники  https://p114.ru/wp-content/uploads/2023/12/terapiya2.pdf   . На время отсутствия врача запись производится к врачу своего отделения .",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "c3032771-770f-11ee-bc18-b496918ad90e",
+      "lastDate": null,
+      "name": "Елизаров Максим Витальевич (Врач терапевт участковый)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диспансерное наблюдение Камышовая 50/1 каб. 242  2-ое терапевтическое отделение . Адреса участка на сайте поликлиники  https://p114.ru/wp-content/uploads/2023/12/terapiya2.pdf   . На время отсутствия врача запись производится к врачу своего отделения .",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "4fa85dba-9b51-11ee-bc1a-b496918ad90e",
+      "lastDate": null,
+      "name": "Николичева Анна Викторовна (Врач терапевт участковый)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 518,
+      "freeTicketCount": 518,
+      "id": "225830000026",
+      "lastDate": "2024-05-15T15:30:00",
+      "name": "Щипунова Юлия Вячеславовна",
+      "nearestDate": "2024-03-26T13:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

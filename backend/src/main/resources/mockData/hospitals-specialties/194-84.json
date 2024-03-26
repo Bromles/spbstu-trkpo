@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Урология",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 9,
+      "freeTicketCount": 9,
+      "id": "937",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Елисеенко Андрей Геннадьевич",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Урология",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 23,
+      "freeTicketCount": 23,
+      "id": "2036",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Ким Виталий Ендюнович",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

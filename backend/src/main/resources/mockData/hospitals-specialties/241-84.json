@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 26,
+      "freeTicketCount": 26,
+      "id": "80",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "БОКС, СИМПТОМЫ ОРВИ/ГРИПП/COVID каб.4",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,44 @@
+{
+  "result": [
+    {
+      "id": "72",
+      "ferId": "16",
+      "name": "ВРАЧ ОБЩЕЙ ПРАКТИКИ",
+      "countFreeParticipant": 774,
+      "countFreeTicket": 1377,
+      "lastDate": "2024-04-12T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "604",
+      "ferId": "27",
+      "name": "ДИСПАНСЕРИЗАЦИЯ",
+      "countFreeParticipant": 119,
+      "countFreeTicket": 119,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "35",
+      "ferId": "8",
+      "name": "АКУШЕР-ГИНЕКОЛ.",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "22",
+      "ferId": "35",
+      "name": "ФУНКЦ.ДИАГНОСТ.",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

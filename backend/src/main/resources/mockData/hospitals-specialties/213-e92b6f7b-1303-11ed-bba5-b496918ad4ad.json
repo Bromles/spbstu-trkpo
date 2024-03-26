@@ -1,0 +1,184 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "3f592ca7-5912-11ee-bbe8-b496918ad4af",
+      "lastDate": "2024-03-29T18:48:00",
+      "name": "Магомедов Магомед Омарович (кабинет № 217)",
+      "nearestDate": "2024-03-28T11:48:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "43e9390c-5885-11ee-bbe1-b496918ad4af",
+      "lastDate": "2024-03-29T11:48:00",
+      "name": "Малышева Александра Андреевна ( кабинет № 214)",
+      "nearestDate": "2024-03-28T18:36:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "a518d738-5911-11ee-bbe8-b496918ad4af",
+      "lastDate": "2024-03-29T16:36:00",
+      "name": "Якунина Мария Александровна (кабинет № 212)",
+      "nearestDate": "2024-03-27T16:24:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "5a0f0f52-6c01-11ee-bc18-b496918ad90e",
+      "lastDate": "2024-04-01T11:48:00",
+      "name": "Смольникова Полина Васильевна (кабинет № 115)",
+      "nearestDate": "2024-03-28T18:36:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "cbc6e9ac-593c-11ee-bbe8-b496918ad4af",
+      "lastDate": null,
+      "name": "Федоров Илья Дмитриевич ( кабинет № 215)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 6,
+      "freeTicketCount": 6,
+      "id": "de2c4f1a-5884-11ee-bbe1-b496918ad4af",
+      "lastDate": "2024-03-29T18:48:00",
+      "name": "Магомедова Марям Магомедовна (кабинет № 218)",
+      "nearestDate": "2024-03-26T11:36:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "da5f3bee-5886-11ee-bbe1-b496918ad4af",
+      "lastDate": null,
+      "name": "Шалаева Анна Сергеевна (кабинет № 212)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "cd84f1a5-5914-11ee-bbe8-b496918ad4af",
+      "lastDate": "2024-03-26T18:36:00",
+      "name": "Шамшурина Екатерина Николаевна (кабинет № 238)",
+      "nearestDate": "2024-03-26T18:36:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "отпуск с 30.10 по 13.11",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "1cb188d6-5886-11ee-bbe1-b496918ad4af",
+      "lastDate": "2024-03-29T18:48:00",
+      "name": "Сусанина ЮлияАлексеевна ( кабинет № 214 )",
+      "nearestDate": "2024-03-26T11:36:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диспансерное наблюдение",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "9322b96c-5882-11ee-bbe1-b496918ad4af",
+      "lastDate": "2024-03-29T11:36:00",
+      "name": "Барковский Алексей Романович (кабинет 213)",
+      "nearestDate": "2024-03-29T11:36:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "a1eb41e1-4e3e-11ee-bbdc-b496918ad4af",
+      "lastDate": "2024-03-29T18:48:00",
+      "name": "Боташева Милена Бадировна (кабинет № 214)",
+      "nearestDate": "2024-03-28T10:48:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "84b52ead-5886-11ee-bbe1-b496918ad4af",
+      "lastDate": null,
+      "name": "Федорова Дарья Романовна (кабинет № 115)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "8ff813c9-5885-11ee-bbe1-b496918ad4af",
+      "lastDate": "2024-04-01T11:36:00",
+      "name": "Михайлова Римма Яковлевна (кабинет № 217)",
+      "nearestDate": "2024-03-27T11:24:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "46e574bb-cc9f-11ee-bc1d-b496918ad90e",
+      "lastDate": "2024-03-29T18:36:00",
+      "name": "Денисова Мария Андреевна (кабинет № 216)",
+      "nearestDate": "2024-03-27T18:36:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "fac501f1-6c02-11ee-bc18-b496918ad90e",
+      "lastDate": "2024-04-01T11:36:00",
+      "name": "Гайсин Денис Айдарович (кабинет № 114)",
+      "nearestDate": "2024-03-27T11:36:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "fb7e2888-5913-11ee-bbe8-b496918ad4af",
+      "lastDate": "2024-04-01T12:36:00",
+      "name": "Козлова Нина Борисовна (кабинет № 216)",
+      "nearestDate": "2024-03-26T19:24:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 38,
+      "freeTicketCount": 38,
+      "id": "4983",
+      "lastDate": "2024-04-09T09:50:00",
+      "name": "Васильева Ксения Алексеевна",
+      "nearestDate": "2024-04-02T17:30:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 11,
+      "freeTicketCount": 11,
+      "id": "5044",
+      "lastDate": "2024-04-01T09:50:00",
+      "name": "Завьялов Александр Павлович",
+      "nearestDate": "2024-04-01T08:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 68,
+      "freeTicketCount": 68,
+      "id": "5036",
+      "lastDate": "2024-04-12T18:50:00",
+      "name": "Кошечкин Владислав Андреевич",
+      "nearestDate": "2024-03-26T18:10:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 30,
+      "freeTicketCount": 30,
+      "id": "5924",
+      "lastDate": "2024-04-09T10:50:00",
+      "name": "Юдин Виталий Анатольевич",
+      "nearestDate": "2024-03-27T10:50:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "5925",
+      "lastDate": null,
+      "name": "Юдин Виталий Анатольевич",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

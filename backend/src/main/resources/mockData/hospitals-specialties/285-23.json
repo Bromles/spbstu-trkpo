@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 97,
+      "freeTicketCount": 97,
+      "id": "17007",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Вяткина А.В. отп. с 20/03-29/03",
+      "nearestDate": "2024-04-17T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 114,
+      "freeTicketCount": 114,
+      "id": "16689",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Дуганова Ю.В.",
+      "nearestDate": "2024-04-15T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Инфекционное отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 68,
+      "freeTicketCount": 105,
+      "id": "481",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Соколова Лариса Егоровна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Инфекционное отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 83,
+      "freeTicketCount": 123,
+      "id": "499",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Жданович Сергей Леонидович",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 17,
+      "freeTicketCount": 56,
+      "id": "5177",
+      "lastDate": "2024-04-05T14:45:00",
+      "name": "Арестов Андрей Владимирович",
+      "nearestDate": "2024-04-03T09:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

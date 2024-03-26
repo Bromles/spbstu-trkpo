@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "25.03.2024: Учеба;\n29.03.2024: Учеба",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "510",
+      "lastDate": null,
+      "name": "Медведева Галина Ивановна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "02.04.2024: Учеба;\n05.04.2024: Учеба",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "302",
+      "lastDate": null,
+      "name": "Романова Лилия Григорьевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

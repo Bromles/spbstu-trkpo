@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "64",
+      "lastDate": "2024-03-25T16:24:22.0921947+03:00",
+      "name": "Алфаидзе Георгий Давидович ",
+      "nearestDate": "2024-03-25T16:24:22.0921947+03:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "65",
+      "lastDate": "2024-03-25T16:24:22.1161961+03:00",
+      "name": "Варгасова Марина Петровна ",
+      "nearestDate": "2024-03-25T16:24:22.1161961+03:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "22",
+      "lastDate": "2024-03-25T16:24:22.1381963+03:00",
+      "name": "Велиметов Юсуп Касумович ",
+      "nearestDate": "2024-03-25T16:24:22.1381963+03:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "66",
+      "lastDate": "2024-03-25T16:24:22.1621971+03:00",
+      "name": "Зотов Андрей Николаевич ",
+      "nearestDate": "2024-03-25T16:24:22.1621971+03:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "72",
+      "lastDate": "2024-03-25T16:24:22.2291998+03:00",
+      "name": "Шовгенов Константин Кимович ",
+      "nearestDate": "2024-03-25T16:24:22.2291998+03:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

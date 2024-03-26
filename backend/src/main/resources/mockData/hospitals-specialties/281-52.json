@@ -1,0 +1,195 @@
+{
+  "result": [
+    {
+      "ariaNumber": "14 Участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 25,
+      "freeTicketCount": 25,
+      "id": "1751",
+      "lastDate": "2024-04-03T00:00:00",
+      "name": "Акшенцева Виктория Александровна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "05 Участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 34,
+      "freeTicketCount": 34,
+      "id": "1645",
+      "lastDate": "2024-04-02T00:00:00",
+      "name": "Андреев Артем Юрьевич",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "13 Участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 16,
+      "freeTicketCount": 16,
+      "id": "1478",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": "Бутаева Джамиля Фархадовна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "08 Участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 37,
+      "freeTicketCount": 37,
+      "id": "1796",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Галиева Эндже Рустемовна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "03 Участок",
+      "ariaType": null,
+      "comment": "04.04.2024: Нет приёма;\n05.04.2024: Нет приёма",
+      "freeParticipantCount": 12,
+      "freeTicketCount": 12,
+      "id": "1873",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Гранкин Владислав Александрович",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "06 Участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 42,
+      "freeTicketCount": 42,
+      "id": "1239",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Губаева Алла Борисовна",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "02 Участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 45,
+      "freeTicketCount": 45,
+      "id": "1497",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": "Киселева Анна Сергеевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "11 Участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 17,
+      "freeTicketCount": 17,
+      "id": "1691",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Николаева Дария Алексеевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "695",
+      "lastDate": null,
+      "name": "Парахина Валентина Георгиевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "10 Участок",
+      "ariaType": null,
+      "comment": "25.03.2024: Нет приёма",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "1606",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Савченко Ирина Викторовна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "18 Участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 12,
+      "freeTicketCount": 12,
+      "id": "1806",
+      "lastDate": "2024-04-02T00:00:00",
+      "name": "Ситникова Оксана Александровна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "12 Участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 29,
+      "freeTicketCount": 29,
+      "id": "1610",
+      "lastDate": "2024-04-02T00:00:00",
+      "name": "Скрипникова Алина Владимировна",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "16 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 37,
+      "freeTicketCount": 37,
+      "id": "1341",
+      "lastDate": "2024-03-25T00:00:00",
+      "name": "Старовойтова Екатерина Григорьевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "17 Участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 33,
+      "freeTicketCount": 33,
+      "id": "1867",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Сухарева Светлана Евгеньевна",
+      "nearestDate": "2024-04-04T00:00:00"
+    },
+    {
+      "ariaNumber": "04 Участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 53,
+      "freeTicketCount": 53,
+      "id": "1887",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Тарасова Ирина Васильевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "19 Участок",
+      "ariaType": null,
+      "comment": "26.03.2024: Нет приёма",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "1770",
+      "lastDate": "2024-04-03T00:00:00",
+      "name": "Трудова Екатерина Валерьевна",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "07 Участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 37,
+      "freeTicketCount": 37,
+      "id": "692",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Шерстнева Анна Евгеньевна",
+      "nearestDate": "2024-04-05T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

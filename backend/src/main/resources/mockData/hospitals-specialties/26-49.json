@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 330,
+      "freeTicketCount": 330,
+      "id": "5",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Ходырева Нина Ибрагимовна",
+      "nearestDate": "2024-04-03T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

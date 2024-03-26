@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 22,
+      "freeTicketCount": 22,
+      "id": "6560",
+      "lastDate": "2024-04-05T18:48:00",
+      "name": "Абинов Осман Арсланбекович",
+      "nearestDate": "2024-04-04T17:12:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "3477",
+      "lastDate": null,
+      "name": "Лисицын Игорь Юрьевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 19,
+      "freeTicketCount": 19,
+      "id": "3613",
+      "lastDate": "2024-04-08T12:48:00",
+      "name": "Сапегина Татьяна Серафимовна",
+      "nearestDate": "2024-04-03T10:12:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

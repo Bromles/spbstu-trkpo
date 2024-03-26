@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 4,
+      "freeTicketCount": 14,
+      "id": "168",
+      "lastDate": "2024-03-29T14:30:00",
+      "name": "Ал-Халиди Мухаммад Абд ар-Рахман",
+      "nearestDate": "2024-03-25T18:50:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "400",
+      "lastDate": "2024-03-28T11:30:00",
+      "name": "Гумеров Олег Борисович",
+      "nearestDate": "2024-03-26T15:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

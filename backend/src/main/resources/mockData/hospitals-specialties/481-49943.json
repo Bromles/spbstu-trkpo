@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 94,
+      "freeTicketCount": 114,
+      "id": "997",
+      "lastDate": "2024-04-08T18:00:00",
+      "name": "Абделлиуи Илияс ",
+      "nearestDate": "2024-03-29T10:27:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "90",
+      "lastDate": null,
+      "name": "Сердобинцев Александр Владимирович",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

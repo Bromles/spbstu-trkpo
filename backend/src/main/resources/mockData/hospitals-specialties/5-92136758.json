@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 38,
+      "freeTicketCount": 38,
+      "id": "1373",
+      "lastDate": "2024-04-04T19:20:00",
+      "name": "КАБИНЕТ ПРОФИЛАКТИКИ (УГЛУБЛЕННАЯ ДИСПАНСЕРИЗАЦИЯ)",
+      "nearestDate": "2024-03-28T18:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 10,
+      "freeTicketCount": 23,
+      "id": "164",
+      "lastDate": "2024-04-01T16:00:00",
+      "name": "Клестова Татьяна Алексеевна",
+      "nearestDate": "2024-03-27T15:40:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 14,
+      "freeTicketCount": 29,
+      "id": "902",
+      "lastDate": "2024-04-01T11:00:00",
+      "name": "Русакова Валентина Владимировна",
+      "nearestDate": "2024-03-27T10:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

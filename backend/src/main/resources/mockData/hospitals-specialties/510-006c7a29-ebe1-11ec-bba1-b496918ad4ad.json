@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ПРИЕМ В ОФИСЕ АВИАК. 16-1,ЧЕТ.09:00-13:00,НЕЧЕТ.16:00-20:00, (Планер.ул.55, Шавр.ул.4,5-2,7-1, Авиа.пр. 24)",
+      "freeParticipantCount": 27,
+      "freeTicketCount": 27,
+      "id": "525f73ab-29ff-11ed-bba8-b496918ad4af",
+      "lastDate": "2024-03-29T19:50:00",
+      "name": "Булгурян Алексей Ашотович (Врач-терапевт участковый)",
+      "nearestDate": "2024-03-27T18:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

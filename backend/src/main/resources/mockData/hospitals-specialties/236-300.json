@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Молодежная консультация ДПО № 66",
+      "ariaType": null,
+      "comment": "Прием детей чьи родственники являются участниками СВО и подростки старше 12 лет.",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2139",
+      "lastDate": "2024-04-02T00:00:00",
+      "name": "Захарова Алена Геннадьевна",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "224 ",
+      "freeParticipantCount": 162,
+      "freeTicketCount": 162,
+      "id": "1670",
+      "lastDate": "2024-04-08T13:45:00",
+      "name": "Милютина Лиана Владимировна",
+      "nearestDate": "2024-03-26T08:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

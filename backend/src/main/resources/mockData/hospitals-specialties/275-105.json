@@ -1,0 +1,107 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 1,
+      "id": "25",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Боронина Людмила Викторовна ",
+      "nearestDate": "2024-03-25T16:24:21.305167+03:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 2,
+      "id": "86",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": "Веселова Карина Сергеевна ",
+      "nearestDate": "2024-03-25T16:24:21.3291684+03:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "27",
+      "lastDate": "2024-03-25T16:24:21.3501696+03:00",
+      "name": "Иванова Наталия Евсеевна ",
+      "nearestDate": "2024-03-25T16:24:21.3501696+03:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 1,
+      "id": "29",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Койванен Марина Валерьевна ",
+      "nearestDate": "2024-03-25T16:24:21.374171+03:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "31",
+      "lastDate": "2024-03-25T16:24:21.3961722+03:00",
+      "name": "Лембер Ольга Викторовна ",
+      "nearestDate": "2024-03-25T16:24:21.3961722+03:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "32",
+      "lastDate": "2024-03-25T16:24:21.4191736+03:00",
+      "name": "Николаева Анна Игоревна ",
+      "nearestDate": "2024-03-25T16:24:21.4191736+03:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "33",
+      "lastDate": "2024-03-25T16:24:21.4411748+03:00",
+      "name": "Николаева Светлана Васильевна ",
+      "nearestDate": "2024-03-25T16:24:21.4411748+03:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "34",
+      "lastDate": "2024-03-25T16:24:21.4631761+03:00",
+      "name": "Титова Надежда Григорьевна ",
+      "nearestDate": "2024-03-25T16:24:21.4631761+03:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 9,
+      "id": "35",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Федорова Анжелика Викторовна Острая боль, консультация, осмотр,справки.",
+      "nearestDate": "2024-03-25T19:40:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,162 @@
+{
+  "result": [
+    {
+      "ariaNumber": "12",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 35,
+      "freeTicketCount": 35,
+      "id": "ко33.395",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ГЛОТОВА Е.Ю.",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "9",
+      "ariaType": null,
+      "comment": "отпуск с25.04.24-05.04.24",
+      "freeParticipantCount": 13,
+      "freeTicketCount": 13,
+      "id": "ко33.397",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ГУБАРЬКОВА Е.В.",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "14",
+      "ariaType": null,
+      "comment": "с 25.03.2024 Отпуск",
+      "freeParticipantCount": 35,
+      "freeTicketCount": 35,
+      "id": "ко33.355",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "КАЗАЧЕК М.Г.",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "1,7,6",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 53,
+      "freeTicketCount": 53,
+      "id": "ко33.386",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "КАПИТОНОВА Е.М.",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "4",
+      "ariaType": null,
+      "comment": "ОТПУСК С с 25.03.24 по29.03.24",
+      "freeParticipantCount": 26,
+      "freeTicketCount": 26,
+      "id": "ко33.389",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "КОЛОТИЛИНА Д.И.",
+      "nearestDate": "2024-04-04T00:00:00"
+    },
+    {
+      "ariaNumber": "15,4,13",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 84,
+      "freeTicketCount": 84,
+      "id": "ко33.403",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "МАГОМЕДОВА Ф.М.",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "11,14",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 28,
+      "freeTicketCount": 28,
+      "id": "ко33.400",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "МАКСИМОВА А.В.",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "3",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 69,
+      "freeTicketCount": 69,
+      "id": "ко33.352",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "МАТВЕЕВА А.Н.",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "5",
+      "ariaType": null,
+      "comment": "ОТПУСК С 14.03.24-27.03.24",
+      "freeParticipantCount": 21,
+      "freeTicketCount": 21,
+      "id": "ко33.344",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "МЕДНИЦКАЯ И.А.",
+      "nearestDate": "2024-04-04T00:00:00"
+    },
+    {
+      "ariaNumber": "6",
+      "ariaType": null,
+      "comment": "с 25.03.2024 Отпуск",
+      "freeParticipantCount": 60,
+      "freeTicketCount": 60,
+      "id": "ко33.362",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "МУРАТОВА М.П.",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "8,9,13",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 59,
+      "freeTicketCount": 59,
+      "id": "ко33.319",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ПАСТУШОНКОВ А.Н.",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "2,7",
+      "ariaType": null,
+      "comment": "с 25.03.2024 Больничный лист",
+      "freeParticipantCount": 20,
+      "freeTicketCount": 20,
+      "id": "ко33.315",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ТУРЬЯН И.О.",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "13",
+      "ariaType": null,
+      "comment": "с 22.03.24 Больничный лист",
+      "freeParticipantCount": 9,
+      "freeTicketCount": 9,
+      "id": "ко33.398",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ФИЛИППОВА И.В.",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "10,2",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 23,
+      "freeTicketCount": 23,
+      "id": "ко33.382",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ХУБАЕВА Ф.И.",
+      "nearestDate": "2024-04-05T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

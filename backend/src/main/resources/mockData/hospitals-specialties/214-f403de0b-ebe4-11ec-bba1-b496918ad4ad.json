@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": " КАБИНЕТ 105",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2cf908dc-ebe5-11ec-bba1-b496918ad4ad",
+      "lastDate": null,
+      "name": "Чурина Полина Александровна (Врач-офтальмолог)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "КАБИНЕТ 105",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "05683ace-ebec-11ec-bba1-b496918ad4ad",
+      "lastDate": null,
+      "name": "Козлова Наталья Викторовна (Врач-офтальмолог)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

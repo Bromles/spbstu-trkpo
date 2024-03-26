@@ -1,0 +1,125 @@
+{
+  "result": [
+    {
+      "id": "79",
+      "ferId": "55",
+      "name": "Вакцинация от covid-19",
+      "countFreeParticipant": 136,
+      "countFreeTicket": 136,
+      "lastDate": "2024-03-29T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "67",
+      "ferId": "10",
+      "name": "ДЕРМАТОВЕНЕРОЛОГ(платный прием)",
+      "countFreeParticipant": 31,
+      "countFreeTicket": 31,
+      "lastDate": "2024-04-04T00:00:00",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "id": "90",
+      "ferId": "27",
+      "name": "ОРУЖЕЙНАЯ КОМИССИЯ ",
+      "countFreeParticipant": 40,
+      "countFreeTicket": 40,
+      "lastDate": "2024-03-29T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "42",
+      "ferId": "19",
+      "name": "ОТОРИНОЛАРИНГОЛОГ",
+      "countFreeParticipant": 248,
+      "countFreeTicket": 248,
+      "lastDate": "2024-04-15T00:00:00",
+      "nearestDate": "2024-04-04T00:00:00"
+    },
+    {
+      "id": "41",
+      "ferId": "20",
+      "name": "ОФТАЛЬМОЛОГ",
+      "countFreeParticipant": 32,
+      "countFreeTicket": 32,
+      "lastDate": "2024-04-15T00:00:00",
+      "nearestDate": "2024-04-15T00:00:00"
+    },
+    {
+      "id": "89",
+      "ferId": "0",
+      "name": "ПЛАНОВАЯ ДИСПАНСЕРИЗАЦИЯ",
+      "countFreeParticipant": 489,
+      "countFreeTicket": 489,
+      "lastDate": "2024-04-24T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "66",
+      "ferId": "23",
+      "name": "ПСИХИАТР-НАРКОЛОГ (платный прием)",
+      "countFreeParticipant": 9,
+      "countFreeTicket": 9,
+      "lastDate": "2024-04-03T00:00:00",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "id": "3",
+      "ferId": "27",
+      "name": "ТЕРАПЕВТ (ЦЕНТР ЗДОРОВЬЯ)",
+      "countFreeParticipant": 121,
+      "countFreeTicket": 121,
+      "lastDate": "2024-04-15T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "4",
+      "ferId": "27",
+      "name": "ТЕРАПЕВТ УЧАСТКОВЫЙ",
+      "countFreeParticipant": 749,
+      "countFreeTicket": 1150,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "9999",
+      "ferId": "58",
+      "name": "УГЛУБЛЕННАЯ ДИСПАНСЕРИЗАЦИЯ",
+      "countFreeParticipant": 365,
+      "countFreeTicket": 365,
+      "lastDate": "2024-04-24T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "28",
+      "ferId": "145",
+      "name": "УРОЛОГ",
+      "countFreeParticipant": 1,
+      "countFreeTicket": 1,
+      "lastDate": "2024-04-15T00:00:00",
+      "nearestDate": "2024-04-15T00:00:00"
+    },
+    {
+      "id": "23",
+      "ferId": "30",
+      "name": "ХИРУРГ",
+      "countFreeParticipant": 272,
+      "countFreeTicket": 272,
+      "lastDate": "2024-04-15T00:00:00",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "id": "92",
+      "ferId": "0",
+      "name": "МЕДИЦИНСКИЙ ПСИХОЛОГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

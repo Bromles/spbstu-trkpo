@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 9,
+      "freeTicketCount": 10,
+      "id": "837",
+      "lastDate": "2024-04-08T18:36:00",
+      "name": "Мамыкин Вячеслав Юрьевич",
+      "nearestDate": "2024-04-08T17:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

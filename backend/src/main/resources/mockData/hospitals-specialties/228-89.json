@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "ХИРУРГИЯ (18)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "854",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Коблов Евгений Сергеевич",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "ХИРУРГИЯ (18)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "1085",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Бриков Константин Владимирович",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "ХИРУРГИЯ (18)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 14,
+      "freeTicketCount": 14,
+      "id": "1978",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Матвеев Евгений Валерьевич",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

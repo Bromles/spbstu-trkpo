@@ -15,17 +15,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v2
-      - name: Set java 17
-        uses: actions/setup-java@v3
+        uses: actions/checkout@v4
+      - name: Setup java 17
+        uses: actions/setup-java@v4
         with:
           distribution: "temurin"
           java-version: "17"
           cache: maven
-      - name: Setup Firefox
-        uses: browser-actions/setup-firefox@v1
       - name: Run tests
-        run: cd backend && mvn --batch-mode --update-snapshots verify -Dskip.E2E
+        run: mvn --batch-mode --update-snapshots verify -Dskip.E2E
+        working-directory: ./backend
         env:
           AUTH_SERVER_JWKS_URL: ${{ env.AUTH_SERVER_JWKS_URL }}
           DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
@@ -43,15 +42,76 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Install Node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4
         with:
-          node-version: "16"
+          node-version: "18"
       - name: Run tests
-        run: cd frontend && npm ci && npm run build --if-present && npm run test
+        run: npm ci && npm run build --if-present && npm run test
+        working-directory: ./frontend
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v4.0.1
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           fail_ci_if_error: true
+
+  e2e_tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+      - name: Setup containers
+        run: docker-compose -f compose-e2e.yml up --build -d
+      - name: Install Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+      - name: Install frontend dependencies
+        run: npm ci
+        working-directory: ./frontend
+      - name: Setup java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: "temurin"
+          java-version: "17"
+          cache: maven
+      - name: Setup geckodriver
+        uses: browser-actions/setup-geckodriver@latest
+        with:
+          geckodriver-version: 0.34.0
+      - name: Setup Firefox
+        uses: browser-actions/setup-firefox@latest
+      - name: Firefox version
+        run: firefox --version
+      - name: Run tests
+        run: mvn --batch-mode --update-snapshots verify -Dselenide.headless=true -DisCI=true
+        working-directory: ./backend
+        env:
+          AUTH_SERVER_JWKS_URL: ${{ env.AUTH_SERVER_JWKS_URL }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          DB_URL: ${{ env.DB_URL }}
+          DB_USERNAME: ${{ secrets.DB_USERNAME }}
+          MAIL_PASSWORD: ${{ secrets.MAIL_PASSWORD }}
+          MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
+          USE_LOCAL_GORZDRAV: "true"
+      - name: Dump docker logs
+        uses: jwalton/gh-docker-logs@v2
+        if: failure()
+        with:
+            images: 'postgres,quay.io/keycloak/keycloak,spbstu-trkpo-backend,spbstu-trkpo-frontend'
+      - name: Upload debug artifacts
+        uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: debug-info
+          path: /home/runner/work/spbstu-trkpo/spbstu-trkpo/backend/build/reports/tests/*
+          overwrite: true
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v4.0.1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          fail_ci_if_error: true
+      - name: Stop containers
+        if: always()
+        run: docker-compose -f compose-e2e.yml down -v

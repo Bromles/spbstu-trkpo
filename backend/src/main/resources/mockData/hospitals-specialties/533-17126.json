@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 63,
+      "freeTicketCount": 63,
+      "id": "5711",
+      "lastDate": "2024-04-12T19:20:00",
+      "name": "Иванов Егор Романович",
+      "nearestDate": "2024-03-26T16:40:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 41,
+      "freeTicketCount": 41,
+      "id": "3408",
+      "lastDate": "2024-04-12T15:40:00",
+      "name": "Лукин Арсений Сергеевич",
+      "nearestDate": "2024-04-09T12:40:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "3416",
+      "lastDate": null,
+      "name": "Усанова Маргарита Валерьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "3417",
+      "lastDate": null,
+      "name": "Щипанов Александр Михайлович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 56,
+      "freeTicketCount": 56,
+      "id": "3418",
+      "lastDate": "2024-04-12T11:40:00",
+      "name": "Эрнисбекова Бермет Эрнисбековна",
+      "nearestDate": "2024-04-08T12:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

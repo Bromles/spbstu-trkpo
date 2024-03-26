@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 195,
+      "freeTicketCount": 221,
+      "id": "14094",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Самарина М.Вотп. с 04//03-19/03 ",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

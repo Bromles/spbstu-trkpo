@@ -1,0 +1,35 @@
+{
+  "result": [
+    {
+      "id": "92137910",
+      "ferId": "22",
+      "name": "Педиатрия (Только ДПО № 43)",
+      "countFreeParticipant": 106,
+      "countFreeTicket": 106,
+      "lastDate": "2024-04-05T17:48:00",
+      "nearestDate": "2024-03-25T19:06:00"
+    },
+    {
+      "id": "92134157",
+      "ferId": "27",
+      "name": "Терапия",
+      "countFreeParticipant": 48,
+      "countFreeTicket": 79,
+      "lastDate": "2024-04-08T18:48:00",
+      "nearestDate": "2024-03-27T08:40:00"
+    },
+    {
+      "id": "92134172",
+      "ferId": "30",
+      "name": "Хирургия",
+      "countFreeParticipant": 187,
+      "countFreeTicket": 187,
+      "lastDate": "2024-04-08T19:10:00",
+      "nearestDate": "2024-03-25T17:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

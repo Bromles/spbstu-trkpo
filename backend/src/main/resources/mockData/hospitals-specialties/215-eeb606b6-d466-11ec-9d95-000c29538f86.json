@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "cd4fbab5-795c-11ee-bc18-b496918ad90e",
+      "lastDate": "2024-04-03T17:00:00",
+      "name": "Яровой Игорь Сергеевич (Медицинский психолог)",
+      "nearestDate": "2024-04-03T17:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

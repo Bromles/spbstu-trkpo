@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 528,
+      "freeTicketCount": 528,
+      "id": "45830000001",
+      "lastDate": "2024-05-15T19:30:00",
+      "name": "Лежепеков Сергей Владимирович",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 518,
+      "freeTicketCount": 518,
+      "id": "45830000003",
+      "lastDate": "2024-05-15T15:30:00",
+      "name": "Сырова Ирина Владимировна",
+      "nearestDate": "2024-03-26T13:00:00"
+    },
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 516,
+      "freeTicketCount": 516,
+      "id": "45830000004",
+      "lastDate": "2024-05-15T15:30:00",
+      "name": "Ханин Вадим Николаевич",
+      "nearestDate": "2024-03-26T16:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

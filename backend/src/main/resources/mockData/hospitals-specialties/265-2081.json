@@ -1,0 +1,85 @@
+{
+  "result": [
+    {
+      "ariaNumber": "6, 8",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 26,
+      "freeTicketCount": 26,
+      "id": "717",
+      "lastDate": "2024-04-08T11:54:00",
+      "name": "Гончарук Елена Алексеевна",
+      "nearestDate": "2024-04-03T17:42:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "109",
+      "lastDate": null,
+      "name": "Лейзгольд Людмила Анатольевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "4, 5",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 27,
+      "freeTicketCount": 27,
+      "id": "1077",
+      "lastDate": "2024-04-08T11:54:00",
+      "name": "Муруева Анастасия Сергеевна",
+      "nearestDate": "2024-04-03T11:18:00"
+    },
+    {
+      "ariaNumber": "2, 11",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 9,
+      "freeTicketCount": 9,
+      "id": "1056",
+      "lastDate": "2024-04-08T19:48:00",
+      "name": "Нагаюк Ангелина Сергеевна",
+      "nearestDate": "2024-04-08T17:48:00"
+    },
+    {
+      "ariaNumber": "1, 3",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 22,
+      "freeTicketCount": 22,
+      "id": "1174",
+      "lastDate": "2024-04-08T15:24:00",
+      "name": "Никишина Александра Кирилловна",
+      "nearestDate": "2024-04-05T18:18:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1199",
+      "lastDate": null,
+      "name": "Плавник Дмитрий Юрьевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "9, 10",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 38,
+      "freeTicketCount": 38,
+      "id": "1196",
+      "lastDate": "2024-03-29T19:54:00",
+      "name": "Раджабов Темирбек Саидбекович",
+      "nearestDate": "2024-03-25T18:24:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,35 @@
+{
+  "result": [
+    {
+      "id": "6176",
+      "ferId": "10",
+      "name": "Венерология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "5451",
+      "ferId": "10",
+      "name": "Дерматовенерология",
+      "countFreeParticipant": 2,
+      "countFreeTicket": 2,
+      "lastDate": "2024-03-25T18:00:00",
+      "nearestDate": "2024-03-25T18:00:00"
+    },
+    {
+      "id": "6155",
+      "ferId": "10",
+      "name": "Детский дерматовенеролог",
+      "countFreeParticipant": 1,
+      "countFreeTicket": 1,
+      "lastDate": "2024-03-27T11:45:00",
+      "nearestDate": "2024-03-27T11:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

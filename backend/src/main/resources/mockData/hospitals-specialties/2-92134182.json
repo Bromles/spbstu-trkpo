@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ОТПУСК: с 01.04.24 по 18.04.24",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "167",
+      "lastDate": null,
+      "name": "Алексеенко Мария Юрьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "45",
+      "lastDate": null,
+      "name": "Тихонова Анна Михайловна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

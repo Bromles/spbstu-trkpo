@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "08 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 43,
+      "freeTicketCount": 43,
+      "id": "593",
+      "lastDate": "2024-04-02T00:00:00",
+      "name": "Кабацкова Карина Александровна",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "08 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "555",
+      "lastDate": null,
+      "name": "Самкова Лилия Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "14 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "554",
+      "lastDate": null,
+      "name": "Солодуха Наталья Викторовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "09 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "556",
+      "lastDate": null,
+      "name": "Яковлев Даниил Константинович",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

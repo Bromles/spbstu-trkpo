@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": "25, 26",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 78,
+      "freeTicketCount": 78,
+      "id": "6",
+      "lastDate": "2024-04-08T18:36:00",
+      "name": "Литвинова Оксана Анатольевна",
+      "nearestDate": "2024-03-25T16:54:00"
+    },
+    {
+      "ariaNumber": "20",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 84,
+      "freeTicketCount": 84,
+      "id": "21",
+      "lastDate": "2024-04-08T18:36:00",
+      "name": "Майорова Марина Евгеньевна",
+      "nearestDate": "2024-03-25T16:54:00"
+    },
+    {
+      "ariaNumber": "21 Дети, 22 Подростки",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 65,
+      "freeTicketCount": 65,
+      "id": "7",
+      "lastDate": "2024-04-08T18:36:00",
+      "name": "Панкова Нина Васильевна",
+      "nearestDate": "2024-03-26T08:28:00"
+    },
+    {
+      "ariaNumber": "23",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 75,
+      "freeTicketCount": 75,
+      "id": "8",
+      "lastDate": "2024-04-08T18:36:00",
+      "name": "Поддубная Ирина Николаевна",
+      "nearestDate": "2024-03-26T08:00:00"
+    },
+    {
+      "ariaNumber": "24",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 83,
+      "freeTicketCount": 83,
+      "id": "9",
+      "lastDate": "2024-04-08T18:36:00",
+      "name": "Подолинская Надежда Николаевна",
+      "nearestDate": "2024-03-25T16:54:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

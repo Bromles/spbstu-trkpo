@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "1-13",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 98,
+      "freeTicketCount": 99,
+      "id": "3.111",
+      "lastDate": "2024-04-09T00:00:00",
+      "name": "ЭКГ ДПО3 с направ. и диагнозом",
+      "nearestDate": "2024-03-27T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

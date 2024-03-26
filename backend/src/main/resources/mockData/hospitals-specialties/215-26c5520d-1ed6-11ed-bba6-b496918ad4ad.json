@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "телемедицина",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "b2973185-1ed3-11ed-bba6-b496918ad4ad",
+      "lastDate": null,
+      "name": "Алябьева Валинтина Прохоровна (Заведующий терапевтического отделения, врач-терапевт)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

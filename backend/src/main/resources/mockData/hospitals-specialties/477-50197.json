@@ -1,0 +1,107 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 10,
+      "freeTicketCount": 10,
+      "id": "30",
+      "lastDate": "2024-04-08T14:00:00",
+      "name": "Александров Вячеслав Вячеславович",
+      "nearestDate": "2024-03-26T14:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 10,
+      "freeTicketCount": 10,
+      "id": "11",
+      "lastDate": "2024-04-08T09:00:00",
+      "name": "Бельский Андрей Николаевич",
+      "nearestDate": "2024-03-26T09:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 10,
+      "freeTicketCount": 10,
+      "id": "21",
+      "lastDate": "2024-04-08T09:30:00",
+      "name": "Бельский Михаил Вадимович",
+      "nearestDate": "2024-03-26T09:30:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 10,
+      "freeTicketCount": 10,
+      "id": "8",
+      "lastDate": "2024-04-08T10:00:00",
+      "name": "Васильева Любовь Ивановна",
+      "nearestDate": "2024-03-26T10:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 10,
+      "freeTicketCount": 10,
+      "id": "29",
+      "lastDate": "2024-04-08T14:30:00",
+      "name": "Гусятников Дмитрий Юрьевич",
+      "nearestDate": "2024-03-26T14:30:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 10,
+      "freeTicketCount": 10,
+      "id": "18",
+      "lastDate": "2024-04-08T10:30:00",
+      "name": "Джаникулова Муазам Эшкузиевна",
+      "nearestDate": "2024-03-26T10:30:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 10,
+      "freeTicketCount": 10,
+      "id": "25",
+      "lastDate": "2024-04-08T15:00:00",
+      "name": "Коваленко Виктор Васильевич",
+      "nearestDate": "2024-03-26T15:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 10,
+      "freeTicketCount": 10,
+      "id": "34",
+      "lastDate": "2024-04-08T15:30:00",
+      "name": "Попельницкая Светлана Валерьевна",
+      "nearestDate": "2024-03-26T15:30:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "каб 20",
+      "freeParticipantCount": 10,
+      "freeTicketCount": 10,
+      "id": "88",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Яхина Луиза Валеровна",
+      "nearestDate": "2024-03-26T16:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

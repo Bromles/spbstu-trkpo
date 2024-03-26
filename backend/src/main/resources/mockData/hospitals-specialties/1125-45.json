@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "26 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 112,
+      "freeTicketCount": 112,
+      "id": "139",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Киннарь Валерия Эйновна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "25 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 10,
+      "freeTicketCount": 90,
+      "id": "155",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Пономарева Анастасия Владимировна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

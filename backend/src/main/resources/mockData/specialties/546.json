@@ -1,0 +1,17 @@
+{
+  "result": [
+    {
+      "id": "17139",
+      "ferId": "22",
+      "name": "Педиатрия",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

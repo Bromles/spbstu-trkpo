@@ -1,0 +1,129 @@
+{
+  "result": [
+    {
+      "ariaNumber": "04 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1378",
+      "lastDate": null,
+      "name": "Баранчикова Ольга Олеговна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "08 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1344",
+      "lastDate": null,
+      "name": "Буфалова Юлия Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "5 ДПО",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "963",
+      "lastDate": null,
+      "name": "Вызов Врача На Дом  ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "01 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "154",
+      "lastDate": null,
+      "name": "Грищенкова Тамара Петровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "02 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1379",
+      "lastDate": null,
+      "name": "Калинин Дмитрий ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "05 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "670",
+      "lastDate": null,
+      "name": "Козырева Валентина Валерьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "06 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "172",
+      "lastDate": null,
+      "name": "Кравчук Альбина Павловна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "03 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "939",
+      "lastDate": null,
+      "name": "Кутовая Надежда Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "09 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1386",
+      "lastDate": null,
+      "name": "Недашковская Дарья Андреевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "07 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "1391",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Ротова Марина Михайловна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "10 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "716",
+      "lastDate": null,
+      "name": "Соловьёва Екатерина Владимировна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

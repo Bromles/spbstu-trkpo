@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "56 ",
+      "freeParticipantCount": 53,
+      "freeTicketCount": 53,
+      "id": "1398",
+      "lastDate": "2024-04-08T14:20:00",
+      "name": "Данченко Юлия Борисовна",
+      "nearestDate": "2024-03-26T12:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

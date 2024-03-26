@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "(кабинет № 308)",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "f4cb72d2-1746-11ee-bbbf-b496918ad4ad",
+      "lastDate": "2024-03-25T17:00:00",
+      "name": "Фартушная Ольга Ростиславовна (кабинет 308)",
+      "nearestDate": "2024-03-25T17:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

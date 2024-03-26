@@ -1,0 +1,179 @@
+{
+  "result": [
+    {
+      "id": "79",
+      "ferId": "55",
+      "name": "Вакцинация от Covid-19",
+      "countFreeParticipant": 14,
+      "countFreeTicket": 14,
+      "lastDate": "2024-03-29T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "35",
+      "ferId": "8",
+      "name": "ГИНЕКОЛОГ",
+      "countFreeParticipant": 2,
+      "countFreeTicket": 42,
+      "lastDate": "2024-04-24T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "50",
+      "ferId": "10",
+      "name": "ДЕРМАТОВЕНЕРОЛОГ",
+      "countFreeParticipant": 4,
+      "countFreeTicket": 4,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "102",
+      "ferId": "81",
+      "name": "Детская кардиология",
+      "countFreeParticipant": 37,
+      "countFreeTicket": 37,
+      "lastDate": "2024-04-20T00:00:00",
+      "nearestDate": "2024-04-13T00:00:00"
+    },
+    {
+      "id": "101",
+      "ferId": "31",
+      "name": "Детская эндокринология",
+      "countFreeParticipant": 20,
+      "countFreeTicket": 20,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "10",
+      "ferId": "118",
+      "name": "КАРДИОЛОГ",
+      "countFreeParticipant": 2,
+      "countFreeTicket": 118,
+      "lastDate": "2024-04-22T00:00:00",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "id": "351",
+      "ferId": "173",
+      "name": "ОРТОДОНТИЯ  (ТОЛЬКО ДО 18 ЛЕТ)",
+      "countFreeParticipant": 13,
+      "countFreeTicket": 13,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "id": "42",
+      "ferId": "19",
+      "name": "ОТОЛАРИНГОЛОГ",
+      "countFreeParticipant": 4,
+      "countFreeTicket": 4,
+      "lastDate": "2024-04-06T00:00:00",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "id": "41",
+      "ferId": "20",
+      "name": "ОФТАЛЬМОЛОГ",
+      "countFreeParticipant": 12,
+      "countFreeTicket": 12,
+      "lastDate": "2024-04-01T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "37",
+      "ferId": "22",
+      "name": "ПЕДИАТР (до 18 лет)",
+      "countFreeParticipant": 49,
+      "countFreeTicket": 49,
+      "lastDate": "2024-04-03T00:00:00",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "id": "665",
+      "ferId": "8",
+      "name": "Подростковый гинеколог",
+      "countFreeParticipant": 23,
+      "countFreeTicket": 23,
+      "lastDate": "2024-04-24T00:00:00",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "id": "34",
+      "ferId": "0",
+      "name": "СТОМАТОЛОГ",
+      "countFreeParticipant": 12,
+      "countFreeTicket": 12,
+      "lastDate": "2024-04-12T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "3",
+      "ferId": "27",
+      "name": "ТЕРАПЕВТ",
+      "countFreeParticipant": 211,
+      "countFreeTicket": 211,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "9999",
+      "ferId": "58",
+      "name": "Углубленная диспансеризация",
+      "countFreeParticipant": 142,
+      "countFreeTicket": 142,
+      "lastDate": "2024-04-24T00:00:00",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "id": "23",
+      "ferId": "30",
+      "name": "ХИРУРГ",
+      "countFreeParticipant": 57,
+      "countFreeTicket": 57,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "id": "14",
+      "ferId": "31",
+      "name": "ЭНДОКРИНОЛОГ",
+      "countFreeParticipant": 37,
+      "countFreeTicket": 37,
+      "lastDate": "2024-04-04T00:00:00",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "id": "410",
+      "ferId": "27",
+      "name": "Бокс, симптомы ОРВИ/Грипп/COVID",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 48,
+      "lastDate": "2024-03-29T00:00:00",
+      "nearestDate": null
+    },
+    {
+      "id": "328",
+      "ferId": "42",
+      "name": "ДЕТСКИЙ УРОЛОГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "28",
+      "ferId": "145",
+      "name": "УРОЛОГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Вызов осуществляется в течении дня",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "447",
+      "lastDate": null,
+      "name": "Гулян Армине Вардкесовна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

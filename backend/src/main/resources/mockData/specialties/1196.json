@@ -1,0 +1,44 @@
+{
+  "result": [
+    {
+      "id": "49278",
+      "ferId": "8",
+      "name": "Акушерство и гинекология",
+      "countFreeParticipant": 1,
+      "countFreeTicket": 1,
+      "lastDate": "2024-04-05T13:00:00",
+      "nearestDate": "2024-04-05T13:00:00"
+    },
+    {
+      "id": "49293",
+      "ferId": "10",
+      "name": "Дерматовенерология",
+      "countFreeParticipant": 131,
+      "countFreeTicket": 131,
+      "lastDate": "2024-04-08T14:00:00",
+      "nearestDate": "2024-03-26T11:00:00"
+    },
+    {
+      "id": "49296",
+      "ferId": "42",
+      "name": "Детская урология-андрология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "50620",
+      "ferId": "0",
+      "name": "Медицинский психолог ",
+      "countFreeParticipant": 4,
+      "countFreeTicket": 4,
+      "lastDate": "2024-04-08T13:57:00",
+      "nearestDate": "2024-03-26T16:37:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

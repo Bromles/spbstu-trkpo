@@ -1,0 +1,17 @@
+{
+  "result": [
+    {
+      "id": "4",
+      "ferId": "27",
+      "name": "ТЕРАПЕВТ УЧАСТ.",
+      "countFreeParticipant": 18,
+      "countFreeTicket": 18,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-04-04T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

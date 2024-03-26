@@ -1,0 +1,44 @@
+{
+  "result": [
+    {
+      "id": "35",
+      "ferId": "8",
+      "name": "АКУШЕР-ГИНЕКОЛ.",
+      "countFreeParticipant": 5,
+      "countFreeTicket": 841,
+      "lastDate": "2024-04-24T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "17",
+      "ferId": "80",
+      "name": "ГЕМАТОЛОГ ДЛЯ БЕРЕМЕННЫХ",
+      "countFreeParticipant": 79,
+      "countFreeTicket": 79,
+      "lastDate": "2024-04-12T00:00:00",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "id": "66",
+      "ferId": "8",
+      "name": "ГИНЕКОЛОГ-РЕПРОДУКТОЛОГ(бесплодие)",
+      "countFreeParticipant": 162,
+      "countFreeTicket": 162,
+      "lastDate": "2024-04-12T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "3",
+      "ferId": "27",
+      "name": "ТЕРАПЕВТ ДЛЯ БЕРЕМЕННЫХ",
+      "countFreeParticipant": 153,
+      "countFreeTicket": 162,
+      "lastDate": "2024-04-12T00:00:00",
+      "nearestDate": "2024-03-28T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

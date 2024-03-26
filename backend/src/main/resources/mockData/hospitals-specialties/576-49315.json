@@ -1,0 +1,96 @@
+{
+  "result": [
+    {
+      "ariaNumber": "ОВОП- 5 Участок № 45",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "1981",
+      "lastDate": "2024-03-29T11:45:00",
+      "name": "Боронко Анастасия Андреевна",
+      "nearestDate": "2024-03-28T18:00:00"
+    },
+    {
+      "ariaNumber": "ОВОП- 5 Участок № 44",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "1579",
+      "lastDate": "2024-03-29T17:45:00",
+      "name": "Гришина Любовь Вячеславовна",
+      "nearestDate": "2024-03-26T11:00:00"
+    },
+    {
+      "ariaNumber": "ОВОП- 5 Участок № 47",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 11,
+      "freeTicketCount": 11,
+      "id": "1371",
+      "lastDate": "2024-03-29T11:45:00",
+      "name": "Кириллова Дарья Сергеевна",
+      "nearestDate": "2024-03-27T11:15:00"
+    },
+    {
+      "ariaNumber": "ОВОП- 5 Участок № 48",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1811",
+      "lastDate": null,
+      "name": "Семёнова Алёна Павловна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "ОВОП- 5 Участок № 42",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "698",
+      "lastDate": "2024-03-28T18:30:00",
+      "name": "Соловьева Ольга Ефимовна",
+      "nearestDate": "2024-03-28T18:15:00"
+    },
+    {
+      "ariaNumber": "ОВОП- 5 Участок № 41",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "684",
+      "lastDate": null,
+      "name": "Трегубова Анна Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "ОВОП- 5 Участок № 46",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "1284",
+      "lastDate": "2024-03-29T18:45:00",
+      "name": "Хамидова Дилфуза Пулатовна",
+      "nearestDate": "2024-03-28T11:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "506",
+      "lastDate": null,
+      "name": "Шелудякова Нина Викторовна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

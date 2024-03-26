@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 34,
+      "freeTicketCount": 68,
+      "id": "916",
+      "lastDate": "2024-04-08T16:00:00",
+      "name": "Кайгородцева Вера Викторовна",
+      "nearestDate": "2024-04-01T14:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "910",
+      "lastDate": null,
+      "name": "Красовска Ольга Борисовна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

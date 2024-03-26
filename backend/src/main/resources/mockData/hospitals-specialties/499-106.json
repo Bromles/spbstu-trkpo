@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 32,
+      "freeTicketCount": 107,
+      "id": "77",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Ахмадеева Марина Юрьевна ",
+      "nearestDate": "2024-03-25T17:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 18,
+      "freeTicketCount": 102,
+      "id": "112",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Исаева Ирина Михайловна ",
+      "nearestDate": "2024-03-25T17:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 18,
+      "freeTicketCount": 86,
+      "id": "74",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Михайлова Ирина Владимировна ",
+      "nearestDate": "2024-03-26T09:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 34,
+      "freeTicketCount": 120,
+      "id": "92",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Полищук Елена Анатольевна ",
+      "nearestDate": "2024-03-25T17:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

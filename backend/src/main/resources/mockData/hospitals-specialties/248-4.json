@@ -1,0 +1,151 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "терапевтический участок № 7",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "п100.616",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Адырбаева А.Н. 1ТО. 7 участок.",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "терапевтические участки № 14, 15, 16",
+      "freeParticipantCount": 21,
+      "freeTicketCount": 21,
+      "id": "п100.306",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Антипин С.В. 2 ТО. 14/15/16 участки. (11.03-31.03 без приема.)",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "п100.509",
+      "lastDate": "2024-03-25T00:00:00",
+      "name": "Кузмичёва М.А. 2 тер. отделение.",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "терапевтические участки № 3, 11",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "п100.559",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Смоляк М.А. 1 ТО. 3/11 участки.",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 44,
+      "freeTicketCount": 44,
+      "id": "п100.595",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Усатюк Г.И. 2 ТО",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "терапевтические участки № 22, 23",
+      "freeParticipantCount": 10,
+      "freeTicketCount": 10,
+      "id": "п100.337",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Чапанова Х.А. 2 ТО. Участки 22/23.",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "терапевтические участки № 23, 24",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "п100.185",
+      "lastDate": null,
+      "name": "Беляева А.В. 2 ТО. 23/24 участки.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "терапевтические участки № 19, 20",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "п100.520",
+      "lastDate": null,
+      "name": "Елсукова Г.С. 2 ТО. 19/20 участки.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "терапевтический участок № 10",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "п100.170",
+      "lastDate": null,
+      "name": "Золотарева Л.И. 1 ТО. 10 участок.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "терапевтический участок № 8",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "п100.310",
+      "lastDate": null,
+      "name": "Познышева И.В. 1 ТО. 8 участок. (с 01.04 по 14.04 без приема)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "терапевтический участок № 25, 26",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "п100.580",
+      "lastDate": null,
+      "name": "Северин А.А. 2 ТО. 25/26 участки.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "терапевтический участок № 2",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "п100.409",
+      "lastDate": null,
+      "name": "Черепанов Д.Е. 1 ТО. 2 участок.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "терапевтический участок № 9",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "п100.571",
+      "lastDate": null,
+      "name": "Эртине Б.А. 1 ТО. 9 участок.",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

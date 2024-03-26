@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "549",
+      "lastDate": "2024-04-03T17:30:00",
+      "name": "Ефимова Наталья Владимировна",
+      "nearestDate": "2024-04-03T14:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 49,
+      "freeTicketCount": 49,
+      "id": "248",
+      "lastDate": "2024-04-04T15:15:00",
+      "name": "Рябенко Наталья Валерьевна",
+      "nearestDate": "2024-03-26T11:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

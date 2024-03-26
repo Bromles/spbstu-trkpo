@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диспансерное наблюдение",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "67c0c484-0dbe-11ed-bba5-b496918ad4ad",
+      "lastDate": null,
+      "name": "Михайлова Юлия Анатольевна (Врач общей практики (семейный врач))",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

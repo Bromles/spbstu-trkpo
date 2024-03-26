@@ -1,0 +1,118 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 31,
+      "freeTicketCount": 47,
+      "id": "д62.4",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Егорова Е.В. (СОЮЗНЫЙ 7)",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 21,
+      "freeTicketCount": 37,
+      "id": "д62.220",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Емелина К.С. (СОЮЗНЫЙ 7)",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 16,
+      "freeTicketCount": 29,
+      "id": "д62.133",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Землянская В.Н. (СОЮЗНЫЙ 7)",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 12,
+      "freeTicketCount": 25,
+      "id": "д62.229",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Ивлева ЮН(СОЮЗНЫЙ 7)",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 26,
+      "freeTicketCount": 42,
+      "id": "д62.63",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Коврижных О.И. (СОЮЗНЫЙ 7)",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 33,
+      "freeTicketCount": 50,
+      "id": "д62.49",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Михайлов А.В. (СОЮЗНЫЙ 7)",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 25,
+      "freeTicketCount": 43,
+      "id": "д62.76",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Наследова Ю.В. (СОЮЗНЫЙ 7)",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 31,
+      "freeTicketCount": 45,
+      "id": "д62.152",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Оболенский А.А. (СОЮЗНЫЙ 7)",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 26,
+      "freeTicketCount": 35,
+      "id": "д62.72",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Сахиева З.М.  (СОЮЗНЫЙ 7)",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 26,
+      "freeTicketCount": 45,
+      "id": "д62.230",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Сысоенко Т.Н.(СОЮЗНЫЙ 7)",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

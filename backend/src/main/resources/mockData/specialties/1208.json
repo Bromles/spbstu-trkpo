@@ -1,0 +1,62 @@
+{
+  "result": [
+    {
+      "id": "wvDg9y3u9PLg6/zs7uvu4w==",
+      "ferId": "20",
+      "name": "Врач-офтальмолог",
+      "countFreeParticipant": 105,
+      "countFreeTicket": 105,
+      "lastDate": "2024-04-08T20:45:00",
+      "nearestDate": "2024-03-25T20:15:00"
+    },
+    {
+      "id": "wvDg9y3y5fDg7+Xi8l/z9+Dx8uru4vvp",
+      "ferId": "27",
+      "name": "Врач-терапевт участковый",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "wvDg9y316PDz8OM=",
+      "ferId": "30",
+      "name": "Врач-хирург",
+      "countFreeParticipant": 91,
+      "countFreeTicket": 91,
+      "lastDate": "2024-04-08T14:45:00",
+      "nearestDate": "2024-03-26T16:45:00"
+    },
+    {
+      "id": "wvDg91/u4fnl6V/v8ODq8ujq6F8o8eXs5ent++lf4vDg9yk=",
+      "ferId": "16",
+      "name": "Врач общей практики (семейный врач)",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "wvDg91/v7l/s5eTo9ujt8eru6V/v8O706Ovg6vLo6uU=",
+      "ferId": "27",
+      "name": "Врач по медицинской профилактике",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "x+Dv6PH8X+3gX+Lg6vbo7eD26P4=",
+      "ferId": "55",
+      "name": "Запись на вакцинацию",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

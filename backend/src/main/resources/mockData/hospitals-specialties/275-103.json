@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 3,
+      "id": "67",
+      "lastDate": "2024-04-01T09:40:00",
+      "name": "Кошелева Анна Игоревна ",
+      "nearestDate": "2024-04-01T08:40:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 3,
+      "id": "71",
+      "lastDate": "2024-04-02T14:15:00",
+      "name": "Цветкова Дарья Владимировна ",
+      "nearestDate": "2024-04-02T12:40:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

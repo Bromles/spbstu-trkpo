@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 38,
+      "freeTicketCount": 38,
+      "id": "5993",
+      "lastDate": "2024-03-29T10:54:00",
+      "name": "Абидов Шапи Халидович",
+      "nearestDate": "2024-03-26T10:06:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 36,
+      "freeTicketCount": 36,
+      "id": "5978",
+      "lastDate": "2024-04-06T11:24:00",
+      "name": "Боткина Арина Алексеевна",
+      "nearestDate": "2024-04-01T16:36:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 36,
+      "freeTicketCount": 36,
+      "id": "3386",
+      "lastDate": "2024-04-07T11:00:00",
+      "name": "Сайдаева Мадина Имрановна",
+      "nearestDate": "2024-04-02T15:18:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "18",
+      "lastDate": null,
+      "name": "Укрюкова Олеся Анатольевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "4976",
+      "lastDate": null,
+      "name": "Хаджимуратов Ислам Салманович",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

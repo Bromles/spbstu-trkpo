@@ -1,0 +1,17 @@
+{
+  "result": [
+    {
+      "id": "3",
+      "ferId": "27",
+      "name": "ТЕРАПЕВТ-ОФИС Сердобольская,7",
+      "countFreeParticipant": 174,
+      "countFreeTicket": 266,
+      "lastDate": "2024-04-11T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

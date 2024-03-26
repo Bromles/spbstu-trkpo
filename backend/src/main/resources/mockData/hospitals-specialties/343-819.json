@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 69,
+      "freeTicketCount": 69,
+      "id": "6421",
+      "lastDate": "2024-04-06T13:00:00",
+      "name": "Машука Дана Мамуновна",
+      "nearestDate": "2024-03-29T09:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

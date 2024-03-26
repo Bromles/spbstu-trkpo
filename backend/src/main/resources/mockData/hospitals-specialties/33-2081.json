@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": "1",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 10,
+      "id": "9508",
+      "lastDate": "2024-04-03T17:00:00",
+      "name": "Васильева Татьяна Дмитриевна",
+      "nearestDate": "2024-04-03T17:00:00"
+    },
+    {
+      "ariaNumber": "8",
+      "ariaType": null,
+      "comment": "ЦОВП (ул. Гагаринская, 77)",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 4,
+      "id": "8344",
+      "lastDate": "2024-04-01T17:00:00",
+      "name": "Дубенская Дарья Евгеньевна",
+      "nearestDate": "2024-04-01T17:00:00"
+    },
+    {
+      "ariaNumber": "3, 5",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 3,
+      "freeTicketCount": 9,
+      "id": "8502",
+      "lastDate": "2024-04-05T15:00:00",
+      "name": "Жуковская Юлия Анатольевна",
+      "nearestDate": "2024-04-03T09:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1970",
+      "lastDate": null,
+      "name": "Ли Елена Афанасьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "7",
+      "ariaType": null,
+      "comment": "ЦОВП (ул. Гагаринская, 77)",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 5,
+      "id": "8343",
+      "lastDate": "2024-04-05T13:10:00",
+      "name": "Подойлов Андрей Сергеевич",
+      "nearestDate": "2024-04-03T16:00:00"
+    },
+    {
+      "ariaNumber": "2",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "9706",
+      "lastDate": "2024-03-27T12:20:00",
+      "name": "Рябинина Ксения Николаевна",
+      "nearestDate": "2024-03-27T12:20:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

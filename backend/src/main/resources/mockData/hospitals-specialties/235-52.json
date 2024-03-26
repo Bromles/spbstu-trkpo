@@ -1,0 +1,129 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Педиатрическое общ ДПО № 34",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "1472",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Абдуллаева Нармин Эльбрус Кызы возраст 0г-17г",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "Педиатрическое общ ДПО № 34",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "1550",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Ганина Юлия Олеговна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Педиатрическое общ ДПО № 34",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 8,
+      "freeTicketCount": 9,
+      "id": "1556",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Головнева Наталья Владимировна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Педиатрическое общ ДПО № 34",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 13,
+      "freeTicketCount": 13,
+      "id": "1646",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Колесов Павел Сергеевич возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Педиатрическое общ ДПО № 34",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1686",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Лыфарева Нина Алексеевна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Педиатрическое общ ДПО № 34",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1688",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Малышева Диана Рамазовна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Педиатрическое общ ДПО № 34",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 6,
+      "freeTicketCount": 6,
+      "id": "1743",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Пивнева Светлана Николаевна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Педиатрическое общ ДПО № 34",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "1814",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Толстикова Александра Сергеевна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Педиатрическое общ ДПО № 34",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 14,
+      "freeTicketCount": 14,
+      "id": "1829",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Хамзина Альфия Минесалиховна возраст 0г-17г",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "Педиатрическое общ ДПО № 34",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 17,
+      "freeTicketCount": 18,
+      "id": "2230",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Карелина Виктория Александровна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Педиатрическое общ ДПО № 34",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 9,
+      "freeTicketCount": 11,
+      "id": "2304",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Хубайбуллина Светлана Ураловна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

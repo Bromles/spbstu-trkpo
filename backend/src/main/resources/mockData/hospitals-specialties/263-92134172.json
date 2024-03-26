@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 23,
+      "freeTicketCount": 23,
+      "id": "992",
+      "lastDate": "2024-04-08T12:00:00",
+      "name": "Абраменков Дмитрий Петрович",
+      "nearestDate": "2024-04-04T08:40:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 67,
+      "freeTicketCount": 67,
+      "id": "1019",
+      "lastDate": "2024-04-08T12:45:00",
+      "name": "Говорливых Артём Эдуардович",
+      "nearestDate": "2024-04-02T09:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 45,
+      "freeTicketCount": 45,
+      "id": "326",
+      "lastDate": "2024-04-08T18:45:00",
+      "name": "Смирнов Вадим Юрьевич",
+      "nearestDate": "2024-04-02T15:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

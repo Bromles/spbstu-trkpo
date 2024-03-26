@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "3412",
+      "lastDate": "2024-04-10T11:00:00",
+      "name": "Сайфуллин Рамиль Ринатович",
+      "nearestDate": "2024-04-10T10:20:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

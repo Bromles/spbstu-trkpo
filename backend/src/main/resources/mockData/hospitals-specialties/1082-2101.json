@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "321",
+      "lastDate": "2024-03-27T10:00:00",
+      "name": "Багриновцева Екатерина Юрьевна",
+      "nearestDate": "2024-03-27T10:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ОСМ ПМ СП",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "30",
+      "lastDate": "2024-03-29T11:00:00",
+      "name": "Мотрук Людмила Ивановна",
+      "nearestDate": "2024-03-28T15:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ОСМ ПМ СП",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "38",
+      "lastDate": null,
+      "name": "Смирнов Анатолий Владимирович",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

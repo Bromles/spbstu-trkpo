@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Ботаническая д 3/2",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "2",
+      "lastDate": "2024-04-03T00:00:00",
+      "name": "Гильяно Я.Д ( Ботаническая 3/2)",
+      "nearestDate": "2024-04-03T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

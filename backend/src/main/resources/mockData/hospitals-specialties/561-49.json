@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Офтальмологическое ДПО № 22",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2065",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Калашникова Наталья Степановна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

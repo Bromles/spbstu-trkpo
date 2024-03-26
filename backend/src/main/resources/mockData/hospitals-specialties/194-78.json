@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "I терапевтическое отделение",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "923",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Ульянова Наталья Николаевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "I терапевтическое отделение",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2045",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Ожерельева Анна Талгатовна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "I терапевтическое отделение",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2046",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Бажанова Анна Игоревна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "I терапевтическое отделение",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2099",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Пухальская Анастасия Эдуардовна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

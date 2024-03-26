@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 147,
+      "freeTicketCount": 147,
+      "id": "1225",
+      "lastDate": "2024-04-08T19:54:00",
+      "name": "Выписка закрытие больничных листов ",
+      "nearestDate": "2024-04-01T17:42:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

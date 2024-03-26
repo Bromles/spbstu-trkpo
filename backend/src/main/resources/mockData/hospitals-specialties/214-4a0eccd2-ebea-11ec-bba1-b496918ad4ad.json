@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "КАБИНЕТ 337, ПРИ СЕБЕ ИМЕТЬ ЭКГ ",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "327ce1a6-4b91-11ed-bbac-b496918ad4ad",
+      "lastDate": null,
+      "name": "Быстрова Вера Михайловна (Врач-кардиолог)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 35,
+      "freeTicketCount": 35,
+      "id": "1c71dd99-e2bb-11ee-bc1d-b496918ad90e",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Дементьев Сергей Игоревич (Врач-кардиолог)",
+      "nearestDate": "2024-04-04T09:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

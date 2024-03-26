@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "1-33",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 185,
+      "freeTicketCount": 185,
+      "id": "1390.307",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Князева В.Э.",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "1-33",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 188,
+      "freeTicketCount": 188,
+      "id": "1390.354",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Пирдамова Э.С.",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,26 @@
+{
+  "result": [
+    {
+      "id": "59019513-fdc7-11ec-bba2-b496918ad4ad",
+      "ferId": "27",
+      "name": "Диспансеризация",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "7b66c767-ebeb-11ec-bba1-b496918ad4ad",
+      "ferId": "224",
+      "name": "Врач общей практики",
+      "countFreeParticipant": 36,
+      "countFreeTicket": 36,
+      "lastDate": "2024-03-29T18:30:00",
+      "nearestDate": "2024-03-26T09:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

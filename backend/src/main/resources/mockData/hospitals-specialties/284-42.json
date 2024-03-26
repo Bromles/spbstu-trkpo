@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 50,
+      "freeTicketCount": 94,
+      "id": "16700",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Уртамова Л.В.",
+      "nearestDate": "2024-04-15T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 29,
+      "freeTicketCount": 71,
+      "id": "14885",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Шадричева Е.С. каб.208 ",
+      "nearestDate": "2024-04-17T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

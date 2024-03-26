@@ -1,0 +1,239 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Поликлиника №125 ",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "745cf4b9-bc02-11ec-982f-089798a49211",
+      "lastDate": null,
+      "name": "Топал Анастасия Андреевна (Онколог, врач-онколог, )",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": " Бабинцев Алексей Вячеславович ",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "6a8c03f1-bc02-11ec-982f-089798a49211",
+      "lastDate": null,
+      "name": "Бабинцев Алексей Вячеславович (Онколог, врач-онкоуролог, )",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Поликлиника №115",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "745cf2fd-bc02-11ec-982f-089798a49211",
+      "lastDate": null,
+      "name": "Плетнев Дмитрий Дмитриевич (Онколог, врач-онколог, )",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "6a8c03cc-bc02-11ec-982f-089798a49211",
+      "lastDate": null,
+      "name": "Анарбаева Айжамал (Онколог, врач-онкогинеколог, )",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "cc02b3ba-f39f-11ec-bb9b-00155d030209",
+      "lastDate": null,
+      "name": "(Онколог-Уролог) Благовестный Евгений Михайлович ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "7573f821-b8ef-11ed-bbba-00155d030209",
+      "lastDate": null,
+      "name": "Григорян Ашот Гагикович (Онколог, врач-онкоуролог, )",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Поликлиника №121",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "d0a44488-53b8-11ee-bbd8-00155d03021b",
+      "lastDate": null,
+      "name": "Биюжева Вероника Сергеевна (Онколог, врач-онколог, )",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Поликлиника №102  ",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "6a8c07e0-bc02-11ec-982f-089798a49211",
+      "lastDate": null,
+      "name": "Благовестный Евгений Михайлович (Онколог, врач-онколог, )",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Поликлиника №115",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "effc4da4-039a-11ee-bbc0-00155d030209",
+      "lastDate": null,
+      "name": "Ермаков Дмитрий Валерьевич (Онколог, врач-онколог, )",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Поликлиника №111",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "dd4536c6-5851-11ee-bbd8-00155d03021b",
+      "lastDate": "2024-04-08T19:20:00",
+      "name": "Мироновская Наталья Витальевна (Онколог, врач-онколог, )",
+      "nearestDate": "2024-04-04T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Поликлиника № 98",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 6,
+      "id": "e95acade-4307-11ed-bbde-00155d030209",
+      "lastDate": "2024-04-08T10:00:00",
+      "name": "Вершинин Федор Валерьевич (Онколог, врач-онколог, )",
+      "nearestDate": "2024-04-08T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Поликлиника 114",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "961c81fd-4d4c-11ee-bbd8-00155d03021b",
+      "lastDate": "2024-04-08T19:20:00",
+      "name": "Сафонова Анна Алексеевна (Онколог, врач-онколог, )",
+      "nearestDate": "2024-04-08T16:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "49,63,33 поликлиника",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "70870e21-bc02-11ec-982f-089798a49211",
+      "lastDate": null,
+      "name": "Плюта Даниил Сергеевич (Онколог, врач-онколог, )",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2f54edf4-4a24-11ed-bbe3-00155d030209",
+      "lastDate": null,
+      "name": "Татаринова Ольга Александровна (Онколог, врач-онкогинеколог, )",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "df1be1a2-718f-11ee-bc54-00155d03021b",
+      "lastDate": null,
+      "name": "Бакаева Эльвина Хисматуловна (Онколог, врач-онкогинеколог, )",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Поликлиника №102",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "7680f283-bc02-11ec-982f-089798a49211",
+      "lastDate": null,
+      "name": "Ягафарова Карина Робертовна (Онколог, врач-онколог, )",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "114 поликлиника",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "e6492026-47f4-11ee-bbd8-00155d03021b",
+      "lastDate": "2024-04-08T08:20:00",
+      "name": "Тергоева Алина Павловна (Онколог, врач-онколог, )",
+      "nearestDate": "2024-04-08T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Поликлиника №98",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "7086f271-bc02-11ec-982f-089798a49211",
+      "lastDate": null,
+      "name": "Высотина Ольга Сергеевна (Онколог, врач-онколог, )",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Поликлиника №121",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "280df933-f0bd-11ed-bbbe-00155d030209",
+      "lastDate": null,
+      "name": "Седлецкий Алексей Анатольевич (Онколог, врач-онколог, )",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Поликлиника №111",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "0474b71e-4f9a-11ed-bbe7-00155d030209",
+      "lastDate": "2024-04-08T09:00:00",
+      "name": "Тачева Дина Альбертовна (Онколог, врач-онколог, )",
+      "nearestDate": "2024-04-08T08:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "c950ae89-4d4c-11ee-bbd8-00155d03021b",
+      "lastDate": null,
+      "name": "Цховребова Мадина Альбертовна (Онколог, врач-онколог, )",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

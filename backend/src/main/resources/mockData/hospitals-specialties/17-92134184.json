@@ -1,0 +1,195 @@
+{
+  "result": [
+    {
+      "ariaNumber": "10 участок ДПО",
+      "ariaType": null,
+      "comment": "19 ",
+      "freeParticipantCount": 102,
+      "freeTicketCount": 102,
+      "id": "3244",
+      "lastDate": "2024-04-08T19:30:00",
+      "name": "Абильев Алексей Андреевич",
+      "nearestDate": "2024-03-26T16:15:00"
+    },
+    {
+      "ariaNumber": "8 участок ДПО",
+      "ariaType": null,
+      "comment": "33 ",
+      "freeParticipantCount": 89,
+      "freeTicketCount": 89,
+      "id": "3245",
+      "lastDate": "2024-04-08T19:30:00",
+      "name": "Абильева Ирина Андреевна",
+      "nearestDate": "2024-03-26T17:15:00"
+    },
+    {
+      "ariaNumber": "14 участок ДПО",
+      "ariaType": null,
+      "comment": "34 ",
+      "freeParticipantCount": 94,
+      "freeTicketCount": 94,
+      "id": "1253",
+      "lastDate": "2024-04-08T12:30:00",
+      "name": "Андреева Мария Васильевна",
+      "nearestDate": "2024-03-26T10:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "2 ",
+      "freeParticipantCount": 10,
+      "freeTicketCount": 10,
+      "id": "1256",
+      "lastDate": "2024-03-30T13:30:00",
+      "name": "Борцова Татьяна Георгиевна",
+      "nearestDate": "2024-03-30T09:00:00"
+    },
+    {
+      "ariaNumber": "17 участок ДПО",
+      "ariaType": null,
+      "comment": "33 ",
+      "freeParticipantCount": 100,
+      "freeTicketCount": 100,
+      "id": "3246",
+      "lastDate": "2024-04-08T12:30:00",
+      "name": "Ботов Дмитрий Максимович",
+      "nearestDate": "2024-03-26T09:30:00"
+    },
+    {
+      "ariaNumber": "9 участок ДПО",
+      "ariaType": null,
+      "comment": "27 ",
+      "freeParticipantCount": 41,
+      "freeTicketCount": 41,
+      "id": "3252",
+      "lastDate": "2024-04-04T19:30:00",
+      "name": "Васкевич Анна Викторовна",
+      "nearestDate": "2024-03-26T17:00:00"
+    },
+    {
+      "ariaNumber": "5 участок ДПО",
+      "ariaType": null,
+      "comment": "30 ",
+      "freeParticipantCount": 105,
+      "freeTicketCount": 105,
+      "id": "3258",
+      "lastDate": "2024-04-08T18:30:00",
+      "name": "Идрисова Залина Абдуллаевна",
+      "nearestDate": "2024-03-26T15:15:00"
+    },
+    {
+      "ariaNumber": "13 участок ДПО",
+      "ariaType": null,
+      "comment": "26 ",
+      "freeParticipantCount": 96,
+      "freeTicketCount": 96,
+      "id": "1258",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Карпова Ирина Геннадьевна",
+      "nearestDate": "2024-03-26T10:15:00"
+    },
+    {
+      "ariaNumber": "16 участок ДПО",
+      "ariaType": null,
+      "comment": "14 ",
+      "freeParticipantCount": 53,
+      "freeTicketCount": 53,
+      "id": "1259",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Крупкин Михаил Яковлевич",
+      "nearestDate": "2024-04-02T11:00:00"
+    },
+    {
+      "ariaNumber": "20 участок ДПО",
+      "ariaType": null,
+      "comment": "23 ",
+      "freeParticipantCount": 105,
+      "freeTicketCount": 105,
+      "id": "3257",
+      "lastDate": "2024-04-08T11:30:00",
+      "name": "Куршаков Владимир Сергеевич",
+      "nearestDate": "2024-03-25T16:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "19 ",
+      "freeParticipantCount": 153,
+      "freeTicketCount": 153,
+      "id": "2737",
+      "lastDate": "2024-04-08T15:45:00",
+      "name": "Павлова Анна Игоревна",
+      "nearestDate": "2024-03-26T12:00:00"
+    },
+    {
+      "ariaNumber": "7 участок ДПО",
+      "ariaType": null,
+      "comment": "26 ",
+      "freeParticipantCount": 95,
+      "freeTicketCount": 95,
+      "id": "3253",
+      "lastDate": "2024-04-05T13:30:00",
+      "name": "Полякова Виктория Витальевна",
+      "nearestDate": "2024-03-26T15:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "2 ",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1896",
+      "lastDate": null,
+      "name": "Родионова Елена Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "19 участок ДПО",
+      "ariaType": null,
+      "comment": "27 ",
+      "freeParticipantCount": 118,
+      "freeTicketCount": 118,
+      "id": "1262",
+      "lastDate": "2024-04-08T11:30:00",
+      "name": "Саляхова Фарида Абдуловна",
+      "nearestDate": "2024-03-25T16:45:00"
+    },
+    {
+      "ariaNumber": "2 участок ДПО",
+      "ariaType": null,
+      "comment": "34 ",
+      "freeParticipantCount": 60,
+      "freeTicketCount": 60,
+      "id": "1598",
+      "lastDate": "2024-04-08T18:30:00",
+      "name": "Сердюк Анна Витальевна",
+      "nearestDate": "2024-04-01T10:30:00"
+    },
+    {
+      "ariaNumber": "11 участок ДПО",
+      "ariaType": null,
+      "comment": "30 ",
+      "freeParticipantCount": 106,
+      "freeTicketCount": 106,
+      "id": "3290",
+      "lastDate": "2024-04-08T12:30:00",
+      "name": "Серебрякова Александра Федоровна",
+      "nearestDate": "2024-03-25T16:45:00"
+    },
+    {
+      "ariaNumber": "4 участок ДПО",
+      "ariaType": null,
+      "comment": "23 ",
+      "freeParticipantCount": 57,
+      "freeTicketCount": 57,
+      "id": "2354",
+      "lastDate": "2024-04-08T19:30:00",
+      "name": "Силина Ольга Игоревна",
+      "nearestDate": "2024-03-26T16:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

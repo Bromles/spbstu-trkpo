@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": "19",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 5,
+      "freeTicketCount": 15,
+      "id": "505",
+      "lastDate": "2024-04-08T18:48:00",
+      "name": "Алмоури Хасан ",
+      "nearestDate": "2024-04-08T17:24:00"
+    },
+    {
+      "ariaNumber": "20, 23",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 3,
+      "id": "1030",
+      "lastDate": "2024-04-08T12:24:00",
+      "name": "Андрианова Мария Андреевна",
+      "nearestDate": "2024-04-08T11:48:00"
+    },
+    {
+      "ariaNumber": "21, 29",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 24,
+      "freeTicketCount": 34,
+      "id": "1031",
+      "lastDate": "2024-04-08T16:48:00",
+      "name": "Волина Елизавета Евгеньевна",
+      "nearestDate": "2024-04-03T14:48:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 9,
+      "freeTicketCount": 9,
+      "id": "783",
+      "lastDate": "2024-03-27T12:00:00",
+      "name": "Диспансеризация ПО -",
+      "nearestDate": "2024-03-27T08:40:00"
+    },
+    {
+      "ariaNumber": "22",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 8,
+      "freeTicketCount": 18,
+      "id": "286",
+      "lastDate": "2024-04-08T11:00:00",
+      "name": "Митина Лариса Владимировна",
+      "nearestDate": "2024-04-08T08:48:00"
+    },
+    {
+      "ariaNumber": "19, 20, 21, 22, 23, 29",
+      "ariaType": null,
+      "comment": "Врач-терапевт дежурный (ТОЛЬКО ДЛЯ ПАЦИЕНТОВ С ПРИЗНАКАМИ ОРВИ)",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "287",
+      "lastDate": null,
+      "name": "Растовцева Александра Леонидовна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,85 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "438",
+      "lastDate": "2024-03-29T19:45:00",
+      "name": "Артаева Кермен Эдуардовна Консультация ортодонта ул. П. Гарькавого д.14 каб. 301",
+      "nearestDate": "2024-03-29T16:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "437",
+      "lastDate": "2024-03-25T16:42:14.0862381+03:00",
+      "name": "Боровец Дарья Сергеевна Консультация ортодонта ул. П. Гарькавого д.14 каб. 301",
+      "nearestDate": "2024-03-25T16:42:14.0862381+03:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "351",
+      "lastDate": "2024-03-25T16:42:14.0882389+03:00",
+      "name": "Жиленкова Елена Александровна Консультация ортодонта ул. П. Гарькавого д.14 каб. 301 ",
+      "nearestDate": "2024-03-25T16:42:14.0882389+03:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "434",
+      "lastDate": "2024-03-25T19:50:00",
+      "name": "Кардаков Данила Алексеевич к.м.н. Консультация ортодонта П.ГАРЬКАВОГО Д.28, КАБ 4. (ДЕТСКОЕ ОТДЕЛЕНИЕ)",
+      "nearestDate": "2024-03-25T19:50:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "325",
+      "lastDate": "2024-04-08T12:20:00",
+      "name": "Кардаков Данила Алексеевич к.м.н. Консультация ортодонта ул. П. Гарькавого д.14 каб. 301 ",
+      "nearestDate": "2024-04-08T12:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "405",
+      "lastDate": "2024-03-25T16:42:14.1082285+03:00",
+      "name": "Никулаева Дарья Олеговна Консультация ортодонта ул. П. Гарькавого д.14 каб. 301 ",
+      "nearestDate": "2024-03-25T16:42:14.1082285+03:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "354",
+      "lastDate": "2024-03-25T16:42:14.1092278+03:00",
+      "name": "Никулаева Ирина Васильевна Консультация ортодонта ул. П. Гарькавого д.14 каб. 301 ",
+      "nearestDate": "2024-03-25T16:42:14.1092278+03:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

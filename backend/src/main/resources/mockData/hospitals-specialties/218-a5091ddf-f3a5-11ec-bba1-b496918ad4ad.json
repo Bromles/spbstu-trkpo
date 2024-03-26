@@ -1,0 +1,283 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "31 УЧАСТОК Вторник,четверг - приём детей до года и неорганизованных детей",
+      "freeParticipantCount": 9,
+      "freeTicketCount": 9,
+      "id": "d246fb4b-ffef-11ec-bba2-b496918ad4ad",
+      "lastDate": "2024-04-01T11:45:00",
+      "name": "Шумилова Людмила Ивановна (Врач-педиатр участковый)",
+      "nearestDate": "2024-03-29T11:03:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "14 УЧАСТОК Офис Комендантский 53/4  Вторник,четверг - приём детей до года и неорганизованных детей",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "6e13c208-00ff-11ed-bba2-b496918ad4ad",
+      "lastDate": "2024-04-01T11:17:00",
+      "name": "Бруданина Алена Витальевна (Врач-педиатр участковый)",
+      "nearestDate": "2024-04-01T10:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "28 УЧАСТОК Вторник,четверг - приём детей до года и неорганизованных детей",
+      "freeParticipantCount": 35,
+      "freeTicketCount": 35,
+      "id": "6ee0c54d-00ff-11ed-bba2-b496918ad4ad",
+      "lastDate": "2024-04-01T12:45:00",
+      "name": "Владимирова Тамара Ивановна (Врач-педиатр участковый)",
+      "nearestDate": "2024-03-28T18:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "10 УЧАСТОК Вторник,четверг - приём детей до года и неорганизованных детей",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "6ee0d7d6-00ff-11ed-bba2-b496918ad4ad",
+      "lastDate": null,
+      "name": "Гаврилин Николай Германович (Врач-педиатр участковый)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "7 УЧАСТОК Вторник,четверг - приём детей до года и неорганизованных детей",
+      "freeParticipantCount": 19,
+      "freeTicketCount": 19,
+      "id": "6ee0d977-00ff-11ed-bba2-b496918ad4ad",
+      "lastDate": "2024-03-29T18:24:00",
+      "name": "Гаврилина Марина Евгеньевна (Врач-педиатр участковый)",
+      "nearestDate": "2024-03-25T17:14:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "6 УЧАСТОК Вторник,четверг - приём детей до года и неорганизованных детей",
+      "freeParticipantCount": 13,
+      "freeTicketCount": 13,
+      "id": "6ee0e9cf-00ff-11ed-bba2-b496918ad4ad",
+      "lastDate": "2024-03-28T11:45:00",
+      "name": "Лукьянова Ирина Владимировна (Врач-педиатр участковый)",
+      "nearestDate": "2024-03-27T17:35:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "27 УЧАСТОК Офис Комендантский 53/4  Вторник,четверг - приём детей до года и неорганизованных детей",
+      "freeParticipantCount": 40,
+      "freeTicketCount": 40,
+      "id": "6ee0ea42-00ff-11ed-bba2-b496918ad4ad",
+      "lastDate": "2024-03-29T18:45:00",
+      "name": "Мелеш Юлия Юрьевна (Врач-педиатр участковый)",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "2 УЧАСТОК Вторник,четверг - приём детей до года и неорганизованных детей",
+      "freeParticipantCount": 20,
+      "freeTicketCount": 20,
+      "id": "71e51607-00ff-11ed-bba2-b496918ad4ad",
+      "lastDate": "2024-04-01T12:38:00",
+      "name": "Алексеева Екатерина Вячеславовна (Врач-педиатр участковый)",
+      "nearestDate": "2024-03-29T11:42:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "16 УЧАСТОК Офис Комендантский 53/4  Вторник,четверг - приём детей до года и неорганизованных детей",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "71e51736-00ff-11ed-bba2-b496918ad4ad",
+      "lastDate": "2024-03-29T19:24:00",
+      "name": "Гасанова Полина Леонидовна (Врач-педиатр участковый)",
+      "nearestDate": "2024-03-29T18:28:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "22 УЧАСТОК Вторник,четверг - приём детей до года и неорганизованных детей",
+      "freeParticipantCount": 15,
+      "freeTicketCount": 15,
+      "id": "7412df1c-00ff-11ed-bba2-b496918ad4ad",
+      "lastDate": "2024-03-29T18:31:00",
+      "name": "Хадаева Валерия Аслановна (Врач-педиатр участковый)",
+      "nearestDate": "2024-03-27T17:28:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "26 УЧАСТОК Вторник,четверг - приём детей до года и неорганизованных детей",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "7412df57-00ff-11ed-bba2-b496918ad4ad",
+      "lastDate": "2024-03-29T19:45:00",
+      "name": "Хмельницкая Алина Игоревна (Врач-педиатр участковый)",
+      "nearestDate": "2024-03-29T18:56:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "23 УЧАСТОК Вторник,четверг - приём детей до года и неорганизованных детей",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "2711376d-0358-11ed-bba2-b496918ad4ad",
+      "lastDate": "2024-03-25T17:56:00",
+      "name": "Третьяков Сергей Николаевич (Врач-педиатр участковый)",
+      "nearestDate": "2024-03-25T17:56:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "19 УЧАСТОК Офис Комендантский 53/4 Вторник,четверг - приём детей до года и неорганизованных детей",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "f1a077a0-2dd2-11ed-bba9-b496918ad4ae",
+      "lastDate": "2024-03-29T11:24:00",
+      "name": "Шаршуков Никита Романович (Врач-педиатр участковый)",
+      "nearestDate": "2024-03-29T10:21:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "30 УЧАСТОК Вторник,четверг - приём детей до года и неорганизованных детей",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "98a39831-2e8d-11ed-bba9-b496918ad4ae",
+      "lastDate": null,
+      "name": "Гурлева Анастасия Дмитриевна (Врач-педиатр участковый)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "11 УЧАСТОК Вторник,четверг - приём детей до года и неорганизованных детей",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "6f342eba-328e-11ed-bba9-b496918ad4ae",
+      "lastDate": null,
+      "name": "Мартиенко Иванна Сергеевна (Врач-педиатр участковый)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "4 УЧАСТОК Вторник,четверг - приём детей до года и неорганизованных детей",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "435dc8d8-fa22-11ed-bbbf-b496918ad4ad",
+      "lastDate": null,
+      "name": "Россинская Екатерина Александровна (Врач-педиатр участковый)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "29 УЧАСТОК Вторник,четверг - приём детей до года и неорганизованных детей",
+      "freeParticipantCount": 14,
+      "freeTicketCount": 14,
+      "id": "c5a9cb50-3816-11ee-bbc8-b496918ad4af",
+      "lastDate": "2024-03-29T19:38:00",
+      "name": "Каменцева Полина Геннадьевна (Врач-педиатр участковый)",
+      "nearestDate": "2024-03-27T18:56:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "15 УЧАСТОК Вторник,четверг - приём детей до года и неорганизованных детей",
+      "freeParticipantCount": 32,
+      "freeTicketCount": 32,
+      "id": "22162178-3c32-11ee-bbcb-b496918ad4ad",
+      "lastDate": "2024-04-01T12:45:00",
+      "name": "Хомутинникова Елена Анатольевна (Врач-педиатр участковый)",
+      "nearestDate": "2024-03-28T16:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "17 УЧАСТОК Офис Комендантский 53/4  Вторник,четверг - приём детей до года и неорганизованных детей",
+      "freeParticipantCount": 11,
+      "freeTicketCount": 11,
+      "id": "a4573cfc-4024-11ee-bbce-b496918ad4ad",
+      "lastDate": "2024-03-29T19:31:00",
+      "name": "Алямовская Евгения Александровна (Врач-педиатр участковый)",
+      "nearestDate": "2024-03-27T18:42:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "1 УЧАСТОК Вторник,четверг - приём детей до года и неорганизованных детей",
+      "freeParticipantCount": 23,
+      "freeTicketCount": 23,
+      "id": "fcc53024-40e5-11ee-bbce-b496918ad4ad",
+      "lastDate": "2024-04-01T12:45:00",
+      "name": "Хон Надежда Витальевна (Врач-педиатр участковый)",
+      "nearestDate": "2024-03-27T11:49:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "8 УЧАСТОК Вторник,четверг - приём детей до года и неорганизованных детей",
+      "freeParticipantCount": 16,
+      "freeTicketCount": 16,
+      "id": "b5c7f00c-4aee-11ee-bbdb-b496918ad4af",
+      "lastDate": "2024-03-29T18:45:00",
+      "name": "Плаксина Надежда Николаевна (Врач-педиатр участковый)",
+      "nearestDate": "2024-03-25T18:38:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "18 УЧАСТОК Офис Комендантский 53/4  Вторник,четверг - приём детей до года и неорганизованных детей",
+      "freeParticipantCount": 24,
+      "freeTicketCount": 24,
+      "id": "1b69145c-5621-11ee-bbe1-b496918ad4af",
+      "lastDate": "2024-04-01T11:45:00",
+      "name": "Рябова Эвелина Алексеевна (Врач-педиатр участковый)",
+      "nearestDate": "2024-03-27T11:38:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "21 УЧАСТОК Вторник,четверг - приём детей до года и неорганизованных детей ",
+      "freeParticipantCount": 26,
+      "freeTicketCount": 26,
+      "id": "48aae1e9-634d-11ee-bc08-b496918ad4af",
+      "lastDate": "2024-04-01T11:45:00",
+      "name": "Сергеева Софья Анатольевна (Врач-педиатр участковый)",
+      "nearestDate": "2024-03-28T19:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "3 УЧАСТОК Вторник,четверг - приём детей до года и неорганизованных детей",
+      "freeParticipantCount": 31,
+      "freeTicketCount": 31,
+      "id": "08d4b09a-681b-11ee-bc18-b496918ad90e",
+      "lastDate": "2024-04-01T11:38:00",
+      "name": "Аринкина Анастасия Олеговна (Врач-педиатр участковый)",
+      "nearestDate": "2024-03-28T17:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "25 УЧАСТОК Вторник,четверг - приём детей до года и неорганизованных детей",
+      "freeParticipantCount": 24,
+      "freeTicketCount": 24,
+      "id": "66e3e4c1-886b-11ee-bc18-b496918ad90e",
+      "lastDate": "2024-04-01T12:45:00",
+      "name": "Ясинская Арина Александровна (Врач-педиатр участковый)",
+      "nearestDate": "2024-03-27T11:56:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

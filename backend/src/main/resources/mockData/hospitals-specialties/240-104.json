@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 18,
+      "freeTicketCount": 78,
+      "id": "514",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Безрукова Юлия Рахимзяновна (!!!пародонтологический прием!!!)",
+      "nearestDate": "2024-03-27T09:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 27,
+      "id": "553",
+      "lastDate": "2024-04-08T13:20:00",
+      "name": "Золотова Валерия Михайловна (!!!терапевтический прием!!!)",
+      "nearestDate": "2024-03-28T10:40:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 8,
+      "id": "545",
+      "lastDate": "2024-04-05T19:00:00",
+      "name": "Иванова Алёна Владимировна (!!!терапевтический прием!!!)",
+      "nearestDate": "2024-04-03T15:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 15,
+      "freeTicketCount": 41,
+      "id": "558",
+      "lastDate": "2024-04-08T13:20:00",
+      "name": "Исмаилова Ирина Витальевна (!!!терапевтический прием!!!)",
+      "nearestDate": "2024-03-28T08:40:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 26,
+      "id": "541",
+      "lastDate": "2024-04-08T15:40:00",
+      "name": "Пивоварова Валерия Евгеньевна (!!!терапевтический прием!!!)",
+      "nearestDate": "2024-03-29T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 8,
+      "id": "582",
+      "lastDate": "2024-04-08T00:10:00",
+      "name": "Рамазанов Наби Умаханович (!!!терапевтический прием!!!)",
+      "nearestDate": "2024-03-25T16:38:33.9127905+03:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

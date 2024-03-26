@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "312 ",
+      "freeParticipantCount": 51,
+      "freeTicketCount": 51,
+      "id": "2392",
+      "lastDate": "2024-04-08T12:30:00",
+      "name": "Семинюк Александр Николаевич",
+      "nearestDate": "2024-04-02T09:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "314 ",
+      "freeParticipantCount": 39,
+      "freeTicketCount": 39,
+      "id": "1099",
+      "lastDate": "2024-04-08T19:15:00",
+      "name": "Тюнтяев Сергей Александрович",
+      "nearestDate": "2024-04-03T08:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

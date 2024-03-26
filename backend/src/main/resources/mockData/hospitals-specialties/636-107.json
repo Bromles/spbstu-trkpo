@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 9,
+      "freeTicketCount": 9,
+      "id": "626",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Ивлев Сергей Валерьевич(Груднички)",
+      "nearestDate": "2024-04-04T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1038",
+      "lastDate": null,
+      "name": "Камалетдинов Ринат Назимович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 31.03.2024: Отпуск",
+      "freeParticipantCount": 14,
+      "freeTicketCount": 14,
+      "id": "1001",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Орлова Елизавета Алексеевна",
+      "nearestDate": "2024-04-02T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

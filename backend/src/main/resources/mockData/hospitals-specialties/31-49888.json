@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "817",
+      "lastDate": null,
+      "name": "Алексеева Светлана Аркадьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "\n",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "818",
+      "lastDate": null,
+      "name": "Иванова Наталья Анатольевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

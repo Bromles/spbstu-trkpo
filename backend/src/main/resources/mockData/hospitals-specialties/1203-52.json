@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Офис врача - педиатра",
+      "ariaType": null,
+      "comment": "Прием ведется по адресу: ул. Бокситогорская, д. 33 ",
+      "freeParticipantCount": 41,
+      "freeTicketCount": 43,
+      "id": "1660",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Кузнецов Александр Александрович возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Офис врача - педиатра",
+      "ariaType": null,
+      "comment": "Прием ведется по адресу: ул. Бокситогорская, д. 33 ",
+      "freeParticipantCount": 17,
+      "freeTicketCount": 17,
+      "id": "2085",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Костерева Валерия Андреевна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

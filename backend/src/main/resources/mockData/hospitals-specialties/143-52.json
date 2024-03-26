@@ -1,0 +1,162 @@
+{
+  "result": [
+    {
+      "ariaNumber": "608",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 58,
+      "freeTicketCount": 58,
+      "id": "200",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Бибилова Венера Георгиевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "605",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 69,
+      "freeTicketCount": 69,
+      "id": "1330",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Катикова Надежда Вячеславовна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "617",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 46,
+      "freeTicketCount": 46,
+      "id": "173",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Кутний Елена Ивановна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "614",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 74,
+      "freeTicketCount": 74,
+      "id": "168",
+      "lastDate": "2024-03-25T00:00:00",
+      "name": "Лю Ирина ",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "601",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 58,
+      "freeTicketCount": 58,
+      "id": "146",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Макаров Вадим Игоревич",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "610",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 84,
+      "freeTicketCount": 84,
+      "id": "1337",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Мокеева Ригина Сергеевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "519",
+      "lastDate": null,
+      "name": "Онуфрийчук Светлана Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "606",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 64,
+      "freeTicketCount": 64,
+      "id": "1608",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Оружбеков Даниил Исрафилович",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "612",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 55,
+      "freeTicketCount": 55,
+      "id": "755",
+      "lastDate": "2024-03-25T00:00:00",
+      "name": "Пономарева Елена Владимировна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "607",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 18,
+      "freeTicketCount": 18,
+      "id": "750",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": "Пучков Никита Игоревич",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "602",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 23,
+      "freeTicketCount": 23,
+      "id": "1024",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Пучкова Любовь Алексеевна",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 58,
+      "freeTicketCount": 58,
+      "id": "2790",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Святкина Надежда Игоревна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "615",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 25,
+      "freeTicketCount": 25,
+      "id": "1289",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Чередник Татьяна Васильевна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "604",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 82,
+      "freeTicketCount": 82,
+      "id": "174",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Шостак Эльмира Махмудовна",
+      "nearestDate": "2024-04-08T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

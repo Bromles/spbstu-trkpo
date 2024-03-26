@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Поликлиническое отделение №15",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 212,
+      "freeTicketCount": 212,
+      "id": "1883",
+      "lastDate": "2024-04-22T00:00:00",
+      "name": "Кабинет Диспансеризации (В Том Числе Углубленная Дисп)",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Поликлиническое отделение №15",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 13,
+      "freeTicketCount": 13,
+      "id": "2054",
+      "lastDate": "2024-04-06T00:00:00",
+      "name": "Кабинет Диспансеризации В Выходные",
+      "nearestDate": "2024-04-06T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

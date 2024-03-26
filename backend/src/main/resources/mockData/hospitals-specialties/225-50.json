@@ -1,0 +1,239 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Детский дерматолог",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "012",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "3. ДЕТСКИЙ ДЕРМАТОЛОГ Бузырева Людмила Валерьевна",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Детский дерматолог",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "802",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "3. ДЕТСКИЙ ДЕРМАТОЛОГ Варламова Софья Константиновна ",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Детский дерматолог",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "742",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "3. ДЕТСКИЙ ДЕРМАТОЛОГ Павленко Елена Александровна ",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Детский дерматолог",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "011",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "3. ДЕТСКИЙ ДЕРМАТОЛОГ Рублева Ирина Афанасьевна ",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Детский дерматолог",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "013",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "3. ДЕТСКИЙ ДЕРМАТОЛОГ Стрелкова Ольга Валерьевна",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Дерматолог. Прием взрослого населения",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "56",
+      "lastDate": null,
+      "name": "1. ДЕРМАТОЛОГ ДЛЯ ВЗРОСЛЫХ Барышева Екатерина Михайловна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "ДЕРМАТОЛОГ для ВЗРОСЛЫХ",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "015",
+      "lastDate": null,
+      "name": "1. ДЕРМАТОЛОГ ДЛЯ ВЗРОСЛЫХ Гапонова Марина Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "ДЕРМАТОЛОГ для ВЗРОСЛЫХ",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "143",
+      "lastDate": null,
+      "name": "1. ДЕРМАТОЛОГ ДЛЯ ВЗРОСЛЫХ Енокян Карен Рубикович ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "ДЕРМАТОЛОГ для ВЗРОСЛЫХ",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "36",
+      "lastDate": null,
+      "name": "1. ДЕРМАТОЛОГ ДЛЯ ВЗРОСЛЫХ Кармалита Оксана Григорьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "78",
+      "lastDate": null,
+      "name": "1. ДЕРМАТОЛОГ ДЛЯ ВЗРОСЛЫХ Климова Ольга Геннадьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "ДЕРМАТОЛОГ для ВЗРОСЛЫХ",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "806",
+      "lastDate": null,
+      "name": "1. ДЕРМАТОЛОГ ДЛЯ ВЗРОСЛЫХ Максимова Ирина Валерьевна  ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "ДЕРМАТОЛОГ для ВЗРОСЛЫХ",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "727",
+      "lastDate": null,
+      "name": "1. ДЕРМАТОЛОГ ДЛЯ ВЗРОСЛЫХ Микерина Ольга Михайловна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "ДЕРМАТОЛОГ для ВЗРОСЛЫХ",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "61",
+      "lastDate": null,
+      "name": "1. ДЕРМАТОЛОГ ДЛЯ ВЗРОСЛЫХ Мирошниченко Ангелина Борисовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "ДЕРМАТОЛОГ для ВЗРОСЛЫХ",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "809",
+      "lastDate": null,
+      "name": "1. ДЕРМАТОЛОГ ДЛЯ ВЗРОСЛЫХ Оганесян Анастасия Андреевна ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "ДЕРМАТОЛОГ для ВЗРОСЛЫХ",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "007",
+      "lastDate": null,
+      "name": "1. ДЕРМАТОЛОГ ДЛЯ ВЗРОСЛЫХ Пустовойтова Элла Викторовна  ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "ДЕРМАТОЛОГ для ВЗРОСЛЫХ",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "37",
+      "lastDate": null,
+      "name": "1. ДЕРМАТОЛОГ ДЛЯ ВЗРОСЛЫХ Рассказов Ярослав Александрович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "016",
+      "lastDate": null,
+      "name": "1. ДЕРМАТОЛОГ ДЛЯ ВЗРОСЛЫХ Храмцова Юлия Сергеевна Больн.лист",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "ДЕРМАТОЛОГ для ВЗРОСЛЫХ",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "005",
+      "lastDate": null,
+      "name": "1. ДЕРМАТОЛОГ ДЛЯ ВЗРОСЛЫХ Чистякова Ольга Анатольевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Венеролог",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "32",
+      "lastDate": null,
+      "name": "2. ВЕНЕРОЛОГ Климова Ольга Геннадьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Венеролог",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "31",
+      "lastDate": null,
+      "name": "2. ВЕНЕРОЛОГ Храмцова Юлия Сергеевна Больничн.лист",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Оформление справок, дежурный врач",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "43",
+      "lastDate": null,
+      "name": "4. ДЕЖУРНЫЙ ВРАЧ ДЕРМАТОВЕНЕРОЛОГ Шацкая Инна Евгеньевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

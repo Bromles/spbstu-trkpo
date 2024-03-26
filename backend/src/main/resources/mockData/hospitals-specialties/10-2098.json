@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 18,
+      "freeTicketCount": 18,
+      "id": "9557",
+      "lastDate": "2024-04-05T12:45:00",
+      "name": "Синева Мария Владимировна",
+      "nearestDate": "2024-04-02T16:15:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

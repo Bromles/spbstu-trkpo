@@ -1,0 +1,118 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 44,
+      "id": "16",
+      "lastDate": "2024-03-30T14:40:00",
+      "name": "Бородулин Иван Владимирович ( взрослый)",
+      "nearestDate": "2024-03-25T18:40:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 119,
+      "id": "20",
+      "lastDate": "2024-04-08T16:40:00",
+      "name": "Вахуль Максим Николаевич ( взрослый)",
+      "nearestDate": "2024-03-26T15:40:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 98,
+      "id": "21",
+      "lastDate": "2024-04-06T14:40:00",
+      "name": "Веселова Ксения Александровна (взрослый)",
+      "nearestDate": "2024-03-26T09:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 176,
+      "id": "22",
+      "lastDate": "2024-04-08T13:40:00",
+      "name": "Гусаков Сергей Федорович (взрослый)",
+      "nearestDate": "2024-03-25T19:40:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 142,
+      "id": "181",
+      "lastDate": "2024-04-08T16:40:00",
+      "name": "Лубнин Никита Сергеевич (взрослый)",
+      "nearestDate": "2024-03-25T17:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 134,
+      "id": "23",
+      "lastDate": "2024-04-08T16:40:00",
+      "name": "Наумов Денис Дмитриевич (взрослый)",
+      "nearestDate": "2024-03-26T15:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 140,
+      "id": "24",
+      "lastDate": "2024-04-08T16:40:00",
+      "name": "Рыбалко Мария Олеговна (взрослый)",
+      "nearestDate": "2024-03-26T15:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 144,
+      "id": "25",
+      "lastDate": "2024-04-08T13:40:00",
+      "name": "Соколов Алексей Вячеславович (взрослый)",
+      "nearestDate": "2024-03-27T16:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 152,
+      "id": "26",
+      "lastDate": "2024-04-08T13:40:00",
+      "name": "Степанян Роберт Григорьевич (взрослый)",
+      "nearestDate": "2024-03-27T17:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 134,
+      "id": "27",
+      "lastDate": "2024-04-08T16:40:00",
+      "name": "Шандригон Елена Васильевна ( взрослый)",
+      "nearestDate": "2024-03-26T15:20:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Травматолого-ортопедическое ДПО № 66",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1634",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Ким Константин Леонидович",
+      "nearestDate": "2024-03-27T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

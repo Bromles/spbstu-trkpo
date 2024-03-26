@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "с 01.04.2024 по 08.04.2024: Отпуск",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "524",
+      "lastDate": null,
+      "name": "Рапасова Марина Николаевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

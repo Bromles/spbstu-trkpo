@@ -1,0 +1,129 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "9017",
+      "lastDate": "2024-04-08T19:23:00",
+      "name": "Баришпольская Юлия Валентиновна (онкогинеколог)",
+      "nearestDate": "2024-04-04T09:42:00"
+    },
+    {
+      "ariaNumber": "54ГП \n",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8743",
+      "lastDate": null,
+      "name": "Башкатова Светлана Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "отпуск с 07.11 по 17.11\n\n",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8646",
+      "lastDate": null,
+      "name": "Буторина Ольга Дмитриевна (онкогинеколог)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "96ГП",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8560",
+      "lastDate": null,
+      "name": "Бычик Виктор Николаевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "112 ГП\n",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8715",
+      "lastDate": null,
+      "name": "Ванин Аркадий Евгеньевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "57 ПО",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8995",
+      "lastDate": null,
+      "name": "Гоголева Дарья Юрьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8608",
+      "lastDate": null,
+      "name": "Дубровская Александра Борисовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "90ПО",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8989",
+      "lastDate": null,
+      "name": "Иванова Елизавета Валентиновна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "86ГП\n",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8795",
+      "lastDate": null,
+      "name": "Махкамов Абдуали Сулаймонович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "55ПО",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8986",
+      "lastDate": null,
+      "name": "Сангаджиева Виктория Викторовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "41 ПО",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8981",
+      "lastDate": null,
+      "name": "Юхович Андрей Владимирович",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

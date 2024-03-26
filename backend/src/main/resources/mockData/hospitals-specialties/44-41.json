@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "1-33",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 11,
+      "freeTicketCount": 27,
+      "id": "115",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Алаид М.А.",
+      "nearestDate": "2024-04-04T00:00:00"
+    },
+    {
+      "ariaNumber": "1-33",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 14,
+      "id": "1390.5",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Кузьмина Л.В.",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "1-33",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 51,
+      "id": "1390.278",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Старцева Н.В./21.03.24-03.04.24/ПРИЕМА НЕТ/",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

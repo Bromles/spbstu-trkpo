@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 265,
+      "id": "137",
+      "lastDate": "2024-04-08T14:15:00",
+      "name": "Абдурахманова Сара Фахраддин Кызы ",
+      "nearestDate": "2024-03-25T16:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 253,
+      "id": "121",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Дубинич Зоя Алексеевна ",
+      "nearestDate": "2024-03-26T15:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 262,
+      "id": "49",
+      "lastDate": "2024-04-08T14:15:00",
+      "name": "Плавянык Татьяна Юрьевна ",
+      "nearestDate": "2024-03-25T16:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 224,
+      "id": "100",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Соколов Павел Евгеньевич ",
+      "nearestDate": "2024-03-26T15:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

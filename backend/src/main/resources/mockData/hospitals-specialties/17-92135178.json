@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "69 ",
+      "freeParticipantCount": 120,
+      "freeTicketCount": 120,
+      "id": "1200",
+      "lastDate": "2024-04-08T19:40:00",
+      "name": "Накопия Хатуна Мурмановна",
+      "nearestDate": "2024-03-25T18:40:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

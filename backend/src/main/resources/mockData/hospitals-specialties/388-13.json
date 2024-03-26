@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 39,
+      "id": "265",
+      "lastDate": "2024-04-04T12:15:00",
+      "name": "Баканина Любовь Алексеевна ",
+      "nearestDate": "2024-03-28T08:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 46,
+      "freeTicketCount": 46,
+      "id": "299",
+      "lastDate": "2024-04-08T16:15:00",
+      "name": "Правда Анна Викторовна ",
+      "nearestDate": "2024-04-02T15:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

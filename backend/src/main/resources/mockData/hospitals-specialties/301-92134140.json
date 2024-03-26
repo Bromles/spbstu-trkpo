@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 16,
+      "freeTicketCount": 32,
+      "id": "1258",
+      "lastDate": "2024-04-08T13:20:00",
+      "name": "Гарлыева Айна Юсуповна",
+      "nearestDate": "2024-04-08T09:40:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

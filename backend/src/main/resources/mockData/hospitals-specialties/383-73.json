@@ -1,0 +1,239 @@
+{
+  "result": [
+    {
+      "ariaNumber": "2 терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 7,
+      "id": "6",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Борисенкова Наталья Владимировна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "1 терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 1,
+      "id": "10",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Васильева Надежда Николаевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "1 терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "12",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Гашкова Виктория Валерьевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "2 терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 1,
+      "id": "18",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Дюжакова Жанна Владиславовна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "2 терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "23",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Заворохина Евгения Викторовна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "1 терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "32",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Каратыгина Марина Игоревна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "1 терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "33",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Крупоткина Светлана Викторовна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "2 терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 72,
+      "id": "35",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Крылова Наталия Борисовна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "1 терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "39",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Лукина Ольга Олеговна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "2 терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 9,
+      "id": "43",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Мун Елена Геннадьевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "2 терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 162,
+      "freeTicketCount": 162,
+      "id": "44",
+      "lastDate": "2024-04-22T00:00:00",
+      "name": "Павлова Наталья Алексеевна - Дежурный Врач",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "2 терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 15,
+      "id": "46",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Петрова Екатерина Алексеевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "2 терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 6,
+      "id": "50",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Тихомиров Александр Владимирович",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "1 терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "51",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Тихомирова Екатерина Геннадьевна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "2 терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 13,
+      "id": "117",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Романова Кристина Максудовна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "1 терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "124",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Алексеева Ольга Анатольевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "1 терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "127",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Шадрикова Юлия Андреевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "2 терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 17,
+      "id": "129",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Сподин Александр Николаевич",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "1 терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 165,
+      "freeTicketCount": 165,
+      "id": "143",
+      "lastDate": "2024-04-22T00:00:00",
+      "name": "Колосова Сония Анваровна - Дежурный Врач",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "2 терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "144",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Гогинава Кристина Бадриевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "1 терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "146",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Крупенько Ксения Николаевна",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

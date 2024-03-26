@@ -1,0 +1,96 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Гинекологическое (Северный)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 2,
+      "id": "101",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Костикова Ирина Николаевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Гинекологическое (Северный)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 18,
+      "freeTicketCount": 19,
+      "id": "102",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Матвеева Елена Александровна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Гинекологическое (Северный)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 14,
+      "freeTicketCount": 14,
+      "id": "352",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Канамготова Мадина Аниуаровна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Гинекологическое (Северный)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 34,
+      "freeTicketCount": 34,
+      "id": "1819",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Риекста Евгения Юрьевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Гинекологическое (Северный)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 30,
+      "id": "1881",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Пихтулова Мария Алексеевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Гинекологическое (Северный)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 22,
+      "freeTicketCount": 22,
+      "id": "1934",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Цирюльникова Алёна Алексеевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "19 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 12,
+      "freeTicketCount": 29,
+      "id": "1975",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Бондаренко Анастасия Сергеевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "18 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 84,
+      "id": "1976",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Мурченко Евгения Сергеевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

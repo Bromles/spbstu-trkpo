@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 15,
+      "freeTicketCount": 17,
+      "id": "886",
+      "lastDate": "2024-04-05T14:00:00",
+      "name": "Бикарева Вера Владимировна",
+      "nearestDate": "2024-03-29T09:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "999",
+      "lastDate": null,
+      "name": "Маслянова Ирина Сергеевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

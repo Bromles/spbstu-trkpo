@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ПРИЕМ В ОФИСЕ АВИАК.ПР.16-1",
+      "freeParticipantCount": 92,
+      "freeTicketCount": 92,
+      "id": "8163d5d2-ebeb-11ec-bba1-b496918ad4ad",
+      "lastDate": "2024-04-05T19:50:00",
+      "name": "Квасюк Элеонора Схариевна (врач общей практики (семейный врач))",
+      "nearestDate": "2024-04-01T16:10:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ПРИЕМ В ОФИСЕ АВИАК.ПР.16-1, ",
+      "freeParticipantCount": 105,
+      "freeTicketCount": 105,
+      "id": "8c560b44-ed6f-11ec-bba1-b496918ad4ad",
+      "lastDate": "2024-04-05T12:50:00",
+      "name": "Левицкая Тамара Владимировна (врач общей практики (семейный врач))",
+      "nearestDate": "2024-03-28T17:50:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

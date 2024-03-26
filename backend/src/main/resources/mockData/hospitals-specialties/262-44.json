@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "60",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "АМДУР Ю.М. с 3-х лет ",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 28,
+      "freeTicketCount": 28,
+      "id": "11",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": "Амдур Ю.М. до 3-х лет",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "381075",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "ДИДЕНКО В.В.  ",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "59",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Погожева О.С. до 3-х лет",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "381076",
+      "lastDate": null,
+      "name": "Диденко В.В. до 3-х лет ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "3",
+      "lastDate": null,
+      "name": "ПОГОЖЕВА О.С.",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

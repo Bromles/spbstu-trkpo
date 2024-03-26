@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Вакцинация  КОВИД-19",
+      "freeParticipantCount": 60,
+      "freeTicketCount": 60,
+      "id": "90e79ea9-4ae9-11ed-bbac-b496918ad4ad",
+      "lastDate": "2024-04-08T08:50:00",
+      "name": "Вакцинация + ковид-19 Кабинет 116 (Ковид-19)",
+      "nearestDate": "2024-03-25T18:10:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

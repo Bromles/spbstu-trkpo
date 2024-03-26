@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ТЕЛЕМЕДИЦИНА (дистанционная консультация)",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "70caf6e8-b9e1-11ee-bc58-00155d03021b",
+      "lastDate": null,
+      "name": "Белова Александра Яковлевна (Гастроэнтеролог (телемедицина), врач-гастроэнтеролог, )",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

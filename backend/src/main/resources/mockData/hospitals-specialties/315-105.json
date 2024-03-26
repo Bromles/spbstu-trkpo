@@ -1,0 +1,107 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 21,
+      "id": "219",
+      "lastDate": "2024-04-08T12:45:00",
+      "name": "Белая Евгения Валентиновна (Осмотры и справки)",
+      "nearestDate": "2024-03-25T16:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 37,
+      "id": "42",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Ванисова Наталья Николаевна (Осмотры и справки)",
+      "nearestDate": "2024-03-26T15:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 14,
+      "id": "44",
+      "lastDate": "2024-04-01T19:30:00",
+      "name": "Губкина Татьяна Владимировна ( Осмотры и справки)",
+      "nearestDate": "2024-03-27T15:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 33,
+      "id": "47",
+      "lastDate": "2024-04-06T14:45:00",
+      "name": "Ковалева Елена Викторовна (Осмотры и справки)",
+      "nearestDate": "2024-03-28T18:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 9,
+      "id": "246",
+      "lastDate": "2024-04-04T19:30:00",
+      "name": "Колышкин Александр Леонидович (Осмотры и справки)",
+      "nearestDate": "2024-04-01T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 14,
+      "id": "48",
+      "lastDate": "2024-04-02T19:30:00",
+      "name": "Кондратьева Валерия Ивановна Детский прием (Осмотры и справки)",
+      "nearestDate": "2024-03-29T09:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 16,
+      "id": "50",
+      "lastDate": "2024-04-04T13:30:00",
+      "name": "Кулакова Марина Анатольевна (Осмотры и справки)",
+      "nearestDate": "2024-03-28T09:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 14,
+      "id": "51",
+      "lastDate": "2024-04-03T19:30:00",
+      "name": "Мельникова Альвина Витальевна (Осмотры и справки)",
+      "nearestDate": "2024-03-29T15:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 14,
+      "id": "55",
+      "lastDate": "2024-04-02T13:30:00",
+      "name": "Соколова Ольга Владимировна (Осмотры и справки)",
+      "nearestDate": "2024-03-26T09:15:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

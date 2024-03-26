@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Консультационно-диагностическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 65,
+      "freeTicketCount": 65,
+      "id": "2097",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Бондарь Ольга Владимировна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Консультационно-диагностическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 76,
+      "freeTicketCount": 76,
+      "id": "2129",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Оздоева Роза Беслановна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Консультационно-диагностическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2179",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": "Бондарь (Профосмотр) Ольга Владимировна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "Консультационно-диагностическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "2181",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": "Оздоева(Профприем) Роза Беслановна",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

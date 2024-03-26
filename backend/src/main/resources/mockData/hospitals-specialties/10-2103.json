@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Отпуск",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8947",
+      "lastDate": null,
+      "name": "Башаров Дмитрий Константинович",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

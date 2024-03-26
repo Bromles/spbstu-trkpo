@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 8,
+      "freeTicketCount": 20,
+      "id": "1118",
+      "lastDate": "2024-03-29T12:45:00",
+      "name": "Галышева Татьяна Борисовна",
+      "nearestDate": "2024-03-29T10:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 88,
+      "freeTicketCount": 110,
+      "id": "1022",
+      "lastDate": "2024-04-08T13:15:00",
+      "name": "Тропин Алексей Константинович",
+      "nearestDate": "2024-03-27T09:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

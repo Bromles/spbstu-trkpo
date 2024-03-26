@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Приём ведётся по адресу  наб. реки Фонтанки , дом 155.   \n                                                                                                             \n                                                                                                                                \n ",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1238",
+      "lastDate": null,
+      "name": "Музафарова Татьяна Константиновна (Фонтанка 155)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Приём ведётся по адресу    наб.реки Фонтанки, дом 155.  ",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1273",
+      "lastDate": null,
+      "name": "Полковницкая Евгения Евгеньевна (Фонтанка 155)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Приём ведётся по адресу   наб.реки Фонтанки, дом 155.   Очередные и дополнительные отпуска  с 25.03.2024  по 29.03.2024 .                                                             \r\n                                                                                                          \r\n                                                                                                                              \r\n                                                                                                                                \r\n",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1244",
+      "lastDate": null,
+      "name": "Щербакова Татьяна Николаевна (Фонтанка 155)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

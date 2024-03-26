@@ -1,0 +1,53 @@
+{
+  "result": [
+    {
+      "id": "49315",
+      "ferId": "16",
+      "name": "Общая врачебная практика (семейная медицина)",
+      "countFreeParticipant": 55,
+      "countFreeTicket": 55,
+      "lastDate": "2024-03-29T19:30:00",
+      "nearestDate": "2024-03-26T18:00:00"
+    },
+    {
+      "id": "49335",
+      "ferId": "91",
+      "name": "Ревматология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "49346",
+      "ferId": "176",
+      "name": "Стоматология терапевтическая",
+      "countFreeParticipant": 915,
+      "countFreeTicket": 915,
+      "lastDate": "2024-04-25T19:20:00",
+      "nearestDate": "2024-04-01T08:00:00"
+    },
+    {
+      "id": "49351",
+      "ferId": "27",
+      "name": "Терапия",
+      "countFreeParticipant": 75,
+      "countFreeTicket": 75,
+      "lastDate": "2024-04-12T17:30:00",
+      "nearestDate": "2024-03-26T11:30:00"
+    },
+    {
+      "id": "49354",
+      "ferId": "28",
+      "name": "Травматология и ортопедия",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

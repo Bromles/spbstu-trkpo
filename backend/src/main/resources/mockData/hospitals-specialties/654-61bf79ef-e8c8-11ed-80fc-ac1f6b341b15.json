@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 30,
+      "freeTicketCount": 30,
+      "id": "ed155972-c977-11ed-80fb-ac1f6b341b15",
+      "lastDate": "2024-03-29T13:15:00",
+      "name": "Бармин Дмитрий Борисович",
+      "nearestDate": "2024-03-26T09:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 29,
+      "freeTicketCount": 29,
+      "id": "68d1b5f7-29f2-11ed-80f6-ac1f6b341b15",
+      "lastDate": "2024-03-29T13:15:00",
+      "name": "Крючковская Марина Анатольевна",
+      "nearestDate": "2024-03-26T10:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

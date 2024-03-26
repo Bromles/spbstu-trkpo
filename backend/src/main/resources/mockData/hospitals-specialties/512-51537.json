@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 51,
+      "freeTicketCount": 51,
+      "id": "6561",
+      "lastDate": "2024-04-08T18:00:00",
+      "name": "Абинов Осман Арсланбекович",
+      "nearestDate": "2024-03-27T18:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

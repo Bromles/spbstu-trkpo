@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диагностика родинок и других новообразований кожи\nОТПУСК С 25.03.24 ПО 31.03.24\n",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "76",
+      "lastDate": null,
+      "name": "Еремеева Анна Анатольевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диагностика родинок и других новообразований кожи\n",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "96",
+      "lastDate": null,
+      "name": "Костенкова Мария Олеговна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диагностика родинок и других новообразований кожи\nОТПУСК С 25.03.24 ПО 07.04.24",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "101",
+      "lastDate": null,
+      "name": "Мхитарян Геворг Петросович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диагностика родинок и других новообразований кожи\n",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "98",
+      "lastDate": null,
+      "name": "Пягай Ольга Григориевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диагностика родинок и других новообразований кожи\n\n\n\n\n\n",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "73",
+      "lastDate": null,
+      "name": "Родионова Ольга Владимировна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

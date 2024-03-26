@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "66 ",
+      "freeParticipantCount": 158,
+      "freeTicketCount": 158,
+      "id": "3066",
+      "lastDate": "2024-04-08T13:40:00",
+      "name": "Попова Виктория Дмитриевна",
+      "nearestDate": "2024-03-26T16:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

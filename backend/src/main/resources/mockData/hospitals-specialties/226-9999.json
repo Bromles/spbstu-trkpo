@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "ПРОФИЛАКТИКА (17)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 36,
+      "freeTicketCount": 63,
+      "id": "1456",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Кабинет Профилактика (Углубленная Диспансеризация)",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "ПРОФИЛАКТИКА (17)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 59,
+      "freeTicketCount": 66,
+      "id": "1673",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Кабинет Профилактика (Углубленная Диспансеризация)",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "ПРОФИЛАКТИКА (17)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "1675",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Кабинет Профилактика (Углубленная Диспансеризация)",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "ПРОФИЛАКТИКА (17)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 41,
+      "freeTicketCount": 59,
+      "id": "1676",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Кабинет Профилактика (Углубленная Диспансеризация)",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

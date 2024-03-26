@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "общийуч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "749",
+      "lastDate": null,
+      "name": "Гп №56 Вызов Врача На Дом",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

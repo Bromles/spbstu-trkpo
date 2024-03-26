@@ -1,0 +1,17 @@
+{
+  "result": [
+    {
+      "id": "49860",
+      "ferId": "98",
+      "name": "Психотерапия",
+      "countFreeParticipant": 4,
+      "countFreeTicket": 4,
+      "lastDate": "2024-04-05T09:00:00",
+      "nearestDate": "2024-04-03T09:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,129 @@
+{
+  "result": [
+    {
+      "ariaNumber": "6",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 76,
+      "freeTicketCount": 87,
+      "id": "497",
+      "lastDate": "2024-04-08T11:40:00",
+      "name": "Дядечко Галина Олеговна",
+      "nearestDate": "2024-03-28T08:50:00"
+    },
+    {
+      "ariaNumber": "5",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 66,
+      "freeTicketCount": 76,
+      "id": "329",
+      "lastDate": "2024-04-08T18:50:00",
+      "name": "Золотых Дарья Андреевна",
+      "nearestDate": "2024-03-28T17:30:00"
+    },
+    {
+      "ariaNumber": "8",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 64,
+      "freeTicketCount": 75,
+      "id": "172",
+      "lastDate": "2024-04-08T11:40:00",
+      "name": "Иванский Алексей Александрович",
+      "nearestDate": "2024-03-29T17:10:00"
+    },
+    {
+      "ariaNumber": "7",
+      "ariaType": null,
+      "comment": "7 участок",
+      "freeParticipantCount": 94,
+      "freeTicketCount": 104,
+      "id": "491",
+      "lastDate": "2024-04-08T18:50:00",
+      "name": "Корсаков Илья Вадимович",
+      "nearestDate": "2024-03-26T09:50:00"
+    },
+    {
+      "ariaNumber": "9",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 67,
+      "freeTicketCount": 76,
+      "id": "97",
+      "lastDate": "2024-04-05T11:40:00",
+      "name": "Коршун Нина Семеновна",
+      "nearestDate": "2024-03-28T17:10:00"
+    },
+    {
+      "ariaNumber": "2",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 77,
+      "freeTicketCount": 88,
+      "id": "391",
+      "lastDate": "2024-04-08T11:40:00",
+      "name": "Мотов Игорь Юрьевич",
+      "nearestDate": "2024-03-25T18:40:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "\r\n",
+      "freeParticipantCount": 89,
+      "freeTicketCount": 99,
+      "id": "437",
+      "lastDate": "2024-04-08T11:40:00",
+      "name": "Пешкова Анна Андреевна",
+      "nearestDate": "2024-03-25T17:50:00"
+    },
+    {
+      "ariaNumber": "1",
+      "ariaType": null,
+      "comment": "ОТПУСК: с 01.04.24 по 28.04.24",
+      "freeParticipantCount": 19,
+      "freeTicketCount": 24,
+      "id": "330",
+      "lastDate": "2024-03-29T18:50:00",
+      "name": "Погорова Асма Хусейновна",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "ariaNumber": "4",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 80,
+      "freeTicketCount": 90,
+      "id": "433",
+      "lastDate": "2024-04-08T18:50:00",
+      "name": "Сафарьянц Нина Геннадьевна",
+      "nearestDate": "2024-03-27T08:40:00"
+    },
+    {
+      "ariaNumber": "11",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 93,
+      "freeTicketCount": 103,
+      "id": "487",
+      "lastDate": "2024-04-05T11:40:00",
+      "name": "Хазиев Ильдар Ильясович",
+      "nearestDate": "2024-03-25T16:30:00"
+    },
+    {
+      "ariaNumber": "10, 12",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 24,
+      "freeTicketCount": 33,
+      "id": "53",
+      "lastDate": "2024-04-05T11:40:00",
+      "name": "Шикунова Рита Юрьевна",
+      "nearestDate": "2024-03-26T18:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,107 @@
+{
+  "result": [
+    {
+      "id": "83",
+      "ferId": "27",
+      "name": "Вакцинация",
+      "countFreeParticipant": 199,
+      "countFreeTicket": 199,
+      "lastDate": "2024-04-01T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "74",
+      "ferId": "177",
+      "name": "СТОМ.-ХИРУРГ",
+      "countFreeParticipant": 4,
+      "countFreeTicket": 4,
+      "lastDate": "2024-03-25T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "9999",
+      "ferId": "58",
+      "name": "Углубленная диспансеризация",
+      "countFreeParticipant": 236,
+      "countFreeTicket": 236,
+      "lastDate": "2024-04-05T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "59",
+      "ferId": "66",
+      "name": "ГЕРИАТР",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "18",
+      "ferId": "32",
+      "name": "ИНФЕКЦИОНИСТ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "41",
+      "ferId": "20",
+      "name": "ОФТАЛЬМОЛОГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 13,
+      "lastDate": "2024-03-29T00:00:00",
+      "nearestDate": null
+    },
+    {
+      "id": "42",
+      "ferId": "19",
+      "name": "Отоларинголог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "34",
+      "ferId": "0",
+      "name": "СТОМАТОЛОГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 2,
+      "lastDate": "2024-03-29T00:00:00",
+      "nearestDate": null
+    },
+    {
+      "id": "4",
+      "ferId": "27",
+      "name": "ТЕРАПЕВТ Уч (Царицынская д.1)",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "27",
+      "ferId": "28",
+      "name": "ТРАВМАТОЛ/ОРТОП",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "23",
+      "ferId": "30",
+      "name": "ХИРУРГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 11,
+      "lastDate": "2024-03-29T00:00:00",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

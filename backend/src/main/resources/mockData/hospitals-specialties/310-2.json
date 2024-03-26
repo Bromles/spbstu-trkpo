@@ -1,0 +1,162 @@
+{
+  "result": [
+    {
+      "ariaNumber": "2 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 3,
+      "id": "48",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Абыева Матанет Илтифат Кызы",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "3 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "9",
+      "lastDate": null,
+      "name": "Бордок Ирина Дмитриевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "14 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 9,
+      "freeTicketCount": 12,
+      "id": "88",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Быченко Валерия Вячеславовна",
+      "nearestDate": "2024-04-04T00:00:00"
+    },
+    {
+      "ariaNumber": "6 уч.",
+      "ariaType": null,
+      "comment": "08.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 5,
+      "id": "119",
+      "lastDate": null,
+      "name": "Василенко Лариса Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "08 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 27,
+      "freeTicketCount": 36,
+      "id": "122",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Голубева Нина Сергеевна",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "5 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 15,
+      "freeTicketCount": 26,
+      "id": "81",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Ибрагимова Татьяна Германовна",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "10 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 7,
+      "id": "124",
+      "lastDate": null,
+      "name": "Каюшникова Диана Дмитриевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "12 уч.",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 08.04.2024: Нетрудоспособность (Болезнь, карантин и т.п.)",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "16",
+      "lastDate": null,
+      "name": "Кузьмина Вероника Викторовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "09 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 17,
+      "freeTicketCount": 27,
+      "id": "141",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Ларина Диана Алмазовна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "1 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 13,
+      "freeTicketCount": 16,
+      "id": "126",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Литвинова Ирина Андреевна",
+      "nearestDate": "2024-04-04T00:00:00"
+    },
+    {
+      "ariaNumber": "4 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 20,
+      "freeTicketCount": 28,
+      "id": "133",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Лямина Мария Сергеевна",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "11 уч.",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 31.03.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "87",
+      "lastDate": null,
+      "name": "Пржитульская Екатерина Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "13 уч.",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 4,
+      "id": "115",
+      "lastDate": null,
+      "name": "Ходосок Наталья Валерьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "7 уч.",
+      "ariaType": null,
+      "comment": "с 27.03.2024 по 30.03.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 7,
+      "id": "62",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Шевченко Светлана Николаевна",
+      "nearestDate": "2024-04-05T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

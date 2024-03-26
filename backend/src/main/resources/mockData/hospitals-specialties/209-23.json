@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 7,
+      "id": "д20.34D",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Махин Ю. Ю.(до года). ",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 3,
+      "id": "д20.34",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Махин Ю.Ю. ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "д.20.78",
+      "lastDate": null,
+      "name": "ЩУКИНА Т.Ю.  ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "д.20.78D",
+      "lastDate": null,
+      "name": "ЩУКИНА Т.Ю. (дети до года).  ",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

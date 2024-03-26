@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Соколова Л.А.",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1241",
+      "lastDate": null,
+      "name": "Кабинет медико-психологического консультирования",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

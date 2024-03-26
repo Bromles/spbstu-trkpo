@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "52",
+      "lastDate": "2024-04-24T12:00:00",
+      "name": "Ксюпов Тимур Бактваевич",
+      "nearestDate": "2024-04-24T12:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "897",
+      "lastDate": "2024-04-23T14:00:00",
+      "name": "Ражукас Ксения Сергеевна",
+      "nearestDate": "2024-04-16T14:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

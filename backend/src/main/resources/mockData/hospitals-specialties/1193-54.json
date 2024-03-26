@@ -1,0 +1,140 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 18,
+      "freeTicketCount": 18,
+      "id": "28",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Беридзе Леван Шакроевич",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 10,
+      "freeTicketCount": 10,
+      "id": "25",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Вырвич Алена Андреевна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 10,
+      "freeTicketCount": 10,
+      "id": "31",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Елисеев Егор Николаевич",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 18,
+      "freeTicketCount": 18,
+      "id": "29",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Каневская Юлия Валерьевна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 20,
+      "freeTicketCount": 20,
+      "id": "27",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Лысенко Юрий Александрович",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 18,
+      "freeTicketCount": 18,
+      "id": "128",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Нечаева Евгения Валерьевна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 18,
+      "freeTicketCount": 18,
+      "id": "23",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Полищук Елена Георгиевна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 18,
+      "freeTicketCount": 18,
+      "id": "22",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Свешников Дмитрий Анатольевич",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 17,
+      "freeTicketCount": 17,
+      "id": "26",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Сухова Марина Николаевна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 18,
+      "freeTicketCount": 18,
+      "id": "21",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Тихонов Иван Валерьевич",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 18,
+      "freeTicketCount": 18,
+      "id": "30",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Федоров Олег Эдуардович",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 18,
+      "freeTicketCount": 18,
+      "id": "76",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Чернушевич Мария Сергеевна",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

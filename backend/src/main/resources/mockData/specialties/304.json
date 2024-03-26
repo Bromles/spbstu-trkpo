@@ -1,0 +1,44 @@
+{
+  "result": [
+    {
+      "id": "50257",
+      "ferId": "10",
+      "name": "Венеролог",
+      "countFreeParticipant": 12,
+      "countFreeTicket": 12,
+      "lastDate": "2024-03-26T18:00:00",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "id": "50258",
+      "ferId": "10",
+      "name": "Дерматолог",
+      "countFreeParticipant": 328,
+      "countFreeTicket": 328,
+      "lastDate": "2024-04-04T19:10:00",
+      "nearestDate": "2024-03-25T17:15:00"
+    },
+    {
+      "id": "49293",
+      "ferId": "10",
+      "name": "Дерматоскопия (обследование родинок и других новообразований кожи)",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "50259",
+      "ferId": "10",
+      "name": "Детский дерматолог",
+      "countFreeParticipant": 34,
+      "countFreeTicket": 34,
+      "lastDate": "2024-04-05T15:10:00",
+      "nearestDate": "2024-03-26T09:10:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

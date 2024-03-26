@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 22,
+      "id": "п8.350",
+      "lastDate": "2024-04-18T00:00:00",
+      "name": "МИХАЙЛОВА АНГЕЛИНА АЛЕКСАНДРОВНА ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 45,
+      "id": "п8.298",
+      "lastDate": "2024-04-18T00:00:00",
+      "name": "ПАВЛЮК НАТАЛИЯ РОМАНОВНА ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 40,
+      "id": "п8.31",
+      "lastDate": "2024-04-15T00:00:00",
+      "name": "ХОДЖАНИЯЗОВА ИРИНА ИКРАМОВНА",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,53 @@
+{
+  "result": [
+    {
+      "id": "49297",
+      "ferId": "11",
+      "name": "Детская хирургия",
+      "countFreeParticipant": 23,
+      "countFreeTicket": 23,
+      "lastDate": "2024-04-08T14:44:00",
+      "nearestDate": "2024-03-25T17:06:00"
+    },
+    {
+      "id": "92140555",
+      "ferId": null,
+      "name": "Доврачебный кабинет",
+      "countFreeParticipant": 54,
+      "countFreeTicket": 54,
+      "lastDate": "2024-04-08T08:28:00",
+      "nearestDate": "2024-03-29T09:24:00"
+    },
+    {
+      "id": "49321",
+      "ferId": "19",
+      "name": "Оториноларингология",
+      "countFreeParticipant": 48,
+      "countFreeTicket": 48,
+      "lastDate": "2024-04-08T19:02:00",
+      "nearestDate": "2024-04-01T10:46:00"
+    },
+    {
+      "id": "49322",
+      "ferId": "20",
+      "name": "Офтальмология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "49325",
+      "ferId": "22",
+      "name": "Педиатрия",
+      "countFreeParticipant": 116,
+      "countFreeTicket": 116,
+      "lastDate": "2024-04-08T14:00:00",
+      "nearestDate": "2024-03-26T08:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

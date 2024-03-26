@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "ПРОФИЛАКТИКА (10)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 19,
+      "freeTicketCount": 19,
+      "id": "1984",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Кабинет Вакцинации От Covid-19 (1-Ый Этап)",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

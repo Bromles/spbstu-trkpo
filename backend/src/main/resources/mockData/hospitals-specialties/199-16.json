@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Кабинет врача детского кардиолога",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2043",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Фролова Оксана Сергеевна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Кабинет врача детского кардиолога",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "2138",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Собко Надежда Григорьевна возраст 0г-17г",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

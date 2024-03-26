@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 1,
+      "id": "п.49.113",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Кадр Ирина Викторовна ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 34,
+      "id": "п49.42",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": "Колесникова Татьяна Вениаминовна  (уч.отпуск 11-31.03)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

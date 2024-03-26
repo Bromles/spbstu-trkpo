@@ -1,0 +1,96 @@
+{
+  "result": [
+    {
+      "ariaNumber": "6",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8184",
+      "lastDate": null,
+      "name": "Белов Александр Вячеславович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1492",
+      "lastDate": null,
+      "name": "Ворожцова Елена Алексеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "5",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "6435",
+      "lastDate": null,
+      "name": "Котивец Юлия Олеговна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "1 ",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "7570",
+      "lastDate": null,
+      "name": "Назаров Улмасбек Ахмад угли",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "3 ",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "4904",
+      "lastDate": null,
+      "name": "Ощепков Дмитрий Сергеевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "9594",
+      "lastDate": null,
+      "name": "Розметбаева Шахназа ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "9579",
+      "lastDate": null,
+      "name": "Розыева Ширин ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "9053",
+      "lastDate": null,
+      "name": "Стратийчук Анна Антоновна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

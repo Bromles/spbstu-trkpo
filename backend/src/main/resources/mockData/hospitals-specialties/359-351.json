@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "отпуск 11.03.24 - 24.03.24",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "8450.120D",
+      "lastDate": "2024-04-03T00:00:00",
+      "name": "БАРЫШЕВА И.С КАБ 30",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "возможная задержка приема +/- 30 мин",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "313",
+      "lastDate": null,
+      "name": "ЕФРЕМЕНКО Т.Р. Каб30",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "отпуск 05.03.24 - 18.03.24",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "317",
+      "lastDate": null,
+      "name": "ЛАБЗИНА А.С. КАБ30",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Возможная задержка приема +/- 30 мин",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8450.133",
+      "lastDate": null,
+      "name": "МАМИЕВА А.А. Каб. 30",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "возможная задержка приема +/- 30 мин",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8450.97",
+      "lastDate": null,
+      "name": "ШАЕВА А.А. каб 30",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

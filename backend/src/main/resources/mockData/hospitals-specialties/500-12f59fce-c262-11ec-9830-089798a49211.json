@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Кабинет офтальмолога ОВОП Б58",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "923dcf0d-b43e-11ee-bc1b-b496918ad90d",
+      "lastDate": null,
+      "name": "Гусинская Дарья Николаевна (Врач-офтальмолог)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

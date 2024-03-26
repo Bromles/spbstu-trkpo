@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "7cb9589b-8548-11ed-bbb2-b496918ad4af",
+      "lastDate": "2024-03-27T17:00:00",
+      "name": "Щербакова Екатерина Сергеевна (Диспансеризация)",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 13,
+      "freeTicketCount": 13,
+      "id": "586924a5-f621-11ec-bba1-b496918ad4ad",
+      "lastDate": "2024-04-01T12:00:00",
+      "name": "Шарипова Аделя Шамилевна (Диспансеризация)",
+      "nearestDate": "2024-03-26T18:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Прием на Парашютная, 42/2",
+      "freeParticipantCount": 11,
+      "freeTicketCount": 11,
+      "id": "57e8de17-9bb8-11ed-bbb2-b496918ad4af",
+      "lastDate": "2024-04-01T12:00:00",
+      "name": "Левицкая Инна Владимировна (Диспансеризация)",
+      "nearestDate": "2024-03-26T17:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

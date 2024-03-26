@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 63,
+      "freeTicketCount": 63,
+      "id": "57",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Воронина Татьяна Семеновна",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

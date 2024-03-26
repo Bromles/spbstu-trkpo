@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 27,
+      "id": "1320.630",
+      "lastDate": "2024-04-16T00:00:00",
+      "name": "Королев ДС",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 33,
+      "id": "1320.298",
+      "lastDate": "2024-04-16T00:00:00",
+      "name": "Чуркина ЕО",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

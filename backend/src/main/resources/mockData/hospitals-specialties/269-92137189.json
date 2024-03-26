@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 72,
+      "freeTicketCount": 72,
+      "id": "552",
+      "lastDate": "2024-04-08T14:48:00",
+      "name": "(Подростковый) Кириченко Ирина Михайловна",
+      "nearestDate": "2024-03-29T14:12:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

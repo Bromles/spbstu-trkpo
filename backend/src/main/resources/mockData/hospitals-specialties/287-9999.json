@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 15,
+      "freeTicketCount": 15,
+      "id": "6070.4212",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "ДЬЯКОВА Е В -УД",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 190,
+      "freeTicketCount": 190,
+      "id": "1730УД",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "ИВАНОВА Ю.В - УД",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 184,
+      "freeTicketCount": 184,
+      "id": "6070.858Д",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "КОМРАКОВА А.А. УД",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

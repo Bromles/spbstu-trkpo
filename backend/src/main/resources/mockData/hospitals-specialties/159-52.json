@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "10п",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 13,
+      "freeTicketCount": 13,
+      "id": "82",
+      "lastDate": "2024-04-03T00:00:00",
+      "name": "Агалакова Елена Анатольевна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "11п",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "91",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Конзалаева Валентина Васильевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

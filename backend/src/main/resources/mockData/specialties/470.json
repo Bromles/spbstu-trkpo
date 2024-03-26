@@ -1,0 +1,53 @@
+{
+  "result": [
+    {
+      "id": "11",
+      "ferId": "10",
+      "name": "Дерматовенерология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "28",
+      "ferId": "19",
+      "name": "Оториноларингология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "43",
+      "ferId": "27",
+      "name": "Терапия",
+      "countFreeParticipant": 80,
+      "countFreeTicket": 80,
+      "lastDate": "2024-04-12T14:00:00",
+      "nearestDate": "2024-03-26T13:00:00"
+    },
+    {
+      "id": "49",
+      "ferId": "145",
+      "name": "Урология",
+      "countFreeParticipant": 91,
+      "countFreeTicket": 91,
+      "lastDate": "2024-04-11T13:00:00",
+      "nearestDate": "2024-03-26T08:30:00"
+    },
+    {
+      "id": "54",
+      "ferId": "31",
+      "name": "Эндокринология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

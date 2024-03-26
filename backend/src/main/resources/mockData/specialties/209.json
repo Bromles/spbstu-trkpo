@@ -1,0 +1,134 @@
+{
+  "result": [
+    {
+      "id": "35",
+      "ferId": "8",
+      "name": "АКУШЕР-ГИНЕКОЛОГ. ",
+      "countFreeParticipant": 25,
+      "countFreeTicket": 34,
+      "lastDate": "2024-04-01T00:00:00",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "id": "18",
+      "ferId": "32",
+      "name": "ИНФЕКЦИОНИСТ. ",
+      "countFreeParticipant": 19,
+      "countFreeTicket": 27,
+      "lastDate": "2024-04-01T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "37.1",
+      "ferId": "22",
+      "name": "ПЕДИАТР ПОДРОСТКОВЫЙ.",
+      "countFreeParticipant": 9,
+      "countFreeTicket": 11,
+      "lastDate": "2024-04-01T00:00:00",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "id": "38",
+      "ferId": "22",
+      "name": "ПЕДИАТР УЧАСТ.",
+      "countFreeParticipant": 104,
+      "countFreeTicket": 161,
+      "lastDate": "2024-04-01T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "38.1",
+      "ferId": "22",
+      "name": "ПЕДИАТР УЧАСТ. Дети до ГОДА. ",
+      "countFreeParticipant": 39,
+      "countFreeTicket": 52,
+      "lastDate": "2024-03-28T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "19",
+      "ferId": "34",
+      "name": "ФИЗИОТЕРАПЕВТ.",
+      "countFreeParticipant": 49,
+      "countFreeTicket": 58,
+      "lastDate": "2024-03-29T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "23",
+      "ferId": "11",
+      "name": "ХИРУРГ. ",
+      "countFreeParticipant": 5,
+      "countFreeTicket": 10,
+      "lastDate": "2024-04-01T00:00:00",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "id": "10",
+      "ferId": "81",
+      "name": "КАРДИОЛОГ.",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "44",
+      "ferId": "14",
+      "name": "НЕВРОЛОГ. ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 1,
+      "lastDate": "2024-04-01T00:00:00",
+      "nearestDate": null
+    },
+    {
+      "id": "27",
+      "ferId": "28",
+      "name": "ОРТОПЕД. ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "42",
+      "ferId": "19",
+      "name": "ОТОЛАРИНГОЛОГ. ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "41",
+      "ferId": "20",
+      "name": "ОФТАЛЬМОЛОГ.",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "28",
+      "ferId": "145",
+      "name": "УРОЛОГ. ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "14",
+      "ferId": "31",
+      "name": "ЭНДОКРИНОЛОГ. ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 1,
+      "lastDate": "2024-04-01T00:00:00",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

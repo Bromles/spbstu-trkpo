@@ -1,0 +1,89 @@
+{
+  "result": [
+    {
+      "id": "44",
+      "ferId": "14",
+      "name": "НЕВРОЛОГ",
+      "countFreeParticipant": 32,
+      "countFreeTicket": 32,
+      "lastDate": "2024-03-29T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "42",
+      "ferId": "19",
+      "name": "ОТОЛАРИНГОЛОГ",
+      "countFreeParticipant": 39,
+      "countFreeTicket": 39,
+      "lastDate": "2024-03-29T00:00:00",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "id": "38",
+      "ferId": "22",
+      "name": "ПЕДИАТР УЧАСТ.",
+      "countFreeParticipant": 79,
+      "countFreeTicket": 79,
+      "lastDate": "2024-03-29T00:00:00",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "id": "23",
+      "ferId": "30",
+      "name": "ХИРУРГ",
+      "countFreeParticipant": 7,
+      "countFreeTicket": 7,
+      "lastDate": "2024-03-28T00:00:00",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "id": "16",
+      "ferId": "77",
+      "name": "АЛЛЕРГОЛОГ/ИММ.",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "206",
+      "ferId": "8",
+      "name": "ГИНЕКОЛОГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "41",
+      "ferId": "20",
+      "name": "ОФТАЛЬМОЛОГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "82",
+      "ferId": "0",
+      "name": "Пед.отд.проф ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "205",
+      "ferId": "145",
+      "name": "УРОЛОГ-АНДРОЛОГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

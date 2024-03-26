@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Офтальмологи",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1121",
+      "lastDate": null,
+      "name": "Егорова Екатерина Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "Офтальмологи",
+      "ariaType": null,
+      "comment": "01.04.2024: без приема;\n08.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "98",
+      "lastDate": null,
+      "name": "Кузьмицкая Юлия Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "Офтальмологи",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "97",
+      "lastDate": null,
+      "name": "Ребезова Маргарита Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "Офтальмологи",
+      "ariaType": null,
+      "comment": "08.04.2024: без приема",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "224",
+      "lastDate": null,
+      "name": "Тертычная Наталия Николаевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

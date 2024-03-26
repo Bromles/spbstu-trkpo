@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "990001854",
+      "lastDate": null,
+      "name": "Яловая Василина Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "детский прием (до 18 лет)",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "990001866",
+      "lastDate": null,
+      "name": "Кожемяко Ангелина Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "детский прием (до 18 лет)",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "990001891",
+      "lastDate": null,
+      "name": "Сухорукова Кристина Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "детский прием (до 18 лет)",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "990001904",
+      "lastDate": null,
+      "name": "Фадеева Ирина Михайловна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

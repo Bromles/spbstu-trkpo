@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 26.03.2024: Диспансеризация школьников;\nс 01.04.2024 по 02.04.2024: Диспансеризация школьников;\n05.04.2024: Диспансеризация школьников;\n08.04.2024: Диспансеризация школьников",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "728",
+      "lastDate": null,
+      "name": "Сафиуллина Сабина Расилевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "506",
+      "lastDate": null,
+      "name": "Тарайкович Анна Александровна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

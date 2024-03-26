@@ -1,0 +1,118 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "39",
+      "lastDate": "2024-03-30T00:00:00",
+      "name": "СИБИРЦЕВА Н.А.(дежурит на Богатырском 7/5)",
+      "nearestDate": "2024-03-30T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "002",
+      "lastDate": null,
+      "name": "БУРЕЙКО Е.Е.(дежурит на богатырском 7/5)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "146",
+      "lastDate": null,
+      "name": "ДЯГИЛЕВА  АЛЕКСАНДРА  КОНСТАНТИНОВНА",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "200",
+      "lastDate": null,
+      "name": "КЛИМОВА Н.С.(ПРИЕМ НА БОГАТЫРСКОМ 7/5)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "91",
+      "lastDate": null,
+      "name": "КУЗЬМИНА А. С. (АКУШЕР ГИНЕКОЛОГ)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "112",
+      "lastDate": null,
+      "name": "МАРКОВА НАДЕЖДА НИКОЛАЕВНА",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "104",
+      "lastDate": null,
+      "name": "НИКОНОВА Н.Г. ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 1,
+      "id": "199",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "НУРУТДИНОВА А.Д.(ПРИЕМ НА БОГАТЫРСКОМ 7/5)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "97",
+      "lastDate": null,
+      "name": "НУРУТДИНОВА А.Д.(дежурит на Богатырском 7)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "012",
+      "lastDate": null,
+      "name": "СЕМИБРАТНАЯ А.А.",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

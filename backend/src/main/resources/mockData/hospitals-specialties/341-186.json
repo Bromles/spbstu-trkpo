@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "287",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Щупляк Паула Дмитриевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 3,
+      "freeTicketCount": 5,
+      "id": "302",
+      "lastDate": "2024-04-03T00:00:00",
+      "name": "Бондарь Софья Евгеньевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

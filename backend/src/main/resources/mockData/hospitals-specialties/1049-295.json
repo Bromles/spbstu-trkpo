@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Отделение акушерско-гинекологическое",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "2162",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Березницкая Мария Максимовна",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

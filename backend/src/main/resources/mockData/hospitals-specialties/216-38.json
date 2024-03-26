@@ -1,0 +1,228 @@
+{
+  "result": [
+    {
+      "ariaNumber": "7",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 36,
+      "freeTicketCount": 68,
+      "id": "0030",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "БАЙЯПУ АМАРЕНДЕР РЕДДИ ",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 19,
+      "freeTicketCount": 19,
+      "id": "69",
+      "lastDate": "2024-04-02T00:00:00",
+      "name": "БАЙЯПУ АМАРЕНДЕР РЕДДИ ( ТОЛЬКО ДЕТИ ДО 1 ГОДА)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 34,
+      "freeTicketCount": 67,
+      "id": "74",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "БУРГУВАН МАРИЯ СТЕПАНОВНА ",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 34,
+      "freeTicketCount": 34,
+      "id": "75",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "БУРГУВАН МАРИЯ СТЕПАНОВНА (ТОЛЬКО ДЕТИ ДО 1 ГОДА)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "10",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 33,
+      "freeTicketCount": 61,
+      "id": "63",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "ВЕЛИЕВА РОЗА РАФИКОВНА",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "10",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 34,
+      "freeTicketCount": 34,
+      "id": "64",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "ВЕЛИЕВА РОЗА РАФИКОВНА (ТОЛЬКО ДЕТИ ДО 1 ГОДА)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 40,
+      "freeTicketCount": 74,
+      "id": "45",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "ДУДЧЕНКО ТАТЬЯНА ВИКТОРОВНА ",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 58,
+      "freeTicketCount": 58,
+      "id": "67",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "ДУДЧЕНКО ТАТЬЯНА ВИКТОРОВНА (ТОЛЬКО ДЕТИ ДО 1 ГОДА) ",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "9",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 35,
+      "freeTicketCount": 35,
+      "id": "73",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "ЗАВОДНАЯ ЮЛИЯ  ВАЛЕРИЕВНА (ТОЛЬКО ДЕТИ ДО 1 ГОДА)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "9",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 45,
+      "freeTicketCount": 74,
+      "id": "61",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "ЗАВОДНАЯ ЮЛИЯ ВАЛЕРИЕВНА",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 47,
+      "freeTicketCount": 82,
+      "id": "78",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "КУЛЬДЕЕВА АРИНА НАИЛЕВНА",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 29,
+      "freeTicketCount": 29,
+      "id": "80",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "КУЛЬДЕЕВА АРИНА НАИЛЕВНА (ТОЛЬКО ДЕТИ ДО 1 ГОДА) ",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "12",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 22,
+      "id": "83",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "ЛОЛОХАЕВА АЗА МУХАММЕДОВНА ",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "12",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 11,
+      "freeTicketCount": 11,
+      "id": "84",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": "ЛОЛОХАЕВА АЗА МУХАММЕДОВНА (ДЕТИ ДО 1  ГОДА)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "3",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 28,
+      "freeTicketCount": 49,
+      "id": "65",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "МИЛИЦИН МИХАИЛ ДМИТРИЕВИЧ",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "3",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 16,
+      "freeTicketCount": 16,
+      "id": "71",
+      "lastDate": "2024-04-02T00:00:00",
+      "name": "МИЛИЦИН МИХАИЛ ДМИТРИЕВИЧ (ТОЛЬКО ДЕТИ ДО 1 ГОДА)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "6",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 38,
+      "freeTicketCount": 70,
+      "id": "0039",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "СЕМЁНОВА МАРИЯ ВЛАДИМИРОВНА ",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 34,
+      "freeTicketCount": 34,
+      "id": "68",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "СЕМЁНОВА МАРИЯ ВЛАДИМИРОВНА (ТОЛЬКО ДЕТИ ДО 1 ГОДА)",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "4",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 54,
+      "freeTicketCount": 87,
+      "id": "0007",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "ЮДИНА СВЕТЛАНА АЛЕКСЕЕВНА ",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "4",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 22,
+      "freeTicketCount": 22,
+      "id": "70",
+      "lastDate": "2024-04-09T00:00:00",
+      "name": "ЮДИНА СВЕТЛАНА АЛЕКСЕЕВНА (ТОЛЬКО ДЕТИ ДО 1 ГОДА) ",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

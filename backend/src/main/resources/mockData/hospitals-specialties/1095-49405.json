@@ -1,0 +1,107 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №2",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "999",
+      "lastDate": "2024-04-08T14:00:00",
+      "name": "Великонивцева Татьяна Валентиновна",
+      "nearestDate": "2024-04-03T18:30:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №7",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "53",
+      "lastDate": "2024-04-08T14:30:00",
+      "name": "Егорова Анастасия Дмитриевна",
+      "nearestDate": "2024-04-08T14:30:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №5",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "52",
+      "lastDate": null,
+      "name": "Лызлов Игорь Владимирович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №1",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "57",
+      "lastDate": null,
+      "name": "Някина Мария Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 9,
+      "freeTicketCount": 9,
+      "id": "1060",
+      "lastDate": "2024-04-05T12:30:00",
+      "name": "Самородова Елена Александровна",
+      "nearestDate": "2024-04-02T09:30:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №8",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "994",
+      "lastDate": "2024-04-08T18:30:00",
+      "name": "Сковородников Денис Владимирович",
+      "nearestDate": "2024-04-05T10:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №3",
+      "freeParticipantCount": 9,
+      "freeTicketCount": 9,
+      "id": "61",
+      "lastDate": "2024-04-08T14:00:00",
+      "name": "Турдиалиева Дильбар Абдуалиевна",
+      "nearestDate": "2024-04-01T17:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №4",
+      "freeParticipantCount": 9,
+      "freeTicketCount": 9,
+      "id": "972",
+      "lastDate": "2024-04-08T18:30:00",
+      "name": "Черданцева Елена Тимуровна",
+      "nearestDate": "2024-04-01T10:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "960",
+      "lastDate": null,
+      "name": "Шопперт Инга Вольдемаровна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

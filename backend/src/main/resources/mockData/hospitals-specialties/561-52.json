@@ -1,0 +1,107 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Педиатрическое общ ДПО № 22",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1516",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Бычкова Алёна Юрьевна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Педиатрическое общ ДПО № 22",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1655",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Крус Алина Денисовна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Педиатрическое общ ДПО № 22",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1711",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Морозова Наталья Андреевна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Педиатрическое общ ДПО № 22",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2060",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Паремская Александра Владимировна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Педиатрическое общ ДПО № 22",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2061",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Ализаде Ниджат Мири Оглы возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Педиатрическое общ ДПО № 22",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2063",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Маежева Алёна Сергеевна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Педиатрическое общ ДПО № 22",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2237",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Пивоваров Александр Александрович возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Педиатрическое общ ДПО № 22",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2250",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Шахворостова Анна Анатольевна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Педиатрическое общ ДПО № 22",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2275",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Галимьянова Эндже Галиевна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

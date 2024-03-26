@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 43,
+      "freeTicketCount": 70,
+      "id": "54",
+      "lastDate": "2024-04-08T13:15:00",
+      "name": "Константинова Маргарита Юрьевна",
+      "nearestDate": "2024-04-01T19:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 23,
+      "freeTicketCount": 59,
+      "id": "11",
+      "lastDate": "2024-04-08T13:15:00",
+      "name": "Лопатина Марианна Владимировна",
+      "nearestDate": "2024-03-28T09:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "34",
+      "lastDate": null,
+      "name": "Скрипкина Галина Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 23,
+      "freeTicketCount": 68,
+      "id": "31",
+      "lastDate": "2024-04-08T18:30:00",
+      "name": "Шавель Алевтина Александровна",
+      "nearestDate": "2024-04-01T17:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 33,
+      "freeTicketCount": 56,
+      "id": "35",
+      "lastDate": "2024-04-08T19:15:00",
+      "name": "Швецова Мария Сергеевна",
+      "nearestDate": "2024-04-02T15:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

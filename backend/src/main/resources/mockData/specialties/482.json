@@ -1,0 +1,53 @@
+{
+  "result": [
+    {
+      "id": "49876",
+      "ferId": "8",
+      "name": "Акушерство и гинекология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "49900",
+      "ferId": "32",
+      "name": "Инфекционные болезни",
+      "countFreeParticipant": 22,
+      "countFreeTicket": 41,
+      "lastDate": "2024-04-08T17:23:00",
+      "nearestDate": "2024-04-01T16:31:00"
+    },
+    {
+      "id": "49884",
+      "ferId": "224",
+      "name": "Общая врачебная практика (семейная медицина)",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "49895",
+      "ferId": "27",
+      "name": "Терапия",
+      "countFreeParticipant": 4,
+      "countFreeTicket": 5,
+      "lastDate": "2024-04-01T16:15:00",
+      "nearestDate": "2024-04-01T15:15:00"
+    },
+    {
+      "id": "49898",
+      "ferId": "30",
+      "name": "Хирургия",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

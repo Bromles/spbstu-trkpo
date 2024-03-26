@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 52,
+      "freeTicketCount": 61,
+      "id": "8974",
+      "lastDate": "2024-04-08T13:36:00",
+      "name": "Гофман Марина Сергеевна",
+      "nearestDate": "2024-04-01T12:24:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": " ДН",
+      "freeParticipantCount": 31,
+      "freeTicketCount": 41,
+      "id": "8713",
+      "lastDate": "2024-04-08T18:23:00",
+      "name": "Зайцева Ксения Сергеевна (куш)",
+      "nearestDate": "2024-04-02T16:23:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": " ДН",
+      "freeParticipantCount": 33,
+      "freeTicketCount": 40,
+      "id": "8857",
+      "lastDate": "2024-04-08T19:47:00",
+      "name": "Лозовая Яна Валерьевна (куш)",
+      "nearestDate": "2024-04-02T16:35:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "9004",
+      "lastDate": null,
+      "name": "Шаповалова Екатерина Дмитриевна (куш)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

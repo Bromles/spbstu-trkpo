@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 135,
+      "freeTicketCount": 135,
+      "id": "853",
+      "lastDate": "2024-04-16T00:00:00",
+      "name": "Для Беременных Устинова Жк15 Марина Игоревна",
+      "nearestDate": "2024-03-29T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

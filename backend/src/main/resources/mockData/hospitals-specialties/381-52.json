@@ -1,0 +1,118 @@
+{
+  "result": [
+    {
+      "ariaNumber": "3 участок",
+      "ariaType": null,
+      "comment": "с 01.04.2024 по 05.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 37,
+      "freeTicketCount": 37,
+      "id": "87",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Аринушкина Евгения Викторовна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "8 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 91,
+      "freeTicketCount": 91,
+      "id": "1488",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Игнатьева Анна Алексеевна",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "6 участок",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 29.03.2024: Нетрудоспособность (Болезнь, карантин и т.п.)",
+      "freeParticipantCount": 57,
+      "freeTicketCount": 57,
+      "id": "1819",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Комарова Юлия Гаязовна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "7 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 108,
+      "freeTicketCount": 108,
+      "id": "378",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Лобырь Галина Владимировна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "4 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 89,
+      "freeTicketCount": 89,
+      "id": "1094",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Матвеева Людмила Александровна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1963",
+      "lastDate": null,
+      "name": "Телемедицинская Консультация Комарова Юлия Гаязовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "1 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 83,
+      "freeTicketCount": 83,
+      "id": "1174",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Тимофеева Татьяна Владимировна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "2 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 95,
+      "freeTicketCount": 95,
+      "id": "1186",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Токтонова Диана Жамбаловна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1235",
+      "lastDate": null,
+      "name": "Утробина Ольга Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "5 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 87,
+      "freeTicketCount": 87,
+      "id": "95",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Эрте Ольга Константиновна",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

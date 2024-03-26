@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 102,
+      "freeTicketCount": 102,
+      "id": "п99.5831",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Лотыш ЮС (Фильтр-бокс)",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 101,
+      "freeTicketCount": 101,
+      "id": "п99.779",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Лямцева (Фильтр-бокс)",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

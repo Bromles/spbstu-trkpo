@@ -1,0 +1,162 @@
+{
+  "result": [
+    {
+      "ariaNumber": "9 уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "1918",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Артемьева Татьяна Анатольевна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "11 уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 8,
+      "freeTicketCount": 9,
+      "id": "1941",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Зеленкова Ольга Ивановна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "5 уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 21,
+      "freeTicketCount": 21,
+      "id": "1948",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Каргина Наталия Ильинична возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "2 уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "1990",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Савина Антонина Григорьевна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "6 уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 11,
+      "freeTicketCount": 11,
+      "id": "2002",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Терентьева Галина Антоновна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Каб 204",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 13,
+      "freeTicketCount": 13,
+      "id": "2121",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "(Вакцинация) Николаева Ольга Дмитриевна возраст 0г-17г",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "4 уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2126",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Молокоедова Евгения Олеговна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "1 уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2149",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Пахомова Анастасия Геннадьевна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "12 уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "2157",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Неведрова Дарина Олеговна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "15 уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 13,
+      "freeTicketCount": 14,
+      "id": "2159",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Латынина Ирина Эдуардовна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "7 уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 16,
+      "freeTicketCount": 16,
+      "id": "2160",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Возчикова Юлия Михайловна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "10 уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 17,
+      "freeTicketCount": 17,
+      "id": "2163",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Рымарчук Евгения Михайловна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "8 уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 19,
+      "freeTicketCount": 21,
+      "id": "2174",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Сидоров Евгений Эдуардович возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Каб 205",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 90,
+      "freeTicketCount": 103,
+      "id": "2190",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "(Справки) Николаева Ольга Дмитриевна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

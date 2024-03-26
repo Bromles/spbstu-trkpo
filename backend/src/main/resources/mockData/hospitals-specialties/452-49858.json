@@ -1,0 +1,129 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "871",
+      "lastDate": "2024-03-29T18:00:00",
+      "name": "Бокова Дарья Михайловна",
+      "nearestDate": "2024-03-25T18:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "696",
+      "lastDate": "2024-03-27T18:00:00",
+      "name": "Брежев Константин Юрьевич",
+      "nearestDate": "2024-03-27T18:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "806",
+      "lastDate": "2024-03-28T18:00:00",
+      "name": "Быков Николай Юрьевич",
+      "nearestDate": "2024-03-28T18:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "980",
+      "lastDate": "2024-03-28T18:00:00",
+      "name": "Ершова Анастасия Николаевна",
+      "nearestDate": "2024-03-28T18:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "836",
+      "lastDate": "2024-03-28T18:00:00",
+      "name": "Зеленская Светлана Юрьевна",
+      "nearestDate": "2024-03-28T18:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1012",
+      "lastDate": null,
+      "name": "Каменева Наталья Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "830",
+      "lastDate": "2024-03-28T18:00:00",
+      "name": "Клименченко Ирина Теодоровна",
+      "nearestDate": "2024-03-28T18:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "831",
+      "lastDate": "2024-03-28T18:00:00",
+      "name": "Плотникова Ирина Алексеевна",
+      "nearestDate": "2024-03-28T18:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "948",
+      "lastDate": "2024-03-29T18:00:00",
+      "name": "Сафронова Наталья Николаевна",
+      "nearestDate": "2024-03-27T18:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "829",
+      "lastDate": "2024-04-08T18:00:00",
+      "name": "Хамзина Галия Османовна",
+      "nearestDate": "2024-03-25T18:00:00"
+    },
+    {
+      "ariaNumber": "Участок № 2",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "738",
+      "lastDate": "2024-03-27T18:00:00",
+      "name": "Шатиль Михаил Михайлович",
+      "nearestDate": "2024-03-25T18:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

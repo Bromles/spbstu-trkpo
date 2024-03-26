@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 219,
+      "freeTicketCount": 219,
+      "id": "002250",
+      "lastDate": "2024-04-26T00:00:00",
+      "name": null,
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 161,
+      "freeTicketCount": 161,
+      "id": "002252",
+      "lastDate": "2024-04-19T00:00:00",
+      "name": null,
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 207,
+      "freeTicketCount": 207,
+      "id": "002269",
+      "lastDate": "2024-04-26T00:00:00",
+      "name": null,
+      "nearestDate": "2024-04-02T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

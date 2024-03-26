@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 83,
+      "freeTicketCount": 83,
+      "id": "661b60c7-7a7f-11eb-80d0-ac1f6b341b15",
+      "lastDate": "2024-03-29T18:15:00",
+      "name": "Дьяченко Андрей Павлович",
+      "nearestDate": "2024-03-25T16:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 83,
+      "freeTicketCount": 83,
+      "id": "62e36d12-09ef-11ea-80b9-ac1f6b3752e7",
+      "lastDate": "2024-03-29T18:15:00",
+      "name": "Нечаева Ольга Евгеньевна",
+      "nearestDate": "2024-03-25T16:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 76,
+      "freeTicketCount": 76,
+      "id": "ca32c92e-cfc6-11ee-8105-ac1f6b341b15",
+      "lastDate": "2024-03-29T13:45:00",
+      "name": "Косогорова Елизавета Евгеньевна",
+      "nearestDate": "2024-03-26T14:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 76,
+      "freeTicketCount": 76,
+      "id": "ad57a28b-cc3c-11ec-80f1-ac1f6b341b15",
+      "lastDate": "2024-03-29T13:45:00",
+      "name": "Нуркова Галина Леонидовна",
+      "nearestDate": "2024-03-26T14:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 76,
+      "freeTicketCount": 76,
+      "id": "00524282-7166-11ed-80f8-ac1f6b341b15",
+      "lastDate": "2024-03-29T13:45:00",
+      "name": "Молодцов Лев Николаевич",
+      "nearestDate": "2024-03-26T14:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

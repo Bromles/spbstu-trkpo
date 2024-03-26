@@ -1,0 +1,195 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 13,
+      "freeTicketCount": 13,
+      "id": "153",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "КУЖУГЕТ СС",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "116",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Левина Е.Б. (ПЛАТНО, ДЕРМАТОЛОГ)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 119,
+      "freeTicketCount": 119,
+      "id": "59",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Профосмотры ДЛЯ РАБОТЫ",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "87",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "дерматолог Долгопольский Т.Т.",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "66",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "дерматолог Куртев К.С.",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "145",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "дерматолог Селенова Н. И.",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 75,
+      "freeTicketCount": 75,
+      "id": "107",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "дети (6 и 13 поликлиника) Выходцева",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "81",
+      "lastDate": null,
+      "name": "Красильникова О.А. (заб.ногтей)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "93",
+      "lastDate": null,
+      "name": "Лечение новообразований Красильникова",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "20",
+      "lastDate": null,
+      "name": "СЫРОЕЖКО ЕА",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "51",
+      "lastDate": null,
+      "name": "дерматолог АЛЕКСАНДРОВА НГ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "64",
+      "lastDate": null,
+      "name": "дерматолог ГАДИЕВА АА",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "88",
+      "lastDate": null,
+      "name": "дерматолог Ганенко В.А.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "55",
+      "lastDate": null,
+      "name": "дерматолог КОЗЛОВА МС",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "90",
+      "lastDate": null,
+      "name": "дерматолог Караваева А.С.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "36",
+      "lastDate": null,
+      "name": "дерматолог Ким Е.Е.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "89",
+      "lastDate": null,
+      "name": "дерматолог Лузгина Е.А. ",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

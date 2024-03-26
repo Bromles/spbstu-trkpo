@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 9,
+      "freeTicketCount": 9,
+      "id": "д71.9311",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": "Васильева Г.А., невролог 2 отд., 301 КАБ.",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 20,
+      "freeTicketCount": 20,
+      "id": "д71.225",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Горбункова А.И., невролог, 201 КАБ. ДО 7 ЛЕТ",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "д71.301",
+      "lastDate": "2024-03-25T00:00:00",
+      "name": "Гроздова Т.Ю. (Заречная,41),невролог,  каб 202",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "д71.291",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Старостенко Я.С., невролог, 301 каб",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "д71.300",
+      "lastDate": null,
+      "name": "Гроздова Т.Ю. (Заречная,41),невролог, День здорового ребёнка, каб 202",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

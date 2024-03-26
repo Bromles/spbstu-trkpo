@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "2020, 2030, 2040, 2050, 2060, 2070",
+      "ariaType": null,
+      "comment": "г. Пушкин, ул. В.Шишкова д.32/15\n<br><font color=red><b>Получить допуск в образовательное учреждение Вы также можете, обратившись в медицинский кабинет вашей школы или детского сада, в часы приема.</b></font>",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "36",
+      "lastDate": null,
+      "name": "Акулинушкина Диана Васильевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "2020, 2030, 2040, 2050, 2060, 2070",
+      "ariaType": null,
+      "comment": "г. Пушкин, ул. В.Шишкова д.32/15\n<br><font color=red><b>Получить допуск в образовательное учреждение Вы также можете, обратившись в медицинский кабинет вашей школы или детского сада, в часы приема.</b></font>",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "213",
+      "lastDate": null,
+      "name": "Бойкова Надежда Петровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "2020, 2030, 2040, 2050, 2060, 2070",
+      "ariaType": null,
+      "comment": "г. Пушкин, ул. В.Шишкова д.32/15\n<br><font color=red><b>Получить допуск в образовательное учреждение Вы также можете, обратившись в медицинский кабинет вашей школы или детского сада, в часы приема.</b></font>",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "506",
+      "lastDate": null,
+      "name": "Мисирханов Максим Эйвазович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "2020, 2030, 2040, 2050, 2060, 2070",
+      "ariaType": null,
+      "comment": "г. Пушкин, ул. В.Шишкова д.32/15\n<br><font color=red><b>Получить допуск в образовательное учреждение Вы также можете, обратившись в медицинский кабинет вашей школы или детского сада, в часы приема.</b></font>",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1242",
+      "lastDate": null,
+      "name": "Сабрекова Ксения Алексеевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

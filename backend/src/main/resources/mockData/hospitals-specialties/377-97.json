@@ -1,0 +1,96 @@
+{
+  "result": [
+    {
+      "ariaNumber": "2 детское стоматологическое отделение",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "107",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Лазарева Ангелина Юрьевна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "Детская стоматология №12",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "109",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Иванова Дарья Владимировна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "2 детское стоматологическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "145",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Мавлетбаева Айсылу Анисовна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "2 детское стоматологическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "146",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Малеваная Виктория Сергеевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Детская стоматология №12",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "153",
+      "lastDate": "2024-04-06T00:00:00",
+      "name": "Михалёв Савва Вячеславович",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "Детская стоматология №12",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "157",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Федотова Екатерина Андреевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "2 детское стоматологическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "160",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Шаяхметова Виктория Александровна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Детская стоматология №12",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 2,
+      "id": "162",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Лукьянова Наталья Андреевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

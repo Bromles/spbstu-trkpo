@@ -1,0 +1,85 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 1,
+      "id": "598",
+      "lastDate": "2024-04-05T09:00:00",
+      "name": "Вершинская Юлия Сергеевна Детский приём. Ортодонтия",
+      "nearestDate": "2024-04-05T09:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 2,
+      "id": "596",
+      "lastDate": "2024-04-02T08:00:00",
+      "name": "Кожевникова Ирина Евгеньевна Детский прём. Ортодонтия",
+      "nearestDate": "2024-03-26T13:10:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 15,
+      "id": "824",
+      "lastDate": "2024-04-04T20:20:00",
+      "name": "Морозова Ольга Викторовна детский прием ортодонт",
+      "nearestDate": "2024-03-28T16:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "602",
+      "lastDate": "2024-03-25T16:37:41.545997+03:00",
+      "name": "Падалко Евгений Владимирович Детский приём. Ортодонтия",
+      "nearestDate": "2024-03-25T16:37:41.545997+03:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 61,
+      "id": "600",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Рица Анна Геннадьевна Детский приём. Ортодонтия",
+      "nearestDate": "2024-03-28T17:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 38,
+      "id": "775",
+      "lastDate": "2024-04-08T14:10:00",
+      "name": "Харламов Михаил Андреевич врач ортодонт детский",
+      "nearestDate": "2024-03-26T13:10:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 67,
+      "id": "707",
+      "lastDate": "2024-04-08T14:10:00",
+      "name": "Шевченко Алиса Дмитриевна ортодонт детский прием",
+      "nearestDate": "2024-03-29T16:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

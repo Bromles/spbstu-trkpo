@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "5485",
+      "lastDate": null,
+      "name": "Базиян Виктория Валерьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "6006",
+      "lastDate": "2024-04-04T19:40:00",
+      "name": "Бондаренко Виктория Эдуардовна",
+      "nearestDate": "2024-04-04T16:40:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "6048",
+      "lastDate": null,
+      "name": "Варава Ирина Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 11,
+      "freeTicketCount": 11,
+      "id": "4651",
+      "lastDate": "2024-04-05T18:40:00",
+      "name": "Панина Елена Дмитриевна",
+      "nearestDate": "2024-04-01T18:30:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 19,
+      "freeTicketCount": 19,
+      "id": "5604",
+      "lastDate": "2024-04-07T12:00:00",
+      "name": "Разводовская Владлена Владимировна",
+      "nearestDate": "2024-04-02T08:20:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "5425",
+      "lastDate": null,
+      "name": "Чурова Дарья Александровна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

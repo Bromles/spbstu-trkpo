@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 13,
+      "freeTicketCount": 16,
+      "id": "д20.46D",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Деде С.И. ДЕТИ от 0 - 9 лет. ",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 12,
+      "freeTicketCount": 18,
+      "id": "д20.46P",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Деде С.И. Дети с 10-17 лет.",
+      "nearestDate": "2024-03-27T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

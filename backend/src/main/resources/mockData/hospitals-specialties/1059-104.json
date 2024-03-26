@@ -1,0 +1,129 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 11,
+      "id": "506",
+      "lastDate": "2024-04-08T00:10:00",
+      "name": "Антипова Ольга Сергеевна (!!!детский прием!!!)",
+      "nearestDate": "2024-04-02T17:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 67,
+      "freeTicketCount": 268,
+      "id": "559",
+      "lastDate": "2024-04-08T13:45:00",
+      "name": "Воронков Тимофей Сергеевич !!!хирургический прием!!!",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 11,
+      "id": "518",
+      "lastDate": "2024-04-08T16:20:00",
+      "name": "Габаль Дина Бадр Ибрагим (!!!детский прием!!!)",
+      "nearestDate": "2024-04-01T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 24,
+      "id": "566",
+      "lastDate": "2024-04-08T13:20:00",
+      "name": "Захарова Вера Геннадьевна (!!!детский прием!!!)",
+      "nearestDate": "2024-04-01T15:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 24,
+      "id": "565",
+      "lastDate": "2024-04-08T13:20:00",
+      "name": "Пак Екатерина Андреевна (!!!детский прием!!!)",
+      "nearestDate": "2024-04-01T17:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 17,
+      "id": "563",
+      "lastDate": "2024-04-08T16:20:00",
+      "name": "Садрисламова Дилара Рашитовна (!!!детский прием!!!)",
+      "nearestDate": "2024-04-01T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 22,
+      "id": "590",
+      "lastDate": "2024-04-08T00:10:00",
+      "name": "Соловьев Александр Николаевич (!!!детский прием!!!)",
+      "nearestDate": "2024-03-25T19:40:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 7,
+      "id": "564",
+      "lastDate": "2024-04-08T00:10:00",
+      "name": "Соловьёва Алина Александровна (!!!взрослый прием!!!)",
+      "nearestDate": "2024-03-25T16:46:04.1784186+03:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 3,
+      "id": "510",
+      "lastDate": "2024-04-08T16:20:00",
+      "name": "Тимофеенко-Негода Евгения Николаевна (!!!взрослый прием!!!)",
+      "nearestDate": "2024-04-03T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 20,
+      "id": "580",
+      "lastDate": "2024-04-08T13:20:00",
+      "name": "Шульга Инга Олеговна (!!!детский прием!!!)",
+      "nearestDate": "2024-03-27T20:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 4,
+      "id": "570",
+      "lastDate": "2024-03-28T19:40:00",
+      "name": "Янькова Дарья Александровна (!!!детский прием!!!)",
+      "nearestDate": "2024-03-26T17:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

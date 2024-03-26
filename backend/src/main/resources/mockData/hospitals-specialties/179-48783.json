@@ -1,0 +1,162 @@
+{
+  "result": [
+    {
+      "ariaNumber": "1",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 14,
+      "freeTicketCount": 45,
+      "id": "575",
+      "lastDate": "2024-04-05T10:36:00",
+      "name": "Байшева Лариса Валериевна",
+      "nearestDate": "2024-04-02T17:12:00"
+    },
+    {
+      "ariaNumber": "9, 16",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "936",
+      "lastDate": null,
+      "name": "Васильева Ирина Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "8",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 28,
+      "freeTicketCount": 41,
+      "id": "937",
+      "lastDate": "2024-04-08T17:12:00",
+      "name": "Гутникова Светлана Владимировна",
+      "nearestDate": "2024-04-02T16:12:00"
+    },
+    {
+      "ariaNumber": "5, 7",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 30,
+      "freeTicketCount": 44,
+      "id": "1584",
+      "lastDate": "2024-04-08T17:16:00",
+      "name": "Дедова Наталья Станиславовна",
+      "nearestDate": "2024-04-01T09:24:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1591",
+      "lastDate": null,
+      "name": "Дедова Наталья Станиславовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "3",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 43,
+      "freeTicketCount": 66,
+      "id": "949",
+      "lastDate": "2024-04-08T10:00:00",
+      "name": "Егорова Александра Николаевна",
+      "nearestDate": "2024-03-28T08:48:00"
+    },
+    {
+      "ariaNumber": "17",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 20,
+      "freeTicketCount": 29,
+      "id": "895",
+      "lastDate": "2024-04-08T16:36:00",
+      "name": "Зубова Марина Олеговна",
+      "nearestDate": "2024-04-01T08:12:00"
+    },
+    {
+      "ariaNumber": "9, 15",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 25,
+      "freeTicketCount": 55,
+      "id": "901",
+      "lastDate": "2024-04-08T09:36:00",
+      "name": "Клыков Виктор Иванович",
+      "nearestDate": "2024-04-01T15:36:00"
+    },
+    {
+      "ariaNumber": "11, 13",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 47,
+      "freeTicketCount": 66,
+      "id": "1567",
+      "lastDate": "2024-04-08T10:24:00",
+      "name": "Максименков Артем Георгиевич",
+      "nearestDate": "2024-04-01T15:24:00"
+    },
+    {
+      "ariaNumber": "4, 7",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 29,
+      "freeTicketCount": 46,
+      "id": "1617",
+      "lastDate": "2024-04-05T11:12:00",
+      "name": "Мирзеханов Раджаб Мирзеханович",
+      "nearestDate": "2024-04-03T09:12:00"
+    },
+    {
+      "ariaNumber": "14",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 42,
+      "freeTicketCount": 67,
+      "id": "900",
+      "lastDate": "2024-04-08T10:24:00",
+      "name": "Моргун Елизавета Михайловна",
+      "nearestDate": "2024-03-27T16:24:00"
+    },
+    {
+      "ariaNumber": "12",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 34,
+      "freeTicketCount": 43,
+      "id": "914",
+      "lastDate": "2024-04-08T09:48:00",
+      "name": "Перфильева Ирина Валерьевна",
+      "nearestDate": "2024-04-01T08:36:00"
+    },
+    {
+      "ariaNumber": "10, 11",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 37,
+      "freeTicketCount": 44,
+      "id": "917",
+      "lastDate": "2024-04-08T10:24:00",
+      "name": "Тихомирова Ольга Вадимовна",
+      "nearestDate": "2024-04-03T14:48:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 49,
+      "freeTicketCount": 49,
+      "id": "1551",
+      "lastDate": "2024-04-08T10:45:00",
+      "name": "Углублённая диспансеризация - Отделение профилактики ",
+      "nearestDate": "2024-03-28T10:40:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

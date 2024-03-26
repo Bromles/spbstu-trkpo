@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "2132",
+      "lastDate": "2024-03-29T12:56:00",
+      "name": "Литвишко Оксана Владимировна",
+      "nearestDate": "2024-03-29T12:56:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 35,
+      "freeTicketCount": 35,
+      "id": "1218",
+      "lastDate": "2024-04-08T15:38:00",
+      "name": "Савельева Элеонора Николаевна",
+      "nearestDate": "2024-04-01T08:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

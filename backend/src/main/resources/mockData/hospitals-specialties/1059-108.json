@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 15,
+      "freeTicketCount": 216,
+      "id": "452",
+      "lastDate": "2024-04-08T16:45:00",
+      "name": "Преснякова Виктория Владимировна ",
+      "nearestDate": "2024-03-25T17:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 48,
+      "freeTicketCount": 197,
+      "id": "568",
+      "lastDate": "2024-04-08T16:45:00",
+      "name": "Толибов Назирджон Азизджонович ",
+      "nearestDate": "2024-03-26T15:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

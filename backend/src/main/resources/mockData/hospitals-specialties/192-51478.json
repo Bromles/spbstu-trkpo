@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 93,
+      "freeTicketCount": 93,
+      "id": "3414",
+      "lastDate": "2024-04-08T18:30:00",
+      "name": "Ковтуненко Светлана Сергеевна",
+      "nearestDate": "2024-03-26T09:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

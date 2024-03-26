@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 78,
+      "freeTicketCount": 78,
+      "id": "eUFvZEFBSkFCQUE=",
+      "lastDate": "2024-04-15T17:00:00",
+      "name": "Беляева Галина Георгиевна",
+      "nearestDate": "2024-03-28T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 101,
+      "freeTicketCount": 101,
+      "id": "eUFvZEFBSkFCQUU=",
+      "lastDate": "2024-04-15T11:00:00",
+      "name": "Ланцева Клавдия Петровна",
+      "nearestDate": "2024-03-26T17:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Отпуск",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "4813",
+      "lastDate": "2024-04-08T18:45:00",
+      "name": "Макаренко Марина Васильевна",
+      "nearestDate": "2024-04-08T16:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

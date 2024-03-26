@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Диспансерное отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "405",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Кильдеев Виталий Витальевич",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "Диспансерное отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "475",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Мороз Василий Александрович",
+      "nearestDate": "2024-03-29T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

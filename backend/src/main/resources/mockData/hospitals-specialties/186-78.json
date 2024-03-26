@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "02 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 10,
+      "freeTicketCount": 10,
+      "id": "588",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Гулян Элеонора Сергеевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "12 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 15,
+      "freeTicketCount": 15,
+      "id": "531",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Рыбникова Елена Владимировна",
+      "nearestDate": "2024-04-09T00:00:00"
+    },
+    {
+      "ariaNumber": "ТЕР2",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 10,
+      "freeTicketCount": 10,
+      "id": "717",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Савчук София Владимировна",
+      "nearestDate": "2024-04-05T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "eUFHZEFSOUJqQUE=",
+      "lastDate": "2024-03-29T11:15:00",
+      "name": "Крылов Сергей Геннадьевич",
+      "nearestDate": "2024-03-29T11:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 39,
+      "freeTicketCount": 39,
+      "id": "eUFHZEFSOUJtQUE=",
+      "lastDate": "2024-04-08T11:15:00",
+      "name": "Маликов Роман Аликович",
+      "nearestDate": "2024-03-27T16:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

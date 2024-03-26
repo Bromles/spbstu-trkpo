@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "164",
+      "lastDate": "2024-04-11T00:00:00",
+      "name": "Горбуновская Анна Владимировна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 31.03.2024: Отпуск или учебный отпуск",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "92",
+      "lastDate": null,
+      "name": "Зеленина Анна Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 119,
+      "freeTicketCount": 119,
+      "id": "11",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "Савостьянова Ирина Анатольевна",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 61,
+      "freeTicketCount": 61,
+      "id": "283",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "Федорова Екатерина Сергеевна",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 118,
+      "freeTicketCount": 118,
+      "id": "223",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "Шестак Марина Валерьевна",
+      "nearestDate": "2024-04-02T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

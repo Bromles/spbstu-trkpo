@@ -1,5 +1,6 @@
 import { useAuth } from "react-oidc-context";
 import styles from "@/components/Navbar/Navbar.module.css";
+import '@/components/Navbar/Navbar.css';
 
 export const NavBar = () => {
   const auth = useAuth();
@@ -15,7 +16,7 @@ export const NavBar = () => {
   return (
     <header className={styles.header}>
       <div className={styles.container}>
-        <div className={styles.name}>
+        <div className="navbar-name">
           {auth.isAuthenticated && clientLastname}
           {clientLastname && <br />}
           {auth.isAuthenticated && clientEmail}

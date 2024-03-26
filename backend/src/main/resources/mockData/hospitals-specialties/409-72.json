@@ -1,0 +1,118 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 60,
+      "freeTicketCount": 67,
+      "id": "15254",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Анохин А.Ф.",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 66,
+      "freeTicketCount": 74,
+      "id": "16038",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Баранов Н.В.",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 60,
+      "freeTicketCount": 67,
+      "id": "16044",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Волковская Е.В.",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 49,
+      "freeTicketCount": 56,
+      "id": "14767",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Зубяк В.И.",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 53,
+      "freeTicketCount": 60,
+      "id": "15550",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Любая Ю.А.",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 62,
+      "freeTicketCount": 70,
+      "id": "15230",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Михайлова И.В.",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 28,
+      "freeTicketCount": 36,
+      "id": "16698",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Петренко А.С.",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 53,
+      "freeTicketCount": 60,
+      "id": "16691",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Рустамов М.М.",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 41,
+      "freeTicketCount": 48,
+      "id": "15341",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Сударникова К.Е.",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 54,
+      "freeTicketCount": 60,
+      "id": "15323",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Черкасов Д.В.",
+      "nearestDate": "2024-03-29T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,35 @@
+{
+  "result": [
+    {
+      "id": "71",
+      "ferId": "174",
+      "name": "Стоматолог детский",
+      "countFreeParticipant": 8,
+      "countFreeTicket": 8,
+      "lastDate": "2024-03-30T00:00:00",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "id": "73",
+      "ferId": "176",
+      "name": "Стоматология терапевтическая",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "74",
+      "ferId": "177",
+      "name": "Стоматология хирургическая",
+      "countFreeParticipant": 75,
+      "countFreeTicket": 75,
+      "lastDate": "2024-03-29T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

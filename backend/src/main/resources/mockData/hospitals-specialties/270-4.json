@@ -1,0 +1,195 @@
+{
+  "result": [
+    {
+      "ariaNumber": "9",
+      "ariaType": null,
+      "comment": "врач в отпуске с 25/03 -31/03",
+      "freeParticipantCount": 20,
+      "freeTicketCount": 194,
+      "id": "д71.642",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "АКСЕНОВСКАЯ И.М.",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "4,6",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 22,
+      "freeTicketCount": 232,
+      "id": "д71.776",
+      "lastDate": "2024-04-19T00:00:00",
+      "name": "АСКАРОВА Л.Р.",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "17",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "д71.559",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "БАЛАШОВА О.О.",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "2,5",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 10,
+      "freeTicketCount": 252,
+      "id": "д71.628",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "БЕЛЯНКО К.О.",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "18",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 15,
+      "freeTicketCount": 221,
+      "id": "д71.795",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "ГОЛУБЕВА М.Г.",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "1-10",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 36,
+      "id": "д71.647",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "ЗЕМСКИЙ Е.В. (заведующий 1 ТО)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "12",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 11,
+      "freeTicketCount": 217,
+      "id": "д71.617",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "КОНОНОВА О.Е.",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "19,13",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 78,
+      "freeTicketCount": 238,
+      "id": "д71.670",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "КРАСЮКОВ С.П.",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "8,9",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 237,
+      "id": "д71.719",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "МАЗУРОК М.И.",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "1",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 24,
+      "freeTicketCount": 197,
+      "id": "д71.798",
+      "lastDate": "2024-04-19T00:00:00",
+      "name": "МАЛАХОВА А.И.",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "14,11",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 196,
+      "id": "д71.829",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "МЕЛЬНИКОВ А.С.",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "20",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 19,
+      "freeTicketCount": 229,
+      "id": "д71.530",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "НАЙМУШИН А.Н.",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "15",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 65,
+      "freeTicketCount": 259,
+      "id": "д71.818",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "НОВРУЗОВ Э.Р.",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "7",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 35,
+      "freeTicketCount": 126,
+      "id": "д71.784",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "ПЕТУХОВ Д.С.",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "16",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 14,
+      "freeTicketCount": 153,
+      "id": "д71.737",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "ПРУДНИКОВ А.Д.",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "10,3",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 52,
+      "freeTicketCount": 330,
+      "id": "д71.800",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "ТЕПОНАЙНЕН Н.А.",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "11-20",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "д71.559_1",
+      "lastDate": null,
+      "name": "БАЛАШОВА О.О.(заведующий 2 ТО)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

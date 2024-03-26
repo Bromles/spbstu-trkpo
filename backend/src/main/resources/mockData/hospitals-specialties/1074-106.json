@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 39,
+      "id": "38",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Залужская Мария Вячеславовна (лечение без острой боли, плановое), пр. Елизарова, д. 3",
+      "nearestDate": "2024-03-26T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 73,
+      "id": "36",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Ипатова Татьяна Владимировна (лечение без острой боли, плановое), пр. Елизарова, д. 3",
+      "nearestDate": "2024-03-26T15:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 71,
+      "id": "35",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Караваева Наталия Игоревна (лечение без острой боли, плановое), пр. Елизарова, д. 3",
+      "nearestDate": "2024-03-26T15:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

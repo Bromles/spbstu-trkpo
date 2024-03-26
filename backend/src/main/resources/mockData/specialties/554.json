@@ -1,0 +1,17 @@
+{
+  "result": [
+    {
+      "id": "18",
+      "ferId": "42",
+      "name": "Детский уролог-андролог",
+      "countFreeParticipant": 39,
+      "countFreeTicket": 39,
+      "lastDate": "2024-04-23T00:00:00",
+      "nearestDate": "2024-04-09T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

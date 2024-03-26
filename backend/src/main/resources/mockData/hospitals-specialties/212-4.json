@@ -1,0 +1,195 @@
+{
+  "result": [
+    {
+      "ariaNumber": "14",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "п102.441",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Агниева Мария Алексеевна 2 терапевтическое отделение",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "15",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 41,
+      "freeTicketCount": 41,
+      "id": "п102.430",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Алхасов Салимбек Пахрутдинович 2 терапевтическое отделение",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "7",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 50,
+      "freeTicketCount": 50,
+      "id": "п102.239",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Анненков Максим Вячеславович 1 терапевтическое отделение",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "22,12,",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 19,
+      "freeTicketCount": 19,
+      "id": "п102.344",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Васильев Никита Иванович 2 терапевтическое отделение",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "24,25,26,27",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 39,
+      "freeTicketCount": 39,
+      "id": "п102.437",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Вахобова Фариза Нозимджоновна 1терапевтическое отделение",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "16,",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 29,
+      "freeTicketCount": 29,
+      "id": "п.175",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Гохерц Виктор Сергеевич 2 терапевтическое отделение",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "2,10",
+      "ariaType": null,
+      "comment": "102",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 6,
+      "id": "п102.449",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Гриненко Екатерина Дмитриевна 1 терапевтическое отделение",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "23,13,20",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "п102.442",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Кадыркулыев Сердар 2 терапевтическое отделение",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "5,3",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 17,
+      "freeTicketCount": 17,
+      "id": "п102.447",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Лавейкин Дмитрий Михайлович 1 терапевтическое отделение",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "8,6",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 11,
+      "freeTicketCount": 11,
+      "id": "п102.36",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Лагутенко Алексей Юрьевич 1 терапевтическое отделение",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "4",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 50,
+      "freeTicketCount": 50,
+      "id": "п102.440",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Негробова Елена Александровна 1 терапевтическое отделение",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "1",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 6,
+      "id": "п102.439",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Отт Екатерина Михайловна 1 терапевтическое отделение",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "9",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 10,
+      "freeTicketCount": 10,
+      "id": "п102.114",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Попов Алексей Николаевич 1 терапевтическое отделение",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "11",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 49,
+      "freeTicketCount": 49,
+      "id": "п102.424",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Сабиров Тимур Альбертович  1 терапевтическое отделение",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "18,12",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "п.109",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Тибет Ольга Борисовна 2 терапевтическое отделение",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "19",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 38,
+      "freeTicketCount": 38,
+      "id": "п102.211",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Хайдаркулов Тимур Бахтиёрович 2 терапевтическое отделение",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "17,21",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 12,
+      "freeTicketCount": 12,
+      "id": "п102.367",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Якшиева Гозел Маратовна  2 терапевтическое отделение",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

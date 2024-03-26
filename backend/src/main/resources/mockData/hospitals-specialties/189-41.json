@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "117.в159",
+      "lastDate": "2024-04-15T00:00:00",
+      "name": "Литвиновская В.А ",
+      "nearestDate": "2024-04-15T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 10,
+      "freeTicketCount": 10,
+      "id": "117.126",
+      "lastDate": "2024-04-15T00:00:00",
+      "name": "Милько Т.С.",
+      "nearestDate": "2024-04-15T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 17,
+      "freeTicketCount": 17,
+      "id": "117.113",
+      "lastDate": "2024-04-15T00:00:00",
+      "name": "Стрелкова М.Ш.",
+      "nearestDate": "2024-04-15T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

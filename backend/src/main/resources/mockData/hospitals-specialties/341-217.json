@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Терапевтическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "210",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Борисова Елена Анатольевна",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Только для Беременных, каб.11",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 29,
+      "freeTicketCount": 29,
+      "id": "6971",
+      "lastDate": "2024-04-08T14:04:00",
+      "name": "Соколова Ирина Николаевна",
+      "nearestDate": "2024-03-29T13:48:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

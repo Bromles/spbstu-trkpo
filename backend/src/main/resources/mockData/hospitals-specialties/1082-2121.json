@@ -1,0 +1,283 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Врач ОСМ №1",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "93",
+      "lastDate": "2024-04-05T11:30:00",
+      "name": "Алхазгаджиев Магомедгаджи Мусалитдинович",
+      "nearestDate": "2024-04-05T11:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Заведующий ОСМ №1",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "295",
+      "lastDate": null,
+      "name": "Алхазгаджиев Магомедгаджи Мусалитдинович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Врач ОСМ ПМ СП",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "299",
+      "lastDate": null,
+      "name": "Анненкова Марина Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Врач ОСМ №2",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "310",
+      "lastDate": "2024-03-26T11:45:00",
+      "name": "Анненкова Марина Владимировна",
+      "nearestDate": "2024-03-26T11:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ОСМ ПМ СП",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "289",
+      "lastDate": null,
+      "name": "Белячкова Вера Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Врач ОСМ №1",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "268",
+      "lastDate": null,
+      "name": "Богданов Александр Владимирович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Врач ОСМ №2",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "132",
+      "lastDate": null,
+      "name": "Богданова Наталья Валентиновна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Врач ОСМ №1",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "122",
+      "lastDate": null,
+      "name": "Буланова Марина Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Врач ОСМ №1",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "276",
+      "lastDate": null,
+      "name": "Гильц Анна Евгениевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ОСМ №2",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "97",
+      "lastDate": "2024-04-05T13:15:00",
+      "name": "Иванова Инна Сергеевна",
+      "nearestDate": "2024-04-03T13:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "234",
+      "lastDate": "2024-04-05T14:20:00",
+      "name": "Кийко Игорь Игоревич",
+      "nearestDate": "2024-04-01T14:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ОСМ №2",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 6,
+      "id": "137",
+      "lastDate": "2024-04-05T14:20:00",
+      "name": "Коровичев Александр Викторович",
+      "nearestDate": "2024-04-01T14:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ОСМ ПМ СП",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "114",
+      "lastDate": null,
+      "name": "Кустова Татьяна Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "322",
+      "lastDate": null,
+      "name": "Матвейчев Иван Сергеевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "247",
+      "lastDate": null,
+      "name": "Мельникова Елена Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ОСМ №1",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "238",
+      "lastDate": null,
+      "name": "Миронова Татьяна Вадимовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ОСМ №1",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "115",
+      "lastDate": null,
+      "name": "Овчинников Станислав Владимирович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ОСМ №2",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "139",
+      "lastDate": null,
+      "name": "Портнягина Елена Валериевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ОСМ №1",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "309",
+      "lastDate": "2024-04-03T18:00:00",
+      "name": "Руфова Светлана Витальевна",
+      "nearestDate": "2024-03-29T13:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 6,
+      "freeTicketCount": 6,
+      "id": "325",
+      "lastDate": "2024-04-05T16:15:00",
+      "name": "Сенюков Александр Владимирович",
+      "nearestDate": "2024-04-01T14:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "288",
+      "lastDate": null,
+      "name": "Слепова Дарья Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ОСМ №2",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "101",
+      "lastDate": null,
+      "name": "Смирнова Татьяна Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ОСМ №1",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "127",
+      "lastDate": null,
+      "name": "Трухманов Иван Михайлович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ОСМ №2",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "239",
+      "lastDate": "2024-04-02T09:15:00",
+      "name": "Усов Алексей Алексеевич",
+      "nearestDate": "2024-04-02T09:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ОСМ №2",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 6,
+      "id": "98",
+      "lastDate": "2024-04-05T14:20:00",
+      "name": "Харламова Евгения Владимировна",
+      "nearestDate": "2024-04-01T14:20:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

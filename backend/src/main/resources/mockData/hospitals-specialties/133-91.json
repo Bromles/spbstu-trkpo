@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 14,
+      "freeTicketCount": 14,
+      "id": "608",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Андреева Мария Александровна",
+      "nearestDate": "2024-04-11T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 25,
+      "freeTicketCount": 25,
+      "id": "609",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Гвоздева Екатерина Юрьевна",
+      "nearestDate": "2024-04-12T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 12,
+      "freeTicketCount": 12,
+      "id": "610",
+      "lastDate": "2024-04-02T00:00:00",
+      "name": "Провоторова Анастасия Валерьевна",
+      "nearestDate": "2024-04-12T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "559",
+      "lastDate": null,
+      "name": "Рафикова Лина Валерьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "558",
+      "lastDate": null,
+      "name": "Челохсаева Марина Александровна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

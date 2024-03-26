@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "4 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "684",
+      "lastDate": null,
+      "name": "Красавин Игорь Викторович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "970",
+      "lastDate": null,
+      "name": "Красавин Игорь Викторович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "10 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "556",
+      "lastDate": null,
+      "name": "Мишин Тимофей Андреевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "11 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "490",
+      "lastDate": null,
+      "name": "Шеховцова Ирина Ивановна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

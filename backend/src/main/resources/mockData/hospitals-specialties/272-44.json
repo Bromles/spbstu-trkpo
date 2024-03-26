@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 171,
+      "freeTicketCount": 171,
+      "id": "п73.719",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "73 КОРЖОВ Е.А.",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

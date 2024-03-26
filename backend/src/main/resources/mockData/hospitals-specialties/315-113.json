@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 13,
+      "id": "298",
+      "lastDate": "2024-04-05T12:45:00",
+      "name": "Комарова Юлия Викторовна Детский приём (Осмотры, справки)",
+      "nearestDate": "2024-03-27T09:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 17,
+      "id": "300",
+      "lastDate": "2024-04-03T13:30:00",
+      "name": "Яровая Ирина Владимировна Детский приём (Осмотры и справки)",
+      "nearestDate": "2024-03-28T15:15:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

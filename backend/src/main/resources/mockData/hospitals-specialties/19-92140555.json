@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 68,
+      "freeTicketCount": 68,
+      "id": "2288",
+      "lastDate": "2024-04-08T17:50:00",
+      "name": "Доврачебный кабинет 209",
+      "nearestDate": "2024-04-03T14:50:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

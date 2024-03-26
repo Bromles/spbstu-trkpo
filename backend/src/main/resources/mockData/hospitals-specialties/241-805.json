@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 3,
+      "id": "п8.198",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "ПИЛИПЕНКО СЕРГЕЙ АНАТОЛЬЕВИЧ участок 1-02, 1-05, 1-12 (отпуск 01.04.2024 - 07",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

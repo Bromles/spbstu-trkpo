@@ -1,0 +1,151 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 95,
+      "id": "15002",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "АВЕРЧЕНКО Г.И.  5 уч.306каб ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 93,
+      "id": "124",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "БОГАЧЕВ Д.В.2уч.314каб",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 68,
+      "id": "6070.880",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "ВАРКЕНТИН М.Д. 6 уч.301каб",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 96,
+      "id": "6070.851",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "ВИНОГРАДОВА Е.В.9уч.314каб ОТПУСК с 14.03.2024по 22.03.2024",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 105,
+      "id": "6070.577",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "ЖОРНИК О.И.13уч.304каб",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 100,
+      "id": "6070.865",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "ИЛЬИНА М.В.7уч.304каб ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 89,
+      "id": "132",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "КНЯЗЕВА Д.А. 14уч. 317 каб",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 108,
+      "id": "6070.934",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "МАЛЫШЕВА Е.А. 3уч.319 каб",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 44,
+      "id": "6070.802",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "ПРОНЬКИНА Е.А. 12уч.315каб",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 95,
+      "id": "6070.853",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "САЛИХ В.К. 1уч.317каб",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 90,
+      "id": "6070.672",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "СИМОНЕНКО Е.А.4уч.306каб",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 94,
+      "id": "6070.897",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "ЧЕРНЯК А.К.8уч.315каб",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 40,
+      "id": "6070.845",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "ЯНДИЕВА Л.А.",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

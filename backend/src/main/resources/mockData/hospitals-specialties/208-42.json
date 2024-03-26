@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 95,
+      "freeTicketCount": 102,
+      "id": "п.33.139",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ГАЕВСКАЯ.В.Л.",
+      "nearestDate": "2024-03-28T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

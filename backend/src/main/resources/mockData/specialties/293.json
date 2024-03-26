@@ -1,0 +1,125 @@
+{
+  "result": [
+    {
+      "id": "49282",
+      "ferId": "55",
+      "name": "Вакцинация от COVID-19",
+      "countFreeParticipant": 3131,
+      "countFreeTicket": 3131,
+      "lastDate": "2024-04-30T19:05:00",
+      "nearestDate": "2024-03-25T16:40:00"
+    },
+    {
+      "id": "49300",
+      "ferId": "32",
+      "name": "Инфекционные болезни",
+      "countFreeParticipant": 62,
+      "countFreeTicket": 116,
+      "lastDate": "2024-04-01T17:30:00",
+      "nearestDate": "2024-03-26T10:50:00"
+    },
+    {
+      "id": "87508",
+      "ferId": "27",
+      "name": "Кабинет профилактики (углубленная диспансеризация)",
+      "countFreeParticipant": 176,
+      "countFreeTicket": 176,
+      "lastDate": "2024-04-25T18:40:00",
+      "nearestDate": "2024-04-01T08:40:00"
+    },
+    {
+      "id": "49304",
+      "ferId": "43",
+      "name": "Колопроктология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "49315",
+      "ferId": "16",
+      "name": "Общая врачебная практика (семейная медицина)",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "49321",
+      "ferId": "19",
+      "name": "Оториноларингология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "49322",
+      "ferId": "20",
+      "name": "Офтальмология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "49331",
+      "ferId": "90",
+      "name": "Пульмонология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "49351",
+      "ferId": "27",
+      "name": "Терапия",
+      "countFreeParticipant": 126,
+      "countFreeTicket": 126,
+      "lastDate": "2024-04-05T18:50:00",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "id": "49359",
+      "ferId": "145",
+      "name": "Урология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "49364",
+      "ferId": "226",
+      "name": "Функциональная диагностика",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "49391",
+      "ferId": "226",
+      "name": "Функциональная диагностика",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "49365",
+      "ferId": "30",
+      "name": "Хирургия",
+      "countFreeParticipant": 32,
+      "countFreeTicket": 48,
+      "lastDate": "2024-04-01T19:08:00",
+      "nearestDate": "2024-03-27T11:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

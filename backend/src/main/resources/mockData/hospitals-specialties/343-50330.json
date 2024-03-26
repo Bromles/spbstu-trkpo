@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 27,
+      "freeTicketCount": 27,
+      "id": "6576",
+      "lastDate": "2024-04-08T12:00:00",
+      "name": "Суладзе Бадри Сашаевич",
+      "nearestDate": "2024-03-27T09:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

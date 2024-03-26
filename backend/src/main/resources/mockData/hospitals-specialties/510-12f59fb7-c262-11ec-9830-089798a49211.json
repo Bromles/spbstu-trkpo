@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ПРИЕМ В ОВОП (ПР. АВИАКОНСТРУКТОРОВ Д. 16-1)",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "d9ce52ea-ed70-11ec-bba1-b496918ad4ad",
+      "lastDate": "2024-04-08T15:45:00",
+      "name": "Миронова Алеся Адамовна (Врач-эндокринолог)",
+      "nearestDate": "2024-04-08T15:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

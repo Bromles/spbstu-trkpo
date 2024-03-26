@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 82,
+      "freeTicketCount": 138,
+      "id": "жк.12.1003",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Погостина Анастасия Леонидовна (терапевт для беременных)",
+      "nearestDate": "2024-03-27T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

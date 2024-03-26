@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "25,26,34,36,39-42,53-58,64-69",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 68,
+      "freeTicketCount": 68,
+      "id": "p123.124",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ДИСПАНСЕРИЗАЦИЯ 239 каб",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

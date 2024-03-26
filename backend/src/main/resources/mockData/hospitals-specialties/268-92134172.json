@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "313",
+      "lastDate": null,
+      "name": "Бересневич Максим Эдуардович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "01.04.2024-18.04.2024: Приём временно не ведётся.",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "182",
+      "lastDate": null,
+      "name": "Головачев Константин Андреевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "318",
+      "lastDate": null,
+      "name": "Клетнёва Инна Юрьевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

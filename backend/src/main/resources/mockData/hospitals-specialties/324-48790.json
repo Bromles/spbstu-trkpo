@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 3,
+      "freeTicketCount": 12,
+      "id": "980",
+      "lastDate": "2024-04-08T14:30:00",
+      "name": "Пильникова Наталья Борисовна",
+      "nearestDate": "2024-04-08T14:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

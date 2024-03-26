@@ -1,0 +1,140 @@
+{
+  "result": [
+    {
+      "ariaNumber": "09, 12",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 24,
+      "freeTicketCount": 24,
+      "id": "1822",
+      "lastDate": "2024-04-08T10:30:00",
+      "name": "Алагова Милана Витальевна",
+      "nearestDate": "2024-04-03T12:52:00"
+    },
+    {
+      "ariaNumber": "02, 07, 11",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 20,
+      "freeTicketCount": 20,
+      "id": "899",
+      "lastDate": "2024-04-08T19:18:00",
+      "name": "Алексеева Елена Андреевна",
+      "nearestDate": "2024-04-05T08:18:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2029",
+      "lastDate": null,
+      "name": "Баранова Татьяна Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "01, 07, 11",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 22,
+      "freeTicketCount": 22,
+      "id": "1161",
+      "lastDate": "2024-04-08T13:58:00",
+      "name": "Билан Анна Игоревна",
+      "nearestDate": "2024-04-05T08:28:00"
+    },
+    {
+      "ariaNumber": "03, 10",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 26,
+      "freeTicketCount": 26,
+      "id": "1162",
+      "lastDate": "2024-04-08T11:18:00",
+      "name": "Васильева Алла Алексеевна",
+      "nearestDate": "2024-04-03T08:46:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 76,
+      "freeTicketCount": 76,
+      "id": "2215",
+      "lastDate": "2024-04-05T19:50:00",
+      "name": "Врач для выписки кабинет",
+      "nearestDate": "2024-03-26T14:40:00"
+    },
+    {
+      "ariaNumber": "08, 10",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 55,
+      "freeTicketCount": 55,
+      "id": "504",
+      "lastDate": "2024-04-08T17:18:00",
+      "name": "Маркова Светлана Юрьевна",
+      "nearestDate": "2024-03-29T13:24:00"
+    },
+    {
+      "ariaNumber": "05, 07, 11",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "921",
+      "lastDate": "2024-04-08T19:18:00",
+      "name": "Мацакова Данара Андреевна",
+      "nearestDate": "2024-04-08T16:46:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 106,
+      "freeTicketCount": 106,
+      "id": "2214",
+      "lastDate": "2024-04-08T15:00:00",
+      "name": "Справка об эпидокружении ",
+      "nearestDate": "2024-03-26T13:40:00"
+    },
+    {
+      "ariaNumber": "06, 12",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 26,
+      "freeTicketCount": 26,
+      "id": "1445",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Шалаева Елена Николаевна",
+      "nearestDate": "2024-04-03T17:08:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "585",
+      "lastDate": null,
+      "name": "Шамрина Елена Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "04, 12",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 16,
+      "freeTicketCount": 16,
+      "id": "2024",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Ширшова Анастасия Владимировна",
+      "nearestDate": "2024-04-05T14:18:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

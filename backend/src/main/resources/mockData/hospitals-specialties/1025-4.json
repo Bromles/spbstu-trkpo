@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Ботаническая  дом 3 кор  2",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.301",
+      "lastDate": null,
+      "name": "Афанасьев ВП  (Ботаническая 3 / 2 )",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Ботаническая  дом 3 кор  2",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.818",
+      "lastDate": null,
+      "name": "МАЛИНОВСКИЙ В.Ф.(Ботаническая д3 к2/ )",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Ботаническая  д 3/2",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.20",
+      "lastDate": null,
+      "name": "Микаилова И.А (Ботаническая 3/2)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Ботаническая  дом 3 кор  2",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.13",
+      "lastDate": null,
+      "name": "Хайдаршоева Ш.М(Ботаническая 3/2)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Ботаническая  дом 3 кор  2",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.230",
+      "lastDate": null,
+      "name": "ЯКОВЛЕВА Ю.А. (Ботаническая 3 к2)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

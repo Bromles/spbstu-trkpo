@@ -1,0 +1,217 @@
+{
+  "result": [
+    {
+      "ariaNumber": "41 участок (3 отделение)",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "1554",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Ёкубова Рухшона Шоимкуловна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "53 участок (4 отделение)",
+      "ariaType": null,
+      "comment": "25.03.2024: Командировки служебные;\n04.04.2024: Командировки служебные;\nс 06.04.2024 по 08.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "1427",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Ахмедова Зулайха Казимагомедовна",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "31 участок (3 отделение)",
+      "ariaType": null,
+      "comment": "27.03.2024: Командировки служебные;\n05.04.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1409",
+      "lastDate": null,
+      "name": "Данилова Мария Васильевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "49 участок (4 отделение)",
+      "ariaType": null,
+      "comment": "28.03.2024: Командировки служебные",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "1623",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Зайцева Екатерина Сергеевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "51 участок (4 отделение)",
+      "ariaType": null,
+      "comment": "26.03.2024: Командировки служебные;\n05.04.2024: Командировки служебные",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "1420",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Зарайский Александр Максимович",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "45 участок (4 отделение)",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1306",
+      "lastDate": null,
+      "name": "Кабанова Юлия Михайловна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "38 участок (3 отделение)",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 31.03.2024: Очередные и дополнительные отпуска;\n08.04.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1506",
+      "lastDate": null,
+      "name": "Касанова Роза Шарипжановна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "46 участок (4 отделение)",
+      "ariaType": null,
+      "comment": "27.03.2024: Командировки служебные;\n08.04.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1424",
+      "lastDate": null,
+      "name": "Коваленко Дмитрий Викторович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "30 участок (3 отделение)",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1676",
+      "lastDate": null,
+      "name": "Козлова Елена Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "50 участок (4 отделение)",
+      "ariaType": null,
+      "comment": "29.03.2024: Командировки служебные",
+      "freeParticipantCount": 10,
+      "freeTicketCount": 10,
+      "id": "1444",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Кузнецова Василиса Ивановна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "39 участок (3 отделение)",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 31.03.2024: Очередные и дополнительные отпуска;\n03.04.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1410",
+      "lastDate": null,
+      "name": "Кулакова Ольга Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "42 участок (3 отделение)",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "1659",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Насыбуллина Камилла Равилевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "34 участок (3 отделение)",
+      "ariaType": null,
+      "comment": "26.03.2024: Командировки служебные",
+      "freeParticipantCount": 9,
+      "freeTicketCount": 9,
+      "id": "1507",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Османов Алибек Абдулкадырович",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "44 участок (4 отделение)",
+      "ariaType": null,
+      "comment": "01.04.2024: Командировки служебные",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "1440",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Подчасов Владислав Николаевич",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "36 участок (3 отделение)",
+      "ariaType": null,
+      "comment": "01.04.2024: Командировки служебные",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "1505",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Тимошенко Никита Денисович",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "33 участок (3 отделение)",
+      "ariaType": null,
+      "comment": "25.03.2024: Командировки служебные;\n04.04.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1634",
+      "lastDate": null,
+      "name": "Топоркова Юлия Васильевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "47 участок (4 отделение)",
+      "ariaType": null,
+      "comment": "03.04.2024: Командировки служебные",
+      "freeParticipantCount": 17,
+      "freeTicketCount": 17,
+      "id": "53",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Топтыгина Юлия Ивановна",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "29 участок (3 отделение)",
+      "ariaType": null,
+      "comment": "02.04.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1508",
+      "lastDate": null,
+      "name": "Федорова Анна Валерьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "48 участок (4 отделение)",
+      "ariaType": null,
+      "comment": "02.04.2024: Командировки служебные",
+      "freeParticipantCount": 10,
+      "freeTicketCount": 10,
+      "id": "1473",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Чекалдина Екатерина Александровна",
+      "nearestDate": "2024-04-05T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

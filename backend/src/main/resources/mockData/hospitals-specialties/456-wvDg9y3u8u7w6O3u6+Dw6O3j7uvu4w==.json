@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 19,
+      "freeTicketCount": 19,
+      "id": "eUFHZEFSOUJLQUI=",
+      "lastDate": "2024-04-08T14:30:00",
+      "name": "Пинежская Анастасия Юрьевна",
+      "nearestDate": "2024-04-02T11:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "eUFHZEFSOUJPQUE=",
+      "lastDate": null,
+      "name": "Шахназаров Альберт Эдуардович",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

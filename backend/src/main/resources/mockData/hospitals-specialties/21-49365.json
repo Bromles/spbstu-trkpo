@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Приём по адресу: ул. Танкиста Хрустицкого, 5, ПО№45",
+      "freeParticipantCount": 9,
+      "freeTicketCount": 9,
+      "id": "477",
+      "lastDate": "2024-04-08T16:54:00",
+      "name": "Афанасенко Михаил Алексеевич",
+      "nearestDate": "2024-04-05T08:56:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

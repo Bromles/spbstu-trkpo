@@ -1,0 +1,107 @@
+{
+  "result": [
+    {
+      "id": "92134158",
+      "ferId": "79",
+      "name": "Гастроэнтерология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "92134187",
+      "ferId": "81",
+      "name": "Детская кардиология",
+      "countFreeParticipant": 175,
+      "countFreeTicket": 175,
+      "lastDate": "2024-04-08T18:30:00",
+      "nearestDate": "2024-03-25T18:45:00"
+    },
+    {
+      "id": "92134281",
+      "ferId": "42",
+      "name": "Детская урология-андрология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "92134188",
+      "ferId": "11",
+      "name": "Детская хирургия",
+      "countFreeParticipant": 61,
+      "countFreeTicket": 132,
+      "lastDate": "2024-04-08T17:30:00",
+      "nearestDate": "2024-03-26T08:30:00"
+    },
+    {
+      "id": "92134186",
+      "ferId": "83",
+      "name": "Детская эндокринология",
+      "countFreeParticipant": 3,
+      "countFreeTicket": 3,
+      "lastDate": "2024-04-03T12:15:00",
+      "nearestDate": "2024-03-28T17:00:00"
+    },
+    {
+      "id": "2155",
+      "ferId": "279",
+      "name": "Логопед",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "92134150",
+      "ferId": "14",
+      "name": "Неврология",
+      "countFreeParticipant": 1,
+      "countFreeTicket": 1,
+      "lastDate": "2024-03-26T14:45:00",
+      "nearestDate": "2024-03-26T14:45:00"
+    },
+    {
+      "id": "92134152",
+      "ferId": "19",
+      "name": "Оториноларингология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "92134153",
+      "ferId": "20",
+      "name": "Офтальмология",
+      "countFreeParticipant": 23,
+      "countFreeTicket": 56,
+      "lastDate": "2024-04-08T14:10:00",
+      "nearestDate": "2024-03-26T14:40:00"
+    },
+    {
+      "id": "92134184",
+      "ferId": "22",
+      "name": "Педиатрия",
+      "countFreeParticipant": 787,
+      "countFreeTicket": 1638,
+      "lastDate": "2024-04-05T19:40:00",
+      "nearestDate": "2024-03-25T19:30:00"
+    },
+    {
+      "id": "92134170",
+      "ferId": "28",
+      "name": "Травматология и ортопедия",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

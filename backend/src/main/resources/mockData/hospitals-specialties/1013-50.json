@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 8,
+      "id": "в8.44",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Атласова А.С. (дерматолог детский)",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 65,
+      "freeTicketCount": 76,
+      "id": "в8.45",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Скорикова Е.В. (дерматолог детский)",
+      "nearestDate": "2024-03-29T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

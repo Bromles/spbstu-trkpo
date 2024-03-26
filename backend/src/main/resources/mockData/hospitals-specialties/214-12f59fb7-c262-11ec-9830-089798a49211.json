@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "КАБИНЕТ 338, отпуск 19.03-04.04.",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "5c075134-ebea-11ec-bba1-b496918ad4ad",
+      "lastDate": null,
+      "name": "Иваненко Татьяна Сергеевна (Врач-эндокринолог)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "КАБИНЕТ 109, ОТПУСК 18.03-22.03 И 29.03",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "678c33b3-ed65-11ec-bba1-b496918ad4ad",
+      "lastDate": null,
+      "name": "Панова Людмила Валерьевна (Врач-эндокринолог)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

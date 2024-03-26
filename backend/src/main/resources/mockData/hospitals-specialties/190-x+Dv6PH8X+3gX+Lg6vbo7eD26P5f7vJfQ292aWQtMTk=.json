@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 852,
+      "freeTicketCount": 852,
+      "id": "eUFvZEFBSEFKQUE=",
+      "lastDate": "2024-04-15T19:10:00",
+      "name": "Кабинет вакцинации от COVID-19, ( каб.216)",
+      "nearestDate": "2024-03-25T16:40:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

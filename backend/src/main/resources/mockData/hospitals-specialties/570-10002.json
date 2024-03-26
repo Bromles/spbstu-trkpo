@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Дет.стоматология",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 20,
+      "freeTicketCount": 20,
+      "id": "402",
+      "lastDate": "2024-04-11T00:00:00",
+      "name": "Степанян Гаяне Юрьевна",
+      "nearestDate": "2024-04-19T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

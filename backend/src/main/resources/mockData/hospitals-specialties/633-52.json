@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "19 уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 9,
+      "freeTicketCount": 9,
+      "id": "1934",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Казанцева Елена Олеговна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "18 уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "2012",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Щемелева Ирина Викторовна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "17 уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "2035",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Белых Владимир Андреевич возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "16 уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 15,
+      "freeTicketCount": 15,
+      "id": "2178",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Исмайлова Айкун Ашраф Кызы возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

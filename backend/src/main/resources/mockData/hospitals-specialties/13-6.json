@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "2 ПО",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "968",
+      "lastDate": null,
+      "name": "Кабинет Вакцинации От Covid-19 (1-Ый Этап)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

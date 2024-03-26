@@ -1,0 +1,85 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 37,
+      "freeTicketCount": 77,
+      "id": "4190.65",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Еранцева Анна Андреевна (ул Ланская д. 8)",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 27,
+      "freeTicketCount": 53,
+      "id": "к12.26",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Орлова Галина Георгиевна с 11/03/по 29/03/2024 отпуск учебный (Ланская дом 8)",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 20,
+      "id": "4190.64",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Патий Екатерина Владимировна(ул.Ланская д.8) ",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 62,
+      "freeTicketCount": 102,
+      "id": "4190.66",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Попова  Анна Владимировна ",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "п12.99",
+      "lastDate": null,
+      "name": "Козлова Ирина Генриховна ОТПУСК С 01/04 ПО 14/04 /2024Г  ( Ланская дом 8)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "жк.12.29",
+      "lastDate": null,
+      "name": "Степаненко Вера Васильевна   ул.Ланская д.8",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 6,
+      "id": "к12.28",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Сухова Наталья Александровна   (Ланская дом 8)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

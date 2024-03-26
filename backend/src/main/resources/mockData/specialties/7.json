@@ -1,0 +1,26 @@
+{
+  "result": [
+    {
+      "id": "92134140",
+      "ferId": "8",
+      "name": "Акушерство и гинекология",
+      "countFreeParticipant": 175,
+      "countFreeTicket": 175,
+      "lastDate": "2024-04-08T19:00:00",
+      "nearestDate": "2024-03-29T15:45:00"
+    },
+    {
+      "id": "92135853",
+      "ferId": "8",
+      "name": "Гинеколог- эндокринолог.Только Адмиралтейский район .",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

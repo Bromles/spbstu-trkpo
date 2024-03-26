@@ -1,0 +1,250 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ОТПУСК 25.03-07.04, 1 ТЕР.ОТД.КАБИНЕТ 219, Коменд.пр.32-1,34-1, Долгооз.пр.14",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "5e4e0aab-2859-11ed-bba8-b496918ad4af",
+      "lastDate": null,
+      "name": "Чеботарь Полина Андреевна (Врач-терапевт участковый)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "1 ТЕР.ОТД., каб.213, Комендантский 36-2; 40-1,2,3; 42-1; Шаврова 12",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "b8f5590a-9a59-11ee-bc1a-b496918ad90e",
+      "lastDate": "2024-03-29T19:40:00",
+      "name": "Горбунов Дмитрий Алексеевич (Врач-терапевт участковый)",
+      "nearestDate": "2024-03-29T19:10:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "2 терап.отделение, каб.219, Авиконструкторов 20-2, Планерная 51- 1, 2; 53- 1, 2",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "69946026-933b-11ee-bc19-b496918ad90d",
+      "lastDate": "2024-04-01T12:40:00",
+      "name": "Колесова Анастасия Сергеевна (Врач-терапевт участковый)",
+      "nearestDate": "2024-04-01T09:40:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "2 ТЕР.ОТД.КАБИНЕТ 109 АВИАК. ПР.40-2,42-2,3, ПЛАНЕРНАЯ УЛ. 69, 71-1,3,4,5",
+      "freeParticipantCount": 35,
+      "freeTicketCount": 35,
+      "id": "e642b241-116c-11ed-bba5-b496918ad4ad",
+      "lastDate": "2024-03-29T19:20:00",
+      "name": "Андреева Оксана Юрьевна (Врач-терапевт участковый)",
+      "nearestDate": "2024-03-28T16:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "1 ТЕР.ОТД. КАБ.241, Коменд.32-3,34-3,Авиаконстр. 23,27-2,29-2,33,37",
+      "freeParticipantCount": 98,
+      "freeTicketCount": 98,
+      "id": "a0ca913e-3dc5-11ee-bbcb-b496918ad4ad",
+      "lastDate": "2024-04-05T19:50:00",
+      "name": "Бритько Андрей Сергеевич (Врач-терапевт участковый)",
+      "nearestDate": "2024-03-25T19:40:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "2 ТЕР.ОТД. ,ПЛАНЕРНАЯ УЛ. 41/2, 43-1, ДОЛГООЗ. УЛ. 4-1,2, 6-1",
+      "freeParticipantCount": 13,
+      "freeTicketCount": 13,
+      "id": "d4f960f1-29c6-11ed-bba8-b496918ad4af",
+      "lastDate": "2024-04-01T12:40:00",
+      "name": "Лотошкина Анастасия Федоровна (Врач-терапевт участковый)",
+      "nearestDate": "2024-04-01T09:10:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "1 ТЕР.ОТД. КАБ.217 ШУВАЛ.ПР.51-1,2,3, 53-1,2, 55-1,2, КОМЕНД.ПР.50-1,2,3",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "eb237327-3feb-11ee-bbce-b496918ad4ad",
+      "lastDate": null,
+      "name": "Мирошниченко Валерия Борисовна (Врач-терапевт участковый)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "1 ТЕР.ОТД, КАБИНЕТ 241,Коменд.пр.27-1,2,29-1,31-1,2,3,5",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "181e9783-1e2b-11ed-bba6-b496918ad4ad",
+      "lastDate": null,
+      "name": "Вязникова Анастасия Николаевна (Врач-терапевт участковый)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "2 ТЕР ОТД, КАБ.233, Шуваловский 63-1,2,4; Планерная 63, 67",
+      "freeParticipantCount": 24,
+      "freeTicketCount": 24,
+      "id": "d8affb4a-8778-11ee-bc18-b496918ad90e",
+      "lastDate": "2024-04-01T12:50:00",
+      "name": "Зевалич Раиса Николаевна (Врач-терапевт участковый)",
+      "nearestDate": "2024-03-29T09:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "1 ТЕР.ОТД.КАБИНЕТ 212, Королева пр.48-1,3,4,50-1,2 ",
+      "freeParticipantCount": 37,
+      "freeTicketCount": 37,
+      "id": "f962ef90-ebeb-11ec-bba1-b496918ad4ad",
+      "lastDate": "2024-04-05T19:50:00",
+      "name": "Рябко Татьяна Ивановна (Врач-терапевт участковый)",
+      "nearestDate": "2024-04-01T18:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "КАБИНЕТ 144",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "c6990231-77e8-11ee-bc18-b496918ad90e",
+      "lastDate": null,
+      "name": "Дежурный Терапевт (Врач-терапевт участковый)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ОТПУСК, 08.04-21.04, 1 ТЕР.ОТД.,КАБИНЕТ 233, ДОЛГООЗЕРНАЯ УЛ.18,20, КОРОЛЕВА ПР.42-1,3,44-1,3",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "17dc7e72-48ca-11ee-bbd8-b496918ad4ad",
+      "lastDate": null,
+      "name": "Ядыкина Ульяна Игоревна (Врач-терапевт участковый)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "2 ТЕР.ОТД.КАБИНЕТ 216 ДОЛГООЗ.УЛ.6-2,АВИА.ПР.14-3,18-3.",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "a2d644d9-6f27-11ee-bc18-b496918ad90e",
+      "lastDate": "2024-04-01T12:50:00",
+      "name": "Кузьмина Надежда Евгеньевна (Врач-терапевт участковый)",
+      "nearestDate": "2024-04-01T10:10:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": " 2 ТЕР.ОТД.КАБИНЕТ 106, АВИАК. ПР. 32,34,36,38",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "19ecc1c8-ebe8-11ec-bba1-b496918ad4ad",
+      "lastDate": null,
+      "name": "Фаевская Галина Анатольевна (Врач-терапевт участковый)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "1 ТЕР.ОТД.,КАБИНЕТ 242,ДОЛГООЗ.УЛ 8,10, АВИАК.ПР 17,19, КОМЕНД.ПР.32-2",
+      "freeParticipantCount": 20,
+      "freeTicketCount": 20,
+      "id": "0d05e851-ed60-11ec-bba1-b496918ad4ad",
+      "lastDate": "2024-03-29T19:50:00",
+      "name": "Поздняков Егор Евгеньевич (Врач-терапевт участковый)",
+      "nearestDate": "2024-03-25T19:50:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "2 ТЕР.ОТД. КАБ.217 ПЛАНЕРНАЯ УЛ 45.47, АВИАК. ПР. 20-1,3",
+      "freeParticipantCount": 12,
+      "freeTicketCount": 12,
+      "id": "06afe22a-48c9-11ee-bbd8-b496918ad4ad",
+      "lastDate": "2024-04-01T12:50:00",
+      "name": "Карелина Анастасия Викторовна (Врач-терапевт участковый)",
+      "nearestDate": "2024-04-01T09:40:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "2 ТЕР.ОТД. КАБИНЕТ 213, Планерная ул.73-2,4,5,6,77,79",
+      "freeParticipantCount": 19,
+      "freeTicketCount": 19,
+      "id": "d44e85d7-ebe7-11ec-bba1-b496918ad4ad",
+      "lastDate": "2024-04-01T12:40:00",
+      "name": "Федулова Надежда Владимировна (Врач-терапевт участковый)",
+      "nearestDate": "2024-03-29T11:20:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "1 ТЕР.ОТД. КАБ. 215,  Кор.46-3,Коменд.33-2,4. 35-1,2,3",
+      "freeParticipantCount": 6,
+      "freeTicketCount": 6,
+      "id": "4228a957-0dab-11ed-bba5-b496918ad4ad",
+      "lastDate": "2024-04-01T15:50:00",
+      "name": "Зиатдинова Анастасия Игоревна (Врач-терапевт участковый)",
+      "nearestDate": "2024-04-01T14:50:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "1ТЕР.ОТД., КАБИНЕТ 240, Шаврова ул.9,11,13,15, Авиак.пр.39-1  ",
+      "freeParticipantCount": 10,
+      "freeTicketCount": 10,
+      "id": "001b29cc-ed71-11ec-bba1-b496918ad4ad",
+      "lastDate": "2024-03-29T19:50:00",
+      "name": "Малдыбаева Зоя Амантаевна (Врач-терапевт участковый)",
+      "nearestDate": "2024-03-28T09:50:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": " 1 ТЕР. ОТД.,КАБ.216. КОРОЛЕВА ПР.52.54-1,2,ШАВРОВА УЛ.17.19,КОМЕНД.ПР.37-1,39-1",
+      "freeParticipantCount": 9,
+      "freeTicketCount": 9,
+      "id": "5a7d8741-e8a9-11ed-bbbc-b496918ad4af",
+      "lastDate": "2024-03-29T19:50:00",
+      "name": "Нгуен Тхань чунг (Врач-терапевт участковый)",
+      "nearestDate": "2024-03-28T09:50:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "2 отд, каб.212, пр.Авиаконструкторов 2, 4, 6, 8-2,10",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "775a149d-ebe7-11ec-bba1-b496918ad4ad",
+      "lastDate": null,
+      "name": "Давыдова Нина Михайловна (Врач-терапевт участковый)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "2 ТЕР.ОТД. КАБИНЕТ 219, Шуваловск.пр.59-1,2,3,61-2, Планерная ул.67-2,3,4",
+      "freeParticipantCount": 19,
+      "freeTicketCount": 19,
+      "id": "e4773f7d-ebe6-11ec-bba1-b496918ad4ad",
+      "lastDate": "2024-04-01T12:50:00",
+      "name": "Хлынов Сергей Дмитриевич (Врач-терапевт участковый)",
+      "nearestDate": "2024-03-28T18:50:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "возможная задержка приема +/- 30 мин",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8450.126",
+      "lastDate": null,
+      "name": "ДЕНИСОВА А.Д. каб 7",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

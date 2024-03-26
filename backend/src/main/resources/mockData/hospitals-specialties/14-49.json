@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "3 ПО",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 29,
+      "freeTicketCount": 40,
+      "id": "89",
+      "lastDate": "2024-04-03T00:00:00",
+      "name": "Аникиев Владимир Леонидович",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "3 ПО",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 13,
+      "freeTicketCount": 13,
+      "id": "113",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Газахова Фарах Бадраддин Кызы",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "3 ПО",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 79,
+      "freeTicketCount": 79,
+      "id": "260",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Грачева Ирина Николаевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "3 ПО",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 56,
+      "freeTicketCount": 56,
+      "id": "394",
+      "lastDate": "2024-04-03T00:00:00",
+      "name": "Корнева Татьяна Геннадьевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диспансерное наблюдение",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "61c95c1b-0dbe-11ed-bba5-b496918ad4ad",
+      "lastDate": null,
+      "name": "Вилкова Ольга Геннадьевна (Врач общей практики (семейный врач))",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диспансерное наблюдение",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "67c0c4ac-0dbe-11ed-bba5-b496918ad4ad",
+      "lastDate": null,
+      "name": "Мун Людмила Васильевна (Врач общей практики (семейный врач))",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диспансерное наблюдение",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "6dc27c1f-0dbe-11ed-bba5-b496918ad4ad",
+      "lastDate": "2024-03-26T09:30:00",
+      "name": "Ученгуй Дарья Анатольевна (Врач общей практики (семейный врач))",
+      "nearestDate": "2024-03-26T09:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

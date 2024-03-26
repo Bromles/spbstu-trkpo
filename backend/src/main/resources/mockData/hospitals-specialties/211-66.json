@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 58,
+      "freeTicketCount": 58,
+      "id": "9998",
+      "lastDate": "2024-04-09T00:00:00",
+      "name": "Кабинет профилактики каб 4",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 301,
+      "freeTicketCount": 301,
+      "id": "9999",
+      "lastDate": "2024-04-09T00:00:00",
+      "name": "Кабинет профилактики каб 5",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

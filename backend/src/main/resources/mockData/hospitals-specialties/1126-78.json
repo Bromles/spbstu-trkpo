@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "ВОП Хармса",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 3,
+      "freeTicketCount": 4,
+      "id": "1860",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Хафизова Алия Ильгизовна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

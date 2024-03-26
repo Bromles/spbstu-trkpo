@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Кабинет 343 на 3 этаже",
+      "freeParticipantCount": 84,
+      "freeTicketCount": 84,
+      "id": "81880.90",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Близнюк А.А.",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Кабинет 343 на 3 этаже",
+      "freeParticipantCount": 44,
+      "freeTicketCount": 44,
+      "id": "81880.23",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Довжанский И.В.",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

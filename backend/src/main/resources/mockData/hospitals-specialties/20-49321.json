@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1725",
+      "lastDate": null,
+      "name": "Афанасьев Владислав Викторович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1815",
+      "lastDate": null,
+      "name": "Додонова Александра Андреевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 48,
+      "freeTicketCount": 48,
+      "id": "558",
+      "lastDate": "2024-04-08T19:02:00",
+      "name": "Савельева Элеонора Николаевна",
+      "nearestDate": "2024-04-01T10:46:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

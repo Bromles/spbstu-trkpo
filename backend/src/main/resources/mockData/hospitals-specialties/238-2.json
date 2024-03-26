@@ -1,0 +1,162 @@
+{
+  "result": [
+    {
+      "ariaNumber": "12 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 28,
+      "freeTicketCount": 28,
+      "id": "566",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Багдасарян Кристина Генриховна 12 Уч.",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "5 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "574",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Галимова Екатерина Вадимовна 5 Участок",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "10 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 7,
+      "freeTicketCount": 8,
+      "id": "575",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Григорян Аспрам Арменовна 10Уч.",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "8 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 10,
+      "freeTicketCount": 10,
+      "id": "579",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Зайцева Анна Александровна  8 Уч.",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "18 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 1,
+      "id": "610",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Пименова Елена Викторовна 18 Уч.",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "6 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "611",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Пухавская Жанна Георгиевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "3 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "615",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Телепаева Наталия Юрьевна 3 Уч.",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "2 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 12,
+      "freeTicketCount": 15,
+      "id": "625",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Мурашкина Анна Вячеславовна 2 Уч.",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "4 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 9,
+      "freeTicketCount": 9,
+      "id": "626",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Еловская Татьяна Александровна 4 Уч.",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "1 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "636",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Мищенко Александра Сергеевна 1 Уч.+11 Уч.",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "7 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "659",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Рыбачек Валентина Анатольевна  7Уч.",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "17 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "663",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Мокеева Светлана Сергеевна 17  Уч.+ 13 Участок",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "14 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 19,
+      "freeTicketCount": 19,
+      "id": "664",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Перепелица Валерия Александровна 14Уч+ 6Уч.",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "15 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "667",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Рыбачек Анастасия Викторовна 15 Уч.",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

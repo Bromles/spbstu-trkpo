@@ -1,0 +1,53 @@
+{
+  "result": [
+    {
+      "id": "49089",
+      "ferId": "8",
+      "name": "Акушерство и гинекология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "52203",
+      "ferId": "98",
+      "name": "Психология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "49162",
+      "ferId": "27",
+      "name": "Терапия",
+      "countFreeParticipant": 10,
+      "countFreeTicket": 10,
+      "lastDate": "2024-04-08T13:30:00",
+      "nearestDate": "2024-04-08T09:00:00"
+    },
+    {
+      "id": "49167",
+      "ferId": "33",
+      "name": "Ультразвуковая диагностика",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "49237",
+      "ferId": "33",
+      "name": "Ультразвуковая диагностика",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

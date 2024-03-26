@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Консультационно-диагностическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2182",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Коломоец Александр Витальевич",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

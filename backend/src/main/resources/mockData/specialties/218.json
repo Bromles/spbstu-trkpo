@@ -1,0 +1,89 @@
+{
+  "result": [
+    {
+      "id": "71e51655-00ff-11ed-bba2-b496918ad4ad",
+      "ferId": "83",
+      "name": "Врач-детский эндокринолог",
+      "countFreeParticipant": 42,
+      "countFreeTicket": 42,
+      "lastDate": "2024-04-08T15:00:00",
+      "nearestDate": "2024-04-01T10:00:00"
+    },
+    {
+      "id": "6e13c1f0-00ff-11ed-bba2-b496918ad4ad",
+      "ferId": "81",
+      "name": "Врач-детский кардиолог",
+      "countFreeParticipant": 153,
+      "countFreeTicket": 153,
+      "lastDate": "2024-04-11T13:30:00",
+      "nearestDate": "2024-04-01T08:15:00"
+    },
+    {
+      "id": "9e04dda4-f3a1-11ec-bba1-b496918ad4ad",
+      "ferId": "19",
+      "name": "Врач-оториноларинголог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "30a417cf-fdd4-11ec-bba2-b496918ad4ad",
+      "ferId": "8",
+      "name": "Врач-акушер-гинеколог",
+      "countFreeParticipant": 2,
+      "countFreeTicket": 2,
+      "lastDate": "2024-04-08T15:30:00",
+      "nearestDate": "2024-04-08T15:00:00"
+    },
+    {
+      "id": "1fcdee14-0386-11ed-bba2-b496918ad4ad",
+      "ferId": "22",
+      "name": "Врач-педиатр подростковый",
+      "countFreeParticipant": 85,
+      "countFreeTicket": 85,
+      "lastDate": "2024-04-08T14:40:00",
+      "nearestDate": "2024-03-28T11:00:00"
+    },
+    {
+      "id": "71e516a4-00ff-11ed-bba2-b496918ad4ad",
+      "ferId": "11",
+      "name": "Врач-детский хирург",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "daa27fc8-5d2d-11ee-bbf1-b496918ad4af",
+      "ferId": "42",
+      "name": "Врач детский уролог-андролог",
+      "countFreeParticipant": 42,
+      "countFreeTicket": 42,
+      "lastDate": "2024-04-03T19:15:00",
+      "nearestDate": "2024-04-02T16:15:00"
+    },
+    {
+      "id": "a5091ddf-f3a5-11ec-bba1-b496918ad4ad",
+      "ferId": "22",
+      "name": "Врач-педиатр участковый",
+      "countFreeParticipant": 380,
+      "countFreeTicket": 380,
+      "lastDate": "2024-04-01T12:45:00",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "id": "6ee0e9e3-00ff-11ed-bba2-b496918ad4ad",
+      "ferId": "28",
+      "name": "Врач-травматолог-ортопед",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

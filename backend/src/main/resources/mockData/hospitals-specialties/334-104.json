@@ -1,0 +1,96 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 19,
+      "freeTicketCount": 81,
+      "id": "531",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Березуцкий Георгий Русланович (Детский прием)",
+      "nearestDate": "2024-03-26T15:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 13,
+      "freeTicketCount": 75,
+      "id": "543",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Будзинская Айна Алексеевна (Взрослый прием)",
+      "nearestDate": "2024-03-25T17:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 50,
+      "id": "499",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Варичева Валентина Алексеевна (Взрослый прием)",
+      "nearestDate": "2024-03-25T17:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 18,
+      "freeTicketCount": 92,
+      "id": "514",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Григорьева Анна Евгеньевна (Детский Прием)",
+      "nearestDate": "2024-03-25T17:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 26,
+      "id": "541",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Григорян Диана Грачиковна (Взрослый прием)",
+      "nearestDate": "2024-03-27T08:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 77,
+      "id": "513",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Какубери Константин Мерабиевич (Взрослый прием)",
+      "nearestDate": "2024-03-26T16:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 24,
+      "freeTicketCount": 97,
+      "id": "532",
+      "lastDate": "2024-04-06T19:30:00",
+      "name": "Кузьмич Анастасия Денисовна (Детский прием)",
+      "nearestDate": "2024-03-26T16:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 10,
+      "id": "500",
+      "lastDate": "2024-04-05T15:30:00",
+      "name": "Фадеева Анна Валентиновна (Детский прием)",
+      "nearestDate": "2024-03-27T20:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

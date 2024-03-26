@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "д26.117",
+      "lastDate": null,
+      "name": "ПРИЕМ НА ЭНГЕЛЬСА 117, Шраер Н.В., ОФТАЛЬМОЛОГ, 318 КАБ.",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

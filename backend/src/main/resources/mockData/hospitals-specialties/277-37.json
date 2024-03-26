@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 222,
+      "freeTicketCount": 222,
+      "id": "58",
+      "lastDate": "2024-04-09T00:00:00",
+      "name": "ТИМОФЕЕВА ТВ",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

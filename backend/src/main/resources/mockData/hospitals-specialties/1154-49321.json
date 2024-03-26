@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "пос. Шушары, м-н Славянка, ул. Ростовская 13/15",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "32",
+      "lastDate": null,
+      "name": "Демина Таисия Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "пос. Шушары, ул. Пушкинская д. 40",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "524",
+      "lastDate": "2024-03-27T17:00:00",
+      "name": "Зайцева Кристина Валерьевна",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "г. Пушкин, Софийский б-р, д. 28",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "981",
+      "lastDate": null,
+      "name": "Мирошниченко Андрей Александрович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "пос. Шушары, тер. Ленсоветовский, д. 31 стр. 1",
+      "freeParticipantCount": 12,
+      "freeTicketCount": 12,
+      "id": "1258",
+      "lastDate": "2024-04-08T12:30:00",
+      "name": "Романова Ксения Германовна",
+      "nearestDate": "2024-03-26T08:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

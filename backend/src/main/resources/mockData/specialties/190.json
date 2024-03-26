@@ -1,0 +1,107 @@
+{
+  "result": [
+    {
+      "id": "wvDg9y3j5fDo4PLwX9Ho8OXt5eL76V8xNQ==",
+      "ferId": "66",
+      "name": "Врач-гериатр Сиреневый 15",
+      "countFreeParticipant": 179,
+      "countFreeTicket": 179,
+      "lastDate": "2024-04-15T17:00:00",
+      "nearestDate": "2024-03-26T17:00:00"
+    },
+    {
+      "id": "wvDg9y3o7fTl6vbo7u3o8fI=",
+      "ferId": "32",
+      "name": "Врач-инфекционист",
+      "countFreeParticipant": 119,
+      "countFreeTicket": 119,
+      "lastDate": "2024-04-15T12:45:00",
+      "nearestDate": "2024-03-26T15:00:00"
+    },
+    {
+      "id": "wvDg9y3u8u7w6O3u6+Dw6O3j7uvu4w==",
+      "ferId": "19",
+      "name": "Врач-оториноларинголог",
+      "countFreeParticipant": 203,
+      "countFreeTicket": 203,
+      "lastDate": "2024-04-15T18:45:00",
+      "nearestDate": "2024-04-04T09:15:00"
+    },
+    {
+      "id": "wvDg9y3u9PLg6/zs7uvu4w==",
+      "ferId": "20",
+      "name": "Врач-офтальмолог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "wvDg9y3y5fDg7+Xi8l/z9+Dx8uru4vvp",
+      "ferId": "27",
+      "name": "Врач-терапевт участковый",
+      "countFreeParticipant": 1116,
+      "countFreeTicket": 1116,
+      "lastDate": "2024-04-15T19:20:00",
+      "nearestDate": "2024-03-25T19:05:00"
+    },
+    {
+      "id": "wvDg9y3z8O7r7uM=",
+      "ferId": "145",
+      "name": "Врач-уролог",
+      "countFreeParticipant": 282,
+      "countFreeTicket": 282,
+      "lastDate": "2024-04-15T18:48:00",
+      "nearestDate": "2024-04-01T13:24:00"
+    },
+    {
+      "id": "wvDg9y316PDz8OM=",
+      "ferId": "30",
+      "name": "Врач-хирург",
+      "countFreeParticipant": 1,
+      "countFreeTicket": 1,
+      "lastDate": "2024-04-02T09:00:00",
+      "nearestDate": null
+    },
+    {
+      "id": "x+Dv6PH8X+3gX+Lg6vbo7eD26P5f7vJfQ292aWQtMTk=",
+      "ferId": "55",
+      "name": "Запись на вакцинацию от Covid-19",
+      "countFreeParticipant": 852,
+      "countFreeTicket": 852,
+      "lastDate": "2024-04-15T19:10:00",
+      "nearestDate": "2024-03-25T16:40:00"
+    },
+    {
+      "id": "zOXk6Pbo7fHq6Olf7/Ho9e7r7uM=",
+      "ferId": "",
+      "name": "Медицинский психолог",
+      "countFreeParticipant": 1,
+      "countFreeTicket": 1,
+      "lastDate": "2024-04-15T12:00:00",
+      "nearestDate": "2024-04-15T12:00:00"
+    },
+    {
+      "id": "z+vg7e7i4P9f5Ojx7+Dt8eXw6Ofg9uj/",
+      "ferId": "27",
+      "name": "Плановая диспансеризация",
+      "countFreeParticipant": 513,
+      "countFreeTicket": 513,
+      "lastDate": "2024-04-15T19:30:00",
+      "nearestDate": "2024-03-25T16:45:00"
+    },
+    {
+      "id": "0+Pr8+Hr5e3t4P9f5Ojx7+Dt8eXw6Ofg9uj/",
+      "ferId": "27",
+      "name": "Углубленная диспансеризация",
+      "countFreeParticipant": 50,
+      "countFreeTicket": 50,
+      "lastDate": "2024-04-15T19:00:00",
+      "nearestDate": "2024-03-26T08:15:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

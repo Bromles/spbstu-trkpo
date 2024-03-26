@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "625",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Ивлев Сергей Валерьевич",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1034",
+      "lastDate": null,
+      "name": "Камалетдинов Ринат Назимович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 31.03.2024: Отпуск",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "779",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Орлова Елизавета Алексеевна",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "ДСофД",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "752",
+      "lastDate": null,
+      "name": "Цовп София (Детское) Вызов Врача На Дом",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

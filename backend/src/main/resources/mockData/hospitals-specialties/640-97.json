@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 486,
+      "freeTicketCount": 486,
+      "id": "75830000004",
+      "lastDate": "2024-05-15T15:00:00",
+      "name": "Андреева Нина Эдуардовна",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 486,
+      "freeTicketCount": 486,
+      "id": "75830000002",
+      "lastDate": "2024-05-15T19:00:00",
+      "name": "Андрианов Филипп Владимирович",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 389,
+      "freeTicketCount": 389,
+      "id": "75830000010",
+      "lastDate": "2024-05-15T13:30:00",
+      "name": "Анипченко Андрей Васильевич",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 16,
+      "freeTicketCount": 16,
+      "id": "75830000009",
+      "lastDate": "2024-05-14T14:30:00",
+      "name": "Ветласенин Вадим Александрович",
+      "nearestDate": "2024-03-26T14:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 13,
+      "freeTicketCount": 13,
+      "id": "689",
+      "lastDate": "2024-04-09T14:00:00",
+      "name": "Соколова Лариса Тихоновна",
+      "nearestDate": "2024-04-09T08:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 16,
+      "freeTicketCount": 16,
+      "id": "676",
+      "lastDate": "2024-04-09T19:15:00",
+      "name": "Шадрина Светлана Михайловна",
+      "nearestDate": "2024-04-08T08:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "5083",
+      "lastDate": "2024-04-06T09:00:00",
+      "name": "Карелин Артур Алексеевич",
+      "nearestDate": "2024-04-06T09:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 19,
+      "freeTicketCount": 19,
+      "id": "5846",
+      "lastDate": "2024-04-01T19:40:00",
+      "name": "Потужнова Анна Сергеевна",
+      "nearestDate": "2024-03-31T09:20:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 26,
+      "freeTicketCount": 26,
+      "id": "4680",
+      "lastDate": "2024-04-07T11:20:00",
+      "name": "Симонова Анна Евгеньевна",
+      "nearestDate": "2024-03-29T18:40:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

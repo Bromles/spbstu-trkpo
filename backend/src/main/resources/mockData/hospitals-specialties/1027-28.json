@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Чебышёвская 12/3",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.299",
+      "lastDate": null,
+      "name": "КАСЬЯНЕНКО С.С.(Чебышёвская 12/3)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Чебышёвская 12/3",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "пм65.389",
+      "lastDate": null,
+      "name": "Хизриев РМ (Чебышёвская 12/3)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

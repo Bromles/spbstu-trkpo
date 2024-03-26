@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 29.03.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 94,
+      "freeTicketCount": 94,
+      "id": "265",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Шумарова Екатерина Юрьевна",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

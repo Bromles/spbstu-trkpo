@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 53,
+      "freeTicketCount": 53,
+      "id": "п99.137",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Подольская ЯВ ",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 106,
+      "freeTicketCount": 106,
+      "id": "п99.595",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "Родак ЛВ гериатр",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

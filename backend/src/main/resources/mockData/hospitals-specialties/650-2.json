@@ -1,0 +1,118 @@
+{
+  "result": [
+    {
+      "ariaNumber": "02",
+      "ariaType": null,
+      "comment": "29.03.2024: Вынужденный простой;\n05.04.2024: Конференция",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1038",
+      "lastDate": null,
+      "name": "Аристова Инна Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "01",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "718",
+      "lastDate": null,
+      "name": "Аюпова Ильмира Шамилевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "01",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2700",
+      "lastDate": null,
+      "name": "Запевалова Ильмира Шамилевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "08",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1249",
+      "lastDate": null,
+      "name": "Кожан Нина Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "04",
+      "ariaType": null,
+      "comment": "с 01.04.2024 по 05.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "312",
+      "lastDate": null,
+      "name": "Кузнецова Варвара Геннадьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "03",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2844",
+      "lastDate": null,
+      "name": "Мамедова Вусала Алисадиг Кызы",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "07",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "1170",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Некрасов Евгений Александрович",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "10",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 29.03.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1923",
+      "lastDate": null,
+      "name": "Привалова Яна Юрьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "06",
+      "ariaType": null,
+      "comment": "26.03.2024: Нетрудоспособность (Болезнь, карантин и т.п.)",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1865",
+      "lastDate": null,
+      "name": "Храмченко Марина Григорьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "09",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 26.03.2024: Нетрудоспособность (Болезнь, карантин и т.п.);\n27.03.2024: Нетрудоспособность (Болезнь, карантин и т.п.);\nс 28.03.2024 по 29.03.2024: Очередные и дополнительные отпуска;\nс 01.04.2024 по 03.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2061",
+      "lastDate": null,
+      "name": "Якубова Ирина Олеговна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

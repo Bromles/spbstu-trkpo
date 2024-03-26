@@ -1,0 +1,35 @@
+{
+  "result": [
+    {
+      "id": "60",
+      "ferId": "176",
+      "name": "Стоматология терапевтическая",
+      "countFreeParticipant": 578,
+      "countFreeTicket": 578,
+      "lastDate": "2024-04-12T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "62",
+      "ferId": "177",
+      "name": "Стоматология хирургическая",
+      "countFreeParticipant": 31,
+      "countFreeTicket": 31,
+      "lastDate": "2024-03-26T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "34",
+      "ferId": "171",
+      "name": "Стоматология общей практики",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "пос. Шушары, пер. Вилеровский д. 8",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "55",
+      "lastDate": null,
+      "name": "Савельева Ксения Евгеньевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "г. Пушкин, Софийский б-р, д. 28",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "683",
+      "lastDate": null,
+      "name": "Щербакова Ксения Андреевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

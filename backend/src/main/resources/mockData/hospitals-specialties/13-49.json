@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "2 ПО",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1024",
+      "lastDate": null,
+      "name": "Гафиятуллина Камиля Ринатовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "2 ПО",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 05.04.2024: Нетрудоспособность (Болезнь, карантин и т.п.);\n08.04.2024: Нетрудоспособность (Болезнь, карантин и т.п.)",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "678",
+      "lastDate": null,
+      "name": "Соловьева Светлана Ивановна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

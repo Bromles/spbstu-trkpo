@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ПРИЕМ В ОФИСЕ АВИАК.ПР.16-1",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "ab896694-a155-11ed-bbb2-b496918ad4af",
+      "lastDate": null,
+      "name": "Левицкая Тамара Владимировна (Диспансеризация)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

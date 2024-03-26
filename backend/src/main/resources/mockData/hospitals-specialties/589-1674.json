@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 74,
+      "freeTicketCount": 74,
+      "id": "84",
+      "lastDate": "2024-04-24T12:00:00",
+      "name": "Тихонова Елена Константиновна",
+      "nearestDate": "2024-04-01T15:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

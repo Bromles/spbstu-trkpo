@@ -1,0 +1,151 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "eUFEZEFBQ0FDQUI=",
+      "lastDate": null,
+      "name": "Брискман Александр Ефимович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 42,
+      "freeTicketCount": 42,
+      "id": "eUFEZEFBQ0FDQUM=",
+      "lastDate": "2024-04-12T19:45:00",
+      "name": "Владимирова Ирина Сергеевна",
+      "nearestDate": "2024-04-08T15:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 70,
+      "freeTicketCount": 70,
+      "id": "eUFEZEFBQ0FDQUY=",
+      "lastDate": "2024-04-12T19:45:00",
+      "name": "Сахарова Ирина Анатольевна",
+      "nearestDate": "2024-04-05T08:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 63,
+      "freeTicketCount": 63,
+      "id": "eUFEZEFBQ0FDQU0=",
+      "lastDate": "2024-04-11T13:45:00",
+      "name": "Гольдберг Юлия Александровна",
+      "nearestDate": "2024-04-04T08:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 23,
+      "freeTicketCount": 23,
+      "id": "eUFEZEFBQ0FDQWc=",
+      "lastDate": "2024-04-12T13:30:00",
+      "name": "Свиридов Олег Валерьевич",
+      "nearestDate": "2024-04-10T08:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 82,
+      "freeTicketCount": 82,
+      "id": "eUFEZEFBQ0FDQWg=",
+      "lastDate": "2024-04-12T13:45:00",
+      "name": "Ковалевская Татьяна Ивановна",
+      "nearestDate": "2024-04-04T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 81,
+      "freeTicketCount": 81,
+      "id": "eUFEZEFBQ0FDQWw=",
+      "lastDate": "2024-04-11T13:45:00",
+      "name": "Соболева Ксения Игоревна",
+      "nearestDate": "2024-04-03T19:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 77,
+      "freeTicketCount": 77,
+      "id": "eUFEZEFBQ0FOQWU=",
+      "lastDate": "2024-04-12T14:30:00",
+      "name": "Коробко Юлия Александровна",
+      "nearestDate": "2024-04-04T08:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "eUFEZEFBQ0FPQUE=",
+      "lastDate": null,
+      "name": "Сурагин Евгений Александрович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 93,
+      "freeTicketCount": 93,
+      "id": "eUFEZEFBQ0FrQXg=",
+      "lastDate": "2024-04-12T19:30:00",
+      "name": "Галл Наталья Владимировна",
+      "nearestDate": "2024-04-02T08:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 106,
+      "freeTicketCount": 106,
+      "id": "eUFEZEFBQ0FrQXo=",
+      "lastDate": "2024-04-12T19:30:00",
+      "name": "Алтухова Наталья Анатольевна",
+      "nearestDate": "2024-04-04T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 109,
+      "freeTicketCount": 109,
+      "id": "eUFEZEFBQ0FrQkM=",
+      "lastDate": "2024-04-12T19:15:00",
+      "name": "Цветкова Марина Глебовна",
+      "nearestDate": "2024-04-05T08:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "eUFEZEFBRkFXQUE=",
+      "lastDate": null,
+      "name": "Ковалевская Татьяна Ивановна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

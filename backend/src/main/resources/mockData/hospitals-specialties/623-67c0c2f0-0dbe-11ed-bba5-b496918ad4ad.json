@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Мебельная 45к2",
+      "freeParticipantCount": 31,
+      "freeTicketCount": 31,
+      "id": "4f8d050d-22c7-11ed-bba6-b496918ad4ad",
+      "lastDate": "2024-03-29T19:00:00",
+      "name": "Кнышов Энвер Русланович (Врач-психотерапевт)",
+      "nearestDate": "2024-03-25T17:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

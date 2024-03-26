@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 117,
+      "freeTicketCount": 117,
+      "id": "1554",
+      "lastDate": "2024-04-11T00:00:00",
+      "name": "Кабинет Вакцинации От Covid-19 1-Ый Этап",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1720",
+      "lastDate": null,
+      "name": "Кабинет Вакцинации От Covid-19 2-Ой Этап",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

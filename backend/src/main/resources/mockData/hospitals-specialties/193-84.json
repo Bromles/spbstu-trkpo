@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Урология",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1451",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Шевцов Иван Владимирович",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Урология",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "2089",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Дементьева Юлия Олеговна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

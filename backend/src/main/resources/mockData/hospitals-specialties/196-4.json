@@ -1,0 +1,162 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "п13.538",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": "Бондаревская Ю.С. Терапевт участковый",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 31,
+      "freeTicketCount": 31,
+      "id": "п13.576",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Жабасова А.С. Терапевт участковый",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "п13.461",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Кадурин Виктор Валерьевич Терапевт участковый",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "п13.489",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Ларин А.Д. Терапевт участ.",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 27,
+      "freeTicketCount": 27,
+      "id": "п.13.161",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Лемеш Алексей Борисович Терапевт участковый",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 21,
+      "freeTicketCount": 21,
+      "id": "п13.580",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Мышкина Д.О. Терапевт участковый",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 14,
+      "freeTicketCount": 14,
+      "id": "п13.494",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": "Пономаренко Екатерина Николаевна Терапевт участковый",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 34,
+      "freeTicketCount": 34,
+      "id": "п13.575",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Селиванов А.Е. Терапевт участковый",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 25,
+      "freeTicketCount": 25,
+      "id": "п13.566",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Талдыкина К.А. Терапевт участковый",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 23,
+      "freeTicketCount": 23,
+      "id": "п14.565",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Шарова В.А. Терапевт участковый",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 17,
+      "freeTicketCount": 17,
+      "id": "п13.437",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Юсубов Г. Я. Терапевт участковый",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "п13.488",
+      "lastDate": null,
+      "name": "Гааг А. В. Терапевт участ.",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "п13.440",
+      "lastDate": null,
+      "name": "Клещева Маргарита Андреевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "п13.424",
+      "lastDate": null,
+      "name": "Лазарева Полина Игоревна Терапевт участковый",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

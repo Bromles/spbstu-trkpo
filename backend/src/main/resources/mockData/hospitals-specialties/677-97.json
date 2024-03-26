@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 518,
+      "freeTicketCount": 518,
+      "id": "205830000003",
+      "lastDate": "2024-05-15T15:30:00",
+      "name": "Небредовская Елена Валерьевна",
+      "nearestDate": "2024-03-26T13:00:00"
+    },
+    {
+      "ariaNumber": "0",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 524,
+      "freeTicketCount": 524,
+      "id": "205830000024",
+      "lastDate": "2024-05-15T19:30:00",
+      "name": "Панин Игорь Владиславович",
+      "nearestDate": "2024-03-25T17:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

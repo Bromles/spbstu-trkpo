@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "ОФТАЛЬМОЛОГИЯ (10)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 100,
+      "id": "531",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Филипенко Дмитрий Игоревич",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "ОФТАЛЬМОЛОГИЯ (10)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1573",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Ковальская Анастасия Анатольевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

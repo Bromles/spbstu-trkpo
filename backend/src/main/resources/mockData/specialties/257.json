@@ -1,0 +1,71 @@
+{
+  "result": [
+    {
+      "id": "37",
+      "ferId": "22",
+      "name": "ПЕДИАТР ДЕТИ ДО 1 ГОДА (ВТ.ЧТ)",
+      "countFreeParticipant": 341,
+      "countFreeTicket": 1022,
+      "lastDate": "2024-04-23T00:00:00",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "id": "38",
+      "ferId": "22",
+      "name": "ПЕДИАТР УЧАСТ.(ПН,СР,ПТ)",
+      "countFreeParticipant": 469,
+      "countFreeTicket": 1817,
+      "lastDate": "2024-04-24T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "id": "23",
+      "ferId": "30",
+      "name": "ХИРУРГ   УЧЕБА 11.03 -31.03  ",
+      "countFreeParticipant": 35,
+      "countFreeTicket": 133,
+      "lastDate": "2024-04-22T00:00:00",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "id": "44",
+      "ferId": "14",
+      "name": "НЕВРОПАТОЛОГ  ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 71,
+      "lastDate": "2024-04-22T00:00:00",
+      "nearestDate": null
+    },
+    {
+      "id": "99",
+      "ferId": "28",
+      "name": "ОРТОПЕД",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 112,
+      "lastDate": "2024-04-22T00:00:00",
+      "nearestDate": null
+    },
+    {
+      "id": "42",
+      "ferId": "19",
+      "name": "ОТОЛАРИНГОЛОГ ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 77,
+      "lastDate": "2024-04-22T00:00:00",
+      "nearestDate": null
+    },
+    {
+      "id": "41",
+      "ferId": "20",
+      "name": "ОФТАЛЬМОЛОГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 109,
+      "lastDate": "2024-04-22T00:00:00",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

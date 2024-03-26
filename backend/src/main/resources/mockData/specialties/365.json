@@ -1,0 +1,17 @@
+{
+  "result": [
+    {
+      "id": "23",
+      "ferId": "23",
+      "name": "Психиатрия",
+      "countFreeParticipant": 1697,
+      "countFreeTicket": 1697,
+      "lastDate": "2024-04-12T19:30:00",
+      "nearestDate": "2024-03-25T16:10:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

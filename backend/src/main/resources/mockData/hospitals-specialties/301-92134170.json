@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 9,
+      "freeTicketCount": 33,
+      "id": "1630",
+      "lastDate": "2024-04-08T18:45:00",
+      "name": "Шепшелева Лариса Сергеевна",
+      "nearestDate": "2024-03-26T12:15:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

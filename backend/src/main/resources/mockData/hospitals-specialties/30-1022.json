@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "40",
+      "lastDate": null,
+      "name": "Тоскина Мария Владимировна (кабинет №210)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "308",
+      "lastDate": "2024-04-08T16:24:00",
+      "name": "Сиряк Наталья Анатольевна (кабинет №210)",
+      "nearestDate": "2024-04-08T16:24:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

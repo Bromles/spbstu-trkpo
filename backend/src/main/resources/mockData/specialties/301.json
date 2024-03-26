@@ -1,0 +1,89 @@
+{
+  "result": [
+    {
+      "id": "92134140",
+      "ferId": "8",
+      "name": "Акушерство и гинекология",
+      "countFreeParticipant": 16,
+      "countFreeTicket": 32,
+      "lastDate": "2024-04-08T13:20:00",
+      "nearestDate": "2024-04-08T09:40:00"
+    },
+    {
+      "id": "92134187",
+      "ferId": "81",
+      "name": "Детская кардиология",
+      "countFreeParticipant": 25,
+      "countFreeTicket": 118,
+      "lastDate": "2024-04-08T19:00:00",
+      "nearestDate": "2024-04-02T14:45:00"
+    },
+    {
+      "id": "92134281",
+      "ferId": "42",
+      "name": "Детская урология-андрология",
+      "countFreeParticipant": 7,
+      "countFreeTicket": 20,
+      "lastDate": "2024-04-08T16:10:00",
+      "nearestDate": "2024-03-26T09:00:00"
+    },
+    {
+      "id": "92134188",
+      "ferId": "11",
+      "name": "Детская хирургия",
+      "countFreeParticipant": 162,
+      "countFreeTicket": 664,
+      "lastDate": "2024-04-08T13:30:00",
+      "nearestDate": "2024-03-27T08:10:00"
+    },
+    {
+      "id": "92134150",
+      "ferId": "14",
+      "name": "Неврология",
+      "countFreeParticipant": 36,
+      "countFreeTicket": 183,
+      "lastDate": "2024-04-08T18:00:00",
+      "nearestDate": "2024-03-26T08:15:00"
+    },
+    {
+      "id": "92134152",
+      "ferId": "19",
+      "name": "Оториноларингология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "92134153",
+      "ferId": "20",
+      "name": "Офтальмология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "92134184",
+      "ferId": "22",
+      "name": "Педиатрия",
+      "countFreeParticipant": 1099,
+      "countFreeTicket": 5790,
+      "lastDate": "2024-04-08T19:36:00",
+      "nearestDate": "2024-03-26T08:00:00"
+    },
+    {
+      "id": "92134170",
+      "ferId": "28",
+      "name": "Травматология и ортопедия",
+      "countFreeParticipant": 9,
+      "countFreeTicket": 33,
+      "lastDate": "2024-04-08T18:45:00",
+      "nearestDate": "2024-03-26T12:15:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

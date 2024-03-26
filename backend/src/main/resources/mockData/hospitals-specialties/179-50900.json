@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ул. Комсомола, д. 2 кабинет 208",
+      "freeParticipantCount": 219,
+      "freeTicketCount": 219,
+      "id": "1527",
+      "lastDate": "2024-04-24T12:27:00",
+      "name": "Кабинет вакцинации от COVID-19",
+      "nearestDate": "2024-03-26T14:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

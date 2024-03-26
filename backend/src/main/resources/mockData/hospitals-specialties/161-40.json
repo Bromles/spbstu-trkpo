@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "25.03.2024: Командировки служебные;\n25.03.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "12",
+      "lastDate": null,
+      "name": "Бухмиллер Екатерина Михайловна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "29.03.2024: Конференция;\n02.04.2024: Командировки служебные;\n02.04.2024: Командировки служебные;\n03.04.2024: Командировки служебные;\n04.04.2024: Командировки служебные;\n04.04.2024: Командировки служебные;\n05.04.2024: Конференция;\n05.04.2024: Конференция",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "693",
+      "lastDate": null,
+      "name": "Смирнов Михаил Игоревич",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

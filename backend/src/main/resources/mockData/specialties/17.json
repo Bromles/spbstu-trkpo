@@ -1,0 +1,134 @@
+{
+  "result": [
+    {
+      "id": "92134251",
+      "ferId": "77",
+      "name": "Аллергология и иммунология",
+      "countFreeParticipant": 142,
+      "countFreeTicket": 142,
+      "lastDate": "2024-04-08T13:30:00",
+      "nearestDate": "2024-03-27T08:30:00"
+    },
+    {
+      "id": "92137143",
+      "ferId": "206",
+      "name": "Бокс, симптомы ОРВИ/Грипп/COVID",
+      "countFreeParticipant": 175,
+      "countFreeTicket": 175,
+      "lastDate": "2024-04-08T18:00:00",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "id": "92135147",
+      "ferId": "79",
+      "name": "Детская гастроэнтерология",
+      "countFreeParticipant": 79,
+      "countFreeTicket": 79,
+      "lastDate": "2024-04-08T14:40:00",
+      "nearestDate": "2024-03-29T14:20:00"
+    },
+    {
+      "id": "92135178",
+      "ferId": "8",
+      "name": "Детская гинекология",
+      "countFreeParticipant": 120,
+      "countFreeTicket": 120,
+      "lastDate": "2024-04-08T19:40:00",
+      "nearestDate": "2024-03-25T18:40:00"
+    },
+    {
+      "id": "92137581",
+      "ferId": "81",
+      "name": "Детская кардиология",
+      "countFreeParticipant": 158,
+      "countFreeTicket": 158,
+      "lastDate": "2024-04-08T13:40:00",
+      "nearestDate": "2024-03-26T16:00:00"
+    },
+    {
+      "id": "92134988",
+      "ferId": "28",
+      "name": "Детская ортопедия",
+      "countFreeParticipant": 79,
+      "countFreeTicket": 79,
+      "lastDate": "2024-04-08T19:45:00",
+      "nearestDate": "2024-03-26T10:00:00"
+    },
+    {
+      "id": "92134188",
+      "ferId": "11",
+      "name": "Детская хирургия",
+      "countFreeParticipant": 12,
+      "countFreeTicket": 12,
+      "lastDate": "2024-04-08T19:40:00",
+      "nearestDate": "2024-03-26T12:40:00"
+    },
+    {
+      "id": "92134186",
+      "ferId": "83",
+      "name": "Детская эндокринология",
+      "countFreeParticipant": 53,
+      "countFreeTicket": 53,
+      "lastDate": "2024-04-08T14:20:00",
+      "nearestDate": "2024-03-26T12:00:00"
+    },
+    {
+      "id": "92134147",
+      "ferId": "32",
+      "name": "Инфекционист",
+      "countFreeParticipant": 71,
+      "countFreeTicket": 71,
+      "lastDate": "2024-04-08T13:20:00",
+      "nearestDate": "2024-04-01T09:00:00"
+    },
+    {
+      "id": "92134150",
+      "ferId": "14",
+      "name": "Неврология",
+      "countFreeParticipant": 186,
+      "countFreeTicket": 186,
+      "lastDate": "2024-04-08T19:40:00",
+      "nearestDate": "2024-03-27T08:30:00"
+    },
+    {
+      "id": "92134164",
+      "ferId": "89",
+      "name": "Нефрология",
+      "countFreeParticipant": 29,
+      "countFreeTicket": 29,
+      "lastDate": "2024-04-05T18:45:00",
+      "nearestDate": "2024-03-29T15:15:00"
+    },
+    {
+      "id": "92134152",
+      "ferId": "19",
+      "name": "Оториноларингология",
+      "countFreeParticipant": 105,
+      "countFreeTicket": 105,
+      "lastDate": "2024-04-08T19:20:00",
+      "nearestDate": "2024-04-01T14:15:00"
+    },
+    {
+      "id": "92134153",
+      "ferId": "20",
+      "name": "Офтальмология",
+      "countFreeParticipant": 129,
+      "countFreeTicket": 129,
+      "lastDate": "2024-04-08T13:40:00",
+      "nearestDate": "2024-04-01T08:00:00"
+    },
+    {
+      "id": "92134184",
+      "ferId": "22",
+      "name": "Педиатрия",
+      "countFreeParticipant": 1384,
+      "countFreeTicket": 1384,
+      "lastDate": "2024-04-08T19:30:00",
+      "nearestDate": "2024-03-25T16:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

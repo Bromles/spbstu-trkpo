@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "843",
+      "lastDate": null,
+      "name": "Кабинет Вакцинации От Covid-19 1 Этап, Дети 12-17 Лет",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "844",
+      "lastDate": null,
+      "name": "Кабинет Вакцинации От Covid-19 2 Этап, Дети 12-17 Лет",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,26 @@
+{
+  "result": [
+    {
+      "id": "92134151",
+      "ferId": "16",
+      "name": "Общая врачебная практика (семейная медицина)",
+      "countFreeParticipant": 15,
+      "countFreeTicket": 25,
+      "lastDate": "2024-04-08T10:48:00",
+      "nearestDate": "2024-04-05T09:36:00"
+    },
+    {
+      "id": "92134157",
+      "ferId": "27",
+      "name": "Терапия",
+      "countFreeParticipant": 81,
+      "countFreeTicket": 102,
+      "lastDate": "2024-04-08T17:48:00",
+      "nearestDate": "2024-03-28T10:12:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

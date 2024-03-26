@@ -1,0 +1,26 @@
+{
+  "result": [
+    {
+      "id": "72",
+      "ferId": "16",
+      "name": "ОБЩАЯ ВРАЧЕБНАЯ ПРАКТИКА",
+      "countFreeParticipant": 101,
+      "countFreeTicket": 216,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "id": "4",
+      "ferId": "27",
+      "name": "ТЕРАПЕВТ УЧАСТКОВЫЙ",
+      "countFreeParticipant": 614,
+      "countFreeTicket": 1159,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

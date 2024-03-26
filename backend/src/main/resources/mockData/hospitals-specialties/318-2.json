@@ -1,0 +1,85 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Гинекология",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "40",
+      "lastDate": null,
+      "name": "Антонова Елена Михайловна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "Гинекология",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 51,
+      "freeTicketCount": 54,
+      "id": "27",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Игошина Татьяна Алексеевна",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "Гинекология",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 48,
+      "freeTicketCount": 48,
+      "id": "10",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Казакова Зинаида Ивановна",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "Гинекология",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 9,
+      "freeTicketCount": 9,
+      "id": "571",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Керимова Регина Мукаиловна",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": "Гинекология",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "752",
+      "lastDate": null,
+      "name": "Лесная Наталия Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "Гинекология",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 29.03.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "803",
+      "lastDate": null,
+      "name": "Ульфан Татьяна Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "Гинекология",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 46,
+      "freeTicketCount": 49,
+      "id": "310",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Черникова Нина Николаевна",
+      "nearestDate": "2024-04-05T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

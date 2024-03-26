@@ -1,0 +1,173 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 25,
+      "freeTicketCount": 37,
+      "id": "п98.273",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Аношина Е.И. (отд.1) ",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "п98.291",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": "Арсеньева Л.В.(отд.1)",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "п98.287",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Блинкова И.А.(отд 2) ",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 30,
+      "freeTicketCount": 30,
+      "id": "п98.224",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Герасимова И.А.(отд1) ",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 44,
+      "freeTicketCount": 44,
+      "id": "п98.292",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Дроняева О.Ю(отд.1)",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "п98.200",
+      "lastDate": "2024-03-25T00:00:00",
+      "name": "Куприянова Д.Ю.(отд.2) ",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "п98.249",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Малышев Ю.Д.(отд.2) ",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 53,
+      "freeTicketCount": 53,
+      "id": "п98.294",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Пащенко О.Ю (отд.1) ",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 54,
+      "freeTicketCount": 54,
+      "id": "п98.259",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Сидорова А. Ю.(отд1)",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "п98.261",
+      "lastDate": null,
+      "name": "Грабик М.А.(отд2) ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 9,
+      "id": "п98.165",
+      "lastDate": "2024-03-25T00:00:00",
+      "name": "Муравьева Е. В. (отд 1) ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "п98.94",
+      "lastDate": null,
+      "name": "Насонова А. В.(отд 2) ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "п98.232",
+      "lastDate": null,
+      "name": "Роговенко С. Ю.(отд.2) Отпуск",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "п98.115",
+      "lastDate": null,
+      "name": "Светличная А.В.(отд. 1) Отпуск",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "п98.197",
+      "lastDate": null,
+      "name": "Туваева А.А.(отд.1) Отпуск",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

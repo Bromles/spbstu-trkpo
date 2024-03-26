@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "801",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 61,
+      "freeTicketCount": 61,
+      "id": "2774",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": "Науменко Илья Анатольевич",
+      "nearestDate": "2024-04-12T00:00:00"
+    },
+    {
+      "ariaNumber": "802",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 40,
+      "freeTicketCount": 40,
+      "id": "264",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Саласская Марина Юрьевна",
+      "nearestDate": "2024-04-12T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

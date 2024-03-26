@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 60,
+      "freeTicketCount": 60,
+      "id": "853",
+      "lastDate": "2024-04-08T19:24:00",
+      "name": "Магомедова Зульфия Арифовна",
+      "nearestDate": "2024-04-01T14:36:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

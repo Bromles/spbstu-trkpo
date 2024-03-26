@@ -1,0 +1,173 @@
+{
+  "result": [
+    {
+      "ariaNumber": "8 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 43,
+      "freeTicketCount": 43,
+      "id": "1237",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Котов Вадим Сергеевич",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "4 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 41,
+      "freeTicketCount": 41,
+      "id": "1238",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Хворостьянова Анна Александровна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "5 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 46,
+      "freeTicketCount": 46,
+      "id": "1444",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Харина Валерия Витальевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "11 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 53,
+      "freeTicketCount": 53,
+      "id": "1469",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Вьюхина Анастасия Алексеевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "2 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 58,
+      "freeTicketCount": 58,
+      "id": "1777",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Ибрагимова Диана Ильгизовна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "16 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 116,
+      "id": "1848",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Костюкова Алина Андреевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "10 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 7,
+      "freeTicketCount": 151,
+      "id": "1886",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Саутина Мария Сергеевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "3 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 65,
+      "freeTicketCount": 80,
+      "id": "1894",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Пашнина Элина Александровна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "25 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 62,
+      "freeTicketCount": 135,
+      "id": "1896",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Шамилова Патимат Шамильевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "26 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 118,
+      "id": "1901",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Мухтарова Улкер Шукюр Кызы",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "14 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 56,
+      "freeTicketCount": 129,
+      "id": "1924",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Лебедева Юлия Алексеевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "24 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 69,
+      "freeTicketCount": 69,
+      "id": "1925",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Вокуева Анастасия Олеговна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "15 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 69,
+      "freeTicketCount": 98,
+      "id": "1949",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Ильгашова Юлия Геннадьевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "ВОП-Стахановцев12(ПО№10)",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 81,
+      "freeTicketCount": 81,
+      "id": "1951",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Набиева Норабону Алишеровна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "6 участок",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 52,
+      "freeTicketCount": 81,
+      "id": "1971",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Омарова Издаг Закариевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

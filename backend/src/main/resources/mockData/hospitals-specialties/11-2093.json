@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "обслуж. в ПО 69 в Зеленогорске",
+      "freeParticipantCount": 21,
+      "freeTicketCount": 31,
+      "id": "9566",
+      "lastDate": "2024-04-05T18:05:00",
+      "name": "Кутырин Вячеслав Сергеевич",
+      "nearestDate": "2024-03-25T16:35:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

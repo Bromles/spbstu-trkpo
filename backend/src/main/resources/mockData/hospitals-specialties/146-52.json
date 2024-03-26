@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": "7 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 49,
+      "freeTicketCount": 49,
+      "id": "403",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Алферова Валентина Сергеевна",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "ДПО № 23",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 14,
+      "freeTicketCount": 14,
+      "id": "277",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Антропова Людмила Викторовна",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "5 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 46,
+      "freeTicketCount": 46,
+      "id": "427",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Виниченко Светлана Николаевна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "4 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 18,
+      "freeTicketCount": 18,
+      "id": "410",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Крупцева Полина Андреевна",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "6 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 34,
+      "freeTicketCount": 34,
+      "id": "33",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Пожнина Ольга Ильинична",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "ДПО № 23",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 85,
+      "freeTicketCount": 85,
+      "id": "388",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Яковлева Дарья Дмитриевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

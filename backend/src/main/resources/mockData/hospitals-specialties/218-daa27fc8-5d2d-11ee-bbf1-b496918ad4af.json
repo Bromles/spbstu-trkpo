@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 13,
+      "freeTicketCount": 13,
+      "id": "72803a66-fdce-11ec-bba2-b496918ad4ad",
+      "lastDate": "2024-04-03T15:45:00",
+      "name": "Протасов Андрей Кириллович (Врач детский уролог-андролог)",
+      "nearestDate": "2024-04-03T12:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 29,
+      "freeTicketCount": 29,
+      "id": "4b55df1f-5dd2-11ee-bbf6-b496918ad4af",
+      "lastDate": "2024-04-03T19:15:00",
+      "name": "Бекбузарова Хэди Висангириевна (Врач детский уролог-андролог)",
+      "nearestDate": "2024-04-02T16:15:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

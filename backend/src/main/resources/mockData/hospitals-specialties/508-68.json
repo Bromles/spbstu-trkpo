@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "1-69,5а,5_1-5_64,5_19а,5_60,5_8,38,5_22а,5_22б",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 18,
+      "id": "p123.81",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ТЕРЕНТЬЕВ Д.А.301 каб.",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

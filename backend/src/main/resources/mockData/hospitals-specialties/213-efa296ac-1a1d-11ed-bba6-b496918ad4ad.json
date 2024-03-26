@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "89ba8162-9198-11ed-bbb2-b496918ad4af",
+      "lastDate": null,
+      "name": "Хисамутдинова (Бадрутдинова) Ляйсан Ильнуровна (Кабинет № 317)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

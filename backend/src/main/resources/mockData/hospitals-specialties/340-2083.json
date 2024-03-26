@@ -1,0 +1,250 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Дежурный кабинет 08.04.24-13.04.24",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "258",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Алипашаева Милана Абдулазимовна",
+      "nearestDate": "2024-04-08T16:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "17",
+      "lastDate": null,
+      "name": "Артемьева Ольга Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "9",
+      "lastDate": "2024-04-08T12:30:00",
+      "name": "Воронинская Светлана Викторовна",
+      "nearestDate": "2024-04-08T12:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "257",
+      "lastDate": null,
+      "name": "Гусева Ирина Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Дежурный кабинет 25.03.24-29.03.24",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "229",
+      "lastDate": null,
+      "name": "Зимовская Дарья Дмитриевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Дежурный кабинет 22.04.24; 23.04.24; 25.04.24",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "14",
+      "lastDate": "2024-04-08T13:00:00",
+      "name": "Ивачева Ирина Алексеевна",
+      "nearestDate": "2024-04-08T13:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Дежурный кабинет 01.04.24-05.04.24",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "192",
+      "lastDate": null,
+      "name": "Ильенко Наталья Ивановна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Дежурный кабинет 25.03.24-30.03.24",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "232",
+      "lastDate": null,
+      "name": "Клименко Татьяна Юрьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Дежурный кабинет 15.04.24-19.04.24",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "22",
+      "lastDate": null,
+      "name": "Лосева Елена Аркадьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Дежурный кабинет 01.04.24-06.04.24",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "12",
+      "lastDate": null,
+      "name": "Мелковский Роман Валерьевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "268",
+      "lastDate": null,
+      "name": "Опанасюк Ольга Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "250",
+      "lastDate": "2024-04-08T12:30:00",
+      "name": "Папаскуа Гванца Ираклиевна",
+      "nearestDate": "2024-04-08T12:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "269",
+      "lastDate": "2024-04-08T15:45:00",
+      "name": "Пашкевич Наталья Юрьевна",
+      "nearestDate": "2024-04-08T15:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "270",
+      "lastDate": "2024-04-08T12:30:00",
+      "name": "Перевалов Андрей Петрович",
+      "nearestDate": "2024-04-04T12:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Дежурный кабинет 18.03.24-22.03.24",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "251",
+      "lastDate": "2024-04-08T13:15:00",
+      "name": "Перевалова Мария Андреевна",
+      "nearestDate": "2024-04-08T13:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Дежурный кабинет 11.03.24-15.03.24",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "26",
+      "lastDate": "2024-04-08T15:45:00",
+      "name": "Синицына Татьяна Евгеньевна",
+      "nearestDate": "2024-04-08T15:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Дежурный кабинет 24.04.24; 26.04.24; 27.04.24",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "55",
+      "lastDate": null,
+      "name": "Смирнова Юлия Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Дежурный кабинет 18.03.24-23.03.24",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "267",
+      "lastDate": null,
+      "name": "Субботина Оксана Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Дежурный кабинет 08.04.24-12.04.24",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8",
+      "lastDate": null,
+      "name": "Татаренцева Галина Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "239",
+      "lastDate": "2024-04-08T12:30:00",
+      "name": "Титова Наталья Евгеньевна",
+      "nearestDate": "2024-04-08T08:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Дежурный кабинет 22.04.24-27.04.24",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "107",
+      "lastDate": null,
+      "name": "Шолохова Екатерина Валерьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Дежурный кабинет 04.03.24-07.03.24",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "237",
+      "lastDate": null,
+      "name": "Яковлева Елена Владимировна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

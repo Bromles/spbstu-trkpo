@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 148,
+      "freeTicketCount": 148,
+      "id": "eUFvZEFBVkFDQUg=",
+      "lastDate": "2024-04-15T18:48:00",
+      "name": "Погосян Гиоргий Семенович",
+      "nearestDate": "2024-04-01T15:24:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 134,
+      "freeTicketCount": 134,
+      "id": "eUFvZEFBVkFDQUk=",
+      "lastDate": "2024-04-15T13:48:00",
+      "name": "Костанян Эммин Мамиконович",
+      "nearestDate": "2024-04-01T13:24:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "82",
+      "lastDate": "2024-03-25T16:24:20.7591514+03:00",
+      "name": "Галущенко Раиса Сергеевна  только консультация!!!!!!! ПАРОДОНТОЛОГ!!!!!!",
+      "nearestDate": "2024-03-25T16:24:20.7591514+03:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "80",
+      "lastDate": "2024-03-25T16:24:20.7691514+03:00",
+      "name": "Харитонова Ирина Андреевна ПАРОДОНТОЛОГИЧЕСКИЙ ПРИЕМ!!!!!!Консультация!!!",
+      "nearestDate": "2024-03-25T16:24:20.7691514+03:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 1,
+      "id": "78",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Шефер Светлана Леонидовна ПАРОДОНТОЛОГИЧЕСКИЙ ПРИЕМ!!!!!!",
+      "nearestDate": "2024-03-25T16:24:20.7691514+03:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

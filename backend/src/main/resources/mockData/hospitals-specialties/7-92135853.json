@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Приём ведётся по адресу  наб.реки Фонтанки, дом 155.  Только Адмиралтейский район . Приём только не беременных!\n\n",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1274",
+      "lastDate": null,
+      "name": "Рязанова Ольга Ивановна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

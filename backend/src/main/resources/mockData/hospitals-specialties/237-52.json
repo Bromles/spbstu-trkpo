@@ -1,0 +1,118 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Педиатрическое общ ДПО № 69",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 10,
+      "freeTicketCount": 10,
+      "id": "1487",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Баймурзаева Маржан Абдулгалимовна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Педиатрическое общ ДПО № 69",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "1552",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Герасименко Елена Юрьевна возраст 0г-17г",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "Педиатрическое общ ДПО № 69",
+      "ariaType": null,
+      "comment": "Прием ведется по адресу ул. Ковалевская, д. 26",
+      "freeParticipantCount": 25,
+      "freeTicketCount": 25,
+      "id": "1596",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Ефимова Ангелина Ивановна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Педиатрическое общ ДПО № 69",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 14,
+      "freeTicketCount": 14,
+      "id": "1602",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Загидуллина Валима Вафовна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Педиатрическое общ ДПО № 69",
+      "ariaType": null,
+      "comment": "Прием ведется по адресу ул. Ковалевская, д. 26 ",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "1641",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Клеймёнова Лилия Викторовна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Педиатрическое общ ДПО № 69",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 22,
+      "freeTicketCount": 22,
+      "id": "1654",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Криволуцкая Инна Витальевна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Педиатрическое общ ДПО № 69",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 28,
+      "freeTicketCount": 28,
+      "id": "1747",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Полякова Екатерина Геннадьевна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Педиатрическое общ ДПО № 69",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 25,
+      "freeTicketCount": 25,
+      "id": "1813",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Тишкова Евгения Павловна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Педиатрическое общ ДПО № 69",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 30,
+      "freeTicketCount": 30,
+      "id": "1833",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Холопова Людмила Васильевна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Педиатрическое общ ДПО № 69",
+      "ariaType": null,
+      "comment": "Прием ведется по адресу: ул. Ковалевская, д. 26",
+      "freeParticipantCount": 26,
+      "freeTicketCount": 29,
+      "id": "2188",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Минеева Оксана Евгеньевна возраст 0г-17г",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

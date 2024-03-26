@@ -1,0 +1,118 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 19,
+      "freeTicketCount": 29,
+      "id": "007",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Егорова Е.В. (прием детей до 2-х лет) (СОЮЗНЫЙ 7)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 12,
+      "freeTicketCount": 20,
+      "id": "д62.220D",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Емелина К.С. (прием детей до 2-х лет) (СОЮЗНЫЙ 7)",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 21,
+      "freeTicketCount": 30,
+      "id": "д62.137",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Землянская В.Н. (прием детей до 2-х лет)  (СОЮЗНЫЙ 7)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 20,
+      "freeTicketCount": 28,
+      "id": "010",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Коврижных О.И. (прием детей до 2-х лет) (СОЮЗНЫЙ 7)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 13,
+      "freeTicketCount": 23,
+      "id": "013",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Михайлов А.В. (прием детей до 2-х лет) (СОЮЗНЫЙ 7)",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 11,
+      "freeTicketCount": 21,
+      "id": "012",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Наследова Ю.В. (прием детей до 2-х лет) (СОЮЗНЫЙ 7)",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 15,
+      "freeTicketCount": 23,
+      "id": "042",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Оболенский А.А. (прием детей до 2-х лет) (СОЮЗНЫЙ 7)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 12,
+      "freeTicketCount": 21,
+      "id": "020",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Сахиева З.М. (прием детей до 2-х лет)  (СОЮЗНЫЙ 7)",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 16,
+      "freeTicketCount": 25,
+      "id": "д62.39",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Сысоенко Т.Н.(прием детей до 2-х лет) (СОЮЗНЫЙ 7)",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 6,
+      "id": "д62.229D",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Ивлева ЮН (прием детей до 2-х лет) (СОЮЗНЫЙ 7)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

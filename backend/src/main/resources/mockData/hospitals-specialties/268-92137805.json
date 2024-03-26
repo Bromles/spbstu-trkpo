@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 131,
+      "freeTicketCount": 131,
+      "id": "569",
+      "lastDate": "2024-04-08T15:51:00",
+      "name": "ФЛГ Кабинет -",
+      "nearestDate": "2024-04-01T14:37:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

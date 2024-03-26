@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "582",
+      "lastDate": null,
+      "name": "Нестерова Наталья Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "с 01.04.2024 по 02.04.2024: Диспансеризация школьников;\n05.04.2024: Диспансеризация школьников;\n08.04.2024: Диспансеризация школьников",
+      "freeParticipantCount": 65,
+      "freeTicketCount": 106,
+      "id": "720",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Шеина Екатерина Владимировна",
+      "nearestDate": "2024-03-27T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

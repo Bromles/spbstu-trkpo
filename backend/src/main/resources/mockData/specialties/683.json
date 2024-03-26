@@ -1,0 +1,116 @@
+{
+  "result": [
+    {
+      "id": "b8a1d050-282d-11ec-8128-00155d013203",
+      "ferId": "58",
+      "name": "Углубленная диспансеризац",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "43190872-5e51-11ec-812b-00155d01320d",
+      "ferId": "114",
+      "name": "Гастроэнтерология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "d720768a-27b9-11ec-8227-b42e9991e1bd",
+      "ferId": "27",
+      "name": "Терапия",
+      "countFreeParticipant": 292,
+      "countFreeTicket": 292,
+      "lastDate": "2024-04-27T13:40:00",
+      "nearestDate": "2024-04-01T10:00:00"
+    },
+    {
+      "id": "d7207691-27b9-11ec-8227-b42e9991e1bd",
+      "ferId": "118",
+      "name": "Кардиология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "d72076a1-27b9-11ec-8227-b42e9991e1bd",
+      "ferId": "125",
+      "name": "Пульмонология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "d72076ae-27b9-11ec-8227-b42e9991e1bd",
+      "ferId": "31",
+      "name": "Эндокринология",
+      "countFreeParticipant": 57,
+      "countFreeTicket": 57,
+      "lastDate": "2024-04-22T19:40:00",
+      "nearestDate": "2024-04-01T17:40:00"
+    },
+    {
+      "id": "dde4d67a-27b9-11ec-8227-b42e9991e1bd",
+      "ferId": "20",
+      "name": "Офтальмология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "dde4d68f-27b9-11ec-8227-b42e9991e1bd",
+      "ferId": "10",
+      "name": "Дерматовенерология",
+      "countFreeParticipant": 506,
+      "countFreeTicket": 506,
+      "lastDate": "2024-04-27T19:00:00",
+      "nearestDate": "2024-03-26T09:30:00"
+    },
+    {
+      "id": "dde4d6a4-27b9-11ec-8227-b42e9991e1bd",
+      "ferId": "129",
+      "name": "Ультразвуковая диагностика",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "dde4d6b1-27b9-11ec-8227-b42e9991e1bd",
+      "ferId": "131",
+      "name": "Функциональная диагностика",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "dde4d6b6-27b9-11ec-8227-b42e9991e1bd",
+      "ferId": "24",
+      "name": "Рентгенология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "dde4d713-27b9-11ec-8227-b42e9991e1bd",
+      "ferId": "28",
+      "name": "Травматология и ортопедия",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

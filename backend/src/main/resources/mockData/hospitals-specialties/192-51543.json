@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "3420",
+      "lastDate": "2024-04-03T18:48:00",
+      "name": "Козулин Роман Евгеньевич",
+      "nearestDate": "2024-04-03T18:48:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "3566",
+      "lastDate": null,
+      "name": "Паизов Илгар Набиали Оглы",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "3583",
+      "lastDate": "2024-04-03T19:12:00",
+      "name": "Поладян Арсен Овсепович",
+      "nearestDate": "2024-04-03T19:12:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "3641",
+      "lastDate": null,
+      "name": "Сомов Максим Викторович",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "b6b23115-1a58-11ed-bba6-b496918ad4ad",
+      "lastDate": "2024-04-08T14:40:00",
+      "name": "Свистунов Алексей Владимирович (кабинет № 142)",
+      "nearestDate": "2024-04-03T13:20:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 24,
+      "freeTicketCount": 48,
+      "id": "396",
+      "lastDate": "2024-04-08T17:30:00",
+      "name": "Вешкина Анна Николаевна",
+      "nearestDate": "2024-03-26T08:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 37,
+      "freeTicketCount": 84,
+      "id": "771",
+      "lastDate": "2024-04-08T12:30:00",
+      "name": "Сыщенко Анастасия Александровна",
+      "nearestDate": "2024-03-28T09:20:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

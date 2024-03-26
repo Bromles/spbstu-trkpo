@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 70,
+      "freeTicketCount": 203,
+      "id": "130",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Колмык В.А. 1отд. ",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 87,
+      "id": "40",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Дюмаева В.А. 2 отд.(отпуск)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 77,
+      "id": "28",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Калинина Е.С. 2ОТД (участок Бебневой)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 115,
+      "id": "31",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Моругина М.Г. 1отд. ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 94,
+      "id": "41",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Чуварова А.С 2отд.",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

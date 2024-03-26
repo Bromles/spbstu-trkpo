@@ -1,0 +1,44 @@
+{
+  "result": [
+    {
+      "id": "35",
+      "ferId": "8",
+      "name": "АКУШЕР-ГИНЕКОЛОГ",
+      "countFreeParticipant": 5,
+      "countFreeTicket": 6,
+      "lastDate": "2024-03-30T00:00:00",
+      "nearestDate": "2024-03-30T00:00:00"
+    },
+    {
+      "id": "70",
+      "ferId": "27",
+      "name": "ТЕРАПЕВТ(для берем.состоящ.на учете)",
+      "countFreeParticipant": 73,
+      "countFreeTicket": 73,
+      "lastDate": "2024-04-08T00:00:00",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "id": "77",
+      "ferId": "0",
+      "name": "ПОВТОРНЫЙ ПРИЕМ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "76",
+      "ferId": "23",
+      "name": "ПСИХОЛОГ",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

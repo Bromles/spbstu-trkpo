@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Стоматологическое отделение №7",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 25,
+      "freeTicketCount": 25,
+      "id": "233",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "Гордич Анна Васильевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Стоматологическое отделение №7",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 200,
+      "freeTicketCount": 200,
+      "id": "242",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "Фоломеева Ольга Николаевна",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

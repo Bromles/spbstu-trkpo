@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "только для переболевших Covid-19 более двух месяцев назад",
+      "freeParticipantCount": 82,
+      "freeTicketCount": 82,
+      "id": "904",
+      "lastDate": "2024-04-08T15:45:00",
+      "name": "Кабинет профилактики (углубленная диспансеризация) ",
+      "nearestDate": "2024-03-26T09:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

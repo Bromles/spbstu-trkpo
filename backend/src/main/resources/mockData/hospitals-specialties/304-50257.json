@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "   ",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "71",
+      "lastDate": null,
+      "name": "Гусарова Наталья Викторовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "(СИФИЛИС)\nБОЛЬНИЧНЫЙ С 11.03.24",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "35",
+      "lastDate": "2024-03-26T18:00:00",
+      "name": "Егурнова Ирина Николаевна",
+      "nearestDate": "2024-03-26T15:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "(СИФИЛИС)\n",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "12",
+      "lastDate": "2024-03-26T12:00:00",
+      "name": "Кинкладзе Майя Анзоровна",
+      "nearestDate": "2024-03-26T09:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "68",
+      "lastDate": null,
+      "name": "Смирнов Дмитрий Анатольевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "   ",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "32",
+      "lastDate": "2024-03-26T12:00:00",
+      "name": "Ярошенко Валерий Анриевич",
+      "nearestDate": "2024-03-25T17:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

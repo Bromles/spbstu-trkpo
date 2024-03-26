@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Хирургическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 14,
+      "freeTicketCount": 22,
+      "id": "276",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Фаворисов Далер Ильдарович",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "Хирургическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 48,
+      "freeTicketCount": 67,
+      "id": "418",
+      "lastDate": "2024-04-09T00:00:00",
+      "name": "Саадулаев Рамазан Ибрагимович",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Хирургическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 43,
+      "freeTicketCount": 63,
+      "id": "433",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Велиев Нисредин Зияудинович",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

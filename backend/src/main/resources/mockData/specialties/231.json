@@ -1,0 +1,89 @@
+{
+  "result": [
+    {
+      "id": "wvDg9y3u8u7w6O3u6+Dw6O3j7uvu4w==",
+      "ferId": "19",
+      "name": "Врач-оториноларинголог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "wvDg9y3u9PLg6/zs7uvu4w==",
+      "ferId": "20",
+      "name": "Врач-офтальмолог",
+      "countFreeParticipant": 1,
+      "countFreeTicket": 1,
+      "lastDate": "2024-03-26T18:45:00",
+      "nearestDate": "2024-03-26T18:45:00"
+    },
+    {
+      "id": "wvDg9y3y5fDg7+Xi8l/z9+Dx8uru4vvp",
+      "ferId": "27",
+      "name": "Врач-терапевт участковый",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "wvDg918t9ejw8/Dj",
+      "ferId": "30",
+      "name": "Врач -хирург",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "wvDg91/u4fnl6V/v8ODq8ujq6A==",
+      "ferId": "16",
+      "name": "Врач общей практики",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "xOjx7+Dt8eXw6Ofg9uj/",
+      "ferId": "27",
+      "name": "Диспансеризация",
+      "countFreeParticipant": 310,
+      "countFreeTicket": 310,
+      "lastDate": "2024-04-08T19:40:00",
+      "nearestDate": "2024-03-25T16:40:00"
+    },
+    {
+      "id": "x+Di5eTz/vno6V/u9PLg6/zs7uvu4+j35fHq6Oxf7vLk5evl7ejl7A==",
+      "ferId": "20",
+      "name": "Заведующий офтальмологическим отделением",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "x+Dv6PH8X+3gX+Lg6vbo7eD26P5f7vJfQ09WSUQtMTk=",
+      "ferId": "55",
+      "name": "Запись на вакцинацию от COVID-19",
+      "countFreeParticipant": 15,
+      "countFreeTicket": 15,
+      "lastDate": "2024-04-08T10:45:00",
+      "nearestDate": null
+    },
+    {
+      "id": "0+Pr8+Hr5e3t4P9f5Ojx7+Dt8eXw6Ofg9uj/",
+      "ferId": "58",
+      "name": "Углубленная диспансеризация",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

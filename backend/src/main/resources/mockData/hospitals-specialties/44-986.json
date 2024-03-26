@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "1-33",
+      "ariaType": null,
+      "comment": "*запись для участников СВО и членов их семей",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "116",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Медицинский психолог ",
+      "nearestDate": "2024-04-03T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

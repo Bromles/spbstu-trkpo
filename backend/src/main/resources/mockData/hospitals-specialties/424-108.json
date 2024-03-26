@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 19,
+      "freeTicketCount": 172,
+      "id": "124",
+      "lastDate": "2024-04-08T13:45:00",
+      "name": "Абрамова Екатерина Александровна ",
+      "nearestDate": "2024-03-25T17:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 185,
+      "id": "60",
+      "lastDate": "2024-04-08T16:40:00",
+      "name": "Армаш Юлия Александровна ",
+      "nearestDate": "2024-03-26T15:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 20,
+      "freeTicketCount": 120,
+      "id": "121",
+      "lastDate": "2024-04-05T20:45:00",
+      "name": "Дорох Антон Олегович ",
+      "nearestDate": "2024-04-01T15:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

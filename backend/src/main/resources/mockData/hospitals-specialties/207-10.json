@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "п49.91",
+      "lastDate": null,
+      "name": "Гирнык Елена Анатольевна ",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 11,
+      "id": "п49.168",
+      "lastDate": "2024-03-27T00:00:00",
+      "name": "САНКЕВИЧ  ТАТЬЯНА ВЛАДИМИРОВНА  (расписание уточняется)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "п.49.112",
+      "lastDate": null,
+      "name": "ЧЕКЕРЕС ДМИТРИЙ ЮРЬЕВИЧ  ",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

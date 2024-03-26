@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диспансерное наблюдение",
+      "freeParticipantCount": 95,
+      "freeTicketCount": 95,
+      "id": "61c95adc-0dbe-11ed-bba5-b496918ad4ad",
+      "lastDate": "2024-04-08T12:24:00",
+      "name": "Абрам Наталия Викторовна (Врач общей практики (семейный врач))",
+      "nearestDate": "2024-03-28T10:24:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диспансерное наблюдение",
+      "freeParticipantCount": 120,
+      "freeTicketCount": 120,
+      "id": "6dc27cad-0dbe-11ed-bba5-b496918ad4ad",
+      "lastDate": "2024-04-08T19:24:00",
+      "name": "Шарпило Галина Егоровна (Врач общей практики (семейный врач))",
+      "nearestDate": "2024-03-27T10:24:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

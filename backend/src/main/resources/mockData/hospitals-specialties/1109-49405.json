@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Участок №3, Участок №23",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "686",
+      "lastDate": null,
+      "name": "Стовба Варвара Вячеславовна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,184 @@
+{
+  "result": [
+    {
+      "ariaNumber": "11",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "201",
+      "lastDate": null,
+      "name": "Дудич Майя Валерьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "15",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "76",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Жуманиязова Гулчера ",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "13",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1114",
+      "lastDate": null,
+      "name": "Качаева Анна Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "4",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 13,
+      "freeTicketCount": 13,
+      "id": "417",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Лапина Елена Александровна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "14",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "661",
+      "lastDate": null,
+      "name": "Лебедева Мария Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "8",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "989",
+      "lastDate": null,
+      "name": "Лесничая Наталья Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "7",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 07.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1044",
+      "lastDate": null,
+      "name": "Масликова Анастасия Андреевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "5",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 31.03.2024: Очередные и дополнительные отпуска;\n05.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "213",
+      "lastDate": null,
+      "name": "Мезенцева Юлия Вадимовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "9",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "164",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Пиликина Марина Борисовна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "6",
+      "ariaType": null,
+      "comment": "с 01.04.2024 по 05.04.2024: Командировки служебные",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "33",
+      "lastDate": null,
+      "name": "Пилипцова Светлана Аркадьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "3",
+      "ariaType": null,
+      "comment": "с 28.03.2024 по 29.03.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "278",
+      "lastDate": null,
+      "name": "Пособчук Мария Дмитриевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "1го",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 31.03.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "577",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Степанова Екатерина Сергеевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "1",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1002",
+      "lastDate": null,
+      "name": "Струкова Регина Павловна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "10",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 31.03.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "170",
+      "lastDate": null,
+      "name": "Сырова Наталья Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "2",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1137",
+      "lastDate": null,
+      "name": "Уткина Анастасия Юрьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "16",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 4,
+      "id": "999",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Хозяинова Елена Владимировна",
+      "nearestDate": "2024-04-08T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

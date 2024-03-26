@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": " (ТЕЛЕМЕДИЦИНА)",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "81f79781-3d0a-11ee-bbc1-00155d03021b",
+      "lastDate": null,
+      "name": "Мимонов Егор Александрович (ТЕЛЕМЕДИЦИНА)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

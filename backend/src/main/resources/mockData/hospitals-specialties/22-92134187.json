@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 71,
+      "freeTicketCount": 71,
+      "id": "1537",
+      "lastDate": "2024-04-09T19:00:00",
+      "name": "Крадёнова Светлана Сергеевна",
+      "nearestDate": "2024-04-01T09:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

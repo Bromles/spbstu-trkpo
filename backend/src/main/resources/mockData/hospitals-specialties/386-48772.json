@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 47,
+      "freeTicketCount": 78,
+      "id": "955",
+      "lastDate": "2024-04-08T18:45:00",
+      "name": "Баранова Валентина Петровна",
+      "nearestDate": "2024-04-02T16:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "957",
+      "lastDate": null,
+      "name": "Вандеева Екатерина Николаевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 16,
+      "freeTicketCount": 47,
+      "id": "1628",
+      "lastDate": "2024-04-08T10:45:00",
+      "name": "Воротникова Алина Владимировна",
+      "nearestDate": "2024-04-04T10:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "952",
+      "lastDate": null,
+      "name": "Подлесная Нелля Сергеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "961",
+      "lastDate": null,
+      "name": "Шикова Инна Валерьевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 18,
+      "freeTicketCount": 36,
+      "id": "1583",
+      "lastDate": "2024-04-08T12:45:00",
+      "name": "Ягодина Екатерина Игоревна",
+      "nearestDate": "2024-04-04T10:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

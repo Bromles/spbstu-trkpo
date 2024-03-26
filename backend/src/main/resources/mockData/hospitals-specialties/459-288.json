@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 268,
+      "freeTicketCount": 268,
+      "id": "1642",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "Диспансеризация (Лудков О.А.)  ",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1648",
+      "lastDate": null,
+      "name": "Диспансеризация Профилактика ",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

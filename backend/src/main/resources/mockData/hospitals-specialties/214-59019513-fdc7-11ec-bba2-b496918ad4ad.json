@@ -1,0 +1,173 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "1 ТЕР.ОТД.,КАБИНЕТ 233",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "919fc003-6e48-11ee-bc18-b496918ad90e",
+      "lastDate": "2024-03-29T18:00:00",
+      "name": "Ядыкина Ульяна Игоревна (Диспансеризация)",
+      "nearestDate": "2024-03-26T12:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "a0e40656-2da7-11ed-bba9-b496918ad4ae",
+      "lastDate": null,
+      "name": "Чеботарь Полина Андреевна (Диспансеризация)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "84f7d1d7-547b-11ed-bbaf-b496918ad4af",
+      "lastDate": "2024-04-01T12:00:00",
+      "name": "Давыдова Нина Михайловна (Диспансеризация)",
+      "nearestDate": "2024-04-01T10:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 244,
+      "freeTicketCount": 244,
+      "id": "8b05fbdd-fdc7-11ec-bba2-b496918ad4ad",
+      "lastDate": "2024-04-08T19:30:00",
+      "name": "Кабинет профилактики Диспансеризация (Диспансеризация)",
+      "nearestDate": "2024-04-01T09:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "2 терап.отделение, каб.219, Авиконструкторов 20-2, Планерная 51- 1, 2; 53- 1, 2",
+      "freeParticipantCount": 11,
+      "freeTicketCount": 11,
+      "id": "e7a49cb6-c425-11ee-bc1d-b496918ad90e",
+      "lastDate": "2024-04-01T12:00:00",
+      "name": "Колесова Анастасия Сергеевна (Диспансеризация)",
+      "nearestDate": "2024-03-26T18:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "КАБИНЕТ 213",
+      "freeParticipantCount": 14,
+      "freeTicketCount": 14,
+      "id": "045bae52-c301-11ed-bbb2-b496918ad4af",
+      "lastDate": "2024-04-01T12:00:00",
+      "name": "Федулова Надежда Владимировна (Диспансеризация)",
+      "nearestDate": "2024-03-26T17:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Диспансеризация",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "f3c6c92a-172d-11ed-bba6-b496918ad4ad",
+      "lastDate": "2024-03-31T16:00:00",
+      "name": "Рябко Татьяна Ивановна (Диспансеризация)",
+      "nearestDate": "2024-03-31T16:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "КАБИНЕТ 106",
+      "freeParticipantCount": 10,
+      "freeTicketCount": 10,
+      "id": "7cd54579-c31c-11ed-bbb2-b496918ad4af",
+      "lastDate": "2024-03-29T12:00:00",
+      "name": "Фаевская Галина Анатольевна (Диспансеризация)",
+      "nearestDate": "2024-03-26T19:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 13,
+      "freeTicketCount": 13,
+      "id": "884f8ee9-f622-11ec-bba1-b496918ad4ad",
+      "lastDate": "2024-03-29T19:00:00",
+      "name": "Поздняков Егор Евгеньевич (Диспансеризация)",
+      "nearestDate": "2024-03-25T19:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "каб 106",
+      "freeParticipantCount": 13,
+      "freeTicketCount": 13,
+      "id": "485fd2ee-6d79-11ee-bc18-b496918ad90e",
+      "lastDate": "2024-03-29T19:00:00",
+      "name": "Бритько Андрей Сергеевич (Диспансеризация)",
+      "nearestDate": "2024-03-25T18:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "каб. 242",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "d38aa89b-2516-11ed-bba6-b496918ad4ad",
+      "lastDate": null,
+      "name": "Андреева Оксана Юрьевна (Диспансеризация)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "ОТПУСК 20.11-10.12, КАБИНЕТ 240",
+      "freeParticipantCount": 9,
+      "freeTicketCount": 9,
+      "id": "fd287263-c303-11ed-bbb2-b496918ad4af",
+      "lastDate": "2024-04-01T12:00:00",
+      "name": "Хлынов Сергей Дмитриевич (Диспансеризация)",
+      "nearestDate": "2024-03-26T17:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "1 ТЕР.ОТД. КАБ.217 ",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "288ba58b-6e48-11ee-bc18-b496918ad90e",
+      "lastDate": "2024-03-28T11:00:00",
+      "name": "Мирошниченко Валерия Борисовна (Диспансеризация)",
+      "nearestDate": "2024-03-27T17:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "каб.213",
+      "freeParticipantCount": 12,
+      "freeTicketCount": 12,
+      "id": "55e00329-9d7e-11ee-bc1a-b496918ad90e",
+      "lastDate": "2024-03-29T18:00:00",
+      "name": "Горбунов Дмитрий Алексеевич (Диспансеризация)",
+      "nearestDate": "2024-03-25T18:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "КАБИНЕТ 216",
+      "freeParticipantCount": 10,
+      "freeTicketCount": 10,
+      "id": "69f2dbe0-6db3-11ee-bc18-b496918ad90e",
+      "lastDate": "2024-04-01T12:00:00",
+      "name": "Кузьмина Надежда Евгеньевна (Диспансеризация)",
+      "nearestDate": "2024-03-26T17:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,80 @@
+{
+  "result": [
+    {
+      "id": "49923",
+      "ferId": "66",
+      "name": "Гериатрия",
+      "countFreeParticipant": 24,
+      "countFreeTicket": 52,
+      "lastDate": "2024-04-01T16:00:00",
+      "nearestDate": "2024-03-27T10:00:00"
+    },
+    {
+      "id": "49900",
+      "ferId": "32",
+      "name": "Инфекционные болезни",
+      "countFreeParticipant": 36,
+      "countFreeTicket": 43,
+      "lastDate": "2024-04-01T17:45:00",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "id": "50234",
+      "ferId": null,
+      "name": "Кабинет Профилактики (Углубленная Диспансеризация)",
+      "countFreeParticipant": 151,
+      "countFreeTicket": 168,
+      "lastDate": "2024-04-05T18:20:00",
+      "nearestDate": "2024-03-25T17:00:00"
+    },
+    {
+      "id": "49887",
+      "ferId": "19",
+      "name": "Оториноларингология",
+      "countFreeParticipant": 1,
+      "countFreeTicket": 1,
+      "lastDate": "2024-03-26T09:45:00",
+      "nearestDate": "2024-03-26T09:45:00"
+    },
+    {
+      "id": "49888",
+      "ferId": "20",
+      "name": "Офтальмология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "49895",
+      "ferId": "27",
+      "name": "Терапия",
+      "countFreeParticipant": 39,
+      "countFreeTicket": 46,
+      "lastDate": "2024-04-01T18:00:00",
+      "nearestDate": "2024-03-29T12:00:00"
+    },
+    {
+      "id": "49943",
+      "ferId": "145",
+      "name": "Урология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "49898",
+      "ferId": "30",
+      "name": "Хирургия",
+      "countFreeParticipant": 1,
+      "countFreeTicket": 1,
+      "lastDate": "2024-03-27T17:30:00",
+      "nearestDate": "2024-03-27T17:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

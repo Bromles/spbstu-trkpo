@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": "1 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 22,
+      "freeTicketCount": 22,
+      "id": "511",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Багнюк Элеонора Александровна",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "5 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 24,
+      "freeTicketCount": 24,
+      "id": "375",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Королева Анастасия Валерьевна",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "7 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 75,
+      "freeTicketCount": 75,
+      "id": "23",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Кудряшова Ирина Владимировна",
+      "nearestDate": "2024-03-29T00:00:00"
+    },
+    {
+      "ariaNumber": "2 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 86,
+      "freeTicketCount": 86,
+      "id": "297",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Притуляк Лариса Александровна",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "6 уч",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 40,
+      "freeTicketCount": 40,
+      "id": "24",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Стратилатова Елена Альбертовна",
+      "nearestDate": "2024-04-02T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

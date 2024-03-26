@@ -1,0 +1,71 @@
+{
+  "result": [
+    {
+      "id": "wvDg9y3j4PHy8O797fLl8O7r7uM=",
+      "ferId": "79",
+      "name": "Врач-гастроэнтеролог",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "wvDg9y3o7fTl6vbo7u3o8fI=",
+      "ferId": "32",
+      "name": "Врач-инфекционист",
+      "countFreeParticipant": 28,
+      "countFreeTicket": 28,
+      "lastDate": "2024-04-05T12:00:00",
+      "nearestDate": "2024-03-26T08:40:00"
+    },
+    {
+      "id": "wvDg9y3u8u7w6O3u6+Dw6O3j7uvu4w==",
+      "ferId": "19",
+      "name": "Врач-оториноларинголог",
+      "countFreeParticipant": 19,
+      "countFreeTicket": 19,
+      "lastDate": "2024-04-08T14:30:00",
+      "nearestDate": null
+    },
+    {
+      "id": "wvDg9y3u9PLg6/zs7uvu4w==",
+      "ferId": "20",
+      "name": "Врач-офтальмолог",
+      "countFreeParticipant": 28,
+      "countFreeTicket": 28,
+      "lastDate": "2024-04-08T17:00:00",
+      "nearestDate": null
+    },
+    {
+      "id": "wvDg9y3z8O7r7uM=",
+      "ferId": "145",
+      "name": "Врач-уролог",
+      "countFreeParticipant": 40,
+      "countFreeTicket": 40,
+      "lastDate": "2024-04-08T11:15:00",
+      "nearestDate": "2024-03-27T16:45:00"
+    },
+    {
+      "id": "wvDg91/u4fnl6V/v8ODq8ujq6F8o8eXs5ent++lf4vDg9yk=",
+      "ferId": "16",
+      "name": "Врач общей практики (семейный врач)",
+      "countFreeParticipant": 158,
+      "countFreeTicket": 158,
+      "lastDate": "2024-04-08T18:05:00",
+      "nearestDate": null
+    },
+    {
+      "id": "xOjx7+Dt8eXw6Ofg9uj/",
+      "ferId": "2",
+      "name": "Диспансеризация",
+      "countFreeParticipant": 15,
+      "countFreeTicket": 15,
+      "lastDate": "2024-03-29T16:20:00",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

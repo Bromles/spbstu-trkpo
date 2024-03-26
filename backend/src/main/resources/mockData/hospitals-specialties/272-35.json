@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 158,
+      "freeTicketCount": 158,
+      "id": "п73.499",
+      "lastDate": "2024-04-24T00:00:00",
+      "name": "73 БУРУНОВА Е.В.",
+      "nearestDate": "2024-04-02T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 256,
+      "freeTicketCount": 256,
+      "id": "b1c1fe4c-2ab0-11ed-bba8-b496918ad4af",
+      "lastDate": "2024-04-01T15:50:00",
+      "name": "Кабинет вакцинации от covid-19 Кабинет вакцинации от covid-19 (Ковид-19)",
+      "nearestDate": "2024-03-25T16:50:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "9d13ea1f-1e0a-11ed-bba6-b496918ad4ad",
+      "lastDate": null,
+      "name": "Кабинет вакцинации от covid-19 (гам-ковид-вак), первый этап каб № 115",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

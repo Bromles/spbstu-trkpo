@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 30,
+      "freeTicketCount": 30,
+      "id": "0029",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "ДОЛГИШЕВА ЕВГЕНИЯ АЛЕКСАНДРОВНА (25/03-30/03) ОТПУСК",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 33,
+      "freeTicketCount": 33,
+      "id": "0013",
+      "lastDate": "2024-04-11T00:00:00",
+      "name": "МАКАРОВА КРИСТИНА ЮРЬЕВНА (понед.четв.207каб. вторник306каб.)",
+      "nearestDate": "2024-04-08T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

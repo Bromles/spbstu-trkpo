@@ -1,0 +1,162 @@
+{
+  "result": [
+    {
+      "ariaNumber": "17уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 19,
+      "freeTicketCount": 19,
+      "id": "43",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Варначев Владимир Ильич",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "5уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 53,
+      "freeTicketCount": 58,
+      "id": "943",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Гончарова Екатерина Ивановна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "33 уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 42,
+      "freeTicketCount": 49,
+      "id": "1707",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Дамбадугарова Норжима Сагадаровна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "1 уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 47,
+      "freeTicketCount": 50,
+      "id": "2007",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Александрова Лариса Геннадьевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "32уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 34,
+      "freeTicketCount": 41,
+      "id": "2280",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Сологубова Елизавета Владимировна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "20уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 63,
+      "freeTicketCount": 63,
+      "id": "2317",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Амирагян Роза Араратовна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "3уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 3,
+      "freeTicketCount": 35,
+      "id": "2485",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Кругляк Людмила Александровна",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "4уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 9,
+      "id": "2488",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Жарова Алина Сергеевна",
+      "nearestDate": "2024-04-08T00:00:00"
+    },
+    {
+      "ariaNumber": "19уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 4,
+      "freeTicketCount": 48,
+      "id": "2495",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Мастюгина Алла Юрьевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "16уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 5,
+      "freeTicketCount": 60,
+      "id": "2498",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Ведерникова Ольга Юрьевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "22уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 4,
+      "freeTicketCount": 59,
+      "id": "2505",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Гаджиалиева Аминат Идрисовна",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "35уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 6,
+      "freeTicketCount": 82,
+      "id": "2509",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Мостюков Булат Фаридович",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "23уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 3,
+      "freeTicketCount": 59,
+      "id": "2510",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Хузина Алия Аделевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "21уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 4,
+      "freeTicketCount": 58,
+      "id": "2512",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Кузьмина София Вячеславовна",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

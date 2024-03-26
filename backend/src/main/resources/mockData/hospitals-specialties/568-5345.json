@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": "справки для работы, учебы ,платные услуги",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 40,
+      "freeTicketCount": 40,
+      "id": "46",
+      "lastDate": "2024-03-29T12:45:00",
+      "name": "Алпацкая Марина Котеевна",
+      "nearestDate": "2024-03-26T14:00:00"
+    },
+    {
+      "ariaNumber": "Оказание специализированной мед. помощи лицам БОМЖ",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 61,
+      "freeTicketCount": 61,
+      "id": "27",
+      "lastDate": "2024-03-29T14:00:00",
+      "name": "Веренкова Вероника Андреевна",
+      "nearestDate": "2024-03-26T15:00:00"
+    },
+    {
+      "ariaNumber": "Дневной стационар",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "22",
+      "lastDate": null,
+      "name": "Кугушева Рамзия Мансуровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "1 ",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 52,
+      "freeTicketCount": 52,
+      "id": "15",
+      "lastDate": "2024-03-29T13:00:00",
+      "name": "Николаева Марина Юрьевна",
+      "nearestDate": "2024-03-26T15:00:00"
+    },
+    {
+      "ariaNumber": "2 ",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 55,
+      "freeTicketCount": 55,
+      "id": "24",
+      "lastDate": "2024-03-29T19:00:00",
+      "name": "Петрова Олеся Анатольевна",
+      "nearestDate": "2024-03-25T16:40:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

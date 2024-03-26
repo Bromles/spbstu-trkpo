@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 65,
+      "freeTicketCount": 65,
+      "id": "eUFvZEFBU0FCQUE=",
+      "lastDate": "2024-04-15T12:45:00",
+      "name": "Мигманова Каринэ Лорисовна",
+      "nearestDate": "2024-04-08T14:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 50,
+      "freeTicketCount": 50,
+      "id": "eUFvZEFBU0FHQUU=",
+      "lastDate": "2024-04-15T16:15:00",
+      "name": "Ансарова Зарема Абдулвахидовна",
+      "nearestDate": "2024-04-04T11:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 88,
+      "freeTicketCount": 88,
+      "id": "eUFvZEFBU0FHQUc=",
+      "lastDate": "2024-04-15T18:45:00",
+      "name": "Данилов Виктор Радиевич",
+      "nearestDate": "2024-04-04T09:15:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

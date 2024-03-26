@@ -1,0 +1,118 @@
+{
+  "result": [
+    {
+      "ariaNumber": "26 участок",
+      "ariaType": null,
+      "comment": "25.03.2024: Нетрудоспособность (Болезнь, карантин и т.п.);\nс 26.03.2024 по 27.03.2024: Нетрудоспособность (Болезнь, карантин и т.п.);\nс 28.03.2024 по 29.03.2024: Нетрудоспособность (Болезнь, карантин и т.п.);\n04.04.2024: Очередные и дополнительные отпуска;\n05.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "327",
+      "lastDate": null,
+      "name": "Афонина Ирина Львовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "04 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "513",
+      "lastDate": null,
+      "name": "Васюкова Галина Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "25 участок",
+      "ariaType": null,
+      "comment": "01.04.2024: Учебный отпуск;\n02.04.2024: Учебный отпуск;\n03.04.2024: Учебный отпуск;\n04.04.2024: Учебный отпуск;\n05.04.2024: Учебный отпуск",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "660",
+      "lastDate": null,
+      "name": "Далгатов Рашид Магомедрасулович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "18 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "326",
+      "lastDate": null,
+      "name": "Игнатьева Алла Борисовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "08 участок",
+      "ariaType": null,
+      "comment": "28.03.2024: Очередные и дополнительные отпуска;\n29.03.2024: Очередные и дополнительные отпуска;\n01.04.2024: Очередные и дополнительные отпуска;\n02.04.2024: Очередные и дополнительные отпуска;\n03.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "311",
+      "lastDate": null,
+      "name": "Кравчук Наталья Васильевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "06 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "440",
+      "lastDate": null,
+      "name": "Месяцев Сергей Олегович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "22 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "323",
+      "lastDate": null,
+      "name": "Рябова Светлана Станиславовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "05 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "308",
+      "lastDate": null,
+      "name": "Синявская Ольга Анатольевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "19 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 28,
+      "freeTicketCount": 28,
+      "id": "320",
+      "lastDate": "2024-03-25T00:00:00",
+      "name": "Хижняк Юрий Владимирович",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "21 участок",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "322",
+      "lastDate": null,
+      "name": "Чумакова Вера Сергеевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 16,
+      "id": "д58.262",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Гаджибеков М.Р., 25 уч",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 9,
+      "id": "д58.255",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Гулиева Э.А. 23 уч",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 14,
+      "id": "д58.226",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Климкин Е.Н. 22 уч",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 17,
+      "id": "д58.248",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Прокошина П.С.,24 уч",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 8,
+      "id": "д58.128b",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Субботина В.Н. 21 уч",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

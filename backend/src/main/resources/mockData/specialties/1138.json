@@ -1,0 +1,17 @@
+{
+  "result": [
+    {
+      "id": "89",
+      "ferId": "23",
+      "name": "Психиатрия",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

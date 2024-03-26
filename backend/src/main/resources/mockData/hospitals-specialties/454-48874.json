@@ -1,0 +1,107 @@
+{
+  "result": [
+    {
+      "ariaNumber": "4",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 14,
+      "freeTicketCount": 14,
+      "id": "19",
+      "lastDate": "2024-03-29T12:48:00",
+      "name": "Аксенова Наталья Викторовна",
+      "nearestDate": "2024-03-26T16:28:00"
+    },
+    {
+      "ariaNumber": "9",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 22,
+      "freeTicketCount": 22,
+      "id": "97",
+      "lastDate": "2024-03-29T19:04:00",
+      "name": "Алтынова Кишта Александровна",
+      "nearestDate": "2024-03-25T17:30:00"
+    },
+    {
+      "ariaNumber": "6",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 14,
+      "freeTicketCount": 14,
+      "id": "95",
+      "lastDate": "2024-03-29T12:48:00",
+      "name": "Джанбасаров Амир Искакович",
+      "nearestDate": "2024-03-26T16:28:00"
+    },
+    {
+      "ariaNumber": "8",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 12,
+      "freeTicketCount": 12,
+      "id": "13",
+      "lastDate": "2024-03-29T19:04:00",
+      "name": "Лазарева Галина Викторовна",
+      "nearestDate": "2024-03-27T16:28:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 92,
+      "freeTicketCount": 92,
+      "id": "10",
+      "lastDate": "2024-03-29T16:00:00",
+      "name": "Лихачев Андрей Александрович",
+      "nearestDate": "2024-03-26T10:00:00"
+    },
+    {
+      "ariaNumber": "5",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "88",
+      "lastDate": "2024-03-29T12:48:00",
+      "name": "Понкратова Марина Владимировна",
+      "nearestDate": "2024-03-28T16:28:00"
+    },
+    {
+      "ariaNumber": "1",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 14,
+      "freeTicketCount": 14,
+      "id": "96",
+      "lastDate": "2024-03-29T12:48:00",
+      "name": "Романова Вера Федоровна",
+      "nearestDate": "2024-03-26T16:28:00"
+    },
+    {
+      "ariaNumber": "7",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 22,
+      "freeTicketCount": 22,
+      "id": "15",
+      "lastDate": "2024-03-29T19:04:00",
+      "name": "Соловьева Ольга Ивановна",
+      "nearestDate": "2024-03-25T17:30:00"
+    },
+    {
+      "ariaNumber": "11",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 22,
+      "freeTicketCount": 22,
+      "id": "20",
+      "lastDate": "2024-03-29T19:04:00",
+      "name": "Трагман Марина Алексеевна",
+      "nearestDate": "2024-03-25T17:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

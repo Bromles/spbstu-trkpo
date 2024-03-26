@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Офис семейного врача (уч. № 57)",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 60,
+      "freeTicketCount": 60,
+      "id": "676",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Гусева Ольга Ивановна",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "Офис семейного врача (уч. № 60)",
+      "ariaType": null,
+      "comment": "01.04.2024: Командировки служебные;\n02.04.2024: Командировки служебные",
+      "freeParticipantCount": 33,
+      "freeTicketCount": 33,
+      "id": "61",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Данилова Александра Михайловна",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "Офис семейного врача (уч. № 59)",
+      "ariaType": null,
+      "comment": "с 03.04.2024 по 08.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "59",
+      "lastDate": "2024-04-02T00:00:00",
+      "name": "Пахомова Валентина Александровна",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "Офис семейного врача (уч. № 58)",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 26.03.2024: Нетрудоспособность (Болезнь, карантин и т.п.)",
+      "freeParticipantCount": 53,
+      "freeTicketCount": 53,
+      "id": "1428",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Сайфуллина Аэлита Расимовна",
+      "nearestDate": "2024-03-28T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

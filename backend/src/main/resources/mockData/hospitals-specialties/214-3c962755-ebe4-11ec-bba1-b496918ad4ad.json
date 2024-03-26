@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "КАБИНЕТ 261,НЕТ ПРИЕМА 22,23 МАРТА.",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "ef274e9e-fb76-11ec-bba1-b496918ad4ad",
+      "lastDate": "2024-03-26T16:30:00",
+      "name": "Труфанов Георгий Сергеевич (Врач-уролог)",
+      "nearestDate": "2024-03-26T16:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "УЧЕБА С 22.04-18.05, КАБ. 261,ТАЛОНЫ 9.15 И 18.15-ДИСПАНСЕРИЗАЦИЯ",
+      "freeParticipantCount": 118,
+      "freeTicketCount": 118,
+      "id": "633cfc11-ebe4-11ec-bba1-b496918ad4ad",
+      "lastDate": "2024-04-08T19:45:00",
+      "name": "Шелковый Сергей Михайлович (Врач-уролог)",
+      "nearestDate": "2024-04-01T15:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

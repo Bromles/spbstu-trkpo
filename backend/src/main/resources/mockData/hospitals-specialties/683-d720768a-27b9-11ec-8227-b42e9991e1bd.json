@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 292,
+      "freeTicketCount": 292,
+      "id": "d720768d-27b9-11ec-8227-b42e9991e1bd",
+      "lastDate": "2024-04-27T13:40:00",
+      "name": "Гамаюнова Екатерина Петровна",
+      "nearestDate": "2024-04-01T10:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "c4788bfc-82c1-11ee-8479-00155d013203",
+      "lastDate": null,
+      "name": "Котова Татьяна Геннадьевна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

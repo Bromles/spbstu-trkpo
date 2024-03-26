@@ -1,0 +1,35 @@
+{
+  "result": [
+    {
+      "id": "2122",
+      "ferId": "10",
+      "name": "Дерматовенерология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "7741",
+      "ferId": "10",
+      "name": "Дерматолог",
+      "countFreeParticipant": 94,
+      "countFreeTicket": 94,
+      "lastDate": "2024-04-05T13:00:00",
+      "nearestDate": "2024-03-26T14:45:00"
+    },
+    {
+      "id": "7740",
+      "ferId": "1",
+      "name": "Председатель врачебной комиссии",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "758",
+      "lastDate": null,
+      "name": "Данзанова Билигма Батоевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 14,
+      "freeTicketCount": 38,
+      "id": "177",
+      "lastDate": "2024-04-05T10:40:00",
+      "name": "Невин Виктор Георгиевич",
+      "nearestDate": "2024-03-26T14:40:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 9,
+      "freeTicketCount": 18,
+      "id": "24",
+      "lastDate": "2024-04-08T14:10:00",
+      "name": "Новикова Анна Юрьевна",
+      "nearestDate": "2024-04-02T11:20:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,140 @@
+{
+  "result": [
+    {
+      "ariaNumber": "20Уч26",
+      "ariaType": null,
+      "comment": "с 30.03.2024 по 31.03.2024: Выходные и праздничные дни",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1389",
+      "lastDate": null,
+      "name": "Абдулвагабов Магомед Ибрагимович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "20Уч28",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1430",
+      "lastDate": null,
+      "name": "Андреева Юлия Максимовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "20Уч36",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1382",
+      "lastDate": null,
+      "name": "Блохина Татьяна Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "20Уч33",
+      "ariaType": null,
+      "comment": "с 05.04.2024 по 08.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1393",
+      "lastDate": null,
+      "name": "Голенкова Елизавета Владимировна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "20Уч37",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1427",
+      "lastDate": null,
+      "name": "Губернскова Анна Дмитриевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "20Уч29",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "1245",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Жалнов Герман Александрович",
+      "nearestDate": "2024-04-05T00:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 72,
+      "freeTicketCount": 72,
+      "id": "1414",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Кабинет Диспансеризации (Диспансеризация)",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "20Уч38",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1136",
+      "lastDate": null,
+      "name": "Листратенко Михаил Александрович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "20Уч30",
+      "ariaType": null,
+      "comment": "с 25.03.2024 по 31.03.2024: Очередные и дополнительные отпуска;\nс 01.04.2024 по 07.04.2024: Выходные и праздничные дни",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1317",
+      "lastDate": null,
+      "name": "Никитин Евгений Денисович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "20Уч31",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "336",
+      "lastDate": null,
+      "name": "Портова Татьяна Павловна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "20Уч39",
+      "ariaType": null,
+      "comment": "08.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1038",
+      "lastDate": null,
+      "name": "Чевгунова Александра Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "20Уч41",
+      "ariaType": null,
+      "comment": "с 01.04.2024 по 08.04.2024: Очередные и дополнительные отпуска",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "1388",
+      "lastDate": null,
+      "name": "Шамсудинов Нурула Ражабович",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

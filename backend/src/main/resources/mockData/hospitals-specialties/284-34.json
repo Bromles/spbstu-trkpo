@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 15,
+      "freeTicketCount": 15,
+      "id": "13589",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Иванова О.В.СТОМ. 86 П/КА",
+      "nearestDate": "2024-04-03T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "16039",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Масальская Е.В.",
+      "nearestDate": "2024-04-04T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 21,
+      "freeTicketCount": 21,
+      "id": "9999",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Никоян Н.Э.СТОМ. 86 П/КА",
+      "nearestDate": "2024-04-02T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 28,
+      "freeTicketCount": 28,
+      "id": "99999",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Пушкарева Н.Г..СТОМ. 86 П/КА",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "15091",
+      "lastDate": "2024-03-26T00:00:00",
+      "name": "Салтыкова Е.С. СТОМ. 86 П/КА",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 26,
+      "freeTicketCount": 26,
+      "id": "16040",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Чернявская Е.Н.",
+      "nearestDate": "2024-04-01T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

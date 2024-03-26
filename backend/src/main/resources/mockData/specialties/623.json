@@ -1,0 +1,26 @@
+{
+  "result": [
+    {
+      "id": "67c0c2f0-0dbe-11ed-bba5-b496918ad4ad",
+      "ferId": "98",
+      "name": "Врач-психотерапевт",
+      "countFreeParticipant": 31,
+      "countFreeTicket": 31,
+      "lastDate": "2024-03-29T19:00:00",
+      "nearestDate": "2024-03-25T17:30:00"
+    },
+    {
+      "id": "7b66c767-ebeb-11ec-bba1-b496918ad4ad",
+      "ferId": "27",
+      "name": "Врач общей практики (семейный врач)",
+      "countFreeParticipant": 39,
+      "countFreeTicket": 39,
+      "lastDate": "2024-03-29T11:50:00",
+      "nearestDate": "2024-03-26T17:50:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

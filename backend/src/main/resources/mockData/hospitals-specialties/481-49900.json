@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 110,
+      "freeTicketCount": 129,
+      "id": "524",
+      "lastDate": "2024-04-08T14:42:00",
+      "name": "Теслер Вероника Евгеньевна",
+      "nearestDate": "2024-03-26T13:36:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

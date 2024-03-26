@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 70,
+      "freeTicketCount": 70,
+      "id": "871",
+      "lastDate": "2024-04-04T00:00:00",
+      "name": "Кабинет Миргалиев Медико-Психологического Консультирования",
+      "nearestDate": "2024-04-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 33,
+      "freeTicketCount": 66,
+      "id": "1140",
+      "lastDate": "2024-04-05T18:45:00",
+      "name": "Смирнова Любовь Александровна",
+      "nearestDate": "2024-04-01T14:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 48,
+      "freeTicketCount": 79,
+      "id": "1152",
+      "lastDate": "2024-04-05T13:45:00",
+      "name": "Уксусова Надежда Александровна",
+      "nearestDate": "2024-04-01T09:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

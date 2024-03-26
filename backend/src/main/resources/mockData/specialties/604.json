@@ -1,0 +1,71 @@
+{
+  "result": [
+    {
+      "id": "61597",
+      "ferId": "8",
+      "name": "Акушерство и гинекология",
+      "countFreeParticipant": 43,
+      "countFreeTicket": 43,
+      "lastDate": "2024-04-08T18:30:00",
+      "nearestDate": "2024-03-27T10:00:00"
+    },
+    {
+      "id": "61294",
+      "ferId": "98",
+      "name": "Психотерапия",
+      "countFreeParticipant": 8,
+      "countFreeTicket": 8,
+      "lastDate": "2024-04-08T18:50:00",
+      "nearestDate": "2024-03-26T08:40:00"
+    },
+    {
+      "id": "61320",
+      "ferId": "33",
+      "name": "Ультразвуковая диагностика",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "61381",
+      "ferId": "33",
+      "name": "Ультразвуковая диагностика",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "61544",
+      "ferId": "33",
+      "name": "Ультразвуковая диагностика",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "61548",
+      "ferId": "33",
+      "name": "Ультразвуковая диагностика",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "61384",
+      "ferId": "34",
+      "name": "Физиотерапия",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "приём ведется в ЖК19 по адресу Пражская 12",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "918",
+      "lastDate": null,
+      "name": "Гуревич Ольга Олеговна",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

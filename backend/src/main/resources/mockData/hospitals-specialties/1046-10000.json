@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "ОВОП пр. Маршака д. 28",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 172,
+      "freeTicketCount": 178,
+      "id": "1538",
+      "lastDate": "2024-03-28T00:00:00",
+      "name": "Бокс 1 Симптомы Орви/Грипп/Covid ",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

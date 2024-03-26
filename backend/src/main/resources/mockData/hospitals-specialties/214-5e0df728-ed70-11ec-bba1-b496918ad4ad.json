@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "КАБИНЕТ 312",
+      "freeParticipantCount": 168,
+      "freeTicketCount": 168,
+      "id": "5d1e1ded-fd23-11ec-bba2-b496918ad4ad",
+      "lastDate": "2024-04-08T13:45:00",
+      "name": "Баскакова Регина Петровна (Врач-пульмонолог)",
+      "nearestDate": "2024-03-26T09:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "КАБИНЕТ 312",
+      "freeParticipantCount": 52,
+      "freeTicketCount": 52,
+      "id": "77d7c78f-ed70-11ec-bba1-b496918ad4ad",
+      "lastDate": "2024-04-08T15:45:00",
+      "name": "Логинова Татьяна Алексеевна (Врач-пульмонолог)",
+      "nearestDate": "2024-04-02T16:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

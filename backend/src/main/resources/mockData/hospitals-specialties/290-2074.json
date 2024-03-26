@@ -1,0 +1,228 @@
+{
+  "result": [
+    {
+      "ariaNumber": "38 ТО 5",
+      "ariaType": null,
+      "comment": " ДН",
+      "freeParticipantCount": 30,
+      "freeTicketCount": 34,
+      "id": "7753",
+      "lastDate": "2024-03-29T19:24:00",
+      "name": "Абдуллаева Умурагил Мухтаровна",
+      "nearestDate": "2024-03-25T18:48:00"
+    },
+    {
+      "ariaNumber": "53 ТО 6",
+      "ariaType": null,
+      "comment": " ДН",
+      "freeParticipantCount": 42,
+      "freeTicketCount": 52,
+      "id": "91",
+      "lastDate": "2024-04-08T19:00:00",
+      "name": "Алексеева Ольга Андреевна",
+      "nearestDate": "2024-03-27T11:36:00"
+    },
+    {
+      "ariaNumber": "48 6то ",
+      "ariaType": null,
+      "comment": " ДН",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "7653",
+      "lastDate": null,
+      "name": "Базухейр Богдана Борисовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "9051",
+      "lastDate": null,
+      "name": "Белоусов Андрей Владиславович",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "с 01.09.2023 нет приема",
+      "ariaType": null,
+      "comment": " ДН",
+      "freeParticipantCount": 48,
+      "freeTicketCount": 58,
+      "id": "8587",
+      "lastDate": "2024-04-08T19:00:00",
+      "name": "Голубева Екатерина Сергеевна",
+      "nearestDate": "2024-04-01T09:36:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": " ДН",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8564",
+      "lastDate": null,
+      "name": "Елсуков Сергей Сергеевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "40 5то",
+      "ariaType": null,
+      "comment": " ДН",
+      "freeParticipantCount": 64,
+      "freeTicketCount": 74,
+      "id": "80",
+      "lastDate": "2024-04-08T12:48:00",
+      "name": "Епишина Алла Владимировна",
+      "nearestDate": "2024-03-28T08:12:00"
+    },
+    {
+      "ariaNumber": "55 ТО 5",
+      "ariaType": null,
+      "comment": " ДН",
+      "freeParticipantCount": 32,
+      "freeTicketCount": 37,
+      "id": "78",
+      "lastDate": "2024-04-05T19:24:00",
+      "name": "Калашникова Татьяна Владимировна",
+      "nearestDate": "2024-04-02T08:24:00"
+    },
+    {
+      "ariaNumber": "42 5 то",
+      "ariaType": null,
+      "comment": " ДН",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8119",
+      "lastDate": null,
+      "name": "Корнеев Александр Валерьевич",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "46 ТО 6 ",
+      "ariaType": null,
+      "comment": " ДН",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "7479",
+      "lastDate": null,
+      "name": "Косинова Валентина Александровна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "с 01.09.2023 нет приема",
+      "ariaType": null,
+      "comment": " ДН",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "8588",
+      "lastDate": null,
+      "name": "Костина Александра Алексеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "47 ТО 6",
+      "ariaType": null,
+      "comment": " ДН",
+      "freeParticipantCount": 45,
+      "freeTicketCount": 55,
+      "id": "135",
+      "lastDate": "2024-04-08T19:00:00",
+      "name": "Мазикова Виктория Анатольевна",
+      "nearestDate": "2024-03-26T19:24:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": " ДН",
+      "freeParticipantCount": 37,
+      "freeTicketCount": 42,
+      "id": "8788",
+      "lastDate": "2024-04-01T11:00:00",
+      "name": "Мищенкова Анастасия Михайловна",
+      "nearestDate": "2024-03-26T19:00:00"
+    },
+    {
+      "ariaNumber": "41 ТО 5",
+      "ariaType": null,
+      "comment": " ДН",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "7405",
+      "lastDate": null,
+      "name": "Неведомская Елена Викторовна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 96,
+      "freeTicketCount": 106,
+      "id": "9048",
+      "lastDate": "2024-04-08T13:00:00",
+      "name": "Овасапян Эдгар Джаникович",
+      "nearestDate": "2024-03-26T12:48:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": " ДН",
+      "freeParticipantCount": 36,
+      "freeTicketCount": 46,
+      "id": "8787",
+      "lastDate": "2024-04-08T17:48:00",
+      "name": "Осман Самира Кадеровна",
+      "nearestDate": "2024-04-02T18:12:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": " ДН",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 10,
+      "id": "8837",
+      "lastDate": "2024-04-05T19:12:00",
+      "name": "Петров Никита Дмитриевич",
+      "nearestDate": "2024-04-05T17:48:00"
+    },
+    {
+      "ariaNumber": "43 ТО 5",
+      "ariaType": null,
+      "comment": " ДН",
+      "freeParticipantCount": 72,
+      "freeTicketCount": 82,
+      "id": "83",
+      "lastDate": "2024-04-08T11:00:00",
+      "name": "Смирнова Людмила Петровна",
+      "nearestDate": "2024-03-27T18:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 24,
+      "freeTicketCount": 29,
+      "id": "8970",
+      "lastDate": "2024-04-08T11:36:00",
+      "name": "Хатхва Маргарита Вячеславовна",
+      "nearestDate": "2024-03-27T16:48:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 44,
+      "freeTicketCount": 52,
+      "id": "8868",
+      "lastDate": "2024-04-08T19:00:00",
+      "name": "Шевельков Юрий Александрович",
+      "nearestDate": "2024-03-26T18:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

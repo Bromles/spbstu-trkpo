@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Уролого-андрологическое ДПО № 9",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 76,
+      "freeTicketCount": 76,
+      "id": "2191",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Новиков Юрий Константинович",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

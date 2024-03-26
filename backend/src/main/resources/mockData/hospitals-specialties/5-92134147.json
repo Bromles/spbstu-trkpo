@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 69,
+      "freeTicketCount": 69,
+      "id": "883",
+      "lastDate": "2024-04-04T14:40:00",
+      "name": "Дегтярева Татьяна Николаевна",
+      "nearestDate": "2024-03-26T09:40:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

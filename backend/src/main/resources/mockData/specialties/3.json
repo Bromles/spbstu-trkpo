@@ -1,0 +1,89 @@
+{
+  "result": [
+    {
+      "id": "92139813",
+      "ferId": "55",
+      "name": "Вакцинация от COVID-19",
+      "countFreeParticipant": 158,
+      "countFreeTicket": 158,
+      "lastDate": "2024-04-08T16:54:00",
+      "nearestDate": "2024-03-25T16:42:00"
+    },
+    {
+      "id": "92140555",
+      "ferId": null,
+      "name": "Доврачебный кабинет",
+      "countFreeParticipant": 335,
+      "countFreeTicket": 335,
+      "lastDate": "2024-04-08T19:30:00",
+      "nearestDate": "2024-03-26T13:30:00"
+    },
+    {
+      "id": "92140686",
+      "ferId": null,
+      "name": "Кабинет Медико-Психологического Консультирования",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "92140557",
+      "ferId": null,
+      "name": "Кабинет диспансеризации",
+      "countFreeParticipant": 73,
+      "countFreeTicket": 73,
+      "lastDate": "2024-04-08T13:15:00",
+      "nearestDate": "2024-03-27T09:15:00"
+    },
+    {
+      "id": "92139909",
+      "ferId": "58",
+      "name": "Кабинет профилактики (углубленная диспансеризация)",
+      "countFreeParticipant": 320,
+      "countFreeTicket": 320,
+      "lastDate": "2024-04-08T18:30:00",
+      "nearestDate": "2024-03-25T16:50:00"
+    },
+    {
+      "id": "49321",
+      "ferId": "19",
+      "name": "Оториноларингология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "49322",
+      "ferId": "20",
+      "name": "Офтальмология",
+      "countFreeParticipant": 0,
+      "countFreeTicket": 0,
+      "lastDate": null,
+      "nearestDate": null
+    },
+    {
+      "id": "49351",
+      "ferId": "27",
+      "name": "Терапия",
+      "countFreeParticipant": 1125,
+      "countFreeTicket": 1125,
+      "lastDate": "2024-04-08T18:46:00",
+      "nearestDate": "2024-03-26T11:54:00"
+    },
+    {
+      "id": "49365",
+      "ferId": "30",
+      "name": "Хирургия",
+      "countFreeParticipant": 1,
+      "countFreeTicket": 1,
+      "lastDate": "2024-04-08T12:14:00",
+      "nearestDate": "2024-04-08T12:14:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

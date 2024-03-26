@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "КАБИНЕТ 107",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "28a9ea24-afac-11ee-bc1b-b496918ad90d",
+      "lastDate": null,
+      "name": "Чужикова Людмила Вадимовна (врач-гериатр)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,151 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 63,
+      "id": "66",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Булгар Екатерина Сергеевна ",
+      "nearestDate": "2024-03-26T15:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 48,
+      "id": "68",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Карагезян Эмилия Рафиковна ",
+      "nearestDate": "2024-03-26T15:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 77,
+      "id": "69",
+      "lastDate": "2024-04-08T14:00:00",
+      "name": "Лоренц Галина Григорьевна ",
+      "nearestDate": "2024-03-25T17:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 4,
+      "freeTicketCount": 59,
+      "id": "70",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Малышева Людмила Владимировна (пародонтолог)",
+      "nearestDate": "2024-03-27T09:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 58,
+      "id": "71",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Малышко Ирина Анатольевна ",
+      "nearestDate": "2024-03-26T16:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 56,
+      "id": "72",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Малышко Юлия Анатольевна ",
+      "nearestDate": "2024-03-26T15:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 44,
+      "id": "73",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Микрюков Николай Игоревич ",
+      "nearestDate": "2024-03-26T15:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 15,
+      "freeTicketCount": 95,
+      "id": "74",
+      "lastDate": "2024-04-08T14:00:00",
+      "name": "Морозова Анна Владимировна (пародонтолог)",
+      "nearestDate": "2024-03-27T15:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 73,
+      "id": "75",
+      "lastDate": "2024-04-08T14:00:00",
+      "name": "Пахоменко Елена Григорьевна ",
+      "nearestDate": "2024-03-25T19:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 30,
+      "id": "76",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Смурова Анна Евгеньевна ",
+      "nearestDate": "2024-04-01T09:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 74,
+      "id": "77",
+      "lastDate": "2024-04-08T14:00:00",
+      "name": "Старосельцева Людмила Валентиновна ",
+      "nearestDate": "2024-03-25T17:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 37,
+      "id": "78",
+      "lastDate": "2024-04-08T14:00:00",
+      "name": "Феденева Наталья Николаевна ",
+      "nearestDate": "2024-03-25T17:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 61,
+      "id": "79",
+      "lastDate": "2024-04-08T14:00:00",
+      "name": "Хренова Юлия Владимировна ",
+      "nearestDate": "2024-03-25T17:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

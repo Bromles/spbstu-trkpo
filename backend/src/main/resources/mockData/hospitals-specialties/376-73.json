@@ -1,0 +1,74 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Стом поликлиника № 12 ул. Благодатная, 16",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "347",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Пародонтолог Ольшевская Наталья Игоревна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Стом поликлиника № 12 ул. Благодатная, 16",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "348",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Пародонтолог Захарова Анна Юрьевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Стом поликлиника № 12 ул. Благодатная, 16",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "349",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Пародонтолог Ковальчук Светлана Викторовна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Стом поликлиника № 12 ул. Благодатная, 16",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "350",
+      "lastDate": "2024-04-06T00:00:00",
+      "name": "Пародонтолог Савельева Ольга Сергеевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Стом поликлиника № 12 ул. Благодатная, 16",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "351",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Пародонтолог Яровая Вера Владимировна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "Стом поликлиника № 12 ул. Благодатная, 16",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "353",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Пародонтолог Григоренко Светлана Юрьевна",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

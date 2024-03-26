@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 354,
+      "freeTicketCount": 354,
+      "id": "1da58c68-f946-11ec-bba1-b496918ad4ad",
+      "lastDate": "2024-04-08T18:45:00",
+      "name": "Кабинет вакцинации + covid-19 (конвасэл,однократная) (Ковид-19)",
+      "nearestDate": "2024-03-26T08:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

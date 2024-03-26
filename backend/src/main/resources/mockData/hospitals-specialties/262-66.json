@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "13",
+      "lastDate": null,
+      "name": "БИЛЮШОВА М.М. (все участки)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "8-15",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "100",
+      "lastDate": null,
+      "name": "САВОСТЬЯНОВА Т.С. (8-15 уч.)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

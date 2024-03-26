@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "1-вое Взрослое фтизиатрическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 45,
+      "freeTicketCount": 77,
+      "id": "7",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Голосовская Светлана Алексеевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "1-вое Взрослое фтизиатрическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 64,
+      "freeTicketCount": 103,
+      "id": "76",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Варзегов Владимир Евгеньевич",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "1-вое Взрослое фтизиатрическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 55,
+      "freeTicketCount": 90,
+      "id": "95",
+      "lastDate": "2024-04-01T00:00:00",
+      "name": "Сапожникова Надежда Валентиновна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "1-вое Взрослое фтизиатрическое отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 28,
+      "freeTicketCount": 48,
+      "id": "101",
+      "lastDate": "2024-03-29T00:00:00",
+      "name": "Домнина Елена Юрьевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

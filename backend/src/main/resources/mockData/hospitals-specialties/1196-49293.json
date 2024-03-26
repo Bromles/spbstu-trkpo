@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "п Шушары, м-н Славянка, ул. Ростовская, д. 14/16",
+      "freeParticipantCount": 131,
+      "freeTicketCount": 131,
+      "id": "1087",
+      "lastDate": "2024-04-08T14:00:00",
+      "name": "Пономаренко Анастасия Александровна",
+      "nearestDate": "2024-03-26T11:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

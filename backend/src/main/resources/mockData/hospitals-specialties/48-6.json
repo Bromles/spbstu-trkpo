@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "Инфекционное отделение",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 63,
+      "freeTicketCount": 81,
+      "id": "429",
+      "lastDate": "2024-04-23T00:00:00",
+      "name": "Кабинет Вакцинации От Covid-19 ",
+      "nearestDate": "2024-03-26T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

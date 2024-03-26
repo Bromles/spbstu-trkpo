@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 187,
+      "freeTicketCount": 187,
+      "id": "534",
+      "lastDate": "2024-04-08T19:10:00",
+      "name": "Хвастин Денис Олегович",
+      "nearestDate": "2024-03-25T17:45:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Камышовая 50 К1 каб.319",
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "61c95c6d-0dbe-11ed-bba5-b496918ad4ad",
+      "lastDate": "2024-04-08T15:45:00",
+      "name": "Грищук Людмила Алексеевна (Врач-хирург)",
+      "nearestDate": "2024-04-08T15:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "Камышовая 50 К1 каб.319",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "6dc27c99-0dbe-11ed-bba5-b496918ad4ad",
+      "lastDate": "2024-04-08T13:15:00",
+      "name": "Чистяков Павел Сергеевич (Врач-хирург)",
+      "nearestDate": "2024-04-08T10:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": " Камышовая 50 К1 каб.321",
+      "freeParticipantCount": 7,
+      "freeTicketCount": 7,
+      "id": "127ff329-cfb3-11ed-bbb4-b496918ad4af",
+      "lastDate": "2024-04-08T13:15:00",
+      "name": "Антипенко Вячеслав Владимирович (Врач-хирург)",
+      "nearestDate": "2024-04-08T11:15:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

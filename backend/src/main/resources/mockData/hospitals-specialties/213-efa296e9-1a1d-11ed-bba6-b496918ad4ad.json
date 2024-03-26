@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "8fbcc238-1a58-11ed-bba6-b496918ad4ad",
+      "lastDate": "2024-04-08T13:00:00",
+      "name": "Саад Элиас Инаамович (кабинет № 222)",
+      "nearestDate": "2024-04-08T12:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "acb93e39-1a58-11ed-bba6-b496918ad4ad",
+      "lastDate": "2024-04-08T15:45:00",
+      "name": "Сагалович Леонид Борисович (кабинет № 311)",
+      "nearestDate": "2024-03-26T10:30:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

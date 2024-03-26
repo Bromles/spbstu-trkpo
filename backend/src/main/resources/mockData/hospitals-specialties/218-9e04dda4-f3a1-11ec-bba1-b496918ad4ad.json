@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "32f8876d-fd2e-11ec-bba2-b496918ad4ad",
+      "lastDate": null,
+      "name": "Савельев Георгий Павлович (Врач-оториноларинголог)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "b6d5f031-fdcb-11ec-bba2-b496918ad4ad",
+      "lastDate": null,
+      "name": "Труутс Кристина Илмаровна (Врач-оториноларинголог)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "c273b7ed-fdcc-11ec-bba2-b496918ad4ad",
+      "lastDate": null,
+      "name": "Шукаева Анна Борисовна (Врач-оториноларинголог)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

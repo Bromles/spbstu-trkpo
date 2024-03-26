@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "КАБ. 222",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "f403de0c-ebe4-11ec-bba1-b496918ad4ad",
+      "lastDate": "2024-04-08T13:15:00",
+      "name": "Владимиров Михаил Александрович (Врач-хирург)",
+      "nearestDate": "2024-04-08T11:15:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "КАБИНЕТ 220",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "add3aace-ebe7-11ec-bba1-b496918ad4ad",
+      "lastDate": null,
+      "name": "Фетуллаев Межведил Фетилахович (Врач-хирург)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": " КАБ. 246",
+      "freeParticipantCount": 1,
+      "freeTicketCount": 1,
+      "id": "9c06b2c8-ebe3-11ec-bba1-b496918ad4ad",
+      "lastDate": "2024-04-08T12:45:00",
+      "name": "Шульга Екатерина Андреевна (Врач-хирург)",
+      "nearestDate": "2024-04-08T12:45:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": "КАБ. 222, ТАЛОНЫ 09.00,09.15 и 18.00,18.15-ДИСАПАНСЕРИЗАЦИЯ",
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "778688e0-c4a5-11ec-9830-089798a49211",
+      "lastDate": "2024-04-08T15:30:00",
+      "name": "Савицкий Руслан Любомирович (Врач-хирург)",
+      "nearestDate": "2024-04-08T14:15:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

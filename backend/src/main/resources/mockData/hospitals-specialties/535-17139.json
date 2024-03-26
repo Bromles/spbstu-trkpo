@@ -1,0 +1,52 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 12,
+      "freeTicketCount": 12,
+      "id": "4607",
+      "lastDate": "2024-04-09T11:30:00",
+      "name": "Иевлева Анастасия Ивановна",
+      "nearestDate": "2024-04-09T08:15:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "4654",
+      "lastDate": null,
+      "name": "Петрова Виктория Алексеевна",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 21,
+      "freeTicketCount": 21,
+      "id": "4706",
+      "lastDate": "2024-04-09T11:15:00",
+      "name": "Черкасова Наталья Алексеевна",
+      "nearestDate": "2024-04-02T08:15:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 22,
+      "freeTicketCount": 44,
+      "id": "4978",
+      "lastDate": "2024-04-11T11:30:00",
+      "name": "Шерякова Анна Андраниковна",
+      "nearestDate": "2024-04-04T08:15:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

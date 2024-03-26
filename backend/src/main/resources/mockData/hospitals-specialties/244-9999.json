@@ -1,0 +1,30 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 66,
+      "freeTicketCount": 66,
+      "id": "10000",
+      "lastDate": "2024-04-12T00:00:00",
+      "name": "Кабинет профилактики(углубленная диспансеризация) Афанасьева ДЛ",
+      "nearestDate": "2024-04-01T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "9999",
+      "lastDate": null,
+      "name": "Кабинет профилактики(углубленная диспансеризация) Макарова ТА",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

@@ -1,0 +1,217 @@
+{
+  "result": [
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 18,
+      "freeTicketCount": 18,
+      "id": "7f0ad9c9-87a9-11ec-aa55-00e04cbd5903",
+      "lastDate": "2024-04-08T19:30:00",
+      "name": "Игнатьева Анна Васильевна (Врач-психиатр участковый)",
+      "nearestDate": "2024-03-26T19:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "7f0ad9cd-87a9-11ec-aa55-00e04cbd5903",
+      "lastDate": "2024-04-05T16:00:00",
+      "name": "Овчинникова Любовь Владимировна (Врач-психиатр участковый)",
+      "nearestDate": "2024-04-04T10:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 20,
+      "freeTicketCount": 20,
+      "id": "9cdc6b4c-4d64-11ee-bba7-00155d82c109",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Паюсова Маргарита Витальевна (Врач-психиатр участковый)",
+      "nearestDate": "2024-03-26T16:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 20,
+      "freeTicketCount": 20,
+      "id": "e7580ae8-0388-11ee-bb9f-00155d82c109",
+      "lastDate": "2024-04-08T11:30:00",
+      "name": "Ефимов Денис (Врач-психиатр участковый)",
+      "nearestDate": "2024-03-26T11:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 18,
+      "freeTicketCount": 18,
+      "id": "7dfdf679-87a9-11ec-aa55-00e04cbd5903",
+      "lastDate": "2024-04-08T09:30:00",
+      "name": "Виткин Александр Михайлович (Врач-психиатр участковый)",
+      "nearestDate": "2024-03-25T20:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "7dfdf66a-87a9-11ec-aa55-00e04cbd5903",
+      "lastDate": null,
+      "name": "Луковская Ольга Николаевна (Врач-психиатр участковый)",
+      "nearestDate": null
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 19,
+      "freeTicketCount": 19,
+      "id": "7dfdf666-87a9-11ec-aa55-00e04cbd5903",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Грачева Ульяна Борисовна (Врач-психиатр участковый)",
+      "nearestDate": "2024-03-26T16:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 19,
+      "freeTicketCount": 19,
+      "id": "7f0ad9ec-87a9-11ec-aa55-00e04cbd5903",
+      "lastDate": "2024-04-08T15:30:00",
+      "name": "Обелевич Борис Геннадьевич (Врач-психиатр участковый)",
+      "nearestDate": "2024-03-26T15:30:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 8,
+      "freeTicketCount": 8,
+      "id": "85347f27-87a9-11ec-aa55-00e04cbd5903",
+      "lastDate": "2024-03-29T10:30:00",
+      "name": "Стукалова Татьяна Александровна (Врач-психиатр участковый)",
+      "nearestDate": "2024-03-26T16:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 21,
+      "freeTicketCount": 21,
+      "id": "b56bd60a-87a9-11ec-aa55-00e04cbd5903",
+      "lastDate": "2024-04-08T13:30:00",
+      "name": "Маняшина Дарья Викторовна (Врач-психиатр участковый)",
+      "nearestDate": "2024-03-25T19:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 20,
+      "freeTicketCount": 20,
+      "id": "caf50b0f-1707-11ed-bb93-00155d82c109",
+      "lastDate": "2024-04-08T17:30:00",
+      "name": "Попович Алина Алексеевна (Врач-психиатр участковый)",
+      "nearestDate": "2024-03-26T17:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 5,
+      "freeTicketCount": 5,
+      "id": "af3dcb2f-87a9-11ec-aa55-00e04cbd5903",
+      "lastDate": "2024-03-29T16:00:00",
+      "name": "Харин Артем Васильевич (Врач-психиатр участковый)",
+      "nearestDate": "2024-03-27T16:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 17,
+      "freeTicketCount": 17,
+      "id": "9d2146bf-87a9-11ec-aa55-00e04cbd5903",
+      "lastDate": "2024-04-08T19:30:00",
+      "name": "Бочкарев Петр Валерьевич (Врач-психиатр участковый)",
+      "nearestDate": "2024-03-26T19:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 18,
+      "freeTicketCount": 18,
+      "id": "85347f2c-87a9-11ec-aa55-00e04cbd5903",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Шрамко Каролина Эдвардовна (Врач-психиатр участковый)",
+      "nearestDate": "2024-03-27T10:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 18,
+      "freeTicketCount": 18,
+      "id": "cdaad3e6-87a9-11ec-aa55-00e04cbd5903",
+      "lastDate": "2024-04-08T19:30:00",
+      "name": "Моргачева Татьяна Витальевна (Врач-психиатр участковый)",
+      "nearestDate": "2024-03-26T19:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 20,
+      "freeTicketCount": 20,
+      "id": "7dfdf662-87a9-11ec-aa55-00e04cbd5903",
+      "lastDate": "2024-04-08T16:30:00",
+      "name": "Громова Елена Александровна (Врач-психиатр участковый)",
+      "nearestDate": "2024-03-26T16:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 3,
+      "freeTicketCount": 3,
+      "id": "7f0ad9dd-87a9-11ec-aa55-00e04cbd5903",
+      "lastDate": "2024-03-28T10:30:00",
+      "name": "Соколова Анна Михайловна (Врач-психиатр участковый)",
+      "nearestDate": "2024-03-26T10:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 18,
+      "freeTicketCount": 18,
+      "id": "7f0ad9d8-87a9-11ec-aa55-00e04cbd5903",
+      "lastDate": "2024-04-08T12:30:00",
+      "name": "Дунаевская Татьяна Васильевна (Врач-психиатр участковый)",
+      "nearestDate": "2024-03-25T18:00:00"
+    },
+    {
+      "ariaNumber": null,
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 0,
+      "freeTicketCount": 0,
+      "id": "7f0ad9df-87a9-11ec-aa55-00e04cbd5903",
+      "lastDate": null,
+      "name": "Новикова Дарья Андреевна (Врач-психиатр участковый)",
+      "nearestDate": null
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

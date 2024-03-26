@@ -1,0 +1,63 @@
+{
+  "result": [
+    {
+      "ariaNumber": "33 уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 9,
+      "freeTicketCount": 9,
+      "id": "933",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Кузнецов Иракли Владимирович",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "ВОП Хармса",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 5,
+      "freeTicketCount": 19,
+      "id": "1378",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Орлова Анна Сергеевна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "32 уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 2,
+      "freeTicketCount": 2,
+      "id": "1504",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Носик Наталья Александровна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "35 уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 1,
+      "freeTicketCount": 106,
+      "id": "1670",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Бутусова Татьяна Александровна",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "35 уч",
+      "ariaType": null,
+      "comment": null,
+      "freeParticipantCount": 15,
+      "freeTicketCount": 15,
+      "id": "1770",
+      "lastDate": "2024-04-08T00:00:00",
+      "name": "Акиньшина Ирина Константиновна",
+      "nearestDate": "2024-03-25T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

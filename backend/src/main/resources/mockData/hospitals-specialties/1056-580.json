@@ -1,0 +1,19 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "Кабинет 267 на 2 этаже",
+      "freeParticipantCount": 120,
+      "freeTicketCount": 120,
+      "id": "81880.580",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Флюорографический кабинет",
+      "nearestDate": "2024-04-02T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}

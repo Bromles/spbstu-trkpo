@@ -1,0 +1,96 @@
+{
+  "result": [
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 48,
+      "freeTicketCount": 48,
+      "id": "22",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Васильев Н.Ю.  ДЕТИ",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 54,
+      "freeTicketCount": 54,
+      "id": "20",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Васильев Н.Ю. ОТ 18 И СТАРШЕ",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 55,
+      "freeTicketCount": 55,
+      "id": "23",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Донецков Н. В. ДЕТИ",
+      "nearestDate": "2024-03-26T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 47,
+      "freeTicketCount": 47,
+      "id": "21",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Донецков Н.В. от 18 и старше",
+      "nearestDate": "2024-03-28T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 56,
+      "freeTicketCount": 56,
+      "id": "28",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Мокаева И.Б. ДЕТИ",
+      "nearestDate": "2024-03-25T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 58,
+      "freeTicketCount": 58,
+      "id": "29",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "Мокаева И.Б. от 18 и старше",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 28,
+      "freeTicketCount": 28,
+      "id": "12",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "РАДЧЕНКО С.И. ДЕТИ",
+      "nearestDate": "2024-03-27T00:00:00"
+    },
+    {
+      "ariaNumber": "",
+      "ariaType": null,
+      "comment": "",
+      "freeParticipantCount": 77,
+      "freeTicketCount": 77,
+      "id": "14",
+      "lastDate": "2024-04-05T00:00:00",
+      "name": "РАДЧЕНКО С.И. ОТ 18 И СТАРШЕ",
+      "nearestDate": "2024-03-28T00:00:00"
+    }
+  ],
+  "success": true,
+  "errorCode": 0,
+  "message": null,
+  "stackTrace": null
+}
