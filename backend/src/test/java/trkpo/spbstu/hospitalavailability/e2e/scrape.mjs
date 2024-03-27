@@ -44,21 +44,23 @@ if (hospitals.result) {
         );
 
         if (specialties.result) {
-          for (const specialty of specialties.result) {
-            const doctorsRes = await fetch(
-              `${baseUrl}/schedule/lpu/${hospital.id}/speciality/${specialty.id}/doctors`
-            );
+          await Promise.allSettled(
+            specialties.result.map(async (specialty) => {
+              const doctorsRes = await fetch(
+                `${baseUrl}/schedule/lpu/${hospital.id}/speciality/${specialty.id}/doctors`
+              );
 
-            doctorsRes
-              .json()
-              .then(async (doctors) => {
-                await fs.writeFile(
-                  `${dirName}/hospitals-specialties/${hospital.id}-${specialty.id}.json`,
-                  JSON.stringify(doctors, null, 2)
-                );
-              })
-              .catch(() => undefined);
-          }
+              doctorsRes
+                .json()
+                .then(async (doctors) => {
+                  await fs.writeFile(
+                    `${dirName}/hospitals-specialties/${hospital.id}-${specialty.id}.json`,
+                    JSON.stringify(doctors, null, 2)
+                  );
+                })
+                .catch(() => undefined);
+            })
+          );
         }
       })
       .catch(() => undefined);
